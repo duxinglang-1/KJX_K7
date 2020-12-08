@@ -1,0 +1,339 @@
+Image: ..\..\..\plutommi\CUSTOMER\IMAGES\PLUTO\MAINLCD\CALL\CSK\H_FREE.BMP
+  Format: BMP (Microsoft Windows bitmap image)
+  Geometry: 20x20
+  Class: PseudoClass
+  Type: Palette
+  Endianess: Undefined
+  Colorspace: RGB
+  Channel depth:
+    Red: 8-bits
+    Green: 8-bits
+    Blue: 8-bits
+  Channel statistics:
+    Red:
+      Min: 0 (0)
+      Max: 255 (1)
+      Mean: 15.37 (0.0602745)
+      Standard deviation: 49.6973 (0.194891)
+    Green:
+      Min: 0 (0)
+      Max: 255 (1)
+      Mean: 14.7425 (0.0578137)
+      Standard deviation: 48.2702 (0.189295)
+    Blue:
+      Min: 0 (0)
+      Max: 255 (1)
+      Mean: 15.37 (0.0602745)
+      Standard deviation: 49.6996 (0.194901)
+  Colors: 256
+         0: (255,  0,255)	fuchsia
+         1: (255,255,255)	white
+         2: (168,168,169)	#A8A8A9
+         3: (  0,  0,  0)	black
+         4: (206,207,207)	#CECFCF
+         5: (188,189,189)	#BCBDBD
+         6: (188,189,188)	#BCBDBC
+         7: (168,169,168)	#A8A9A8
+         8: (148,149,148)	#949594
+         9: (221,221,220)	#DDDDDC
+        10: (169,169,168)	#A9A9A8
+        11: (129,128,128)	#818080
+        12: (232,232,232)	grey91
+        13: (231,231,231)	#E7E7E7
+        14: (222,222,222)	grey87
+        15: (221,221,221)	#DDDDDD
+        16: (220,220,220)	gainsboro
+        17: (208,208,208)	#D0D0D0
+        18: (207,207,207)	grey81
+        19: (189,189,189)	grey74
+        20: (188,188,188)	#BCBCBC
+        21: (169,169,169)	DarkGray
+        22: (168,168,168)	grey66
+        23: (166,166,166)	grey65
+        24: (148,148,148)	grey58
+        25: (145,145,145)	grey57
+        26: (129,129,129)	#818181
+        27: (127,127,127)	grey50
+        28: (114,114,114)	#727272
+        29: (113,113,113)	#717171
+        30: (106,106,106)	#6A6A6A
+        31: (102,102,102)	grey40
+        32: ( 92, 92, 92)	grey36
+        33: ( 89, 89, 89)	grey35
+        34: ( 85, 85, 85)	#555555
+        35: ( 79, 79, 79)	grey31
+        36: ( 73, 73, 73)	#494949
+        37: ( 65, 65, 65)	#414141
+        38: ( 60, 60, 60)	#3C3C3C
+        39: ( 54, 54, 54)	grey21
+        40: ( 51, 51, 51)	grey20
+        41: (  0,  0,  0)	black
+        42: (  0,  0,  0)	black
+        43: (  0,  0,  0)	black
+        44: (  0,  0,  0)	black
+        45: (  0,  0,  0)	black
+        46: (  0,  0,  0)	black
+        47: (  0,  0,  0)	black
+        48: (  0,  0,  0)	black
+        49: (  0,  0,  0)	black
+        50: (  0,  0,  0)	black
+        51: (  0,  0,  0)	black
+        52: (  0,  0,  0)	black
+        53: (  0,  0,  0)	black
+        54: (  0,  0,  0)	black
+        55: (  0,  0,  0)	black
+        56: (  0,  0,  0)	black
+        57: (  0,  0,  0)	black
+        58: (  0,  0,  0)	black
+        59: (  0,  0,  0)	black
+        60: (  0,  0,  0)	black
+        61: (  0,  0,  0)	black
+        62: (  0,  0,  0)	black
+        63: (  0,  0,  0)	black
+        64: (  0,  0,  0)	black
+        65: (  0,  0,  0)	black
+        66: (  0,  0,  0)	black
+        67: (  0,  0,  0)	black
+        68: (  0,  0,  0)	black
+        69: (  0,  0,  0)	black
+        70: (  0,  0,  0)	black
+        71: (  0,  0,  0)	black
+        72: (  0,  0,  0)	black
+        73: (  0,  0,  0)	black
+        74: (  0,  0,  0)	black
+        75: (  0,  0,  0)	black
+        76: (  0,  0,  0)	black
+        77: (  0,  0,  0)	black
+        78: (  0,  0,  0)	black
+        79: (  0,  0,  0)	black
+        80: (  0,  0,  0)	black
+        81: (  0,  0,  0)	black
+        82: (  0,  0,  0)	black
+        83: (  0,  0,  0)	black
+        84: (  0,  0,  0)	black
+        85: (  0,  0,  0)	black
+        86: (  0,  0,  0)	black
+        87: (  0,  0,  0)	black
+        88: (  0,  0,  0)	black
+        89: (  0,  0,  0)	black
+        90: (  0,  0,  0)	black
+        91: (  0,  0,  0)	black
+        92: (  0,  0,  0)	black
+        93: (  0,  0,  0)	black
+        94: (  0,  0,  0)	black
+        95: (  0,  0,  0)	black
+        96: (  0,  0,  0)	black
+        97: (  0,  0,  0)	black
+        98: (  0,  0,  0)	black
+        99: (  0,  0,  0)	black
+       100: (  0,  0,  0)	black
+       101: (  0,  0,  0)	black
+       102: (  0,  0,  0)	black
+       103: (  0,  0,  0)	black
+       104: (  0,  0,  0)	black
+       105: (  0,  0,  0)	black
+       106: (  0,  0,  0)	black
+       107: (  0,  0,  0)	black
+       108: (  0,  0,  0)	black
+       109: (  0,  0,  0)	black
+       110: (  0,  0,  0)	black
+       111: (  0,  0,  0)	black
+       112: (  0,  0,  0)	black
+       113: (  0,  0,  0)	black
+       114: (  0,  0,  0)	black
+       115: (  0,  0,  0)	black
+       116: (  0,  0,  0)	black
+       117: (  0,  0,  0)	black
+       118: (  0,  0,  0)	black
+       119: (  0,  0,  0)	black
+       120: (  0,  0,  0)	black
+       121: (  0,  0,  0)	black
+       122: (  0,  0,  0)	black
+       123: (  0,  0,  0)	black
+       124: (  0,  0,  0)	black
+       125: (  0,  0,  0)	black
+       126: (  0,  0,  0)	black
+       127: (  0,  0,  0)	black
+       128: (  0,  0,  0)	black
+       129: (  0,  0,  0)	black
+       130: (  0,  0,  0)	black
+       131: (  0,  0,  0)	black
+       132: (  0,  0,  0)	black
+       133: (  0,  0,  0)	black
+       134: (  0,  0,  0)	black
+       135: (  0,  0,  0)	black
+       136: (  0,  0,  0)	black
+       137: (  0,  0,  0)	black
+       138: (  0,  0,  0)	black
+       139: (  0,  0,  0)	black
+       140: (  0,  0,  0)	black
+       141: (  0,  0,  0)	black
+       142: (  0,  0,  0)	black
+       143: (  0,  0,  0)	black
+       144: (  0,  0,  0)	black
+       145: (  0,  0,  0)	black
+       146: (  0,  0,  0)	black
+       147: (  0,  0,  0)	black
+       148: (  0,  0,  0)	black
+       149: (  0,  0,  0)	black
+       150: (  0,  0,  0)	black
+       151: (  0,  0,  0)	black
+       152: (  0,  0,  0)	black
+       153: (  0,  0,  0)	black
+       154: (  0,  0,  0)	black
+       155: (  0,  0,  0)	black
+       156: (  0,  0,  0)	black
+       157: (  0,  0,  0)	black
+       158: (  0,  0,  0)	black
+       159: (  0,  0,  0)	black
+       160: (  0,  0,  0)	black
+       161: (  0,  0,  0)	black
+       162: (  0,  0,  0)	black
+       163: (  0,  0,  0)	black
+       164: (  0,  0,  0)	black
+       165: (  0,  0,  0)	black
+       166: (  0,  0,  0)	black
+       167: (  0,  0,  0)	black
+       168: (  0,  0,  0)	black
+       169: (  0,  0,  0)	black
+       170: (  0,  0,  0)	black
+       171: (  0,  0,  0)	black
+       172: (  0,  0,  0)	black
+       173: (  0,  0,  0)	black
+       174: (  0,  0,  0)	black
+       175: (  0,  0,  0)	black
+       176: (  0,  0,  0)	black
+       177: (  0,  0,  0)	black
+       178: (  0,  0,  0)	black
+       179: (  0,  0,  0)	black
+       180: (  0,  0,  0)	black
+       181: (  0,  0,  0)	black
+       182: (  0,  0,  0)	black
+       183: (  0,  0,  0)	black
+       184: (  0,  0,  0)	black
+       185: (  0,  0,  0)	black
+       186: (  0,  0,  0)	black
+       187: (  0,  0,  0)	black
+       188: (  0,  0,  0)	black
+       189: (  0,  0,  0)	black
+       190: (  0,  0,  0)	black
+       191: (  0,  0,  0)	black
+       192: (  0,  0,  0)	black
+       193: (  0,  0,  0)	black
+       194: (  0,  0,  0)	black
+       195: (  0,  0,  0)	black
+       196: (  0,  0,  0)	black
+       197: (  0,  0,  0)	black
+       198: (  0,  0,  0)	black
+       199: (  0,  0,  0)	black
+       200: (  0,  0,  0)	black
+       201: (  0,  0,  0)	black
+       202: (  0,  0,  0)	black
+       203: (  0,  0,  0)	black
+       204: (  0,  0,  0)	black
+       205: (  0,  0,  0)	black
+       206: (  0,  0,  0)	black
+       207: (  0,  0,  0)	black
+       208: (  0,  0,  0)	black
+       209: (  0,  0,  0)	black
+       210: (  0,  0,  0)	black
+       211: (  0,  0,  0)	black
+       212: (  0,  0,  0)	black
+       213: (  0,  0,  0)	black
+       214: (  0,  0,  0)	black
+       215: (  0,  0,  0)	black
+       216: (  0,  0,  0)	black
+       217: (  0,  0,  0)	black
+       218: (  0,  0,  0)	black
+       219: (  0,  0,  0)	black
+       220: (  0,  0,  0)	black
+       221: (  0,  0,  0)	black
+       222: (  0,  0,  0)	black
+       223: (  0,  0,  0)	black
+       224: (  0,  0,  0)	black
+       225: (  0,  0,  0)	black
+       226: (  0,  0,  0)	black
+       227: (  0,  0,  0)	black
+       228: (  0,  0,  0)	black
+       229: (  0,  0,  0)	black
+       230: (  0,  0,  0)	black
+       231: (  0,  0,  0)	black
+       232: (  0,  0,  0)	black
+       233: (  0,  0,  0)	black
+       234: (  0,  0,  0)	black
+       235: (  0,  0,  0)	black
+       236: (  0,  0,  0)	black
+       237: (  0,  0,  0)	black
+       238: (  0,  0,  0)	black
+       239: (  0,  0,  0)	black
+       240: (  0,  0,  0)	black
+       241: (  0,  0,  0)	black
+       242: (  0,  0,  0)	black
+       243: (  0,  0,  0)	black
+       244: (  0,  0,  0)	black
+       245: (  0,  0,  0)	black
+       246: (  0,  0,  0)	black
+       247: (  0,  0,  0)	black
+       248: (  0,  0,  0)	black
+       249: (  0,  0,  0)	black
+       250: (  0,  0,  0)	black
+       251: (  0,  0,  0)	black
+       252: (  0,  0,  0)	black
+       253: (  0,  0,  0)	black
+       254: (  0,  0,  0)	black
+       255: (  0,  0,  0)	black
+  Histogram:
+         6: ( 51, 51, 51)	grey20
+         6: ( 54, 54, 54)	grey21
+         8: ( 60, 60, 60)	#3C3C3C
+        10: ( 65, 65, 65)	#414141
+        10: ( 73, 73, 73)	#494949
+        22: ( 79, 79, 79)	grey31
+        12: ( 85, 85, 85)	#555555
+         8: ( 89, 89, 89)	grey35
+        12: ( 92, 92, 92)	grey36
+         1: (102,102,102)	grey40
+         1: (106,106,106)	#6A6A6A
+         1: (113,113,113)	#717171
+         1: (114,114,114)	#727272
+         2: (127,127,127)	grey50
+       194: (255,  0,255)	fuchsia
+         1: (129,129,129)	#818181
+         1: (129,128,128)	#818080
+         4: (145,145,145)	grey57
+         3: (148,148,148)	grey58
+         1: (148,149,148)	#949594
+         6: (166,166,166)	grey65
+         1: (169,169,169)	DarkGray
+         1: (169,169,168)	#A9A9A8
+         1: (168,168,169)	#A8A8A9
+         2: (168,169,168)	#A8A9A8
+         1: (168,168,168)	grey66
+         6: (189,189,189)	grey74
+         2: (188,189,188)	#BCBDBC
+         1: (188,189,189)	#BCBDBD
+         8: (188,188,188)	#BCBCBC
+         5: (206,207,207)	#CECFCF
+         5: (207,207,207)	grey81
+         9: (208,208,208)	#D0D0D0
+         6: (221,221,221)	#DDDDDD
+         4: (221,221,220)	#DDDDDC
+         9: (220,220,220)	gainsboro
+         1: (222,222,222)	grey87
+        19: (231,231,231)	#E7E7E7
+         1: (232,232,232)	grey91
+         8: (255,255,255)	white
+  Rendering-intent: Undefined
+  Units: Undefined
+  Filesize: 1kb
+  Interlace: None
+  Background Color: white
+  Border Color: #DFDFDF
+  Matte Color: grey74
+  Dispose: Undefined
+  Iterations: 0
+  Compression: Undefined
+  Orientation: Undefined
+  Signature: 067802f60f7b8638e25f6e7852c26d586505a3ca5aea34df07049c9ab670047b
+  Tainted: False
+  Version: ImageMagick 6.2.3 06/08/05 Q16 http://www.imagemagick.org

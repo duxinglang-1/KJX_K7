@@ -1,0 +1,22 @@
+[APP NAME] = SRV_BOOTUP
+[SCOPE] = PLUTO,COSMOS
+[MODULE] = MOD_MMI_COMMON_APP
+
+#start trace
+TRC_MSG(TRC_SRV_BOOTUP_POWER_ON_IND,    "[Bootup] srv_bootup_power_on_ind_hdlr(): mode = %d, is_exception = %d")
+TRC_MSG(TRC_SRV_BOOTUP_EMIT_EARLY_INIT, "[Bootup] srv_bootup_emit_early_init_event()")
+TRC_MSG(TRC_SRV_BOOTUP_EMIT_NORMAL_INIT, "[Bootup] srv_bootup_emit_normal_init_event()")
+TRC_MSG(TRC_SRV_BOOTUP_EMIT_BEFORE_IDLE, "[Bootup] srv_bootup_emit_before_idle_event()")
+TRC_MSG(TRC_SRV_BOOTUP_COMPLETED,       "[Bootup] srv_bootup_notify_completed()")
+TRC_MSG(TRC_SRV_BOOTUP_INIT_SIM_MODULE, "[Bootup] srv_bootup_init_sim_module(completed_callback = 0x%x)")
+TRC_MSG(TRC_SRV_BOOTUP_QUERY_DUALSIM_RESULT, "[Bootup] SIM present: SIM1: %d, SIM2: %d")    TRC_MSG(TRC_SRV_BOOTUP_SIM_IS_INSERTED, "[Bootup] srv_bootup_sim_is_inserted(%Mmmi_sim_enum) return %d")
+TRC_MSG(TRC_SRV_BOOTUP_BOOT_PROTOCOL,   "[Bootup] srv_bootup_boot_protocol(mode = 0x%x)")
+TRC_MSG(TRC_SRV_BOOTUP_PROTOCOL_L4_RESPONSE, "[Bootup] srv_bootup_protocol_l4_response_hdlr(sim = 0x%x) : still waiting = 0x%x")
+TRC_MSG(TRC_SRV_BOOTUP_QUERY_SETTING,   "[Bootup] srv_bootup_protocol_get_query_setting() return %d")
+TRC_MSG(TRC_SRV_BOOTUP_VERIFY_PHONE_LOCK, "[Bootup] srv_bootup_verify_phone_lock(cb = 0x%x)")
+TRC_MSG(TRC_SRV_BOOTUP_VERIFY,          "[Bootup] srv_bootup_verify(sim = %Mmmi_sim_enum, cb = 0x%x): type = %d")
+TRC_MSG(TRC_SRV_BOOTUP_VERIFY_UBCHV,    "[Bootup] srv_bootup_verify_ubchv(sim = %Mmmi_sim_enum, cb = 0x%x)")
+TRC_MSG(TRC_SRV_BOOTUP_NOTIFY_SIM_STATUS, "[Bootup] srv_bootup_notify_sim_status(sim = %Mmmi_sim_enum, fatal_error = %d): emit event")
+TRC_MSG(TRC_SRV_BOOTUP_NOTIFY_VERIFY_RESULT, "[Bootup] srv_bootup_notify_verify_result(): sim = 0x%x, type = %d, suc = %d, fatal = %d, remain = %d")
+TRC_MSG(TRC_SRV_BOOTUP_CANCEL_VERIFICATION,  "[Bootup] srv_bootup_cancel_verification(sim = %Mmmi_sim_enum, cb = 0x%x): type = %d")
+TRC_MSG(TRC_SRV_BOOTUP_CANCEL_VERI_CALLBACK, "[Bootup] srv_bootup_cv_complete(): sim = %Mmmi_sim_enum, type = %d, suc = %d. Callback 0x%x")

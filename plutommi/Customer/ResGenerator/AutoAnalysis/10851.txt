@@ -1,0 +1,60 @@
+Image: ..\..\..\plutommi\CUSTOMER\IMAGES\PLUTO\MAINLCD\DLAGENT\PROGRESS_FULL.9SLICE.PNG
+  Format: PNG (Portable Network Graphics)
+  Geometry: 3x18
+  Class: DirectClass
+  Type: Palette
+  Endianess: Undefined
+  Colorspace: RGB
+  Channel depth:
+    Red: 1-bits
+    Green: 8-bits
+    Blue: 8-bits
+  Channel statistics:
+    Red:
+      Min: 255 (1)
+      Max: 255 (1)
+      Mean: 255 (1)
+      Standard deviation: 0 (0)
+    Green:
+      Min: 167 (0.654902)
+      Max: 255 (1)
+      Mean: 239.481 (0.939143)
+      Standard deviation: 25.2936 (0.0991907)
+    Blue:
+      Min: 5 (0.0196078)
+      Max: 255 (1)
+      Mean: 192.222 (0.753813)
+      Standard deviation: 97.6454 (0.382923)
+  Colors: 14
+  Histogram:
+         1: (255,167,  8)	#FFA708
+         1: (255,175, 19)	#FFAF13
+         1: (255,184, 32)	#FFB820
+         1: (255,199,  5)	#FFC705
+         1: (255,202, 12)	#FFCA0C
+         1: (255,205, 22)	#FFCD16
+         1: (255,193, 46)	#FFC12E
+         1: (255,202, 60)	#FFCA3C
+         2: (255,210, 37)	#FFD225
+         1: (255,215, 54)	#FFD736
+         2: (255,214, 67)	#FFD643
+         1: (255,218, 72)	#FFDA48
+         2: (255,217, 76)	#FFD94C
+        38: (255,255,255)	white
+  Rendering-intent: Undefined
+  Resolution: 72x72
+  Units: Undefined
+  Filesize: 165
+  Interlace: None
+  Background Color: white
+  Border Color: #DFDFDF
+  Matte Color: grey74
+  Page geometry: 3x18+0+0
+  Dispose: Undefined
+  Iterations: 0
+  Compression: Zip
+  Orientation: Undefined
+  Signature: ce3b6b23f59cbf143954481bfa625bed657dbc1617a6cc30f6b9612bc8d64767
+  Software: Adobe ImageReady
+  Tainted: False
+  Version: ImageMagick 6.2.3 06/08/05 Q16 http://www.imagemagick.org

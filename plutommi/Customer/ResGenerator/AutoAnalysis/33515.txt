@@ -1,0 +1,41 @@
+Image: ..\..\..\plutommi\CUSTOMER\IMAGES\PLUTO\MAINLCD\CALL\CALL_SMALL.BMP
+  Format: BMP (Microsoft Windows bitmap image)
+  Geometry: 6x6
+  Class: DirectClass
+  Type: Grayscale
+  Endianess: Undefined
+  Colorspace: Gray
+  Channel depth:
+    Gray: 8-bits
+  Channel statistics:
+    Gray:
+      Min: 0 (0)
+      Max: 255 (1)
+      Mean: 84.0556 (0.32963)
+      Standard deviation: 103.279 (0.405017)
+  Colors: 9
+  Histogram:
+        16: (  0,  0,  0)	black
+         2: (  8,  8,  8)	grey3
+         2: ( 16, 16, 16)	#101010
+         2: ( 57, 57, 57)	#393939
+         2: ( 74, 74, 74)	grey29
+         2: (198,198,198)	#C6C6C6
+         4: (214,214,214)	grey84
+         2: (222,222,222)	grey87
+         4: (255,255,255)	white
+  Rendering-intent: Undefined
+  Resolution: 28.34x28.34
+  Units: Undefined
+  Filesize: 128
+  Interlace: None
+  Background Color: white
+  Border Color: #DFDFDF
+  Matte Color: grey74
+  Dispose: Undefined
+  Iterations: 0
+  Compression: Undefined
+  Orientation: Undefined
+  Signature: c5e30bd683c5313cbe2bf846bc1ee1d7180e59bbd523137ccd16ff2e36a6d20a
+  Tainted: False
+  Version: ImageMagick 6.2.3 06/08/05 Q16 http://www.imagemagick.org

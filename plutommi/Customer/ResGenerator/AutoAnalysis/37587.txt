@@ -1,0 +1,108 @@
+Image: ..\..\..\plutommi\CUSTOMER\IMAGES\PLUTO\MAINLCD\WORLDCLOCK\MAP01.GIF
+  Format: GIF (CompuServe graphics interchange format)
+  Geometry: 240x143
+  Class: PseudoClass
+  Type: PaletteMatte
+  Endianess: Undefined
+  Colorspace: RGB
+  Channel depth:
+    Red: 8-bits
+    Green: 8-bits
+    Blue: 1-bits
+    Opacity: 1-bits
+  Channel statistics:
+    Red:
+      Min: 0 (0)
+      Max: 60 (0.235294)
+      Mean: 16.6682 (0.0653654)
+      Standard deviation: 25.5419 (0.100164)
+    Green:
+      Min: 0 (0)
+      Max: 186 (0.729412)
+      Mean: 51.7682 (0.203012)
+      Standard deviation: 79.2186 (0.310661)
+    Blue:
+      Min: 0 (0)
+      Max: 0 (0)
+      Mean: 0 (0)
+      Standard deviation: 0 (0)
+    Opacity:
+      Min: 0 (0)
+      Max: 0 (0)
+      Mean: 0 (0)
+      Standard deviation: 0 (0)
+  Colors: 32
+         0: (255,  0,255,  0)	fuchsia
+         1: (255,255,255,  0)	white
+         2: (  0,  1,  0,  0)	#00010000
+         3: (  1,  4,  0,  0)	#01040000
+         4: (  2,  7,  0,  0)	#02070000
+         5: ( 60,186,  0,  0)	#3CBA0000
+         6: ( 59,184,  0,  0)	#3BB80000
+         7: ( 59,182,  0,  0)	#3BB60000
+         8: ( 58,179,  0,  0)	#3AB30000
+         9: ( 56,175,  0,  0)	#38AF0000
+        10: ( 55,171,  0,  0)	#37AB0000
+        11: ( 55,169,  0,  0)	#37A90000
+        12: ( 52,163,  0,  0)	#34A30000
+        13: ( 51,159,  0,  0)	#339F0000
+        14: ( 50,155,  0,  0)	#329B0000
+        15: ( 48,149,  0,  0)	#30950000
+        16: ( 46,144,  0,  0)	#2E900000
+        17: ( 44,138,  0,  0)	#2C8A0000
+        18: ( 42,131,  0,  0)	#2A830000
+        19: ( 40,125,  0,  0)	#287D0000
+        20: ( 39,120,  0,  0)	#27780000
+        21: (  5, 15,  0,  0)	#050F0000
+        22: (  4, 12,  0,  0)	#040C0000
+        23: (  3,  9,  0,  0)	#03090000
+        24: (  2,  6,  0,  0)	#02060000
+        25: (  1,  3,  0,  0)	#01030000
+        26: (  3,  8,  0,  0)	#03080000
+        27: (  2,  5,  0,  0)	#02050000
+        28: (  1,  2,  0,  0)	#01020000
+        29: (  0,  0,  0,  0)	black
+        30: (255,255,255,  0)	white
+        31: (  0,  0,  0,  0)	black
+  Histogram:
+      1355: (  0,  1,  0,  0)	#00010000
+     22567: (  0,  0,  0,  0)	black
+         3: (  1,  2,  0,  0)	#01020000
+         2: (  1,  3,  0,  0)	#01030000
+         4: (  1,  4,  0,  0)	#01040000
+         1: (  2,  5,  0,  0)	#02050000
+         1: (  2,  7,  0,  0)	#02070000
+         1: (  2,  6,  0,  0)	#02060000
+         2: (  4, 12,  0,  0)	#040C0000
+         2: (  5, 15,  0,  0)	#050F0000
+       214: ( 39,120,  0,  0)	#27780000
+       264: ( 40,125,  0,  0)	#287D0000
+       393: ( 42,131,  0,  0)	#2A830000
+       383: ( 44,138,  0,  0)	#2C8A0000
+       328: ( 46,144,  0,  0)	#2E900000
+       346: ( 48,149,  0,  0)	#30950000
+       370: ( 50,155,  0,  0)	#329B0000
+       127: ( 51,159,  0,  0)	#339F0000
+       500: ( 52,163,  0,  0)	#34A30000
+       613: ( 55,169,  0,  0)	#37A90000
+       404: ( 55,171,  0,  0)	#37AB0000
+       554: ( 56,175,  0,  0)	#38AF0000
+       882: ( 58,179,  0,  0)	#3AB30000
+       662: ( 59,182,  0,  0)	#3BB60000
+       611: ( 59,184,  0,  0)	#3BB80000
+      3731: ( 60,186,  0,  0)	#3CBA0000
+  Rendering-intent: Undefined
+  Resolution: 72x72
+  Units: Undefined
+  Filesize: 2kb
+  Interlace: None
+  Background Color: fuchsia
+  Border Color: #DFDFDF00
+  Matte Color: grey74
+  Page geometry: 240x143+0+0
+  Dispose: Undefined
+  Compression: LZW
+  Orientation: Undefined
+  Signature: d7c56685d2f2758990576dd65a422c0d3291210b3465675e617a7205a94fee5a
+  Tainted: False
+  Version: ImageMagick 6.2.3 06/08/05 Q16 http://www.imagemagick.org

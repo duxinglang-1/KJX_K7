@@ -1,0 +1,73 @@
+Image: ..\..\..\plutommi\CUSTOMER\IMAGES\PLUTO\MAINLCD\SMS\SUBMENU\SB_BROAD.BMP
+  Format: BMP (Microsoft Windows bitmap image)
+  Geometry: 26x26
+  Class: PseudoClass
+  Type: Palette
+  Endianess: Undefined
+  Colorspace: RGB
+  Channel depth:
+    Red: 8-bits
+    Green: 8-bits
+    Blue: 8-bits
+  Channel statistics:
+    Red:
+      Min: 0 (0)
+      Max: 255 (1)
+      Mean: 4.32692 (0.0169683)
+      Standard deviation: 30.7194 (0.120468)
+    Green:
+      Min: 0 (0)
+      Max: 255 (1)
+      Mean: 3.11834 (0.0122288)
+      Standard deviation: 23.1777 (0.0908931)
+    Blue:
+      Min: 0 (0)
+      Max: 255 (1)
+      Mean: 1.11095 (0.00435665)
+      Standard deviation: 12.8747 (0.0504891)
+  Colors: 15
+         0: (255,  0,  0)	red
+         1: (114,167, 35)	#72A723
+         2: (165,202,106)	#A5CA6A
+         3: (248,184, 35)	#F8B823
+         4: (252,220,145)	#FCDC91
+         5: (235,153,  0)	#EB9900
+         6: (245,197,111)	#F5C56F
+         7: (230,147, 16)	#E69310
+         8: (234,145,  8)	#EA9108
+         9: (220,124, 17)	#DC7C11
+        10: (203,102,  4)	#CB6604
+        11: (192, 88,  6)	#C05806
+        12: ( 77,124, 13)	#4D7C0D
+        13: (255,255,255)	white
+        14: (  0,  0,  0)	black
+  Histogram:
+        28: ( 77,124, 13)	#4D7C0D
+        46: (114,167, 35)	#72A723
+       359: (255,  0,  0)	red
+         5: (192, 88,  6)	#C05806
+         4: (203,102,  4)	#CB6604
+        15: (220,124, 17)	#DC7C11
+         5: (165,202,106)	#A5CA6A
+        22: (234,145,  8)	#EA9108
+        49: (235,153,  0)	#EB9900
+        21: (230,147, 16)	#E69310
+        83: (248,184, 35)	#F8B823
+         4: (245,197,111)	#F5C56F
+        17: (252,220,145)	#FCDC91
+        18: (255,255,255)	white
+  Rendering-intent: Undefined
+  Resolution: 28.34x28.34
+  Units: Undefined
+  Filesize: 532
+  Interlace: None
+  Background Color: white
+  Border Color: #DFDFDF
+  Matte Color: grey74
+  Dispose: Undefined
+  Iterations: 0
+  Compression: Undefined
+  Orientation: Undefined
+  Signature: 2c7053e24b99c7203bb7c0de85941dd4cc7bba42fdd1f955bda0894210a3ba3b
+  Tainted: False
+  Version: ImageMagick 6.2.3 06/08/05 Q16 http://www.imagemagick.org

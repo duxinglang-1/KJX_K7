@@ -1,0 +1,34 @@
+Image: ..\..\..\plutommi\CUSTOMER\IMAGES\PLUTO\MAINLCD\BATTERY\2.BMP
+  Format: BMP (Microsoft Windows bitmap image)
+  Geometry: 16x9
+  Class: DirectClass
+  Type: Bilevel
+  Endianess: Undefined
+  Colorspace: Gray
+  Channel depth:
+    Gray: 1-bits
+  Channel statistics:
+    Gray:
+      Min: 0 (0)
+      Max: 1 (1)
+      Mean: 0.479167 (0.479167)
+      Standard deviation: 0.499566 (0.499566)
+  Colors: 2
+  Histogram:
+        75: (  0,  0,  0)	black
+        69: (255,255,255)	white
+  Rendering-intent: Undefined
+  Resolution: 28.34x28.34
+  Units: Undefined
+  Filesize: 344
+  Interlace: None
+  Background Color: white
+  Border Color: #DFDFDF
+  Matte Color: grey74
+  Dispose: Undefined
+  Iterations: 0
+  Compression: Undefined
+  Orientation: Undefined
+  Signature: 371d4ee0db19440a31ebbbd025db1aab2b880353172414143dd2cf7d9d9e78f2
+  Tainted: False
+  Version: ImageMagick 6.2.3 06/08/05 Q16 http://www.imagemagick.org

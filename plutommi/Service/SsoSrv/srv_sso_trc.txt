@@ -1,0 +1,24 @@
+[APP NAME] = SSO Service
+[SCOPE] = PLUTO, COSMOS
+[MODULE] = MOD_MMI_INET_APP
+
+#start trace
+TRC_MSG(SRV_SSO_INIT,                         "[SRV_SSO][MMI] srv_sso_init: %d")
+TRC_MSG(SRV_SSO_PROCESS_REQUEST_ADD,          "[SRV_SSO][MMI] sso_process_request_add: provider:%x, account:%d, username:%x, password:%x, callback:%x, userdata:%x, type:%d, req_id:%d")
+TRC_MSG(SRV_SSO_PROCESS_REQUEST_INT,          "[SRV_SSO][MMI] sso_process_request_int: provider:%x, type:%d, req_id:%d, done:%d")
+TRC_MSG(SRV_SSO_CANCEL,                       "[SRV_SSO][MMI] srv_sso_cancel: req_id:%d, found:%d")
+TRC_MSG(SRV_SSO_VM_LOAD_LIBRARY,              "[SRV_SSO][MMI] vm_native_load_library: provider:%x, library:%x")
+TRC_MSG(SRV_SSO_VM_FREE_LIBRARY,              "[SRV_SSO][MMI] vm_native_free_library: provider:%x, library:%x")
+TRC_MSG(SRV_SSO_PLUGIN_DISCOVER,              "[SRV_SSO][MMI] sso_plugin_discover: provider:%x")
+TRC_MSG(SRV_SSO_PLUGIN_RESULT_CALLBACK,       "[SRV_SSO][MMI] sso_plugin_result_callback: type:%d, req_id:%d, result:%d, provider:%x, step:%d")
+TRC_MSG(SRV_SSO_PLUGIN_ACCOUNT_CALLBACK,      "[SRV_SSO][MMI] sso_plugin_account_callback: type:%d, req_id:%d, result:%d, provider:%x, account:%x, step:%d")
+TRC_MSG(SRV_SSO_PLUGIN_UPGRADE,               "[SRV_SSO][MMI] sso_plugin_upgrade: provider:%x, fs_ret:%d")
+TRC_MSG(SRV_SSO_PLUGIN_CANCEL_REQ,            "[SRV_SSO][MMI] sso_plugin_cancel_req: type:%d, req_id:%d, reason:%d")
+TRC_MSG(SRV_SSO_UTIL_LOAD_ACCOUNT_FROM_NVRAM, "[SRV_SSO][MMI] sso_util_load_account_from_nvram: nvram_record_id:%d, provider:%x, is_login:%d")
+TRC_MSG(SRV_SSO_MMI_EVENT_HDLR,               "[SRV_SSO][MMI] srv_sso_mmi_event_hdlr: %d")
+TRC_MSG(SRV_SSO_CHECK_UPDATE,                 "[SRV_SSO][MMI] sso_check_update: is_callback:%d, some_failed:%d, some_downloaded:%d")
+TRC_MSG(SRV_SSO_GET_PROVIDER_NAME,            "[SRV_SSO][MMI] srv_sso_get_provider_name: provider:%x, buffer:%x")
+TRC_MSG(SRV_SSO_GET_PROVIDER_SIGNUP_URL,      "[SRV_SSO][MMI] srv_sso_get_provider_signup_url: provider:%x, buffer:%x")
+TRC_MSG(SRV_SSO_GET_ACCOUNTS,                 "[SRV_SSO][MMI] srv_sso_get_accounts: provider:%x, login_state:%d, buffer:%x, buffer_items:%d, r:%d")
+TRC_MSG(SRV_SSO_GET_ACCOUNT_NAME,             "[SRV_SSO][MMI] srv_sso_get_account_name: provider:%x, account:%d, buffer:%x")
+TRC_MSG(SRV_SSO_GET_CREDENTIALS,              "[SRV_SSO][MMI] srv_sso_get_credentials: provider:%x, account:%d, buffer:%x")

@@ -1,0 +1,87 @@
+Image: ..\..\..\plutommi\CUSTOMER\IMAGES\PLUTO\MAINLCD\IDLESCREEN\TECHNO\SMALLCLOCK\0021.BMP
+  Format: BMP (Microsoft Windows bitmap image)
+  Geometry: 4x13
+  Class: PseudoClass
+  Type: Palette
+  Endianess: Undefined
+  Colorspace: RGB
+  Channel depth:
+    Red: 8-bits
+    Green: 8-bits
+    Blue: 8-bits
+  Channel statistics:
+    Red:
+      Min: 0 (0)
+      Max: 255 (1)
+      Mean: 67.9038 (0.26629)
+      Standard deviation: 94.4224 (0.370284)
+    Green:
+      Min: 0 (0)
+      Max: 255 (1)
+      Mean: 63 (0.247059)
+      Standard deviation: 91.1442 (0.357428)
+    Blue:
+      Min: 0 (0)
+      Max: 255 (1)
+      Mean: 67.9615 (0.266516)
+      Standard deviation: 94.4337 (0.370328)
+  Colors: 23
+         0: (255,  0,255)	fuchsia
+         1: (255,255,255)	white
+         2: (  0,  0,  0)	black
+         3: ( 66, 65, 66)	#424142
+         4: ( 97, 96, 97)	#616061
+         5: ( 70, 70, 71)	#464647
+         6: (100,100,101)	#646465
+         7: ( 88, 89, 89)	#585959
+         8: ( 79, 80, 79)	#4F504F
+         9: (248,248,248)	#F8F8F8
+        10: (246,246,246)	#F6F6F6
+        11: (243,243,243)	#F3F3F3
+        12: (242,242,242)	grey95
+        13: (222,222,222)	grey87
+        14: (221,221,221)	#DDDDDD
+        15: (217,217,217)	grey85
+        16: (216,216,216)	#D8D8D8
+        17: ( 93, 93, 93)	#5D5D5D
+        18: ( 89, 89, 89)	grey35
+        19: ( 84, 84, 84)	grey33
+        20: ( 75, 75, 75)	#4B4B4B
+        21: ( 70, 70, 70)	#464646
+        22: (255,255,255)	white
+  Histogram:
+         5: ( 66, 65, 66)	#424142
+         1: ( 70, 70, 70)	#464646
+         1: ( 70, 70, 71)	#464647
+         2: ( 75, 75, 75)	#4B4B4B
+         3: ( 79, 80, 79)	#4F504F
+         1: ( 84, 84, 84)	grey33
+         1: ( 89, 89, 89)	grey35
+         3: ( 88, 89, 89)	#585959
+         2: ( 93, 93, 93)	#5D5D5D
+         1: ( 97, 96, 97)	#616061
+         4: (100,100,101)	#646465
+        20: (255,  0,255)	fuchsia
+         1: (217,217,217)	grey85
+         1: (216,216,216)	#D8D8D8
+         1: (221,221,221)	#DDDDDD
+         1: (222,222,222)	grey87
+         1: (243,243,243)	#F3F3F3
+         1: (242,242,242)	grey95
+         1: (246,246,246)	#F6F6F6
+         1: (248,248,248)	#F8F8F8
+  Rendering-intent: Undefined
+  Resolution: 28.34x28.34
+  Units: Undefined
+  Filesize: 200
+  Interlace: None
+  Background Color: white
+  Border Color: #DFDFDF
+  Matte Color: grey74
+  Dispose: Undefined
+  Iterations: 0
+  Compression: Undefined
+  Orientation: Undefined
+  Signature: 00f9be527c78cdfd24af1a62e3aae6c29eed4f39ae5308277d9c1484b6e88cf6
+  Tainted: False
+  Version: ImageMagick 6.2.3 06/08/05 Q16 http://www.imagemagick.org

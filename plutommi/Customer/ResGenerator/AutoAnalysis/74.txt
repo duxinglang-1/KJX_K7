@@ -1,0 +1,53 @@
+Image: ..\..\..\plutommi\CUSTOMER\IMAGES\PLUTO\MAINLCD\UIELEMENT\SOFTKEY\CALL_CSK.BMP
+  Format: BMP (Microsoft Windows bitmap image)
+  Geometry: 20x20
+  Class: PseudoClass
+  Type: Palette
+  Endianess: Undefined
+  Colorspace: RGB
+  Channel depth:
+    Red: 8-bits
+    Green: 8-bits
+    Blue: 8-bits
+  Channel statistics:
+    Red:
+      Min: 0 (0)
+      Max: 255 (1)
+      Mean: 1.57 (0.00615686)
+      Standard deviation: 17.0131 (0.066718)
+    Green:
+      Min: 0 (0)
+      Max: 219 (0.858824)
+      Mean: 1.2875 (0.00504902)
+      Standard deviation: 15.1243 (0.059311)
+    Blue:
+      Min: 0 (0)
+      Max: 109 (0.427451)
+      Mean: 0.3725 (0.00146078)
+      Standard deviation: 5.62528 (0.0220599)
+  Colors: 5
+         0: (255,  0,  0)	red
+         1: (105,162, 24)	#69A218
+         2: (183,219,109)	#B7DB6D
+         3: ( 85,134, 16)	#558610
+         4: (  0,  0,  0)	black
+  Histogram:
+        40: ( 85,134, 16)	#558610
+        47: (105,162, 24)	#69A218
+       304: (255,  0,  0)	red
+         9: (183,219,109)	#B7DB6D
+  Rendering-intent: Undefined
+  Resolution: 28.34x28.34
+  Units: Undefined
+  Filesize: 316
+  Interlace: None
+  Background Color: white
+  Border Color: #DFDFDF
+  Matte Color: grey74
+  Dispose: Undefined
+  Iterations: 0
+  Compression: Undefined
+  Orientation: Undefined
+  Signature: 0b725081a9cf52a5efba8369b4b7d857c17d694b1b6520233ffe6d4862129a69
+  Tainted: False
+  Version: ImageMagick 6.2.3 06/08/05 Q16 http://www.imagemagick.org

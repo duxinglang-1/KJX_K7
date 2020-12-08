@@ -1,0 +1,34 @@
+Image: ..\..\..\plutommi\CUSTOMER\IMAGES\PLUTO\MAINLCD\CHARGER\CHARGING.BMP
+  Format: BMP (Microsoft Windows bitmap image)
+  Geometry: 16x9
+  Class: DirectClass
+  Type: Bilevel
+  Endianess: Undefined
+  Colorspace: Gray
+  Channel depth:
+    Gray: 1-bits
+  Channel statistics:
+    Gray:
+      Min: 0 (0)
+      Max: 1 (1)
+      Mean: 0.430556 (0.430556)
+      Standard deviation: 0.495154 (0.495154)
+  Colors: 2
+  Histogram:
+        82: (  0,  0,  0)	black
+        62: (255,255,255)	white
+  Rendering-intent: Undefined
+  Resolution: 28.34x28.34
+  Units: Undefined
+  Filesize: 344
+  Interlace: None
+  Background Color: white
+  Border Color: #DFDFDF
+  Matte Color: grey74
+  Dispose: Undefined
+  Iterations: 0
+  Compression: Undefined
+  Orientation: Undefined
+  Signature: 1a045b61ce4cb901d6bd282e96147704a6b4ec17cdbf012d1d7dac264b2b0d29
+  Tainted: False
+  Version: ImageMagick 6.2.3 06/08/05 Q16 http://www.imagemagick.org

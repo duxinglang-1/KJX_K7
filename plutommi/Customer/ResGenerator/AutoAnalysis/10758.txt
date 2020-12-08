@@ -1,0 +1,74 @@
+Image: ..\..\..\plutommi\CUSTOMER\IMAGES\PLUTO\MAINLCD\MMS\SMIL\MMS_RADOWN.BMP
+  Format: BMP (Microsoft Windows bitmap image)
+  Geometry: 11x19
+  Class: PseudoClass
+  Type: Palette
+  Endianess: Undefined
+  Colorspace: RGB
+  Channel depth:
+    Red: 8-bits
+    Green: 8-bits
+    Blue: 8-bits
+  Channel statistics:
+    Red:
+      Min: 0 (0)
+      Max: 255 (1)
+      Mean: 12.6316 (0.0495356)
+      Standard deviation: 47.6522 (0.186871)
+    Green:
+      Min: 0 (0)
+      Max: 255 (1)
+      Mean: 14.89 (0.058392)
+      Standard deviation: 54.5643 (0.213978)
+    Blue:
+      Min: 0 (0)
+      Max: 255 (1)
+      Mean: 16.2919 (0.0638897)
+      Standard deviation: 59.4242 (0.233036)
+  Colors: 16
+         0: (  0,  0,  0)	black
+         1: (113,213,138)	#71D58A
+         2: (205,229,255)	#CDE5FF
+         3: (224,239,255)	#E0EFFF
+         4: ( 41,101,163)	#2965A3
+         5: (204,229,255)	#CCE5FF
+         6: (209,232,255)	#D1E8FF
+         7: (210,232,255)	#D2E8FF
+         8: (215,235,255)	#D7EBFF
+         9: (216,235,255)	#D8EBFF
+        10: (118,155,188)	#769BBC
+        11: (139,174,205)	#8BAECD
+        12: (153,185,215)	#99B9D7
+        13: (159,190,220)	#9FBEDC
+        14: (179,208,236)	#B3D0EC
+        15: (255,255,255)	white
+  Histogram:
+        90: (  0,  0,  0)	black
+        38: ( 41,101,163)	#2965A3
+         1: (118,155,188)	#769BBC
+         1: (139,174,205)	#8BAECD
+         7: (153,185,215)	#99B9D7
+        13: (159,190,220)	#9FBEDC
+         6: (179,208,236)	#B3D0EC
+        36: (204,229,255)	#CCE5FF
+         1: (205,229,255)	#CDE5FF
+         1: (209,232,255)	#D1E8FF
+         1: (210,232,255)	#D2E8FF
+         6: (215,235,255)	#D7EBFF
+         1: (216,235,255)	#D8EBFF
+         7: (224,239,255)	#E0EFFF
+  Rendering-intent: Undefined
+  Resolution: 28.34x28.34
+  Units: Undefined
+  Filesize: 272
+  Interlace: None
+  Background Color: white
+  Border Color: #DFDFDF
+  Matte Color: grey74
+  Dispose: Undefined
+  Iterations: 0
+  Compression: Undefined
+  Orientation: Undefined
+  Signature: 9b0e4b96487b81a337397408cc1779e713b8652ef7e6494b52db2f3ed6fd1b60
+  Tainted: False
+  Version: ImageMagick 6.2.3 06/08/05 Q16 http://www.imagemagick.org

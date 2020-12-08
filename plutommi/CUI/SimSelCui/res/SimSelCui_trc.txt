@@ -1,0 +1,17 @@
+[APP NAME] = CUI_SIM_SEL
+[SCOPE] = PLUTO
+[MODULE] = MOD_MMI_COMMON_APP
+
+#starttrace
+#sim sel cui
+
+#SIM selector
+TRC_MSG(TRC_MMI_SIM_SEL_CREATE, "[SimSel] cui_sim_sel_select_create, target_sim = %d, no_service_sim = %d")
+TRC_MSG(TRC_MMI_SIM_SEL_SET_MODE, "[SimSel] cui_sim_sel_set_mode, target_sim = %d, no_service_sim = %d, emergency = %d")
+TRC_MSG(TRC_MMI_SIM_SEL_SET_HIGHLIGHT_SIM, "[SimSel] cui_sim_sel_set_highlight_sim, index = %d")
+TRC_MSG(TRC_MMI_SIM_SEL_ENTRY_LIST, "[SimSel] cui_sim_sel_entry_list(), display list Screen")
+TRC_MSG(TRC_MMI_SIM_SEL_UPDATE_LIST, "[SimSel] cui_sim_sel_update_list(), update list Screen, sim id = %d")
+TRC_MSG(TRC_MMI_SIM_SEL_ABORT, "[SimSel] cui_sim_sel_abort")
+TRC_MSG(TRC_MMI_SIM_SEL_HIGHLIGHT, "[SimSel] cui_sim_sel_highlight_hdlr, index = %d")
+TRC_MSG(TRC_MMI_SIM_SEL_SELECT, "[SimSel] cui_sim_sel_select_hdlr, index = %d")
+TRC_MSG(TRC_MMI_SIM_SEL_GET_INFO, "[SimSel] cui_sim_sel_get_sim_info, index = %d, target = %d")

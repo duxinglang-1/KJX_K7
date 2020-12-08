@@ -1,0 +1,67 @@
+Image: ..\..\..\plutommi\CUSTOMER\IMAGES\PLUTO\MAINLCD\DIALINGSCREEN\IDLE_LEFT.PNG
+  Format: PNG (Portable Network Graphics)
+  Geometry: 24x84
+  Class: DirectClass
+  Type: PaletteMatte
+  Endianess: Undefined
+  Colorspace: RGB
+  Channel depth:
+    Red: 8-bits
+    Green: 8-bits
+    Blue: 8-bits
+    Opacity: 8-bits
+  Channel statistics:
+    Red:
+      Min: 0 (0)
+      Max: 255 (1)
+      Mean: 159.458 (0.625327)
+      Standard deviation: 111.689 (0.437996)
+    Green:
+      Min: 0 (0)
+      Max: 255 (1)
+      Mean: 165.417 (0.648693)
+      Standard deviation: 109.853 (0.430794)
+    Blue:
+      Min: 0 (0)
+      Max: 255 (1)
+      Mean: 169.375 (0.664216)
+      Standard deviation: 110.893 (0.434874)
+    Opacity:
+      Min: 0 (0)
+      Max: 255 (1)
+      Mean: 146.5 (0.57451)
+      Standard deviation: 116.282 (0.456008)
+  Opacity: (255,255,255,255)	  #FFFFFFFF
+  Colors: 13
+  Histogram:
+        84: ( 41, 41, 41,154)	#2929299A
+        84: ( 41, 41, 41,175)	#292929AF
+        84: (  0,  0,  0,218)	#000000DA
+        84: (  0,  0,  0,235)	#000000EB
+        84: (  0,  0,  0,246)	#000000F6
+        84: (  0,  0,  0,252)	#000000FC
+        84: (  0,  0,  0,254)	#000000FE
+        84: ( 41, 41, 41,197)	#292929C5
+        84: ( 68,154,173,  0)	#449AAD00
+        84: (121,169,215,  0)	#79A9D700
+        84: (200,209,239,  0)	#C8D1EF00
+       504: (255,255,255,  0)	white
+       588: (255,255,255,255)	#FFFFFFFF
+  Rendering-intent: Undefined
+  Gamma: 0.45
+  Resolution: 72x72
+  Units: Undefined
+  Filesize: 595
+  Interlace: None
+  Background Color: white
+  Border Color: #DFDFDF00
+  Matte Color: grey74
+  Page geometry: 24x84+0+0
+  Dispose: Undefined
+  Iterations: 0
+  Compression: Zip
+  Orientation: Undefined
+  Signature: daa3d2967d46ca2bca515b34ce70bccee3edb00f3ae3bfdc50cd57e5fdbcae7f
+  Software: Adobe ImageReady
+  Tainted: False
+  Version: ImageMagick 6.2.3 06/08/05 Q16 http://www.imagemagick.org

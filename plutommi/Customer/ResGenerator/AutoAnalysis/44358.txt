@@ -1,0 +1,125 @@
+Image: ..\..\..\plutommi\CUSTOMER\IMAGES\PLUTO\MAINLCD\SUBMENU\ALARM\SB_OAM.BMP
+  Format: BMP (Microsoft Windows bitmap image)
+  Geometry: 26x26
+  Class: PseudoClass
+  Type: Palette
+  Endianess: Undefined
+  Colorspace: RGB
+  Channel depth:
+    Red: 8-bits
+    Green: 8-bits
+    Blue: 8-bits
+  Channel statistics:
+    Red:
+      Min: 0 (0)
+      Max: 252 (0.988235)
+      Mean: 11.1405 (0.0436884)
+      Standard deviation: 45.7656 (0.179473)
+    Green:
+      Min: 0 (0)
+      Max: 255 (1)
+      Mean: 6.89941 (0.0270565)
+      Standard deviation: 33.7595 (0.13239)
+    Blue:
+      Min: 0 (0)
+      Max: 244 (0.956863)
+      Mean: 6.22337 (0.0244054)
+      Standard deviation: 32.1007 (0.125885)
+  Colors: 41
+         0: (  0,255,114)	#00FF72
+         1: (252, 81, 53)	#FC5135
+         2: (188,170,167)	#BCAAA7
+         3: (223, 58, 35)	#DF3A23
+         4: (206, 33, 15)	#CE210F
+         5: (214, 45, 24)	#D62D18
+         6: (219, 52, 30)	#DB341E
+         7: (188, 66, 51)	#BC4233
+         8: (180,103, 93)	#B4675D
+         9: (180,112,104)	#B47068
+        10: (188,172,170)	#BCACAA
+        11: (187, 17,  4)	#BB1104
+        12: (192, 20,  5)	#C01405
+        13: (198, 24,  7)	#C61807
+        14: (196, 26,  9)	#C41A09
+        15: (202, 27, 10)	#CA1B0A
+        16: (182, 29, 17)	#B61D11
+        17: (190, 44, 30)	#BE2C1E
+        18: (171, 57, 48)	#AB3930
+        19: (171, 75, 67)	#AB4B43
+        20: (177,135,131)	#B18783
+        21: (186,165,163)	#BAA5A3
+        22: (188,176,175)	#BCB0AF
+        23: (191,181,180)	#BFB5B4
+        24: (184, 15,  3)	#B80F03
+        25: (181, 21, 10)	#B5150A
+        26: (158, 34, 25)	#9E2219
+        27: (174,128,125)	#AE807D
+        28: (183,165,164)	#B7A5A4
+        29: (194,190,190)	#C2BEBE
+        30: (244,244,244)	#F4F4F4
+        31: (243,243,243)	#F3F3F3
+        32: (236,236,236)	#ECECEC
+        33: (233,233,233)	#E9E9E9
+        34: (230,230,230)	#E6E6E6
+        35: (221,221,221)	#DDDDDD
+        36: (215,215,215)	#D7D7D7
+        37: (198,198,198)	#C6C6C6
+        38: (106,106,106)	#6A6A6A
+        39: ( 62, 62, 62)	#3E3E3E
+        40: (  0,  0,  0)	black
+  Histogram:
+         4: ( 62, 62, 62)	#3E3E3E
+         7: (106,106,106)	#6A6A6A
+       344: (  0,255,114)	#00FF72
+        56: (158, 34, 25)	#9E2219
+        20: (184, 15,  3)	#B80F03
+         3: (181, 21, 10)	#B5150A
+        16: (187, 17,  4)	#BB1104
+         1: (182, 29, 17)	#B61D11
+         3: (190, 44, 30)	#BE2C1E
+         2: (171, 57, 48)	#AB3930
+         2: (188, 66, 51)	#BC4233
+         6: (171, 75, 67)	#AB4B43
+         3: (180,103, 93)	#B4675D
+         1: (180,112,104)	#B47068
+        12: (192, 20,  5)	#C01405
+        10: (198, 24,  7)	#C61807
+         2: (196, 26,  9)	#C41A09
+         8: (202, 27, 10)	#CA1B0A
+        11: (206, 33, 15)	#CE210F
+         7: (214, 45, 24)	#D62D18
+        14: (219, 52, 30)	#DB341E
+         8: (223, 58, 35)	#DF3A23
+         4: (252, 81, 53)	#FC5135
+         1: (174,128,125)	#AE807D
+         3: (177,135,131)	#B18783
+         3: (183,165,164)	#B7A5A4
+         4: (186,165,163)	#BAA5A3
+         1: (188,170,167)	#BCAAA7
+         3: (188,172,170)	#BCACAA
+         1: (188,176,175)	#BCB0AF
+         3: (191,181,180)	#BFB5B4
+         2: (194,190,190)	#C2BEBE
+         6: (198,198,198)	#C6C6C6
+         4: (215,215,215)	#D7D7D7
+         4: (221,221,221)	#DDDDDD
+         1: (230,230,230)	#E6E6E6
+         8: (233,233,233)	#E9E9E9
+         9: (236,236,236)	#ECECEC
+        10: (243,243,243)	#F3F3F3
+        69: (244,244,244)	#F4F4F4
+  Rendering-intent: Undefined
+  Resolution: 28.34x28.34
+  Units: Undefined
+  Filesize: 948
+  Interlace: None
+  Background Color: white
+  Border Color: #DFDFDF
+  Matte Color: grey74
+  Dispose: Undefined
+  Iterations: 0
+  Compression: Undefined
+  Orientation: Undefined
+  Signature: 52bbed0e635c40190b136195f2fcaef29de51b9531a957ea5ea37fbe6a9476f4
+  Tainted: False
+  Version: ImageMagick 6.2.3 06/08/05 Q16 http://www.imagemagick.org

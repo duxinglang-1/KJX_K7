@@ -1,0 +1,11 @@
+[APP NAME] = SRV_SHUTDOWN
+[SCOPE] = PLUTO,COSMOS
+[MODULE] = MOD_MMI_COMMON_APP
+
+#start trace
+TRC_MSG(TRC_SRV_SHUTDOWN_NORMAL_START,      "[Shutdown] srv_shutdown_normal_start(app = %d): is_running = %d")
+TRC_MSG(TRC_SRV_SHUTDOWN_EXIT_SYSTEM,       "[Shutdown] srv_shutdown_exit_system(app = %d): is_running = %d, already_exit = %d")
+TRC_MSG(TRC_SRV_SHUTDOWN_DEINIT,            "[Shutdown] srv_shutdown_deinit(): is_running = %d. Emit DEINIT & HANDLER_RESET")
+TRC_MSG(TRC_SRV_SHUTDOWN_DEINIT_PROTOCOL,   "[Shutdown] srv_shutdown_deinit_callback(completed_callback = 0x%x)")
+TRC_MSG(TRC_SRV_SHUTDOWN_DEINIT_PROTOCOL_COMPLETED, "[Shutdown] srv_shutdown_deinit_protocol_complete(): Callback 0x%x")
+

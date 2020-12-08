@@ -1,0 +1,71 @@
+Image: ..\..\..\plutommi\CUSTOMER\IMAGES\PLUTO\MAINLCD\SMS\PIC\EMS11.BMP
+  Format: BMP (Microsoft Windows bitmap image)
+  Geometry: 32x32
+  Class: PseudoClass
+  Type: Palette
+  Endianess: Undefined
+  Colorspace: RGB
+  Channel depth:
+    Red: 8-bits
+    Green: 8-bits
+    Blue: 8-bits
+  Channel statistics:
+    Red:
+      Min: 0 (0)
+      Max: 255 (1)
+      Mean: 2.00781 (0.00787377)
+      Standard deviation: 20.7268 (0.0812817)
+    Green:
+      Min: 0 (0)
+      Max: 255 (1)
+      Mean: 1.75195 (0.0068704)
+      Standard deviation: 18.521 (0.0726313)
+    Blue:
+      Min: 0 (0)
+      Max: 255 (1)
+      Mean: 1.96973 (0.00772442)
+      Standard deviation: 20.3236 (0.0797002)
+  Colors: 16
+         0: (255,  0,255)	fuchsia
+         1: ( 54,121,204)	#3679CC
+         2: (136,179,233)	#88B3E9
+         3: (255,223,162)	#FFDFA2
+         4: ( 58, 36,  8)	#3A2408
+         5: ( 89, 56, 14)	#59380E
+         6: (191,150, 98)	#BF9662
+         7: (223,182,130)	#DFB682
+         8: (253,243,231)	#FDF3E7
+         9: (255,255,255)	white
+        10: (  0,  0,  0)	black
+        11: (255,255,255)	white
+        12: (  0,  0,  0)	black
+        13: ( 32, 94,172)	#205EAC
+        14: (  0,  0,  0)	black
+        15: (  0,  0,  0)	black
+  Histogram:
+       207: (  0,  0,  0)	black
+        20: ( 58, 36,  8)	#3A2408
+        61: ( 89, 56, 14)	#59380E
+        40: ( 32, 94,172)	#205EAC
+        99: ( 54,121,204)	#3679CC
+       344: (255,  0,255)	fuchsia
+        24: (191,150, 98)	#BF9662
+        10: (136,179,233)	#88B3E9
+        40: (223,182,130)	#DFB682
+       149: (255,223,162)	#FFDFA2
+         9: (253,243,231)	#FDF3E7
+        21: (255,255,255)	white
+  Rendering-intent: Undefined
+  Units: Undefined
+  Filesize: 630
+  Interlace: None
+  Background Color: white
+  Border Color: #DFDFDF
+  Matte Color: grey74
+  Dispose: Undefined
+  Iterations: 0
+  Compression: Undefined
+  Orientation: Undefined
+  Signature: fa7553abb7281544e22f5188afdd0cff5eccc88f94a009481cd72866286b0b45
+  Tainted: False
+  Version: ImageMagick 6.2.3 06/08/05 Q16 http://www.imagemagick.org

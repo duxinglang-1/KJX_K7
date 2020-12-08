@@ -1,0 +1,72 @@
+55	IMG_NONE	Added by ADD_APPLICATION_IMAGE	../../MMI/Resource/PopulateRes.c	0	0	0	..\\..\\Customer\\Images\\EmptyImage.bmp	0	1	APP name unknown	1	
+1	IMG_GLOBAL_OK	Global Image-Ok	../../MMI/Resource/PopulateRes.c	0	0	0	..\\..\\Customer\\Images\\EmptyImage.bmp	0	1	APP name unknown	1	
+2	IMG_GLOBAL_BACK	Global Image-Back	../../MMI/Resource/PopulateRes.c	0	0	0	..\\..\\Customer\\Images\\EmptyImage.bmp	0	1	APP name unknown	1	
+3	IMG_GLOBAL_YES	Global Image-Yes	../../MMI/Resource/PopulateRes.c	0	0	0	..\\..\\Customer\\Images\\EmptyImage.bmp	0	1	APP name unknown	1	
+4	IMG_GLOBAL_NO	Global Image-No	../../MMI/Resource/PopulateRes.c	0	0	0	..\\..\\Customer\\Images\\EmptyImage.bmp	0	1	APP name unknown	1	
+5	IMG_GLOBAL_OPTIONS	Global Image-Options	../../MMI/Resource/PopulateRes.c	0	0	0	..\\..\\Customer\\Images\\EmptyImage.bmp	0	1	APP name unknown	1	
+51	IMG_GLOBAL_CLEAR	Global Image-Clear	../../MMI/Resource/PopulateRes.c	0	0	0	..\\..\\Customer\\Images\\EmptyImage.bmp	0	1	APP name unknown	1	
+50	IMG_VICON	Status Image	../../MMI/Resource/PopulateRes.c	0	0	0	..\\..\\Customer\\Images\\PLUTO\\MainLCD\\UIElement\\checkbox\\CK_V.bmp	0	1	APP name unknown	1	
+38	IMG_STATUS	Status Image	../../MMI/Resource/PopulateRes.c	0	0	0	..\\..\\Customer\\Images\\PLUTO\\MainLCD\\Alarm\\OA_STATU.bmp	0	1	APP name unknown	1	
+39	IMG_TIME	Time Image	../../MMI/Resource/PopulateRes.c	0	0	0	..\\..\\Customer\\Images\\PLUTO\\MainLCD\\Alarm\\OA_TIME.bmp	0	1	APP name unknown	1	
+40	IMG_REPEAT	Repeat Image	../../MMI/Resource/PopulateRes.c	0	0	0	..\\..\\Customer\\Images\\PLUTO\\MainLCD\\Alarm\\OA_REPT.bmp	0	1	APP name unknown	1	
+41	IMG_CAL	Calendar Image	../../MMI/Resource/PopulateRes.c	0	0	0	..\\..\\Customer\\Images\\PLUTO\\MainLCD\\SubMenu\\Settings\\DateAndTime\\ST_CALEN.bmp	0	1	APP name unknown	1	
+43	IMG_GLOBAL_QUESTION	Question Mark image	../../MMI/Resource/PopulateRes.c	0	0	0	..\\..\\Customer\\Images\\PLUTO\\MainLCD\\Warningpage\\PopUpPage\\PP_QUE.PNG	0	1	APP name unknown	1	
+44	IMG_GLOBAL_SAVE	saved image	../../MMI/Resource/PopulateRes.c	0	0	0	..\\..\\Customer\\Images\\PLUTO\\MainLCD\\Warningpage\\PopUpPage\\PP_SAV.PNG	0	1	APP name unknown	1	
+45	IMG_GLOBAL_DELETED	deleted image	../../MMI/Resource/PopulateRes.c	0	0	0	..\\..\\Customer\\Images\\PLUTO\\MainLCD\\Warningpage\\PopUpPage\\PP_DEL.PNG	0	1	APP name unknown	1	
+42	IMG_GLOBAL_WARNING	warning image	../../MMI/Resource/PopulateRes.c	0	0	0	..\\..\\Customer\\Images\\PLUTO\\MainLCD\\Warningpage\\PopUpPage\\PP_WARN.PNG	0	1	APP name unknown	1	
+47	IMG_GLOBAL_PROGRESS	Progress Image	../../MMI/Resource/PopulateRes.c	0	0	0	..\\..\\Customer\\Images\\PLUTO\\MainLCD\\Warningpage\\PopUpPage\\PP_PRO.PNG	0	1	APP name unknown	1	
+48	IMG_GLOBAL_ERROR	Error Image	../../MMI/Resource/PopulateRes.c	0	0	0	..\\..\\Customer\\Images\\PLUTO\\MainLCD\\Warningpage\\PopUpPage\\PP_ERR.PNG	0	1	APP name unknown	1	
+49	IMG_GLOBAL_INFO	Info Image	../../MMI/Resource/PopulateRes.c	0	0	0	..\\..\\Customer\\Images\\PLUTO\\MainLCD\\Warningpage\\PopUpPage\\PP_INF.PNG	0	1	APP name unknown	1	
+52	IMG_EARPHONE_POPUP_SUBLCD	Sub LCD Image Associated with Ear Phone Plug In Popup.	../../MMI/Resource/PopulateRes.c	0	0	0	..\\..\\Customer\\Images\\PLUTO\\SUBLCD\\Active\\SB_EAR.BMP	0	1	APP name unknown	1	
+72	IMG_GLOBAL_SUCCESS	Success Image	../../MMI/Resource/PopulateRes.c	0	0	0	..\\..\\Customer\\Images\\PLUTO\\MainLCD\\Warningpage\\PopUpPage\\PP_SUC.PNG	0	1	APP name unknown	1	
+73	IMG_GLOBAL_FAIL	Failure Image	../../MMI/Resource/PopulateRes.c	0	0	0	..\\..\\Customer\\Images\\PLUTO\\MainLCD\\Warningpage\\PopUpPage\\PP_FAIL.PNG	0	1	APP name unknown	1	
+46	IMG_GLOBAL_DEFAULT	default image	../../MMI/Resource/PopulateRes.c	0	0	0	..\\..\\Customer\\Images\\Default.bmp	0	1	APP name unknown	1	
+74	IMG_GLOBAL_CALL_CSK	call CSK icon	../../MMI/Resource/PopulateRes.c	0	0	0	..\\..\\Customer\\Images\\PLUTO\\MainLCD\\UIElement\\Softkey\\Call_CSK.bmp	0	1	APP name unknown	1	
+75	IMG_GLOBAL_COMMON_CSK	common CSK icon	../../MMI/Resource/PopulateRes.c	0	0	0	..\\..\\Customer\\Images\\PLUTO\\MainLCD\\UIElement\\Softkey\\Common_CSK.bmp	0	1	APP name unknown	1	
+76	IMG_GLOBAL_DIAL_PAD_CSK	dial pad CSK icon	../../MMI/Resource/PopulateRes.c	0	0	0	..\\..\\Customer\\Images\\PLUTO\\MainLCD\\UIElement\\Softkey\\Dial_Pad_CSK.bmp	0	1	APP name unknown	1	
+77	IMG_GLOBAL_FORWARD_MSG_CSK	forward message CSK icon	../../MMI/Resource/PopulateRes.c	0	0	0	..\\..\\Customer\\Images\\PLUTO\\MainLCD\\UIElement\\Softkey\\Forward_Msg_CSK.bmp	0	1	APP name unknown	1	
+78	IMG_GLOBAL_MARK_CSK	mark CSK icon	../../MMI/Resource/PopulateRes.c	0	0	0	..\\..\\Customer\\Images\\PLUTO\\MainLCD\\UIElement\\Softkey\\Mark_CSK.bmp	0	1	APP name unknown	1	
+79	IMG_GLOBAL_NEXT_CSK	next CSK icon	../../MMI/Resource/PopulateRes.c	0	0	0	..\\..\\Customer\\Images\\PLUTO\\MainLCD\\UIElement\\Softkey\\Next_CSK.bmp	0	1	APP name unknown	1	
+80	IMG_GLOBAL_OPTION_CSK	option CSK icon	../../MMI/Resource/PopulateRes.c	0	0	0	..\\..\\Customer\\Images\\PLUTO\\MainLCD\\UIElement\\Softkey\\Option_CSK.bmp	0	1	APP name unknown	1	
+81	IMG_GLOBAL_REPLY_MSG_CSK	reply message CSK icon	../../MMI/Resource/PopulateRes.c	0	0	0	..\\..\\Customer\\Images\\PLUTO\\MainLCD\\UIElement\\Softkey\\Reply_Msg_CSK.bmp	0	1	APP name unknown	1	
+82	IMG_GLOBAL_SAVE_CSK	save CSK icon	../../MMI/Resource/PopulateRes.c	0	0	0	..\\..\\Customer\\Images\\PLUTO\\MainLCD\\UIElement\\Softkey\\Save_CSK.bmp	0	1	APP name unknown	1	
+83	IMG_GLOBAL_SEARCH_CSK	search CSK icon	../../MMI/Resource/PopulateRes.c	0	0	0	..\\..\\Customer\\Images\\PLUTO\\MainLCD\\UIElement\\Softkey\\SearchWeb_CSK.bmp	0	1	APP name unknown	1	
+84	IMG_GLOBAL_SEND_MSG_CSK	send message CSK icon	../../MMI/Resource/PopulateRes.c	0	0	0	..\\..\\Customer\\Images\\PLUTO\\MainLCD\\UIElement\\Softkey\\Send_Msg_CSK.bmp	0	1	APP name unknown	1	
+85	IMG_GLOBAL_WEB_BROWSER_CSK	web browser CSK icon	../../MMI/Resource/PopulateRes.c	0	0	0	..\\..\\Customer\\Images\\PLUTO\\MainLCD\\UIElement\\Softkey\\Web_Browser_CSK.bmp	0	1	APP name unknown	1	
+86	IMG_GLOBAL_PHB_CSK	phonebook CSK icon	../../MMI/Resource/PopulateRes.c	0	0	0	..\\..\\Customer\\Images\\PLUTO\\MainLCD\\UIElement\\Softkey\\Phonebook_CSK.bmp	0	1	APP name unknown	1	
+87	IMG_GLOBAL_SELECT_CSK	select CSK icon	../../MMI/Resource/PopulateRes.c	0	0	0	..\\..\\Customer\\Images\\PLUTO\\MainLCD\\UIElement\\Softkey\\Select_CSK.bmp	0	1	APP name unknown	1	
+88	IMG_GLOBAL_VIEW_CSK	view CSK icon	../../MMI/Resource/PopulateRes.c	0	0	0	..\\..\\Customer\\Images\\PLUTO\\MainLCD\\UIElement\\Softkey\\View_CSK.bmp	0	1	APP name unknown	1	
+89	IMG_GLOBAL_READ_MSG_CSK	read message CSK icon	../../MMI/Resource/PopulateRes.c	0	0	0	..\\..\\Customer\\Images\\PLUTO\\MainLCD\\UIElement\\Softkey\\Read_Msg_CSK.bmp	0	1	APP name unknown	1	
+90	IMG_GLOBAL_BOOKMARK_CSK	bookmark CSK icon	../../MMI/Resource/PopulateRes.c	0	0	0	..\\..\\Customer\\Images\\PLUTO\\MainLCD\\UIElement\\Softkey\\Bookmark_CSK.bmp	0	1	APP name unknown	1	
+91	IMG_GLOBAL_SIM1	Global sim1 image for Gemini+	../../MMI/Resource/PopulateRes.c	0	0	0	..\\..\\Customer\\Images\\PLUTO\\MainLCD\\UIElement\\SIM\\SIM1.bmp	0	1	APP name unknown	1	
+92	IMG_GLOBAL_SIM2	Global sim2 image for Gemini+	../../MMI/Resource/PopulateRes.c	0	0	0	..\\..\\Customer\\Images\\PLUTO\\MainLCD\\UIElement\\SIM\\SIM2.bmp	0	1	APP name unknown	1	
+95	IMG_GLOBAL_TABBAR_SIM1	Global tabbar sim1 image for Gemini+	../../MMI/Resource/PopulateRes.c	0	0	0	..\\..\\Customer\\Images\\PLUTO\\MainLCD\\UIElement\\SIM\\TAB\\Tab_sim1.bmp	0	1	APP name unknown	1	
+96	IMG_GLOBAL_TABBAR_SIM2	Global tabbar sim2 image for Gemini+	../../MMI/Resource/PopulateRes.c	0	0	0	..\\..\\Customer\\Images\\PLUTO\\MainLCD\\UIElement\\SIM\\TAB\\Tab_sim2.bmp	0	1	APP name unknown	1	
+97	IMG_GLOBAL_TABBAR_SIM3	Global tabbar sim3 image for Gemini+	../../MMI/Resource/PopulateRes.c	0	0	0	..\\..\\Customer\\Images\\PLUTO\\MainLCD\\UIElement\\SIM\\TAB\\Tab_sim3.bmp	0	1	APP name unknown	1	
+98	IMG_GLOBAL_TABBAR_SIM4	Global tabbar sim4 image for Gemini+	../../MMI/Resource/PopulateRes.c	0	0	0	..\\..\\Customer\\Images\\PLUTO\\MainLCD\\UIElement\\SIM\\TAB\\Tab_sim4.bmp	0	1	APP name unknown	1	
+99	IMG_GLOBAL_TOOLBAR_VIDEO_CALL	Video call ToolBar icon	../../MMI/Resource/PopulateRes.c	0	0	0	..\\..\\Customer\\Images\\PLUTO\\MainLCD\\ToolBar\\TB_video_call.png	0	1	APP name unknown	1	
+100	IMG_GLOBAL_TOOLBAR_VIDEO_CALL_DISABLED	Video call ToolBar disabled icon	../../MMI/Resource/PopulateRes.c	0	0	0	..\\..\\Customer\\Images\\PLUTO\\MainLCD\\ToolBar\\TB_video_call_disabled.png	0	1	APP name unknown	1	
+9325	SERVICES_WAP_IMAGE_ID	WAP Menu Item Icon	../Res_MMI/res_SAT.c	0	0	0	..\\..\\Customer\\Images\\PLUTO\\MainLCD\\WAP\\SB_WAP.png	0	1	APP name unknown	1	
+40699	IMG_ID_FMGR_ICON_FILE_TYPE_IMG	image icon	../Res_MMI/res_FileMgrService.c	0	0	0	..\\..\\Customer\\Images\\PLUTO\\MainLCD\\FileManager\\FM_SIIMAGE.bmp	0	1	APP name unknown	1	
+40701	IMG_ID_FMGR_ICON_FILE_TYPE_AUD	audio icon	../Res_MMI/res_FileMgrService.c	0	0	0	..\\..\\Customer\\Images\\PLUTO\\MainLCD\\FileManager\\FM_SIAUDIO.bmp	0	1	APP name unknown	1	
+40704	IMG_ID_FMGR_ICON_FILE_TYPE_VCF	vcf icon	../Res_MMI/res_FileMgrService.c	0	0	0	..\\..\\Customer\\Images\\PLUTO\\MainLCD\\FileManager\\FM_SIVCF.bmp	0	1	APP name unknown	1	
+40705	IMG_ID_FMGR_ICON_FILE_TYPE_VCS	vcs icon	../Res_MMI/res_FileMgrService.c	0	0	0	..\\..\\Customer\\Images\\PLUTO\\MainLCD\\FileManager\\FM_SIVCS.bmp	0	1	APP name unknown	1	
+40714	IMG_ID_FMGR_FILE_TYPE_BMP	bmp large icon	../Res_MMI/res_FileMgrService.c	0	0	0	..\\..\\Customer\\Images\\PLUTO\\MainLCD\\FileManager\\FM_LIIMAGE.gif	0	1	APP name unknown	1	
+40715	IMG_ID_FMGR_FILE_TYPE_JPG	jpg large icon	../Res_MMI/res_FileMgrService.c	0	0	0	..\\..\\Customer\\Images\\PLUTO\\MainLCD\\FileManager\\FM_LIIMAGE.gif	0	1	APP name unknown	1	
+40716	IMG_ID_FMGR_FILE_TYPE_GIF	gif large icon	../Res_MMI/res_FileMgrService.c	0	0	0	..\\..\\Customer\\Images\\PLUTO\\MainLCD\\FileManager\\FM_LIIMAGE.gif	0	1	APP name unknown	1	
+40717	IMG_ID_FMGR_FILE_TYPE_PNG	png large icon	../Res_MMI/res_FileMgrService.c	0	0	0	..\\..\\Customer\\Images\\PLUTO\\MainLCD\\FileManager\\FM_LIIMAGE.gif	0	1	APP name unknown	1	
+40718	IMG_ID_FMGR_FILE_TYPE_WBMP	wbmp large icon	../Res_MMI/res_FileMgrService.c	0	0	0	..\\..\\Customer\\Images\\PLUTO\\MainLCD\\FileManager\\FM_LIIMAGE.gif	0	1	APP name unknown	1	
+40721	IMG_ID_FMGR_FILE_TYPE_EMS	ems large icon	../Res_MMI/res_FileMgrService.c	0	0	0	..\\..\\Customer\\Images\\PLUTO\\MainLCD\\FileManager\\FM_LIIMAGE.gif	0	1	APP name unknown	1	
+40722	IMG_ID_FMGR_FILE_TYPE_ANM	anm large icon	../Res_MMI/res_FileMgrService.c	0	0	0	..\\..\\Customer\\Images\\PLUTO\\MainLCD\\FileManager\\FM_LIIMAGE.gif	0	1	APP name unknown	1	
+40728	IMG_ID_FMGR_FILE_TYPE_DAF	daf large icon	../Res_MMI/res_FileMgrService.c	0	0	0	..\\..\\Customer\\Images\\PLUTO\\MainLCD\\FileManager\\FM_LIAUDIO.gif	0	1	APP name unknown	1	
+40723	IMG_ID_FMGR_FILE_TYPE_IMY	imy large icon	../Res_MMI/res_FileMgrService.c	0	0	0	..\\..\\Customer\\Images\\PLUTO\\MainLCD\\FileManager\\FM_LIAUDIO.gif	0	1	APP name unknown	1	
+40724	IMG_ID_FMGR_FILE_TYPE_MID	midi large icon	../Res_MMI/res_FileMgrService.c	0	0	0	..\\..\\Customer\\Images\\PLUTO\\MainLCD\\FileManager\\FM_LIAUDIO.gif	0	1	APP name unknown	1	
+40725	IMG_ID_FMGR_FILE_TYPE_WAV	wav large icon	../Res_MMI/res_FileMgrService.c	0	0	0	..\\..\\Customer\\Images\\PLUTO\\MainLCD\\FileManager\\FM_LIAUDIO.gif	0	1	APP name unknown	1	
+40726	IMG_ID_FMGR_FILE_TYPE_AMR	amr large icon	../Res_MMI/res_FileMgrService.c	0	0	0	..\\..\\Customer\\Images\\PLUTO\\MainLCD\\FileManager\\FM_LIAUDIO.gif	0	1	APP name unknown	1	
+40727	IMG_ID_FMGR_FILE_TYPE_AAC	aac large icon	../Res_MMI/res_FileMgrService.c	0	0	0	..\\..\\Customer\\Images\\PLUTO\\MainLCD\\FileManager\\FM_LIAUDIO.gif	0	1	APP name unknown	1	
+40730	IMG_ID_FMGR_FILE_TYPE_VM	vm large icon	../Res_MMI/res_FileMgrService.c	0	0	0	..\\..\\Customer\\Images\\PLUTO\\MainLCD\\FileManager\\FM_LIAUDIO.gif	0	1	APP name unknown	1	
+40742	IMG_ID_FMGR_FILE_TYPE_3GP	large icon	../Res_MMI/res_FileMgrService.c	0	0	0	..\\..\\Customer\\Images\\PLUTO\\MainLCD\\FileManager\\FM_LI3GP.gif	0	1	APP name unknown	1	
+40743	IMG_ID_FMGR_FILE_TYPE_MP4	large icon	../Res_MMI/res_FileMgrService.c	0	0	0	..\\..\\Customer\\Images\\PLUTO\\MainLCD\\FileManager\\FM_LIMP4.gif	0	1	APP name unknown	1	
+40752	IMG_ID_FMGR_FILE_TYPE_VCF	vcf large icon	../Res_MMI/res_FileMgrService.c	0	0	0	..\\..\\Customer\\Images\\PLUTO\\MainLCD\\FileManager\\FM_LIVCF.gif	0	1	APP name unknown	1	
+40753	IMG_ID_FMGR_FILE_TYPE_VCS	vcs large icon	../Res_MMI/res_FileMgrService.c	0	0	0	..\\..\\Customer\\Images\\PLUTO\\MainLCD\\FileManager\\FM_LIVCS.gif	0	1	APP name unknown	1	
+3333	WAP_IMG_ICON_BROKEN_IMAGE	Image of a broken image	../Res_MMI/res_Wap.c	0	0	0	..\\..\\Customer\\Images\\PLUTO\\MainLCD\\WAP\\SW_Broken.bmp	0	1	APP name unknown	1	

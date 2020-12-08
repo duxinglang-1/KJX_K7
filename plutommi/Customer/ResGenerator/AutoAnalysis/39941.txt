@@ -1,0 +1,57 @@
+Image: ..\..\..\plutommi\CUSTOMER\IMAGES\PLUTO\MAINLCD\CALL\SUBMENU\SB_CREC.BMP
+  Format: BMP (Microsoft Windows bitmap image)
+  Geometry: 26x26
+  Class: PseudoClass
+  Type: Palette
+  Endianess: Undefined
+  Colorspace: RGB
+  Channel depth:
+    Red: 8-bits
+    Green: 8-bits
+    Blue: 8-bits
+  Channel statistics:
+    Red:
+      Min: 0 (0)
+      Max: 255 (1)
+      Mean: 1.52811 (0.00599257)
+      Standard deviation: 18.1389 (0.0711331)
+    Green:
+      Min: 0 (0)
+      Max: 216 (0.847059)
+      Mean: 0.782544 (0.0030688)
+      Standard deviation: 11.8553 (0.0464915)
+    Blue:
+      Min: 0 (0)
+      Max: 242 (0.94902)
+      Mean: 0.903846 (0.00354449)
+      Standard deviation: 13.7698 (0.0539992)
+  Colors: 7
+         0: (255,  0,  0)	red
+         1: ( 78,182,219)	#4EB6DB
+         2: ( 42,125,149)	#2A7D95
+         3: (152,216,242)	#98D8F2
+         4: (254,  2,  0)	#FE0200
+         5: (252,  4,  1)	#FC0401
+         6: (  0,  0,  0)	black
+  Histogram:
+        50: ( 42,125,149)	#2A7D95
+        94: ( 78,182,219)	#4EB6DB
+       507: (255,  0,  0)	red
+         2: (254,  2,  0)	#FE0200
+         1: (252,  4,  1)	#FC0401
+        22: (152,216,242)	#98D8F2
+  Rendering-intent: Undefined
+  Resolution: 28.34x28.34
+  Units: Undefined
+  Filesize: 812
+  Interlace: None
+  Background Color: white
+  Border Color: #DFDFDF
+  Matte Color: grey74
+  Dispose: Undefined
+  Iterations: 0
+  Compression: Undefined
+  Orientation: Undefined
+  Signature: 2a2a03f4f27e0938d81a9cb0c2bf553a555afb14a61ed65dea16a1a52d9b5387
+  Tainted: False
+  Version: ImageMagick 6.2.3 06/08/05 Q16 http://www.imagemagick.org

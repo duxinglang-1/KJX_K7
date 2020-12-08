@@ -1,0 +1,109 @@
+Image: ..\..\..\plutommi\CUSTOMER\IMAGES\PLUTO\MAINLCD\FILEMANAGER\FM_PHONE.BMP
+  Format: BMP (Microsoft Windows bitmap image)
+  Geometry: 26x26
+  Class: PseudoClass
+  Type: Palette
+  Endianess: Undefined
+  Colorspace: RGB
+  Channel depth:
+    Red: 8-bits
+    Green: 8-bits
+    Blue: 8-bits
+  Channel statistics:
+    Red:
+      Min: 0 (0)
+      Max: 255 (1)
+      Mean: 7.64053 (0.0299629)
+      Standard deviation: 37.2665 (0.146143)
+    Green:
+      Min: 0 (0)
+      Max: 240 (0.941176)
+      Mean: 8.9645 (0.0351549)
+      Standard deviation: 41.2074 (0.161597)
+    Blue:
+      Min: 0 (0)
+      Max: 255 (1)
+      Mean: 10.2249 (0.0400975)
+      Standard deviation: 46.1239 (0.180878)
+  Colors: 33
+         0: (255,  0,255)	fuchsia
+         1: ( 38,158,224)	#269EE0
+         2: ( 43,161,225)	#2BA1E1
+         3: ( 42,159,224)	#2A9FE0
+         4: ( 54,167,227)	#36A7E3
+         5: ( 69,177,231)	#45B1E7
+         6: ( 71,175,229)	#47AFE5
+         7: ( 75,176,229)	#4BB0E5
+         8: (109,190,232)	#6DBEE8
+         9: (138,203,235)	#8ACBEB
+        10: (151,208,236)	#97D0EC
+        11: ( 75,183,234)	#4BB7EA
+        12: (149,207,235)	#95CFEB
+        13: (240,240,240)	grey94
+        14: (237,237,237)	grey93
+        15: (234,234,234)	#EAEAEA
+        16: (228,228,228)	#E4E4E4
+        17: (225,225,225)	#E1E1E1
+        18: (221,221,221)	#DDDDDD
+        19: (217,217,217)	grey85
+        20: (213,213,213)	#D5D5D5
+        21: (209,209,209)	grey82
+        22: (205,205,205)	#CDCDCD
+        23: (201,201,201)	grey79
+        24: (197,197,197)	#C5C5C5
+        25: (194,194,194)	grey76
+        26: (190,190,190)	grey
+        27: (188,188,188)	#BCBCBC
+        28: (186,186,186)	grey73
+        29: (183,183,183)	#B7B7B7
+        30: (165,165,165)	#A5A5A5
+        31: (163,163,163)	grey64
+        32: (  0,  0,  0)	black
+  Histogram:
+        16: ( 38,158,224)	#269EE0
+         4: ( 42,159,224)	#2A9FE0
+        10: ( 43,161,225)	#2BA1E1
+         4: ( 54,167,227)	#36A7E3
+         2: ( 71,175,229)	#47AFE5
+         2: ( 69,177,231)	#45B1E7
+         6: ( 75,176,229)	#4BB0E5
+        10: ( 75,183,234)	#4BB7EA
+         8: (109,190,232)	#6DBEE8
+       344: (255,  0,255)	fuchsia
+        51: (163,163,163)	grey64
+        43: (165,165,165)	#A5A5A5
+         3: (183,183,183)	#B7B7B7
+         3: (186,186,186)	grey73
+         8: (188,188,188)	#BCBCBC
+        14: (190,190,190)	grey
+         2: (138,203,235)	#8ACBEB
+         4: (149,207,235)	#95CFEB
+         2: (151,208,236)	#97D0EC
+        12: (194,194,194)	grey76
+         6: (197,197,197)	#C5C5C5
+        22: (201,201,201)	grey79
+         6: (205,205,205)	#CDCDCD
+         9: (209,209,209)	grey82
+        11: (213,213,213)	#D5D5D5
+        12: (217,217,217)	grey85
+        12: (221,221,221)	#DDDDDD
+         9: (225,225,225)	#E1E1E1
+         5: (228,228,228)	#E4E4E4
+         5: (234,234,234)	#EAEAEA
+        10: (237,237,237)	grey93
+        21: (240,240,240)	grey94
+  Rendering-intent: Undefined
+  Resolution: 28.34x28.34
+  Units: Undefined
+  Filesize: 916
+  Interlace: None
+  Background Color: white
+  Border Color: #DFDFDF
+  Matte Color: grey74
+  Dispose: Undefined
+  Iterations: 0
+  Compression: Undefined
+  Orientation: Undefined
+  Signature: 830aff6c8cac27df14053f935476b528c965d08d87a68764629ecdcfd7e25d1b
+  Tainted: False
+  Version: ImageMagick 6.2.3 06/08/05 Q16 http://www.imagemagick.org

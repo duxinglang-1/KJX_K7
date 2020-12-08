@@ -1,0 +1,107 @@
+[APP NAME] = SRV_CCA
+[SCOPE] = PLUTO, COSMOS
+[MODULE] = MOD_MMI_INET_APP
+
+#start trace
+
+#    /* CCA MAIN */
+TRC_MSG(TRC_SRV_CCA_INIT_BEGIN, "[CcaSrv]mmi_srv_cca_init: Initialising...")
+TRC_MSG(TRC_SRV_CCA_INIT_END, "[CcaSrv] Initialised")
+TRC_MSG(TRC_SRV_CCA_MALLOC_NULL, "[CcaSrv] malloc returns 0.")
+TRC_MSG(TRC_SRV_CCA_MALLOC_MEMORY_INFO, "[CcaSrv] MemoryFull (alloc=%d,max-allow-size=%d,total-mem-left=%d)")
+TRC_MSG(TRC_SRV_CCA_RESET_CONTEXT, "[CcaSrv] srv_cca_reset_context")
+TRC_MSG(TRC_SRV_CCA_RESET_PROVISIONING_CONTEXT, "[CcaSrv] srv_cca_reset_provisioning_context")
+TRC_MSG(TRC_SRV_CCA_START_PROVISIONING_JOB, "[CcaSrv] srv_cca_start_provisioning_job (state=%d)")
+TRC_MSG(TRC_SRV_CCA_RESET_ASYNC_CONTEXT, "[CcaSrv] srv_cca_reset_async_context")
+TRC_MSG(TRC_SRV_CCA_START_ASYNC_JOB, "[CcaSrv] srv_cca_start_async_job (srcmod=%d,state=%d,oper=%d)")
+
+TRC_MSG(TRC_SRV_CCA_NEW_CONFIG_RESULT, "[CcaSrv] srv_cca_new_config_result (config_id=%X, result=%d)")
+TRC_MSG(TRC_SRV_CCA_NEW_CONFIG_RESULT_ERROR_EXIST, "[CcaSrv] config ID already exists")
+TRC_MSG(TRC_SRV_CCA_GET_CONFIG_RESULT, "[CcaSrv] srv_cca_get_config_result (config_id=%X)")
+TRC_MSG(TRC_SRV_CCA_CONFIG_RESULT_ERROR_CONFIG_ID_NOT_FOUND, "[CcaSrv] config ID not found")
+TRC_MSG(TRC_SRV_CCA_UPDATE_CONFIG_RESULT, "[CcaSrv] srv_cca_update_config_result (config_id=%X, result=%d)")
+TRC_MSG(TRC_SRV_CCA_CONFIG_COMPLETE, "[CcaSrv] srv_cca_configure_complete")
+TRC_MSG(TRC_SRV_CCA_APP_CONFIG_RSP_HDLR, "[CcaSrv] srv_cca_app_configure_rsp_hdlr(sim_id=%d,config_id=%X,hConfig=%X,status=%d)")
+TRC_MSG(TRC_SRV_CCA_APP_CONFIG_RSP_HDLR_DEFAULT_STATUS, "[CcaSrv] ERROR: return staus must be one of:\n\t{SRV_CCA_STATUS_OK, SRV_CCA_STATUS_INVALID_SETTING, SRV_CCA_STATUS_SETTING_SKIPPED, SRV_CCA_STATUS_ENDKEY_PRESSED}")
+TRC_MSG(TRC_SRV_CCA_SOURCE_NEW_DOC_IND_HDLR_CS, "[CcaSrv] srv_cca_source_new_doc_ind_hdlr(source_id=%d, prov_type=%d, sim_id=%d)")
+TRC_MSG(TRC_SRV_CCA_SOURCE_NEW_DOC_IND_HDLR_DOC, "[CcaSrv] srv_cca_source_new_doc_ind_hdlr(spec_id=%X, sec_type=%d, hConfig=%X, prov_flag=%X)")
+TRC_MSG(TRC_SRV_CCA_SOURCE_NEW_DOC_IND_HDLR_BUSY, "[CcaSrv] pending provisioning job (state=%d)")
+
+TRC_MSG(TRC_SRV_CCA_GET_PROF_IND_HDLR, "[CcaSrv] srv_cca_get_prof_ind_hdlr (sim_id=%d,app_id=%X,prof_id=%d)")
+TRC_MSG(TRC_SRV_CCA_GET_PROF_IND_HDLR_BUSY, "[CcaSrv] failed async-GET request due to CCA non-idle (state=%d)")
+TRC_MSG(TRC_SRV_CCA_UPDATE_PROF_IND_HDLR, "[CcaSrv] srv_cca_update_prof_ind_hdlr (sim_id=%d,app_id=%X,prof_id=%d,hConfig=%X)")
+TRC_MSG(TRC_SRV_CCA_UPDATE_PROF_IND_HDLR_BUSY, "[CcaSrv] failed async-UPDATE request due to CCA non-idle (state=%d)")
+TRC_MSG(TRC_SRV_CCA_APP_GET_PROF_RSP_HDLR_CCA_STATE, "[CcaSrv] srv_cca_app_get_prof_rsp_hdlr (state=%d,oper=%d)")
+TRC_MSG(TRC_SRV_CCA_APP_GET_PROF_RSP_HDLR_DATA_INFO, "[CcaSrv] srv_cca_app_get_prof_rsp_hdlr (sim_id=%d,app_id=%X,prof_id=%d,hConfig=%X,result=%d)")
+TRC_MSG(TRC_SRV_CCA_APP_UPDATE_PROF_RSP_HDLR_CCA_STATE, "[CcaSrv] srv_cca_app_update_prof_rsp_hdlr (state=%d,oper=%d)")
+TRC_MSG(TRC_SRV_CCA_APP_UPDATE_PROF_RSP_HDLR_DATA_INFO, "[CcaSrv] srv_cca_app_update_prof_rsp_hdlr (sim_id=%d,app_id=%X,prof_id=%d,hConfig=%X,result=%d)")
+ 
+TRC_MSG(TRC_SRV_CCA_SEND_APP_CONFIG_IND, "[CcaSrv] srv_cca_send_app_configure_ind (config_id=%X,hConfig=%X,crtConfigIndex=%d)")
+TRC_MSG(TRC_SRV_CCA_SEND_NEW_DOC_CONTINUE_IND, "[CcaSrv] srv_cca_send_new_doc_continue_ind")
+TRC_MSG(TRC_SRV_CCA_SEND_SOURCE_NEW_DOC_RSP, "[CcaSrv] srv_cca_send_source_new_doc_rsp(source_id=%d,prov_type=%d,sim_id=%d,spec_id=%X,status=%d)")
+TRC_MSG(TRC_SRV_CCA_SEND_SOURCE_UI_NEW_SETTING_RSP, "[CcaSrv] srv_cca_send_source_ui_new_setting_rsp(source_id=%d,prov_type=%d,trans_id=%d,sim_id=%d,response=%d)")
+TRC_MSG(TRC_SRV_CCA_SEND_CCA_APP_CONFIGURE_RSP, "[CcaSrv] srv_cca_send_cca_app_configure_rsp (sim_id=%d,conf_id=%X,doc_hdl=%X,status=%d)")
+
+TRC_MSG(TRC_SRV_CCA_SEND_CCA_GET_PROF_RSP, "[CcaSrv] srv_cca_send_cca_get_prof_rsp (dest_mod_id=%d,sim_id=%d,app_id=%X,prof_id=%d,hConfig=%X,result=%d)")
+TRC_MSG(TRC_SRV_CCA_SEND_CCA_APP_GET_PROF_IND, "[CcaSrv] srv_cca_send_cca_app_get_prof_ind (sim_id=%d,app_id=%X,prof_id=%d)")
+TRC_MSG(TRC_SRV_CCA_SEND_CCA_UPDATE_PROF_RSP, "[CcaSrv] srv_cca_send_cca_update_prof_rsp (dest_mod_id=%d,app_id=%X,prof_id=%d,hConfig=%X,result=%d)")
+TRC_MSG(TRC_SRV_CCA_SEND_CCA_APP_UPDATE_PROF_IND, "[CcaSrv] srv_cca_send_cca_app_update_prof_ind (app_id=%X,prof_id=%d,hConfig=%X)")
+TRC_MSG(TRC_SRV_CCA_SEND_CCA_APP_GET_PROF_RSP, "[CcaSrv] srv_cca_send_cca_app_get_prof_rsp (app_id=%X,prof_id=%d,hConfig=%X,result=%d)")
+TRC_MSG(TRC_SRV_CCA_SEND_CCA_APP_UPDATE_PROF_RSP, "[CcaSrv] srv_cca_send_cca_app_update_prof_rsp (app_id=%X,prof_id=%d,hConfig=%X,result=%d)")
+
+TRC_MSG(TRC_SRV_CCA_SOURCE_SIM_PROFILE_STATUS_IND_HDLR, "[CcaSrv] srv_cca_source_sim_profile_status_ind_hdlr (source_id=%d,prov_type=%d,prov_flag=%X,spec_id=%X)") 
+TRC_MSG(TRC_SRV_CCA_JOB_IDLE_MANAGER_NEXT_JOB_FIND_SIM_PROV, "[CcaSrv] srv_cca_summit_job_to_idle_manager(next_job)find SIM Prov Job") 
+TRC_MSG(TRC_SRV_CCA_JOB_IDLE_MANAGER_NEW_SETTING_IND_SIM_PROV, "[CcaSrv] srv_cca_summit_job_to_idle_manager(new_setting_ind) send new_setting_rsp") 
+TRC_MSG(TRC_SRV_CCA_JOB_CURRENT_PROVISIONING_JOB_FINISHED, "[CcaSrv] srv_cca_job_current_provisioning_job_finished" ) 
+TRC_MSG(TRC_SRV_CCA_JOB_PROVISIONING_MANAGER_INVALID_SETTING_IND, "[CcaSrv] srv_cca_summit_job_to_provisioning_manager (invalid_setting_ind)current provisioning is invalid") 
+TRC_MSG(TRC_SRV_CCA_JOB_CENTER_SCHEDULER_CENTER_INFO,  "[CcaSrv] srv_cca_job_center_scheduler(cca_state=%d, session_state=%d, type=%d, has_job=%d, has_sim_job=%d, cur_job=%X)")
+    
+TRC_MSG(TRC_SRV_CCA_PROCESS_PROV_MSG_REQ_HDLR, "[CcaSrv] srv_cca_process_prov_msg_req_hdlr(trans_id=%d,msg_id=%d,cca_state=%d,procces_state=%d)")
+TRC_MSG(TRC_SRV_CCA_SOURCE_INSTALL_PROV_MSG_CNF_HDLR, "[CcaSrv] srv_cca_source_install_prov_msg_cnf_hdlr(req->msg_id,msg_id=%d,trans_id=%d,src_id=%d,sim_id=%d,prov_type=%d,prov_flag=%d,status=%d,process_state=%d)")
+TRC_MSG(TRC_SRV_CCA_PROVBOX_SET_MSG_FALG_CNF_HDLR, "[CcaSrv] srv_cca_provbox_set_msg_flag_cnf_hdlr(trans_id=%d,msg_id=%d,op=%d,msg_flag=%d,result=%d,process_state=%d,endkey=%d)")
+TRC_MSG(TRC_SRV_CCA_PROVBOX_GET_MSG_INFO_CNF_HDLR_INFO, "[CcaSrv] srv_cca_provbox_get_msg_info_cnf_hdlr(trans_id=%d,pin_status=%d,result=%d,process_state=%d,endkey=%d)")
+TRC_MSG(TRC_SRV_CCA_PROVBOX_GET_MSG_INFO_CNF_HDLR_OTHER_INFO, "[CcaSrv] get_msg_info_cnf(msg_id=%d,timestamp=%d,insl_time=%d,src_id=%d,sim_id=%d,box_type=%d,msg_type=%d,read_status=%d,add_len=%d)")
+TRC_MSG(TRC_SRV_CCA_PROVBOX_UPDATE_MSG_INFO_CNF_HDLR, "[CcaSrv] srv_cca_provbox_update_msg_info_cnf_hdlr(trans_id=%d,msg_id=%d,src_id=%d,result=%d,process_state=%d,endkey=%d)")
+TRC_MSG(TRC_SRV_CCA_ACCEPT_PROCESS_PROV_MSG_REQ_PROCESSING, "[CcaSrv] srv_cca_accept_process_prov_msg_req:busy!(cca_state=%d,cmn_job=%d,cmn_msg_num=%d)")
+TRC_MSG(TRC_SRV_CCA_ACCEPT_PROCESS_PROV_MSG_REQ_INSTALLING, "[CcaSrv] srv_cca_accept_process_prov_msg_req:busy!(cca_state=%d,cmn_job=%d,cmn_msg_num=%d)")
+TRC_MSG(TRC_SRV_CCA_ACCEPT_PROCESS_PROV_MSG_REQ_IN_QUEUE, "[CcaSrv] srv_cca_accept_process_prov_msg_req:busy!(cca_state=%d,cmn_job=%d,cmn_msg_num=%d)")
+TRC_MSG(TRC_SRV_CCA_SEND_PROCESS_PROV_MSG_CNF, "[CcaSrv] srv_cca_send_process_prov_msg_cnf(msg_id=%d,trans_id=%d,status=%d)")
+TRC_MSG(TRC_SRV_CCA_SEND_INSTALL_PROV_MSG_REQ, "[CcaSrv] srv_cca_send_install_prov_msg_req(trans_id=%d,msg_id=%d,src_id=%d,sim_id=%d,prov_type=%d,prov_flag=%d,process_state=%d)")
+TRC_MSG(TRC_SRV_CCA_SEND_PROVBOX_SET_MSG_FLAG_REQ, "[CcaSrv] srv_cca_send_provbox_set_msg_flag_req(trans_id=%d,msg_id=%d,op=%d,msg_flag=%d)")
+TRC_MSG(TRC_SRV_CCA_SEND_PROVBOX_GET_MSG_INFO_REQ, "[CcaSrv] srv_cca_send_provbox_get_msg_info_req(trans_id=%d,msg_id=%d)")
+TRC_MSG(TRC_SRV_CCA_SEND_PROVBOX_UPDATE_MSG_INFO_REQ, "[CcaSrv] srv_cca_send_provbox_update_msg_info_req(trans_id=%d,msg_id=%d,info_mask=%d,insl_time=%d,read_status=%d,pin_status=%d)")
+
+
+#    /* CCA Pre-Parse */
+TRC_MSG(TRC_SRV_CCA_UI_ENTRY_SETTINGS_INFO, "[CcaSrv] mmi_cca_ui_entry_settings_info()")
+TRC_MSG(TRC_SRV_CCA_CHECK_APP_CONFIG_ID, "[CcaSrv] \t (index=%d, config_id=%X)")
+TRC_MSG(TRC_SRV_CCA_CHECK_APP_L1NODE_NOT_FOUND, "[CcaSrv] -->level 1 node symbol not found (i=%d,configID=%d)")
+TRC_MSG(TRC_SRV_CCA_CHECK_APP_APPCHECK_FAIL, "[CcaSrv] -->app check failed (i=%d,configID=%d)")
+TRC_MSG(TRC_SRV_CCA_CHECK_APP_APPID_NOT_FOUND, "[CcaSrv] -->appid not found in doc (i=%d,configID=%d)")
+TRC_MSG(TRC_SRV_CCA_CHECK_APP_CHECK_STATUS, "[CcaSrv] appid found result (i=%d,configID=%d,result=%d)")
+TRC_MSG(TRC_SRV_CCA_CHECK_APP_APPID_NOT_DEFINED, "[CcaSrv] -->no appid defined")
+TRC_MSG(TRC_SRV_CCA_CHECK_APP_INCLUDED_APPNUM, "[CcaSrv] -->included in configuration (i=%d,configID=%d,num-app=%d)")
+
+    
+TRC_MSG(TRC_SRV_CCA_JOB_CENTER_HAS_NEXT_JOB_BUSY, "[CcaSrv] srv_cca_job_center_has_next_job(source_id=%d,prov_type=%d,trans_id=%d,sim_id=%d,spec_id=%X)")
+TRC_MSG(TRC_SRV_CCA_JOB_CENTER_HAS_NEXT_JOB_HAS_SIM_PROV, "[CcaSrv] srv_cca_job_center_has_next_job(find sim prov in queue)")
+TRC_MSG(TRC_SRV_CCA_SOURCE_UI_INVALID_SETTING_IND_HDLR, "[CcaSrv] srv_cca_source_ui_invalid_setting_ind_hdlr(source_id=%d,prov_type=%d,sim_id=%d,trans_id=%d,status=%d)")
+TRC_MSG(TRC_SRV_CCA_SOURCE_UI_NEW_SETTING_IND_HDLR, "[CcaSrv] srv_cca_source_ui_new_setting_ind_hdlr(source_id=%d,prov_type=%d,sim_id=%d,trans_id=%d,spec_id=%X)")
+TRC_MSG(TRC_SRV_CCA_SOURCE_UI_AUTH_IND_HDLR, "[CcaSrv] srv_cca_source_ui_auth_ind_hdlr(source_id=%d,prov_type=%d,trans_id=%d,spec_id=%X,max_attempts=%d,status=%d)")
+
+#    /* CCA OMA */
+TRC_MSG(TRC_SRV_CCA_OMA_NEW_DOC_CONTINUE, "[CcaSrv] srv_cca_oma_new_doc_continue (crtConfigIndex=%d)")
+TRC_MSG(TRC_SRV_CCA_OMA_NEW_DOC_CONTINUE_FIND_APP, "[CcaSrv] find an app included in configuration (configID=%d)")
+TRC_MSG(TRC_SRV_CCA_OMA_NEW_DOC_PROCESS_NEXT_APP, "[CcaSrv] srv_cca_oma_new_doc_process_next_app (index=%d)")
+TRC_MSG(TRC_SRV_CCA_OMA_VALIDATE_ADD_ID, "[CcaSrv] srv_cca_oma_validate_add_id (count=%d,total=%d) FULL!")
+TRC_MSG(TRC_SRV_CCA_OMA_VALIDATE_ADD_NODE, "[CcaSrv] srv_cca_oma_validate_add_node (count=%d,total=%d) FULL!")
+
+#    /* CCA DISPATCHER */
+TRC_MSG(TRC_SRV_CCA_DISPATCH_APP_CONFIGURE_IND, "[CcaSrv] srv_cca_dispatch_app_configure_ind (prov_type=%d,prov_flag=%X,sim_id=%d,config_id=%X,hConfig=%X)")
+TRC_MSG(TRC_SRV_CCA_DISPATCHER_PROV_APP_NOT_SUPPORT, "[CcaSrv] srv_cca_dispatch_app_configure_ind() app not supported")
+TRC_MSG(TRC_SRV_CCA_DISPATCHER_PROV_CONFIG_ID_NOT_FOUND, "[CcaSrv] srv_cca_dispatch_app_configure_ind() config id not found")
+TRC_MSG(TRC_SRV_CCA_DISPATCHER_ASYNC, "[CcaSrv] srv_cca_dispatch_profile_operations (oper=%d,app_id=%X)")
+TRC_MSG(TRC_SRV_CCA_DISPATCHER_ASYNC_GET, "[CcaSrv] OPER-GET (app_id=%X,prof_id=%d)")
+TRC_MSG(TRC_SRV_CCA_DISPATCHER_ASYNC_UPDATE, "[CcaSrv] OPER-UPDATE (app_id=%X,prof_id=%d,hConfig=%X)")
+TRC_MSG(TRC_SRV_CCA_DISPATCHER_ASYNC_APP_NOT_FOUND, "[CcaSrv] srv_cca_dispatch_profile_operations() app not found")
+TRC_MSG(TRC_SRV_CCA_DISPATCH_APP_SIM_PROFILE_STATUS_IND, "mmi_cca_dispatch_app_sim_profile_status_ind(prov_type=%d,sim_id=%d,config_id=%X,spec_id=%X,prov_flag=%X)")

@@ -1,0 +1,75 @@
+Image: ..\..\..\plutommi\CUSTOMER\IMAGES\PLUTO\MAINLCD\SMS\SUBMENU\INBOX\SS_NCOMP.BMP
+  Format: BMP (Microsoft Windows bitmap image)
+  Geometry: 26x26
+  Class: PseudoClass
+  Type: Palette
+  Endianess: Undefined
+  Colorspace: RGB
+  Channel depth:
+    Red: 8-bits
+    Green: 8-bits
+    Blue: 8-bits
+  Channel statistics:
+    Red:
+      Min: 0 (0)
+      Max: 252 (0.988235)
+      Mean: 4.8713 (0.0191031)
+      Standard deviation: 33.5517 (0.131575)
+    Green:
+      Min: 0 (0)
+      Max: 255 (1)
+      Mean: 3.68047 (0.0144332)
+      Standard deviation: 25.0366 (0.0981829)
+    Blue:
+      Min: 0 (0)
+      Max: 145 (0.568627)
+      Mean: 0.736686 (0.00288897)
+      Standard deviation: 7.67278 (0.0300893)
+  Colors: 16
+         0: (  0,255,  0)	lime
+         1: (248,184, 35)	#F8B823
+         2: (252,220,145)	#FCDC91
+         3: (247,173, 21)	#F7AD15
+         4: (244,171, 21)	#F4AB15
+         5: (246,199,108)	#F6C76C
+         6: (241,164, 26)	#F1A41A
+         7: (239,148,  0)	#EF9400
+         8: (230,147, 16)	#E69310
+         9: (235,151, 17)	#EB9711
+        10: (233,154, 23)	#E99A17
+        11: (234,145,  8)	#EA9108
+        12: (227,154, 57)	#E39A39
+        13: (216,124, 17)	#D87C11
+        14: (201, 99,  4)	#C96304
+        15: (  0,  0,  0)	black
+  Histogram:
+       356: (  0,255,  0)	lime
+         5: (201, 99,  4)	#C96304
+        16: (216,124, 17)	#D87C11
+        91: (239,148,  0)	#EF9400
+        66: (234,145,  8)	#EA9108
+        10: (230,147, 16)	#E69310
+         2: (235,151, 17)	#EB9711
+        16: (233,154, 23)	#E99A17
+         4: (227,154, 57)	#E39A39
+         5: (241,164, 26)	#F1A41A
+         1: (244,171, 21)	#F4AB15
+        17: (247,173, 21)	#F7AD15
+        59: (248,184, 35)	#F8B823
+        10: (246,199,108)	#F6C76C
+        18: (252,220,145)	#FCDC91
+  Rendering-intent: Undefined
+  Resolution: 28.34x28.34
+  Units: Undefined
+  Filesize: 536
+  Interlace: None
+  Background Color: white
+  Border Color: #DFDFDF
+  Matte Color: grey74
+  Dispose: Undefined
+  Iterations: 0
+  Compression: Undefined
+  Orientation: Undefined
+  Signature: fec2aa6a49043802dfa703eea0f39220ff0e7b521dfb00503367367b31fa5c5a
+  Tainted: False
+  Version: ImageMagick 6.2.3 06/08/05 Q16 http://www.imagemagick.org

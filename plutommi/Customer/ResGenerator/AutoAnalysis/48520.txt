@@ -1,0 +1,53 @@
+Image: ..\..\..\plutommi\CUSTOMER\IMAGES\PLUTO\MAINLCD\MAINMENU\MATRIX\MM_SV.PNG
+  Format: PNG (Portable Network Graphics)
+  Geometry: 80x60
+  Class: DirectClass
+  Type: TrueColorMatte
+  Endianess: Undefined
+  Colorspace: RGB
+  Channel depth:
+    Red: 8-bits
+    Green: 8-bits
+    Blue: 8-bits
+    Opacity: 8-bits
+  Channel statistics:
+    Red:
+      Min: 0 (0)
+      Max: 255 (1)
+      Mean: 176.461 (0.692006)
+      Standard deviation: 105.613 (0.414169)
+    Green:
+      Min: 0 (0)
+      Max: 255 (1)
+      Mean: 198.003 (0.776483)
+      Standard deviation: 85.4078 (0.334932)
+    Blue:
+      Min: 0 (0)
+      Max: 255 (1)
+      Mean: 206.31 (0.80906)
+      Standard deviation: 86.0401 (0.337412)
+    Opacity:
+      Min: 76 (0.298039)
+      Max: 255 (1)
+      Mean: 207.465 (0.813588)
+      Standard deviation: 75.3885 (0.295641)
+  Opacity: (255,255,255,255)	  #FFFFFFFF
+  Colors: 1373
+  Rendering-intent: Undefined
+  Gamma: 0.45
+  Resolution: 72x72
+  Units: Undefined
+  Filesize: 5kb
+  Interlace: None
+  Background Color: white
+  Border Color: #DFDFDF00
+  Matte Color: grey74
+  Page geometry: 80x60+0+0
+  Dispose: Undefined
+  Iterations: 0
+  Compression: Zip
+  Orientation: Undefined
+  Signature: e81278b68d17ace812d5b4632c28497450764ec3e2214238eccc1a93e72d0f79
+  Software: Adobe ImageReady
+  Tainted: False
+  Version: ImageMagick 6.2.3 06/08/05 Q16 http://www.imagemagick.org

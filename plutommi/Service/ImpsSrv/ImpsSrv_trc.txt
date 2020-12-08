@@ -1,0 +1,28 @@
+[APP NAME] = IMPS Service
+[SCOPE] = PLUTO
+[MODULE] = MOD_MMI_INET_APP    
+
+#start trace
+TRC_MSG(TRC_SRV_IMPS_INIT_NVRAM, "[SRV IMPS] : srv_imps_init_nvram() ")
+TRC_MSG(TRC_SRV_IMPS_INIT, "[SRV IMPS] : srv_imps_init() ")
+TRC_MSG(TRC_SRV_IMPS_OPEN, "[SRV IMPS] : srv_imps_open() ")
+TRC_MSG(TRC_SRV_IMPS_CLOSE, "[SRV IMPS] : srv_imps_close, hd = %d ")
+TRC_MSG(TRC_SRV_IMPS_REG_EVENT_CALLBACK, "[SRV IMPS] : srv_imps_reg_event_callback, hd = %d, handle = %d ")
+TRC_MSG(TRC_SRV_IMPS_RAC_READY, "[SRV IMPS] : srv_imps_is_rac_ready, g_pwr_context.CurrentServiceType = %d ")
+TRC_MSG(TRC_SRV_IMPS_NOTIFY_RAC_READY, "[SRV IMPS] : srv_imps_notify_rac_ready() ")
+TRC_MSG(TRC_SRV_IMPS_NOTIFY_IDLE_REACHED, "[SRV IMPS] : srv_imps_notify_idle_reached() ")
+TRC_MSG(TRC_SRV_IMPS_PS_READY_IND, "[SRV IMPS] : srv_imps_ps_ready_ind() ")
+
+TRC_MSG(TRC_SRV_IMPS_REMOVE_MSG_NOTIFY, "[SRV IMPS] : srv_imps_remove_message_notify ")
+TRC_MSG(TRC_SRV_IMPS_NOTIFY_APP_EVENT, "[SRV IMPS] : srv_imps_notify_app event, event_id = %d ")
+TRC_MSG(TRC_SRV_IMPS_APP_EVENT, "[SRV IMPS] : srv_imps_notify_app event, app = %d, app_event_id = %d ")
+TRC_MSG(TRC_SRV_IMPS_NOTIFY_APP_IND, "[SRV IMPS] : srv_imps_notify_app ind, event_id = %d ")
+TRC_MSG(TRC_SRV_IMPS_LOGIN, "[SRV IMPS] : srv_imps_login, status = %d ")
+TRC_MSG(TRC_SRV_IMPS_LOGIN_RSP, "[SRV IMPS] : srv_imps_login_rsp, status = %d ")
+TRC_MSG(TRC_SRV_IMPS_ABORT_LOGIN, "[SRV IMPS] : srv_imps_abort_login, status = %d ")
+TRC_MSG(TRC_SRV_IMPS_HANDLE_EVENT_BEGIN, "[SRV IMPS] : srv_imps_handle_event begin, event_id = %d, handle = %d ")
+TRC_MSG(TRC_SRV_IMPS_HANDLE_EVENT_ERROR, "[SRV IMPS] : [ERROR] srv_imps_handle_event, event_id = %d, error code = %d ")
+TRC_MSG(TRC_SRV_IMPS_CLOSE_ROOM, "[SRV IMPS] : srv_imps_close_room, room_index = %d ")
+TRC_MSG(TRC_SRV_IMPS_IS_LOGIN_READY, "[SRV IMPS] : srv_imps_is_login_ready, status = %d ")
+TRC_MSG(TRC_SRV_IMPS_GET_CONT_DISP_NAME, "[SRV IMPS] : srv_imps_get_contact_disp_name, cont_index = %d, size = %d ")
+TRC_MSG(TRC_SRV_IMPS_REMOVE_PA_AUTH_IND, "[SRV IMPS] : srv_imps_remove_pa_auth_ind, accept = %d, background = %d ")

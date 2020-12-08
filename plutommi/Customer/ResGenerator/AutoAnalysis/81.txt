@@ -1,0 +1,69 @@
+Image: ..\..\..\plutommi\CUSTOMER\IMAGES\PLUTO\MAINLCD\UIELEMENT\SOFTKEY\REPLY_MSG_CSK.BMP
+  Format: BMP (Microsoft Windows bitmap image)
+  Geometry: 20x20
+  Class: PseudoClass
+  Type: Palette
+  Endianess: Undefined
+  Colorspace: RGB
+  Channel depth:
+    Red: 8-bits
+    Green: 8-bits
+    Blue: 8-bits
+  Channel statistics:
+    Red:
+      Min: 0 (0)
+      Max: 255 (1)
+      Mean: 6.12 (0.024)
+      Standard deviation: 36.858 (0.144541)
+    Green:
+      Min: 0 (0)
+      Max: 220 (0.862745)
+      Mean: 4.71 (0.0184706)
+      Standard deviation: 28.501 (0.111769)
+    Blue:
+      Min: 0 (0)
+      Max: 242 (0.94902)
+      Mean: 2.4125 (0.00946078)
+      Standard deviation: 20.1399 (0.0789802)
+  Colors: 13
+         0: (255,  0,  0)	red
+         1: ( 78,182,219)	#4EB6DB
+         2: ( 42,125,149)	#2A7D95
+         3: (248,184, 35)	#F8B823
+         4: (252,220,145)	#FCDC91
+         5: (247,172, 17)	#F7AC11
+         6: (247,173, 21)	#F7AD15
+         7: (245,197,112)	#F5C570
+         8: (239,148,  0)	#EF9400
+         9: (229,145, 15)	#E5910F
+        10: (214,122, 10)	#D67A0A
+        11: (152,216,242)	#98D8F2
+        12: (  0,  0,  0)	black
+  Histogram:
+        31: ( 42,125,149)	#2A7D95
+        24: ( 78,182,219)	#4EB6DB
+       184: (255,  0,  0)	red
+        15: (214,122, 10)	#D67A0A
+         6: (229,145, 15)	#E5910F
+        62: (239,148,  0)	#EF9400
+         1: (247,172, 17)	#F7AC11
+        22: (247,173, 21)	#F7AD15
+        26: (248,184, 35)	#F8B823
+         5: (245,197,112)	#F5C570
+        10: (152,216,242)	#98D8F2
+        14: (252,220,145)	#FCDC91
+  Rendering-intent: Undefined
+  Resolution: 28.34x28.34
+  Units: Undefined
+  Filesize: 348
+  Interlace: None
+  Background Color: white
+  Border Color: #DFDFDF
+  Matte Color: grey74
+  Dispose: Undefined
+  Iterations: 0
+  Compression: Undefined
+  Orientation: Undefined
+  Signature: 0dd3a5cbb2143f16cf4b4364d134eba299302fc2f652d107ec12411c234e1390
+  Tainted: False
+  Version: ImageMagick 6.2.3 06/08/05 Q16 http://www.imagemagick.org

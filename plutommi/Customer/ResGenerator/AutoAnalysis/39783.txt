@@ -1,0 +1,76 @@
+Image: ..\..\..\plutommi\CUSTOMER\IMAGES\PLUTO\MAINLCD\SMS\SUBMENU\INBOX\SS_UREAD.BMP
+  Format: BMP (Microsoft Windows bitmap image)
+  Geometry: 26x26
+  Class: PseudoClass
+  Type: Palette
+  Endianess: Undefined
+  Colorspace: RGB
+  Channel depth:
+    Red: 8-bits
+    Green: 8-bits
+    Blue: 8-bits
+  Channel statistics:
+    Red:
+      Min: 0 (0)
+      Max: 252 (0.988235)
+      Mean: 5.22189 (0.020478)
+      Standard deviation: 34.757 (0.136302)
+    Green:
+      Min: 0 (0)
+      Max: 220 (0.862745)
+      Mean: 3.72485 (0.0146073)
+      Standard deviation: 25.3897 (0.0995675)
+    Blue:
+      Min: 0 (0)
+      Max: 145 (0.568627)
+      Mean: 1.36243 (0.00534285)
+      Standard deviation: 11.7743 (0.0461736)
+  Colors: 16
+         0: (  0,  0,  0)	black
+         1: (252,220,145)	#FCDC91
+         2: (247,196, 97)	#F7C461
+         3: (247,200,106)	#F7C86A
+         4: (247,201,110)	#F7C96E
+         5: (235,153,  0)	#EB9900
+         6: (245,197,111)	#F5C56F
+         7: (246,200,113)	#F6C871
+         8: (245,197,112)	#F5C570
+         9: (230,147, 16)	#E69310
+        10: (239,164, 41)	#EFA429
+        11: (234,145,  8)	#EA9108
+        12: (220,124, 17)	#DC7C11
+        13: (203,102,  4)	#CB6604
+        14: (192, 88,  6)	#C05806
+        15: (248,184, 35)	#F8B823
+  Histogram:
+       356: (  0,  0,  0)	black
+         8: (192, 88,  6)	#C05806
+         6: (203,102,  4)	#CB6604
+        20: (220,124, 17)	#DC7C11
+        44: (234,145,  8)	#EA9108
+        68: (235,153,  0)	#EB9900
+        26: (230,147, 16)	#E69310
+        10: (239,164, 41)	#EFA429
+       110: (248,184, 35)	#F8B823
+         2: (247,196, 97)	#F7C461
+         1: (245,197,111)	#F5C56F
+         2: (247,200,106)	#F7C86A
+         2: (247,201,110)	#F7C96E
+         1: (245,197,112)	#F5C570
+         2: (246,200,113)	#F6C871
+        18: (252,220,145)	#FCDC91
+  Rendering-intent: Undefined
+  Resolution: 28.34x28.34
+  Units: Undefined
+  Filesize: 536
+  Interlace: None
+  Background Color: white
+  Border Color: #DFDFDF
+  Matte Color: grey74
+  Dispose: Undefined
+  Iterations: 0
+  Compression: Undefined
+  Orientation: Undefined
+  Signature: c0befc15afa90abc7a9848ac922b92ba87c3524253127d4ef788e0f5b486d9d6
+  Tainted: False
+  Version: ImageMagick 6.2.3 06/08/05 Q16 http://www.imagemagick.org

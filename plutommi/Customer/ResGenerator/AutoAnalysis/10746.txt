@@ -1,0 +1,51 @@
+Image: ..\..\..\plutommi\CUSTOMER\IMAGES\PLUTO\MAINLCD\MMS\SMIL\MMS_ATTACH.BMP
+  Format: BMP (Microsoft Windows bitmap image)
+  Geometry: 10x15
+  Class: PseudoClass
+  Type: Palette
+  Endianess: Undefined
+  Colorspace: RGB
+  Channel depth:
+    Red: 8-bits
+    Green: 8-bits
+    Blue: 8-bits
+  Channel statistics:
+    Red:
+      Min: 0 (0)
+      Max: 255 (1)
+      Mean: 3.62 (0.0141961)
+      Standard deviation: 29.3455 (0.11508)
+    Green:
+      Min: 0 (0)
+      Max: 255 (1)
+      Mean: 3.66667 (0.0143791)
+      Standard deviation: 29.3977 (0.115285)
+    Blue:
+      Min: 0 (0)
+      Max: 255 (1)
+      Mean: 4.49333 (0.0176209)
+      Standard deviation: 32.0331 (0.12562)
+  Colors: 4
+         0: (  0,  0,  0)	black
+         1: ( 33, 40,164)	#2128A4
+         2: (255,255,255)	white
+         3: (255,255,255)	white
+  Histogram:
+        44: (  0,  0,  0)	black
+        39: ( 33, 40,164)	#2128A4
+        67: (255,255,255)	white
+  Rendering-intent: Undefined
+  Resolution: 28.34x28.34
+  Units: Undefined
+  Filesize: 192
+  Interlace: None
+  Background Color: white
+  Border Color: #DFDFDF
+  Matte Color: grey74
+  Dispose: Undefined
+  Iterations: 0
+  Compression: Undefined
+  Orientation: Undefined
+  Signature: d8853f347375a8c7a417e18840c0b65719c7bbd56f0ff0684fc6aa8cc5b7cd94
+  Tainted: False
+  Version: ImageMagick 6.2.3 06/08/05 Q16 http://www.imagemagick.org

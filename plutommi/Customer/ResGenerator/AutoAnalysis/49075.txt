@@ -1,0 +1,79 @@
+Image: ..\..\..\plutommi\CUSTOMER\IMAGES\PLUTO\MAINLCD\DLAGENT\DL_WAIT.BMP
+  Format: BMP (Microsoft Windows bitmap image)
+  Geometry: 20x20
+  Class: PseudoClass
+  Type: Palette
+  Endianess: Undefined
+  Colorspace: RGB
+  Channel depth:
+    Red: 1-bits
+    Green: 8-bits
+    Blue: 8-bits
+  Channel statistics:
+    Red:
+      Min: 0 (0)
+      Max: 255 (1)
+      Mean: 10.8375 (0.0425)
+      Standard deviation: 51.4404 (0.201727)
+    Green:
+      Min: 0 (0)
+      Max: 255 (1)
+      Mean: 8.3075 (0.0325784)
+      Standard deviation: 40.771 (0.159886)
+    Blue:
+      Min: 0 (0)
+      Max: 255 (1)
+      Mean: 1.3125 (0.00514706)
+      Standard deviation: 17.9849 (0.0705288)
+  Colors: 18
+         0: (  0,  0,  0)	black
+         1: (255,254,  0)	#FFFE00
+         2: (255,249,  0)	#FFF900
+         3: (255,250,  0)	#FFFA00
+         4: (255,233,  1)	#FFE901
+         5: (255,226,  1)	#FFE201
+         6: (255,217,  1)	#FFD901
+         7: (255,198,  1)	#FFC601
+         8: (255,189,  1)	#FFBD01
+         9: (255,179,  1)	#FFB301
+        10: (255,169,  1)	#FFA901
+        11: (255,151,  1)	#FF9701
+        12: (255,141,  2)	#FF8D02
+        13: (255,133,  1)	#FF8501
+        14: (255,110,  2)	#FF6E02
+        15: (255,114,  2)	#FF7202
+        16: (255,255,255)	white
+        17: (255,255,255)	white
+  Histogram:
+       292: (  0,  0,  0)	black
+         6: (255,110,  2)	#FF6E02
+         3: (255,114,  2)	#FF7202
+         3: (255,133,  1)	#FF8501
+         3: (255,141,  2)	#FF8D02
+         3: (255,151,  1)	#FF9701
+         3: (255,169,  1)	#FFA901
+         3: (255,179,  1)	#FFB301
+         3: (255,189,  1)	#FFBD01
+         3: (255,198,  1)	#FFC601
+         3: (255,217,  1)	#FFD901
+         3: (255,226,  1)	#FFE201
+         3: (255,233,  1)	#FFE901
+         3: (255,249,  0)	#FFF900
+         3: (255,250,  0)	#FFFA00
+         3: (255,254,  0)	#FFFE00
+        60: (255,255,255)	white
+  Rendering-intent: Undefined
+  Resolution: 28.34x28.34
+  Units: Undefined
+  Filesize: 528
+  Interlace: None
+  Background Color: white
+  Border Color: #DFDFDF
+  Matte Color: grey74
+  Dispose: Undefined
+  Iterations: 0
+  Compression: Undefined
+  Orientation: Undefined
+  Signature: 7c1dd204462731b8c3681d6d41a9cfeca04f13a5b13a4d4d01f8d88a389ba3da
+  Tainted: False
+  Version: ImageMagick 6.2.3 06/08/05 Q16 http://www.imagemagick.org

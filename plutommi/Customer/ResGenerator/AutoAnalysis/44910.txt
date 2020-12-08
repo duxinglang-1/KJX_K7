@@ -1,0 +1,107 @@
+Image: ..\..\..\plutommi\CUSTOMER\IMAGES\PLUTO\MAINLCD\TODOLIST\OT_LOCATION.BMP
+  Format: BMP (Microsoft Windows bitmap image)
+  Geometry: 26x26
+  Class: PseudoClass
+  Type: Palette
+  Endianess: Undefined
+  Colorspace: RGB
+  Channel depth:
+    Red: 8-bits
+    Green: 8-bits
+    Blue: 8-bits
+  Channel statistics:
+    Red:
+      Min: 0 (0)
+      Max: 255 (1)
+      Mean: 8.82249 (0.034598)
+      Standard deviation: 42.8951 (0.168216)
+    Green:
+      Min: 0 (0)
+      Max: 255 (1)
+      Mean: 6.15089 (0.0241211)
+      Standard deviation: 31.8938 (0.125074)
+    Blue:
+      Min: 0 (0)
+      Max: 255 (1)
+      Mean: 2.6716 (0.0104769)
+      Standard deviation: 20.057 (0.0786548)
+  Colors: 32
+         0: (  0,  0,  0)	black
+         1: (255,224,119)	#FFE077
+         2: (255,184, 12)	#FFB80C
+         3: (202,139,  0)	#CA8B00
+         4: (250,167,  9)	#FAA709
+         5: (250,193, 94)	#FAC15E
+         6: (255,207,120)	#FFCF78
+         7: (183,124, 28)	#B77C1C
+         8: (245,182, 76)	#F5B64C
+         9: (252,221,171)	#FCDDAB
+        10: (209,124,  1)	#D17C01
+        11: (216,137, 23)	#D88917
+        12: (236,156, 41)	#EC9C29
+        13: (237,168, 61)	#EDA83D
+        14: (164, 95,  0)	#A45F00
+        15: (199,114,  1)	#C77201
+        16: (230,145, 30)	#E6911E
+        17: (172,119, 47)	#AC772F
+        18: (198,143, 70)	#C68F46
+        19: (194,106,  0)	#C26A00
+        20: (251,238,223)	#FBEEDF
+        21: (142, 70,  0)	#8E4600
+        22: (189, 89,  0)	#BD5900
+        23: (239,188,152)	#EFBC98
+        24: (125, 44,  0)	#7D2C00
+        25: (178, 90, 52)	#B25A34
+        26: ( 89, 15,  0)	#590F00
+        27: ( 60,  0,  0)	#3C0000
+        28: (  6,  0,  0)	#060000
+        29: (  3,  0,  0)	#030000
+        30: (225,221,221)	#E1DDDD
+        31: (255,255,255)	white
+  Histogram:
+       295: (  0,  0,  0)	black
+         4: (  3,  0,  0)	#030000
+         2: (  6,  0,  0)	#060000
+         6: ( 60,  0,  0)	#3C0000
+        15: ( 89, 15,  0)	#590F00
+         5: (125, 44,  0)	#7D2C00
+        18: (142, 70,  0)	#8E4600
+        12: (164, 95,  0)	#A45F00
+         7: (189, 89,  0)	#BD5900
+         1: (178, 90, 52)	#B25A34
+         5: (183,124, 28)	#B77C1C
+         5: (172,119, 47)	#AC772F
+         7: (194,106,  0)	#C26A00
+         9: (199,114,  1)	#C77201
+        53: (209,124,  1)	#D17C01
+        27: (202,139,  0)	#CA8B00
+         5: (216,137, 23)	#D88917
+         6: (230,145, 30)	#E6911E
+        11: (236,156, 41)	#EC9C29
+        17: (250,167,  9)	#FAA709
+        21: (255,184, 12)	#FFB80C
+        17: (237,168, 61)	#EDA83D
+         4: (198,143, 70)	#C68F46
+        23: (245,182, 76)	#F5B64C
+        12: (250,193, 94)	#FAC15E
+        12: (255,207,120)	#FFCF78
+        25: (255,224,119)	#FFE077
+         7: (239,188,152)	#EFBC98
+        22: (252,221,171)	#FCDDAB
+        10: (225,221,221)	#E1DDDD
+        13: (251,238,223)	#FBEEDF
+  Rendering-intent: Undefined
+  Resolution: 28.34x28.34
+  Units: Undefined
+  Filesize: 912
+  Interlace: None
+  Background Color: white
+  Border Color: #DFDFDF
+  Matte Color: grey74
+  Dispose: Undefined
+  Iterations: 0
+  Compression: Undefined
+  Orientation: Undefined
+  Signature: fbcd273d4cae7d411b297bf492d07c111c28f1365d2b82420db6ff52d7d188e2
+  Tainted: False
+  Version: ImageMagick 6.2.3 06/08/05 Q16 http://www.imagemagick.org

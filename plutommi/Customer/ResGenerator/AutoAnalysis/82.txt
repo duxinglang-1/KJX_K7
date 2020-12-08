@@ -1,0 +1,67 @@
+Image: ..\..\..\plutommi\CUSTOMER\IMAGES\PLUTO\MAINLCD\UIELEMENT\SOFTKEY\SAVE_CSK.BMP
+  Format: BMP (Microsoft Windows bitmap image)
+  Geometry: 20x20
+  Class: PseudoClass
+  Type: Palette
+  Endianess: Undefined
+  Colorspace: RGB
+  Channel depth:
+    Red: 8-bits
+    Green: 8-bits
+    Blue: 8-bits
+  Channel statistics:
+    Red:
+      Min: 0 (0)
+      Max: 255 (1)
+      Mean: 4.14 (0.0162353)
+      Standard deviation: 26.8739 (0.105388)
+    Green:
+      Min: 0 (0)
+      Max: 228 (0.894118)
+      Mean: 3.56 (0.0139608)
+      Standard deviation: 24.0695 (0.0943902)
+    Blue:
+      Min: 0 (0)
+      Max: 228 (0.894118)
+      Mean: 3.5825 (0.014049)
+      Standard deviation: 24.212 (0.0949492)
+  Colors: 12
+         0: (255,  0,  0)	red
+         1: ( 89, 90, 89)	#595A59
+         2: (213,213,212)	#D5D5D4
+         3: (127,150,161)	#7F96A1
+         4: (229,228,228)	#E5E4E4
+         5: (222,222,222)	grey87
+         6: (156,156,156)	grey61
+         7: (112,112,112)	grey44
+         8: (110,110,110)	grey43
+         9: ( 85, 85, 85)	#555555
+        10: ( 58, 58, 58)	#3A3A3A
+        11: (  0,  0,  0)	black
+  Histogram:
+        60: ( 58, 58, 58)	#3A3A3A
+        42: ( 85, 85, 85)	#555555
+         2: ( 89, 90, 89)	#595A59
+        17: (110,110,110)	grey43
+        37: (112,112,112)	grey44
+         6: (127,150,161)	#7F96A1
+       153: (255,  0,  0)	red
+         8: (156,156,156)	grey61
+         7: (213,213,212)	#D5D5D4
+        42: (222,222,222)	grey87
+        26: (229,228,228)	#E5E4E4
+  Rendering-intent: Undefined
+  Resolution: 28.34x28.34
+  Units: Undefined
+  Filesize: 344
+  Interlace: None
+  Background Color: white
+  Border Color: #DFDFDF
+  Matte Color: grey74
+  Dispose: Undefined
+  Iterations: 0
+  Compression: Undefined
+  Orientation: Undefined
+  Signature: 85fbe6b2fc22c03c1fd4510e9fa489a2b929a678f16665724006c2d7d94d9c3f
+  Tainted: False
+  Version: ImageMagick 6.2.3 06/08/05 Q16 http://www.imagemagick.org

@@ -1,0 +1,46 @@
+[APP NAME] = CORE_UCM
+[SCOPE] = PLUTO, COSMOS
+[MODULE] = MOD_MMI_COMMON_APP
+
+#starttrace
+#ucm core
+#kernel
+TRC_MSG(TRC_MMI_UCM_PASS_DIAL_PERMIT_P3, "[UCM] mmi_ucm_pass_dial_permit(), call_type=%d, first_op=%d, first_result=%d")
+TRC_MSG(TRC_MMI_UCM_CALL_TIME_REMINDER_P1, "[UCM] mmi_ucm_call_time_reminder(), staus=%d")
+TRC_MSG(TRC_MMI_UCM_PASS_ANSWER_PERMIT_P3, "[UCM] mmi_ucm_pass_answer_permit(), ret=%d, op =%d, result=%d")
+TRC_MSG(TRC_MMI_UCM_REDIAL_FROM_OTHER_SIM_OPT_P2, "[UCM] mmi_ucm_redial_from_other_sim_option(), call_type=%d, uri_num=%s")
+TRC_MSG(TRC_MMI_UCM_PHB_OPTION_P4, "[UCM] mmi_ucm_phonebook_option(), %d, %d, %d, %d")
+TRC_MSG(TRC_MMI_UCM_CLOG_OPTION_P4, "[UCM] mmi_ucm_calllog_option(), %d, %d, %d, %d")
+TRC_MSG(TRC_MMI_UCM_ENTER_GENERAL_APP_OPTION_P4, "[UCM] mmi_ucm_enter_general_app_option(), %d, %d, %d, %d")
+TRC_MSG(TRC_MMI_UCM_MSG_OPTION_P4, "[UCM] mmi_ucm_message_option(), %d, %d, %d, %d")
+TRC_MSG(TRC_MMI_UCM_GET_GROUP_INDEX_BY_CALL_STATE, "[UCM] mmi_ucm_get_group_index_by_call_state(), state = %d index = %d")
+TRC_MSG(TRC_MMI_UCM_GET_GROUP_INDEX_BY_CALL_STATE_NO_CALL, "[UCM] mmi_ucm_get_group_index_by_call_state(), state = %d NO call found ")
+TRC_MSG(TRC_MMI_UCM_GET_CALL_INDEX_LIST_BY_GROUP_INDEX_P3, "[UCM] mmi_ucm_get_call_index_list_by_group_index(),group_index= %d, total_call_count= %d, ret_num=%d")
+TRC_MSG(TRC_MMI_UCM_DTMF_OPTION, "[UCM] mmi_ucm_dtmf_option(), Same as Mute Condition")
+TRC_MSG(TRC_MMI_UCM_GET_GROUP_INDEX_BY_CALL_STATE_AND_TYPE_NO_CALL, "[UCM] mmi_ucm_get_group_index_by_call_state_and_type(), state = %d type = %d NO call found ")
+TRC_MSG(TRC_MMI_UCM_APP_UID_INFO_P4, "[UCM] UID_info, NO. = %d, group_id = %d, call_id=%d, call_type(or call_state)=%d")
+TRC_MSG(TRC_MMI_UCM_APP_OPTION_CHECK_P2, "[UCM] option check, act = %d, result = %d")
+TRC_MSG(TRC_MMI_UCM_CALL_SRV_IS_AVAILABLE_P2, "[UCM] srv_ucm_is_call_srv_available(call_type=%d) = %d")
+TRC_MSG(TRC_MMI_UCM_IS_ECC_NUMBER_P2, "[UCM] mmi_ucm_is_emergency_number(), result=%d")
+TRC_MSG(TRC_MMI_UCM_IGNORE_END_ALL_PROCESSING_ACTION_P1, "[UCM] IGNORE mmi_ucm_end_all_processing_action(), result=%d")
+TRC_MSG(TRC_MMI_UCM_PXS_NEED_TO_PROCESS_P1,"[UCM] mmi_ucm_pxs_need_to_process(), status = %d ")
+TRC_MSG(TRC_MMI_UCM_PLAY_TONE_WITH_TEXT_CALLBACK, "[UCM] mmi_ucm_play_tone_with_text_callback(), Callback_result: %d")
+TRC_MSG(TRC_MMI_UCM_CHECK_POST_ACTION_ABOUT_SIM, "[UCM] mmi_ucm_check_post_action_about_sim()")
+TRC_MSG(TRC_MMI_UCM_ECC_CHECK_HDLR_P3, "[UCM] mmi_ucm_ecc_check_handler(), act=%d, call_type=%d, ret=%d")
+TRC_MSG(TRC_MMI_UCM_ECC_CHECK_HDLR_P2, "[UCM] mmi_ucm_ecc_check_handler(), dial_type= %d, consider_temp_status = %d")
+TRC_MSG(TRC_MMI_UCM_ECC_CHECK_HDLR_P1, "[UCM] mmi_ucm_ecc_check_handler(), dial_type= %d tmp not available")
+TRC_MSG(TRC_MMI_UCM_SET_NO_COUNTER_STATUS_P1, "[UCM] mmi_ucm_set_no_counter_status(), no_counter= %d")
+TRC_MSG(TRC_MMI_UCM_GET_NO_COUNTER_STATUS_P1, "[UCM] mmi_ucm_get_no_counter_status(), no_counter= %d")
+TRC_MSG(TRC_MMI_UCM_AL_FSM_HDLR_P2, "[UCM] mmi_ucm_auto_lock_FSM_hdlr() event = %d, orig_state = %d")
+TRC_MSG(TRC_MMI_UCM_AL_FSM_HDLR_P1, "[UCM] mmi_ucm_auto_lock_FSM_hdlr() new_state = %d")
+
+#uha
+TRC_MSG(TRC_MMI_UCM_URI_AGENT_SEND_DTMF_CHECK_HDLR, "[UCM] mmi_ucm_uha_send_dtmf_check_hdlr(),  result:%d")
+TRC_MSG(TRC_MMI_UCM_URI_AGENT_PARSE_URI_LEN_EXCEED, "[UCM] mmi_ucm_uriagent_parse_uri(),  len exceeds:%d")
+TRC_MSG(TRC_MMI_UCM_URI_AGENT_PARSE_URI_ATTR_LEN_EXCEED, "[UCM] mmi_ucm_uriagent_parse_uri(),  attr(%d) or value(%d) len exceeds")
+TRC_MSG(TRC_MMI_UCM_URI_AGENT_PARSE_URI_EXT_EXCEEDS, "[UCM] mmi_ucm_uriagent_parse_uri(), ext. number exceeds:%d")
+TRC_MSG(TRC_MMI_UCM_URI_AGENT_PARSE_URI_EXT_NO_VALUE, "[UCM] mmi_ucm_uriagent_parse_uri(), ext. number no value")
+TRC_MSG(TRC_MMI_UCM_URI_AGENT_STOP_SENDING_DTMF, "[UCM] mmi_ucm_stop_sending_dtmf(),  call_type: %d")
+
+
+

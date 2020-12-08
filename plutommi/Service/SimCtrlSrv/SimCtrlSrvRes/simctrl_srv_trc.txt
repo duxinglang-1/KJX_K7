@@ -1,0 +1,21 @@
+[APP NAME] = SIMCTRL SRV
+[SCOPE] = PLUTO, COSMOS
+[MODULE] = MOD_MMI_COMMON_APP
+
+#start trace
+TRC_MSG(TRC_SRV_SIM_CTRL_EMIT_CHANGE_EVENTS,  "[SimCtrl] srv_sim_ctrl_emit_change_events(): sim = %Mmmi_sim_enum, force = %d, unavi_cause = %d -> %d")
+TRC_MSG(TRC_SRV_SIM_CTRL_REMAINING_ATTEMPTS,  "[SimCtrl] srv_sim_ctrl_update_chv_info(): sim = %Mmmi_sim_enum, chv1 = %d, chv2 = %d, ubchv1 = %d, ubchv2 = %d")
+TRC_MSG(TRC_SRV_SIM_CTRL_CHV_INFO,            "[SimCtrl] srv_sim_ctrl_update_chv_info(): chv1 = (%d/%d), chv2 = (%d/%d) (enabled/verified)")
+TRC_MSG(TRC_SRV_SIM_CTRL_EMIT_REFRESHED_EVENT, "[SimCtrl] srv_sim_ctrl_emit_refreshed_event(sim = %Mmmi_sim_enum)")
+TRC_MSG(TRC_SRV_SIM_CTRL_VERIFY,        "[SimCtrl] srv_sim_ctrl_verify(sim = %Mmmi_sim_enum, pwd_type = %d, proc = 0x%x)")
+TRC_MSG(TRC_SRV_SIM_CTRL_VERIFY_RESULT, "[SimCtrl] srv_sim_ctrl_verify_pin_rsp_hdlr(): sim = %Mmmi_sim_enum, proc = 0x%x, type = %d, suc = %d")
+TRC_MSG(TRC_SRV_SIM_CTRL_SYNC,          "[SimCtrl] srv_sim_ctrl_sync(%Mmmi_sim_enum, proc = 0x%x): session# = %d, send_request = %d")
+TRC_MSG(TRC_SRV_SIM_CTRL_SYNC_CALLBACK, "[SimCtrl] srv_sim_ctrl_check_pin_status_rsp_hdlr(%Mmmi_sim_enum): session# = %d, callback 0x%x")
+TRC_MSG(TRC_SRV_SIM_CTRL_SET_ENABLED,          "[SimCtrl] srv_sim_ctrl_set_enabled(%Mmmi_sim_enum, type = %d, enabled = %d, proc = 0x%x)")
+TRC_MSG(TRC_SRV_SIM_CTRL_SET_ENABLED_RESULT,   "[SimCtrl] srv_sim_ctrl_smu_lock_rsp_hdlr(%Mmmi_sim_enum), proc = 0x%x, type = %d, suc = %d, fail_cause = %d")
+TRC_MSG(TRC_SRV_SIM_CTRL_CHANGE_PASSWORD,      "[SimCtrl] srv_sim_ctrl_change_password(%Mmmi_sim_enum, type = %d, proc = 0x%x)")
+TRC_MSG(TRC_SRV_SIM_CTRL_CHANGE_PASSWORD_RESULT, "[SimCtrl] srv_sim_ctrl_change_password_hdlr(%Mmmi_sim_enum), proc = 0x%x, type = %d, suc = %d, fail_cause = %d")
+TRC_MSG(TRC_SRV_SIM_CTRL_EVENT_DETECTED,        "[SimCtrl] srv_sim_ctrl_emit_event_detection(): sim = %Mmmi_sim_enum, type = %d, change_check = %d")
+TRC_MSG(TRC_SRV_SIM_CTRL_GET_OP,                "[SimCtrl] srv_sim_ctrl_get_op(): operator = %Msrv_sim_ctrl_op_enum")
+TRC_MSG(TRC_SRV_SIM_CTRL_HPLMN_UPDATE,          "[SimCtrl] srv_sim_ctrl_notify_home_plmn_updated(): sim  = %Mmmi_sim_enum, PLMN = %s")
+

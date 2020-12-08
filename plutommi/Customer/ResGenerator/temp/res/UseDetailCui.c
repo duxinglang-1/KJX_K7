@@ -1,0 +1,105 @@
+/* Needed header files of the compile option in XML files, if you need others need to add here */
+#include "MMI_features.h"
+#include "custresdef.h"
+
+<?xml version="1.0" encoding="UTF-8"?>
+<APP id="CUI_USE_DETAIL">
+
+    <!----- Include Area ------------------------------------------------------>
+    <INCLUDE file="GlobalResDef.h"/>
+
+    <!----- String Resource Area ---------------------------------------------->
+#ifdef __MMI_EMAIL__
+    <STRING id="STR_ID_USE_DETAIL_SEND_EMAIL"/>
+#endif /* __MMI_EMAIL__ */
+#ifdef __MMI_BRW_BKM_INTERFACE_SUPPORT__
+    <STRING id="STR_ID_USE_DETAIL_ADD_TO_BOOKMARK"/>
+#endif /* __MMI_BRW_BKM_INTERFACE_SUPPORT__ */
+#ifdef __OP01__
+    <STRING id="STR_ID_USE_DETAIL_GO_TO_WAP_CONFIRM"/>
+#endif /* __OP01__ */
+
+#if defined(__MMI_DYNAMIC_SIM_DYNAMIC_UI__) || defined(__MMI_DIALER_DYNAMIC_CALL_UI__)
+        <STRING id="STR_ID_USE_DETAIL_SIM_SELECT"/>
+#if (MMI_MAX_SIM_NUM >= 2)
+        <STRING id="STR_ID_USE_DETAIL_FROM_SIM1"/>
+        <STRING id="STR_ID_USE_DETAIL_FROM_SIM2"/>
+#if (MMI_MAX_SIM_NUM >= 3)
+        <STRING id="STR_ID_USE_DETAIL_FROM_SIM3"/>
+#if (MMI_MAX_SIM_NUM >= 4)
+        <STRING id="STR_ID_USE_DETAIL_FROM_SIM4"/>
+#endif /* (MMI_MAX_SIM_NUM >= 4) */
+#endif /* (MMI_MAX_SIM_NUM >= 3) */
+#endif /* (MMI_MAX_SIM_NUM >= 2) */
+#endif /* defined(__MMI_DYNAMIC_SIM_DYNAMIC_UI__) || defined(__MMI_DIALER_DYNAMIC_CALL_UI__) */
+
+
+    <!----- Image Resource Area ----------------------------------------------->
+
+    <!----- Screen Resource Area ---------------------------------------------->
+    <SCREEN id="SCR_ID_CUI_USE_DETAIL_EDIT"/>
+    <SCREEN id="SCR_ID_CUI_USE_DETAIL_VIEW_LIST"/>
+
+    <!----- Menu Resource Area ------------------------------------------------>    
+    <MENUITEM id="MENU_ID_USE_DETAIL_OPT_CALL" str="STR_GLOBAL_DIAL"/>
+    <MENUITEM id="MENU_ID_USE_DETAIL_OPT_SAVE_NUM_TO_PHB" str="STR_GLOBAL_SAVE_TO_PHONEBOOK"/>
+    <MENUITEM id="MENU_ID_USE_DETAIL_OPT_SEND_SMS" str="STR_GLOBAL_SEND_TEXT_MESSAGE"/>
+    <MENUITEM id="MENU_ID_USE_DETAIL_OPT_SEND_MMS" str="STR_GLOBAL_SEND_MULTIMEDIA_MESSAGE"/>
+    <MENUITEM id="MENU_ID_USE_DETAIL_OPT_SAVE_EMAIL_TO_PHB" str="STR_GLOBAL_SAVE_TO_PHONEBOOK"/>
+    <MENUITEM id="MENU_ID_USE_DETAIL_OPT_SEND_EMAIL"
+#ifdef __MMI_EMAIL__
+        str="STR_ID_USE_DETAIL_SEND_EMAIL"
+#endif /* __MMI_EMAIL__ */
+    />
+    <MENUITEM id="MENU_ID_USE_DETAIL_OPT_GO_TO_WAP" str="STR_GLOBAL_GO_TO"/>
+    <MENUITEM id="MENU_ID_USE_DETAIL_OPT_ADD_TO_BOOKMARK"
+#ifdef __MMI_BRW_BKM_INTERFACE_SUPPORT__
+        str="STR_ID_USE_DETAIL_ADD_TO_BOOKMARK"
+#endif /* __MMI_BRW_BKM_INTERFACE_SUPPORT__ */
+    />
+
+    <MENU id="MENU_ID_USE_DETAIL_PHONENUMBER_OPT" type="OPTION" str="STR_GLOBAL_OPTIONS">
+        <MENUITEM_ID>MENU_ID_USE_DETAIL_OPT_CALL</MENUITEM_ID>
+        <MENUITEM_ID>MENU_ID_USE_DETAIL_OPT_SAVE_NUM_TO_PHB</MENUITEM_ID>
+        <MENUITEM_ID>MENU_ID_USE_DETAIL_OPT_SEND_SMS</MENUITEM_ID>
+        <MENUITEM_ID>MENU_ID_USE_DETAIL_OPT_SEND_MMS</MENUITEM_ID>
+    </MENU>
+
+    <MENU id="MENU_ID_USE_DETAIL_USSD_OPT" type="OPTION" str="STR_GLOBAL_OPTIONS">
+        <MENUITEM_ID>MENU_ID_USE_DETAIL_OPT_CALL</MENUITEM_ID>
+        <MENUITEM_ID>MENU_ID_USE_DETAIL_OPT_SAVE_NUM_TO_PHB</MENUITEM_ID>
+    </MENU>
+
+    <MENU id="MENU_ID_USE_DETAIL_EMAIL_OPT" type="OPTION" str="STR_GLOBAL_OPTIONS">
+        <MENUITEM_ID>MENU_ID_USE_DETAIL_OPT_SAVE_EMAIL_TO_PHB</MENUITEM_ID>
+        <MENUITEM_ID>MENU_ID_USE_DETAIL_OPT_SEND_EMAIL</MENUITEM_ID>
+    </MENU>
+
+    <MENU id="MENU_ID_USE_DETAIL_URL_OPT" type="OPTION" str="STR_GLOBAL_OPTIONS">
+        <MENUITEM_ID>MENU_ID_USE_DETAIL_OPT_GO_TO_WAP</MENUITEM_ID>
+        <MENUITEM_ID>MENU_ID_USE_DETAIL_OPT_ADD_TO_BOOKMARK</MENUITEM_ID>
+    </MENU>
+
+
+#if defined(__MMI_DYNAMIC_SIM_DYNAMIC_UI__) || defined(__MMI_DIALER_DYNAMIC_CALL_UI__)
+#if (MMI_MAX_SIM_NUM >= 2)
+    <MENUITEM id="MENU_ID_USE_DETAIL_FROM_SIM1" str="STR_ID_USE_DETAIL_FROM_SIM1"/>
+    <MENUITEM id="MENU_ID_USE_DETAIL_FROM_SIM2" str="STR_ID_USE_DETAIL_FROM_SIM2"/>
+#if (MMI_MAX_SIM_NUM >= 3)
+    <MENUITEM id="MENU_ID_USE_DETAIL_FROM_SIM3" str="STR_ID_USE_DETAIL_FROM_SIM3"/>
+#if (MMI_MAX_SIM_NUM >= 4)
+    <MENUITEM id="MENU_ID_USE_DETAIL_FROM_SIM4" str="STR_ID_USE_DETAIL_FROM_SIM4"/>
+#endif /* (MMI_MAX_SIM_NUM >= 4) */
+#endif /* (MMI_MAX_SIM_NUM >= 3) */
+#endif /* (MMI_MAX_SIM_NUM >= 2) */
+
+    <MENU id="MENU_ID_USE_DETAIL_SIM_SELECT" type="OPTION" str="STR_ID_USE_DETAIL_SIM_SELECT">
+        <MENUITEM_ID>MENU_ID_USE_DETAIL_FROM_SIM1</MENUITEM_ID>
+        <MENUITEM_ID>MENU_ID_USE_DETAIL_FROM_SIM2</MENUITEM_ID>
+        <MENUITEM_ID>MENU_ID_USE_DETAIL_FROM_SIM3</MENUITEM_ID>
+        <MENUITEM_ID>MENU_ID_USE_DETAIL_FROM_SIM4</MENUITEM_ID>
+    </MENU>
+#endif /* defined(__MMI_DYNAMIC_SIM_DYNAMIC_UI__) || defined(__MMI_DIALER_DYNAMIC_CALL_UI__) */
+
+</APP>
+

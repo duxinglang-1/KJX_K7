@@ -1,0 +1,1 @@
+1	BINARY_GLOBAL_NO_BINARY	Empty binary data file	../../MMI/Resource/PopulateRes.c	0	1	..\\..\\Customer\\Binary\\NoBinary.bin	APP name unknown	

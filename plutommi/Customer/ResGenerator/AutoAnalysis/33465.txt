@@ -1,0 +1,34 @@
+Image: ..\..\..\plutommi\CUSTOMER\IMAGES\PLUTO\MAINLCD\NUM_BIG\3.BMP
+  Format: BMP (Microsoft Windows bitmap image)
+  Geometry: 14x22
+  Class: DirectClass
+  Type: Bilevel
+  Endianess: Undefined
+  Colorspace: Gray
+  Channel depth:
+    Gray: 1-bits
+  Channel statistics:
+    Gray:
+      Min: 0 (0)
+      Max: 1 (1)
+      Mean: 0.399351 (0.399351)
+      Standard deviation: 0.489765 (0.489765)
+  Colors: 2
+  Histogram:
+       185: (  0,  0,  0)	black
+       123: (255,255,255)	white
+  Rendering-intent: Undefined
+  Resolution: 28.34x28.34
+  Units: Undefined
+  Filesize: 672
+  Interlace: None
+  Background Color: white
+  Border Color: #DFDFDF
+  Matte Color: grey74
+  Dispose: Undefined
+  Iterations: 0
+  Compression: Undefined
+  Orientation: Undefined
+  Signature: 7b5789ef838763e64bd6732dcb0948660f11cf39755a9ea3f16b86a9a624b3b4
+  Tainted: False
+  Version: ImageMagick 6.2.3 06/08/05 Q16 http://www.imagemagick.org

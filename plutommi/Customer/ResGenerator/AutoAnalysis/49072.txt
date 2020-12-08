@@ -1,0 +1,55 @@
+Image: ..\..\..\plutommi\CUSTOMER\IMAGES\PLUTO\MAINLCD\DLAGENT\DL_COMPLETE.BMP
+  Format: BMP (Microsoft Windows bitmap image)
+  Geometry: 15x15
+  Class: PseudoClass
+  Type: Palette
+  Endianess: Undefined
+  Colorspace: RGB
+  Channel depth:
+    Red: 8-bits
+    Green: 8-bits
+    Blue: 8-bits
+  Channel statistics:
+    Red:
+      Min: 0 (0)
+      Max: 255 (1)
+      Mean: 4.73778 (0.0185795)
+      Standard deviation: 33.06 (0.129647)
+    Green:
+      Min: 0 (0)
+      Max: 255 (1)
+      Mean: 4.32889 (0.016976)
+      Standard deviation: 30.4791 (0.119526)
+    Blue:
+      Min: 0 (0)
+      Max: 255 (1)
+      Mean: 4.22222 (0.0165577)
+      Standard deviation: 29.7794 (0.116782)
+  Colors: 7
+         0: (251,  0, 47)	#FB002F
+         1: (255,255,255)	white
+         2: ( 24, 81,132)	#185184
+         3: ( 46,151, 31)	#2E971F
+         4: (235,232,230)	#EBE8E6
+         5: (255,255,255)	white
+         6: (  0,  0,  0)	black
+  Histogram:
+        48: ( 24, 81,132)	#185184
+        24: ( 46,151, 31)	#2E971F
+        56: (251,  0, 47)	#FB002F
+        97: (235,232,230)	#EBE8E6
+  Rendering-intent: Undefined
+  Resolution: 28.34x28.34
+  Units: Undefined
+  Filesize: 324
+  Interlace: None
+  Background Color: white
+  Border Color: #DFDFDF
+  Matte Color: grey74
+  Dispose: Undefined
+  Iterations: 0
+  Compression: Undefined
+  Orientation: Undefined
+  Signature: 8fa33b6086f1e8e58ab08fc8458eff27b945a78131920127fe313df297a0d667
+  Tainted: False
+  Version: ImageMagick 6.2.3 06/08/05 Q16 http://www.imagemagick.org

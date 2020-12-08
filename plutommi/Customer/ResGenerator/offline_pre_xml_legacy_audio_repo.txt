@@ -1,0 +1,4 @@
+1	ADO_GLOBAL_EMPTYAUDIO	..\\..\\Customer\\Audio\\EmptyAudio.mp3	../../MMI/Resource/PopulateRes.c	0	0	255	..\\..\\Customer\\Audio\\EmptyAudio.mp3	APP name unknown	
+2	ADO_GLOBAL_EMPTYAUDIO_EXT	..\\..\\Customer\\Audio\\EmptyAudio.mp3	../../MMI/Resource/PopulateRes.c	0	1	255	..\\..\\Customer\\Audio\\EmptyAudio.mp3	APP name unknown	
+3	ADO_GLOBAL_NOAUDIO	..\\..\\Customer\\Audio\\NoAudio.mp3	../../MMI/Resource/PopulateRes.c	0	0	255	..\\..\\Customer\\Audio\\NoAudio.mp3	APP name unknown	
+4	ADO_GLOBAL_DEFAULT	..\\..\\Customer\\Audio\\Default.mp3	../../MMI/Resource/PopulateRes.c	0	0	255	..\\..\\Customer\\Audio\\Default.mp3	APP name unknown	

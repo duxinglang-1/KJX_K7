@@ -1,0 +1,8 @@
+[11:21:13.11] start 
+[11:21:14.23] Log tool version
+[11:21:14.28] Copied files 
+[11:21:34.47] Executed make resgen_xml.exe 
+[11:22:49.16] Executed copy *.res 
+[11:22:51.88] Executed mmi_res_check.pl 
+[11:27:49.93] Executed pre-process *.res 
+[11:29:34.59] Executed parse *.res 

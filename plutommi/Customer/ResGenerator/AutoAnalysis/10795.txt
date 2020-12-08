@@ -1,0 +1,58 @@
+Image: ..\..\..\plutommi\CUSTOMER\IMAGES\PLUTO\MAINLCD\UIELEMENT\ARROW\PV_ARR_DISABLED.BMP
+  Format: BMP (Microsoft Windows bitmap image)
+  Geometry: 19x17
+  Class: PseudoClass
+  Type: Palette
+  Endianess: Undefined
+  Colorspace: RGB
+  Channel depth:
+    Red: 8-bits
+    Green: 8-bits
+    Blue: 8-bits
+  Channel statistics:
+    Red:
+      Min: 0 (0)
+      Max: 255 (1)
+      Mean: 3.6161 (0.0141808)
+      Standard deviation: 27.0813 (0.106201)
+    Green:
+      Min: 0 (0)
+      Max: 255 (1)
+      Mean: 2.82663 (0.0110848)
+      Standard deviation: 23.1768 (0.0908895)
+    Blue:
+      Min: 0 (0)
+      Max: 255 (1)
+      Mean: 3.6161 (0.0141808)
+      Standard deviation: 27.0813 (0.106201)
+  Colors: 8
+         0: (255,  0,255)	fuchsia
+         1: (255,255,255)	white
+         2: (120,120,120)	grey47
+         3: (233,233,233)	#E9E9E9
+         4: (181,181,181)	grey71
+         5: ( 93, 93, 93)	#5D5D5D
+         6: ( 31, 31, 31)	grey12
+         7: (  0,  0,  0)	black
+  Histogram:
+        60: ( 31, 31, 31)	grey12
+        28: ( 93, 93, 93)	#5D5D5D
+       170: (120,120,120)	grey47
+        12: (255,  0,255)	fuchsia
+        28: (181,181,181)	grey71
+        25: (233,233,233)	#E9E9E9
+  Rendering-intent: Undefined
+  Resolution: 28.34x28.34
+  Units: Undefined
+  Filesize: 428
+  Interlace: None
+  Background Color: white
+  Border Color: #DFDFDF
+  Matte Color: grey74
+  Dispose: Undefined
+  Iterations: 0
+  Compression: Undefined
+  Orientation: Undefined
+  Signature: 205ee44e53533eafc0a5751262b7d2a72e754bec67d11b77cccbb9c6e25e4289
+  Tainted: False
+  Version: ImageMagick 6.2.3 06/08/05 Q16 http://www.imagemagick.org

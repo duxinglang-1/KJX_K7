@@ -1,0 +1,74 @@
+Image: ..\..\..\plutommi\CUSTOMER\IMAGES\PLUTO\MAINLCD\SIGNAL\0.BMP
+  Format: BMP (Microsoft Windows bitmap image)
+  Geometry: 13x10
+  Class: DirectClass
+  Type: Grayscale
+  Endianess: Undefined
+  Colorspace: Gray
+  Channel depth:
+    Gray: 8-bits
+  Channel statistics:
+    Gray:
+      Min: 0 (0)
+      Max: 255 (1)
+      Mean: 38.4846 (0.15092)
+      Standard deviation: 63.713 (0.249855)
+  Colors: 42
+  Histogram:
+        78: (  0,  0,  0)	black
+         1: (  1,  1,  1)	#010101
+         1: (  2,  2,  2)	#020202
+         1: (  5,  5,  5)	grey2
+         1: (  7,  7,  7)	#070707
+         1: ( 15, 15, 15)	grey6
+         1: ( 17, 17, 17)	#111111
+         2: ( 30, 30, 30)	#1E1E1E
+         1: ( 35, 35, 35)	#232323
+         1: ( 34, 34, 34)	#222222
+         1: ( 37, 37, 37)	#252525
+         1: ( 41, 41, 41)	grey16
+         1: ( 40, 40, 40)	#282828
+         1: ( 43, 43, 43)	grey17
+         2: ( 58, 58, 58)	#3A3A3A
+         1: ( 59, 59, 59)	grey23
+         1: ( 60, 60, 60)	#3C3C3C
+         3: ( 67, 67, 67)	#434343
+         1: ( 68, 68, 68)	#444444
+         2: ( 72, 72, 72)	#484848
+         2: ( 73, 73, 73)	#494949
+         2: ( 76, 76, 76)	#4C4C4C
+         1: ( 82, 82, 82)	grey32
+         1: ( 83, 83, 83)	#535353
+         2: ( 85, 85, 85)	#555555
+         1: ( 87, 87, 87)	grey34
+         1: ( 88, 88, 88)	#585858
+         1: ( 92, 92, 92)	grey36
+         1: ( 93, 93, 93)	#5D5D5D
+         1: (153,153,153)	grey60
+         1: (167,167,167)	#A7A7A7
+         2: (168,168,168)	grey66
+         1: (172,172,172)	#ACACAC
+         1: (174,174,174)	#AEAEAE
+         2: (176,176,176)	grey69
+         1: (179,179,179)	grey70
+         1: (180,180,180)	#B4B4B4
+         1: (190,190,190)	grey
+         1: (192,192,192)	silver
+         2: (220,220,220)	gainsboro
+         1: (235,235,235)	grey92
+         1: (255,255,255)	white
+  Rendering-intent: Undefined
+  Resolution: 28.34x28.34
+  Units: Undefined
+  Filesize: 454
+  Interlace: None
+  Background Color: white
+  Border Color: #DFDFDF
+  Matte Color: grey74
+  Dispose: Undefined
+  Iterations: 0
+  Compression: Undefined
+  Orientation: Undefined
+  Signature: 4c8e1fb65c06f09ecc7db10d89a3bfdb3ae52a099186bf21ca9ead9453139ed8
+  Tainted: False
+  Version: ImageMagick 6.2.3 06/08/05 Q16 http://www.imagemagick.org

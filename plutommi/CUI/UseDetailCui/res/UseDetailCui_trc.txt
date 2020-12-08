@@ -1,0 +1,14 @@
+[APP NAME] = CUI_USE_DETAIL
+[SCOPE] = PLUTO
+[MODULE] = MOD_MMI_COMMON_APP
+
+#starttrace
+#use detail cui
+
+#Use detail CUI
+TRC_MSG(TRC_CUI_USE_DETAIL_CREATE, "[UseDetail] cui_use_detail_create, group_id = %d, obj_list = %d, obj_count = %d, parent_data = %d")
+TRC_MSG(TRC_CUI_USE_DETAIL_CREATE_CNTX, "[UseDetail] cui_use_detail_create_cntx, use_detail_cntx = %d")
+TRC_MSG(TRC_CUI_USE_DETAIL_SET_MODE, "[UseDetail] cui_use_detail_set_mode, cui_id = %d, use_detail_cntx = %d, mode_list = %d, list_count = %d")
+TRC_MSG(TRC_CUI_USE_DETAIL_SET_VIEW_FLAG, "[UseDetail] cui_use_detail_set_view_flag, cui_id = %d, use_detail_cntx = %d, view_flag = %d")
+TRC_MSG(TRC_CUI_USE_DETAIL_CLOSE, "[UseDetail] cui_use_detail_close, group_id = %d, result = %d, close_type = %d, use_detail_cntx = %d")
+TRC_MSG(TRC_CUI_USE_DETAIL_OPERATE_HDLR, "[UseDetail] cui_use_detail_operate, operate = %d")

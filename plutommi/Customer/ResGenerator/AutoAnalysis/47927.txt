@@ -1,0 +1,77 @@
+Image: ..\..\..\plutommi\CUSTOMER\IMAGES\PLUTO\MAINLCD\SUBMENU\UNIMESSAGE\UNI_UNSENT.BMP
+  Format: BMP (Microsoft Windows bitmap image)
+  Geometry: 26x26
+  Class: PseudoClass
+  Type: Palette
+  Endianess: Undefined
+  Colorspace: RGB
+  Channel depth:
+    Red: 8-bits
+    Green: 8-bits
+    Blue: 8-bits
+  Channel statistics:
+    Red:
+      Min: 0 (0)
+      Max: 255 (1)
+      Mean: 4.61391 (0.0180937)
+      Standard deviation: 30.8488 (0.120976)
+    Green:
+      Min: 0 (0)
+      Max: 218 (0.854902)
+      Mean: 3.63462 (0.0142534)
+      Standard deviation: 24.5326 (0.0962062)
+    Blue:
+      Min: 0 (0)
+      Max: 211 (0.827451)
+      Mean: 1.59467 (0.00625363)
+      Standard deviation: 14.3919 (0.0564387)
+  Colors: 17
+         0: (255,  0,  0)	red
+         1: (114,167, 35)	#72A723
+         2: (165,202,106)	#A5CA6A
+         3: (255,218,107)	#FFDA6B
+         4: (248,184, 35)	#F8B823
+         5: (247,173, 21)	#F7AD15
+         6: (248,175, 24)	#F8AF18
+         7: (235,153,  0)	#EB9900
+         8: (230,148, 16)	#E69410
+         9: (167,129, 69)	#A78145
+        10: (226,132,  0)	#E28400
+        11: ( 77,124, 13)	#4D7C0D
+        12: (211,211,211)	LightGray
+        13: (167,167,167)	#A7A7A7
+        14: (152,152,152)	#989898
+        15: (122,122,122)	grey48
+        16: (  0,  0,  0)	black
+  Histogram:
+        36: ( 77,124, 13)	#4D7C0D
+        22: (122,122,122)	grey48
+        53: (114,167, 35)	#72A723
+       232: (255,  0,  0)	red
+        60: (167,129, 69)	#A78145
+        11: (165,202,106)	#A5CA6A
+        20: (226,132,  0)	#E28400
+        16: (235,153,  0)	#EB9900
+        10: (230,148, 16)	#E69410
+        20: (247,173, 21)	#F7AD15
+        22: (248,175, 24)	#F8AF18
+        30: (248,184, 35)	#F8B823
+        22: (255,218,107)	#FFDA6B
+        56: (152,152,152)	#989898
+        42: (167,167,167)	#A7A7A7
+        24: (211,211,211)	LightGray
+  Rendering-intent: Undefined
+  Resolution: 28.34x28.34
+  Units: Undefined
+  Filesize: 852
+  Interlace: None
+  Background Color: white
+  Border Color: #DFDFDF
+  Matte Color: grey74
+  Dispose: Undefined
+  Iterations: 0
+  Compression: Undefined
+  Orientation: Undefined
+  Signature: 4898dd7b521d5821fc4d3942ec84f77ad725dd077b96ea22dcf75064b79897e9
+  Tainted: False
+  Version: ImageMagick 6.2.3 06/08/05 Q16 http://www.imagemagick.org

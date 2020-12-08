@@ -1,0 +1,23 @@
+[APP NAME] = DIALERCUI
+[SCOPE] = PLUTO
+[MODULE] = MOD_MMI_COMMON_APP
+
+#starttrace
+
+TRC_MSG(TRC_CUI_DIALER_EMIT_CLOSE_REQ,                  "[DIALER] cui_dialer_emit_close_req, trace: %d")
+TRC_MSG(TRC_CUI_DIALER_EMIT_CLOSED_IND,                 "[DIALER] cui_dialer_emit_closed_ind, trace: %d")
+TRC_MSG(TRC_CUI_DIALER_EMIT_CHANGE_TYPE,                "[DIALER] cui_dialer_emit_change_type, trace: %d, old-type: %d, new-type: %d")
+TRC_MSG(TRC_CUI_DIALER_EMIT_BEFORE_CALL_LAUNCHED,       "[DIALER] cui_dialer_emit_before_call_launched, trace: %d")
+TRC_MSG(TRC_CUI_DIALER_HANDLE_BOOTUP_NORMAL_INIT,       "[DIALER] cui_dialer_handle_bootup_normal_init, trace: %d")
+TRC_MSG(TRC_CUI_DIALER_CREATE,                          "[DIALER] cui_dialer_create, trace: %d")
+TRC_MSG(TRC_CUI_DIALER_CREATE_EX,                       "[DIALER] cui_dialer_create_ex, trace: %d, type: %d")
+TRC_MSG(TRC_CUI_DIALER_RUN,                             "[DIALER] cui_dialer_run, trace: %d")
+TRC_MSG(TRC_CUI_DIALER_CLOSE,                           "[DIALER] cui_dialer_close, trace: %d")
+TRC_MSG(TRC_CUI_DIALER_SET_DIAL_STRING,                 "[DIALER] cui_dialer_set_dial_string, trace: %d")
+TRC_MSG(TRC_CUI_DIALER_SET_KEY,                         "[DIALER] cui_dialer_set_key, trace: %d")
+TRC_MSG(TRC_CUI_DIALER_SET_TRANSLATE_KEY,               "[DIALER] cui_dialer_set_translate_key, trace: %d")
+TRC_MSG(TRC_CUI_DIALER_GET_DIAL_STRING,                 "[DIALER] cui_dialer_get_dial_string, trace: %d")
+TRC_MSG(TRC_CUI_DIALER_SET_PHB_DATA,                    "[DIALER] cui_dialer_set_phb_data, trace: %d")
+TRC_MSG(TRC_CUI_DIALER_GET_PHB_DATA,                    "[DIALER] cui_dialer_get_phb_data, trace: %d")
+TRC_MSG(TRC_CUI_DIALER_IS_ACTIVE_IF_ANY,                "[DIALER] cui_dialer_is_active_if_any, trace: %d, ret: %d")
+TRC_MSG(TRC_CUI_DIALER_GET_DIAL_STRING_IF_ANY,          "[DIALER] cui_dialer_get_dial_string_if_any, trace: %d")

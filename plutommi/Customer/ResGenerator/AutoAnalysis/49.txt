@@ -1,0 +1,66 @@
+Image: ..\..\..\plutommi\CUSTOMER\IMAGES\PLUTO\MAINLCD\WARNINGPAGE\POPUPPAGE\PP_INF.GIF
+  Format: GIF (CompuServe graphics interchange format)
+  Geometry: 100x90
+  Class: PseudoClass
+  Type: PaletteMatte
+  Endianess: Undefined
+  Colorspace: RGB
+  Channel depth:
+    Red: 8-bits
+    Green: 8-bits
+    Blue: 8-bits
+    Opacity: 1-bits
+  Channel statistics:
+    Red:
+      Min: 48 (0.188235)
+      Max: 255 (1)
+      Mean: 157.693 (0.618403)
+      Standard deviation: 95.5848 (0.374842)
+    Green:
+      Min: 84 (0.329412)
+      Max: 255 (1)
+      Mean: 189.338 (0.742503)
+      Standard deviation: 64.8454 (0.254296)
+    Blue:
+      Min: 120 (0.470588)
+      Max: 255 (1)
+      Mean: 220.744 (0.865664)
+      Standard deviation: 38.0121 (0.149067)
+    Opacity:
+      Min: 0 (0)
+      Max: 255 (1)
+      Mean: 109.933 (0.431111)
+      Standard deviation: 126.284 (0.495232)
+  Colors: 8
+         0: ( 48,110,171,  0)	#306EAB00
+         1: (204,214,224,  0)	#CCD6E000
+         2: (153,170,188,  0)	#99AABC00
+         3: ( 97,124,151,  0)	#617C9700
+         4: ( 49, 84,120,  0)	#31547800
+         5: (246,245,246,  0)	#F6F5F600
+         6: ( 64,133,201,  0)	#4085C900
+         7: (255,255,255,  0)	white
+  Histogram:
+       548: ( 49, 84,120,  0)	#31547800
+       240: ( 48,110,171,  0)	#306EAB00
+       104: ( 97,124,151,  0)	#617C9700
+      3580: ( 64,133,201,  0)	#4085C900
+        48: (153,170,188,  0)	#99AABC00
+        64: (204,214,224,  0)	#CCD6E000
+       536: (246,245,246,  0)	#F6F5F600
+      3880: (255,255,255,255)	#FFFFFFFF
+  Rendering-intent: Undefined
+  Resolution: 72x72
+  Units: Undefined
+  Filesize: 766
+  Interlace: None
+  Background Color: white
+  Border Color: #DFDFDF00
+  Matte Color: grey74
+  Page geometry: 100x90+0+0
+  Dispose: Undefined
+  Compression: LZW
+  Orientation: Undefined
+  Signature: cd9b4200cc4cd679d0403d7e36b6700010bf0ef1c02e5656026119b317037382
+  Tainted: False
+  Version: ImageMagick 6.2.3 06/08/05 Q16 http://www.imagemagick.org

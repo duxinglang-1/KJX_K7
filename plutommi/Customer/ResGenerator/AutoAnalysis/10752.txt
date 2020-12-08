@@ -1,0 +1,57 @@
+Image: ..\..\..\plutommi\CUSTOMER\IMAGES\PLUTO\MAINLCD\MMS\SMIL\MMS_RING.BMP
+  Format: BMP (Microsoft Windows bitmap image)
+  Geometry: 14x15
+  Class: PseudoClass
+  Type: Palette
+  Endianess: Undefined
+  Colorspace: RGB
+  Channel depth:
+    Red: 8-bits
+    Green: 8-bits
+    Blue: 8-bits
+  Channel statistics:
+    Red:
+      Min: 0 (0)
+      Max: 255 (1)
+      Mean: 6.08571 (0.0238655)
+      Standard deviation: 36.5262 (0.14324)
+    Green:
+      Min: 0 (0)
+      Max: 255 (1)
+      Mean: 3.58095 (0.014043)
+      Standard deviation: 26.9646 (0.105744)
+    Blue:
+      Min: 0 (0)
+      Max: 255 (1)
+      Mean: 3.6 (0.0141176)
+      Standard deviation: 26.979 (0.1058)
+  Colors: 7
+         0: (  0,  0,  0)	black
+         1: (158, 22, 26)	#9E161A
+         2: (128,  0,  0)	maroon
+         3: (227, 92, 92)	#E35C5C
+         4: (255,128,128)	#FF8080
+         5: (255,255,255)	white
+         6: (255,255,255)	white
+  Histogram:
+        63: (  0,  0,  0)	black
+        63: (128,  0,  0)	maroon
+        18: (158, 22, 26)	#9E161A
+         2: (227, 92, 92)	#E35C5C
+         3: (255,128,128)	#FF8080
+        61: (255,255,255)	white
+  Rendering-intent: Undefined
+  Resolution: 28.34x28.34
+  Units: Undefined
+  Filesize: 204
+  Interlace: None
+  Background Color: white
+  Border Color: #DFDFDF
+  Matte Color: grey74
+  Dispose: Undefined
+  Iterations: 0
+  Compression: Undefined
+  Orientation: Undefined
+  Signature: 125205b361de255873548a6337d0678bd3ccf58beafce5188732d506f787897b
+  Tainted: False
+  Version: ImageMagick 6.2.3 06/08/05 Q16 http://www.imagemagick.org

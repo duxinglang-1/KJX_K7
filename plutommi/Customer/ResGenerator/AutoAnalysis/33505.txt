@@ -1,0 +1,76 @@
+Image: ..\..\..\plutommi\CUSTOMER\IMAGES\PLUTO\MAINLCD\GPS\GPS_ON.BMP
+  Format: BMP (Microsoft Windows bitmap image)
+  Geometry: 13x10
+  Class: DirectClass
+  Type: Grayscale
+  Endianess: Undefined
+  Colorspace: Gray
+  Channel depth:
+    Gray: 8-bits
+  Channel statistics:
+    Gray:
+      Min: 0 (0)
+      Max: 247 (0.968627)
+      Mean: 82.2231 (0.322443)
+      Standard deviation: 89.5695 (0.351253)
+  Colors: 44
+  Histogram:
+        40: (  0,  0,  0)	black
+         4: (  3,  3,  3)	grey1
+         2: (  5,  5,  5)	grey2
+         2: (  9,  9,  9)	#090909
+         2: ( 11, 11, 11)	#0B0B0B
+         2: ( 12, 12, 12)	#0C0C0C
+         2: ( 13, 13, 13)	grey5
+         2: ( 15, 15, 15)	grey6
+         2: ( 17, 17, 17)	#111111
+         2: ( 40, 40, 40)	#282828
+         4: ( 52, 52, 52)	#343434
+         2: ( 54, 54, 54)	grey21
+         2: ( 56, 56, 56)	grey22
+         2: ( 60, 60, 60)	#3C3C3C
+         2: ( 62, 62, 62)	#3E3E3E
+         2: ( 63, 63, 63)	#3F3F3F
+         2: ( 69, 69, 69)	grey27
+         2: ( 78, 78, 78)	#4E4E4E
+         2: ( 82, 82, 82)	grey32
+         2: ( 88, 88, 88)	#585858
+         2: ( 92, 92, 92)	grey36
+         2: ( 97, 97, 97)	grey38
+         2: ( 96, 96, 96)	#606060
+         2: (113,113,113)	#717171
+         2: (121,121,121)	#797979
+         2: (128,128,128)	fractal
+         2: (154,154,154)	#9A9A9A
+         2: (163,163,163)	grey64
+         2: (182,182,182)	#B6B6B6
+         2: (186,186,186)	grey73
+         2: (188,188,188)	#BCBCBC
+         2: (205,205,205)	#CDCDCD
+         2: (209,209,209)	grey82
+         2: (208,208,208)	#D0D0D0
+         2: (225,225,225)	#E1E1E1
+         2: (229,229,229)	grey90
+         2: (228,228,228)	#E4E4E4
+         2: (233,233,233)	#E9E9E9
+         4: (232,232,232)	grey91
+         2: (242,242,242)	grey95
+         1: (245,245,245)	grey96
+         1: (244,244,244)	#F4F4F4
+         2: (247,247,247)	grey97
+         2: (246,246,246)	#F6F6F6
+  Rendering-intent: Undefined
+  Resolution: 28.34x28.34
+  Units: Undefined
+  Filesize: 454
+  Interlace: None
+  Background Color: white
+  Border Color: #DFDFDF
+  Matte Color: grey74
+  Dispose: Undefined
+  Iterations: 0
+  Compression: Undefined
+  Orientation: Undefined
+  Signature: a86cb4bfaf8af299ee31d6460b7535fbe6ca111554583d8e4c2911e962b64349
+  Tainted: False
+  Version: ImageMagick 6.2.3 06/08/05 Q16 http://www.imagemagick.org

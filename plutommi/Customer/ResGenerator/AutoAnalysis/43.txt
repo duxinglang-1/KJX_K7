@@ -1,0 +1,66 @@
+Image: ..\..\..\plutommi\CUSTOMER\IMAGES\PLUTO\MAINLCD\WARNINGPAGE\POPUPPAGE\PP_QUE.GIF
+  Format: GIF (CompuServe graphics interchange format)
+  Geometry: 100x90
+  Class: PseudoClass
+  Type: PaletteMatte
+  Endianess: Undefined
+  Colorspace: RGB
+  Channel depth:
+    Red: 8-bits
+    Green: 8-bits
+    Blue: 8-bits
+    Opacity: 1-bits
+  Channel statistics:
+    Red:
+      Min: 120 (0.470588)
+      Max: 255 (1)
+      Mean: 222.052 (0.870791)
+      Standard deviation: 38.052 (0.149224)
+    Green:
+      Min: 48 (0.188235)
+      Max: 255 (1)
+      Mean: 159.718 (0.626344)
+      Standard deviation: 95.3958 (0.374101)
+    Blue:
+      Min: 48 (0.188235)
+      Max: 255 (1)
+      Mean: 159.718 (0.626344)
+      Standard deviation: 95.3958 (0.374101)
+    Opacity:
+      Min: 0 (0)
+      Max: 255 (1)
+      Mean: 109.933 (0.431111)
+      Standard deviation: 126.284 (0.495232)
+  Colors: 8
+         0: (173, 48, 48,  0)	#AD303000
+         1: (199,150,150,  0)	#C7969600
+         2: (157, 97, 97,  0)	#9D616100
+         3: (227,204,204,  0)	#E3CCCC00
+         4: (120, 49, 49,  0)	#78313100
+         5: (253,248,248,  0)	#FDF8F800
+         6: (202, 64, 64,  0)	#CA404000
+         7: (255,255,255,  0)	white
+  Histogram:
+       550: (120, 49, 49,  0)	#78313100
+       250: (173, 48, 48,  0)	#AD303000
+       115: (157, 97, 97,  0)	#9D616100
+      3441: (202, 64, 64,  0)	#CA404000
+        83: (199,150,150,  0)	#C7969600
+        82: (227,204,204,  0)	#E3CCCC00
+       599: (253,248,248,  0)	#FDF8F800
+      3880: (255,255,255,255)	#FFFFFFFF
+  Rendering-intent: Undefined
+  Resolution: 72x72
+  Units: Undefined
+  Filesize: 846
+  Interlace: None
+  Background Color: white
+  Border Color: #DFDFDF00
+  Matte Color: grey74
+  Page geometry: 100x90+0+0
+  Dispose: Undefined
+  Compression: LZW
+  Orientation: Undefined
+  Signature: b3db8f1759f23350c704a06e123b6e75b167bed0d343954b0ab955dd697f6aab
+  Tainted: False
+  Version: ImageMagick 6.2.3 06/08/05 Q16 http://www.imagemagick.org

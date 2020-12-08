@@ -1,0 +1,305 @@
+/*****************************************************************************
+*  Copyright Statement:
+*  --------------------
+*  This software is protected by Copyright and the information contained
+*  herein is confidential. The software may not be copied and the information
+*  contained herein may not be used or disclosed except with the written
+*  permission of MediaTek Inc. (C) 2005
+*
+*  BY OPENING THIS FILE, BUYER HEREBY UNEQUIVOCALLY ACKNOWLEDGES AND AGREES
+*  THAT THE SOFTWARE/FIRMWARE AND ITS DOCUMENTATIONS ("MEDIATEK SOFTWARE")
+*  RECEIVED FROM MEDIATEK AND/OR ITS REPRESENTATIVES ARE PROVIDED TO BUYER ON
+*  AN "AS-IS" BASIS ONLY. MEDIATEK EXPRESSLY DISCLAIMS ANY AND ALL WARRANTIES,
+*  EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE IMPLIED WARRANTIES OF
+*  MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE OR NONINFRINGEMENT.
+*  NEITHER DOES MEDIATEK PROVIDE ANY WARRANTY WHATSOEVER WITH RESPECT TO THE
+*  SOFTWARE OF ANY THIRD PARTY WHICH MAY BE USED BY, INCORPORATED IN, OR
+*  SUPPLIED WITH THE MEDIATEK SOFTWARE, AND BUYER AGREES TO LOOK ONLY TO SUCH
+*  THIRD PARTY FOR ANY WARRANTY CLAIM RELATING THERETO. MEDIATEK SHALL ALSO
+*  NOT BE RESPONSIBLE FOR ANY MEDIATEK SOFTWARE RELEASES MADE TO BUYER'S
+*  SPECIFICATION OR TO CONFORM TO A PARTICULAR STANDARD OR OPEN FORUM.
+*
+*  BUYER'S SOLE AND EXCLUSIVE REMEDY AND MEDIATEK'S ENTIRE AND CUMULATIVE
+*  LIABILITY WITH RESPECT TO THE MEDIATEK SOFTWARE RELEASED HEREUNDER WILL BE,
+*  AT MEDIATEK'S OPTION, TO REVISE OR REPLACE THE MEDIATEK SOFTWARE AT ISSUE,
+*  OR REFUND ANY SOFTWARE LICENSE FEES OR SERVICE CHARGE PAID BY BUYER TO 
+*  MEDIATEK FOR SUCH MEDIATEK SOFTWARE AT ISSUE. 
+*
+*  THE TRANSACTION CONTEMPLATED HEREUNDER SHALL BE CONSTRUED IN ACCORDANCE
+*  WITH THE LAWS OF THE STATE OF CALIFORNIA, USA, EXCLUDING ITS CONFLICT OF
+*  LAWS PRINCIPLES.  ANY DISPUTES, CONTROVERSIES OR CLAIMS ARISING THEREOF AND
+*  RELATED THERETO SHALL BE SETTLED BY ARBITRATION IN SAN FRANCISCO, CA, UNDER
+*  THE RULES OF THE INTERNATIONAL CHAMBER OF COMMERCE (ICC).
+*
+*****************************************************************************/
+
+/*******************************************************************************
+* Filename:
+* ---------
+*  ToneSelectorCuiGprot.h
+*
+* Project:
+* --------
+*   MAUI
+*
+* Description:
+* ------------
+*   Tone selector common UI.
+*
+* Author:
+* -------
+ * -------
+*
+*==============================================================================
+*           HISTORY
+* Below this line, this part is controlled by PVCS VM. DO NOT MODIFY!! 
+ *------------------------------------------------------------------------------
+ * removed!
+ *
+ * removed!
+ * removed!
+ * removed!
+ *
+ * removed!
+ * removed!
+ * removed!
+ *
+ *
+ *------------------------------------------------------------------------------
+* Upper this line, this part is controlled by PVCS VM. DO NOT MODIFY!! 
+*==============================================================================
+*******************************************************************************/
+
+/****************************************************************************
+* Include Files                                                                
+*****************************************************************************/
+#ifndef TONE_SELECTOR_CUI_GPROT_H
+#define TONE_SELECTOR_CUI_GPROT_H
+#include "kal_general_types.h"
+#include "mmi_res_range_def.h"
+#include "FileMgrSrvGProt.h"
+
+#include "MMIDataType.h"
+//#include "filemgrcuigprot.h"
+
+/*
+ *  error code of cui_tone_selector_get_selected_filepath()
+ */
+#define CUI_TONE_SELECTOR_ERROR_INVALID_GID     (-1000)
+#define CUI_TONE_SELECTOR_ERROR_NO_EXT_FILE     (-1001)
+#define CUI_TONE_SELECTOR_ERROR_PATH_NON        (-1002)
+
+
+/***************************************************************************** 
+*  Typedef 
+*****************************************************************************/
+
+/*  
+ *  event structure of EVT_ID_CUI_TONE_SELECTOR_RESULT
+ */
+typedef struct
+{
+    MMI_EVT_GROUP_PARAM_HEADER      /* in header: evt_id, size, user_data, sender_id */
+    MMI_BOOL    is_default_sound;   /* if it is MMI_FALSE, app need get file path from CUI*/
+    U16         selected_tone;      /* selected tone id */
+}cui_tone_selector_evt_struct;
+
+/*
+ *  Here are events that "Tone selector CUI" will notify to caller.
+ */
+typedef enum
+{
+    EVT_ID_CUI_TONE_SELECTOR_RESULT = TONE_SELECTOR_BASE + 1, /*CUI Result, only save, should not close CUI*/
+    EVT_ID_CUI_TONE_SELECTOR_CLOSE_REQUEST, /*Request app to close the CUI*/
+    EVT_ID_CUI_TONE_SELECTOR_MAX
+} cui_tone_selector_evt_enum;
+
+
+/*
+ * Tone list filter: silent, tone, ring, download theme ring, ext_file
+ * To set the display tone items of CUI.
+ */
+typedef enum
+{
+    CUI_TONE_SELECTOR_FILTER_SILENT     = 0x01, /*Silent item*/
+    CUI_TONE_SELECTOR_FILTER_TONE       = 0x02, /*Message(short) sound which generated by framework resource gen*/
+    CUI_TONE_SELECTOR_FILTER_RING       = 0x04, /*Ring(long) sound which generated by framework resource gen*/  
+    CUI_TONE_SELECTOR_FILTER_DLT_RING   = 0x08, /*Download theme ring*/
+    CUI_TONE_SELECTOR_FILTER_EXT_FILE   = 0x10  /*External file*/
+} cui_tone_selector_tone_filter_enum;
+
+
+/*init filter*/
+#define CUI_TONE_SELECTOR_FILTER_INIT(f)            ((f) = 0)
+/*set filters, f: U16, b:cui_tone_selector_tone_type_enum*/
+#define CUI_TONE_SELECTOR_FILTER_SET(f,b)           ((f) |= (b))
+/*check the filter is set.*/
+#define CUI_TONE_SELECTOR_FILTER_IS_SET(f,b)        ((f) & (b))
+
+/*****************************************************************************  
+*   Extern Functions 
+*****************************************************************************/
+
+/*****************************************************************************
+ * FUNCTION
+ *  cui_tone_selector_create
+ * DESCRIPTION
+ *  Create a tone selector CUI instance.
+ * PARAMETERS
+ *  parent_gid      : [IN]  Group id of parent
+ * RETURNS
+ *  return tone selector CUI group id which is created
+ *****************************************************************************/
+extern mmi_id cui_tone_selector_create (mmi_id parent_gid);
+
+/*****************************************************************************
+ * FUNCTION
+ *  cui_tone_selector_set_title_id
+ * DESCRIPTION
+ *  set string id and image id for title.
+ * PARAMETERS
+ *  ts_gid      : [IN]  Group id of CUI
+ *  str_id      : [IN]  String id for title
+ *  img_id      : [IN]  Image id for title
+ * RETURNS
+ *  void
+ *****************************************************************************/
+extern void cui_tone_selector_set_title_id (mmi_id cui_gid, mmi_id str_id, mmi_id img_id);
+
+/*****************************************************************************
+ * FUNCTION
+ *  cui_tone_selector_set_highlight_tone
+ * DESCRIPTION
+ *  set current selected tone for the CUI, default is the first one of the list.
+ * PARAMETERS
+ *  ts_gid          : [IN]  Group id of CUI
+ *  selected_tone   : [IN]  the current selected tone id.
+ * RETURNS
+ *  void
+ *****************************************************************************/
+extern void cui_tone_selector_set_highlight_tone (mmi_id cui_gid, mmi_id highlight_tone);
+
+/*****************************************************************************
+ * FUNCTION
+ *  cui_tone_selector_set_filter
+ * DESCRIPTION
+ *  set filter, default select ring, midi and ext file.
+ * PARAMETERS
+ *  ts_gid              : [IN]  Group id of CUI
+ *  tone_filter         : [IN]  the filter.
+ * RETURNS
+ *  void
+ *****************************************************************************/
+extern void cui_tone_selector_set_filter (mmi_id cui_gid, U16 tone_filter);
+
+
+/*****************************************************************************
+ * FUNCTION
+ *  cui_tone_selector_run
+ * DESCRIPTION
+ *  run CUI.
+ * PARAMETERS
+ *  ts_gid              : [IN]  the group which need to be run.
+ * RETURNS
+ *  void
+ *****************************************************************************/
+extern void cui_tone_selector_run (mmi_id cui_gid);
+
+/*****************************************************************************
+ * FUNCTION
+ *  cui_tone_selector_get_selected_filepath
+ * DESCRIPTION
+ *  Query more information of current selected file/folder from a file selector CUI.
+ *  Including file information and full filepath.
+ * PARAMETERS
+ *  cui_id                  : [IN]  id of CUI
+ *  info                    : [OUT] a pointer to file info. structure. Can not be NULL.
+ *                                  It will be reset if there is any error to prevent mis-usage.
+ *  path_buffer             : [OUT] buffer to store full filepath of selected file/folder
+ *  path_size               : [IN]  size of path_buffer, in bytes, including null terminated.
+ * RETURNS
+ *  Refer to FS error, ok if == 0, error if < 0.
+ *****************************************************************************/
+extern S32 cui_tone_selector_get_selected_filepath(mmi_id ts_gid, srv_fmgr_fileinfo_struct* info, 
+                                               WCHAR* path_buffer, S32 path_size);
+
+/*****************************************************************************
+ * FUNCTION
+ *  cui_tone_selector_close
+ * DESCRIPTION
+ *  close the CUI
+ * PARAMETERS
+ *  ts_gid              : [IN]  the group which need to be closed.
+ * RETURNS
+ *  void
+ *****************************************************************************/
+extern void cui_tone_selector_close (mmi_id ts_gid);
+
+
+/*************************************************************************
+ *                         * Example for how to use*
+ *************************************************************************
+void mmi_app1_entry_tone_selector(...)
+{
+    mmi_id app1_gid;
+    mmi_id ts_gid;
+
+    app1_gid = mmi_frm_group_create(GRP_ID_ROOT, GRP_ID_AUTO_GEN, mmi_app1_group_proc, NULL); 
+    mmi_frm_group_enter(app1_gid, MMI_FRM_NODE_SMART_CLOSE_FLAG);
+    if ((ts_gid = cui_tone_selector_create(app1_gid)) != GRP_ID_INVALID)
+    {
+        U16 filter = 0;
+        
+        CUI_TONE_SELECTOR_FILTER_SET(filter, CUI_TONE_SELECTOR_FILTER_RING);
+        CUI_TONE_SELECTOR_FILTER_SET(filter, CUI_TONE_SELECTOR_FILTER_EXT_FILE);
+        cui_tone_selector_set_filter(ts_gid, filter);
+        cui_tone_selector_set_title_id(ts_gid, title_id, image_id);
+        cui_tone_selector_set_highlight_tone(ts_gid, tone_id);
+        
+        cui_tone_selector_run(ts_gid);
+    }
+    else
+    {
+        mmi_frm_group_close(app1_gid);
+    }
+}
+
+mmi_ret mmi_app1_group_proc(mmi_event_struct* evt)
+{
+    cui_tone_selector_evt_struct * evt_cui;
+    switch(evt->evt_id)
+    {
+        case EVT_ID_CUI_TONE_SELECTOR_CLOSE_REQUEST:
+            evt_cui = (cui_tone_selector_evt_struct *)evt;
+            cui_tone_selector_close(evt_cui->sender_id);
+            break;
+            
+        case EVT_ID_CUI_TONE_SELECTOR_RESULT:
+        {            
+            evt_cui = (cui_tone_selector_evt_struct *)evt;
+            if (evt_cui->is_default_sound)
+            {
+                mmi_app1_save_tone(evt_cui->selected_tone);
+            }
+            else
+            {
+                srv_fmgr_fileinfo_struct info;
+                U8    pathfilename[SRV_FMGR_PATH_BUFFER_SIZE];
+                if (0 == cui_tone_selector_get_selected_filepath(
+                            evt_cui->sender_id, 
+                            &info, 
+                            (WCHAR*)pathfilename, 
+                            SRV_FMGR_PATH_BUFFER_SIZE))
+                {
+                    mmi_app1_save_pathfilename(pathfilename);
+                }
+            }
+            break; 
+        }
+    }
+    return MMI_RET_OK;
+}
+*************************************************************************/
+
+
+#endif /*TONE_SELECTOR_CUI_GPROT_H*/

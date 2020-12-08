@@ -1,0 +1,115 @@
+Image: ..\..\..\plutommi\CUSTOMER\IMAGES\PLUTO\MAINLCD\DLAGENT\DL_LOADING.BMP
+  Format: BMP (Microsoft Windows bitmap image)
+  Geometry: 20x20
+  Class: PseudoClass
+  Type: Palette
+  Endianess: Undefined
+  Colorspace: RGB
+  Channel depth:
+    Red: 8-bits
+    Green: 8-bits
+    Blue: 8-bits
+  Channel statistics:
+    Red:
+      Min: 0 (0)
+      Max: 255 (1)
+      Mean: 11.175 (0.0438235)
+      Standard deviation: 41.259 (0.1618)
+    Green:
+      Min: 0 (0)
+      Max: 255 (1)
+      Mean: 22.4325 (0.0879706)
+      Standard deviation: 71.5838 (0.280721)
+    Blue:
+      Min: 0 (0)
+      Max: 255 (1)
+      Mean: 9.8275 (0.0385392)
+      Standard deviation: 39.0577 (0.153167)
+  Colors: 37
+         0: (255,255,255)	white
+         1: (255,255,255)	white
+         2: (  9,131, 11)	#09830B
+         3: (252,255,252)	#FCFFFC
+         4: (220,255,218)	#DCFFDA
+         5: (177,254,171)	#B1FEAB
+         6: (221,255,219)	#DDFFDB
+         7: (130,253,118)	#82FD76
+         8: (131,253,118)	#83FD76
+         9: (132,253,119)	#84FD77
+        10: (132,252,119)	#84FC77
+        11: (177,254,170)	#B1FEAA
+        12: (178,254,170)	#B2FEAA
+        13: (178,254,171)	#B2FEAB
+        14: (222,255,219)	#DEFFDB
+        15: ( 63,252, 40)	#3FFC28
+        16: ( 62,251, 40)	#3EFB28
+        17: ( 63,252, 41)	#3FFC29
+        18: ( 64,251, 41)	#40FB29
+        19: ( 65,252, 42)	#41FC2A
+        20: ( 66,251, 42)	#42FB2A
+        21: ( 67,252, 43)	#43FC2B
+        22: ( 67,251, 43)	#43FB2B
+        23: ( 68,251, 43)	#44FB2B
+        24: ( 68,252, 44)	#44FC2C
+        25: ( 68,251, 44)	#44FB2C
+        26: ( 69,251, 44)	#45FB2C
+        27: ( 70,251, 45)	#46FB2D
+        28: ( 71,252, 46)	#47FC2E
+        29: (133,253,119)	#85FD77
+        30: (133,252,119)	#85FC77
+        31: (134,252,119)	#86FC77
+        32: ( 71,251, 45)	#47FB2D
+        33: ( 72,251, 45)	#48FB2D
+        34: ( 72,251, 46)	#48FB2E
+        35: (255,255,255)	white
+        36: (  0,  0,  0)	black
+  Histogram:
+        36: (  9,131, 11)	#09830B
+         1: ( 62,251, 40)	#3EFB28
+         1: ( 63,252, 40)	#3FFC28
+         1: ( 63,252, 41)	#3FFC29
+         1: ( 64,251, 41)	#40FB29
+         3: ( 66,251, 42)	#42FB2A
+         2: ( 67,251, 43)	#43FB2B
+         1: ( 65,252, 42)	#41FC2A
+         1: ( 67,252, 43)	#43FC2B
+         1: ( 68,251, 43)	#44FB2B
+         2: ( 68,251, 44)	#44FB2C
+         1: ( 69,251, 44)	#45FB2C
+         1: ( 70,251, 45)	#46FB2D
+         2: ( 71,251, 45)	#47FB2D
+         1: ( 68,252, 44)	#44FC2C
+         1: ( 71,252, 46)	#47FC2E
+         1: ( 72,251, 45)	#48FB2D
+        12: ( 72,251, 46)	#48FB2E
+         1: (130,253,118)	#82FD76
+         2: (131,253,118)	#83FD76
+         1: (132,252,119)	#84FC77
+         1: (132,253,119)	#84FD77
+         3: (133,253,119)	#85FD77
+         1: (133,252,119)	#85FC77
+         1: (134,252,119)	#86FC77
+         3: (177,254,170)	#B1FEAA
+         1: (177,254,171)	#B1FEAB
+         3: (178,254,171)	#B2FEAB
+         2: (178,254,170)	#B2FEAA
+         1: (221,255,219)	#DDFFDB
+         2: (220,255,218)	#DCFFDA
+         5: (222,255,219)	#DEFFDB
+         6: (252,255,252)	#FCFFFC
+       298: (255,255,255)	white
+  Rendering-intent: Undefined
+  Resolution: 28.34x28.34
+  Units: Undefined
+  Filesize: 604
+  Interlace: None
+  Background Color: white
+  Border Color: #DFDFDF
+  Matte Color: grey74
+  Dispose: Undefined
+  Iterations: 0
+  Compression: Undefined
+  Orientation: Undefined
+  Signature: 786110e97f5f523321bd10f7b18d438ee4296f206a67e0b23669ca0495da4bdb
+  Tainted: False
+  Version: ImageMagick 6.2.3 06/08/05 Q16 http://www.imagemagick.org

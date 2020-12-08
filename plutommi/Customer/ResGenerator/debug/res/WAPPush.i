@@ -1,0 +1,341 @@
+# 1 "temp/res/WAPPush.c"
+# 1 "<built-in>"
+# 1 "<command line>"
+# 1 "temp/res/WAPPush.c"
+# 1 "../../mmi/inc/MMI_features.h" 1
+# 69 "../../mmi/inc/MMI_features.h"
+# 1 "../../mmi/inc/MMI_features_switch.h" 1
+# 67 "../../mmi/inc/MMI_features_switch.h"
+# 1 "../../mmi/inc/MMI_features_type.h" 1
+# 68 "../../mmi/inc/MMI_features_switch.h" 2
+# 70 "../../mmi/inc/MMI_features.h" 2
+# 2 "temp/res/WAPPush.c" 2
+# 1 "../customerinc/CustResDef.h" 1
+# 191 "../customerinc/CustResDef.h"
+# 1 "../../mmi/inc/MMI_features.h" 1
+# 192 "../customerinc/CustResDef.h" 2
+# 3 "temp/res/WAPPush.c" 2
+
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+
+
+
+
+
+<APP id="APP_MMI_WAP_PUSH">
+
+
+
+    <!--Include Area-->
+    <INCLUDE file = "GlobalResDef.h"/>
+    <INCLUDE file = "mmi_rp_app_mmi_wap_push_def.h"/>
+    <INCLUDE file = "mmi_rp_app_unifiedmessage_def.h"/>
+
+    <!-----------------------------------------------------String Resource Area----------------------------------------------------->
+# 60 "temp/res/WAPPush.c"
+<STRING id="STR_ID_PUSH_ENABLE_SERVICE_LOADING"/>
+<STRING id="STR_ID_PUSH_ENABLE_SETTING_ACCEPT_ALL"/>
+<STRING id="STR_ID_PUSH_DISABLE"/>
+<STRING id="STR_ID_PUSH_SL_SETTING_PROMPT"/>
+<STRING id="STR_ID_PUSH_SL_SETTING_AUTO_LAUNCH"/>
+<STRING id="STR_ID_BRW_PUSH_CONFIRM_SIA_REQ"/>
+<STRING id="STR_ID_BRW_PUSH_HOST_ADDR"/>
+<STRING id="STR_ID_BRW_PUSH_HOST_PORT"/>
+<STRING id="STR_ID_BRW_PUSH_SIA_REQ_TITLE"/>
+<STRING id="STR_ID_PUSH_MAIN_MENU_MESSAGES_TEXT"/>
+
+
+
+<STRING id="STR_ID_PUSH_INBOX_SETTING "/>
+<STRING id="STR_ID_PUSH_INBOX_ENABLE_PUSH "/>
+
+<STRING id="STR_ID_BRW_PUSH_DELETE_CONFIRM"/>
+<STRING id="STR_ID_BRW_PUSH_PRIORITY_TITLE"/>
+<STRING id="STR_ID_BRW_PUSH_MESSAGE_TITLE"/>
+<STRING id="STR_ID_BRW_PUSH_URL_TITLE"/>
+<STRING id="STR_ID_BRW_PUSH_SENDER_ADDR"/>
+<STRING id="STR_ID_PUSH_INBOX"/>
+
+<STRING id="STR_ID_PUSH_INBOX_ADD_BOOKMARK"/>
+<STRING id="STR_ID_PUSH_SERVICE_MESSAGE_RCVD"/>
+<STRING id="STR_ID_BRW_PUSH_CREATED_TIME"/>
+<STRING id="STR_ID_BRW_PUSH_EXPIRY_TIME"/>
+
+<STRING id="STR_ID_PUSH_MESSAGE"/>
+<STRING id="STR_ID_BRW_NEW_PUSH_MESSAGE"/>
+<STRING id="STR_ID_PUSH_INBOX_MODIFIED"/>
+
+<STRING id="STR_ID_BRW_PUSH_MESSAGE_EXPIRED"/>
+<STRING id="STR_ID_PUSH_STORAGE_FULL"/>
+<STRING id="STR_ID_PUSH_DELETE_ALL_INBOX_MSG"/>
+# 104 "temp/res/WAPPush.c"
+<STRING id="STR_ID_PUSH_CONNECT_ASK"/>
+
+
+
+
+
+
+
+<STRING id="STR_ID_BRW_NEW_MESSAGE"/>
+<STRING id="STR_ID_PUSH_VALIDATION_FAIL_NEW_MSG"/>
+<STRING id="STR_ID_PUSH_MULTIPLE_SELECT"/>
+<STRING id="STR_ID_PUSH_MSG_NOT_AVAILABLE"/>
+<STRING id="STR_ID_PUSH_INVALID_SIM"/>
+<STRING id="STR_ID_PUSH_INBOX_ADD_HOMEPAGE"/>
+<STRING id="STR_ID_BRW_PUSH_CONFIRM_SAVE_BOOKMARK"/>
+<STRING id="STR_ID_BRW_PUSH_READ_ONLY_PROFILE"/>
+# 129 "temp/res/WAPPush.c"
+<STRING id="STR_ID_BRW_PUSH_TB_SETTINGS"/>
+
+
+
+<STRING id="STR_ID_BRW_PUSH_TITLE"/>
+<STRING id="STR_ID_BRW_PUSH_ADD_BOOKMARK"/>
+
+<STRING id="STR_ID_BRW_PUSH_SET_AS_HOMEPAGE_CONFIRM"/>
+<STRING id="STR_ID_BRW_PUSH_UNREAD"/>
+<STRING id="STR_ID_BRW_PUSH_SIM1"/>
+<STRING id="STR_ID_BRW_PUSH_SIM2"/>
+<STRING id="STR_ID_BRW_PUSH_NEW_SIM1_PUSH_MESSAGE"/>
+<STRING id="STR_ID_BRW_PUSH_NEW_SIM2_PUSH_MESSAGE"/>
+<STRING id="STR_ID_BRW_PUSH_NEW_SIM3_PUSH_MESSAGE"/>
+<STRING id="STR_ID_BRW_PUSH_NEW_SIM4_PUSH_MESSAGE"/>
+<STRING id="STR_ID_BRW_PUSH_ACTV_SIM1_CONNECT_SIM2"/>
+<STRING id="STR_ID_BRW_PUSH_ACTV_SIM2_CONNECT_SIM1"/>
+<STRING id="STR_ID_BRW_PUSH_MSG_DELETED"/>
+<STRING id="STR_ID_WAP_PUSH_UNREAD_MSG"/>
+
+<STRING id="STR_ID_PUSH_TITLE_URL_TOO_LONG"/>
+<STRING id="STR_ID_PUSH_BKM_NOT_AVAILABLE"/>
+<STRING id="STR_ID_PUSH_BKM_LIST_FULL"/>
+
+<STRING id="STR_ID_BRW_PUSH_ERROR_FULL"/>
+<STRING id="STR_ID_BRW_PUSH_REQUEST_TIMED_OUT"/>
+<STRING id="STR_ID_BRW_PUSH_ERROR_SIZE"/>
+<STRING id="STR_ID_BRW_PUSH_DLG_SAVE_ERROR"/>
+<STRING id="STR_ID_PUSH_SERVICE_MESSAGE"/>
+<STRING id="STR_ID_PUSH_SERVICE_MESSAG"/>
+
+
+
+<STRING id="STR_ID_WAP_PUSH_UNREAD_MSG_NUMBER_ID"/>
+
+
+
+
+
+
+<STRING id="STR_ID_PUSH_SIA_NOTIFICATION"/>
+<STRING id="STR_ID_PUSH_NEW_SERVICE_MESSAGE_FROM"/>
+<STRING id="STR_ID_PUSH_LAUNCH_IT_BY_BROWSER"/>
+<STRING id="STR_ID_PUSH_VIEW_IT"/>
+<STRING id="STR_ID_PUSH_LAUNCH_SL_BY_BROWSER"/>
+    <!-----------------------------------------------------Image Resource Area------------------------------------------------------>
+# 189 "temp/res/WAPPush.c"
+<IMAGE id="IMG_ID_BRW_PUSH_READ">"..\\\\..\\\\Customer\\\\Images\\\\PLUTO""\\\\MainLCD\\\\Sms\\\\Submenu\\\\inbox\\\\SS_READ.bmp"</IMAGE>
+<IMAGE id="IMG_ID_BRW_PUSH_UNREAD">"..\\\\..\\\\Customer\\\\Images\\\\PLUTO""\\\\MainLCD\\\\Sms\\\\Submenu\\\\inbox\\\\SS_UREAD.bmp"</IMAGE>
+
+
+
+
+<IMAGE id="IMG_ID_BRW_PUSH_EXPIRED_READ">"..\\\\..\\\\Customer\\\\Images\\\\PLUTO""\\\\MainLCD\\\\WAP\\\\SW_EREAD.bmp"</IMAGE>
+<IMAGE id="IMG_ID_BRW_PUSH_EXPIRED_UNREAD">"..\\\\..\\\\Customer\\\\Images\\\\PLUTO""\\\\MainLCD\\\\WAP\\\\SW_EUNREAD.bmp"</IMAGE>
+<IMAGE id="IMG_BRW_PUSH_CAPTION">"..\\\\..\\\\Customer\\\\Images\\\\PLUTO""\\\\MainLCD\\\\TitleBar\\\\TB_MG.bmp"</IMAGE>
+# 206 "temp/res/WAPPush.c"
+<IMAGE id="IMG_ID_WAP_PUSH_INBOX">"..\\\\..\\\\Customer\\\\Images\\\\PLUTO""\\\\MainLCD\\\\WAP\\\\SW_INBOX.bmp"</IMAGE>
+
+
+
+
+
+    <!------------------------------------------------------Menu Resource Area------------------------------------------------------>
+
+
+    <MENU id="MENU_ID_PUSH_INBOX" str="STR_ID_PUSH_INBOX"/>
+# 235 "temp/res/WAPPush.c"
+    <MENU id="MENU_ID_PUSH_MSG_OPTION" type="OPTION" str="STR_GLOBAL_OPTIONS">
+            <MENUITEM_ID>MENU_ID_PUSH_SERVICE_MSG_GOTO</MENUITEM_ID>
+            <MENUITEM_ID>MENU_ID_PUSH_SERVICE_MSG_ADD_TO_TRUST_LIST</MENUITEM_ID>
+            <MENUITEM_ID>MENU_ID_PUSH_SERVICE_MSG_ADD_TO_BLACK_LIST</MENUITEM_ID>
+
+
+
+
+
+
+            <MENUITEM_ID>MENU_ID_PUSH_SERVICE_MSG_DELETE</MENUITEM_ID>
+            <MENUITEM_ID>MENU_ID_PUSH_SERVICE_MSG_DELETE_ALL</MENUITEM_ID>
+    </MENU>
+
+    <MENU id="MENU_ID_PUSH_SERVICE_MSG_GOTO" str="STR_GLOBAL_GO_TO" />
+
+
+
+
+
+
+        <MENU id="MENU_ID_PUSH_SERVICE_MSG_ADD_BOOKMARK" str="STR_ID_PUSH_INBOX_ADD_BOOKMARK" />
+        <MENU id="MENU_ID_PUSH_SERVICE_MSG_DELETE" str="STR_GLOBAL_DELETE" />
+        <MENU id="MENU_ID_PUSH_SERVICE_MSG_DELETE_ALL" str="STR_GLOBAL_DELETE_ALL" />
+# 282 "temp/res/WAPPush.c"
+    <MENU id="MENU_ID_SERVICE_MESSAGE" type="APP_SUB" str="STR_ID_PUSH_SERVICE_MESSAGE" img="IMG_ID_WAP_PUSH_INBOX">
+            <MENUITEM_ID>MENU_ID_WAP_PUSH_INBOX</MENUITEM_ID>
+            <MENUITEM_ID>MENU_ID_SERVICE_MSG_SETTING</MENUITEM_ID>
+        </MENU>
+    <MENU id="MENU_ID_WAP_PUSH_INBOX" str="STR_GLOBAL_INBOX"/>
+
+
+
+    <MENU id="MENU_ID_SERVICE_MSG_SETTING" type="APP_SUB" str="STR_ID_PUSH_INBOX_SETTING" img="IMG_BRW_PUSH_CAPTION" >
+            <MENUITEM_ID>MENU_ID_SERVICE_MSG_ENABLE</MENUITEM_ID>
+            <MENUITEM_ID>MENU_ID_SERVICE_MSG_SL_SETTING</MENUITEM_ID>
+            <MENUITEM_ID>MENU_ID_PUSH_ENABLE_WHITE_LIST</MENUITEM_ID>
+                        <MENUITEM_ID>MENU_ID_PUSH_ENABLE_BLACK_LIST</MENUITEM_ID>
+                        <MENUITEM_ID>MENU_ID_PUSH_WHITE_LIST</MENUITEM_ID>
+            <MENUITEM_ID>MENU_ID_PUSH_BLACK_LIST</MENUITEM_ID>
+    </MENU>
+
+    <MENU id="MENU_ID_SERVICE_MSG_ENABLE" type="OPTION" str="STR_ID_PUSH_INBOX_ENABLE_PUSH" img="IMG_BRW_PUSH_CAPTION" hint="mmi_wap_push_enable_push_hint_hdlr">
+            <MENUITEM_ID>MENU_ID_PUSH_ENABLE_SETTING_ACCEPT_ALL</MENUITEM_ID>
+            <MENUITEM_ID>MENU_ID_PUSH_ENABLE_SETTING_ACCEPT_AUTHENTICATED</MENUITEM_ID>
+            <MENUITEM_ID>MENU_ID_PUSH_ENABLE_SETTING_DISABLE</MENUITEM_ID>
+    </MENU>
+
+    <MENU id="MENU_ID_SERVICE_MSG_SL_SETTING" type="OPTION" str="STR_ID_PUSH_ENABLE_SERVICE_LOADING" img="IMG_BRW_PUSH_CAPTION" hint="mmi_wap_push_sl_setting_hint_hdlr">
+            <MENUITEM_ID>MENU_ID_PUSH_SL_SETTING_PROMPT</MENUITEM_ID>
+            <MENUITEM_ID>MENU_ID_PUSH_SL_SETTING_AUTO_LAUNCH</MENUITEM_ID>
+            <MENUITEM_ID>MENU_ID_PUSH_SL_SETTING_DISABLE</MENUITEM_ID>
+    </MENU>
+# 356 "temp/res/WAPPush.c"
+    <MENU id="MENU_ID_PUSH_ENABLE_SETTING_ACCEPT_ALL" str="STR_ID_PUSH_ENABLE_SETTING_ACCEPT_ALL" />
+
+
+
+
+    <MENU id="MENU_ID_PUSH_ENABLE_SETTING_DISABLE" str="STR_ID_PUSH_DISABLE" />
+    <MENU id="MENU_ID_PUSH_SL_SETTING_PROMPT" str="STR_ID_PUSH_SL_SETTING_PROMPT" />
+    <MENU id="MENU_ID_PUSH_SL_SETTING_AUTO_LAUNCH" str="STR_ID_PUSH_SL_SETTING_AUTO_LAUNCH" />
+    <MENU id="MENU_ID_PUSH_SL_SETTING_DISABLE" str="STR_ID_PUSH_DISABLE" />
+# 382 "temp/res/WAPPush.c"
+    <MENU id="MENU_ID_PUSH_TB_LIVE_OPTION" type="OPTION" str="STR_GLOBAL_OPTIONS" img="IMG_GLOBAL_OPTIONS">
+            <MENUITEM_ID>MENU_ID_PUSH_TB_VIEW</MENUITEM_ID>
+            <MENUITEM_ID>MENU_ID_PUSH_TB_CALL</MENUITEM_ID>
+                        <MENUITEM_ID>MENU_ID_PUSH_TB_DELETE</MENUITEM_ID>
+                        <MENUITEM_ID>MENU_ID_PUSH_OP12_TOOL_BAR_SETTING</MENUITEM_ID>
+    </MENU>
+
+    <MENU id="MENU_ID_PUSH_TB_LIVE_OPTION_IN_CALL" type="OPTION" str="STR_GLOBAL_OPTIONS" img="IMG_GLOBAL_OPTIONS">
+            <MENUITEM_ID>MENU_ID_PUSH_TB_VIEW_IN_CALL</MENUITEM_ID>
+            <MENUITEM_ID>MENU_ID_PUSH_TB_DELETE_IN_CALL</MENUITEM_ID>
+                        <MENUITEM_ID>MENU_ID_PUSH_OP12_TOOL_BAR_SETTING_IN_CALL</MENUITEM_ID>
+    </MENU>
+
+    <MENU id="MENU_ID_PUSH_TB_CALL" str="STR_GLOBAL_DIAL"/>
+    <MENU id="MENU_ID_PUSH_TB_VIEW" str="STR_GLOBAL_VIEW"/>
+    <MENU id="MENU_ID_PUSH_TB_VIEW_IN_CALL" str="STR_GLOBAL_VIEW"/>
+    <MENU id="MENU_ID_PUSH_TB_DELETE" str="STR_GLOBAL_DELETE"/>
+    <MENU id="MENU_ID_PUSH_TB_DELETE_IN_CALL" str="STR_GLOBAL_DELETE"/>
+    <MENU id="MENU_ID_PUSH_OP12_TOOL_BAR_SETTING" str="STR_ID_BRW_PUSH_TB_SETTINGS"/>
+    <MENU id="MENU_ID_PUSH_OP12_TOOL_BAR_SETTING_IN_CALL" str="STR_ID_BRW_PUSH_TB_SETTINGS"/>
+
+
+
+    <!------------------------------------------------------Other Resource---------------------------------------------------------->
+
+
+    <SCREEN id="SCR_ID_BRW_WAP_PUSH_POPUP_DUMMY_SCREEN"/>
+
+
+    <SCREEN id="SCR_ID_BRW_NEW_PUSH_MESSAGE_IND"/>
+    <SCREEN id="SCR_ID_BRW_INVALID_PUSH_MESSAGE"/>
+    <SCREEN id="SCR_ID_PUSH_DISPALY_CONFIRMATION"/>
+    <SCREEN id="SCR_ID_PUSH_SERIVCE_UNKNOWN_ADDR"/>
+    <SCREEN id="SCR_ID_PSH_ENTRY_ADD_TRUST_SC_ADDR"/>
+    <SCREEN id="SCR_ID_PUSH_SETTING"/>
+    <SCREEN id="SCR_ID_PUSH_ENABLE_PUSH"/>
+    <SCREEN id="SCR_ID_PUSH_SL_SETTING"/>
+    <SCREEN id="SCR_ID_PUSH_ENABLE_WL_SETTING"/>
+    <SCREEN id="SCR_ID_PUSH_ENABLE_BL_SETTING"/>
+    <SCREEN id="SCR_ID_PUSH_WHITE_LIST"/>
+    <SCREEN id="SCR_ID_PUSH_WHITE_LIST_ADD_NEW"/>
+    <SCREEN id="SCR_ID_PUSH_WHITE_LIST_ADD_NEW_PHONE_NUM"/>
+    <SCREEN id="SCR_ID_PUSH_WHITE_LIST_ADD_NEW_IP_ADDR"/>
+    <SCREEN id="SCR_ID_PUSH_WHITE_LIST_OPTIONS"/>
+    <SCREEN id="SCR_ID_PUSH_DISPALY_SIA_CNF"/>
+    <SCREEN id="SCR_ID_PUSH_UNKNWN_ADDR_OPTIONS"/>
+    <SCREEN id="SCR_ID_BRW_PUSH_OTA_INFO_DISPLAY"/>
+    <SCREEN id="SCR_ID_PUSH_TB_PROCESSING"/>
+    <SCREEN id="SCR_ID_PUSH_UM_SORT_BY_OPTIONS"/>
+    <SCREEN id="SCR_ID_PUSH_INBOX"/>
+    <SCREEN id="SCR_ID_PUSH_PROCESSING"/>
+    <SCREEN id="SCR_ID_BRW_READ_SERVICE_MESSAGE"/>
+    <SCREEN id="SCR_ID_PUSH_POPUP_SCREEN"/>
+    <SCREEN id="SCR_ID_BRW_PUSH_DUMMY_SCREEN"/>
+    <SCREEN id="SCR_ID_PUSH_ASYNC_PROCESSING"/>
+    <SCREEN id="SCR_ID_PUSH_GENERIC_PROCESSING"/>
+    <SCREEN id="SCR_ID_UM_MESSAGE_OPTIONS"/>
+    <SCREEN id="SCR_ID_BRW_READ_SERVICE_MESSAGE_OPTIONS"/>
+    <SCREEN id="SCR_ID_BRW_SEND_BY_OPTIONS"/>
+    <SCREEN id="SCR_ID_BRW_PUSH_ADD_BOOKMARK"/>
+    <SCREEN id="SCR_ID_BRW_PUSH_CONNECT_SIM_OPTIONS"/>
+    <SCREEN id="SCR_ID_BRW_PUSH_MSG_DELETED"/>
+    <SCREEN id="SCR_ID_PUSH_BLACK_LIST"/>
+    <SCREEN id="SCR_ID_PUSH_ENTRY_SERVICE_MSG"/>
+
+    <SCREEN id="SCR_ID_PUSH_END"/>
+
+
+        <SENDER id="EVT_ID_SRV_PUSH_SHOW_PROGRESS" hfile="WAPPushSrvGprots.h"/>
+        <SENDER id="EVT_ID_SRV_PUSH_SHOW_POPUP" hfile="WAPPushSrvGprots.h"/>
+        <SENDER id="EVT_ID_SRV_PUSH_HANDLE_NEW_SERVICE_MSG" hfile="WAPPushSrvGprots.h"/>
+        <SENDER id="EVT_ID_SRV_PUSH_MSG_DELETED_BY_SERVER_IND" hfile="WAPPushSrvGprots.h"/>
+        <SENDER id="EVT_ID_SRV_PUSH_DELETE_PUSH_SETTING" hfile="WAPPushSrvGprots.h"/>
+        <SENDER id="EVT_ID_SRV_PUSH_HANDLE_FULL_MSG" hfile="WAPPushSrvGprots.h"/>
+        <SENDER id="EVT_ID_SRV_PUSH_MSG_LIST_REPLY" hfile="WAPPushSrvGprots.h"/>
+        <SENDER id="EVT_ID_SRV_PUSH_MSG_COUNT_RSP" hfile="WAPPushSrvGprots.h"/>
+# 467 "temp/res/WAPPush.c"
+        <SENDER id="EVT_ID_SRV_PUSH_HANDLE_STORAGE_FULL_IND" hfile="WAPPushSrvGprots.h"/>
+        <SENDER id="EVT_ID_SRV_PUSH_HANDLE_DELETE_FOLDER_IND" hfile="WAPPushSrvGprots.h"/>
+
+        <SENDER id="EVT_ID_SRV_PUSH_HANDLE_PENDIG_EVENT_ON_IDLE" hfile="WAPPushSrvGprots.h"/>
+        <SENDER id="EVT_ID_SRV_PUSH_FETCH_DLG_QUEUE" hfile="WAPPushSrvGprots.h"/>
+
+        <SENDER id="EVT_ID_SRV_PUSH_PROV_CUI_CREATE" hfile="WAPPushSrvGprots.h"/>
+        <SENDER id="EVT_ID_SRV_PUSH_PROV_CUI_REDISPLAY" hfile="WAPPushSrvGprots.h"/>
+
+
+
+
+        <SENDER id="EVT_ID_SRV_PUSH_INBOX_INIT" hfile="WAPPushSrvGprots.h"/>
+
+
+
+
+
+
+        <RECEIVER id="EVT_ID_SRV_PUSH_SHOW_PROGRESS" proc="mmi_wap_push_handle_progress_evt"/>
+        <RECEIVER id="EVT_ID_SRV_PUSH_SHOW_POPUP" proc="mmi_wap_push_handle_popup_evt"/>
+        <RECEIVER id="EVT_ID_SRV_PUSH_HANDLE_NEW_SERVICE_MSG" proc="mmi_wap_push_handle_new_service_msg"/>
+        <RECEIVER id="EVT_ID_SRV_PUSH_MSG_DELETED_BY_SERVER_IND" proc="mmi_wap_push_handle_msg_deleted_by_server_ind_evt"/>
+        <RECEIVER id="EVT_ID_SRV_PUSH_HANDLE_FULL_MSG" proc="mmi_wap_push_handle_full_msg_evt"/>
+        <RECEIVER id="EVT_ID_SRV_PUSH_DELETE_PUSH_SETTING" proc="mmi_wap_push_del_push_setting_evt"/>
+        <RECEIVER id="EVT_ID_SRV_PUSH_MSG_LIST_REPLY" proc="mmi_wap_push_msg_list_reply"/>
+        <RECEIVER id="EVT_ID_SRV_PUSH_MSG_COUNT_RSP" proc="mmi_wap_push_handle_msg_cnt_rsp"/>
+# 503 "temp/res/WAPPush.c"
+        <RECEIVER id="EVT_ID_SRV_PUSH_HANDLE_STORAGE_FULL_IND" proc="mmi_wap_push_handle_storage_full_ind"/>
+        <RECEIVER id="EVT_ID_SRV_PUSH_HANDLE_DELETE_FOLDER_IND" proc="mmi_wap_push_handle_delete_folder_ind"/>
+
+        <RECEIVER id="EVT_ID_SRV_PUSH_HANDLE_PENDIG_EVENT_ON_IDLE" proc="mmi_wap_push_handle_pendig_event_on_idle"/>
+        <RECEIVER id="EVT_ID_SRV_PUSH_FETCH_DLG_QUEUE" proc="mmi_wap_push_fetch_dlg_from_queue"/>
+
+<RECEIVER id="EVT_ID_SRV_PUSH_INBOX_INIT" proc="mmi_wap_push_inbox_init"/>
+
+
+
+
+        <RECEIVER id="EVT_ID_SRV_MODE_SWITCH_FINISH_NOTIFY" proc="mmi_wap_push_mode_finish_switch_event_hdlr"/>
+# 531 "temp/res/WAPPush.c"
+</APP>

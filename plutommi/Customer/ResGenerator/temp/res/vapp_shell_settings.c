@@ -1,0 +1,58 @@
+#include "mmi_features.h"
+#include "custresdef.h"
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+
+<APP id="APP_VENUS_SHELL_SETTINGS">
+
+#ifdef __MMI_VUI_SHELL_MULTI_PAGE__
+
+    <!--Include Area-->
+
+    <!-----------------------------------------------------String Resource Area----------------------------------------------------->
+    <STRING id="VAPP_SHELL_STR_SETTINGS_TITLE_TEXT"/>
+
+
+    <!-----------------------------------------------------Image Resource Area------------------------------------------------------>
+#ifdef __MMI_VUI_SHELL_SETTINGS_SLIM__
+    #define SHELL_ROOT_PATH CUST_IMG_PATH"\\\\MainLCD\\\\VUI\\\\Shell_Low\\\\"
+#else
+    #define SHELL_ROOT_PATH CUST_IMG_PATH"\\\\MainLCD\\\\VUI\\\\Shell\\\\"
+#endif
+
+
+    #define SETTINGS_PATH   SHELL_ROOT_PATH"Settings\\\\"
+    #define SETTINGS_BRIGHT_PATH SETTINGS_PATH"Brightness\\\\"
+    #define SETTINGS_ORDER_PATH  SETTINGS_PATH"SetShell\\\\"
+    #define SETTINGS_PROF_PATH  SETTINGS_PATH"Mode\\\\"
+
+#ifdef __MMI_VUI_SHELL_SETTINGS__
+    <IMAGE id="VAPP_SHELL_IMG_SETTINGS_BG_SHADOW">SETTINGS_PATH"BG_Shadow.9slice.png"</IMAGE>
+    <IMAGE id="VAPP_SHELL_IMG_SETTINGS_TOP_BAR">SETTINGS_PATH"BG_01.9slice.png"</IMAGE>
+    <IMAGE id="VAPP_SHELL_IMG_SETTINGS_BOTTOM_BAR">SETTINGS_PATH"BG_02.9slice.png"</IMAGE>
+
+    <IMAGE id="VAPP_SHELL_IMG_SETTINGS_BRIGHTNESS_BG">SETTINGS_BRIGHT_PATH"Bri_BG.9slice.png"</IMAGE>
+    <IMAGE id="VAPP_SHELL_IMG_SETTINGS_BRIGHTNESS_SUN">SETTINGS_BRIGHT_PATH"Icon_Sun.png"</IMAGE>
+    <IMAGE id="VAPP_SHELL_IMG_SETTINGS_BRIGHTNESS_BAR_HILITE">SETTINGS_BRIGHT_PATH"Level_High.9slice.png"</IMAGE>
+    <IMAGE id="VAPP_SHELL_IMG_SETTINGS_BRIGHTNESS_BAR_UNHILITE">SETTINGS_BRIGHT_PATH"Level_Low.9slice.png"</IMAGE>
+
+#endif /* __MMI_VUI_SHELL_SETTINGS__ */
+    <IMAGE id="VAPP_SHELL_IMG_SETTINGS_MUSIC">SETTINGS_ORDER_PATH"Music.png"</IMAGE>
+    <IMAGE id="VAPP_SHELL_IMG_SETTINGS_IMAGE">SETTINGS_ORDER_PATH"Image.png"</IMAGE>
+    <IMAGE id="VAPP_SHELL_IMG_SETTINGS_HOME">SETTINGS_ORDER_PATH"Home.png"</IMAGE>
+    <IMAGE id="VAPP_SHELL_IMG_SETTINGS_MSG_VIEWER">SETTINGS_ORDER_PATH"MSG.png"</IMAGE>
+    <IMAGE id="VAPP_SHELL_IMG_SETTINGS_FAV_CONT">SETTINGS_ORDER_PATH"FavoriteContacts.png"</IMAGE>
+    <IMAGE id="VAPP_SHELL_IMG_SETTINGS_SETTING">SETTINGS_ORDER_PATH"Settings.png"</IMAGE>
+    <IMAGE id="VAPP_SHELL_IMG_SETTINGS_SHORTCUTS">SETTINGS_ORDER_PATH"Shortcuts.png"</IMAGE> 
+    <IMAGE id="VAPP_SHELL_IMG_SETTINGS_RECENT_CALL">SETTINGS_ORDER_PATH"RecentCalls.png"</IMAGE> 
+    <IMAGE id="VAPP_SHELL_IMG_PROF_GENERAL">SETTINGS_PROF_PATH"General.png"</IMAGE>
+    <IMAGE id="VAPP_SHELL_IMG_PROF_SILENT">SETTINGS_PROF_PATH"Slient.png"</IMAGE>
+    <IMAGE id="VAPP_SHELL_IMG_PROF_MEETING">SETTINGS_PROF_PATH"Meeting.png"</IMAGE>
+    <IMAGE id="VAPP_SHELL_IMG_PROF_OUTDOOR">SETTINGS_PROF_PATH"Outdoor.png"</IMAGE>
+    <IMAGE id="VAPP_SHELL_IMG_PROF_MYSTYLE">SETTINGS_PROF_PATH"MyStyle.png"</IMAGE>
+
+#endif /* __MMI_VUI_SHELL_MULTI_PAGE__ */
+</APP>
+
+

@@ -1,0 +1,25 @@
+[APP NAME] = APP_USBSRV
+[SCOPE] = PLUTO,COSMOS
+[MODULE] = MOD_MMI_COMMON_APP
+
+TRC_MSG(TRC_MMI_USB_BLOCK_EVENT, "[MMIUSB]srv_usb_block_event(), event_id = %d, cfg = %d, enter_ms = %d, exit_ms = %d")
+TRC_MSG(TRC_MMI_USB_UNBLOCK_EVENT, "[MMIUSB]srv_usb_unblock_event, event_id = %d, enter_ms = %d, exit_ms = %d")
+TRC_MSG(TRC_MMI_USB_FUNC_CONF_RSP_HDLR, "[MMIUSB]UsbConfigRspHdlr()")
+TRC_MSG(TRC_MMI_USB_FUNC_UART_SWITCH_RSP_HDLE, "[MMIUSB]UsbUartSwitchRspHdlr()")
+TRC_MSG(TRC_MMI_USB_FUNC_CONF_CDCACM, "[MMIUSB]UsbConfigCDCACM()")
+TRC_MSG(TRC_MMI_USB_SRV_USB_START_CONFIG_MS ,"[MMIUSB]srv_usb_start_config_ms")
+TRC_MSG(TRC_MMI_USB_FUNC_CONF_MS, "[MMIUSB]UsbConfigMassStorage()")
+TRC_MSG(TRC_MMI_USB_FUNC_PEND_DETECT_TIMEOUT, "[MMIUSB]PendingUsbDetectionTimeoutHdlr()")
+TRC_MSG(TRC_MMI_USB_STATE_TRANSITION, "[MMIUSB]PendingUsbDetectionTimeoutHdlr(), state transition: %d -> %d")
+TRC_MSG(TRC_MMI_USB_FUNC_START_TIMER, "[MMIUSB]PendingUsbDetectionHdlr()")
+TRC_MSG(TRC_MMI_USB_START_PEND_TIMEER, "[MMIUSB]PendingUsbDetectionHdlr(), Start Timer")
+TRC_MSG(TRC_MMI_USB_DETECT_SCR_PLUGIN, "[MMIUSB]UsbDetectIndHdlr->Plug in(%d)")
+TRC_MSG(TRC_MMI_USB_APP_DEINIT_PERFORM, "[MMIUSB]mmi_usb_app_deinit(), to perform = %d")
+TRC_MSG(TRC_MMI_USB_DETECT_SCR_PLUGOUT, "[MMIUSB]srv_usb_handle_plug_out(%d)")
+TRC_MSG(TRC_MMI_USB_FUNC_DETECT_SCR, "[MMIUSB]UsbDetectIndHdlr(%d)")
+TRC_MSG(TRC_MMI_USB_CUR_STATE, "[MMIUSB]GetUsbStatus(), current state = %d")
+TRC_MSG(TRC_MMI_USB_SEND_REMOVAL_EVENT_REQ, "[MMIUSB]mmi_usb_send_removal_event_req()")TRC_MSG(TRC_MMI_USB_SEND_PRE_EXIT_MODE_EVENT_REQ, "[MMIUSB]EVT_ID_USB_PRE_EXIT_MODE")
+TRC_MSG(TRC_MMI_USB_MS_EXIT_DONE, "[MMIUSB]srv_usb_handle_ms_exit_done()")
+TRC_MSG(TRC_MMI_USB_SEND_EXIT_MS_EVENT, "[MMIUSB]EVT_ID_USB_EXIT_MS_MODE")
+TRC_MSG(TRC_MMI_USB_IS_EXIT_DONE_FLAG, "[MMIUSB]g_usb_is_ms_exit_done is MMI_TRUE")
+TRC_MSG(TRC_MMI_USB_IS_EXIT_DONE_FLAG_FALSE, "[MMIUSB]g_usb_is_ms_exit_done is MMI_FALSE")

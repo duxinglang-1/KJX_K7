@@ -1,0 +1,53 @@
+Image: ..\..\..\plutommi\CUSTOMER\IMAGES\PLUTO\MAINLCD\UIELEMENT\SOFTKEY\MARK_CSK.BMP
+  Format: BMP (Microsoft Windows bitmap image)
+  Geometry: 20x20
+  Class: PseudoClass
+  Type: Palette
+  Endianess: Undefined
+  Colorspace: RGB
+  Channel depth:
+    Red: 8-bits
+    Green: 8-bits
+    Blue: 8-bits
+  Channel statistics:
+    Red:
+      Min: 0 (0)
+      Max: 255 (1)
+      Mean: 2.1475 (0.00842157)
+      Standard deviation: 22.046 (0.0864549)
+    Green:
+      Min: 0 (0)
+      Max: 255 (1)
+      Mean: 1.5925 (0.0062451)
+      Standard deviation: 18.6427 (0.0731088)
+    Blue:
+      Min: 0 (0)
+      Max: 255 (1)
+      Mean: 1.345 (0.00527451)
+      Standard deviation: 17.125 (0.0671569)
+  Colors: 5
+         0: (255,  0,  0)	red
+         1: (226,223,222)	#E2DFDE
+         2: (123,159, 61)	#7B9F3D
+         3: (255,255,255)	white
+         4: (  0,  0,  0)	black
+  Histogram:
+       134: (123,159, 61)	#7B9F3D
+       148: (255,  0,  0)	red
+        74: (226,223,222)	#E2DFDE
+        44: (255,255,255)	white
+  Rendering-intent: Undefined
+  Resolution: 28.34x28.34
+  Units: Undefined
+  Filesize: 316
+  Interlace: None
+  Background Color: white
+  Border Color: #DFDFDF
+  Matte Color: grey74
+  Dispose: Undefined
+  Iterations: 0
+  Compression: Undefined
+  Orientation: Undefined
+  Signature: 8961986db25a8cb643000024241220bdff7a468057d0946348cb5785beb15c00
+  Tainted: False
+  Version: ImageMagick 6.2.3 06/08/05 Q16 http://www.imagemagick.org

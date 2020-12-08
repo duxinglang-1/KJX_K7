@@ -1,0 +1,36 @@
+[APP NAME] = CtmSrv
+[SCOPE] = PLUTO, COSMOS 
+[MODULE] = MOD_MMI_COMMON_APP
+#don't change any value above
+
+#start trace
+#----------------- CtmSrv.c ------------------------------------------------------
+TRC_MSG(TRC_SRV_CTM_PRMT_CONNECT_ALLOW, "srv_ctm_prmt_connect, allowed")
+TRC_MSG(TRC_SRV_CTM_PRMT_CONNECT_DISALLOW, "srv_ctm_prmt_connect, disallowed")
+TRC_MSG(TRC_SRV_CTM_IS_OPENED_AS_MANUAL_MODE_YES,"srv_ctm_is_opened_as_manual_mode, Yes")
+TRC_MSG(TRC_SRV_CTM_IS_OPENED_AS_MANUAL_MODE_NO,"srv_ctm_is_opened_as_manual_mode, No")
+TRC_MSG(FUNC_SRV_PHDLR_CTM_CLOSE_RSP,"SRV_CTM_CLOSE_RSP")
+TRC_MSG(FUNC_SRV_CTM_REQ_SEND_CONNECT,"SRV_CTM_REQ_SEND_CONNECT")
+TRC_MSG(TRC_SRV_CTM_PHDLR_CONNECT_RSP,"SRV_CTM_CONNECT_RSP, result=%d, state=%d")
+TRC_MSG(TRC_SRV_CTM_PHDLR_SEND_TEXT_RSP, "SRV_CTM_SEND_TEXT_RSP, result=%d, state=%d")
+TRC_MSG(TRC_SRV_CTM_ACT_REQ_ERR,"srv_ctm_act_req, CTM service is BUSY or operation is not supported")
+TRC_MSG(TRC_SRV_CTM_PHDLR_CONNECT_IND, "SRV_CTM_CONNECT_IND")
+TRC_MSG(TRC_SRV_CTM_PHDLR_CONNECT_IND_IGNORE, "SRV_CTM_CONNECT_IND, ignored, state=%d")
+TRC_MSG(TRC_SRV_CTM_PHDLR_OPEN_RSP_IGNORE, "SRV_CTM_OPEN_RSP, ignored, state=%d")
+TRC_MSG(TRC_SRV_CTM_PHDLR_OPEN_RSP_SUC,"SRV_CTM_OPEN_RSP, success")
+TRC_MSG(TRC_SRV_CTM_PHDLR_OPEN_RSP_FAIL,"SRV_CTM_OPEN_RSP, fail")
+TRC_MSG(TRC_SRV_CTM_OPEN_YES,"srv_ctm_open, yes")
+TRC_MSG(TRC_SRV_CTM_OPEN_NO,"srv_ctm_open, no")
+TRC_MSG(FUNC_SRV_CTM_PHDLR_RECEIVE_TEXT_IND,"SRV_CTM_RECEIVE_TEXT_IND")
+TRC_MSG(FUNC_SRV_CTM_MED_CLOSE_REQ,"SRV_CTM_L4C_CLOSE_REQ")
+TRC_MSG(FUNC_SRV_CTM_MED_CONNECT_REQ,"SRV_CTM_L4C_CONNECT_REQ")
+TRC_MSG(FUNC_SRV_CTM_MED_OPEN_REQ,"SRV_CTM_L4C_OPEN_REQ")
+TRC_MSG(FUNC_SRV_CTM_MED_SEND_TEXT_REQ,"SRV_CTM_L4C_SEND_TEXT_REQ")
+TRC_MSG(SRV_CTM_IS_CONNECTED_YES,"srv_ctm_is_connected, Yes")
+TRC_MSG(SRV_CTM_IS_CONNECTED_NO,"srv_ctm_is_connected, No")
+TRC_MSG(TRC_SRV_CTM_SEND_IND,"srv_ctm_send_ind, ind=%d")
+TRC_MSG(TRC_SRV_CTM_SPEECH_STATUS_IND_HDLR,"srv_ctm_speech_status_ind_hdlr")
+TRC_MSG(TRC_SRV_CTM_ACT_SEND_TEXT_ERR,"srv_ctm_act_send_text, ERROR!")
+TRC_MSG(TRC_SRV_CTM_ACT_REQ,"srv_ctm_act_req, op=%d, curr_act=%d")
+TRC_MSG(TRC_SRV_CTM_SET_TTY_STATUS,"srv_ctm_set_tty_status, status=%d")
+TRC_MSG(TRC_SRV_CTM_SWITCH_TTY_STATUS,"srv_ctm_switch_tty_status, state=%d, activated_mode=%d, setting=%d")

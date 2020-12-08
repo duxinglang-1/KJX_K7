@@ -1,0 +1,25 @@
+[APP NAME] = ImageClipCui
+[SCOPE] = PLUTO
+[MODULE] = MOD_MMI_MEDIA_APP
+
+/* --------------------------------------------------------------- */
+/* ------------------------- MOBILE TV PLAYER -------------------- */
+/* --------------------------------------------------------------- */
+TRC_MSG(MMI_TRC_IMAGE_CLIP_CUI_CREATE, "[CUI_IMAGE_CLIP]cui image clip create, line = %d")
+TRC_MSG(MMI_TRC_IMAGE_CLIP_CUI_SET_DEST_SIZE, "[CUI_IMAGE_CLIP]cui image clip set dest size, line = %d, width = %d, height = %d")
+TRC_MSG(MMI_TRC_IMAGE_CLIP_CUI_RUN, "[CUI_IMAGE_CLIP]cui image clip run, line = %d")
+TRC_MSG(MMI_TRC_IMAGE_CLIP_CUI_CLOSE, "[CUI_IMAGE_CLIP]cui image clip close, line = %d")
+TRC_MSG(MMI_TRC_IMAGE_CLIP_CUI_SCRN_ACTIVE, "[CUI_IMAGE_CLIP]cui image clip active, line = %d")
+TRC_MSG(MMI_TRC_IMAGE_CLIP_CUI_SCRN_INACTIVE, "[CUI_IMAGE_CLIP]cui image clip inactive, line = %d")
+TRC_MSG(MMI_TRC_IMAGE_CLIP_CUI_SAVE_DECODE_DONE, "[CUI_IMAGE_CLIP]cui image clip image save done, line = %d")
+TRC_MSG(MMI_TRC_IMAGE_CLIP_CUI_DECODE_IMAGE, "[CUI_IMAGE_CLIP]cui image clip start to decode, line = %d")
+TRC_MSG(MMI_TRC_IMAGE_CLIP_CUI_DECODE_IMAGE_DONE, "[CUI_IMAGE_CLIP]cui image clip decode image done, line = %d")
+TRC_MSG(MMI_TRC_IMAGE_CLIP_CUI_SEND_EXIT, "[CUI_IMAGE_CLIP]cui image clip send exit request, line = %d")
+TRC_MSG(MMI_TRC_IMAGE_CLIP_CUI_SEND_RESULT, "[CUI_IMAGE_CLIP]cui image clip send result, line = %d, result = %d")
+TRC_MSG(MMI_TRC_IMAGE_CLIP_CUI_GEN_FILE_NAME, "[CUI_IMAGE_CLIP]cui image clip gen file name, line = %d")
+TRC_MSG(MMI_TRC_IMAGE_CLIP_CUI_DRAW_ANIM, "[CUI_IMAGE_CLIP]cui image clip draw animation start, line = %d")
+TRC_MSG(MMI_TRC_IMAGE_CLIP_CUI_STOP_ANIM, "[CUI_IMAGE_CLIP]cui image clip draw animation stop, line = %d")
+TRC_MSG(MMI_TRC_IMAGE_CLIP_CUI_PREPARE_MEM, "[CUI_IMAGE_CLIP]cui image clip prepare memory, line = %d")
+TRC_MSG(MMI_TRC_IMAGE_CLIP_CUI_ALLOC_MEM, "[CUI_IMAGE_CLIP]cui image clip alloc memory, line = %d")
+TRC_MSG(MMI_TRC_IMAGE_CLIP_CUI_FREE_MEM, "[CUI_IMAGE_CLIP]cui image clip free memory, line = %d")
+TRC_MSG(MMI_TRC_IMAGE_CLIP_CUI_MSG_TRC, "[CUI_IMAGE_CLIP]<MESSAGE>line = %d, val = %d")

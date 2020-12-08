@@ -1,0 +1,73 @@
+Image: ..\..\..\plutommi\CUSTOMER\IMAGES\PLUTO\MAINLCD\SMS\SUBMENU\CHANNEL\CH_NB.BMP
+  Format: BMP (Microsoft Windows bitmap image)
+  Geometry: 26x26
+  Class: PseudoClass
+  Type: Palette
+  Endianess: Undefined
+  Colorspace: RGB
+  Channel depth:
+    Red: 8-bits
+    Green: 8-bits
+    Blue: 8-bits
+  Channel statistics:
+    Red:
+      Min: 0 (0)
+      Max: 255 (1)
+      Mean: 1.94379 (0.00762269)
+      Standard deviation: 16.8197 (0.0659596)
+    Green:
+      Min: 0 (0)
+      Max: 255 (1)
+      Mean: 3.27071 (0.0128263)
+      Standard deviation: 23.7604 (0.0931779)
+    Blue:
+      Min: 0 (0)
+      Max: 255 (1)
+      Mean: 4.13609 (0.01622)
+      Standard deviation: 29.7119 (0.116517)
+  Colors: 15
+         0: (255,  0,  0)	red
+         1: ( 53,156,212)	#359CD4
+         2: ( 42,149,207)	#2A95CF
+         3: ( 45,151,208)	#2D97D0
+         4: ( 58,160,214)	#3AA0D6
+         5: ( 64,163,216)	#40A3D8
+         6: ( 69,167,218)	#45A7DA
+         7: ( 73,170,220)	#49AADC
+         8: ( 77,172,222)	#4DACDE
+         9: ( 80,174,223)	#50AEDF
+        10: (152,216,242)	#98D8F2
+        11: ( 42,125,149)	#2A7D95
+        12: ( 49,153,210)	#3199D2
+        13: (255,255,255)	white
+        14: (  0,  0,  0)	black
+  Histogram:
+        72: ( 42,125,149)	#2A7D95
+       134: ( 42,149,207)	#2A95CF
+        13: ( 45,151,208)	#2D97D0
+        13: ( 49,153,210)	#3199D2
+        13: ( 53,156,212)	#359CD4
+        15: ( 58,160,214)	#3AA0D6
+        16: ( 64,163,216)	#40A3D8
+        18: ( 69,167,218)	#45A7DA
+        18: ( 73,170,220)	#49AADC
+        18: ( 77,172,222)	#4DACDE
+        18: ( 80,174,223)	#50AEDF
+       280: (255,  0,  0)	red
+        18: (152,216,242)	#98D8F2
+        30: (255,255,255)	white
+  Rendering-intent: Undefined
+  Resolution: 28.34x28.34
+  Units: Undefined
+  Filesize: 532
+  Interlace: None
+  Background Color: white
+  Border Color: #DFDFDF
+  Matte Color: grey74
+  Dispose: Undefined
+  Iterations: 0
+  Compression: Undefined
+  Orientation: Undefined
+  Signature: b094b6c1048a0558b92c50f69d0bf2b3697ed272cd597f5aa32f1ee8ccd4c518
+  Tainted: False
+  Version: ImageMagick 6.2.3 06/08/05 Q16 http://www.imagemagick.org

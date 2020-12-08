@@ -1,0 +1,59 @@
+Image: ..\..\..\plutommi\CUSTOMER\IMAGES\PLUTO\MAINLCD\MMS\SMIL\MMS_RINGSTOP.BMP
+  Format: BMP (Microsoft Windows bitmap image)
+  Geometry: 14x15
+  Class: PseudoClass
+  Type: Palette
+  Endianess: Undefined
+  Colorspace: RGB
+  Channel depth:
+    Red: 8-bits
+    Green: 8-bits
+    Blue: 8-bits
+  Channel statistics:
+    Red:
+      Min: 0 (0)
+      Max: 255 (1)
+      Mean: 7.28571 (0.0285714)
+      Standard deviation: 40.2901 (0.158)
+    Green:
+      Min: 0 (0)
+      Max: 255 (1)
+      Mean: 4.72857 (0.0185434)
+      Standard deviation: 31.3997 (0.123136)
+    Blue:
+      Min: 0 (0)
+      Max: 255 (1)
+      Mean: 4.34286 (0.0170308)
+      Standard deviation: 28.883 (0.113267)
+  Colors: 8
+         0: (  0,  0,  0)	black
+         1: (155, 26, 29)	#9B1A1D
+         2: (255,237,153)	#FFED99
+         3: (128,  0,  0)	maroon
+         4: (227, 92, 92)	#E35C5C
+         5: (255,128,128)	#FF8080
+         6: (255,255,255)	white
+         7: (255,255,255)	white
+  Histogram:
+        44: (  0,  0,  0)	black
+        54: (128,  0,  0)	maroon
+        30: (155, 26, 29)	#9B1A1D
+         2: (227, 92, 92)	#E35C5C
+         3: (255,128,128)	#FF8080
+        25: (255,237,153)	#FFED99
+        52: (255,255,255)	white
+  Rendering-intent: Undefined
+  Resolution: 28.34x28.34
+  Units: Undefined
+  Filesize: 208
+  Interlace: None
+  Background Color: white
+  Border Color: #DFDFDF
+  Matte Color: grey74
+  Dispose: Undefined
+  Iterations: 0
+  Compression: Undefined
+  Orientation: Undefined
+  Signature: d5eb6ae1523d6356bd4ad199a39b4c6fa06c0aaddbf7117c9766eb3da430de68
+  Tainted: False
+  Version: ImageMagick 6.2.3 06/08/05 Q16 http://www.imagemagick.org

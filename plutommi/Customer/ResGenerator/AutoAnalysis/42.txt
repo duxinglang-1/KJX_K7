@@ -1,0 +1,66 @@
+Image: ..\..\..\plutommi\CUSTOMER\IMAGES\PLUTO\MAINLCD\WARNINGPAGE\POPUPPAGE\PP_WARN.GIF
+  Format: GIF (CompuServe graphics interchange format)
+  Geometry: 100x90
+  Class: PseudoClass
+  Type: PaletteMatte
+  Endianess: Undefined
+  Colorspace: RGB
+  Channel depth:
+    Red: 8-bits
+    Green: 8-bits
+    Blue: 8-bits
+    Opacity: 1-bits
+  Channel statistics:
+    Red:
+      Min: 120 (0.470588)
+      Max: 255 (1)
+      Mean: 221.672 (0.869301)
+      Standard deviation: 37.9966 (0.149006)
+    Green:
+      Min: 49 (0.192157)
+      Max: 255 (1)
+      Mean: 158.025 (0.619707)
+      Standard deviation: 95.7916 (0.375653)
+    Blue:
+      Min: 49 (0.192157)
+      Max: 255 (1)
+      Mean: 158.025 (0.619707)
+      Standard deviation: 95.7916 (0.375653)
+    Opacity:
+      Min: 0 (0)
+      Max: 255 (1)
+      Mean: 109.933 (0.431111)
+      Standard deviation: 126.284 (0.495232)
+  Colors: 8
+         0: (173, 51, 51,  0)	#AD333300
+         1: (157,100,100,  0)	#9D646400
+         2: (203,165,165,  0)	#CBA5A500
+         3: (232,214,214,  0)	#E8D6D600
+         4: (120, 49, 49,  0)	#78313100
+         5: (255,255,255,  0)	white
+         6: (202, 64, 64,  0)	#CA404000
+         7: (255,255,255,  0)	white
+  Histogram:
+       550: (120, 49, 49,  0)	#78313100
+       217: (173, 51, 51,  0)	#AD333300
+       123: (157,100,100,  0)	#9D646400
+      3597: (202, 64, 64,  0)	#CA404000
+        68: (203,165,165,  0)	#CBA5A500
+        73: (232,214,214,  0)	#E8D6D600
+       492: (255,255,255,  0)	white
+      3880: (255,255,255,255)	#FFFFFFFF
+  Rendering-intent: Undefined
+  Resolution: 72x72
+  Units: Undefined
+  Filesize: 795
+  Interlace: None
+  Background Color: white
+  Border Color: #DFDFDF00
+  Matte Color: grey74
+  Page geometry: 100x90+0+0
+  Dispose: Undefined
+  Compression: LZW
+  Orientation: Undefined
+  Signature: f811fc536f29fe2d7f5eeca0a13d6b5b1a3c1cef0026fd5af030d0e50332fc48
+  Tainted: False
+  Version: ImageMagick 6.2.3 06/08/05 Q16 http://www.imagemagick.org

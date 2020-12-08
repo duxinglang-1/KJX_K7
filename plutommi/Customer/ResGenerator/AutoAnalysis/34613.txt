@@ -1,0 +1,50 @@
+Image: ..\..\..\plutommi\CUSTOMER\IMAGES\PLUTO\MAINLCD\CAMERA\CAMERA\OSD\WB_AUTO.BMP
+  Format: BMP (Microsoft Windows bitmap image)
+  Geometry: 25x25
+  Class: PseudoClass
+  Type: Palette
+  Endianess: Undefined
+  Colorspace: RGB
+  Channel depth:
+    Red: 1-bits
+    Green: 1-bits
+    Blue: 1-bits
+  Channel statistics:
+    Red:
+      Min: 0 (0)
+      Max: 1 (1)
+      Mean: 0.0016 (0.0016)
+      Standard deviation: 0.039968 (0.039968)
+    Green:
+      Min: 0 (0)
+      Max: 1 (1)
+      Mean: 0.0032 (0.0032)
+      Standard deviation: 0.056478 (0.056478)
+    Blue:
+      Min: 0 (0)
+      Max: 1 (1)
+      Mean: 0.0032 (0.0032)
+      Standard deviation: 0.056478 (0.056478)
+  Colors: 3
+         0: (  0,255,255)	aqua
+         1: (255,255,255)	white
+         2: (  0,  0,  0)	black
+  Histogram:
+       484: (  0,  0,  0)	black
+        12: (  0,255,255)	aqua
+       129: (255,255,255)	white
+  Rendering-intent: Undefined
+  Resolution: 28.34x28.34
+  Units: Undefined
+  Filesize: 468
+  Interlace: None
+  Background Color: white
+  Border Color: #DFDFDF
+  Matte Color: grey74
+  Dispose: Undefined
+  Iterations: 0
+  Compression: Undefined
+  Orientation: Undefined
+  Signature: 3c7e568907e645789ec2bad4636e9755c5954839b95a9cf438a5dc156f0e796e
+  Tainted: False
+  Version: ImageMagick 6.2.3 06/08/05 Q16 http://www.imagemagick.org

@@ -1,0 +1,5 @@
+31386	IMG_ID_PHNSET_ON_START	Power ON image	../Res_MMI/res_PhoneSetting.c	0	1	0	..\\..\\Customer\\Images\\PLUTO\\MainLCD\\Active\\poweronoff\\POON.GIF	0	1	APP name unknown	1	
+31389	IMG_ID_PHNSET_OFF_START	Power OFF image	../Res_MMI/res_PhoneSetting.c	0	1	0	..\\..\\Customer\\Images\\PLUTO\\MainLCD\\Active\\poweronoff\\pooff.GIF	0	1	APP name unknown	1	
+31382	(IMG_ID_PHNSET_WP_START + i)	Image associated with wallpaer.	../Res_MMI/res_PhoneSetting.c	0	1	0	..\\..\\Customer\\Images\\PLUTO\\MainLCD\\IdleScreen\\WallPaper\\wall01.BMP	0	1	APP name unknown	1	
+31387	(IMG_ID_PHNSET_ON_START + i + 1)	Image associated with poweron disp.	../Res_MMI/res_PhoneSetting.c	0	1	0	..\\..\\Customer\\Images\\PLUTO\\MainLCD\\IdleScreen\\WallPaper\\wall01.BMP	0	1	APP name unknown	1	
+31390	(IMG_ID_PHNSET_OFF_START + i + 1)	Image associated with poweroff disp.	../Res_MMI/res_PhoneSetting.c	0	1	0	..\\..\\Customer\\Images\\PLUTO\\MainLCD\\IdleScreen\\WallPaper\\wall01.BMP	0	1	APP name unknown	1	

@@ -1,0 +1,302 @@
+Image: ..\..\..\plutommi\CUSTOMER\IMAGES\PLUTO\MAINLCD\DLAGENT\DLT_LOADING.GIF
+  Format: GIF (CompuServe graphics interchange format)
+  Geometry: 240x60
+  Class: PseudoClass
+  Type: PaletteMatte
+  Endianess: Undefined
+  Colorspace: RGB
+  Channel depth:
+    Red: 8-bits
+    Green: 8-bits
+    Blue: 8-bits
+    Opacity: 1-bits
+  Channel statistics:
+    Red:
+      Min: 0 (0)
+      Max: 255 (1)
+      Mean: 224.578 (0.880698)
+      Standard deviation: 76.6803 (0.300707)
+    Green:
+      Min: 0 (0)
+      Max: 255 (1)
+      Mean: 227.312 (0.891419)
+      Standard deviation: 70.7683 (0.277523)
+    Blue:
+      Min: 0 (0)
+      Max: 255 (1)
+      Mean: 220.948 (0.866462)
+      Standard deviation: 76.9854 (0.301904)
+    Opacity:
+      Min: 0 (0)
+      Max: 255 (1)
+      Mean: 202.955 (0.795903)
+      Standard deviation: 102.775 (0.40304)
+  Colors: 32
+         0: (251,235,138,  0)	#FBEB8A00
+         1: ( 12, 14, 13,  0)	#0C0E0D00
+         2: (250,208, 75,  0)	#FAD04B00
+         3: (116,208,230,  0)	#74D0E600
+         4: (249,196, 47,  0)	#F9C42F00
+         5: ( 84,186,218,  0)	#54BADA00
+         6: (106,174,187,  0)	#6AAEBB00
+         7: ( 44,159,204,  0)	#2C9FCC00
+         8: (250,219,101,  0)	#FADB6500
+         9: ( 32, 73, 86,  0)	#20495600
+        10: (251,227,120,  0)	#FBE37800
+        11: (153,232,242,  0)	#99E8F200
+        12: (165,241,247,  0)	#A5F1F700
+        13: (253,246,162,  0)	#FDF6A200
+        14: ( 52,136,164,  0)	#3488A400
+        15: (171,171,171,  0)	grey67
+        16: ( 40,112,138,  0)	#28708A00
+        17: (129,216,234,  0)	#81D8EA00
+        18: ( 65,101,104,  0)	#41656800
+        19: ( 24, 45, 51,  0)	#182D3300
+        20: (243,245, 98,  0)	#F3F56200
+        21: (135,201,207,  0)	#87C9CF00
+        22: (235,188, 49,  0)	#EBBC3100
+        23: (204,194,120,  0)	#CCC27800
+        24: (248,248,248,  0)	#F8F8F800
+        25: (199,187,111,  0)	#C7BB6F00
+        26: (134,138,136,  0)	#868A8800
+        27: (194,195, 80,  0)	#C2C35000
+        28: (214,211,143,  0)	#D6D38F00
+        29: (236,238, 95,  0)	#ECEE5F00
+        30: (  0,  0,  0,  0)	black
+        31: (255,255,255,  0)	white
+  Histogram:
+       852: (  0,  0,  0,  0)	black
+       239: ( 12, 14, 13,  0)	#0C0E0D00
+       114: ( 24, 45, 51,  0)	#182D3300
+        73: ( 32, 73, 86,  0)	#20495600
+        26: ( 65,101,104,  0)	#41656800
+        23: ( 40,112,138,  0)	#28708A00
+        43: ( 52,136,164,  0)	#3488A400
+       120: ( 44,159,204,  0)	#2C9FCC00
+        43: (106,174,187,  0)	#6AAEBB00
+       147: ( 84,186,218,  0)	#54BADA00
+        71: (116,208,230,  0)	#74D0E600
+         8: (235,188, 49,  0)	#EBBC3100
+         3: (199,187,111,  0)	#C7BB6F00
+       176: (249,196, 47,  0)	#F9C42F00
+        16: (194,195, 80,  0)	#C2C35000
+         2: (204,194,120,  0)	#CCC27800
+       124: (250,208, 75,  0)	#FAD04B00
+       125: (250,219,101,  0)	#FADB6500
+         3: (236,238, 95,  0)	#ECEE5F00
+        96: (251,227,120,  0)	#FBE37800
+       107: (243,245, 98,  0)	#F3F56200
+        19: (134,138,136,  0)	#868A8800
+       110: (171,171,171,  0)	grey67
+         7: (135,201,207,  0)	#87C9CF00
+        53: (129,216,234,  0)	#81D8EA00
+        54: (153,232,242,  0)	#99E8F200
+        44: (165,241,247,  0)	#A5F1F700
+         2: (214,211,143,  0)	#D6D38F00
+       126: (251,235,138,  0)	#FBEB8A00
+       111: (253,246,162,  0)	#FDF6A200
+         2: (248,248,248,  0)	#F8F8F800
+     11461: (255,255,255,255)	#FFFFFFFF
+  Rendering-intent: Undefined
+  Resolution: 72x72
+  Units: Undefined
+  Filesize: 2kb
+  Interlace: None
+  Background Color: white
+  Border Color: #DFDFDF00
+  Matte Color: grey74
+  Page geometry: 240x60+0+0
+  Dispose: None
+  Delay: 20
+  Iterations: 0
+  Compression: LZW
+  Orientation: Undefined
+  Signature: 1667266f7a39529c310e2f419586066f0ba7135c637a47e1cd98007f5e33b179
+  Tainted: False
+  Version: ImageMagick 6.2.3 06/08/05 Q16 http://www.imagemagick.org
+Image: ..\..\..\plutommi\CUSTOMER\IMAGES\PLUTO\MAINLCD\DLAGENT\DLT_LOADING.GIF
+  Format: GIF (CompuServe graphics interchange format)
+  Geometry: 47x18
+  Class: PseudoClass
+  Type: PaletteMatte
+  Endianess: Undefined
+  Colorspace: RGB
+  Channel depth:
+    Red: 8-bits
+    Green: 8-bits
+    Blue: 8-bits
+    Opacity: 1-bits
+  Channel statistics:
+    Red:
+      Min: 0 (0)
+      Max: 255 (1)
+      Mean: 216.842 (0.850359)
+      Standard deviation: 73.4506 (0.288042)
+    Green:
+      Min: 0 (0)
+      Max: 255 (1)
+      Mean: 217.262 (0.852009)
+      Standard deviation: 73.2719 (0.287341)
+    Blue:
+      Min: 0 (0)
+      Max: 255 (1)
+      Mean: 195.917 (0.768303)
+      Standard deviation: 83.8618 (0.32887)
+    Opacity:
+      Min: 0 (0)
+      Max: 255 (1)
+      Mean: 156.436 (0.613475)
+      Standard deviation: 124.173 (0.486953)
+  Colors: 32
+         0: (251,235,138,  0)	#FBEB8A00
+         1: ( 12, 14, 13,  0)	#0C0E0D00
+         2: (250,208, 75,  0)	#FAD04B00
+         3: (116,208,230,  0)	#74D0E600
+         4: (249,196, 47,  0)	#F9C42F00
+         5: ( 84,186,218,  0)	#54BADA00
+         6: (106,174,187,  0)	#6AAEBB00
+         7: ( 44,159,204,  0)	#2C9FCC00
+         8: (250,219,101,  0)	#FADB6500
+         9: ( 32, 73, 86,  0)	#20495600
+        10: (251,227,120,  0)	#FBE37800
+        11: (153,232,242,  0)	#99E8F200
+        12: (165,241,247,  0)	#A5F1F700
+        13: (253,246,162,  0)	#FDF6A200
+        14: ( 52,136,164,  0)	#3488A400
+        15: (171,171,171,  0)	grey67
+        16: ( 40,112,138,  0)	#28708A00
+        17: (129,216,234,  0)	#81D8EA00
+        18: ( 65,101,104,  0)	#41656800
+        19: ( 24, 45, 51,  0)	#182D3300
+        20: (243,245, 98,  0)	#F3F56200
+        21: (135,201,207,  0)	#87C9CF00
+        22: (235,188, 49,  0)	#EBBC3100
+        23: (204,194,120,  0)	#CCC27800
+        24: (248,248,248,  0)	#F8F8F800
+        25: (199,187,111,  0)	#C7BB6F00
+        26: (134,138,136,  0)	#868A8800
+        27: (194,195, 80,  0)	#C2C35000
+        28: (214,211,143,  0)	#D6D38F00
+        29: (236,238, 95,  0)	#ECEE5F00
+        30: (  0,  0,  0,  0)	black
+        31: (255,255,255,  0)	white
+  Histogram:
+        47: (  0,  0,  0,  0)	black
+        28: ( 12, 14, 13,  0)	#0C0E0D00
+        16: (194,195, 80,  0)	#C2C35000
+         3: (236,238, 95,  0)	#ECEE5F00
+       107: (243,245, 98,  0)	#F3F56200
+        16: (134,138,136,  0)	#868A8800
+       110: (171,171,171,  0)	grey67
+       519: (255,255,255,255)	#FFFFFFFF
+  Rendering-intent: Undefined
+  Resolution: 72x72
+  Units: Undefined
+  Filesize: 2kb
+  Interlace: None
+  Background Color: white
+  Border Color: #DFDFDF00
+  Matte Color: grey74
+  Page geometry: 240x60+101+20
+  Dispose: None
+  Delay: 20
+  Scene: 1
+  Compression: LZW
+  Orientation: Undefined
+  Signature: 28c0efedf100cf56533612e1304faa69ce536949659fa6b7e9014461e66d43f6
+  Tainted: False
+  User Time: 0.094u
+  Elapsed Time: 0:01
+  Pixels per second: 6kb
+  Version: ImageMagick 6.2.3 06/08/05 Q16 http://www.imagemagick.org
+Image: ..\..\..\plutommi\CUSTOMER\IMAGES\PLUTO\MAINLCD\DLAGENT\DLT_LOADING.GIF
+  Format: GIF (CompuServe graphics interchange format)
+  Geometry: 20x18
+  Class: PseudoClass
+  Type: PaletteMatte
+  Endianess: Undefined
+  Colorspace: RGB
+  Channel depth:
+    Red: 8-bits
+    Green: 8-bits
+    Blue: 8-bits
+    Opacity: 1-bits
+  Channel statistics:
+    Red:
+      Min: 12 (0.0470588)
+      Max: 255 (1)
+      Mean: 192.231 (0.753845)
+      Standard deviation: 81.0918 (0.318007)
+    Green:
+      Min: 14 (0.054902)
+      Max: 255 (1)
+      Mean: 192.669 (0.755566)
+      Standard deviation: 80.3872 (0.315244)
+    Blue:
+      Min: 13 (0.0509804)
+      Max: 255 (1)
+      Mean: 192.45 (0.754706)
+      Standard deviation: 80.7387 (0.316622)
+    Opacity:
+      Min: 0 (0)
+      Max: 255 (1)
+      Mean: 132.458 (0.519444)
+      Standard deviation: 127.404 (0.499622)
+  Colors: 32
+         0: (251,235,138,  0)	#FBEB8A00
+         1: ( 12, 14, 13,  0)	#0C0E0D00
+         2: (250,208, 75,  0)	#FAD04B00
+         3: (116,208,230,  0)	#74D0E600
+         4: (249,196, 47,  0)	#F9C42F00
+         5: ( 84,186,218,  0)	#54BADA00
+         6: (106,174,187,  0)	#6AAEBB00
+         7: ( 44,159,204,  0)	#2C9FCC00
+         8: (250,219,101,  0)	#FADB6500
+         9: ( 32, 73, 86,  0)	#20495600
+        10: (251,227,120,  0)	#FBE37800
+        11: (153,232,242,  0)	#99E8F200
+        12: (165,241,247,  0)	#A5F1F700
+        13: (253,246,162,  0)	#FDF6A200
+        14: ( 52,136,164,  0)	#3488A400
+        15: (171,171,171,  0)	grey67
+        16: ( 40,112,138,  0)	#28708A00
+        17: (129,216,234,  0)	#81D8EA00
+        18: ( 65,101,104,  0)	#41656800
+        19: ( 24, 45, 51,  0)	#182D3300
+        20: (243,245, 98,  0)	#F3F56200
+        21: (135,201,207,  0)	#87C9CF00
+        22: (235,188, 49,  0)	#EBBC3100
+        23: (204,194,120,  0)	#CCC27800
+        24: (248,248,248,  0)	#F8F8F800
+        25: (199,187,111,  0)	#C7BB6F00
+        26: (134,138,136,  0)	#868A8800
+        27: (194,195, 80,  0)	#C2C35000
+        28: (214,211,143,  0)	#D6D38F00
+        29: (236,238, 95,  0)	#ECEE5F00
+        30: (  0,  0,  0,  0)	black
+        31: (255,255,255,  0)	white
+  Histogram:
+        47: ( 12, 14, 13,  0)	#0C0E0D00
+        16: (134,138,136,  0)	#868A8800
+       110: (171,171,171,  0)	grey67
+       187: (255,255,255,255)	#FFFFFFFF
+  Rendering-intent: Undefined
+  Resolution: 72x72
+  Units: Undefined
+  Filesize: 2kb
+  Interlace: None
+  Background Color: white
+  Border Color: #DFDFDF00
+  Matte Color: grey74
+  Page geometry: 240x60+128+20
+  Dispose: None
+  Delay: 20
+  Scene: 2
+  Compression: LZW
+  Orientation: Undefined
+  Signature: c28048aa42189c0372ebb2d509970300ba231c75947f7e260e3af4347389008b
+  Tainted: False
+  User Time: 0.094u
+  Elapsed Time: 0:01
+  Pixels per second: 3kb
+  Version: ImageMagick 6.2.3 06/08/05 Q16 http://www.imagemagick.org

@@ -1,0 +1,105 @@
+Image: ..\..\..\plutommi\CUSTOMER\IMAGES\PLUTO\MAINLCD\UCE\SAUDIO.BMP
+  Format: BMP (Microsoft Windows bitmap image)
+  Geometry: 10x10
+  Class: PseudoClass
+  Type: Palette
+  Endianess: Undefined
+  Colorspace: RGB
+  Channel depth:
+    Red: 8-bits
+    Green: 8-bits
+    Blue: 8-bits
+  Channel statistics:
+    Red:
+      Min: 0 (0)
+      Max: 255 (1)
+      Mean: 51.09 (0.200353)
+      Standard deviation: 77.168 (0.30262)
+    Green:
+      Min: 0 (0)
+      Max: 255 (1)
+      Mean: 48.29 (0.189373)
+      Standard deviation: 80.0675 (0.31399)
+    Blue:
+      Min: 0 (0)
+      Max: 255 (1)
+      Mean: 66.35 (0.260196)
+      Standard deviation: 94.8951 (0.372138)
+  Colors: 38
+         0: (  0,255,  0)	lime
+         1: (255,255,255)	white
+         2: ( 82, 24, 74)	#52184A
+         3: ( 74,  8, 66)	#4A0842
+         4: (165,113,165)	#A571A5
+         5: (247,243,247)	#F7F3F7
+         6: (140,138,140)	#8C8A8C
+         7: (140, 48,148)	#8C3094
+         8: (156, 73,165)	#9C49A5
+         9: (123, 48,132)	#7B3084
+        10: ( 82,  0,115)	#520073
+        11: (132, 32,173)	#8420AD
+        12: (222,170,247)	#DEAAF7
+        13: (115, 16,173)	#7310AD
+        14: ( 99, 32,140)	#63208C
+        15: ( 66, 16,107)	#42106B
+        16: (206,203,255)	#CECBFF
+        17: ( 99, 97,148)	#636194
+        18: (107,105,156)	#6B699C
+        19: ( 90, 89,148)	#5A5994
+        20: ( 82, 81,132)	#525184
+        21: ( 90, 89,140)	#5A598C
+        22: (115,121,173)	#7379AD
+        23: ( 74, 81,132)	#4A5184
+        24: ( 99,105,148)	#636994
+        25: (189,203,255)	#BDCBFF
+        26: (239,243,255)	#EFF3FF
+        27: (181,203,255)	#B5CBFF
+        28: (173,203,255)	#ADCBFF
+        29: (123,170,231)	#7BAAE7
+        30: (107,138,181)	#6B8AB5
+        31: (148,186,239)	#94BAEF
+        32: ( 57,138,222)	#398ADE
+        33: (231,243,255)	#E7F3FF
+        34: (247,251,255)	#F7FBFF
+        35: ( 99,154,198)	#639AC6
+        36: (255,255,255)	white
+        37: (  0,  0,  0)	black
+  Histogram:
+         5: ( 66, 16,107)	#42106B
+         6: ( 82,  0,115)	#520073
+         1: ( 99, 32,140)	#63208C
+         2: ( 90, 89,140)	#5A598C
+         3: ( 99, 97,148)	#636194
+         2: (107,105,156)	#6B699C
+        22: (  0,255,  0)	lime
+         1: ( 57,138,222)	#398ADE
+         6: (123,170,231)	#7BAAE7
+         1: (140, 48,148)	#8C3094
+         6: (132, 32,173)	#8420AD
+         1: (156, 73,165)	#9C49A5
+         1: (165,113,165)	#A571A5
+         8: (140,138,140)	#8C8A8C
+         4: (148,186,239)	#94BAEF
+         2: (173,203,255)	#ADCBFF
+         2: (181,203,255)	#B5CBFF
+         1: (189,203,255)	#BDCBFF
+         1: (222,170,247)	#DEAAF7
+         1: (206,203,255)	#CECBFF
+        18: (231,243,255)	#E7F3FF
+         2: (239,243,255)	#EFF3FF
+         4: (255,255,255)	white
+  Rendering-intent: Undefined
+  Resolution: 28.34x28.34
+  Units: Undefined
+  Filesize: 328
+  Interlace: None
+  Background Color: white
+  Border Color: #DFDFDF
+  Matte Color: grey74
+  Dispose: Undefined
+  Iterations: 0
+  Compression: Undefined
+  Orientation: Undefined
+  Signature: 4f3f8c9ede4f2566cf7b840b5053289075b6f18f610021dd83934854b2750ef5
+  Tainted: False
+  Version: ImageMagick 6.2.3 06/08/05 Q16 http://www.imagemagick.org

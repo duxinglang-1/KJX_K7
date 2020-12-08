@@ -1,0 +1,61 @@
+Image: ..\..\..\plutommi\CUSTOMER\IMAGES\PLUTO\MAINLCD\PHONEBOOK\PHB_LIST.BMP
+  Format: BMP (Microsoft Windows bitmap image)
+  Geometry: 16x16
+  Class: PseudoClass
+  Type: Palette
+  Endianess: Undefined
+  Colorspace: RGB
+  Channel depth:
+    Red: 8-bits
+    Green: 8-bits
+    Blue: 8-bits
+  Channel statistics:
+    Red:
+      Min: 0 (0)
+      Max: 255 (1)
+      Mean: 6.98828 (0.027405)
+      Standard deviation: 39.2382 (0.153875)
+    Green:
+      Min: 0 (0)
+      Max: 255 (1)
+      Mean: 5.35156 (0.0209865)
+      Standard deviation: 34.1961 (0.134103)
+    Blue:
+      Min: 0 (0)
+      Max: 255 (1)
+      Mean: 5.4375 (0.0213235)
+      Standard deviation: 34.6923 (0.136048)
+  Colors: 9
+         0: (255,  0,  0)	red
+         1: (162,168,178)	#A2A8B2
+         2: (236,238,241)	#ECEEF1
+         3: (227,229,232)	#E3E5E8
+         4: (236,238,240)	#ECEEF0
+         5: (215,217,221)	#D7D9DD
+         6: (203, 25, 25)	#CB1919
+         7: (255,255,255)	white
+         8: (  0,  0,  0)	black
+  Histogram:
+         3: (203, 25, 25)	#CB1919
+        94: (255,  0,  0)	red
+        64: (162,168,178)	#A2A8B2
+         7: (215,217,221)	#D7D9DD
+         2: (227,229,232)	#E3E5E8
+        49: (236,238,241)	#ECEEF1
+         1: (236,238,240)	#ECEEF0
+        36: (255,255,255)	white
+  Rendering-intent: Undefined
+  Resolution: 28.34x28.34
+  Units: Undefined
+  Filesize: 220
+  Interlace: None
+  Background Color: white
+  Border Color: #DFDFDF
+  Matte Color: grey74
+  Dispose: Undefined
+  Iterations: 0
+  Compression: Undefined
+  Orientation: Undefined
+  Signature: cf62d10388d8b2b36179626c8fb06b1d69bbad382527f13fc9e94ed86588899f
+  Tainted: False
+  Version: ImageMagick 6.2.3 06/08/05 Q16 http://www.imagemagick.org

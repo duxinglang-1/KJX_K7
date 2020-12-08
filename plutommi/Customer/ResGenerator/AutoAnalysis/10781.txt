@@ -1,0 +1,52 @@
+Image: ..\..\..\plutommi\CUSTOMER\IMAGES\PLUTO\MAINLCD\EDIT\SI_SHIFT.BMP
+  Format: BMP (Microsoft Windows bitmap image)
+  Geometry: 18x17
+  Class: PseudoClass
+  Type: Palette
+  Endianess: Undefined
+  Colorspace: RGB
+  Channel depth:
+    Red: 8-bits
+    Green: 8-bits
+    Blue: 8-bits
+  Channel statistics:
+    Red:
+      Min: 0 (0)
+      Max: 255 (1)
+      Mean: 2.86601 (0.0112393)
+      Standard deviation: 25.4631 (0.0998554)
+    Green:
+      Min: 0 (0)
+      Max: 233 (0.913725)
+      Mean: 1.22222 (0.00479303)
+      Standard deviation: 15.5207 (0.0608654)
+    Blue:
+      Min: 0 (0)
+      Max: 255 (1)
+      Mean: 2.05882 (0.00807382)
+      Standard deviation: 21.2502 (0.0833342)
+  Colors: 5
+         0: (255,  0,255)	fuchsia
+         1: (249,  0,  0)	#F90000
+         2: (140,141,142)	#8C8D8E
+         3: (233,233,233)	#E9E9E9
+         4: (  0,  0,  0)	black
+  Histogram:
+       111: (255,  0,255)	fuchsia
+       169: (140,141,142)	#8C8D8E
+        26: (233,233,233)	#E9E9E9
+  Rendering-intent: Undefined
+  Resolution: 28.34x28.34
+  Units: Undefined
+  Filesize: 280
+  Interlace: None
+  Background Color: white
+  Border Color: #DFDFDF
+  Matte Color: grey74
+  Dispose: Undefined
+  Iterations: 0
+  Compression: Undefined
+  Orientation: Undefined
+  Signature: 8dc8558ee8b6d8424f1dab7ee9747efaaa04b7784b98b8038a8a341c08e38930
+  Tainted: False
+  Version: ImageMagick 6.2.3 06/08/05 Q16 http://www.imagemagick.org

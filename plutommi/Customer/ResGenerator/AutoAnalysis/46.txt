@@ -1,0 +1,64 @@
+Image: ..\..\..\plutommi\CUSTOMER\IMAGES\DEFAULT.BMP
+  Format: BMP (Microsoft Windows bitmap image)
+  Geometry: 15x15
+  Class: PseudoClass
+  Type: Palette
+  Endianess: Undefined
+  Colorspace: RGB
+  Channel depth:
+    Red: 8-bits
+    Green: 8-bits
+    Blue: 8-bits
+  Channel statistics:
+    Red:
+      Min: 0 (0)
+      Max: 255 (1)
+      Mean: 7.09333 (0.027817)
+      Standard deviation: 38.5743 (0.151272)
+    Green:
+      Min: 0 (0)
+      Max: 255 (1)
+      Mean: 8.79556 (0.0344924)
+      Standard deviation: 42.6937 (0.167426)
+    Blue:
+      Min: 0 (0)
+      Max: 255 (1)
+      Mean: 8.79556 (0.0344924)
+      Standard deviation: 42.6937 (0.167426)
+  Colors: 16
+         0: (255,  0,255)	fuchsia
+         1: (  0,  0,  0)	black
+         2: (  0,128,  0)	green
+         3: (128,128,  0)	olive
+         4: (  0,  0,128)	navy
+         5: (128,  0,128)	purple
+         6: (  0,128,128)	teal
+         7: (192,192,192)	silver
+         8: (128,128,128)	fractal
+         9: (255,  0,  0)	red
+        10: (  0,255,  0)	lime
+        11: (255,255,  0)	yellow
+        12: (  0,  0,255)	blue
+        13: (  0,255,255)	aqua
+        14: (  0,255,255)	aqua
+        15: (255,255,255)	white
+  Histogram:
+        40: (  0,  0,  0)	black
+       115: (255,  0,  0)	red
+        48: (255,  0,255)	fuchsia
+        22: (255,255,255)	white
+  Rendering-intent: Undefined
+  Resolution: 37.96x37.96
+  Units: Undefined
+  Filesize: 238
+  Interlace: None
+  Background Color: white
+  Border Color: #DFDFDF
+  Matte Color: grey74
+  Dispose: Undefined
+  Iterations: 0
+  Compression: Undefined
+  Orientation: Undefined
+  Signature: a71d3473ea7229cca7b4bac2953359382922e9a76c51e8141d5c6e55977e445a
+  Tainted: False
+  Version: ImageMagick 6.2.3 06/08/05 Q16 http://www.imagemagick.org

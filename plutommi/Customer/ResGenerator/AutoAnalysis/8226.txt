@@ -1,0 +1,53 @@
+Image: ..\..\..\plutommi\CUSTOMER\IMAGES\PLUTO\MAINLCD\PHONEBOOK\PHB_CSK_MARK.BMP
+  Format: BMP (Microsoft Windows bitmap image)
+  Geometry: 20x20
+  Class: PseudoClass
+  Type: Palette
+  Endianess: Undefined
+  Colorspace: RGB
+  Channel depth:
+    Red: 8-bits
+    Green: 8-bits
+    Blue: 8-bits
+  Channel statistics:
+    Red:
+      Min: 0 (0)
+      Max: 255 (1)
+      Mean: 2.2425 (0.00879412)
+      Standard deviation: 22.8048 (0.0894306)
+    Green:
+      Min: 0 (0)
+      Max: 255 (1)
+      Mean: 1.7275 (0.00677451)
+      Standard deviation: 20.0145 (0.078488)
+    Blue:
+      Min: 0 (0)
+      Max: 255 (1)
+      Mean: 1.32 (0.00517647)
+      Standard deviation: 17.6568 (0.0692424)
+  Colors: 5
+         0: (255,  0,  0)	red
+         1: (143,192, 29)	#8FC01D
+         2: (255,255,255)	white
+         3: (244,244,244)	#F4F4F4
+         4: (  0,  0,  0)	black
+  Histogram:
+       156: (255,  0,  0)	red
+       130: (143,192, 29)	#8FC01D
+        74: (244,244,244)	#F4F4F4
+        40: (255,255,255)	white
+  Rendering-intent: Undefined
+  Resolution: 28.34x28.34
+  Units: Undefined
+  Filesize: 316
+  Interlace: None
+  Background Color: white
+  Border Color: #DFDFDF
+  Matte Color: grey74
+  Dispose: Undefined
+  Iterations: 0
+  Compression: Undefined
+  Orientation: Undefined
+  Signature: 4576befb6d77dacc4907e01fedb63986b4f7184b2614f4bc0722b3fa337a3796
+  Tainted: False
+  Version: ImageMagick 6.2.3 06/08/05 Q16 http://www.imagemagick.org

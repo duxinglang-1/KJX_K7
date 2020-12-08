@@ -1,0 +1,55 @@
+Image: ..\..\..\plutommi\CUSTOMER\IMAGES\PLUTO\MAINLCD\DLAGENT\DL_PAUSE.BMP
+  Format: BMP (Microsoft Windows bitmap image)
+  Geometry: 20x20
+  Class: PseudoClass
+  Type: Palette
+  Endianess: Undefined
+  Colorspace: RGB
+  Channel depth:
+    Red: 8-bits
+    Green: 8-bits
+    Blue: 8-bits
+  Channel statistics:
+    Red:
+      Min: 0 (0)
+      Max: 255 (1)
+      Mean: 3.5925 (0.0140882)
+      Standard deviation: 29.4197 (0.115371)
+    Green:
+      Min: 0 (0)
+      Max: 255 (1)
+      Mean: 2.44 (0.00956863)
+      Standard deviation: 23.8369 (0.0934779)
+    Blue:
+      Min: 0 (0)
+      Max: 255 (1)
+      Mean: 2.44 (0.00956863)
+      Standard deviation: 23.8369 (0.0934779)
+  Colors: 7
+         0: (255,255,255)	white
+         1: (255,255,255)	white
+         2: (255,  0,  0)	red
+         3: (162, 27, 27)	#A21B1B
+         4: (255,184,184)	#FFB8B8
+         5: (255,255,255)	white
+         6: (  0,  0,  0)	black
+  Histogram:
+        68: (162, 27, 27)	#A21B1B
+        48: (255,  0,  0)	red
+        24: (255,184,184)	#FFB8B8
+       260: (255,255,255)	white
+  Rendering-intent: Undefined
+  Resolution: 28.34x28.34
+  Units: Undefined
+  Filesize: 484
+  Interlace: None
+  Background Color: white
+  Border Color: #DFDFDF
+  Matte Color: grey74
+  Dispose: Undefined
+  Iterations: 0
+  Compression: Undefined
+  Orientation: Undefined
+  Signature: c4735206c722d41845b033169b8f3cea3cac0e0855e907b4113284cbdf24b088
+  Tainted: False
+  Version: ImageMagick 6.2.3 06/08/05 Q16 http://www.imagemagick.org

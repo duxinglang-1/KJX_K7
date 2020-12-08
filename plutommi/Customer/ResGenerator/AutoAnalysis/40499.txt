@@ -1,0 +1,61 @@
+Image: ..\..\..\plutommi\CUSTOMER\IMAGES\PLUTO\MAINLCD\FILEMANAGER\FM_SIUNKNOWN.BMP
+  Format: BMP (Microsoft Windows bitmap image)
+  Geometry: 26x26
+  Class: PseudoClass
+  Type: Palette
+  Endianess: Undefined
+  Colorspace: RGB
+  Channel depth:
+    Red: 8-bits
+    Green: 8-bits
+    Blue: 8-bits
+  Channel statistics:
+    Red:
+      Min: 0 (0)
+      Max: 255 (1)
+      Mean: 2.19527 (0.00860889)
+      Standard deviation: 21.7764 (0.0853975)
+    Green:
+      Min: 0 (0)
+      Max: 255 (1)
+      Mean: 2.60207 (0.0102042)
+      Standard deviation: 24.0745 (0.0944097)
+    Blue:
+      Min: 0 (0)
+      Max: 255 (1)
+      Mean: 2.27071 (0.00890475)
+      Standard deviation: 22.4199 (0.0879213)
+  Colors: 9
+         0: (  0,255,  0)	lime
+         1: (255,255,255)	white
+         2: (215,217,221)	#D7D9DD
+         3: (162,168,178)	#A2A8B2
+         4: (153,159,168)	#999FA8
+         5: (236,238,241)	#ECEEF1
+         6: (227,229,232)	#E3E5E8
+         7: (236,238,240)	#ECEEF0
+         8: (  0,  0,  0)	black
+  Histogram:
+       268: (  0,255,  0)	lime
+        36: (153,159,168)	#999FA8
+        83: (162,168,178)	#A2A8B2
+         9: (215,217,221)	#D7D9DD
+         2: (227,229,232)	#E3E5E8
+       209: (236,238,241)	#ECEEF1
+         3: (236,238,240)	#ECEEF0
+        66: (255,255,255)	white
+  Rendering-intent: Undefined
+  Resolution: 28.34x28.34
+  Units: Undefined
+  Filesize: 508
+  Interlace: None
+  Background Color: white
+  Border Color: #DFDFDF
+  Matte Color: grey74
+  Dispose: Undefined
+  Iterations: 0
+  Compression: Undefined
+  Orientation: Undefined
+  Signature: 623f4a0a797525e3408ab8d90e421d01bf717cf7bcac0335fe943ee6f2033c51
+  Tainted: False
+  Version: ImageMagick 6.2.3 06/08/05 Q16 http://www.imagemagick.org

@@ -1,0 +1,59 @@
+Image: ..\..\..\plutommi\CUSTOMER\IMAGES\PLUTO\MAINLCD\SUBMENU\UNIMESSAGE\UNI_DRAFTSBOX.BMP
+  Format: BMP (Microsoft Windows bitmap image)
+  Geometry: 26x26
+  Class: PseudoClass
+  Type: Palette
+  Endianess: Undefined
+  Colorspace: RGB
+  Channel depth:
+    Red: 8-bits
+    Green: 8-bits
+    Blue: 8-bits
+  Channel statistics:
+    Red:
+      Min: 0 (0)
+      Max: 255 (1)
+      Mean: 2.22337 (0.00871911)
+      Standard deviation: 22.0938 (0.0866423)
+    Green:
+      Min: 0 (0)
+      Max: 255 (1)
+      Mean: 1.8713 (0.00733844)
+      Standard deviation: 20.0598 (0.0786659)
+    Blue:
+      Min: 0 (0)
+      Max: 255 (1)
+      Mean: 1.9142 (0.00750667)
+      Standard deviation: 20.4506 (0.0801984)
+  Colors: 8
+         0: (255,  0,  0)	red
+         1: (237,238,240)	#EDEEF0
+         2: (152,158,168)	#989EA8
+         3: (162,168,178)	#A2A8B2
+         4: (227,229,232)	#E3E5E8
+         5: (215,217,221)	#D7D9DD
+         6: (255,255,255)	white
+         7: (  0,  0,  0)	black
+  Histogram:
+       290: (255,  0,  0)	red
+        57: (152,158,168)	#989EA8
+        81: (162,168,178)	#A2A8B2
+         8: (215,217,221)	#D7D9DD
+         2: (227,229,232)	#E3E5E8
+       174: (237,238,240)	#EDEEF0
+        64: (255,255,255)	white
+  Rendering-intent: Undefined
+  Resolution: 28.34x28.34
+  Units: Undefined
+  Filesize: 816
+  Interlace: None
+  Background Color: white
+  Border Color: #DFDFDF
+  Matte Color: grey74
+  Dispose: Undefined
+  Iterations: 0
+  Compression: Undefined
+  Orientation: Undefined
+  Signature: 35ea5ef58dc5180131046d0e1b913d8e749a63d0dcee01bf38ebf577e6ef236e
+  Tainted: False
+  Version: ImageMagick 6.2.3 06/08/05 Q16 http://www.imagemagick.org

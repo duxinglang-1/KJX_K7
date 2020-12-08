@@ -1,0 +1,89 @@
+Image: ..\..\..\plutommi\CUSTOMER\IMAGES\PLUTO\MAINLCD\UIELEMENT\SOFTKEY\SEARCHWEB_CSK.BMP
+  Format: BMP (Microsoft Windows bitmap image)
+  Geometry: 20x20
+  Class: PseudoClass
+  Type: Palette
+  Endianess: Undefined
+  Colorspace: RGB
+  Channel depth:
+    Red: 8-bits
+    Green: 8-bits
+    Blue: 8-bits
+  Channel statistics:
+    Red:
+      Min: 0 (0)
+      Max: 255 (1)
+      Mean: 7.9675 (0.0312451)
+      Standard deviation: 36.0013 (0.141182)
+    Green:
+      Min: 0 (0)
+      Max: 255 (1)
+      Mean: 8.71 (0.0341569)
+      Standard deviation: 38.5227 (0.151069)
+    Blue:
+      Min: 0 (0)
+      Max: 255 (1)
+      Mean: 8.1225 (0.0318529)
+      Standard deviation: 36.7455 (0.1441)
+  Colors: 24
+         0: (  0,255,  0)	lime
+         1: (255,255,255)	white
+         2: (247,252,254)	#F7FCFE
+         3: (145,177,187)	#91B1BB
+         4: (153,178,186)	#99B2BA
+         5: (  0,  0,  0)	black
+         6: (169,165,165)	#A9A5A5
+         7: (168,164,164)	#A8A4A4
+         8: (164,161,161)	#A4A1A1
+         9: ( 78, 77, 77)	#4E4D4D
+        10: ( 77, 76, 76)	#4D4C4C
+        11: ( 76, 75, 75)	#4C4B4B
+        12: ( 72, 71, 71)	#484747
+        13: ( 70, 69, 69)	#464545
+        14: (195,193,193)	#C3C1C1
+        15: (212,211,211)	#D4D3D3
+        16: (204,203,203)	#CCCBCB
+        17: (141,141,141)	#8D8D8D
+        18: (123,123,123)	#7B7B7B
+        19: (112,112,112)	grey44
+        20: ( 97, 97, 97)	grey38
+        21: ( 94, 94, 94)	grey37
+        22: ( 80, 80, 80)	#505050
+        23: (255,255,255)	white
+  Histogram:
+         4: ( 70, 69, 69)	#464545
+         7: ( 72, 71, 71)	#484747
+         1: ( 76, 75, 75)	#4C4B4B
+         1: ( 77, 76, 76)	#4D4C4C
+         3: ( 78, 77, 77)	#4E4D4D
+         3: ( 80, 80, 80)	#505050
+         3: ( 94, 94, 94)	grey37
+         1: ( 97, 97, 97)	grey38
+         1: (112,112,112)	grey44
+         3: (123,123,123)	#7B7B7B
+       165: (  0,255,  0)	lime
+         1: (141,141,141)	#8D8D8D
+         1: (145,177,187)	#91B1BB
+        31: (153,178,186)	#99B2BA
+        33: (164,161,161)	#A4A1A1
+         9: (168,164,164)	#A8A4A4
+         1: (169,165,165)	#A9A5A5
+         1: (195,193,193)	#C3C1C1
+         1: (204,203,203)	#CCCBCB
+        50: (212,211,211)	#D4D3D3
+        80: (247,252,254)	#F7FCFE
+  Rendering-intent: Undefined
+  Resolution: 28.34x28.34
+  Units: Undefined
+  Filesize: 552
+  Interlace: None
+  Background Color: white
+  Border Color: #DFDFDF
+  Matte Color: grey74
+  Dispose: Undefined
+  Iterations: 0
+  Compression: Undefined
+  Orientation: Undefined
+  Signature: 6698c872a262e860b3065fedc5683ef3bf887a7a788728e3f04dd2e89c6fa772
+  Tainted: False
+  Version: ImageMagick 6.2.3 06/08/05 Q16 http://www.imagemagick.org

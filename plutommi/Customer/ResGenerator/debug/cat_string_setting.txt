@@ -1,0 +1,4 @@
+# CAT Settings
+# MMIResource String
+IsCompression=1
+CompressAlgo=LZMA

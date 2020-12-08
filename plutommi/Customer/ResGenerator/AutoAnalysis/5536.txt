@@ -1,0 +1,81 @@
+Image: ..\..\..\plutommi\CUSTOMER\IMAGES\PLUTO\MAINLCD\IDLESCREEN\STATUSICONS\DUALSIM\MESSAGE_FULL\SI_MGE_FULL1.BMP
+  Format: BMP (Microsoft Windows bitmap image)
+  Geometry: 18x17
+  Class: PseudoClass
+  Type: Palette
+  Endianess: Undefined
+  Colorspace: RGB
+  Channel depth:
+    Red: 8-bits
+    Green: 8-bits
+    Blue: 8-bits
+  Channel statistics:
+    Red:
+      Min: 0 (0)
+      Max: 255 (1)
+      Mean: 11.5359 (0.045239)
+      Standard deviation: 46.2501 (0.181373)
+    Green:
+      Min: 0 (0)
+      Max: 255 (1)
+      Mean: 11.5065 (0.0451237)
+      Standard deviation: 49.9998 (0.196077)
+    Blue:
+      Min: 0 (0)
+      Max: 255 (1)
+      Mean: 4.88235 (0.0191465)
+      Standard deviation: 24.0776 (0.094422)
+  Colors: 20
+         0: (107, 94, 63)	#6B5E3F
+         1: (147,215, 20)	#93D714
+         2: (156,220, 36)	#9CDC24
+         3: (170,228, 62)	#AAE43E
+         4: (177,232, 76)	#B1E84C
+         5: (178,232, 76)	#B2E84C
+         6: (185,237, 90)	#B9ED5A
+         7: (185,236, 90)	#B9EC5A
+         8: (196,243,110)	#C4F36E
+         9: (196,243,111)	#C4F36F
+        10: (196,242,110)	#C4F26E
+        11: (199,245,116)	#C7F574
+        12: (200,245,117)	#C8F575
+        13: (209,250,134)	#D1FA86
+        14: ( 60, 78, 28)	#3C4E1C
+        15: (255, 10,  0)	#FF0A00
+        16: (230,  8,  0)	#E60800
+        17: (229,  8,  0)	#E50800
+        18: (255,255,255)	white
+        19: (  0,  0,  0)	black
+  Histogram:
+        56: ( 60, 78, 28)	#3C4E1C
+        68: (107, 94, 63)	#6B5E3F
+         4: (229,  8,  0)	#E50800
+        12: (230,  8,  0)	#E60800
+        30: (255, 10,  0)	#FF0A00
+        14: (147,215, 20)	#93D714
+         1: (156,220, 36)	#9CDC24
+         1: (170,228, 62)	#AAE43E
+         3: (177,232, 76)	#B1E84C
+         6: (178,232, 76)	#B2E84C
+         2: (185,237, 90)	#B9ED5A
+         1: (196,243,110)	#C4F36E
+         1: (196,243,111)	#C4F36F
+         1: (196,242,110)	#C4F26E
+         1: (199,245,116)	#C7F574
+        30: (209,250,134)	#D1FA86
+        75: (255,255,255)	white
+  Rendering-intent: Undefined
+  Resolution: 28.34x28.34
+  Units: Undefined
+  Filesize: 476
+  Interlace: None
+  Background Color: white
+  Border Color: #DFDFDF
+  Matte Color: grey74
+  Dispose: Undefined
+  Iterations: 0
+  Compression: Undefined
+  Orientation: Undefined
+  Signature: ec0288ff272a01304a10d3e24afeefe4284b786d74f3434d7582bf62875e4ed8
+  Tainted: False
+  Version: ImageMagick 6.2.3 06/08/05 Q16 http://www.imagemagick.org

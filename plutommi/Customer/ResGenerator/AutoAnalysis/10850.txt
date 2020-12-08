@@ -1,0 +1,36 @@
+Image: ..\..\..\plutommi\CUSTOMER\IMAGES\PLUTO\MAINLCD\DLAGENT\PROGRESS_BG.9SLICE.PNG
+  Format: PNG (Portable Network Graphics)
+  Geometry: 3x18
+  Class: DirectClass
+  Type: Grayscale
+  Endianess: Undefined
+  Colorspace: Gray
+  Channel depth:
+    Gray: 8-bits
+  Channel statistics:
+    Gray:
+      Min: 69 (0.270588)
+      Max: 255 (1)
+      Mean: 124.111 (0.48671)
+      Standard deviation: 84.9319 (0.333066)
+  Colors: 2
+  Histogram:
+        38: ( 69, 69, 69)	grey27
+        16: (255,255,255)	white
+  Rendering-intent: Undefined
+  Resolution: 72x72
+  Units: Undefined
+  Filesize: 127
+  Interlace: None
+  Background Color: white
+  Border Color: #DFDFDF
+  Matte Color: grey74
+  Page geometry: 3x18+0+0
+  Dispose: Undefined
+  Iterations: 0
+  Compression: Zip
+  Orientation: Undefined
+  Signature: 5ecbda03a543f9ae1f2bbd8b7b4e48a6f43de17c3e0474ad41c5c4d8f1acf992
+  Software: Adobe ImageReady
+  Tainted: False
+  Version: ImageMagick 6.2.3 06/08/05 Q16 http://www.imagemagick.org

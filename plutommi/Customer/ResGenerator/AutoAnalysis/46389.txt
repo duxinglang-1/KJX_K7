@@ -1,0 +1,73 @@
+Image: ..\..\..\plutommi\CUSTOMER\IMAGES\PLUTO\MAINLCD\SMS\PIC\EMS10.BMP
+  Format: BMP (Microsoft Windows bitmap image)
+  Geometry: 32x32
+  Class: PseudoClass
+  Type: Palette
+  Endianess: Undefined
+  Colorspace: RGB
+  Channel depth:
+    Red: 8-bits
+    Green: 8-bits
+    Blue: 8-bits
+  Channel statistics:
+    Red:
+      Min: 0 (0)
+      Max: 255 (1)
+      Mean: 2.79004 (0.0109413)
+      Standard deviation: 25.2 (0.0988234)
+    Green:
+      Min: 0 (0)
+      Max: 255 (1)
+      Mean: 2.49805 (0.00979626)
+      Standard deviation: 23.2347 (0.0911167)
+    Blue:
+      Min: 0 (0)
+      Max: 255 (1)
+      Mean: 2.33789 (0.0091682)
+      Standard deviation: 22.1458 (0.0868465)
+  Colors: 16
+         0: (  0,255,255)	aqua
+         1: (224,224,222)	#E0E0DE
+         2: (206,206,204)	#CECECC
+         3: (222,222,221)	#DEDEDD
+         4: (255,223,162)	#FFDFA2
+         5: (223,182,130)	#DFB682
+         6: (253,243,231)	#FDF3E7
+         7: (237, 39, 24)	#ED2718
+         8: (252,141,132)	#FC8D84
+         9: (162, 27, 17)	#A21B11
+        10: ( 77, 50, 50)	#4D3232
+        11: (255,255,255)	white
+        12: (236,236,236)	#ECECEC
+        13: (  0,  0,  0)	black
+        14: (255,255,255)	white
+        15: (  0,  0,  0)	black
+  Histogram:
+        98: (  0,  0,  0)	black
+        34: ( 77, 50, 50)	#4D3232
+       501: (  0,255,255)	aqua
+        23: (162, 27, 17)	#A21B11
+        65: (237, 39, 24)	#ED2718
+        12: (223,182,130)	#DFB682
+        20: (252,141,132)	#FC8D84
+        54: (255,223,162)	#FFDFA2
+        36: (206,206,204)	#CECECC
+        16: (222,222,221)	#DEDEDD
+         6: (224,224,222)	#E0E0DE
+        21: (236,236,236)	#ECECEC
+         7: (253,243,231)	#FDF3E7
+       131: (255,255,255)	white
+  Rendering-intent: Undefined
+  Units: Undefined
+  Filesize: 630
+  Interlace: None
+  Background Color: white
+  Border Color: #DFDFDF
+  Matte Color: grey74
+  Dispose: Undefined
+  Iterations: 0
+  Compression: Undefined
+  Orientation: Undefined
+  Signature: 0ab6c80715b263a4ba07af4a1acfd7f8fa4cbc5639dc530e232dabfdb8798f85
+  Tainted: False
+  Version: ImageMagick 6.2.3 06/08/05 Q16 http://www.imagemagick.org

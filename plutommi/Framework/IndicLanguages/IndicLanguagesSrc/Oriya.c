@@ -1,0 +1,2223 @@
+/*****************************************************************************
+*  Copyright Statement:
+*  --------------------
+*  This software is protected by Copyright and the information contained
+*  herein is confidential. The software may not be copied and the information
+*  contained herein may not be used or disclosed except with the written
+*  permission of MediaTek Inc. (C) 2005
+*
+*  BY OPENING THIS FILE, BUYER HEREBY UNEQUIVOCALLY ACKNOWLEDGES AND AGREES
+*  THAT THE SOFTWARE/FIRMWARE AND ITS DOCUMENTATIONS ("MEDIATEK SOFTWARE")
+*  RECEIVED FROM MEDIATEK AND/OR ITS REPRESENTATIVES ARE PROVIDED TO BUYER ON
+*  AN "AS-IS" BASIS ONLY. MEDIATEK EXPRESSLY DISCLAIMS ANY AND ALL WARRANTIES,
+*  EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE IMPLIED WARRANTIES OF
+*  MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE OR NONINFRINGEMENT.
+*  NEITHER DOES MEDIATEK PROVIDE ANY WARRANTY WHATSOEVER WITH RESPECT TO THE
+*  SOFTWARE OF ANY THIRD PARTY WHICH MAY BE USED BY, INCORPORATED IN, OR
+*  SUPPLIED WITH THE MEDIATEK SOFTWARE, AND BUYER AGREES TO LOOK ONLY TO SUCH
+*  THIRD PARTY FOR ANY WARRANTY CLAIM RELATING THERETO. MEDIATEK SHALL ALSO
+*  NOT BE RESPONSIBLE FOR ANY MEDIATEK SOFTWARE RELEASES MADE TO BUYER'S
+*  SPECIFICATION OR TO CONFORM TO A PARTICULAR STANDARD OR OPEN FORUM.
+*
+*  BUYER'S SOLE AND EXCLUSIVE REMEDY AND MEDIATEK'S ENTIRE AND CUMULATIVE
+*  LIABILITY WITH RESPECT TO THE MEDIATEK SOFTWARE RELEASED HEREUNDER WILL BE,
+*  AT MEDIATEK'S OPTION, TO REVISE OR REPLACE THE MEDIATEK SOFTWARE AT ISSUE,
+*  OR REFUND ANY SOFTWARE LICENSE FEES OR SERVICE CHARGE PAID BY BUYER TO
+*  MEDIATEK FOR SUCH MEDIATEK SOFTWARE AT ISSUE. 
+*
+*  THE TRANSACTION CONTEMPLATED HEREUNDER SHALL BE CONSTRUED IN ACCORDANCE
+*  WITH THE LAWS OF THE STATE OF CALIFORNIA, USA, EXCLUDING ITS CONFLICT OF
+*  LAWS PRINCIPLES.  ANY DISPUTES, CONTROVERSIES OR CLAIMS ARISING THEREOF AND
+*  RELATED THERETO SHALL BE SETTLED BY ARBITRATION IN SAN FRANCISCO, CA, UNDER
+*  THE RULES OF THE INTERNATIONAL CHAMBER OF COMMERCE (ICC).
+*
+*****************************************************************************/
+
+/*****************************************************************************
+ *
+ * Filename:
+ * ---------
+ *    Oriya.c
+ *
+ * Project:
+ * --------
+ *   MAUI
+ *
+ * Description:
+ * ------------
+ *   C file of ORIYA font rule 
+ *
+ *
+ * Author:
+ * -------
+ * -------
+ *
+ *============================================================================
+ *             HISTORY
+ * Below this line, this part is controlled by PVCS VM. DO NOT MODIFY!!
+ *------------------------------------------------------------------------------
+ * removed!
+ *
+ * removed!
+ * removed!
+ * removed!
+ *
+ * removed!
+ * removed!
+ * removed!
+ *
+ * removed!
+ * removed!
+ * removed!
+ *
+ * removed!
+ * removed!
+ * removed!
+ *
+ * removed!
+ * removed!
+ * removed!
+ *
+ * removed!
+ * removed!
+ * removed!
+ *
+ * removed!
+ * removed!
+ * removed!
+ *
+ * removed!
+ * removed!
+ * removed!
+ *
+ * removed!
+ * removed!
+ * removed!
+ *
+ * removed!
+ * removed!
+ * removed!
+ *
+ * removed!
+ * removed!
+ * removed!
+ *
+ * removed!
+ * removed!
+ * removed!
+ * removed!
+ *
+ *------------------------------------------------------------------------------
+ * Upper this line, this part is controlled by PVCS VM. DO NOT MODIFY!!
+ *============================================================================
+ ****************************************************************************/
+#ifndef __MMI_ORIYA_H__
+#define __MMI_ORIYA_H__
+
+#include "MMI_include.h"
+#include "MMIDataType.h"
+
+#include "IndicEngineGprot.h"
+
+#if defined (__MMI_LANG_ORIYA__)
+
+#ifndef NULL
+#define NULL   0
+#endif 
+
+
+
+const ire_character_info_table_struct oriya_character_info_table[] = 
+{
+    /* VARIOUS SIGNS */
+    {0, 0, 0, IRE_NORMAL_SIGN, 0, 0, IRE_ABOVE_BASE_POSITION, 0, IRE_CHAR_TYPE_1, 0},   							/* 0x0B01 */
+    {0, 0, 0, IRE_NORMAL_SIGN, 0, 0, IRE_POSTBASE_POSITION, 0, 0, 0},                 /* 0x0B02 */
+    {0, 0, 0, IRE_NORMAL_SIGN, 0, 0, IRE_POSTBASE_POSITION, 0, 0, 0},                   /* 0x0B03 */
+		/* INDEPENDENT VOWEL */
+    {0, 0, IRE_INDEP_VOWEL, 0, 0, 0, IRE_POSTBASE_POSITION, 0, IRE_CHAR_TYPE_1, 0},     /* 0x0B04 */
+    {0, 0, IRE_INDEP_VOWEL, 0, 0, 0, IRE_POSTBASE_POSITION, 0, IRE_CHAR_TYPE_1, 0},     /* 0x0B05 */
+    {0, 0, IRE_INDEP_VOWEL, 0, 0, 0, IRE_POSTBASE_POSITION, 0, IRE_CHAR_TYPE_1, 0},     /* 0x0B06 */
+    {0, 0, IRE_INDEP_VOWEL, 0, 0, 0, IRE_POSTBASE_POSITION, 0, IRE_CHAR_TYPE_1, 0},     /* 0x0B07 */
+    {0, 0, IRE_INDEP_VOWEL, 0, 0, 0, IRE_POSTBASE_POSITION, 0, IRE_CHAR_TYPE_1, 0},     /* 0x0B08 */
+    {0, 0, IRE_INDEP_VOWEL, 0, 0, 0, IRE_POSTBASE_POSITION, 0, IRE_CHAR_TYPE_1, 0},     /* 0x0B09 */
+    {0, 0, IRE_INDEP_VOWEL, 0, 0, 0, IRE_POSTBASE_POSITION, 0, IRE_CHAR_TYPE_1, 0},     /* 0x0B0A */
+    {0, 0, IRE_INDEP_VOWEL, 0, 0, 0, IRE_POSTBASE_POSITION, 0, IRE_CHAR_TYPE_1, 0},     /* 0x0B0B */
+    {0, 0, IRE_INDEP_VOWEL, 0, 0, 0, IRE_POSTBASE_POSITION, 0, IRE_CHAR_TYPE_1, 0},     /* 0x0B0C */
+    {0, 0, 0, 0, 0, 0, 0, 0, 0, 0},     /* 0x0B0D */
+    {0, 0, 0, 0, 0, 0, 0, 0, 0, 0},     /* 0x0B0E */
+    {0, 0, IRE_INDEP_VOWEL, 0, 0, 0, IRE_POSTBASE_POSITION, 0, IRE_CHAR_TYPE_1, 0},     /* 0x0B0F */
+    {0, 0, IRE_INDEP_VOWEL, 0, 0, 0, IRE_POSTBASE_POSITION, 0, 0, 0},     /* 0x0B10 */
+    {0, 0, 0, 0, 0, 0, 0, 0, 0, 0},     /* 0x0B11 */
+    {0, 0, 0, 0, 0, 0, 0, 0, 0, 0},     /* 0x0B12 */
+    {0, 0, IRE_INDEP_VOWEL, 0, 0, 0, IRE_POSTBASE_POSITION, 0, IRE_CHAR_TYPE_1, 0},     /* 0x0B13 */
+    {0, 0, IRE_INDEP_VOWEL, 0, 0, 0, IRE_POSTBASE_POSITION, 0, 0, 0},     /* 0x0B14 */
+
+    /* CONSONANTS */
+    {IRE_NORMAL_CONSONANT, 0, 0, 0, 0, 0, IRE_POSTBASE_POSITION, 0, 0, 0},    /* 0x0B15 */
+    {IRE_NORMAL_CONSONANT, 0, 0, 0, 0, 0, IRE_POSTBASE_POSITION, 0, 0, 0},    /* 0x0B16 */
+    {IRE_NORMAL_CONSONANT, 0, 0, 0, 0, 0, IRE_POSTBASE_POSITION, 0, 0, 0},    /* 0x0B17 */
+    {IRE_NORMAL_CONSONANT, 0, 0, 0, 0, 0, IRE_POSTBASE_POSITION, 0, 0, 0},                  /* 0x0B18 */
+    {IRE_NORMAL_CONSONANT, 0, 0, 0, 0, 0, IRE_POSTBASE_POSITION, 0, 0, 0},                  /* 0x0B19 */
+    {IRE_NORMAL_CONSONANT, 0, 0, 0, 0, 0, IRE_POSTBASE_POSITION, 0, 0, 0},                  /* 0x0B1A */
+    {IRE_NORMAL_CONSONANT, 0, 0, 0, 0, 0, IRE_POSTBASE_POSITION, 0, 0, 0},                  /* 0x0B1B */
+    {IRE_NORMAL_CONSONANT, 0, 0, 0, 0, 0, IRE_POSTBASE_POSITION, 0, 0, 0},    /* 0x0B1C */
+    {IRE_NORMAL_CONSONANT, 0, 0, 0, 0, 0, IRE_POSTBASE_POSITION, 0, 0, 0},                  /* 0x0B1D */
+    {IRE_NORMAL_CONSONANT, 0, 0, 0, 0, 0, IRE_POSTBASE_POSITION, 0, 0, 0},                  /* 0x0B1E */
+    {IRE_NORMAL_CONSONANT, 0, 0, 0, 0, 0, IRE_POSTBASE_POSITION, 0, 0, 0},                  /* 0x0B1F */
+    {IRE_NORMAL_CONSONANT, 0, 0, 0, 0, 0, IRE_POSTBASE_POSITION, 0, 0, 0},                  /* 0x0B20 */
+    {IRE_NORMAL_CONSONANT, 0, 0, 0, 0, 0, IRE_POSTBASE_POSITION, 0, 0, 0},    /* 0x0B21 */
+    {IRE_NORMAL_CONSONANT, 0, 0, 0, 0, 0, IRE_POSTBASE_POSITION, 0, 0, 0},    /* 0x0B22 */
+    {IRE_NORMAL_CONSONANT, 0, 0, 0, 0, 0, IRE_POSTBASE_POSITION, 0, 0, 0},                  /* 0x0B23 */
+    {IRE_NORMAL_CONSONANT, 0, 0, 0, 0, 0, IRE_POSTBASE_POSITION, 0, 0, 0},                  /* 0x0B24 */
+    {IRE_NORMAL_CONSONANT, 0, 0, 0, 0, 0, IRE_POSTBASE_POSITION, 0, 0, 0},                  /* 0x0B25 */
+    {IRE_NORMAL_CONSONANT, 0, 0, 0, 0, 0, IRE_POSTBASE_POSITION, 0, 0, 0},                  /* 0x0B26 */
+    {IRE_NORMAL_CONSONANT, 0, 0, 0, 0, 0, IRE_POSTBASE_POSITION, 0, 0, 0},                  /* 0x0B27 */
+    {IRE_NORMAL_CONSONANT, 0, 0, 0, 0, 0, IRE_POSTBASE_POSITION, 0, 0, 0},    /* 0x0B28 */
+    {0, 0, 0, 0, 0, 0, 0, 0, 0, 0},                  /* 0x0B29 */
+    {IRE_NORMAL_CONSONANT, 0, 0, 0, 0, 0, IRE_POSTBASE_POSITION, 0, 0, 0},                  /* 0x0B2A */
+    {IRE_NORMAL_CONSONANT, 0, 0, 0, 0, 0, IRE_POSTBASE_POSITION, 0, 0, 0},    /* 0x0B2B */
+    {IRE_NORMAL_CONSONANT, 0, 0, 0, 0, 0, IRE_POSTBASE_POSITION, 0, 0, 0},                  /* 0x0B2C */
+    {IRE_NORMAL_CONSONANT, 0, 0, 0, 0, 0, IRE_POSTBASE_POSITION, 0, 0, 0},                  /* 0x0B2D */
+    {IRE_NORMAL_CONSONANT, 0, 0, 0, 0, 0, IRE_POSTBASE_POSITION, 0, 0, 0},                  /* 0x0B2E */
+    {IRE_NORMAL_CONSONANT, 0, 0, 0, 0, 0, IRE_POSTBASE_POSITION, 0, 0, 0},    /* 0x0B2F */
+
+    {IRE_RA_CONSONANT, 0, 0, 0, 0, 0, IRE_POSTBASE_POSITION, 0, 0, 0},        /* 0x0B30 */
+
+    {0, 0, 0, 0, 0, 0, 0, 0, 0, 0},                  /* 0x0B31 */
+    {IRE_NORMAL_CONSONANT, 0, 0, 0, 0, 0, IRE_POSTBASE_POSITION, 0, 0, 0},                  /* 0x0B32 */
+    {IRE_NORMAL_CONSONANT, 0, 0, 0, 0, 0, IRE_POSTBASE_POSITION, 0, 0, 0},    /* 0x0B33 */
+    {0, 0, 0, 0, 0, 0, 0, 0, 0, 0},                  /* 0x0B34 */
+    {IRE_NORMAL_CONSONANT, 0, 0, 0, 0, 0, IRE_POSTBASE_POSITION, 0, 0, 0},                  /* 0x0B35 */
+    {IRE_NORMAL_CONSONANT, 0, 0, 0, 0, 0, IRE_POSTBASE_POSITION, 0, 0, 0},                  /* 0x0B36 */
+    {IRE_NORMAL_CONSONANT, 0, 0, 0, 0, 0, IRE_POSTBASE_POSITION, 0, 0, 0},                  /* 0x0B37 */
+    {IRE_NORMAL_CONSONANT, 0, 0, 0, 0, 0, IRE_POSTBASE_POSITION, 0, 0, 0},                  /* 0x0B38 */
+    {IRE_NORMAL_CONSONANT, 0, 0, 0, 0, 0, IRE_POSTBASE_POSITION, 0, 0, 0},                  /* 0x0B39 */
+
+    {0, 0, 0, 0, 0, 0, 0, 0, 0, 0},   /* 0x0B3A */
+    {0, 0, 0, 0, 0, 0, 0, 0, 0, 0},   /* 0x0B3B */
+
+    /* SIGNS */
+    {0, 0, 0, IRE_NORMAL_SIGN, 0, 0, IRE_ABOVE_BASE_POSITION, 0, 0, 0},       /* 0x0B3C */
+    {0, 0, 0, IRE_NORMAL_SIGN, 0, 0, IRE_POSTBASE_POSITION, 0, 0, 0},                     /* 0x0B3D */
+
+    /* DEPENDENT VOWELS */
+    {0, IRE_POST_BASE_DEP_VOWEL, 0, 0, 0, 0, IRE_POSTBASE_POSITION, 0, IRE_CHAR_TYPE_1, 0},         /* 0x0B3E */
+    {0, IRE_POST_BASE_DEP_VOWEL, 0, 0, 0, 0, IRE_ABOVE_BASE_POSITION, 0, 0, 0},           /* 0x0B3F */
+    {0, IRE_POST_BASE_DEP_VOWEL, 0, 0, 0, 0, IRE_POSTBASE_POSITION, 0, IRE_CHAR_TYPE_1, 0},         /* 0x0B40 */
+    {0, IRE_POST_BASE_DEP_VOWEL, 0, 0, 0, 0, IRE_ABOVE_BASE_POSITION, 0, IRE_CHAR_TYPE_1, 0},       /* 0x0B41 */
+    {0, IRE_POST_BASE_DEP_VOWEL, 0, 0, 0, 0, IRE_ABOVE_BASE_POSITION, 0, IRE_CHAR_TYPE_1, 0},       /* 0x0B42 */
+    {0, IRE_POST_BASE_DEP_VOWEL, 0, 0, 0, 0, IRE_ABOVE_BASE_POSITION, 0, IRE_CHAR_TYPE_1, 0},       /* 0x0B43 */
+    {0, IRE_POST_BASE_DEP_VOWEL, 0, 0, 0, 0, IRE_ABOVE_BASE_POSITION, 0, IRE_CHAR_TYPE_1, 0},          /* 0x0B44 */
+    {0, 0, 0, 0, 0, 0, 0, 0, 0, 0},       /* 0x0B45 */
+    {0, 0, 0, 0, 0, 0, 0, 0, 0, 0},                       /* 0x0B46 */
+    {0, IRE_PRE_BASE_DEP_VOWEL, 0, 0, 0, 0, IRE_PREBASE_POSITION, 0, IRE_CHAR_TYPE_1, 0},       /* 0x0B47 */
+    {0, IRE_CENTER_BASE_DEP_VOWEL, 0, 0, 0, 0, IRE_POSTBASE_POSITION, 0, 0, 0},       /* 0x0B48 */
+    {0, 0, 0, 0, 0, 0, 0, 0, 0, 0},         /* 0x0B49 */
+    {0, IRE_POST_BASE_DEP_VOWEL, 0, 0, 0, 0, IRE_POSTBASE_POSITION, 0, 0, 0},                       /* 0x0B4A */
+    {0, IRE_CENTER_BASE_DEP_VOWEL, 0, 0, 0, 0, IRE_POSTBASE_POSITION, 0, IRE_CHAR_TYPE_1, 0},         /* 0x0B4B */
+    {0, IRE_CENTER_BASE_DEP_VOWEL, 0, 0, 0, 0, IRE_POSTBASE_POSITION, 0, 0, 0},         /* 0x0B4C */
+
+    /* SIGNS */
+    {0, 0, 0, IRE_HALANT_SIGN, 0, 0, IRE_ABOVE_BASE_POSITION, 0, 0, 0},       /* 0x0B4D */
+
+    {0, 0, 0, 0, 0, 0, 0, 0, 0, 0},   /* 0x0B4E */
+    {0, 0, 0, 0, 0, 0, 0, 0, 0, 0},   /* 0x0B4F */
+    {0, 0, 0, 0, 0, 0, 0, 0, 0, 0},                          /* 0x0B50 */
+    {0, 0, 0, 0, 0, 0, 0, 0, 0, 0},       /* 0x0B51 */
+    {0, 0, 0, 0, 0, 0, 0, 0, 0, 0},       /* 0x0B52 */
+    {0, 0, 0, 0, 0, 0, 0, 0, 0, 0},       /* 0x0B53 */
+    {0, 0, 0, 0, 0, 0, 0, 0, 0, 0},       /* 0x0B54 */
+
+    {0, 0, 0, 0, 0, 0, 0, 0, 0, 0},   /* 0x0B55 */
+    {0, 0, 0, IRE_NORMAL_SIGN, 0, 0, IRE_ABOVE_BASE_POSITION, 0, 0, 0},   /* 0x0B56 */
+    {0, 0, 0, IRE_NORMAL_SIGN, 0, 0, IRE_POSTBASE_POSITION, 0, 0, 0},   /* 0x0B57 */
+
+    /* ADDITIONAL CONSONANT */
+    {0, 0, 0, 0, 0, 0, 0, 0, 0, 0},    /* 0x0B58 */
+    {0, 0, 0, 0, 0, 0, 0, 0, 0, 0},    /* 0x0B59 */
+    {0, 0, 0, 0, 0, 0, 0, 0, 0, 0},    /* 0x0B5A */
+    {0, 0, 0, 0, 0, 0, 0, 0, 0, 0},    /* 0x0B5B */
+    {IRE_NORMAL_CONSONANT, 0, 0, 0, 0, 0, IRE_POSTBASE_POSITION, 0, 0, 0},    /* 0x0B5C */
+    {IRE_NORMAL_CONSONANT, 0, 0, 0, 0, 0, IRE_POSTBASE_POSITION, 0, 0, 0},    /* 0x0B5D */
+    {0, 0, 0, 0, 0, 0, 0, 0, 0, 0},    /* 0x0B5E */
+    {IRE_NORMAL_CONSONANT, 0, 0, 0, 0, 0, IRE_POSTBASE_POSITION, 0, 0, 0},    /* 0x0B5F */
+
+    /* GENERIC ADDITIONS */
+    {0, 0, IRE_INDEP_VOWEL, 0, 0, 0, IRE_POSTBASE_POSITION, 0, 0, 0},   /* 0x0B60 */
+    {0, 0, IRE_INDEP_VOWEL, 0, 0, 0, IRE_POSTBASE_POSITION, 0, 0, 0},   /* 0x0B61 */
+    {0, IRE_POST_BASE_DEP_VOWEL, 0, 0, 0, 0, IRE_POSTBASE_POSITION, 0, 0, 0},   /* 0x0B62 */
+    {0, IRE_POST_BASE_DEP_VOWEL, 0, 0, 0, 0, IRE_POSTBASE_POSITION, 0, 0, 0},   /* 0x0B63 */
+    {0, 0, 0, 0, 0, IRE_NUMERIC_DIGIT, 0, 0,  0, 0},   /* 0x0B64 */
+    {0, 0, 0, 0, 0, IRE_NUMERIC_DIGIT, 0, 0,  0, 0},   /* 0x0B65 */
+    
+    /* DIGITS */
+    {0, 0, 0, 0, 0, IRE_NUMERIC_DIGIT, 0, 0, 0, 0},   /* 0x0B66 */
+    {0, 0, 0, 0, 0, IRE_NUMERIC_DIGIT, 0, 0, 0, 0},   /* 0x0B67 */
+    {0, 0, 0, 0, 0, IRE_NUMERIC_DIGIT, 0, 0, 0, 0},   /* 0x0B68 */
+    {0, 0, 0, 0, 0, IRE_NUMERIC_DIGIT, 0, 0, 0, 0},   /* 0x0B69 */
+    {0, 0, 0, 0, 0, IRE_NUMERIC_DIGIT, 0, 0, 0, 0},   /* 0x0B6A */
+    {0, 0, 0, 0, 0, IRE_NUMERIC_DIGIT, 0, 0, 0, 0},   /* 0x0B6B */
+    {0, 0, 0, 0, 0, IRE_NUMERIC_DIGIT, 0, 0, 0, 0},   /* 0x0B6C */
+    {0, 0, 0, 0, 0, IRE_NUMERIC_DIGIT, 0, 0, 0, 0},   /* 0x0B6D */
+    {0, 0, 0, 0, 0, IRE_NUMERIC_DIGIT, 0, 0, 0, 0},   /* 0x0B6E */
+    {0, 0, 0, 0, 0, IRE_NUMERIC_DIGIT, 0, 0, 0, 0},   /* 0x0B6F */
+
+    /* ORIYA SPECIFIC ADDITOIN */
+    {IRE_NORMAL_CONSONANT, 0, 0, 0, 0, 0, IRE_POSTBASE_POSITION, 0, 0, 0},   /* 0x0B70 */
+    {IRE_NORMAL_CONSONANT, 0, 0, 0, 0, 0, IRE_POSTBASE_POSITION, 0, 0, 0}   /* 0x0B71 */
+};
+
+const ire_character_info_table_struct oriya_ligature_info_table[] = 
+{
+    {0, 0, 0, 0, IRE_NORMAL_LIGATURE, 0, IRE_POSTBASE_POSITION, 0, 0, 0},     /* 0xA300 */
+    {0, 0, 0, 0, IRE_NORMAL_LIGATURE, 0, IRE_POSTBASE_POSITION, 0, 0, 0},     /* 0xA301 */
+    {0, 0, 0, 0, IRE_NORMAL_LIGATURE, 0, IRE_POSTBASE_POSITION, 0, 0, 0},     /* 0xA302 */
+    {0, 0, 0, 0, IRE_NORMAL_LIGATURE, 0, IRE_POSTBASE_POSITION, 0, 0, 0},     /* 0xA303 */
+    {0, 0, 0, 0, IRE_NORMAL_LIGATURE, 0, IRE_POSTBASE_POSITION, 0, 0, 0},     /* 0xA304 */
+    {0, 0, 0, 0, IRE_NORMAL_LIGATURE, 0, IRE_POSTBASE_POSITION, 0, 0, 0},     /* 0xA305 */
+    {0, 0, 0, 0, IRE_NORMAL_LIGATURE, 0, IRE_POSTBASE_POSITION, 0, 0, 0},     /* 0xA306 */
+    {0, 0, 0, 0, IRE_NORMAL_LIGATURE, 0, IRE_POSTBASE_POSITION, 0, 0, 0},     /* 0xA307 */
+    {0, 0, 0, 0, IRE_NORMAL_LIGATURE, 0, IRE_POSTBASE_POSITION, 0, 0, 0},     /* 0xA308 */
+    {0, 0, 0, 0, IRE_NORMAL_LIGATURE, 0, IRE_POSTBASE_POSITION, 0, 0, 0},     /* 0xA309 */
+    {0, 0, 0, 0, IRE_NORMAL_LIGATURE, 0, IRE_POSTBASE_POSITION, 0, 0, 0},     /* 0xA30A */
+    {0, 0, 0, 0, IRE_NORMAL_LIGATURE, 0, IRE_POSTBASE_POSITION, 0, 0, 0},     /* 0xA30B */
+    {0, 0, 0, 0, IRE_NORMAL_LIGATURE, 0, IRE_POSTBASE_POSITION, 0, 0, 0},     /* 0xA30C */
+    {0, 0, 0, 0, IRE_NORMAL_LIGATURE, 0, IRE_POSTBASE_POSITION, 0, 0, 0},     /* 0xA30D */
+    {0, 0, 0, 0, IRE_NORMAL_LIGATURE, 0, IRE_POSTBASE_POSITION, 0, 0, 0},     /* 0xA30E */
+    {0, 0, 0, 0, IRE_NORMAL_LIGATURE, 0, IRE_POSTBASE_POSITION, 0, 0, 0},     /* 0xA30F */
+
+    {0, 0, 0, 0, IRE_NORMAL_LIGATURE, 0, IRE_POSTBASE_POSITION, 0, 0, 0},   /* 0xA310 */
+    {0, 0, 0, 0, IRE_NORMAL_LIGATURE, 0, IRE_POSTBASE_POSITION, 0, 0, 0},   /* 0xA311 */
+    {0, 0, 0, 0, IRE_NORMAL_LIGATURE, 0, IRE_POSTBASE_POSITION, 0, 0, 0},   /* 0xA312 */
+    {0, 0, 0, 0, IRE_NORMAL_LIGATURE, 0, IRE_POSTBASE_POSITION, 0, 0, 0},   /* 0xA313 */
+    {0, 0, 0, 0, IRE_NORMAL_LIGATURE, 0, IRE_POSTBASE_POSITION, 0, 0, 0},   /* 0xA314 */
+
+    {0, 0, 0, 0, IRE_NORMAL_LIGATURE, 0, IRE_POSTBASE_POSITION, 0, 0, 0},     /* 0xA315 */
+    {0, 0, 0, 0, IRE_NORMAL_LIGATURE, 0, IRE_POSTBASE_POSITION, 0, 0, 0},     /* 0xA316 */
+    {0, 0, 0, 0, IRE_NORMAL_LIGATURE, 0, IRE_POSTBASE_POSITION, 0, 0, 0},     /* 0xA317 */
+    {0, 0, 0, 0, IRE_NORMAL_LIGATURE, 0, IRE_POSTBASE_POSITION, 0, 0, 0},     /* 0xA318 */
+
+    {0, 0, 0, 0, IRE_NORMAL_LIGATURE, 0, IRE_POSTBASE_POSITION, 0, 0, 0},   /* 0xA319 */
+
+    {0, 0, 0, 0, IRE_NORMAL_LIGATURE, 0, IRE_POSTBASE_POSITION, 0, 0, 0},     /* 0xA31A */
+
+    {0, 0, 0, 0, IRE_NORMAL_LIGATURE, 0, IRE_POSTBASE_POSITION, 0, 0, 0},   /* 0xA31B */
+
+    {0, 0, 0, 0, IRE_NORMAL_LIGATURE, 0, IRE_POSTBASE_POSITION, 0, 0, 0},     /* 0xA31C */
+    {0, 0, 0, 0, IRE_NORMAL_LIGATURE, 0, IRE_POSTBASE_POSITION, 0, 0, 0},     /* 0xA31D */
+    {0, 0, 0, 0, IRE_NORMAL_LIGATURE, 0, IRE_POSTBASE_POSITION, 0, 0, 0},     /* 0xA31E */
+
+    {0, 0, 0, 0, IRE_NORMAL_LIGATURE, 0, IRE_POSTBASE_POSITION, 0, 0, 0},   /* 0xA31F */
+
+    {0, 0, 0, 0, IRE_NORMAL_LIGATURE, 0, IRE_POSTBASE_POSITION, 0, 0, 0},   /* 0xA320 */
+    {0, 0, 0, 0, IRE_NORMAL_LIGATURE, 0, IRE_POSTBASE_POSITION, 0, 0, 0},   /* 0xA321 */
+    {0, 0, 0, 0, IRE_NORMAL_LIGATURE, 0, IRE_POSTBASE_POSITION, 0, 0, 0},   /* 0xA322 */
+
+    {0, 0, 0, 0, IRE_NORMAL_LIGATURE, 0, IRE_POSTBASE_POSITION, 0, 0, 0},     /* 0xA323 */
+    {0, 0, 0, 0, IRE_NORMAL_LIGATURE, 0, IRE_POSTBASE_POSITION, 0, 0, 0},     /* 0xA324 */
+    {0, 0, 0, 0, IRE_NORMAL_LIGATURE, 0, IRE_POSTBASE_POSITION, 0, 0, 0},     /* 0xA325 */
+
+    {0, 0, 0, 0, IRE_NORMAL_LIGATURE, 0, IRE_POSTBASE_POSITION, 0, 0, 0},   /* 0xA326 */
+
+    {0, 0, 0, 0, IRE_NORMAL_LIGATURE, 0, IRE_POSTBASE_POSITION, 0, 0, 0},     /* 0xA327 */
+    {0, 0, 0, 0, IRE_NORMAL_LIGATURE, 0, IRE_POSTBASE_POSITION, 0, 0, 0},     /* 0xA328 */
+    {0, 0, 0, 0, IRE_NORMAL_LIGATURE, 0, IRE_POSTBASE_POSITION, 0, 0, 0},     /* 0xA329 */
+    {0, 0, 0, 0, IRE_NORMAL_LIGATURE, 0, IRE_POSTBASE_POSITION, 0, 0, 0},     /* 0xA32A */
+    {0, 0, 0, 0, IRE_NORMAL_LIGATURE, 0, IRE_POSTBASE_POSITION, 0, 0, 0},     /* 0xA32B */
+    {0, 0, 0, 0, IRE_NORMAL_LIGATURE, 0, IRE_POSTBASE_POSITION, 0, 0, 0},     /* 0xA32C */
+    {0, 0, 0, 0, IRE_NORMAL_LIGATURE, 0, IRE_POSTBASE_POSITION, 0, 0, 0},     /* 0xA32D */
+    {0, 0, 0, 0, IRE_NORMAL_LIGATURE, 0, IRE_POSTBASE_POSITION, 0, 0, 0},     /* 0xA32E */
+    {0, 0, 0, 0, IRE_NORMAL_LIGATURE, 0, IRE_POSTBASE_POSITION, 0, 0, 0},     /* 0xA32F */
+
+    {0, 0, 0, 0, IRE_NORMAL_LIGATURE, 0, IRE_POSTBASE_POSITION, 0, 0, 0},   /* 0xA330 */
+    {0, 0, 0, 0, IRE_NORMAL_LIGATURE, 0, IRE_POSTBASE_POSITION, 0, 0, 0},   /* 0xA331 */
+
+    {0, 0, 0, 0, IRE_NORMAL_LIGATURE, 0, IRE_POSTBASE_POSITION, 0, 0, 0},     /* 0xA332 */
+    {0, 0, 0, 0, IRE_NORMAL_LIGATURE, 0, IRE_POSTBASE_POSITION, 0, 0, 0},     /* 0xA333 */
+    {0, 0, 0, 0, IRE_NORMAL_LIGATURE, 0, IRE_POSTBASE_POSITION, 0, 0, 0},     /* 0xA334 */
+    {0, 0, 0, 0, IRE_NORMAL_LIGATURE, 0, IRE_POSTBASE_POSITION, 0, 0, 0},     /* 0xA335 */
+    {0, 0, 0, 0, IRE_NORMAL_LIGATURE, 0, IRE_POSTBASE_POSITION, 0, 0, 0},     /* 0xA336 */
+    {0, 0, 0, 0, IRE_NORMAL_LIGATURE, 0, IRE_POSTBASE_POSITION, 0, 0, 0},     /* 0xA337 */
+    {0, 0, 0, 0, IRE_NORMAL_LIGATURE, 0, IRE_POSTBASE_POSITION, 0, 0, 0},     /* 0xA338 */
+    {0, 0, 0, 0, IRE_NORMAL_LIGATURE, 0, IRE_POSTBASE_POSITION, 0, 0, 0},     /* 0xA339 */
+
+    {0, 0, 0, 0, IRE_NORMAL_LIGATURE, 0, IRE_POSTBASE_POSITION, 0, 0, 0},   /* 0xA33A */
+    {0, 0, 0, 0, IRE_NORMAL_LIGATURE, 0, IRE_POSTBASE_POSITION, 0, 0, 0},   /* 0xA33B */
+    {0, 0, 0, 0, IRE_NORMAL_LIGATURE, 0, IRE_POSTBASE_POSITION, 0, 0, 0},   /* 0xA33C */
+    {0, 0, 0, 0, IRE_NORMAL_LIGATURE, 0, IRE_POSTBASE_POSITION, 0, 0, 0},   /* 0xA33D */
+    {0, 0, 0, 0, IRE_NORMAL_LIGATURE, 0, IRE_POSTBASE_POSITION, 0, 0, 0},   /* 0xA33E */
+    {0, 0, 0, 0, IRE_NORMAL_LIGATURE, 0, IRE_POSTBASE_POSITION, 0, 0, 0},   /* 0xA33F */
+
+    {0, 0, 0, 0, IRE_NORMAL_LIGATURE, 0, IRE_POSTBASE_POSITION, 0, 0, 0},     /* 0xA340 */
+    {0, 0, 0, 0, IRE_NORMAL_LIGATURE, 0, IRE_POSTBASE_POSITION, 0, 0, 0},     /* 0xA341 */
+    {0, 0, 0, 0, IRE_NORMAL_LIGATURE, 0, IRE_POSTBASE_POSITION, 0, 0, 0},     /* 0xA342 */
+    {0, 0, 0, 0, IRE_NORMAL_LIGATURE, 0, IRE_POSTBASE_POSITION, 0, 0, 0},     /* 0xA343 */
+    {0, 0, 0, 0, IRE_NORMAL_LIGATURE, 0, IRE_POSTBASE_POSITION, 0, 0, 0},     /* 0xA344 */
+    {0, 0, 0, 0, IRE_NORMAL_LIGATURE, 0, IRE_POSTBASE_POSITION, 0, 0, 0},     /* 0xA345 */
+    {0, 0, 0, 0, IRE_NORMAL_LIGATURE, 0, IRE_POSTBASE_POSITION, 0, 0, 0},     /* 0xA346 */
+    {0, 0, 0, 0, IRE_NORMAL_LIGATURE, 0, IRE_POSTBASE_POSITION, 0, 0, 0},     /* 0xA347 */
+    {0, 0, 0, 0, IRE_NORMAL_LIGATURE, 0, IRE_POSTBASE_POSITION, 0, 0, 0},     /* 0xA348 */
+
+    {0, 0, 0, 0, IRE_NORMAL_LIGATURE, 0, IRE_POSTBASE_POSITION, 0, 0, 0},   /* 0xA349 */
+    {0, 0, 0, 0, IRE_NORMAL_LIGATURE, 0, IRE_POSTBASE_POSITION, 0, 0, 0},   /* 0xA34A */
+
+    {0, 0, 0, 0, IRE_NORMAL_LIGATURE, 0, IRE_POSTBASE_POSITION, 0, 0, 0},     /* 0xA34B */
+    {0, 0, 0, 0, IRE_NORMAL_LIGATURE, 0, IRE_POSTBASE_POSITION, 0, 0, 0},     /* 0xA34C */
+    {0, 0, 0, 0, IRE_NORMAL_LIGATURE, 0, IRE_POSTBASE_POSITION, 0, 0, 0},     /* 0xA34D */
+    {0, 0, 0, 0, IRE_NORMAL_LIGATURE, 0, IRE_POSTBASE_POSITION, 0, 0, 0},     /* 0xA34E */
+    {0, 0, 0, 0, IRE_NORMAL_LIGATURE, 0, IRE_POSTBASE_POSITION, 0, 0, 0},     /* 0xA34F */
+
+    {0, 0, 0, 0, IRE_NORMAL_LIGATURE, 0, IRE_POSTBASE_POSITION, 0, 0, 0},     /* 0xA350 */
+
+    {0, 0, 0, 0, IRE_NORMAL_LIGATURE, 0, IRE_POSTBASE_POSITION, 0, 0, 0},   /* 0xA351 */
+    {0, 0, 0, 0, IRE_NORMAL_LIGATURE, 0, IRE_POSTBASE_POSITION, 0, 0, 0},   /* 0xA352 */
+    {0, 0, 0, 0, IRE_NORMAL_LIGATURE, 0, IRE_POSTBASE_POSITION, 0, 0, 0},   /* 0xA353 */
+    {0, 0, 0, 0, IRE_NORMAL_LIGATURE, 0, IRE_POSTBASE_POSITION, 0, 0, 0},   /* 0xA354 */
+
+    {0, 0, 0, 0, IRE_NORMAL_LIGATURE, 0, IRE_POSTBASE_POSITION, 0, 0, 0},     /* 0xA355 */
+    {0, 0, 0, 0, IRE_NORMAL_LIGATURE, 0, IRE_POSTBASE_POSITION, 0, 0, 0},     /* 0xA356 */
+    {0, 0, 0, 0, IRE_NORMAL_LIGATURE, 0, IRE_POSTBASE_POSITION, 0, 0, 0},     /* 0xA357 */
+
+    {0, 0, 0, 0, IRE_NORMAL_LIGATURE, 0, IRE_POSTBASE_POSITION, 0, 0, 0},   /* 0xA358 */
+    {0, 0, 0, 0, IRE_NORMAL_LIGATURE, 0, IRE_POSTBASE_POSITION, 0, 0, 0},   /* 0xA359 */
+    {0, 0, 0, 0, IRE_NORMAL_LIGATURE, 0, IRE_POSTBASE_POSITION, 0, 0, 0},   /* 0xA35A */
+    {0, 0, 0, 0, IRE_NORMAL_LIGATURE, 0, IRE_POSTBASE_POSITION, 0, 0, 0},   /* 0xA35B */
+    {0, 0, 0, 0, IRE_NORMAL_LIGATURE, 0, IRE_POSTBASE_POSITION, 0, 0, 0},   /* 0xA35C */
+    {0, 0, 0, 0, IRE_NORMAL_LIGATURE, 0, IRE_POSTBASE_POSITION, 0, 0, 0},   /* 0xA35D */
+    {0, 0, 0, 0, IRE_NORMAL_LIGATURE, 0, IRE_POSTBASE_POSITION, 0, 0, 0},   /* 0xA35E */
+    {0, 0, 0, 0, IRE_NORMAL_LIGATURE, 0, IRE_POSTBASE_POSITION, 0, 0, 0},   /* 0xA35F */
+
+    {0, 0, 0, 0, IRE_NORMAL_LIGATURE, 0, IRE_POSTBASE_POSITION, 0, 0, 0},   /* 0xA360 */
+    {0, 0, 0, 0, IRE_NORMAL_LIGATURE, 0, IRE_POSTBASE_POSITION, 0, 0, 0},   /* 0xA361 */
+    {0, 0, 0, 0, IRE_NORMAL_LIGATURE, 0, IRE_POSTBASE_POSITION, 0, 0, 0},   /* 0xA362 */
+    {0, 0, 0, 0, IRE_NORMAL_LIGATURE, 0, IRE_POSTBASE_POSITION, 0, 0, 0},   /* 0xA363 */
+    {0, 0, 0, 0, IRE_NORMAL_LIGATURE, 0, IRE_POSTBASE_POSITION, 0, 0, 0},   /* 0xA364 */
+    {0, 0, 0, 0, IRE_NORMAL_LIGATURE, 0, IRE_POSTBASE_POSITION, 0, 0, 0},   /* 0xA365 */
+    {0, 0, 0, 0, IRE_NORMAL_LIGATURE, 0, IRE_POSTBASE_POSITION, 0, 0, 0},   /* 0xA366 */
+    {0, 0, 0, 0, IRE_NORMAL_LIGATURE, 0, IRE_POSTBASE_POSITION, 0, 0, 0},   /* 0xA367 */
+    {0, 0, 0, 0, IRE_NORMAL_LIGATURE, 0, IRE_POSTBASE_POSITION, 0, 0, 0},   /* 0xA368 */
+    {0, 0, 0, 0, IRE_NORMAL_LIGATURE, 0, IRE_POSTBASE_POSITION, 0, 0, 0},   /* 0xA369 */
+    {0, 0, 0, 0, IRE_NORMAL_LIGATURE, 0, IRE_POSTBASE_POSITION, 0, 0, 0},   /* 0xA36A */
+    {0, 0, 0, 0, IRE_NORMAL_LIGATURE, 0, IRE_POSTBASE_POSITION, 0, 0, 0},   /* 0xA36B */
+    {0, 0, 0, 0, IRE_NORMAL_LIGATURE, 0, IRE_POSTBASE_POSITION, 0, 0, 0},   /* 0xA36C */
+    {0, 0, 0, 0, IRE_NORMAL_LIGATURE, 0, IRE_POSTBASE_POSITION, 0, 0, 0},   /* 0xA36D */
+    {0, 0, 0, 0, IRE_NORMAL_LIGATURE, 0, IRE_POSTBASE_POSITION, 0, 0, 0},   /* 0xA36E */
+    {0, 0, 0, 0, IRE_NORMAL_LIGATURE, 0, IRE_POSTBASE_POSITION, 0, 0, 0},   /* 0xA36F */
+
+    {0, 0, 0, 0, IRE_NORMAL_LIGATURE, 0, IRE_POSTBASE_POSITION, 0, 0, 0},     /* 0xA370 */
+
+    {0, 0, 0, 0, IRE_NORMAL_LIGATURE, 0, IRE_POSTBASE_POSITION, 0, 0, 0},   /* 0xA371 */
+
+    {0, 0, 0, 0, IRE_NORMAL_LIGATURE, 0, IRE_POSTBASE_POSITION, 0, 0, 0},     /* 0xA372 */
+    {0, 0, 0, 0, IRE_NORMAL_LIGATURE, 0, IRE_POSTBASE_POSITION, 0, 0, 0},     /* 0xA373 */
+
+    {0, 0, 0, 0, IRE_NORMAL_LIGATURE, 0, IRE_POSTBASE_POSITION, 0, 0, 0},   /* 0xA374 */
+
+    {0, 0, 0, 0, IRE_NORMAL_LIGATURE, 0, IRE_POSTBASE_POSITION, 0, 0, 0},     /* 0xA375 */
+
+    {0, 0, 0, 0, IRE_NORMAL_LIGATURE, 0, IRE_POSTBASE_POSITION, 0, 0, 0},   /* 0xA376 */
+    {0, 0, 0, 0, IRE_NORMAL_LIGATURE, 0, IRE_POSTBASE_POSITION, 0, 0, 0},   /* 0xA377 */
+    {0, 0, 0, 0, IRE_NORMAL_LIGATURE, 0, IRE_POSTBASE_POSITION, 0, 0, 0},   /* 0xA378 */
+    {0, 0, 0, 0, IRE_NORMAL_LIGATURE, 0, IRE_POSTBASE_POSITION, 0, 0, 0},   /* 0xA379 */
+    {0, 0, 0, 0, IRE_NORMAL_LIGATURE, 0, IRE_POSTBASE_POSITION, 0, 0, 0},   /* 0xA37A */
+
+    {0, 0, 0, 0, IRE_NORMAL_LIGATURE, 0, IRE_POSTBASE_POSITION, 0, 0, 0},       /* 0xA37B */
+
+    {0, 0, 0, 0, IRE_NORMAL_LIGATURE, 0, IRE_POSTBASE_POSITION, 0, 0, 0},   /* 0xA37C */
+
+    {0, 0, 0, 0, IRE_NORMAL_LIGATURE, 0, IRE_POSTBASE_POSITION, 0, 0, 0},     /* 0xA37D */
+
+    {0, 0, 0, 0, IRE_NORMAL_LIGATURE, 0, IRE_POSTBASE_POSITION, 0, 0, 0},       /* 0xA37E */
+    {0, 0, 0, 0, IRE_NORMAL_LIGATURE, 0, IRE_POSTBASE_POSITION, 0, 0, 0},       /* 0xA37F */
+
+    {0, 0, 0, 0, IRE_NORMAL_LIGATURE, 0, IRE_POSTBASE_POSITION, 0, 0, 0},     /* 0xA380 */
+    {0, 0, 0, 0, IRE_NORMAL_LIGATURE, 0, IRE_POSTBASE_POSITION, 0, 0, 0},     /* 0xA381 */
+
+    {0, 0, 0, 0, IRE_NORMAL_LIGATURE, 0, IRE_POSTBASE_POSITION, 0, 0, 0},   /* 0xA382 */
+    {0, 0, 0, 0, IRE_NORMAL_LIGATURE, 0, IRE_POSTBASE_POSITION, 0, 0, 0},   /* 0xA383 */
+    {0, 0, 0, 0, IRE_NORMAL_LIGATURE, 0, IRE_POSTBASE_POSITION, 0, 0, 0},   /* 0xA384 */
+
+    {0, 0, 0, 0, IRE_NORMAL_LIGATURE, 0, IRE_POSTBASE_POSITION, 0, 0, 0},     /* 0xA385 */
+    {0, 0, 0, 0, IRE_NORMAL_LIGATURE, 0, IRE_POSTBASE_POSITION, 0, 0, 0},     /* 0xA386 */
+    {0, 0, 0, 0, IRE_NORMAL_LIGATURE, 0, IRE_POSTBASE_POSITION, 0, 0, 0},     /* 0xA387 */
+    {0, 0, 0, 0, IRE_NORMAL_LIGATURE, 0, IRE_POSTBASE_POSITION, 0, 0, 0},     /* 0xA388 */
+    {0, 0, 0, 0, IRE_NORMAL_LIGATURE, 0, IRE_POSTBASE_POSITION, 0, 0, 0},     /* 0xA389 */
+
+    {0, 0, 0, 0, IRE_NORMAL_LIGATURE, 0, IRE_POSTBASE_POSITION, 0, 0, 0},       /* 0xA38A */
+    {0, 0, 0, 0, IRE_NORMAL_LIGATURE, 0, IRE_POSTBASE_POSITION, 0, 0, 0},       /* 0xA38B */
+    {0, 0, 0, 0, IRE_NORMAL_LIGATURE, 0, IRE_POSTBASE_POSITION, 0, 0, 0},       /* 0xA38C */
+    {0, 0, 0, 0, IRE_NORMAL_LIGATURE, 0, IRE_POSTBASE_POSITION, 0, 0, 0},       /* 0xA38D */
+    {0, 0, 0, 0, IRE_NORMAL_LIGATURE, 0, IRE_POSTBASE_POSITION, 0, 0, 0},       /* 0xA38E */
+    {0, 0, 0, 0, IRE_NORMAL_LIGATURE, 0, IRE_POSTBASE_POSITION, 0, 0, 0},       /* 0xA38F */
+
+    {0, 0, 0, 0, IRE_NORMAL_LIGATURE, 0, IRE_POSTBASE_POSITION, 0, 0, 0},       /* 0xA390 */
+
+    {0, 0, 0, 0, IRE_NORMAL_LIGATURE, 0, IRE_POSTBASE_POSITION, 0, 0, 0},     /* 0xA391 */
+    {0, 0, 0, 0, IRE_NORMAL_LIGATURE, 0, IRE_POSTBASE_POSITION, 0, 0, 0},     /* 0xA392 */
+    {0, 0, 0, 0, IRE_NORMAL_LIGATURE, 0, IRE_POSTBASE_POSITION, 0, 0, 0},     /* 0xA393 */
+    {0, 0, 0, 0, IRE_NORMAL_LIGATURE, 0, IRE_POSTBASE_POSITION, 0, 0, 0},     /* 0xA394 */
+    {0, 0, 0, 0, IRE_NORMAL_LIGATURE, 0, IRE_POSTBASE_POSITION, 0, 0, 0},     /* 0xA395 */
+    {0, 0, 0, 0, IRE_NORMAL_LIGATURE, 0, IRE_POSTBASE_POSITION, 0, 0, 0},     /* 0xA396 */
+    {0, 0, 0, 0, IRE_NORMAL_LIGATURE, 0, IRE_POSTBASE_POSITION, 0, 0, 0},     /* 0xA397 */
+    {0, 0, 0, 0, IRE_NORMAL_LIGATURE, 0, IRE_POSTBASE_POSITION, 0, 0, 0},     /* 0xA398 */
+    {0, 0, 0, 0, IRE_NORMAL_LIGATURE, 0, IRE_POSTBASE_POSITION, 0, 0, 0},     /* 0xA399 */
+
+    {0, 0, 0, 0, IRE_NORMAL_LIGATURE, 0, IRE_POSTBASE_POSITION, 0, 0, 0},   /* 0xA39A */
+
+    {0, 0, 0, 0, IRE_NORMAL_LIGATURE, 0, IRE_ABOVE_BASE_POSITION, 0, 0, 0},     /* 0xA39B */
+    {0, 0, 0, 0, IRE_NORMAL_LIGATURE, 0, IRE_ABOVE_BASE_POSITION, 0, 0, 0},     /* 0xA39C */
+    {0, 0, 0, 0, IRE_NORMAL_LIGATURE, 0, IRE_POSTBASE_POSITION, 0, 0, 0},     /* 0xA39D */
+	{0, 0, 0, 0, IRE_NORMAL_LIGATURE, 0, IRE_POSTBASE_POSITION, 0, 0, 0},     /* 0xA39E */
+	  {0, 0, 0, 0, IRE_NORMAL_LIGATURE, 0, IRE_POSTBASE_POSITION, 0, 0, 0},     /* 0xA39F */
+	  {0, 0, 0, 0, IRE_NORMAL_LIGATURE, 0, IRE_POSTBASE_POSITION, 0, 0, 0},     /* 0xA3A0 */
+	  {0, 0, 0, 0, IRE_NORMAL_LIGATURE, 0, IRE_POSTBASE_POSITION, 0, 0, 0},     /* 0xA3A1 */
+	  {0, 0, 0, 0, IRE_NORMAL_LIGATURE, 0, IRE_POSTBASE_POSITION, 0, 0, 0},     /* 0xA3A2 */
+	  {0, 0, 0, 0, IRE_NORMAL_LIGATURE, 0, IRE_POSTBASE_POSITION, 0, 0, 0},     /* 0xA3A3 */
+	  {0, 0, 0, 0, IRE_NORMAL_LIGATURE, 0, IRE_POSTBASE_POSITION, 0, 0, 0},     /* 0xA3A4 */
+	  {0, 0, 0, 0, IRE_NORMAL_LIGATURE, 0, IRE_POSTBASE_POSITION, 0, 0, 0},     /* 0xA3A5 */
+	  {0, 0, 0, 0, IRE_NORMAL_LIGATURE, 0, IRE_POSTBASE_POSITION, 0, 0, 0},     /* 0xA3A6 */
+	  {0, 0, 0, 0, IRE_NORMAL_LIGATURE, 0, IRE_POSTBASE_POSITION, 0, 0, 0},     /* 0xA3A7 */
+	  {0, 0, 0, 0, IRE_NORMAL_LIGATURE, 0, IRE_POSTBASE_POSITION, 0, 0, 0},     /* 0xA3A8 */	  	  
+	  {0, 0, 0, 0, IRE_NORMAL_LIGATURE, 0, IRE_POSTBASE_POSITION, 0, 0, 0},     /* 0xA3A9 */
+	  {0, 0, 0, 0, IRE_NORMAL_LIGATURE, 0, IRE_POSTBASE_POSITION, 0, 0, 0},     /* 0xA3AA */
+	  {0, 0, 0, 0, IRE_NORMAL_LIGATURE, 0, IRE_POSTBASE_POSITION, 0, 0, 0},     /* 0xA3AB */
+	  {0, 0, 0, 0, IRE_NORMAL_LIGATURE, 0, IRE_POSTBASE_POSITION, 0, 0, 0},     /* 0xA3AC */
+	  {0, 0, 0, 0, IRE_NORMAL_LIGATURE, 0, IRE_POSTBASE_POSITION, 0, 0, 0},     /* 0xA3AD */
+	  {0, 0, 0, 0, IRE_NORMAL_LIGATURE, 0, IRE_POSTBASE_POSITION, 0, 0, 0},     /* 0xA3AE */
+	  {0, 0, 0, 0, IRE_NORMAL_LIGATURE, 0, IRE_POSTBASE_POSITION, 0, 0, 0},     /* 0xA3AF */
+	  {0, 0, 0, 0, IRE_NORMAL_LIGATURE, 0, IRE_POSTBASE_POSITION, 0, 0, 0},     /* 0xA3B0 */
+	  {0, 0, 0, 0, IRE_NORMAL_LIGATURE, 0, IRE_POSTBASE_POSITION, 0, 0, 0},     /* 0xA3B1 */
+	  {0, 0, 0, 0, IRE_NORMAL_LIGATURE, 0, IRE_POSTBASE_POSITION, 0, 0, 0},     /* 0xA3B2 */ 	  
+	  {0, 0, 0, 0, IRE_NORMAL_LIGATURE, 0, IRE_POSTBASE_POSITION, 0, 0, 0},     /* 0xA3B3 */
+	  {0, 0, 0, 0, IRE_NORMAL_LIGATURE, 0, IRE_POSTBASE_POSITION, 0, 0, 0},     /* 0xA3B4 */
+	  {0, 0, 0, 0, IRE_NORMAL_LIGATURE, 0, IRE_POSTBASE_POSITION, 0, 0, 0},     /* 0xA3B5 */
+	  {0, 0, 0, 0, IRE_NORMAL_LIGATURE, 0, IRE_POSTBASE_POSITION, 0, 0, 0},     /* 0xA3B6 */
+	  {0, 0, 0, 0, IRE_NORMAL_LIGATURE, 0, IRE_POSTBASE_POSITION, 0, 0, 0},     /* 0xA3B7 */
+	  {0, 0, 0, 0, IRE_NORMAL_LIGATURE, 0, IRE_POSTBASE_POSITION, 0, 0, 0},     /* 0xA3B8 */
+	  {0, 0, 0, 0, IRE_NORMAL_LIGATURE, 0, IRE_POSTBASE_POSITION, 0, 0, 0},     /* 0xA3B9 */
+	  {0, 0, 0, 0, IRE_NORMAL_LIGATURE, 0, IRE_POSTBASE_POSITION, 0, 0, 0},     /* 0xA3BA */
+	  {0, 0, 0, 0, IRE_NORMAL_LIGATURE, 0, IRE_POSTBASE_POSITION, 0, 0, 0},     /* 0xA3BB */
+	  {0, 0, 0, 0, IRE_NORMAL_LIGATURE, 0, IRE_POSTBASE_POSITION, 0, 0, 0},     /* 0xA3BC */	  
+	  {0, 0, 0, 0, IRE_NORMAL_LIGATURE, 0, IRE_POSTBASE_POSITION, 0, 0, 0},     /* 0xA3BD */
+	  {0, 0, 0, 0, IRE_NORMAL_LIGATURE, 0, IRE_POSTBASE_POSITION, 0, 0, 0},     /* 0xA3BE */
+	  {0, 0, 0, 0, IRE_NORMAL_LIGATURE, 0, IRE_POSTBASE_POSITION, 0, 0, 0},     /* 0xA3BF */	 	  
+	  {0, 0, 0, 0, IRE_NORMAL_LIGATURE, 0, IRE_POSTBASE_POSITION, 0, 0, 0},     /* 0xA3C0 */
+	  {0, 0, 0, 0, IRE_NORMAL_LIGATURE, 0, IRE_POSTBASE_POSITION, 0, 0, 0},     /* 0xA3C1 */
+	  {0, 0, 0, 0, IRE_NORMAL_LIGATURE, 0, IRE_POSTBASE_POSITION, 0, 0, 0},     /* 0xA3C2 */
+	  {0, 0, 0, 0, IRE_NORMAL_LIGATURE, 0, IRE_POSTBASE_POSITION, 0, 0, 0},     /* 0xA3C3 */
+	  {0, 0, 0, 0, IRE_NORMAL_LIGATURE, 0, IRE_POSTBASE_POSITION, 0, 0, 0},     /* 0xA3C4 */
+	  {0, 0, 0, 0, IRE_NORMAL_LIGATURE, 0, IRE_POSTBASE_POSITION, 0, 0, 0},     /* 0xA3C5 */
+	  {0, 0, 0, 0, IRE_NORMAL_LIGATURE, 0, IRE_POSTBASE_POSITION, 0, 0, 0},     /* 0xA3C6 */	  
+	  {0, 0, 0, 0, IRE_NORMAL_LIGATURE, 0, IRE_POSTBASE_POSITION, 0, 0, 0},     /* 0xA3C7 */
+	  {0, 0, 0, 0, IRE_NORMAL_LIGATURE, 0, IRE_POSTBASE_POSITION, 0, 0, 0},     /* 0xA3C8 */
+	  {0, 0, 0, 0, IRE_NORMAL_LIGATURE, 0, IRE_POSTBASE_POSITION, 0, 0, 0},     /* 0xA3C9 */		  
+};
+
+ /*    CONSONANT'S TABLES   */
+
+const ire_glyph_info_table_struct ORIYA_KA_Tbl[] = 
+{
+
+    /* ka + space */
+    {0, 1, 1, MMI_ALL_LANG, {ORIYA_C_KA, 0x0}, {ORIYA_C_KA, 0x0}},
+    
+    /* Ka + Nukta +Halant -> half form of Ka with Nukta */
+    {0, 3, 1, MMI_ALL_LANG, {ORIYA_C_KA, ORIYA_S_HALANT, ORIYA_S_WA, 0x0}, {ORIYA_H_KAWA, 0x0}},
+    /* Ka + Halant + KA -> ligature form of KKA */
+    {0, 3, 1, MMI_ALL_LANG, {ORIYA_C_KA, ORIYA_S_HALANT, ORIYA_C_KA, 0x0}, {ORIYA_H_KAKA, 0x0}},
+    /* Ka + Halant + Ta -> Kta */
+    {0, 3, 1, MMI_ALL_LANG, {ORIYA_C_KA, ORIYA_S_HALANT, ORIYA_C_NA, 0x0}, {ORIYA_H_KANA, 0x0}},
+    /* Ka + Halant + Ra -> Kra */
+    {0, 3, 1, MMI_ALL_LANG, {ORIYA_C_KA, ORIYA_S_HALANT, ORIYA_C_LLA, 0x0}, {ORIYA_H_KALLA, 0x0}},
+    /* Ka + Halant + Sha -> Ksha */
+    {0, 3, 1, MMI_ALL_LANG, {ORIYA_C_KA, ORIYA_S_HALANT, ORIYA_C_LA, 0x0}, {ORIYA_H_KALA, 0x0}},
+    {0, 3, 1, MMI_ALL_LANG, {ORIYA_C_KA, ORIYA_S_HALANT, ORIYA_C_MA, 0x0}, {ORIYA_H_KAMA, 0x0}},
+    {0, 3, 1, MMI_ALL_LANG, {ORIYA_C_KA, ORIYA_S_HALANT, ORIYA_C_TA, 0x0}, {ORIYA_H_KATA, 0x0}},
+    {0, 3, 1, MMI_ALL_LANG, {ORIYA_C_KA, ORIYA_S_HALANT, ORIYA_AC_YYA, 0x0}, {ORIYA_S_KAYYA, 0x0}},
+    {0, 3, 1, MMI_ALL_LANG, {ORIYA_C_KA, ORIYA_S_HALANT, ORIYA_C_SSA, 0x0}, {ORIYA_L_KASSA, 0x0}}, 
+    {0, 3, 1, MMI_ALL_LANG, {ORIYA_C_KA, ORIYA_S_HALANT, ORIYA_C_TTA, 0x0}, {ORIYA_D_KATTA, 0x0}}, 
+    {0, 3, 1, MMI_ALL_LANG, {ORIYA_C_KA, ORIYA_S_HALANT, ORIYA_C_SA, 0x0}, {ORIYA_D_KASA, 0x0}}, 
+    
+    {0, 5, 1, MMI_ALL_LANG, {ORIYA_C_KA, ORIYA_S_HALANT, ORIYA_C_SSA, ORIYA_S_HALANT, ORIYA_C_MA, 0x0},
+     {ORIYA_H_KASSAMA, 0x0}},
+    {0, 5, 1, MMI_ALL_LANG, {ORIYA_C_KA, ORIYA_S_HALANT, ORIYA_C_SSA, ORIYA_S_HALANT, ORIYA_AC_YYA, 0x0},
+     {ORIYA_S_KASSAYYA, 0x0}},
+    {0, 5, 1, MMI_ALL_LANG, {ORIYA_C_KA, ORIYA_S_HALANT, ORIYA_C_SSA, ORIYA_S_HALANT, ORIYA_C_NNA, 0x0},
+     {ORIYA_D_KASSANNA, 0x0}},
+    {1, 6, 5, MMI_ALL_LANG, {ORIYA_C_KA, ORIYA_S_HALANT, ORIYA_C_RA, ORIYA_C_RA, ORIYA_S_HALANT, ORIYA_S_HALANT, 0x0},
+     {ORIYA_C_KA, ORIYA_S_HALANT, ORIYA_C_RA, ORIYA_SUP_RA, ORIYA_S_HALANT, 0x0}},
+};
+
+const ire_glyph_info_table_struct ORIYA_KHA_Tbl[] = 
+{
+    /* kha + space */
+    {0, 1, 1, MMI_ALL_LANG, {ORIYA_C_KHA, 0x0}, {ORIYA_C_KHA, 0x0}},
+
+    /* kha + halant + ra -> Kha + subscript form of RA OR KHRA as a whole */
+    {0, 3, 1, MMI_ALL_LANG, {ORIYA_C_KHA, ORIYA_S_HALANT, ORIYA_AC_YYA, 0x0}, {ORIYA_S_KHAYYA, 0x0}},       
+    {0, 3, 1, MMI_ALL_LANG, {ORIYA_C_KHA, ORIYA_S_HALANT, ORIYA_C_MA, 0x0}, {ORIYA_L_KHAMA, 0x0}},    
+    {1, 6, 5, MMI_ALL_LANG, {ORIYA_C_KHA, ORIYA_S_HALANT, ORIYA_C_RA, ORIYA_C_RA, ORIYA_S_HALANT, ORIYA_S_HALANT, 0x0},
+     {ORIYA_C_KHA, ORIYA_S_HALANT, ORIYA_C_RA, ORIYA_SUP_RA, ORIYA_S_HALANT, 0x0}},
+};
+
+const ire_glyph_info_table_struct ORIYA_GA_Tbl[] = 
+{
+    /* ga + space */
+    {0, 1, 1, MMI_ALL_LANG, {ORIYA_C_GA, 0x0}, {ORIYA_C_GA, 0x0}},
+
+    /* ga + nukta + halant -> half ga with nukta */
+    {0, 3, 1, MMI_ALL_LANG, {ORIYA_C_GA, ORIYA_S_HALANT, ORIYA_C_NA, 0x0}, {ORIYA_H_GANA, 0x0}},
+    /* ga + halant + ra -> ga + subscript form of RA */
+    {0, 3, 1, MMI_ALL_LANG, {ORIYA_C_GA, ORIYA_S_HALANT, ORIYA_C_LLA, 0x0}, {ORIYA_H_GALLA, 0x0}}, /* Q */
+
+    {0, 3, 1, MMI_ALL_LANG, {ORIYA_C_GA, ORIYA_S_HALANT, ORIYA_C_LA, 0x0}, {ORIYA_H_GALA, 0x0}},
+    {0, 3, 1, MMI_ALL_LANG, {ORIYA_C_GA, ORIYA_S_HALANT, ORIYA_S_WA, 0x0}, {ORIYA_H_GAWA, 0x0}},
+    {0, 3, 1, MMI_ALL_LANG, {ORIYA_C_GA, ORIYA_S_HALANT, ORIYA_C_MA, 0x0}, {ORIYA_H_GAMA, 0x0}},
+    {0, 3, 1, MMI_ALL_LANG, {ORIYA_C_GA, ORIYA_S_HALANT, ORIYA_AC_YYA, 0x0}, {ORIYA_S_GAYYA, 0x0}},
+    {0, 3, 1, MMI_ALL_LANG, {ORIYA_C_GA, ORIYA_S_HALANT, ORIYA_C_NNA, 0x0}, {ORIYA_D_GANNA, 0x0}},
+    {0, 3, 1, MMI_ALL_LANG, {ORIYA_C_GA, ORIYA_S_HALANT, ORIYA_C_DA, 0x0}, {ORIYA_D_GADA, 0x0}},
+    {0, 3, 1, MMI_ALL_LANG, {ORIYA_C_GA, ORIYA_S_HALANT, ORIYA_C_DHA, 0x0}, {ORIYA_D_GADHA, 0x0}},
+        
+
+    {0, 5, 1, MMI_ALL_LANG, {ORIYA_C_GA, ORIYA_S_HALANT, ORIYA_C_DHA, ORIYA_S_HALANT, ORIYA_C_NA, 0x0},
+     {ORIYA_H_GADHANA, 0x0}},
+    {0, 5, 1, MMI_ALL_LANG, {ORIYA_C_GA, ORIYA_S_HALANT, ORIYA_C_DHA, ORIYA_S_HALANT, ORIYA_C_LLA, 0x0},
+     {ORIYA_H_GADHALLA, 0x0}},
+    {0, 5, 1, MMI_ALL_LANG, {ORIYA_C_GA, ORIYA_S_HALANT, ORIYA_C_DHA, ORIYA_S_HALANT, ORIYA_C_LA, 0x0},
+     {ORIYA_H_GADHALA, 0x0}},
+    {0, 5, 1, MMI_ALL_LANG, {ORIYA_C_GA, ORIYA_S_HALANT, ORIYA_C_DHA, ORIYA_S_HALANT, ORIYA_C_TTA, 0x0},
+     {ORIYA_D_GADHATTA, 0x0}},
+    {1, 6, 5, MMI_ALL_LANG, {ORIYA_C_GA, ORIYA_S_HALANT, ORIYA_C_RA, ORIYA_C_RA, ORIYA_S_HALANT, ORIYA_S_HALANT, 0x0},
+     {ORIYA_C_GA, ORIYA_S_HALANT, ORIYA_C_RA, ORIYA_SUP_RA, ORIYA_S_HALANT, 0x0}},
+};
+
+const ire_glyph_info_table_struct ORIYA_GHA_Tbl[] = 
+{
+    /* gha + space */
+    {0, 1, 1, MMI_ALL_LANG, {ORIYA_C_GHA, 0x0}, {ORIYA_C_GHA, 0x0}},
+
+    /* gha + halant + RA  -> gha + subscript form of RA */
+    {0, 3, 1, MMI_ALL_LANG, {ORIYA_C_GHA, ORIYA_S_HALANT, ORIYA_C_NA, 0x0}, {ORIYA_H_GHANA, 0x0}},       
+    {0, 3, 1, MMI_ALL_LANG, {ORIYA_C_GHA, ORIYA_S_HALANT, ORIYA_AC_YYA, 0x0}, {ORIYA_L_GHAYYA, 0x0}},       
+    {0, 3, 1, MMI_ALL_LANG, {ORIYA_C_GHA, ORIYA_S_HALANT, ORIYA_C_MA, 0x0}, {ORIYA_L_GHAMA, 0x0}},    
+    {1, 6, 5, MMI_ALL_LANG, {ORIYA_C_GHA, ORIYA_S_HALANT, ORIYA_C_RA, ORIYA_C_RA, ORIYA_S_HALANT, ORIYA_S_HALANT, 0x0},
+     {ORIYA_C_GHA, ORIYA_S_HALANT, ORIYA_C_RA, ORIYA_SUP_RA, ORIYA_S_HALANT, 0x0}},
+};
+
+const ire_glyph_info_table_struct ORIYA_NGA_Tbl[] = 
+{
+    /* nga + space */
+    {0, 1, 1, MMI_ALL_LANG, {ORIYA_C_NGA, 0x0}, {ORIYA_C_NGA, 0x0}},
+    /* nga + halant + RA -> nga + subscript RA(special representation) */
+    {0, 3, 1, MMI_ALL_LANG, {ORIYA_C_NGA, ORIYA_S_HALANT, ORIYA_C_KA, 0x0}, {ORIYA_L_NGAKA, 0x0}},
+    /* nga + halant + ka -> ligature HINDI_L_DAKA */
+    {0, 3, 1, MMI_ALL_LANG, {ORIYA_C_NGA, ORIYA_S_HALANT, ORIYA_C_KHA, 0x0}, {ORIYA_L_NGAKHA, 0x0}},
+    /* nga + halant + ka -> ligature HINDI_L_DAKHA */
+    {0, 3, 1, MMI_ALL_LANG, {ORIYA_C_NGA, ORIYA_S_HALANT, ORIYA_C_GA, 0x0}, {ORIYA_L_NGAGA, 0x0}},
+    /* nga + halant + ka -> ligature L_DAGA */
+    {0, 3, 1, MMI_ALL_LANG, {ORIYA_C_NGA, ORIYA_S_HALANT, ORIYA_C_GHA, 0x0}, {ORIYA_L_NGAGHA, 0x0}},
+		{0, 3, 2, MMI_ALL_LANG, {ORIYA_C_NGA, ORIYA_S_HALANT, ORIYA_AC_YYA, 0x0}, {ORIYA_C_NGA, ORIYA_SAN_YA, 0x0}},
+    {0, 3, 1, MMI_ALL_LANG, {ORIYA_C_NGA, ORIYA_S_HALANT, ORIYA_C_MA, 0x0}, {ORIYA_L_NGAMA, 0x0}},
+    {0, 5, 3, MMI_ALL_LANG, {ORIYA_C_NGA, ORIYA_S_HALANT, ORIYA_AC_YYA, ORIYA_C_RA, ORIYA_S_HALANT, 0x0},
+     {ORIYA_C_NGA, ORIYA_SUP_RA, ORIYA_SAN_YA, 0x0}},
+    {0, 5, 1, MMI_ALL_LANG, {ORIYA_C_NGA, ORIYA_S_HALANT, ORIYA_C_KA, ORIYA_S_HALANT, ORIYA_C_SSA, 0x0},
+     {ORIYA_D_NGAKASSA, 0x0}},
+    {1, 6, 5, MMI_ALL_LANG, {ORIYA_C_NGA, ORIYA_S_HALANT, ORIYA_C_RA, ORIYA_C_RA, ORIYA_S_HALANT, ORIYA_S_HALANT, 0x0},
+     {ORIYA_C_NGA, ORIYA_S_HALANT, ORIYA_C_RA, ORIYA_SUP_RA, ORIYA_S_HALANT, 0x0}},
+};
+
+const ire_glyph_info_table_struct ORIYA_CHA_Tbl[] = 
+{
+    /* cha + space */
+    {0, 1, 1, MMI_ALL_LANG, {ORIYA_C_CHA, 0x0}, {ORIYA_C_CHA, 0x0}},
+
+    /* cha + halant ra -> chra  OR cha + ra subscript */
+    {0, 3, 1, MMI_ALL_LANG, {ORIYA_C_CHA, ORIYA_S_HALANT, ORIYA_C_CHA, 0x0}, {ORIYA_L_CHACHA, 0x0}},       
+    {0, 3, 1, MMI_ALL_LANG, {ORIYA_C_CHA, ORIYA_S_HALANT, ORIYA_C_TTA, 0x0}, {ORIYA_D_CHATTA, 0x0}},       
+    {0, 3, 1, MMI_ALL_LANG, {ORIYA_C_CHA, ORIYA_S_HALANT, ORIYA_C_CHHA, 0x0}, {ORIYA_L_CHACHHA, 0x0}},       
+    {0, 3, 2, MMI_ALL_LANG, {ORIYA_C_CHA, ORIYA_S_HALANT, ORIYA_AC_YYA, 0x0}, {ORIYA_C_CHA, ORIYA_SAN_YA, 0x0}}, 
+    {0, 3, 1, MMI_ALL_LANG, {ORIYA_C_CHA, ORIYA_S_HALANT, ORIYA_C_MA, 0x0}, {ORIYA_L_CAMA, 0x0}},     
+    {0, 4, 4, MMI_ALL_LANG, {ORIYA_C_CHA, ORIYA_S_HALANT, ORIYA_C_CHHA, ORIYA_DV_U, 0x0},
+     {ORIYA_C_CHA, ORIYA_S_HALANT, ORIYA_C_CHHA, ORIYA_DV_U, 0x0}},
+    {0, 4, 4, MMI_ALL_LANG, {ORIYA_C_CHA, ORIYA_S_HALANT, ORIYA_C_CHHA, ORIYA_DV_UU, 0x0},
+     {ORIYA_C_CHA, ORIYA_S_HALANT, ORIYA_C_CHHA, ORIYA_DV_UU, 0x0}},
+    {0, 4, 4, MMI_ALL_LANG, {ORIYA_C_CHA, ORIYA_S_HALANT, ORIYA_C_CHHA, ORIYA_DV_R, 0x0},
+     {ORIYA_C_CHA, ORIYA_S_HALANT, ORIYA_C_CHHA, ORIYA_DV_R, 0x0}},
+    {0, 4, 4, MMI_ALL_LANG, {ORIYA_C_CHA, ORIYA_S_HALANT, ORIYA_C_CHHA, ORIYA_DV_RR, 0x0},
+     {ORIYA_C_CHA, ORIYA_S_HALANT, ORIYA_C_CHHA, ORIYA_DV_RR, 0x0}},
+    {0, 4, 4, MMI_ALL_LANG, {ORIYA_C_CHA, ORIYA_S_HALANT, ORIYA_C_CHHA, ORIYA_NG_L, 0x0},
+     {ORIYA_C_CHA, ORIYA_S_HALANT, ORIYA_C_CHHA, ORIYA_NG_L, 0x0}},
+    {0, 4, 4, MMI_ALL_LANG, {ORIYA_C_CHA, ORIYA_S_HALANT, ORIYA_C_CHHA, ORIYA_NG_VLL, 0x0},
+     {ORIYA_C_CHA, ORIYA_S_HALANT, ORIYA_C_CHHA, ORIYA_NG_VLL, 0x0}},
+    {1, 4, 4, MMI_ALL_LANG, {ORIYA_C_CHA, ORIYA_S_HALANT, ORIYA_C_CHHA, ORIYA_S_HALANT, 0x0},
+     {ORIYA_C_CHA, ORIYA_S_HALANT, ORIYA_C_CHHA, ORIYA_S_HALANT, 0x0}},
+    {0, 5, 3, MMI_ALL_LANG, {ORIYA_C_CHA, ORIYA_S_HALANT, ORIYA_AC_YYA, ORIYA_C_RA, ORIYA_S_HALANT, 0x0},
+     {ORIYA_C_CHA, ORIYA_SUP_RA, ORIYA_SAN_YA, 0x0}},
+    {1, 6, 5, MMI_ALL_LANG, {ORIYA_C_CHA, ORIYA_S_HALANT, ORIYA_C_RA, ORIYA_C_RA, ORIYA_S_HALANT, ORIYA_S_HALANT, 0x0},
+     {ORIYA_C_CHA, ORIYA_S_HALANT, ORIYA_C_RA, ORIYA_SUP_RA, ORIYA_S_HALANT, 0x0}},
+};
+
+const ire_glyph_info_table_struct ORIYA_CHHA_Tbl[] = 
+{
+    /* chha + space */
+    {0, 1, 1, MMI_ALL_LANG, {ORIYA_C_CHHA, 0x0}, {ORIYA_C_CHHA, 0x0}},
+
+    /* chha + halant + ra -> chha + RA subscriprt(special representation) */
+    {0, 3, 1, MMI_ALL_LANG, {ORIYA_C_CHHA, ORIYA_S_HALANT, ORIYA_S_WA, 0x0}, {ORIYA_H_CHAWA, 0x0}},
+    {0, 3, 2, MMI_ALL_LANG, {ORIYA_C_CHHA, ORIYA_S_HALANT, ORIYA_AC_YYA, 0x0}, {ORIYA_C_CHHA, ORIYA_SAN_YA, 0x0}},
+    {0, 3, 1, MMI_ALL_LANG, {ORIYA_C_CHHA, ORIYA_S_HALANT, ORIYA_C_MA, 0x0}, {ORIYA_L_CHAMA, 0x0}},
+    {0, 5, 3, MMI_ALL_LANG, {ORIYA_C_CHHA, ORIYA_S_HALANT, ORIYA_AC_YYA, ORIYA_C_RA, ORIYA_S_HALANT, 0x0},
+     {ORIYA_C_CHHA, ORIYA_SUP_RA, ORIYA_SAN_YA, 0x0}},
+    {1, 6, 5, MMI_ALL_LANG, {ORIYA_C_CHHA, ORIYA_S_HALANT, ORIYA_C_RA, ORIYA_C_RA, ORIYA_S_HALANT, ORIYA_S_HALANT, 0x0},
+     {ORIYA_C_CHHA, ORIYA_S_HALANT, ORIYA_C_RA, ORIYA_SUP_RA, ORIYA_S_HALANT, 0x0}},
+};
+
+const ire_glyph_info_table_struct ORIYA_JA_Tbl[] = 
+{
+    /* ja + space */
+    {0, 1, 1, MMI_ALL_LANG, {ORIYA_C_JA, 0x0}, {ORIYA_C_JA, 0x0}},
+
+    /* ja + nukta + halant -> half za */
+    {0, 3, 1, MMI_ALL_LANG, {ORIYA_C_JA, ORIYA_S_HALANT, ORIYA_C_JA, 0x0}, {ORIYA_H_JAJA, 0x0}},
+    /* ja + halant + ra -> jra  */
+    {0, 3, 1, MMI_ALL_LANG, {ORIYA_C_JA, ORIYA_S_HALANT, ORIYA_S_WA, 0x0}, {ORIYA_H_JAWA, 0x0}},
+    /* ja + halant + nya -> GYA */
+    {0, 3, 1, MMI_ALL_LANG, {ORIYA_C_JA, ORIYA_S_HALANT, ORIYA_C_NYA, 0x0}, {ORIYA_L_JANYA, 0x0}},
+    {0, 3, 1, MMI_ALL_LANG, {ORIYA_C_JA, ORIYA_S_HALANT, ORIYA_C_JHA, 0x0}, {ORIYA_D_JAJHA, 0x0}},
+		{0, 3, 2, MMI_ALL_LANG, {ORIYA_C_JA, ORIYA_S_HALANT, ORIYA_AC_YYA, 0x0}, {ORIYA_C_JA, ORIYA_SAN_YA, 0x0}},
+		{0, 3, 1, MMI_ALL_LANG, {ORIYA_C_JA, ORIYA_S_HALANT, ORIYA_C_MA, 0x0}, {ORIYA_L_JAMA, 0x0}},
+    {0, 5, 1, MMI_ALL_LANG, {ORIYA_C_JA, ORIYA_S_HALANT, ORIYA_C_JA, ORIYA_S_HALANT, ORIYA_S_WA, 0x0},
+     {ORIYA_L_JAJAWA, 0x0}},
+    {0, 5, 3, MMI_ALL_LANG, {ORIYA_C_JA, ORIYA_S_HALANT, ORIYA_AC_YYA, ORIYA_C_RA, ORIYA_S_HALANT, 0x0},
+     {ORIYA_C_JA, ORIYA_SUP_RA, ORIYA_SAN_YA, 0x0}},
+    {1, 6, 5, MMI_ALL_LANG, {ORIYA_C_JA, ORIYA_S_HALANT, ORIYA_C_RA, ORIYA_C_RA, ORIYA_S_HALANT, ORIYA_S_HALANT, 0x0},
+     {ORIYA_C_JA, ORIYA_S_HALANT, ORIYA_C_RA, ORIYA_SUP_RA, ORIYA_S_HALANT, 0x0}},
+};
+
+const ire_glyph_info_table_struct ORIYA_JHA_Tbl[] = 
+{
+    /* jha + space */
+    {0, 1, 1, MMI_ALL_LANG, {ORIYA_C_JHA, 0x0}, {ORIYA_C_JHA, 0x0}},
+    {0, 3, 2, MMI_ALL_LANG, {ORIYA_C_JHA, ORIYA_S_HALANT, ORIYA_AC_YYA, 0x0}, {ORIYA_C_JHA, ORIYA_SAN_YA, 0x0}},
+    {0, 3, 1, MMI_ALL_LANG, {ORIYA_C_JHA, ORIYA_S_HALANT, ORIYA_C_MA, 0x0}, {ORIYA_L_JHAMA, 0x0}},
+    {0, 5, 3, MMI_ALL_LANG, {ORIYA_C_JHA, ORIYA_S_HALANT, ORIYA_AC_YYA, ORIYA_C_RA, ORIYA_S_HALANT, 0x0},
+     {ORIYA_C_JHA, ORIYA_SUP_RA, ORIYA_SAN_YA, 0x0}},
+    {1, 6, 5, MMI_ALL_LANG, {ORIYA_C_JHA, ORIYA_S_HALANT, ORIYA_C_RA, ORIYA_C_RA, ORIYA_S_HALANT, ORIYA_S_HALANT, 0x0},
+     {ORIYA_C_JHA, ORIYA_S_HALANT, ORIYA_C_RA, ORIYA_SUP_RA, ORIYA_S_HALANT, 0x0}},
+};
+
+const ire_glyph_info_table_struct ORIYA_NYA_Tbl[] = 
+{
+    /* nya + space */
+    {0, 1, 1, MMI_ALL_LANG, {ORIYA_C_NYA, 0x0}, {ORIYA_C_NYA, 0x0}},
+
+    {0, 3, 1, MMI_ALL_LANG, {ORIYA_C_NYA, ORIYA_S_HALANT, ORIYA_C_CHA, 0x0}, {ORIYA_L_NYACHA, 0x0}},
+    {0, 3, 1, MMI_ALL_LANG, {ORIYA_C_NYA, ORIYA_S_HALANT, ORIYA_C_CHHA, 0x0}, {ORIYA_L_NYACHHA, 0x0}},
+    {0, 3, 1, MMI_ALL_LANG, {ORIYA_C_NYA, ORIYA_S_HALANT, ORIYA_C_JA, 0x0}, {ORIYA_L_NYAJA, 0x0}},
+    {0, 3, 1, MMI_ALL_LANG, {ORIYA_C_NYA, ORIYA_S_HALANT, ORIYA_C_JHA, 0x0}, {ORIYA_L_NYAJHA, 0x0}},
+    {0, 3, 2, MMI_ALL_LANG, {ORIYA_C_NYA, ORIYA_S_HALANT, ORIYA_AC_YYA, 0x0}, {ORIYA_C_NYA, ORIYA_SAN_YA, 0x0}},
+    {0, 3, 1, MMI_ALL_LANG, {ORIYA_C_NYA, ORIYA_S_HALANT, ORIYA_C_MA, 0x0}, {ORIYA_L_NYAMA, 0x0}},
+    {0, 4, 4, MMI_ALL_LANG, {ORIYA_C_NYA, ORIYA_S_HALANT, ORIYA_C_CHA, ORIYA_DV_U, 0x0},
+     {ORIYA_C_NYA, ORIYA_S_HALANT, ORIYA_C_CHA, ORIYA_DV_U, 0x0}},
+    {0, 4, 4, MMI_ALL_LANG, {ORIYA_C_NYA, ORIYA_S_HALANT, ORIYA_C_CHA, ORIYA_DV_UU, 0x0},
+     {ORIYA_C_NYA, ORIYA_S_HALANT, ORIYA_C_CHA, ORIYA_DV_UU, 0x0}},
+    {0, 4, 4, MMI_ALL_LANG, {ORIYA_C_NYA, ORIYA_S_HALANT, ORIYA_C_CHA, ORIYA_DV_R, 0x0},
+     {ORIYA_C_NYA, ORIYA_S_HALANT, ORIYA_C_CHA, ORIYA_DV_R, 0x0}},
+    {0, 4, 4, MMI_ALL_LANG, {ORIYA_C_NYA, ORIYA_S_HALANT, ORIYA_C_CHA, ORIYA_DV_RR, 0x0},
+     {ORIYA_C_NYA, ORIYA_S_HALANT, ORIYA_C_CHA, ORIYA_DV_RR, 0x0}},
+    {0, 4, 4, MMI_ALL_LANG, {ORIYA_C_NYA, ORIYA_S_HALANT, ORIYA_C_CHA, ORIYA_NG_L, 0x0},
+     {ORIYA_C_NYA, ORIYA_S_HALANT, ORIYA_C_CHA, ORIYA_NG_L, 0x0}},
+    {0, 4, 4, MMI_ALL_LANG, {ORIYA_C_NYA, ORIYA_S_HALANT, ORIYA_C_CHA, ORIYA_NG_VLL, 0x0},
+     {ORIYA_C_NYA, ORIYA_S_HALANT, ORIYA_C_CHA, ORIYA_NG_VLL, 0x0}},
+    {1, 4, 4, MMI_ALL_LANG, {ORIYA_C_NYA, ORIYA_S_HALANT, ORIYA_C_CHA, ORIYA_S_HALANT, 0x0},
+     {ORIYA_C_NYA, ORIYA_S_HALANT, ORIYA_C_CHA, ORIYA_S_HALANT, 0x0}},
+    {0, 4, 4, MMI_ALL_LANG, {ORIYA_C_NYA, ORIYA_S_HALANT, ORIYA_C_CHHA, ORIYA_DV_U, 0x0},
+     {ORIYA_C_NYA, ORIYA_S_HALANT, ORIYA_C_CHHA, ORIYA_DV_U, 0x0}},
+    {0, 4, 4, MMI_ALL_LANG, {ORIYA_C_NYA, ORIYA_S_HALANT, ORIYA_C_CHHA, ORIYA_DV_UU, 0x0},
+     {ORIYA_C_NYA, ORIYA_S_HALANT, ORIYA_C_CHHA, ORIYA_DV_UU, 0x0}},
+    {0, 4, 4, MMI_ALL_LANG, {ORIYA_C_NYA, ORIYA_S_HALANT, ORIYA_C_CHHA, ORIYA_DV_R, 0x0},
+     {ORIYA_C_NYA, ORIYA_S_HALANT, ORIYA_C_CHHA, ORIYA_DV_R, 0x0}},
+    {0, 4, 4, MMI_ALL_LANG, {ORIYA_C_NYA, ORIYA_S_HALANT, ORIYA_C_CHHA, ORIYA_DV_RR, 0x0},
+     {ORIYA_C_NYA, ORIYA_S_HALANT, ORIYA_C_CHHA, ORIYA_DV_RR, 0x0}},
+    {0, 4, 4, MMI_ALL_LANG, {ORIYA_C_NYA, ORIYA_S_HALANT, ORIYA_C_CHHA, ORIYA_NG_L, 0x0},
+     {ORIYA_C_NYA, ORIYA_S_HALANT, ORIYA_C_CHHA, ORIYA_NG_L, 0x0}},
+    {0, 4, 4, MMI_ALL_LANG, {ORIYA_C_NYA, ORIYA_S_HALANT, ORIYA_C_CHHA, ORIYA_NG_VLL, 0x0},
+     {ORIYA_C_NYA, ORIYA_S_HALANT, ORIYA_C_CHHA, ORIYA_NG_VLL, 0x0}},
+    {1, 4, 4, MMI_ALL_LANG, {ORIYA_C_NYA, ORIYA_S_HALANT, ORIYA_C_CHHA, ORIYA_S_HALANT, 0x0},
+     {ORIYA_C_NYA, ORIYA_S_HALANT, ORIYA_C_CHHA, ORIYA_S_HALANT, 0x0}},
+    {0, 4, 4, MMI_ALL_LANG, {ORIYA_C_NYA, ORIYA_S_HALANT, ORIYA_C_JHA, ORIYA_DV_U, 0x0},
+     {ORIYA_C_NYA, ORIYA_S_HALANT, ORIYA_C_JHA, ORIYA_DV_U, 0x0}},
+    {0, 4, 4, MMI_ALL_LANG, {ORIYA_C_NYA, ORIYA_S_HALANT, ORIYA_C_JHA, ORIYA_DV_UU, 0x0},
+     {ORIYA_C_NYA, ORIYA_S_HALANT, ORIYA_C_JHA, ORIYA_DV_UU, 0x0}},
+    {0, 4, 4, MMI_ALL_LANG, {ORIYA_C_NYA, ORIYA_S_HALANT, ORIYA_C_JHA, ORIYA_DV_R, 0x0},
+     {ORIYA_C_NYA, ORIYA_S_HALANT, ORIYA_C_JHA, ORIYA_DV_R, 0x0}},
+    {0, 4, 4, MMI_ALL_LANG, {ORIYA_C_NYA, ORIYA_S_HALANT, ORIYA_C_JHA, ORIYA_DV_RR, 0x0},
+     {ORIYA_C_NYA, ORIYA_S_HALANT, ORIYA_C_JHA, ORIYA_DV_RR, 0x0}},
+    {0, 4, 4, MMI_ALL_LANG, {ORIYA_C_NYA, ORIYA_S_HALANT, ORIYA_C_JHA, ORIYA_NG_L, 0x0},
+     {ORIYA_C_NYA, ORIYA_S_HALANT, ORIYA_C_JHA, ORIYA_NG_L, 0x0}},
+    {0, 4, 4, MMI_ALL_LANG, {ORIYA_C_NYA, ORIYA_S_HALANT, ORIYA_C_JHA, ORIYA_NG_VLL, 0x0},
+     {ORIYA_C_NYA, ORIYA_S_HALANT, ORIYA_C_JHA, ORIYA_NG_VLL, 0x0}},
+    {1, 4, 4, MMI_ALL_LANG, {ORIYA_C_NYA, ORIYA_S_HALANT, ORIYA_C_JHA, ORIYA_S_HALANT, 0x0},
+     {ORIYA_C_NYA, ORIYA_S_HALANT, ORIYA_C_JHA, ORIYA_S_HALANT, 0x0}},
+    {0, 5, 3, MMI_ALL_LANG, {ORIYA_C_NYA, ORIYA_S_HALANT, ORIYA_AC_YYA, ORIYA_C_RA, ORIYA_S_HALANT, 0x0},
+     {ORIYA_C_NYA, ORIYA_SUP_RA, ORIYA_SAN_YA, 0x0}},
+    {1, 6, 5, MMI_ALL_LANG, {ORIYA_C_NYA, ORIYA_S_HALANT, ORIYA_C_RA, ORIYA_C_RA, ORIYA_S_HALANT, ORIYA_S_HALANT, 0x0},
+     {ORIYA_C_NYA, ORIYA_S_HALANT, ORIYA_C_RA, ORIYA_SUP_RA, ORIYA_S_HALANT, 0x0}},
+};
+
+const ire_glyph_info_table_struct ORIYA_TTA_Tbl[] = 
+{
+    /* TTa + space -> TTa */
+    {0, 1, 1, MMI_ALL_LANG, {ORIYA_C_TTA, 0x0}, {ORIYA_C_TTA, 0x0}},
+    /* TTA + Halant -> TTA + Halant */
+
+    /* TTa + halant + TTa -> Ligature form of TTA below TTA */
+    {0, 3, 1, MMI_ALL_LANG, {ORIYA_C_TTA, ORIYA_S_HALANT, ORIYA_S_WA, 0x0}, {ORIYA_H_TTAWA, 0x0}},
+    /* TTa + halant + TTHA -> Ligature form of TTHA below TTA */
+    {0, 3, 1, MMI_ALL_LANG, {ORIYA_C_TTA, ORIYA_S_HALANT, ORIYA_C_TTA, 0x0}, {ORIYA_L_TTATTA, 0x0}},
+    {0, 3, 2, MMI_ALL_LANG, {ORIYA_C_TTA, ORIYA_S_HALANT, ORIYA_AC_YYA, 0x0}, {ORIYA_C_TTA, ORIYA_SAN_YA, 0x0}},
+ 		{0, 3, 1, MMI_ALL_LANG, {ORIYA_C_TTA, ORIYA_S_HALANT, ORIYA_C_MA, 0x0}, {ORIYA_L_TTAMA, 0x0}},
+    {0, 5, 3, MMI_ALL_LANG, {ORIYA_C_TTA, ORIYA_S_HALANT, ORIYA_AC_YYA, ORIYA_C_RA, ORIYA_S_HALANT, 0x0},
+     {ORIYA_C_TTA, ORIYA_SUP_RA, ORIYA_SAN_YA, 0x0}},
+    {1, 6, 5, MMI_ALL_LANG, {ORIYA_C_TTA, ORIYA_S_HALANT, ORIYA_C_RA, ORIYA_C_RA, ORIYA_S_HALANT, ORIYA_S_HALANT, 0x0},
+     {ORIYA_C_TTA, ORIYA_S_HALANT, ORIYA_C_RA, ORIYA_SUP_RA, ORIYA_S_HALANT, 0x0}},
+};
+
+const ire_glyph_info_table_struct ORIYA_TTHA_Tbl[] = 
+{
+    /* Tha -> Tha + space */
+    {0, 1, 1, MMI_ALL_LANG, {ORIYA_C_TTHA, 0x0}, {ORIYA_C_TTHA, 0x0}},
+    {0, 3, 2, MMI_ALL_LANG, {ORIYA_C_TTHA, ORIYA_S_HALANT, ORIYA_AC_YYA, 0x0}, {ORIYA_C_TTHA, ORIYA_SAN_YA, 0x0}},
+		{0, 3, 1, MMI_ALL_LANG, {ORIYA_C_TTHA, ORIYA_S_HALANT, ORIYA_C_MA, 0x0}, {ORIYA_L_TTHAMA, 0x0}},
+    {0, 5, 3, MMI_ALL_LANG, {ORIYA_C_TTHA, ORIYA_S_HALANT, ORIYA_AC_YYA, ORIYA_C_RA, ORIYA_S_HALANT, 0x0},
+     {ORIYA_C_TTHA, ORIYA_SUP_RA, ORIYA_SAN_YA, 0x0}},
+    {1, 6, 5, MMI_ALL_LANG, {ORIYA_C_TTHA, ORIYA_S_HALANT, ORIYA_C_RA, ORIYA_C_RA, ORIYA_S_HALANT, ORIYA_S_HALANT, 0x0},
+     {ORIYA_C_TTHA, ORIYA_S_HALANT, ORIYA_C_RA, ORIYA_SUP_RA, ORIYA_S_HALANT, 0x0}},
+};
+
+const ire_glyph_info_table_struct ORIYA_DDA_Tbl[] = 
+{
+    /* dda + space */
+    {0, 1, 1, MMI_ALL_LANG, {ORIYA_C_DDA, 0x0}, {ORIYA_C_DDA, 0x0}},
+
+    /* dda + halant + ga -> ligature L_DDAGA */
+    {0, 3, 1, MMI_ALL_LANG, {ORIYA_C_DDA, ORIYA_S_HALANT, ORIYA_S_WA, 0x0}, {ORIYA_H_DDAWA, 0x0}},
+    /* dda + halant + ra -> ligature L_DADA */
+    {0, 3, 1, MMI_ALL_LANG, {ORIYA_C_DDA, ORIYA_S_HALANT, ORIYA_C_GA, 0x0}, {ORIYA_D_DDAGA, 0x0}},
+    {0, 3, 1, MMI_ALL_LANG, {ORIYA_C_DDA, ORIYA_S_HALANT, ORIYA_C_DDA, 0x0}, {ORIYA_D_DDADDA, 0x0}},
+    {0, 3, 1, MMI_ALL_LANG, {ORIYA_C_DDA, ORIYA_S_HALANT, ORIYA_C_SA, 0x0}, {ORIYA_D_DDASA, 0x0}},
+		{0, 3, 2, MMI_ALL_LANG, {ORIYA_C_DDA, ORIYA_S_HALANT, ORIYA_AC_YYA, 0x0}, {ORIYA_C_DDA, ORIYA_SAN_YA, 0x0}},
+		{0, 3, 1, MMI_ALL_LANG, {ORIYA_C_DDA, ORIYA_S_HALANT, ORIYA_C_MA, 0x0}, {ORIYA_L_DDAMA, 0x0}},
+    {0, 5, 3, MMI_ALL_LANG, {ORIYA_C_DDA, ORIYA_S_HALANT, ORIYA_AC_YYA, ORIYA_C_RA, ORIYA_S_HALANT, 0x0},
+     {ORIYA_C_DDA, ORIYA_SUP_RA, ORIYA_SAN_YA, 0x0}},
+    {1, 6, 5, MMI_ALL_LANG, {ORIYA_C_DDA, ORIYA_S_HALANT, ORIYA_C_RA, ORIYA_C_RA, ORIYA_S_HALANT, ORIYA_S_HALANT, 0x0},
+     {ORIYA_C_DDA, ORIYA_S_HALANT, ORIYA_C_RA, ORIYA_SUP_RA, ORIYA_S_HALANT, 0x0}},
+};
+
+const ire_glyph_info_table_struct ORIYA_DDHA_Tbl[] = 
+{
+    /* ddha + space */
+    {0, 1, 1, MMI_ALL_LANG, {ORIYA_C_DDHA, 0x0}, {ORIYA_C_DDHA, 0x0}},
+		{0, 3, 2, MMI_ALL_LANG, {ORIYA_C_DDHA, ORIYA_S_HALANT, ORIYA_AC_YYA, 0x0}, {ORIYA_C_DDHA, ORIYA_SAN_YA, 0x0}},
+		{0, 3, 1, MMI_ALL_LANG, {ORIYA_C_DDHA, ORIYA_S_HALANT, ORIYA_C_MA, 0x0}, {ORIYA_L_DDHAMA, 0x0}},
+    {0, 5, 3, MMI_ALL_LANG, {ORIYA_C_DDHA, ORIYA_S_HALANT, ORIYA_AC_YYA, ORIYA_C_RA, ORIYA_S_HALANT, 0x0},
+     {ORIYA_C_DDHA, ORIYA_SUP_RA, ORIYA_SAN_YA, 0x0}},
+    {1, 6, 5, MMI_ALL_LANG, {ORIYA_C_DDHA, ORIYA_S_HALANT, ORIYA_C_RA, ORIYA_C_RA, ORIYA_S_HALANT, ORIYA_S_HALANT, 0x0},
+     {ORIYA_C_DDHA, ORIYA_S_HALANT, ORIYA_C_RA, ORIYA_SUP_RA, ORIYA_S_HALANT, 0x0}},
+};
+
+const ire_glyph_info_table_struct ORIYA_NNA_Tbl[] = 
+{
+    /* Nna+ space */
+    {0, 1, 1, MMI_ALL_LANG, {ORIYA_C_NNA, 0x0}, {ORIYA_C_NNA, 0x0}},
+
+    /* Nna + halant + ra -> half Nna + ra(nominal form) */
+    {0, 3, 1, MMI_ALL_LANG, {ORIYA_C_NNA, ORIYA_S_HALANT, ORIYA_C_NA, 0x0}, {ORIYA_H_NNANA, 0x0}},
+    {0, 3, 1, MMI_ALL_LANG, {ORIYA_C_NNA, ORIYA_S_HALANT, ORIYA_C_LLA, 0x0}, {ORIYA_H_NNALLA, 0x0}},
+    {0, 3, 1, MMI_ALL_LANG, {ORIYA_C_NNA, ORIYA_S_HALANT, ORIYA_S_WA, 0x0}, {ORIYA_H_NNAWA, 0x0}},
+    {0, 3, 1, MMI_ALL_LANG, {ORIYA_C_NNA, ORIYA_S_HALANT, ORIYA_C_DDHA, 0x0}, {ORIYA_H_NNADDHA, 0x0}},
+    {0, 3, 1, MMI_ALL_LANG, {ORIYA_C_NNA, ORIYA_S_HALANT, ORIYA_C_DDA, 0x0}, {ORIYA_H_NNADDA, 0x0}},
+    {0, 3, 1, MMI_ALL_LANG, {ORIYA_C_NNA, ORIYA_S_HALANT, ORIYA_C_NNA, 0x0}, {ORIYA_S_NNANNA, 0x0}},
+    {0, 3, 1, MMI_ALL_LANG, {ORIYA_C_NNA, ORIYA_S_HALANT, ORIYA_C_TTA, 0x0}, {ORIYA_D_NNATTA, 0x0}},
+    {0, 3, 1, MMI_ALL_LANG, {ORIYA_C_NNA, ORIYA_S_HALANT, ORIYA_C_TTHA, 0x0}, {ORIYA_D_NNATTHA, 0x0}},
+    {0, 3, 2, MMI_ALL_LANG, {ORIYA_C_NNA, ORIYA_S_HALANT, ORIYA_AC_YYA, 0x0}, {ORIYA_C_NNA, ORIYA_SAN_YA, 0x0}},
+    {0, 3, 1, MMI_ALL_LANG, {ORIYA_C_NNA, ORIYA_S_HALANT, ORIYA_C_MA, 0x0}, {ORIYA_L_NNAMA, 0x0}},
+    {0, 4, 2, MMI_ALL_LANG, {ORIYA_C_NNA, ORIYA_S_HALANT, ORIYA_C_NNA, ORIYA_DV_U, 0x0},
+     {ORIYA_S_NNANNA, ORIYA_L_U, 0x0}},
+    {0, 4, 2, MMI_ALL_LANG, {ORIYA_C_NNA, ORIYA_S_HALANT, ORIYA_C_NNA, ORIYA_DV_UU, 0x0},
+     {ORIYA_S_NNANNA, ORIYA_L_UU, 0x0}},
+    {0, 4, 2, MMI_ALL_LANG, {ORIYA_C_NNA, ORIYA_S_HALANT, ORIYA_C_NNA, ORIYA_DV_R, 0x0},
+     {ORIYA_S_NNANNA, ORIYA_L_VR, 0x0}},
+    {0, 4, 2, MMI_ALL_LANG, {ORIYA_C_NNA, ORIYA_S_HALANT, ORIYA_C_NNA, ORIYA_DV_RR, 0x0},
+     {ORIYA_S_NNANNA, ORIYA_L_VRR, 0x0}},
+    {1, 4, 4, MMI_ALL_LANG, {ORIYA_C_NNA, ORIYA_S_HALANT, ORIYA_C_NNA, ORIYA_S_HALANT, 0x0},
+     {ORIYA_C_NNA, ORIYA_S_HALANT, ORIYA_C_NNA, ORIYA_S_HALANT, 0x0}},
+    {0, 5, 3, MMI_ALL_LANG, {ORIYA_C_NNA, ORIYA_S_HALANT, ORIYA_C_NNA, ORIYA_DV_U, ORIYA_S_CHANDRA_BINDU, 0x0},
+     {ORIYA_S_NNANNA, ORIYA_S_CHANDRA_BINDU, ORIYA_L_U, 0x0}},
+    {0, 5, 3, MMI_ALL_LANG, {ORIYA_C_NNA, ORIYA_S_HALANT, ORIYA_C_NNA, ORIYA_DV_UU, ORIYA_S_CHANDRA_BINDU, 0x0},
+     {ORIYA_S_NNANNA, ORIYA_S_CHANDRA_BINDU, ORIYA_L_UU, 0x0}},
+    {0, 5, 3, MMI_ALL_LANG, {ORIYA_C_NNA, ORIYA_S_HALANT, ORIYA_C_NNA, ORIYA_DV_R, ORIYA_S_CHANDRA_BINDU, 0x0},
+     {ORIYA_S_NNANNA, ORIYA_S_CHANDRA_BINDU, ORIYA_L_VR, 0x0}},
+    {0, 5, 3, MMI_ALL_LANG, {ORIYA_C_NNA, ORIYA_S_HALANT, ORIYA_C_NNA, ORIYA_DV_RR, ORIYA_S_CHANDRA_BINDU, 0x0},
+     {ORIYA_S_NNANNA, ORIYA_S_CHANDRA_BINDU, ORIYA_L_VRR, 0x0}},
+    {0, 5, 3, MMI_ALL_LANG, {ORIYA_C_NNA, ORIYA_S_HALANT, ORIYA_AC_YYA, ORIYA_C_RA, ORIYA_S_HALANT, 0x0},
+     {ORIYA_C_NNA, ORIYA_SUP_RA, ORIYA_SAN_YA, 0x0}},
+    {1, 6, 5, MMI_ALL_LANG, {ORIYA_C_NNA, ORIYA_S_HALANT, ORIYA_C_RA, ORIYA_C_RA, ORIYA_S_HALANT, ORIYA_S_HALANT, 0x0},
+     {ORIYA_C_NNA, ORIYA_S_HALANT, ORIYA_C_RA, ORIYA_SUP_RA, ORIYA_S_HALANT, 0x0}},
+};
+
+const ire_glyph_info_table_struct ORIYA_TA_Tbl[] = 
+{
+    /* ta + space */
+    {0, 1, 1, MMI_ALL_LANG, {ORIYA_C_TA, 0x0}, {ORIYA_C_TA, 0x0}},
+
+    /* ta + halant + ra ->  tra(ligature) */
+    {0, 3, 1, MMI_ALL_LANG, {ORIYA_C_TA, ORIYA_S_HALANT, ORIYA_C_NA, 0x0}, {ORIYA_H_TANA, 0x0}},
+
+    {0, 3, 1, MMI_ALL_LANG, {ORIYA_C_TA, ORIYA_S_HALANT, ORIYA_S_WA, 0x0}, {ORIYA_H_TAWA, 0x0}},
+    {0, 3, 1, MMI_ALL_LANG, {ORIYA_C_TA, ORIYA_S_HALANT, ORIYA_C_KA, 0x0}, {ORIYA_H_TAKA, 0x0}},
+    {0, 3, 1, MMI_ALL_LANG, {ORIYA_C_TA, ORIYA_S_HALANT, ORIYA_C_PA, 0x0}, {ORIYA_H_TAPA, 0x0}},
+    {0, 3, 1, MMI_ALL_LANG, {ORIYA_C_TA, ORIYA_S_HALANT, ORIYA_C_PHA, 0x0}, {ORIYA_H_TAPHA, 0x0}},
+    {0, 3, 1, MMI_ALL_LANG, {ORIYA_C_TA, ORIYA_S_HALANT, ORIYA_C_MA, 0x0}, {ORIYA_H_TAMA, 0x0}},
+    {0, 3, 1, MMI_ALL_LANG, {ORIYA_C_TA, ORIYA_S_HALANT, ORIYA_C_SA, 0x0}, {ORIYA_H_TASA, 0x0}},
+    /* {0, 3, 1, MMI_ALL_LANG, {ORIYA_C_TA, ORIYA_S_HALANT, ORIYA_C_MA, 0x0}, {ORIYA_H_TAMA, 0x0}}, */
+    {0, 3, 1, MMI_ALL_LANG, {ORIYA_C_TA, ORIYA_S_HALANT, ORIYA_C_TA, 0x0}, {ORIYA_L_TATA, 0x0}},
+    {0, 3, 1, MMI_ALL_LANG, {ORIYA_C_TA, ORIYA_S_HALANT, ORIYA_C_THA, 0x0}, {ORIYA_D_TATHA, 0x0}},
+    {0, 3, 1, MMI_ALL_LANG, {ORIYA_C_TA, ORIYA_S_HALANT, ORIYA_AC_YYA, 0x0}, {ORIYA_L_TAYYA, 0x0}},
+
+    {0, 4, 4, MMI_ALL_LANG, {ORIYA_C_TA, ORIYA_S_HALANT, ORIYA_C_KA, ORIYA_DV_U, 0x0},
+     {ORIYA_C_TA, ORIYA_S_HALANT, ORIYA_C_KA, ORIYA_DV_U, 0x0}},
+    {0, 4, 4, MMI_ALL_LANG, {ORIYA_C_TA, ORIYA_S_HALANT, ORIYA_C_KA, ORIYA_DV_UU, 0x0},
+     {ORIYA_C_TA, ORIYA_S_HALANT, ORIYA_C_KA, ORIYA_DV_UU, 0x0}},
+    {0, 4, 4, MMI_ALL_LANG, {ORIYA_C_TA, ORIYA_S_HALANT, ORIYA_C_KA, ORIYA_DV_R, 0x0},
+     {ORIYA_C_TA, ORIYA_S_HALANT, ORIYA_C_KA, ORIYA_DV_R, 0x0}},
+    {0, 4, 4, MMI_ALL_LANG, {ORIYA_C_TA, ORIYA_S_HALANT, ORIYA_C_KA, ORIYA_DV_RR, 0x0},
+     {ORIYA_C_TA, ORIYA_S_HALANT, ORIYA_C_KA, ORIYA_DV_RR, 0x0}},
+    {0, 4, 4, MMI_ALL_LANG, {ORIYA_C_TA, ORIYA_S_HALANT, ORIYA_C_KA, ORIYA_NG_L, 0x0},
+     {ORIYA_C_TA, ORIYA_S_HALANT, ORIYA_C_KA, ORIYA_NG_L, 0x0}},
+    {0, 4, 4, MMI_ALL_LANG, {ORIYA_C_TA, ORIYA_S_HALANT, ORIYA_C_KA, ORIYA_NG_VLL, 0x0},
+     {ORIYA_C_TA, ORIYA_S_HALANT, ORIYA_C_KA, ORIYA_NG_VLL, 0x0}},
+    {1, 4, 4, MMI_ALL_LANG, {ORIYA_C_TA, ORIYA_S_HALANT, ORIYA_C_KA, ORIYA_S_HALANT, 0x0},
+     {ORIYA_C_TA, ORIYA_S_HALANT, ORIYA_C_KA, ORIYA_S_HALANT, 0x0}},
+    {0, 4, 4, MMI_ALL_LANG, {ORIYA_C_TA, ORIYA_S_HALANT, ORIYA_C_PA, ORIYA_DV_U, 0x0},
+     {ORIYA_C_TA, ORIYA_S_HALANT, ORIYA_C_PA, ORIYA_DV_U, 0x0}},
+    {0, 4, 4, MMI_ALL_LANG, {ORIYA_C_TA, ORIYA_S_HALANT, ORIYA_C_PA, ORIYA_DV_UU, 0x0},
+     {ORIYA_C_TA, ORIYA_S_HALANT, ORIYA_C_PA, ORIYA_DV_UU, 0x0}},
+    {0, 4, 4, MMI_ALL_LANG, {ORIYA_C_TA, ORIYA_S_HALANT, ORIYA_C_PA, ORIYA_DV_R, 0x0},
+     {ORIYA_C_TA, ORIYA_S_HALANT, ORIYA_C_PA, ORIYA_DV_R, 0x0}},
+    {0, 4, 4, MMI_ALL_LANG, {ORIYA_C_TA, ORIYA_S_HALANT, ORIYA_C_PA, ORIYA_DV_RR, 0x0},
+     {ORIYA_C_TA, ORIYA_S_HALANT, ORIYA_C_PA, ORIYA_DV_RR, 0x0}},
+    {0, 4, 4, MMI_ALL_LANG, {ORIYA_C_TA, ORIYA_S_HALANT, ORIYA_C_PA, ORIYA_NG_L, 0x0},
+     {ORIYA_C_TA, ORIYA_S_HALANT, ORIYA_C_PA, ORIYA_NG_L, 0x0}},
+    {0, 4, 4, MMI_ALL_LANG, {ORIYA_C_TA, ORIYA_S_HALANT, ORIYA_C_PA, ORIYA_NG_VLL, 0x0},
+     {ORIYA_C_TA, ORIYA_S_HALANT, ORIYA_C_PA, ORIYA_NG_VLL, 0x0}},
+    {1, 4, 4, MMI_ALL_LANG, {ORIYA_C_TA, ORIYA_S_HALANT, ORIYA_C_PA, ORIYA_S_HALANT, 0x0},
+     {ORIYA_C_TA, ORIYA_S_HALANT, ORIYA_C_PA, ORIYA_S_HALANT, 0x0}},
+    {0, 4, 4, MMI_ALL_LANG, {ORIYA_C_TA, ORIYA_S_HALANT, ORIYA_C_PHA, ORIYA_DV_U, 0x0},
+     {ORIYA_C_TA, ORIYA_S_HALANT, ORIYA_C_PHA, ORIYA_DV_U, 0x0}},
+    {0, 4, 4, MMI_ALL_LANG, {ORIYA_C_TA, ORIYA_S_HALANT, ORIYA_C_PHA, ORIYA_DV_UU, 0x0},
+     {ORIYA_C_TA, ORIYA_S_HALANT, ORIYA_C_PHA, ORIYA_DV_UU, 0x0}},
+    {0, 4, 4, MMI_ALL_LANG, {ORIYA_C_TA, ORIYA_S_HALANT, ORIYA_C_PHA, ORIYA_DV_R, 0x0},
+     {ORIYA_C_TA, ORIYA_S_HALANT, ORIYA_C_PHA, ORIYA_DV_R, 0x0}},
+    {0, 4, 4, MMI_ALL_LANG, {ORIYA_C_TA, ORIYA_S_HALANT, ORIYA_C_PHA, ORIYA_DV_RR, 0x0},
+     {ORIYA_C_TA, ORIYA_S_HALANT, ORIYA_C_PHA, ORIYA_DV_RR, 0x0}},
+    {0, 4, 4, MMI_ALL_LANG, {ORIYA_C_TA, ORIYA_S_HALANT, ORIYA_C_PHA, ORIYA_NG_L, 0x0},
+     {ORIYA_C_TA, ORIYA_S_HALANT, ORIYA_C_PHA, ORIYA_NG_L, 0x0}},
+    {0, 4, 4, MMI_ALL_LANG, {ORIYA_C_TA, ORIYA_S_HALANT, ORIYA_C_PHA, ORIYA_NG_VLL, 0x0},
+     {ORIYA_C_TA, ORIYA_S_HALANT, ORIYA_C_PHA, ORIYA_NG_VLL, 0x0}},
+    {1, 4, 4, MMI_ALL_LANG, {ORIYA_C_TA, ORIYA_S_HALANT, ORIYA_C_PHA, ORIYA_S_HALANT, 0x0},
+     {ORIYA_C_TA, ORIYA_S_HALANT, ORIYA_C_PHA, ORIYA_S_HALANT, 0x0}},
+    {0, 4, 4, MMI_ALL_LANG, {ORIYA_C_TA, ORIYA_S_HALANT, ORIYA_C_MA, ORIYA_DV_U, 0x0},
+     {ORIYA_C_TA, ORIYA_S_HALANT, ORIYA_C_MA, ORIYA_DV_U, 0x0}},
+    {0, 4, 4, MMI_ALL_LANG, {ORIYA_C_TA, ORIYA_S_HALANT, ORIYA_C_MA, ORIYA_DV_UU, 0x0},
+     {ORIYA_C_TA, ORIYA_S_HALANT, ORIYA_C_MA, ORIYA_DV_UU, 0x0}},
+    {0, 4, 4, MMI_ALL_LANG, {ORIYA_C_TA, ORIYA_S_HALANT, ORIYA_C_MA, ORIYA_DV_R, 0x0},
+     {ORIYA_C_TA, ORIYA_S_HALANT, ORIYA_C_MA, ORIYA_DV_R, 0x0}},
+    {0, 4, 4, MMI_ALL_LANG, {ORIYA_C_TA, ORIYA_S_HALANT, ORIYA_C_MA, ORIYA_DV_RR, 0x0},
+     {ORIYA_C_TA, ORIYA_S_HALANT, ORIYA_C_MA, ORIYA_DV_RR, 0x0}},
+    {0, 4, 4, MMI_ALL_LANG, {ORIYA_C_TA, ORIYA_S_HALANT, ORIYA_C_MA, ORIYA_NG_L, 0x0},
+     {ORIYA_C_TA, ORIYA_S_HALANT, ORIYA_C_MA, ORIYA_NG_L, 0x0}},
+    {0, 4, 4, MMI_ALL_LANG, {ORIYA_C_TA, ORIYA_S_HALANT, ORIYA_C_MA, ORIYA_NG_VLL, 0x0},
+     {ORIYA_C_TA, ORIYA_S_HALANT, ORIYA_C_MA, ORIYA_NG_VLL, 0x0}},
+    {1, 4, 4, MMI_ALL_LANG, {ORIYA_C_TA, ORIYA_S_HALANT, ORIYA_C_MA, ORIYA_S_HALANT, 0x0},
+     {ORIYA_C_TA, ORIYA_S_HALANT, ORIYA_C_MA, ORIYA_S_HALANT, 0x0}},
+    {0, 4, 4, MMI_ALL_LANG, {ORIYA_C_TA, ORIYA_S_HALANT, ORIYA_C_SA, ORIYA_DV_U, 0x0},
+     {ORIYA_C_TA, ORIYA_S_HALANT, ORIYA_C_SA, ORIYA_DV_U, 0x0}},
+    {0, 4, 4, MMI_ALL_LANG, {ORIYA_C_TA, ORIYA_S_HALANT, ORIYA_C_SA, ORIYA_DV_UU, 0x0},
+     {ORIYA_C_TA, ORIYA_S_HALANT, ORIYA_C_SA, ORIYA_DV_UU, 0x0}},
+    {0, 4, 4, MMI_ALL_LANG, {ORIYA_C_TA, ORIYA_S_HALANT, ORIYA_C_SA, ORIYA_DV_R, 0x0},
+     {ORIYA_C_TA, ORIYA_S_HALANT, ORIYA_C_SA, ORIYA_DV_R, 0x0}},
+    {0, 4, 4, MMI_ALL_LANG, {ORIYA_C_TA, ORIYA_S_HALANT, ORIYA_C_SA, ORIYA_DV_RR, 0x0},
+     {ORIYA_C_TA, ORIYA_S_HALANT, ORIYA_C_SA, ORIYA_DV_RR, 0x0}},
+    {0, 4, 4, MMI_ALL_LANG, {ORIYA_C_TA, ORIYA_S_HALANT, ORIYA_C_SA, ORIYA_NG_L, 0x0},
+     {ORIYA_C_TA, ORIYA_S_HALANT, ORIYA_C_SA, ORIYA_NG_L, 0x0}},
+    {0, 4, 4, MMI_ALL_LANG, {ORIYA_C_TA, ORIYA_S_HALANT, ORIYA_C_SA, ORIYA_NG_VLL, 0x0},
+     {ORIYA_C_TA, ORIYA_S_HALANT, ORIYA_C_SA, ORIYA_NG_VLL, 0x0}},
+    {1, 4, 4, MMI_ALL_LANG, {ORIYA_C_TA, ORIYA_S_HALANT, ORIYA_C_SA, ORIYA_S_HALANT, 0x0},
+     {ORIYA_C_TA, ORIYA_S_HALANT, ORIYA_C_SA, ORIYA_S_HALANT, 0x0}},
+    {0, 5, 1, MMI_ALL_LANG, {ORIYA_C_TA, ORIYA_S_HALANT, ORIYA_C_SA, ORIYA_S_HALANT, ORIYA_C_NA, 0x0},
+     {ORIYA_L_TASANA, 0x0}},
+    {0, 5, 1, MMI_ALL_LANG, {ORIYA_C_TA, ORIYA_S_HALANT, ORIYA_C_TA, ORIYA_S_HALANT, ORIYA_AC_YYA, 0x0},
+     {ORIYA_L_TATAYYA, 0x0}},
+    {1, 6, 6, MMI_ALL_LANG, {ORIYA_C_TA, ORIYA_S_HALANT, ORIYA_C_SA, ORIYA_S_HALANT, ORIYA_C_NA, ORIYA_S_HALANT, 0x0},
+     {ORIYA_C_TA, ORIYA_S_HALANT, ORIYA_C_SA, ORIYA_S_HALANT, ORIYA_C_NA, ORIYA_S_HALANT, 0x0}},
+    {0, 6, 2, MMI_ALL_LANG, {ORIYA_C_TA, ORIYA_S_HALANT, ORIYA_C_SA, ORIYA_S_HALANT, ORIYA_C_NA, ORIYA_DV_U, 0x0},
+     {ORIYA_L_TASANA, ORIYA_L_U, 0x0}},
+    {0, 6, 2, MMI_ALL_LANG, {ORIYA_C_TA, ORIYA_S_HALANT, ORIYA_C_SA, ORIYA_S_HALANT, ORIYA_C_NA, ORIYA_DV_UU, 0x0},
+     {ORIYA_L_TASANA, ORIYA_L_UU, 0x0}},
+    {0, 6, 2, MMI_ALL_LANG, {ORIYA_C_TA, ORIYA_S_HALANT, ORIYA_C_SA, ORIYA_S_HALANT, ORIYA_C_NA, ORIYA_DV_R, 0x0},
+     {ORIYA_L_TASANA, ORIYA_L_VR, 0x0}},
+    {0, 6, 2, MMI_ALL_LANG, {ORIYA_C_TA, ORIYA_S_HALANT, ORIYA_C_SA, ORIYA_S_HALANT, ORIYA_C_NA, ORIYA_DV_RR, 0x0},
+     {ORIYA_L_TASANA, ORIYA_L_VRR, 0x0}},
+    {1, 6, 5, MMI_ALL_LANG, {ORIYA_C_TA, ORIYA_S_HALANT, ORIYA_C_RA, ORIYA_C_RA, ORIYA_S_HALANT, ORIYA_C_RA, 0x0},
+     {ORIYA_C_TA, ORIYA_S_HALANT, ORIYA_C_RA, ORIYA_SUP_RA, ORIYA_S_HALANT, 0x0}},
+    /* {0, 7, 2, MMI_ALL_LANG, {ORIYA_C_TA, ORIYA_S_HALANT, ORIYA_C_SA, ORIYA_S_HALANT, ORIYA_C_NA, ORIYA_S_HALANT, ORIYA_C_RA, 0x0}, {ORIYA_L_TASANA, ORIYA_L_SUBRA, 0x0}}, */
+    {0, 6, 6, MMI_ALL_LANG, {ORIYA_C_TA, ORIYA_S_HALANT, ORIYA_C_SA, ORIYA_C_RA, ORIYA_S_HALANT, ORIYA_S_HALANT, 0x0},
+     {ORIYA_C_RA, ORIYA_S_HALANT, ORIYA_C_TA, ORIYA_S_HALANT, ORIYA_C_SA, ORIYA_S_HALANT, 0x0}},
+    {0, 7, 3, MMI_ALL_LANG,
+     {ORIYA_C_TA, ORIYA_S_HALANT, ORIYA_C_SA, ORIYA_S_HALANT, ORIYA_C_NA, ORIYA_DV_U, ORIYA_S_CHANDRA_BINDU, 0x0},
+     {ORIYA_L_TASANA, ORIYA_S_CHANDRA_BINDU, ORIYA_L_U, 0x0}},
+    {0, 7, 3, MMI_ALL_LANG,
+     {ORIYA_C_TA, ORIYA_S_HALANT, ORIYA_C_SA, ORIYA_S_HALANT, ORIYA_C_NA, ORIYA_DV_UU, ORIYA_S_CHANDRA_BINDU, 0x0},
+     {ORIYA_L_TASANA, ORIYA_S_CHANDRA_BINDU, ORIYA_L_UU, 0x0}},
+    {0, 7, 3, MMI_ALL_LANG,
+     {ORIYA_C_TA, ORIYA_S_HALANT, ORIYA_C_SA, ORIYA_S_HALANT, ORIYA_C_NA, ORIYA_DV_R, ORIYA_S_CHANDRA_BINDU, 0x0},
+     {ORIYA_L_TASANA, ORIYA_S_CHANDRA_BINDU, ORIYA_L_VR, 0x0}},
+    {0, 7, 3, MMI_ALL_LANG,
+     {ORIYA_C_TA, ORIYA_S_HALANT, ORIYA_C_SA, ORIYA_S_HALANT, ORIYA_C_NA, ORIYA_DV_RR, ORIYA_S_CHANDRA_BINDU, 0x0},
+     {ORIYA_L_TASANA, ORIYA_S_CHANDRA_BINDU, ORIYA_L_VRR, 0x0}},
+};
+
+const ire_glyph_info_table_struct ORIYA_THA_Tbl[] = 
+{
+    /* tha + space */
+    {0, 1, 1, MMI_ALL_LANG, {ORIYA_C_THA, 0x0}, {ORIYA_C_THA, 0x0}},
+
+    /* tha + halant + ra ->  tha + subscript form of RA */
+    {0, 3, 1, MMI_ALL_LANG, {ORIYA_C_THA, ORIYA_S_HALANT, ORIYA_S_WA, 0x0}, {ORIYA_H_THAWA, 0x0}},       
+	{0, 3, 1, MMI_ALL_LANG, {ORIYA_C_THA, ORIYA_S_HALANT, ORIYA_AC_YYA, 0x0}, {ORIYA_L_THAYYA, 0x0}},       
+		{0, 3, 1, MMI_ALL_LANG, {ORIYA_C_THA, ORIYA_S_HALANT, ORIYA_C_MA, 0x0}, {ORIYA_L_THAMA, 0x0}},      
+    {1, 6, 5, MMI_ALL_LANG, {ORIYA_C_THA, ORIYA_S_HALANT, ORIYA_C_RA, ORIYA_C_RA, ORIYA_S_HALANT, ORIYA_S_HALANT, 0x0},
+     {ORIYA_C_THA, ORIYA_S_HALANT, ORIYA_C_RA, ORIYA_SUP_RA, ORIYA_S_HALANT, 0x0}},
+};
+
+const ire_glyph_info_table_struct ORIYA_DA_Tbl[] = 
+{
+    /* da + space */
+    {0, 1, 1, MMI_ALL_LANG, {ORIYA_C_DA, 0x0}, {ORIYA_C_DA, 0x0}},
+
+    /* da + halant + ra -> da + subscript ra  */
+    {0, 3, 1, MMI_ALL_LANG, {ORIYA_C_DA, ORIYA_S_HALANT, ORIYA_S_WA, 0x0}, {ORIYA_H_DAWA, 0x0}}, 
+    /* da + halant + ya  ->  ligature dya */
+    {0, 3, 1, MMI_ALL_LANG, {ORIYA_C_DA, ORIYA_S_HALANT, ORIYA_C_DA, 0x0}, {ORIYA_L_DADA, 0x0}},
+    /* da +halant + da ->   ligature ddya */
+    {0, 3, 1, MMI_ALL_LANG, {ORIYA_C_DA, ORIYA_S_HALANT, ORIYA_C_DHA, 0x0}, {ORIYA_L_DADHA, 0x0}},
+    /* da + halant + va   ->  ligature DVA */
+    {0, 3, 1, MMI_ALL_LANG, {ORIYA_C_DA, ORIYA_S_HALANT, ORIYA_C_BHA, 0x0}, {ORIYA_L_DABHA, 0x0}},
+    /* da + halant + dha   ->  ligature HINDI_L_DADHA */
+    {0, 3, 1, MMI_ALL_LANG, {ORIYA_C_DA, ORIYA_S_HALANT, ORIYA_C_GA, 0x0}, {ORIYA_D_DAGA, 0x0}},
+    /* da + halant + bha   ->  ligature HINDI_L_DABHA */
+    {0, 3, 1, MMI_ALL_LANG, {ORIYA_C_DA, ORIYA_S_HALANT, ORIYA_C_GHA, 0x0}, {ORIYA_D_DAGHA, 0x0}},
+    {0, 3, 1, MMI_ALL_LANG, {ORIYA_C_DA, ORIYA_S_HALANT, ORIYA_C_BA, 0x0}, {ORIYA_D_DABA, 0x0}},
+    {0, 3, 1, MMI_ALL_LANG, {ORIYA_C_DA, ORIYA_S_HALANT, ORIYA_C_YA, 0x0}, {ORIYA_D_DAYA, 0x0}},
+    {0, 3, 1, MMI_ALL_LANG, {ORIYA_C_DA, ORIYA_S_HALANT, ORIYA_C_MA, 0x0}, {ORIYA_L_DAMA, 0x0}},
+    {0, 3, 2, MMI_ALL_LANG, {ORIYA_C_DA, ORIYA_S_HALANT, ORIYA_AC_YYA, 0x0}, {ORIYA_C_DA, ORIYA_SAN_YA, 0x0}},
+    {0, 5, 3, MMI_ALL_LANG, {ORIYA_C_DA, ORIYA_S_HALANT, ORIYA_AC_YYA, ORIYA_C_RA, ORIYA_S_HALANT, 0x0},
+     {ORIYA_C_DA, ORIYA_SUP_RA, ORIYA_SAN_YA, 0x0}},
+    {1, 6, 5, MMI_ALL_LANG, {ORIYA_C_DA, ORIYA_S_HALANT, ORIYA_C_RA, ORIYA_C_RA, ORIYA_S_HALANT, ORIYA_S_HALANT, 0x0},
+     {ORIYA_C_DA, ORIYA_S_HALANT, ORIYA_C_RA, ORIYA_SUP_RA, ORIYA_S_HALANT, 0x0}},
+};
+
+const ire_glyph_info_table_struct ORIYA_DHA_Tbl[] = 
+{
+    /* Dha +space */
+    {0, 1, 1, MMI_ALL_LANG, {ORIYA_C_DHA, 0x0}, {ORIYA_C_DHA, 0x0}},
+
+    /* Dha + halant + ra ->  Dhra OR dha + subscript ra */
+    {0, 3, 1, MMI_ALL_LANG, {ORIYA_C_DHA, ORIYA_S_HALANT, ORIYA_C_NA, 0x0}, {ORIYA_H_DHANA, 0x0}},
+    {0, 3, 1, MMI_ALL_LANG, {ORIYA_C_DHA, ORIYA_S_HALANT, ORIYA_S_WA, 0x0}, {ORIYA_H_DHAWA, 0x0}},
+		{0, 3, 2, MMI_ALL_LANG, {ORIYA_C_DHA, ORIYA_S_HALANT, ORIYA_AC_YYA, 0x0}, {ORIYA_C_DHA, ORIYA_SAN_YA, 0x0}},
+		{0, 3, 1, MMI_ALL_LANG, {ORIYA_C_DHA, ORIYA_S_HALANT, ORIYA_C_MA, 0x0}, {ORIYA_L_DHAMA, 0x0}},   
+    {0, 5, 3, MMI_ALL_LANG, {ORIYA_C_DHA, ORIYA_S_HALANT, ORIYA_AC_YYA, ORIYA_C_RA, ORIYA_S_HALANT, 0x0},
+     {ORIYA_C_DHA, ORIYA_SUP_RA, ORIYA_SAN_YA, 0x0}},
+    {1, 6, 5, MMI_ALL_LANG, {ORIYA_C_DHA, ORIYA_S_HALANT, ORIYA_C_RA, ORIYA_C_RA, ORIYA_S_HALANT, ORIYA_S_HALANT, 0x0},
+     {ORIYA_C_DHA, ORIYA_S_HALANT, ORIYA_C_RA, ORIYA_SUP_RA, ORIYA_S_HALANT, 0x0}},
+};
+
+const ire_glyph_info_table_struct ORIYA_NA_Tbl[] = 
+{
+    /* na + space */
+    {0, 1, 1, MMI_ALL_LANG, {ORIYA_C_NA, 0x0}, {ORIYA_C_NA, 0x0}},
+    /* na + halant + ra  -> na + subscript RA */
+    {0, 3, 1, MMI_ALL_LANG, {ORIYA_C_NA, ORIYA_S_HALANT, ORIYA_S_WA, 0x0}, {ORIYA_H_NAWA, 0x0}}, 
+    /* na + halant + na -> (ligature form) NNA */
+    {0, 3, 1, MMI_ALL_LANG, {ORIYA_C_NA, ORIYA_S_HALANT, ORIYA_C_NA, 0x0}, {ORIYA_H_NANA, 0x0}},
+    {0, 3, 1, MMI_ALL_LANG, {ORIYA_C_NA, ORIYA_S_HALANT, ORIYA_C_THA, 0x0}, {ORIYA_H_NATHA, 0x0}},
+    {0, 3, 1, MMI_ALL_LANG, {ORIYA_C_NA, ORIYA_S_HALANT, ORIYA_C_TA, 0x0}, {ORIYA_H_NATA, 0x0}},
+    {0, 3, 1, MMI_ALL_LANG, {ORIYA_C_NA, ORIYA_S_HALANT, ORIYA_C_DA, 0x0}, {ORIYA_L_NADA, 0x0}},
+    {0, 3, 1, MMI_ALL_LANG, {ORIYA_C_NA, ORIYA_S_HALANT, ORIYA_C_DHA, 0x0}, {ORIYA_L_NADHA, 0x0}},
+    {0, 3, 1, MMI_ALL_LANG, {ORIYA_C_NA, ORIYA_S_HALANT, ORIYA_C_SA, 0x0}, {ORIYA_D_NASA, 0x0}},
+    {0, 3, 1, MMI_ALL_LANG, {ORIYA_C_NA, ORIYA_S_HALANT, ORIYA_C_MA, 0x0}, {ORIYA_L_NAMA, 0x0}},
+		{0, 3, 2, MMI_ALL_LANG, {ORIYA_C_NA, ORIYA_S_HALANT, ORIYA_AC_YYA, 0x0}, {ORIYA_C_NA, ORIYA_SAN_YA, 0x0}},
+     	{0, 4, 1, MMI_ALL_LANG, {ORIYA_C_NA, ORIYA_S_HALANT, ORIYA_C_TA, ORIYA_DV_U, 0x0}, {ORIYA_S_NATAU, 0x0}},
+    {0, 5, 1, MMI_ALL_LANG, {ORIYA_C_NA, ORIYA_S_HALANT, ORIYA_C_TA, ORIYA_S_HALANT, ORIYA_C_RA, 0x0},
+     {ORIYA_S_NATARA, 0x0}},
+    {0, 5, 1, MMI_ALL_LANG, {ORIYA_C_NA, ORIYA_S_HALANT, ORIYA_C_TA, ORIYA_S_HALANT, ORIYA_S_WA, 0x0},
+     {ORIYA_L_NATAWA, 0x0}},
+    {0, 5, 1, MMI_ALL_LANG, {ORIYA_C_NA, ORIYA_S_HALANT, ORIYA_C_DA, ORIYA_S_HALANT, ORIYA_S_WA, 0x0},
+     {ORIYA_L_NADAWA, 0x0}},
+    {0, 5, 1, MMI_ALL_LANG, {ORIYA_C_NA, ORIYA_S_HALANT, ORIYA_C_DHA, ORIYA_S_HALANT, ORIYA_AC_YYA, 0x0},
+     {ORIYA_L_NADHAYYA, 0x0}},
+    {0, 5, 3, MMI_ALL_LANG, {ORIYA_C_NA, ORIYA_S_HALANT, ORIYA_AC_YYA, ORIYA_C_RA, ORIYA_S_HALANT, 0x0},
+     {ORIYA_C_NA, ORIYA_SUP_RA, ORIYA_SAN_YA, 0x0}},
+    {1, 6, 5, MMI_ALL_LANG, {ORIYA_C_NA, ORIYA_S_HALANT, ORIYA_C_RA, ORIYA_C_RA, ORIYA_S_HALANT, ORIYA_S_HALANT, 0x0},
+     {ORIYA_C_NA, ORIYA_S_HALANT, ORIYA_C_RA, ORIYA_SUP_RA, ORIYA_S_HALANT, 0x0}},
+    {0, 7, 1, MMI_ALL_LANG,
+     {ORIYA_C_NA, ORIYA_S_HALANT, ORIYA_C_TA, ORIYA_S_HALANT, ORIYA_C_RA, ORIYA_S_HALANT, ORIYA_AC_YYA, 0x0},
+     {ORIYA_L_NATARAYYA, 0x0}},
+};
+
+
+const ire_glyph_info_table_struct ORIYA_PA_Tbl[] = 
+{
+    /* pa + space */
+    {0, 1, 1, MMI_ALL_LANG, {ORIYA_C_PA, 0x0}, {ORIYA_C_PA, 0x0}},
+
+    /* pa + halant + ra -> pra OR pa + subscript RA */
+    {0, 3, 1, MMI_ALL_LANG, {ORIYA_C_PA, ORIYA_S_HALANT, ORIYA_C_TA, 0x0}, {ORIYA_H_PATA, 0x0}},
+    {0, 3, 1, MMI_ALL_LANG, {ORIYA_C_PA, ORIYA_S_HALANT, ORIYA_C_PA, 0x0}, {ORIYA_D_PAPA, 0x0}},
+    {0, 3, 1, MMI_ALL_LANG, {ORIYA_C_PA, ORIYA_S_HALANT, ORIYA_C_SA, 0x0}, {ORIYA_D_PASA, 0x0}},
+		{0, 3, 2, MMI_ALL_LANG, {ORIYA_C_PA, ORIYA_S_HALANT, ORIYA_AC_YYA, 0x0}, {ORIYA_C_PA, ORIYA_SAN_YA, 0x0}},
+		{0, 3, 1, MMI_ALL_LANG, {ORIYA_C_PA, ORIYA_S_HALANT, ORIYA_C_MA, 0x0}, {ORIYA_L_PAMA, 0x0}},
+    {0, 5, 3, MMI_ALL_LANG, {ORIYA_C_PA, ORIYA_S_HALANT, ORIYA_AC_YYA, ORIYA_C_RA, ORIYA_S_HALANT, 0x0},
+     {ORIYA_C_PA, ORIYA_SUP_RA, ORIYA_SAN_YA, 0x0}},
+    {1, 6, 5, MMI_ALL_LANG, {ORIYA_C_PA, ORIYA_S_HALANT, ORIYA_C_RA, ORIYA_C_RA, ORIYA_S_HALANT, ORIYA_S_HALANT, 0x0},
+     {ORIYA_C_PA, ORIYA_S_HALANT, ORIYA_C_RA, ORIYA_SUP_RA, ORIYA_S_HALANT, 0x0}},
+};
+
+const ire_glyph_info_table_struct ORIYA_PHA_Tbl[] = 
+{
+    /* pha +space */
+    {0, 1, 1, MMI_ALL_LANG, {ORIYA_C_PHA, 0x0}, {ORIYA_C_PHA, 0x0}},
+
+    /* pha + nukta + halant-> half pha with nukta */
+    {0, 3, 1, MMI_ALL_LANG, {ORIYA_C_PHA, ORIYA_S_HALANT, ORIYA_C_LA, 0x0}, {ORIYA_H_PHALA, 0x0}},
+    /* pha + halant + ra -> fra OR pha + subscript RA */
+    {0, 3, 1, MMI_ALL_LANG, {ORIYA_C_PHA, ORIYA_S_HALANT, ORIYA_C_TTA, 0x0}, {ORIYA_D_PHATTA, 0x0}},
+    {0, 3, 2, MMI_ALL_LANG, {ORIYA_C_PHA, ORIYA_S_HALANT, ORIYA_AC_YYA, 0x0}, {ORIYA_C_PHA, ORIYA_SAN_YA, 0x0}},
+    {0, 3, 1, MMI_ALL_LANG, {ORIYA_C_PHA, ORIYA_S_HALANT, ORIYA_C_MA, 0x0}, {ORIYA_L_PHAMA, 0x0}},
+    {0, 5, 3, MMI_ALL_LANG, {ORIYA_C_PHA, ORIYA_S_HALANT, ORIYA_AC_YYA, ORIYA_C_RA, ORIYA_S_HALANT, 0x0},
+     {ORIYA_C_PHA, ORIYA_SUP_RA, ORIYA_SAN_YA, 0x0}},
+    {1, 6, 5, MMI_ALL_LANG, {ORIYA_C_PHA, ORIYA_S_HALANT, ORIYA_C_RA, ORIYA_C_RA, ORIYA_S_HALANT, ORIYA_S_HALANT, 0x0},
+     {ORIYA_C_PHA, ORIYA_S_HALANT, ORIYA_C_RA, ORIYA_SUP_RA, ORIYA_S_HALANT, 0x0}},
+};
+
+const ire_glyph_info_table_struct ORIYA_BA_Tbl[] = 
+{
+    /* ba + space */
+    {0, 1, 1, MMI_ALL_LANG, {ORIYA_C_BA, 0x0}, {ORIYA_C_BA, 0x0}},
+
+    /* ba + halant + ra -> ba + subscript RA */
+    {0, 3, 1, MMI_ALL_LANG, {ORIYA_C_BA, ORIYA_S_HALANT, ORIYA_C_LA, 0x0}, {ORIYA_H_BALA, 0x0}}, 
+    {0, 3, 1, MMI_ALL_LANG, {ORIYA_C_BA, ORIYA_S_HALANT, ORIYA_C_DA, 0x0}, {ORIYA_L_BADA, 0x0}}, 
+    {0, 3, 1, MMI_ALL_LANG, {ORIYA_C_BA, ORIYA_S_HALANT, ORIYA_C_BA, 0x0}, {ORIYA_L_BABA, 0x0}}, 
+    {0, 3, 1, MMI_ALL_LANG, {ORIYA_C_BA, ORIYA_S_HALANT, ORIYA_C_DHA, 0x0}, {ORIYA_D_BADHA, 0x0}}, 
+    {0, 3, 1, MMI_ALL_LANG, {ORIYA_C_BA, ORIYA_S_HALANT, ORIYA_AC_YYA, 0x0}, {ORIYA_L_BAYYA, 0x0}}, 
+    {0, 3, 1, MMI_ALL_LANG, {ORIYA_C_BA, ORIYA_S_HALANT, ORIYA_C_MA, 0x0}, {ORIYA_L_BAMA, 0x0}},
+    {1, 6, 5, MMI_ALL_LANG, {ORIYA_C_BA, ORIYA_S_HALANT, ORIYA_C_RA, ORIYA_C_RA, ORIYA_S_HALANT, ORIYA_S_HALANT, 0x0},
+     {ORIYA_C_BA, ORIYA_S_HALANT, ORIYA_C_RA, ORIYA_SUP_RA, ORIYA_S_HALANT, 0x0}},
+};
+
+const ire_glyph_info_table_struct ORIYA_BHA_Tbl[] = 
+{
+    /* bha  + space */
+    {0, 1, 1, MMI_ALL_LANG, {ORIYA_C_BHA, 0x0}, {ORIYA_C_BHA, 0x0}},
+    {0, 3, 2, MMI_ALL_LANG, {ORIYA_C_BHA, ORIYA_S_HALANT, ORIYA_AC_YYA, 0x0}, {ORIYA_C_BHA, ORIYA_SAN_YA, 0x0}},
+    {0, 3, 1, MMI_ALL_LANG, {ORIYA_C_BHA, ORIYA_S_HALANT, ORIYA_C_MA, 0x0}, {ORIYA_L_BHAMA, 0x0}},
+    {0, 5, 3, MMI_ALL_LANG, {ORIYA_C_BHA, ORIYA_S_HALANT, ORIYA_AC_YYA, ORIYA_C_RA, ORIYA_S_HALANT, 0x0},
+     {ORIYA_C_BHA, ORIYA_SUP_RA, ORIYA_SAN_YA, 0x0}},
+    {1, 6, 5, MMI_ALL_LANG, {ORIYA_C_BHA, ORIYA_S_HALANT, ORIYA_C_RA, ORIYA_C_RA, ORIYA_S_HALANT, ORIYA_S_HALANT, 0x0},
+     {ORIYA_C_BHA, ORIYA_S_HALANT, ORIYA_C_RA, ORIYA_SUP_RA, ORIYA_S_HALANT, 0x0}},
+};
+
+const ire_glyph_info_table_struct ORIYA_MA_Tbl[] = 
+{
+    /* ma  + space */
+    {0, 1, 1, MMI_ALL_LANG, {ORIYA_C_MA, 0x0}, {ORIYA_C_MA, 0x0}},
+
+    /* ma + halant + ra -> ma + subscript RA */
+    {0, 3, 1, MMI_ALL_LANG, {ORIYA_C_MA, ORIYA_S_HALANT, ORIYA_C_LLA, 0x0}, {ORIYA_H_MALLA, 0x0}}, 
+    {0, 3, 1, MMI_ALL_LANG, {ORIYA_C_MA, ORIYA_S_HALANT, ORIYA_C_BA, 0x0}, {ORIYA_H_MABA, 0x0}}, 
+    {0, 3, 1, MMI_ALL_LANG, {ORIYA_C_MA, ORIYA_S_HALANT, ORIYA_C_BHA, 0x0}, {ORIYA_H_MABHA, 0x0}}, 
+    {0, 3, 1, MMI_ALL_LANG, {ORIYA_C_MA, ORIYA_S_HALANT, ORIYA_C_PA, 0x0}, {ORIYA_L_MAPA, 0x0}}, 
+    {0, 3, 1, MMI_ALL_LANG, {ORIYA_C_MA, ORIYA_S_HALANT, ORIYA_C_PHA, 0x0}, {ORIYA_L_MAPHA, 0x0}}, 
+    {0, 3, 1, MMI_ALL_LANG, {ORIYA_C_MA, ORIYA_S_HALANT, ORIYA_C_MA, 0x0}, {ORIYA_D_MAMA, 0x0}}, 
+    {0, 3, 1, MMI_ALL_LANG, {ORIYA_C_MA, ORIYA_S_HALANT, ORIYA_C_SA, 0x0}, {ORIYA_D_MASA, 0x0}}, 
+    {0, 3, 2, MMI_ALL_LANG, {ORIYA_C_MA, ORIYA_S_HALANT, ORIYA_AC_YYA, 0x0}, {ORIYA_C_MA, ORIYA_SAN_YA, 0x0}},
+    {0, 5, 3, MMI_ALL_LANG, {ORIYA_C_MA, ORIYA_S_HALANT, ORIYA_AC_YYA, ORIYA_C_RA, ORIYA_S_HALANT, 0x0},
+     {ORIYA_C_MA, ORIYA_SUP_RA, ORIYA_SAN_YA, 0x0}},
+    {1, 6, 5, MMI_ALL_LANG, {ORIYA_C_MA, ORIYA_S_HALANT, ORIYA_C_RA, ORIYA_C_RA, ORIYA_S_HALANT, ORIYA_S_HALANT, 0x0},
+     {ORIYA_C_MA, ORIYA_S_HALANT, ORIYA_C_RA, ORIYA_SUP_RA, ORIYA_S_HALANT, 0x0}},
+};
+
+const ire_glyph_info_table_struct ORIYA_YA_Tbl[] = 
+{
+    /* ya + space */
+    {0, 1, 1, MMI_ALL_LANG, {ORIYA_C_YA, 0x0}, {ORIYA_C_YA, 0x0}},
+    {0, 3, 2, MMI_ALL_LANG, {ORIYA_C_YA, ORIYA_S_HALANT, ORIYA_AC_YYA, 0x0}, {ORIYA_C_YA, ORIYA_SAN_YA, 0x0}},
+		{0, 3, 1, MMI_ALL_LANG, {ORIYA_C_YA, ORIYA_S_HALANT, ORIYA_C_MA, 0x0}, {ORIYA_L_YAMA, 0x0}},
+    {0, 5, 3, MMI_ALL_LANG, {ORIYA_C_YA, ORIYA_S_HALANT, ORIYA_AC_YYA, ORIYA_C_RA, ORIYA_S_HALANT, 0x0},
+     {ORIYA_C_YA, ORIYA_SUP_RA, ORIYA_SAN_YA, 0x0}},
+    {1, 6, 5, MMI_ALL_LANG, {ORIYA_C_YA, ORIYA_S_HALANT, ORIYA_C_RA, ORIYA_C_RA, ORIYA_S_HALANT, ORIYA_S_HALANT, 0x0},
+     {ORIYA_C_YA, ORIYA_S_HALANT, ORIYA_C_RA, ORIYA_SUP_RA, ORIYA_S_HALANT, 0x0}},
+};
+
+const ire_glyph_info_table_struct ORIYA_RA_Tbl[] = 
+{
+    /* ra + space */
+    {0, 1, 1, MMI_ALL_LANG, {ORIYA_C_RA, 0x0}, {ORIYA_C_RA, 0x0}},
+    /* ra + halant -> superscript form of RA */
+    {0, 2, 1, MMI_ALL_LANG, {ORIYA_C_RA, ORIYA_S_HALANT, 0x0}, {ORIYA_SUP_RA, 0x0}},
+    {0, 3, 2, MMI_ALL_LANG, {ORIYA_C_RA, ORIYA_S_HALANT, ORIYA_S_CHANDRA_BINDU, 0x0},
+     {ORIYA_S_CHANDRA_BINDU, ORIYA_SUP_RA1, 0x0}},
+    {0, 3, 2, MMI_ALL_LANG, {ORIYA_C_RA, ORIYA_S_HALANT, ORIYA_AC_YYA, 0x0}, {ORIYA_C_RA, ORIYA_SAN_YA, 0x0}},
+    {0, 3, 1, MMI_ALL_LANG, {ORIYA_C_RA, ORIYA_S_HALANT, ORIYA_C_MA, 0x0}, {ORIYA_L_RAMA, 0x0}},
+ };
+
+
+const ire_glyph_info_table_struct ORIYA_LA_Tbl[] = 
+{
+    /* la + space */
+    {0, 1, 1, MMI_ALL_LANG, {ORIYA_C_LA, 0x0}, {ORIYA_C_LA, 0x0}},
+
+    /* la + halant + ka -> laka */
+    {0, 3, 1, MMI_ALL_LANG, {ORIYA_C_LA, ORIYA_S_HALANT, ORIYA_C_KA, 0x0}, {ORIYA_H_LAKA, 0x0}},
+
+    {0, 3, 1, MMI_ALL_LANG, {ORIYA_C_LA, ORIYA_S_HALANT, ORIYA_S_WA, 0x0}, {ORIYA_H_LAWA, 0x0}},
+    {0, 3, 1, MMI_ALL_LANG, {ORIYA_C_LA, ORIYA_S_HALANT, ORIYA_C_GA, 0x0}, {ORIYA_D_LAGA, 0x0}},
+    {0, 3, 1, MMI_ALL_LANG, {ORIYA_C_LA, ORIYA_S_HALANT, ORIYA_C_TTA, 0x0}, {ORIYA_D_LATTA, 0x0}},
+    {0, 3, 1, MMI_ALL_LANG, {ORIYA_C_LA, ORIYA_S_HALANT, ORIYA_C_PHA, 0x0}, {ORIYA_D_LAPHA, 0x0}},
+    {0, 3, 1, MMI_ALL_LANG, {ORIYA_C_LA, ORIYA_S_HALANT, ORIYA_C_SA, 0x0}, {ORIYA_D_LASA, 0x0}},
+    {0, 3, 2, MMI_ALL_LANG, {ORIYA_C_LA, ORIYA_S_HALANT, ORIYA_AC_YYA, 0x0}, {ORIYA_C_LA, ORIYA_SAN_YA, 0x0}},
+    {0, 3, 1, MMI_ALL_LANG, {ORIYA_C_LA, ORIYA_S_HALANT, ORIYA_C_MA, 0x0}, {ORIYA_L_LAMA, 0x0}},
+    {0, 5, 3, MMI_ALL_LANG, {ORIYA_C_LA, ORIYA_S_HALANT, ORIYA_AC_YYA, ORIYA_C_RA, ORIYA_S_HALANT, 0x0},
+     {ORIYA_C_LA, ORIYA_SUP_RA, ORIYA_SAN_YA, 0x0}},
+    {1, 6, 5, MMI_ALL_LANG, {ORIYA_C_LA, ORIYA_S_HALANT, ORIYA_C_RA, ORIYA_C_RA, ORIYA_S_HALANT, ORIYA_S_HALANT, 0x0},
+     {ORIYA_C_LA, ORIYA_S_HALANT, ORIYA_C_RA, ORIYA_SUP_RA, ORIYA_S_HALANT, 0x0}},
+};
+
+const ire_glyph_info_table_struct ORIYA_LLA_Tbl[] = 
+{
+    /* Lla */
+    {0, 1, 1, MMI_ALL_LANG, {ORIYA_C_LLA, 0x0}, {ORIYA_C_LLA, 0x0}},
+
+    /* Lla + halant + ka-> Llaka */
+    {0, 3, 1, MMI_ALL_LANG, {ORIYA_C_LLA, ORIYA_S_HALANT, ORIYA_C_KA, 0x0}, {ORIYA_H_LLAKA, 0x0}},
+    {0, 3, 1, MMI_ALL_LANG, {ORIYA_C_LLA, ORIYA_S_HALANT, ORIYA_C_DDA, 0x0}, {ORIYA_D_LLADDA, 0x0}},
+    {0, 3, 1, MMI_ALL_LANG, {ORIYA_C_LLA, ORIYA_S_HALANT, ORIYA_C_PA, 0x0}, {ORIYA_D_LLAPA, 0x0}},
+    {0, 3, 1, MMI_ALL_LANG, {ORIYA_C_LLA, ORIYA_S_HALANT, ORIYA_C_PHA, 0x0}, {ORIYA_D_LLAPHA, 0x0}},
+    {0, 3, 1, MMI_ALL_LANG, {ORIYA_C_LLA, ORIYA_S_HALANT, ORIYA_C_BHA, 0x0}, {ORIYA_D_LLABHA, 0x0}},
+		{0, 3, 2, MMI_ALL_LANG, {ORIYA_C_LLA, ORIYA_S_HALANT, ORIYA_AC_YYA, 0x0}, {ORIYA_C_LLA, ORIYA_SAN_YA, 0x0}},
+		{0, 3, 1, MMI_ALL_LANG, {ORIYA_C_LLA, ORIYA_S_HALANT, ORIYA_C_MA, 0x0}, {ORIYA_L_LLAMA, 0x0}},
+    {0, 5, 3, MMI_ALL_LANG, {ORIYA_C_LLA, ORIYA_S_HALANT, ORIYA_AC_YYA, ORIYA_C_RA, ORIYA_S_HALANT, 0x0},
+     {ORIYA_C_LLA, ORIYA_SUP_RA, ORIYA_SAN_YA, 0x0}},
+    {1, 6, 5, MMI_ALL_LANG, {ORIYA_C_LLA, ORIYA_S_HALANT, ORIYA_C_RA, ORIYA_C_RA, ORIYA_S_HALANT, ORIYA_S_HALANT, 0x0},
+     {ORIYA_C_LLA, ORIYA_S_HALANT, ORIYA_C_RA, ORIYA_SUP_RA, ORIYA_S_HALANT, 0x0}},
+};
+
+const ire_glyph_info_table_struct ORIYA_VA_Tbl[] = 
+{
+    /* va */
+    {0, 1, 1, MMI_ALL_LANG, {ORIYA_C_VA, 0x0}, {ORIYA_C_VA, 0x0}},
+		{0, 3, 2, MMI_ALL_LANG, {ORIYA_C_VA, ORIYA_S_HALANT, ORIYA_AC_YYA, 0x0}, {ORIYA_C_VA, ORIYA_SAN_YA, 0x0}},
+		{0, 3, 1, MMI_ALL_LANG, {ORIYA_C_VA, ORIYA_S_HALANT, ORIYA_C_MA, 0x0}, {ORIYA_L_VAMA, 0x0}},
+    {0, 5, 3, MMI_ALL_LANG, {ORIYA_C_VA, ORIYA_S_HALANT, ORIYA_AC_YYA, ORIYA_C_RA, ORIYA_S_HALANT, 0x0},
+     {ORIYA_C_VA, ORIYA_SUP_RA, ORIYA_SAN_YA, 0x0}},
+    {1, 6, 5, MMI_ALL_LANG, {ORIYA_C_VA, ORIYA_S_HALANT, ORIYA_C_RA, ORIYA_C_RA, ORIYA_S_HALANT, ORIYA_S_HALANT, 0x0},
+     {ORIYA_C_VA, ORIYA_S_HALANT, ORIYA_C_RA, ORIYA_SUP_RA, ORIYA_S_HALANT, 0x0}},
+};
+
+const ire_glyph_info_table_struct ORIYA_SHA_Tbl[] = 
+{
+    /* sha */
+    {0, 1, 1, MMI_ALL_LANG, {ORIYA_C_SHA, 0x0}, {ORIYA_C_SHA, 0x0}},
+
+    /* sha + halant + ra -> shra ligature */
+    {0, 3, 1, MMI_ALL_LANG, {ORIYA_C_SHA, ORIYA_S_HALANT, ORIYA_S_WA, 0x0}, {ORIYA_H_SHAWA, 0x0}},
+    {0, 3, 1, MMI_ALL_LANG, {ORIYA_C_SHA, ORIYA_S_HALANT, ORIYA_C_CHHA, 0x0}, {ORIYA_H_SHACHHA, 0x0}},
+    {0, 3, 1, MMI_ALL_LANG, {ORIYA_C_SHA, ORIYA_S_HALANT, ORIYA_C_CHA, 0x0}, {ORIYA_D_SHACHA, 0x0}},
+		{0, 3, 1, MMI_ALL_LANG, {ORIYA_C_SHA, ORIYA_S_HALANT, ORIYA_C_LA, 0x0}, {ORIYA_L_SHALA, 0x0}},
+		{0, 3, 2, MMI_ALL_LANG, {ORIYA_C_SHA, ORIYA_S_HALANT, ORIYA_AC_YYA, 0x0}, {ORIYA_C_SHA, ORIYA_SAN_YA, 0x0}},
+		{0, 3, 1, MMI_ALL_LANG, {ORIYA_C_SHA, ORIYA_S_HALANT, ORIYA_C_MA, 0x0}, {ORIYA_L_SHAMA, 0x0}},
+    {0, 5, 3, MMI_ALL_LANG, {ORIYA_C_SHA, ORIYA_S_HALANT, ORIYA_AC_YYA, ORIYA_C_RA, ORIYA_S_HALANT, 0x0},
+     {ORIYA_C_SHA, ORIYA_SUP_RA, ORIYA_SAN_YA, 0x0}},
+    {1, 6, 5, MMI_ALL_LANG, {ORIYA_C_SHA, ORIYA_S_HALANT, ORIYA_C_RA, ORIYA_C_RA, ORIYA_S_HALANT, ORIYA_S_HALANT, 0x0},
+     {ORIYA_C_SHA, ORIYA_S_HALANT, ORIYA_C_RA, ORIYA_SUP_RA, ORIYA_S_HALANT, 0x0}},
+};
+
+const ire_glyph_info_table_struct ORIYA_SSA_Tbl[] = 
+{
+    /* Ssa */
+    {0, 1, 1, MMI_ALL_LANG, {ORIYA_C_SSA, 0x0}, {ORIYA_C_SSA, 0x0}},
+
+    /* ssa + halant + ra -> half ssa + ra(nominal form) */
+    {0, 3, 1, MMI_ALL_LANG, {ORIYA_C_SSA, ORIYA_S_HALANT, ORIYA_C_KA, 0x0}, {ORIYA_H_SSAKA, 0x0}},
+
+    {0, 3, 1, MMI_ALL_LANG, {ORIYA_C_SSA, ORIYA_S_HALANT, ORIYA_C_NNA, 0x0}, {ORIYA_S_SSANNA, 0x0}},
+    {0, 3, 1, MMI_ALL_LANG, {ORIYA_C_SSA, ORIYA_S_HALANT, ORIYA_C_TTA, 0x0}, {ORIYA_D_SSATTA, 0x0}},
+    {0, 3, 1, MMI_ALL_LANG, {ORIYA_C_SSA, ORIYA_S_HALANT, ORIYA_C_TTHA, 0x0}, {ORIYA_D_SSATTHA, 0x0}},
+    {0, 3, 1, MMI_ALL_LANG, {ORIYA_C_SSA, ORIYA_S_HALANT, ORIYA_C_PA, 0x0}, {ORIYA_D_SSAPA, 0x0}},
+    {0, 3, 1, MMI_ALL_LANG, {ORIYA_C_SSA, ORIYA_S_HALANT, ORIYA_C_PHA, 0x0}, {ORIYA_D_SSAPHA, 0x0}},
+		{0, 3, 2, MMI_ALL_LANG, {ORIYA_C_SSA, ORIYA_S_HALANT, ORIYA_AC_YYA, 0x0}, {ORIYA_C_SSA, ORIYA_SAN_YA, 0x0}},
+ 		{0, 3, 1, MMI_ALL_LANG, {ORIYA_C_SSA, ORIYA_S_HALANT, ORIYA_C_MA, 0x0}, {ORIYA_L_SSAMA, 0x0}},
+    {0, 4, 2, MMI_ALL_LANG, {ORIYA_C_SSA, ORIYA_S_HALANT, ORIYA_C_NNA, ORIYA_DV_U, 0x0},
+     {ORIYA_S_SSANNA, ORIYA_L_U, 0x0}},
+    {0, 4, 2, MMI_ALL_LANG, {ORIYA_C_SSA, ORIYA_S_HALANT, ORIYA_C_NNA, ORIYA_DV_UU, 0x0},
+     {ORIYA_S_SSANNA, ORIYA_L_UU, 0x0}},
+    {0, 4, 2, MMI_ALL_LANG, {ORIYA_C_SSA, ORIYA_S_HALANT, ORIYA_C_NNA, ORIYA_DV_R, 0x0},
+     {ORIYA_S_SSANNA, ORIYA_L_VR, 0x0}},
+    {0, 4, 2, MMI_ALL_LANG, {ORIYA_C_SSA, ORIYA_S_HALANT, ORIYA_C_NNA, ORIYA_DV_RR, 0x0},
+     {ORIYA_S_SSANNA, ORIYA_L_VRR, 0x0}},
+    {1, 4, 4, MMI_ALL_LANG, {ORIYA_C_SSA, ORIYA_S_HALANT, ORIYA_C_NNA, ORIYA_S_HALANT, 0x0},
+     {ORIYA_C_SSA, ORIYA_S_HALANT, ORIYA_C_NNA, ORIYA_S_HALANT, 0x0}},
+    {0, 5, 3, MMI_ALL_LANG, {ORIYA_C_SSA, ORIYA_S_HALANT, ORIYA_C_NNA, ORIYA_DV_U, ORIYA_S_CHANDRA_BINDU, 0x0},
+     {ORIYA_S_SSANNA, ORIYA_S_CHANDRA_BINDU, ORIYA_L_U, 0x0}},
+    {0, 5, 3, MMI_ALL_LANG, {ORIYA_C_SSA, ORIYA_S_HALANT, ORIYA_C_NNA, ORIYA_DV_UU, ORIYA_S_CHANDRA_BINDU, 0x0},
+     {ORIYA_S_SSANNA, ORIYA_S_CHANDRA_BINDU, ORIYA_L_UU, 0x0}},
+    {0, 5, 3, MMI_ALL_LANG, {ORIYA_C_SSA, ORIYA_S_HALANT, ORIYA_C_NNA, ORIYA_DV_R, ORIYA_S_CHANDRA_BINDU, 0x0},
+     {ORIYA_S_SSANNA, ORIYA_S_CHANDRA_BINDU, ORIYA_L_VR, 0x0}},
+    {0, 5, 3, MMI_ALL_LANG, {ORIYA_C_SSA, ORIYA_S_HALANT, ORIYA_C_NNA, ORIYA_DV_RR, ORIYA_S_CHANDRA_BINDU, 0x0},
+     {ORIYA_S_SSANNA, ORIYA_S_CHANDRA_BINDU, ORIYA_L_VRR, 0x0}},
+    {0, 5, 3, MMI_ALL_LANG, {ORIYA_C_SSA, ORIYA_S_HALANT, ORIYA_AC_YYA, ORIYA_C_RA, ORIYA_S_HALANT, 0x0},
+     {ORIYA_C_SSA, ORIYA_SUP_RA, ORIYA_SAN_YA, 0x0}},
+    {1, 6, 5, MMI_ALL_LANG, {ORIYA_C_SSA, ORIYA_S_HALANT, ORIYA_C_RA, ORIYA_C_RA, ORIYA_S_HALANT, ORIYA_S_HALANT, 0x0},
+     {ORIYA_C_SSA, ORIYA_S_HALANT, ORIYA_C_RA, ORIYA_SUP_RA, ORIYA_S_HALANT, 0x0}},
+};
+
+const ire_glyph_info_table_struct ORIYA_SA_Tbl[] = 
+{
+    /* sa + space */
+    {0, 1, 1, MMI_ALL_LANG, {ORIYA_C_SA, 0x0}, {ORIYA_C_SA, 0x0}},
+
+    /* sa + halant + ra -> sa + subscript RA OR sra */
+    {0, 3, 1, MMI_ALL_LANG, {ORIYA_C_SA, ORIYA_S_HALANT, ORIYA_C_KA, 0x0}, {ORIYA_H_SAKA, 0x0}},
+    
+    {0, 3, 1, MMI_ALL_LANG, {ORIYA_C_SA, ORIYA_S_HALANT, ORIYA_C_NA, 0x0}, {ORIYA_H_SANA, 0x0}},
+    {0, 3, 1, MMI_ALL_LANG, {ORIYA_C_SA, ORIYA_S_HALANT, ORIYA_C_LA, 0x0}, {ORIYA_H_SALA, 0x0}},
+    {0, 3, 1, MMI_ALL_LANG, {ORIYA_C_SA, ORIYA_S_HALANT, ORIYA_S_WA, 0x0}, {ORIYA_H_SAWA, 0x0}},
+    {0, 3, 1, MMI_ALL_LANG, {ORIYA_C_SA, ORIYA_S_HALANT, ORIYA_C_THA, 0x0}, {ORIYA_H_SATHA, 0x0}},
+    {0, 3, 1, MMI_ALL_LANG, {ORIYA_C_SA, ORIYA_S_HALANT, ORIYA_C_TA, 0x0}, {ORIYA_H_SATA, 0x0}},
+    {0, 3, 1, MMI_ALL_LANG, {ORIYA_C_SA, ORIYA_S_HALANT, ORIYA_C_KHA, 0x0}, {ORIYA_D_SAKHA, 0x0}},
+    {0, 3, 1, MMI_ALL_LANG, {ORIYA_C_SA, ORIYA_S_HALANT, ORIYA_C_TTA, 0x0}, {ORIYA_D_SATTA, 0x0}},
+    {0, 3, 1, MMI_ALL_LANG, {ORIYA_C_SA, ORIYA_S_HALANT, ORIYA_C_PA, 0x0}, {ORIYA_D_SAPA, 0x0}},
+    {0, 3, 1, MMI_ALL_LANG, {ORIYA_C_SA, ORIYA_S_HALANT, ORIYA_C_PHA, 0x0}, {ORIYA_D_SAPHA, 0x0}},
+    {0, 3, 1, MMI_ALL_LANG, {ORIYA_C_SA, ORIYA_S_HALANT, ORIYA_C_SA, 0x0}, {ORIYA_D_SASA, 0x0}},
+    {0, 3, 1, MMI_ALL_LANG, {ORIYA_C_SA, ORIYA_S_HALANT, ORIYA_C_MA, 0x0}, {ORIYA_L_SAMA, 0x0}},
+		{0, 3, 2, MMI_ALL_LANG, {ORIYA_C_SA, ORIYA_S_HALANT, ORIYA_AC_YYA, 0x0}, {ORIYA_C_SA, ORIYA_SAN_YA, 0x0}},
+    {0, 4, 1, MMI_ALL_LANG, {ORIYA_C_SA, ORIYA_S_HALANT, ORIYA_C_TA, ORIYA_DV_U, 0x0}, {ORIYA_S_SATAU, 0x0}}, 	
+    {0, 5, 3, MMI_ALL_LANG, {ORIYA_C_SA, ORIYA_S_HALANT, ORIYA_AC_YYA, ORIYA_C_RA, ORIYA_S_HALANT, 0x0},
+     {ORIYA_C_SA, ORIYA_SUP_RA, ORIYA_SAN_YA, 0x0}},
+    {0, 5, 1, MMI_ALL_LANG, {ORIYA_C_SA, ORIYA_S_HALANT, ORIYA_C_TA, ORIYA_S_HALANT, ORIYA_C_RA, 0x0},
+     {ORIYA_S_SATARA, 0x0}},
+    {1, 6, 5, MMI_ALL_LANG, {ORIYA_C_SA, ORIYA_S_HALANT, ORIYA_C_RA, ORIYA_C_RA, ORIYA_S_HALANT, ORIYA_S_HALANT, 0x0},
+     {ORIYA_C_SA, ORIYA_S_HALANT, ORIYA_C_RA, ORIYA_SUP_RA, ORIYA_S_HALANT, 0x0}},
+};
+
+const ire_glyph_info_table_struct ORIYA_HA_Tbl[] = 
+{
+    /* ha + space  */
+    {0, 1, 1, MMI_ALL_LANG, {ORIYA_C_HA, 0x0}, {ORIYA_C_HA, 0x0}},
+
+    /* ha + halant + ra -> ligature form OR ha + subscript RA(special form) */
+    {0, 3, 1, MMI_ALL_LANG, {ORIYA_C_HA, ORIYA_S_HALANT, ORIYA_C_NA, 0x0}, {ORIYA_H_HANA, 0x0}},
+    /* ha + halant + ya -> ligature form */
+    {0, 3, 1, MMI_ALL_LANG, {ORIYA_C_HA, ORIYA_S_HALANT, ORIYA_C_LA, 0x0}, {ORIYA_H_HALA, 0x0}},
+    /* ha + halant + ma -> ligature form */
+    {0, 3, 1, MMI_ALL_LANG, {ORIYA_C_HA, ORIYA_S_HALANT, ORIYA_S_WA, 0x0}, {ORIYA_H_HAWA, 0x0}},
+    {0, 3, 1, MMI_ALL_LANG, {ORIYA_C_HA, ORIYA_S_HALANT, ORIYA_C_NNA, 0x0}, {ORIYA_D_HANNA, 0x0}},
+		{0, 3, 2, MMI_ALL_LANG, {ORIYA_C_HA, ORIYA_S_HALANT, ORIYA_AC_YYA, 0x0}, {ORIYA_C_HA, ORIYA_SAN_YA, 0x0}},
+		{0, 3, 1, MMI_ALL_LANG, {ORIYA_C_HA, ORIYA_S_HALANT, ORIYA_C_MA, 0x0}, {ORIYA_L_HAMA, 0x0}},
+    {0, 5, 3, MMI_ALL_LANG, {ORIYA_C_HA, ORIYA_S_HALANT, ORIYA_AC_YYA, ORIYA_C_RA, ORIYA_S_HALANT, 0x0},
+     {ORIYA_C_HA, ORIYA_SUP_RA, ORIYA_SAN_YA, 0x0}},
+    {1, 6, 5, MMI_ALL_LANG, {ORIYA_C_HA, ORIYA_S_HALANT, ORIYA_C_RA, ORIYA_C_RA, ORIYA_S_HALANT, ORIYA_S_HALANT, 0x0},
+     {ORIYA_C_HA, ORIYA_S_HALANT, ORIYA_C_RA, ORIYA_SUP_RA, ORIYA_S_HALANT, 0x0}},
+};
+
+/* ADDITIONAL CONSONANT'S TABLE */
+
+const ire_glyph_info_table_struct ORIYA_RRA_Tbl[] = 
+{
+    /* qa + space */
+    {0, 1, 1, MMI_ALL_LANG, {ORIYA_AC_RRA, 0x0}, {ORIYA_AC_RRA, 0x0}},
+    {0, 3, 2, MMI_ALL_LANG, {ORIYA_AC_RRA, ORIYA_S_HALANT, ORIYA_AC_YYA, 0x0}, {ORIYA_AC_RRA, ORIYA_SAN_YA, 0x0}},
+    {0, 3, 1, MMI_ALL_LANG, {ORIYA_AC_RRA, ORIYA_S_HALANT, ORIYA_C_MA, 0x0}, {ORIYA_L_RRAMA, 0x0}},
+    {0, 5, 3, MMI_ALL_LANG, {ORIYA_AC_RRA, ORIYA_S_HALANT, ORIYA_AC_YYA, ORIYA_C_RA, ORIYA_S_HALANT, 0x0},
+     {ORIYA_AC_RRA, ORIYA_SUP_RA, ORIYA_SAN_YA, 0x0}},
+    {1, 6, 5, MMI_ALL_LANG, {ORIYA_AC_RRA, ORIYA_S_HALANT, ORIYA_C_RA, ORIYA_C_RA, ORIYA_S_HALANT, ORIYA_S_HALANT, 0x0},
+     {ORIYA_AC_RRA, ORIYA_S_HALANT, ORIYA_C_RA, ORIYA_SUP_RA, ORIYA_S_HALANT, 0x0}},
+};
+
+const ire_glyph_info_table_struct ORIYA_RHA_Tbl[] = 
+{
+    /* khha + space */
+    {0, 1, 1, MMI_ALL_LANG, {ORIYA_AC_RHA, 0x0}, {ORIYA_AC_RHA, 0x0}},
+    {0, 3, 2, MMI_ALL_LANG, {ORIYA_AC_RHA, ORIYA_S_HALANT, ORIYA_AC_YYA, 0x0}, {ORIYA_AC_RHA, ORIYA_SAN_YA, 0x0}},
+    {0, 3, 1, MMI_ALL_LANG, {ORIYA_AC_RHA, ORIYA_S_HALANT, ORIYA_C_MA, 0x0}, {ORIYA_L_RHAMA, 0x0}},	
+    {0, 5, 3, MMI_ALL_LANG, {ORIYA_AC_RHA, ORIYA_S_HALANT, ORIYA_AC_YYA, ORIYA_C_RA, ORIYA_S_HALANT, 0x0},
+     {ORIYA_AC_RHA, ORIYA_SUP_RA, ORIYA_SAN_YA, 0x0}},
+    {1, 6, 5, MMI_ALL_LANG, {ORIYA_AC_RHA, ORIYA_S_HALANT, ORIYA_C_RA, ORIYA_C_RA, ORIYA_S_HALANT, ORIYA_S_HALANT, 0x0},
+     {ORIYA_AC_RHA, ORIYA_S_HALANT, ORIYA_C_RA, ORIYA_SUP_RA, ORIYA_S_HALANT, 0x0}},
+};
+
+const ire_glyph_info_table_struct ORIYA_YYA_Tbl[] = 
+{
+    /* ghhaa + space */
+    {0, 1, 1, MMI_ALL_LANG, {ORIYA_AC_YYA, 0x0}, {ORIYA_AC_YYA, 0x0}},
+    {0, 3, 2, MMI_ALL_LANG, {ORIYA_AC_YYA, ORIYA_S_HALANT, ORIYA_AC_YYA, 0x0}, {ORIYA_AC_YYA, ORIYA_SAN_YA, 0x0}},
+    {0, 3, 1, MMI_ALL_LANG, {ORIYA_AC_YYA, ORIYA_S_HALANT, ORIYA_C_MA, 0x0}, {ORIYA_L_YYAMA, 0x0}},	
+    {0, 5, 3, MMI_ALL_LANG, {ORIYA_AC_YYA, ORIYA_S_HALANT, ORIYA_AC_YYA, ORIYA_C_RA, ORIYA_S_HALANT, 0x0},
+     {ORIYA_AC_YYA, ORIYA_SUP_RA, ORIYA_SAN_YA, 0x0}},
+    {1, 6, 5, MMI_ALL_LANG, {ORIYA_AC_YYA, ORIYA_S_HALANT, ORIYA_C_RA, ORIYA_C_RA, ORIYA_S_HALANT, ORIYA_S_HALANT, 0x0},
+     {ORIYA_AC_YYA, ORIYA_S_HALANT, ORIYA_C_RA, ORIYA_SUP_RA, ORIYA_S_HALANT, 0x0}},
+};
+
+const ire_glyph_info_table_struct ORIYA_VRR_Tbl[] = 
+{
+
+    {0, 1, 1, MMI_ALL_LANG, {ORIYA_NG_RR, 0x0}, {ORIYA_NG_RR, 0x0}},
+
+};
+
+const ire_glyph_info_table_struct ORIYA_VLL_Tbl[] = 
+{
+    {0, 1, 1, MMI_ALL_LANG, {ORIYA_NG_LL, 0x0}, {ORIYA_NG_LL, 0x0}},
+
+};
+
+const ire_glyph_info_table_struct ORIYA_ISSHAR_Tbl[] = 
+{
+    {0, 1, 1, MMI_ALL_LANG, {ORIYA_S_ISSHAR, 0x0}, {ORIYA_S_ISSHAR, 0x0}},
+		{0, 3, 2, MMI_ALL_LANG, {ORIYA_S_ISSHAR, ORIYA_S_HALANT, ORIYA_AC_YYA, 0x0}, {ORIYA_S_ISSHAR, ORIYA_SAN_YA, 0x0}},
+		{0, 3, 1, MMI_ALL_LANG, {ORIYA_S_ISSHAR, ORIYA_S_HALANT, ORIYA_C_MA, 0x0}, {ORIYA_L_ISSHARMA, 0x0}},	
+    {0, 5, 3, MMI_ALL_LANG, {ORIYA_S_ISSHAR, ORIYA_S_HALANT, ORIYA_AC_YYA, ORIYA_C_RA, ORIYA_S_HALANT, 0x0},
+     {ORIYA_S_ISSHAR, ORIYA_SUP_RA, ORIYA_SAN_YA, 0x0}},
+    {1, 6, 5, MMI_ALL_LANG,
+     {ORIYA_S_ISSHAR, ORIYA_S_HALANT, ORIYA_C_RA, ORIYA_C_RA, ORIYA_S_HALANT, ORIYA_S_HALANT, 0x0}, {ORIYA_S_ISSHAR,
+                                                                                                     ORIYA_S_HALANT,
+                                                                                                     ORIYA_C_RA,
+                                                                                                     ORIYA_SUP_RA,
+                                                                                                     ORIYA_S_HALANT,
+                                                                                                     0x0}},
+};
+
+const ire_glyph_info_table_struct ORIYA_WA_Tbl[] = 
+{
+    /* fa +space */
+    {0, 1, 1, MMI_ALL_LANG, {ORIYA_S_WA, 0x0}, {ORIYA_S_WA, 0x0}},
+    {0, 3, 2, MMI_ALL_LANG, {ORIYA_S_WA, ORIYA_S_HALANT, ORIYA_AC_YYA, 0x0}, {ORIYA_S_WA, ORIYA_SAN_YA, 0x0}},	
+    {0, 3, 1, MMI_ALL_LANG, {ORIYA_S_WA, ORIYA_S_HALANT, ORIYA_C_MA, 0x0}, {ORIYA_L_WAMA, 0x0}},	
+    {0, 5, 3, MMI_ALL_LANG, {ORIYA_S_WA, ORIYA_S_HALANT, ORIYA_AC_YYA, ORIYA_C_RA, ORIYA_S_HALANT, 0x0},
+     {ORIYA_S_WA, ORIYA_SUP_RA, ORIYA_SAN_YA, 0x0}},
+    {1, 6, 5, MMI_ALL_LANG, {ORIYA_S_WA, ORIYA_S_HALANT, ORIYA_C_RA, ORIYA_C_RA, ORIYA_S_HALANT, ORIYA_S_HALANT, 0x0},
+     {ORIYA_S_WA, ORIYA_S_HALANT, ORIYA_C_RA, ORIYA_SUP_RA, ORIYA_S_HALANT, 0x0}},
+};
+
+
+/* VARIOUS SIGNS TABLES */
+const ire_glyph_info_table_struct ORIYA_CHNDR_BINDU_Tbl[] = 
+{
+    {0, 1, 1, MMI_ALL_LANG, {ORIYA_S_CHANDRA_BINDU, 0x0}, {ORIYA_S_CHANDRA_BINDU, 0x0}}
+};
+
+const ire_glyph_info_table_struct ORIYA_ANUSVARA_Tbl[] = 
+{
+    {0, 1, 1, MMI_ALL_LANG, {ORIYA_S_ANUSVARA, 0x0}, {ORIYA_S_ANUSVARA, 0x0}}
+};
+
+const ire_glyph_info_table_struct ORIYA_VISARGA_Tbl[] = 
+{
+    {0, 1, 1, MMI_ALL_LANG, {ORIYA_S_VISARGA, 0x0}, {ORIYA_S_VISARGA, 0x0}}
+};
+
+const ire_glyph_info_table_struct ORIYA_NUKTA_Tbl[] = 
+{
+    {0, 1, 1, MMI_ALL_LANG, {ORIYA_S_NUKTA, 0x0}, {ORIYA_S_NUKTA, 0x0}}
+};
+
+const ire_glyph_info_table_struct ORIYA_AVAGRAHA_Tbl[] = 
+{
+    {0, 1, 1, MMI_ALL_LANG, {ORIYA_NS_AVAGRAHA, 0x0}, {ORIYA_NS_AVAGRAHA, 0x0}}
+};
+
+/* INDEPENDENT VOWEL'S TABLE */
+
+const ire_glyph_info_table_struct ORIYA_A_Tbl[] = 
+{
+    {0, 1, 1, MMI_ALL_LANG, {ORIYA_IV_A, 0x0}, {ORIYA_IV_A, 0x0}}
+};
+
+const ire_glyph_info_table_struct ORIYA_AA_Tbl[] = 
+{
+    {0, 1, 1, MMI_ALL_LANG, {ORIYA_IV_AA, 0x0}, {ORIYA_IV_AA, 0x0}}
+};
+
+const ire_glyph_info_table_struct ORIYA_I_Tbl[] = 
+{
+    {0, 1, 1, MMI_ALL_LANG, {ORIYA_IV_I, 0x0}, {ORIYA_IV_I, 0x0}}
+};
+
+const ire_glyph_info_table_struct ORIYA_II_Tbl[] = 
+{
+    {0, 1, 1, MMI_ALL_LANG, {ORIYA_IV_II, 0x0}, {ORIYA_IV_II, 0x0}}
+};
+
+const ire_glyph_info_table_struct ORIYA_U_Tbl[] = 
+{
+    {0, 1, 1, MMI_ALL_LANG, {ORIYA_IV_U, 0x0}, {ORIYA_IV_U, 0x0}}
+};
+
+const ire_glyph_info_table_struct ORIYA_UU_Tbl[] = 
+{
+    {0, 1, 1, MMI_ALL_LANG, {ORIYA_IV_UU, 0x0}, {ORIYA_IV_UU, 0x0}}
+};
+
+const ire_glyph_info_table_struct ORIYA_VR_Tbl[] = 
+{
+    {0, 1, 1, MMI_ALL_LANG, {ORIYA_IV_R, 0x0}, {ORIYA_IV_R, 0x0}}
+};
+
+const ire_glyph_info_table_struct ORIYA_VL_Tbl[] = 
+{
+    {0, 1, 1, MMI_ALL_LANG, {ORIYA_IV_L, 0x0}, {ORIYA_IV_L, 0x0}}
+};
+
+const ire_glyph_info_table_struct ORIYA_E_Tbl[] = 
+{
+    {0, 1, 1, MMI_ALL_LANG, {ORIYA_IV_E, 0x0}, {ORIYA_IV_E, 0x0}}
+};
+
+const ire_glyph_info_table_struct ORIYA_AI_Tbl[] = 
+{
+    {0, 1, 1, MMI_ALL_LANG, {ORIYA_IV_AI, 0x0}, {ORIYA_IV_AI, 0x0}}
+};
+
+const ire_glyph_info_table_struct ORIYA_O_Tbl[] = 
+{
+    {0, 1, 1, MMI_ALL_LANG, {ORIYA_IV_O, 0x0}, {ORIYA_IV_O, 0x0}},
+};
+
+const ire_glyph_info_table_struct ORIYA_AU_Tbl[] = 
+{
+    {0, 1, 1, MMI_ALL_LANG, {ORIYA_IV_AU, 0x0}, {ORIYA_IV_AU, 0x0}},
+};
+
+/* DEPENDENT VOWEL SIGN/MATRAS TABLES */
+
+const ire_glyph_info_table_struct ORIYA_MAA_Tbl[] = 
+{
+    {0, 1, 1, MMI_ALL_LANG, {ORIYA_DV_AA, 0x0}, {ORIYA_DV_AA, 0x0}},
+    {0, 2, 1, MMI_ALL_LANG, {ORIYA_DV_AA, ORIYA_S_CHANDRA_BINDU, 0x0}, {ORIYA_L_ACB, 0x0}},
+	{0, 3, 2, MMI_ALL_LANG, {ORIYA_DV_AA, ORIYA_C_RA, ORIYA_S_HALANT, 0x0}, {ORIYA_SUP_RA, ORIYA_DV_AA, 0x0}},
+    {0, 4, 3, MMI_ALL_LANG, {ORIYA_DV_AA, ORIYA_C_RA, ORIYA_S_HALANT, ORIYA_S_CHANDRA_BINDU, 0x0},
+     {ORIYA_S_CHANDRA_BINDU, ORIYA_SUP_RA1, ORIYA_DV_AA, 0x0}}
+};
+
+const ire_glyph_info_table_struct ORIYA_MI_Tbl[] = 
+{
+    {0, 1, 1, MMI_ALL_LANG, {ORIYA_DV_I, 0x0}, {ORIYA_DV_I, 0x0}},
+    {0, 3, 2, MMI_ALL_LANG, {ORIYA_DV_I, ORIYA_C_RA, ORIYA_S_HALANT, 0x0}, {ORIYA_DV_I, ORIYA_SUP_RA1, 0x0}}
+};
+
+const ire_glyph_info_table_struct ORIYA_MII_Tbl[] = 
+{
+    {0, 1, 1, MMI_ALL_LANG, {ORIYA_DV_II, 0x0}, {ORIYA_DV_II, 0x0}},
+	{0, 3, 2, MMI_ALL_LANG, {ORIYA_DV_II, ORIYA_C_RA, ORIYA_S_HALANT, 0x0}, {ORIYA_SUP_RA, ORIYA_DV_II, 0x0}}
+};
+
+const ire_glyph_info_table_struct ORIYA_MU_Tbl[] = 
+{
+    {0, 1, 1, MMI_ALL_LANG, {ORIYA_DV_U, 0x0}, {ORIYA_DV_U, 0x0}}
+};
+
+const ire_glyph_info_table_struct ORIYA_MUU_Tbl[] = 
+{
+    {0, 1, 1, MMI_ALL_LANG, {ORIYA_DV_UU, 0x0}, {ORIYA_DV_UU, 0x0}}
+};
+
+const ire_glyph_info_table_struct ORIYA_MR_Tbl[] = 
+{
+    {0, 1, 1, MMI_ALL_LANG, {ORIYA_DV_R, 0x0}, {ORIYA_DV_R, 0x0}}
+};
+const ire_glyph_info_table_struct ORIYA_MRR_Tbl[] = 
+{
+    {0, 1, 1, MMI_ALL_LANG, {ORIYA_DV_RR, 0x0}, {ORIYA_DV_RR, 0x0}}
+};
+
+const ire_glyph_info_table_struct ORIYA_ME_Tbl[] = 
+{
+    {0, 1, 1, MMI_ALL_LANG, {ORIYA_DV_E, 0x0}, {ORIYA_DV_E, 0x0}},
+};
+
+const ire_glyph_info_table_struct ORIYA_MAI_Tbl[] = 
+{
+    {0, 1, 2, MMI_ALL_LANG, {ORIYA_DV_AI, 0x0}, {ORIYA_DV_E, ORIYA_S_AI, 0x0}},
+};
+
+const ire_glyph_info_table_struct ORIYA_SANAU_Tbl[] = 
+{
+    {0, 1, 2, MMI_ALL_LANG, {ORIYA_SAN_AU, 0x0}, {ORIYA_S_AI, ORIYA_DV_AA, 0x0}},
+};
+
+const ire_glyph_info_table_struct ORIYA_MO_Tbl[] = 
+{
+    {0, 1, 2, MMI_ALL_LANG, {ORIYA_DV_O, 0x0}, {ORIYA_DV_E, ORIYA_DV_AA, 0x0}},
+};
+
+const ire_glyph_info_table_struct ORIYA_MAU_Tbl[] = 
+{
+    {0, 1, 2, MMI_ALL_LANG, {ORIYA_DV_AU, 0x0}, {ORIYA_DV_E, ORIYA_S_AU, 0x0}},
+};
+
+const ire_glyph_info_table_struct ORIYA_HAL_Tbl[] = 
+{
+    {0, 1, 1, MMI_ALL_LANG, {ORIYA_S_HALANT, 0x0}, {ORIYA_S_HALANT, 0x0}},
+	{0, 2, 1, MMI_ALL_LANG, {ORIYA_S_HALANT, ORIYA_C_RA, 0x0}, {ORIYA_SUB_RA, 0x0}},
+    {0, 3, 3, MMI_ALL_LANG, {ORIYA_S_HALANT, ORIYA_C_RA, ORIYA_DV_U, 0x0},
+     {ORIYA_S_HALANT, ORIYA_C_RA, ORIYA_DV_U, 0x0}},
+    {0, 3, 3, MMI_ALL_LANG, {ORIYA_S_HALANT, ORIYA_C_RA, ORIYA_DV_UU, 0x0},
+     {ORIYA_S_HALANT, ORIYA_C_RA, ORIYA_DV_UU, 0x0}},
+    {0, 3, 3, MMI_ALL_LANG, {ORIYA_S_HALANT, ORIYA_C_RA, ORIYA_DV_R, 0x0},
+     {ORIYA_S_HALANT, ORIYA_C_RA, ORIYA_DV_R, 0x0}},
+    {0, 3, 3, MMI_ALL_LANG, {ORIYA_S_HALANT, ORIYA_C_RA, ORIYA_DV_RR, 0x0},
+     {ORIYA_S_HALANT, ORIYA_C_RA, ORIYA_DV_RR, 0x0}},
+    {0, 3, 3, MMI_ALL_LANG, {ORIYA_S_HALANT, ORIYA_C_RA, ORIYA_NG_L, 0x0},
+     {ORIYA_S_HALANT, ORIYA_C_RA, ORIYA_NG_L, 0x0}},
+    {0, 3, 3, MMI_ALL_LANG, {ORIYA_S_HALANT, ORIYA_C_RA, ORIYA_NG_VLL, 0x0},
+     {ORIYA_S_HALANT, ORIYA_C_RA, ORIYA_NG_VLL, 0x0}},
+    {1, 3, 3, MMI_ALL_LANG, {ORIYA_S_HALANT, ORIYA_C_RA, ORIYA_S_HALANT, 0x0},
+     {ORIYA_S_HALANT, ORIYA_C_RA, ORIYA_S_HALANT, 0x0}},
+};
+
+const ire_glyph_info_table_struct ORIYA_MAIM_Tbl[] = 
+{
+    {0, 1, 1, MMI_ALL_LANG, {ORIYA_S_AI, 0x0}, {ORIYA_S_AI, 0x0}}
+};
+
+const ire_glyph_info_table_struct ORIYA_MAUM_Tbl[] = 
+{
+    {0, 1, 1, MMI_ALL_LANG, {ORIYA_S_AU, 0x0}, {ORIYA_S_AU, 0x0}}
+};
+
+const ire_glyph_info_table_struct ORIYA_MSVL_Tbl[] = 
+{
+    {0, 1, 1, MMI_ALL_LANG, {ORIYA_NG_L, 0x0}, {ORIYA_NG_L, 0x0}}
+};
+const ire_glyph_info_table_struct ORIYA_MSVLL_Tbl[] = 
+{
+    {0, 1, 1, MMI_ALL_LANG, {ORIYA_NG_VLL, 0x0}, {ORIYA_NG_VLL, 0x0}}
+};
+
+const ire_glyph_info_table_struct ORIYA_MD_Tbl[] = 
+{
+    {0, 1, 1, MMI_ALL_LANG, {ORIYA_NG_D, 0x0}, {ORIYA_NG_D, 0x0}}
+};
+
+const ire_glyph_info_table_struct ORIYA_MDD_Tbl[] = 
+{
+    {0, 1, 1, MMI_ALL_LANG, {ORIYA_NG_DD, 0x0}, {ORIYA_NG_DD, 0x0}}
+};
+
+/* NUMERALS TABLE */
+const ire_glyph_info_table_struct ORIYA_ZERO_Tbl[] = 
+{
+    {0, 1, 1, MMI_ALL_LANG, {ORIYA_D_ZERO, 0x0}, {ORIYA_D_ZERO, 0x0}}
+};
+
+const ire_glyph_info_table_struct ORIYA_ONE_Tbl[] = 
+{
+    {0, 1, 1, MMI_ALL_LANG, {ORIYA_D_ONE, 0x0}, {ORIYA_D_ONE, 0x0}}
+};
+
+const ire_glyph_info_table_struct ORIYA_TWO_Tbl[] = 
+{
+    {0, 1, 1, MMI_ALL_LANG, {ORIYA_D_TWO, 0x0}, {ORIYA_D_TWO, 0x0}}
+};
+
+const ire_glyph_info_table_struct ORIYA_THREE_Tbl[] = 
+{
+    {0, 1, 1, MMI_ALL_LANG, {ORIYA_D_THREE, 0x0}, {ORIYA_D_THREE, 0x0}}
+};
+
+const ire_glyph_info_table_struct ORIYA_FOUR_Tbl[] = 
+{
+    {0, 1, 1, MMI_ALL_LANG, {ORIYA_D_FOUR, 0x0}, {ORIYA_D_FOUR, 0x0}}
+};
+
+const ire_glyph_info_table_struct ORIYA_FIVE_Tbl[] = 
+{
+    {0, 1, 1, MMI_ALL_LANG, {ORIYA_D_FIVE, 0x0}, {ORIYA_D_FIVE, 0x0}}
+};
+
+const ire_glyph_info_table_struct ORIYA_SIX_Tbl[] = 
+{
+    {0, 1, 1, MMI_ALL_LANG, {ORIYA_D_SIX, 0x0}, {ORIYA_D_SIX, 0x0}}
+};
+
+const ire_glyph_info_table_struct ORIYA_SEVEN_Tbl[] = 
+{
+    {0, 1, 1, MMI_ALL_LANG, {ORIYA_D_SEVEN, 0x0}, {ORIYA_D_SEVEN, 0x0}}
+};
+
+const ire_glyph_info_table_struct ORIYA_EIGHT_Tbl[] = 
+{
+    {0, 1, 1, MMI_ALL_LANG, {ORIYA_D_EIGHT, 0x0}, {ORIYA_D_EIGHT, 0x0}}
+};
+
+const ire_glyph_info_table_struct ORIYA_NINE_Tbl[] = 
+{
+    {0, 1, 1, MMI_ALL_LANG, {ORIYA_D_NINE, 0x0}, {ORIYA_D_NINE, 0x0}}
+};
+/* }; */
+
+const ire_main_glyph_table_struct OriyaTbl[] = 
+{
+
+    /* NULL for devanagari sign Short A */
+    {ORIYA_CHNDR_BINDU_Tbl, sizeof(ORIYA_CHNDR_BINDU_Tbl) / sizeof(ORIYA_CHNDR_BINDU_Tbl[0]), 1}
+    ,
+    {ORIYA_ANUSVARA_Tbl, sizeof(ORIYA_ANUSVARA_Tbl) / sizeof(ORIYA_ANUSVARA_Tbl[0]), 1}
+    ,
+    {ORIYA_VISARGA_Tbl, sizeof(ORIYA_VISARGA_Tbl) / sizeof(ORIYA_VISARGA_Tbl[0]), 1}
+    ,
+    /* INDEPENDENT VOWELS */
+    /* NULL For Independent Vowel L,Chandra E,Short E,Chandra O,Short O */
+    {NULL, 0, 0}
+    ,
+    {ORIYA_A_Tbl, sizeof(ORIYA_A_Tbl) / sizeof(ORIYA_A_Tbl[0]), 1}
+    ,
+    {ORIYA_AA_Tbl, sizeof(ORIYA_AA_Tbl) / sizeof(ORIYA_AA_Tbl[0]), 1}
+    ,
+    {ORIYA_I_Tbl, sizeof(ORIYA_I_Tbl) / sizeof(ORIYA_I_Tbl[0]), 1}
+    ,
+    {ORIYA_II_Tbl, sizeof(ORIYA_II_Tbl) / sizeof(ORIYA_II_Tbl[0]), 1}
+    ,
+    {ORIYA_U_Tbl, sizeof(ORIYA_U_Tbl) / sizeof(ORIYA_U_Tbl[0]), 1}
+    ,
+    {ORIYA_UU_Tbl, sizeof(ORIYA_UU_Tbl) / sizeof(ORIYA_UU_Tbl[0]), 1}
+    ,
+    {ORIYA_VR_Tbl, sizeof(ORIYA_VR_Tbl) / sizeof(ORIYA_VR_Tbl[0]), 1}
+    ,
+    {ORIYA_VL_Tbl, sizeof(ORIYA_VL_Tbl) / sizeof(ORIYA_VL_Tbl[0]), 1}
+    ,
+    {NULL, 0, 0}
+    ,
+    {NULL, 0, 0}
+    ,    
+    {ORIYA_E_Tbl, sizeof(ORIYA_E_Tbl) / sizeof(ORIYA_E_Tbl[0]), 1}
+    ,
+    {ORIYA_AI_Tbl, sizeof(ORIYA_AI_Tbl) / sizeof(ORIYA_AI_Tbl[0]), 1}
+    ,
+    {NULL, 0, 0}
+    ,
+    {NULL, 0, 0}
+    ,  
+    {ORIYA_O_Tbl, sizeof(ORIYA_O_Tbl) / sizeof(ORIYA_O_Tbl[0]), 2}
+    ,
+    {ORIYA_AU_Tbl, sizeof(ORIYA_AU_Tbl) / sizeof(ORIYA_AU_Tbl[0]), 2}
+    ,
+
+    /* Consonants */
+    {ORIYA_KA_Tbl, sizeof(ORIYA_KA_Tbl) / sizeof(ORIYA_KA_Tbl[0]), 6}
+    ,
+    {ORIYA_KHA_Tbl, sizeof(ORIYA_KHA_Tbl) / sizeof(ORIYA_KHA_Tbl[0]), 6}
+    ,
+    {ORIYA_GA_Tbl, sizeof(ORIYA_GA_Tbl) / sizeof(ORIYA_GA_Tbl[0]), 6}
+    ,
+    {ORIYA_GHA_Tbl, sizeof(ORIYA_GHA_Tbl) / sizeof(ORIYA_GHA_Tbl[0]), 6}
+    ,
+    {ORIYA_NGA_Tbl, sizeof(ORIYA_NGA_Tbl) / sizeof(ORIYA_NGA_Tbl[0]), 6}
+    ,
+    {ORIYA_CHA_Tbl, sizeof(ORIYA_CHA_Tbl) / sizeof(ORIYA_CHA_Tbl[0]), 6}
+    ,
+    {ORIYA_CHHA_Tbl, sizeof(ORIYA_CHHA_Tbl) / sizeof(ORIYA_CHHA_Tbl[0]), 6}
+    ,
+    {ORIYA_JA_Tbl, sizeof(ORIYA_JA_Tbl) / sizeof(ORIYA_JA_Tbl[0]), 6}
+    ,
+    {ORIYA_JHA_Tbl, sizeof(ORIYA_JHA_Tbl) / sizeof(ORIYA_JHA_Tbl[0]), 6}
+    ,
+    {ORIYA_NYA_Tbl, sizeof(ORIYA_NYA_Tbl) / sizeof(ORIYA_NYA_Tbl[0]), 6}
+    ,
+    {ORIYA_TTA_Tbl, sizeof(ORIYA_TTA_Tbl) / sizeof(ORIYA_TTA_Tbl[0]), 6}
+    ,
+    {ORIYA_TTHA_Tbl, sizeof(ORIYA_TTHA_Tbl) / sizeof(ORIYA_TTHA_Tbl[0]), 6}
+    ,
+    {ORIYA_DDA_Tbl, sizeof(ORIYA_DDA_Tbl) / sizeof(ORIYA_DDA_Tbl[0]), 6}
+    ,
+    {ORIYA_DDHA_Tbl, sizeof(ORIYA_DDHA_Tbl) / sizeof(ORIYA_DDHA_Tbl[0]), 6}
+    ,
+    {ORIYA_NNA_Tbl, sizeof(ORIYA_NNA_Tbl) / sizeof(ORIYA_NNA_Tbl[0]), 6}
+    ,
+    {ORIYA_TA_Tbl, sizeof(ORIYA_TA_Tbl) / sizeof(ORIYA_TA_Tbl[0]), 7}
+    ,
+    {ORIYA_THA_Tbl, sizeof(ORIYA_THA_Tbl) / sizeof(ORIYA_THA_Tbl[0]), 6}
+    ,
+    {ORIYA_DA_Tbl, sizeof(ORIYA_DA_Tbl) / sizeof(ORIYA_DA_Tbl[0]), 6}
+    ,
+    {ORIYA_DHA_Tbl, sizeof(ORIYA_DHA_Tbl) / sizeof(ORIYA_DHA_Tbl[0]), 6}
+    ,
+    {ORIYA_NA_Tbl, sizeof(ORIYA_NA_Tbl) / sizeof(ORIYA_NA_Tbl[0]), 7}
+    ,
+    {NULL, 0, 0}
+    ,
+    {ORIYA_PA_Tbl, sizeof(ORIYA_PA_Tbl) / sizeof(ORIYA_PA_Tbl[0]), 6}
+    ,
+    {ORIYA_PHA_Tbl, sizeof(ORIYA_PHA_Tbl) / sizeof(ORIYA_PHA_Tbl[0]), 6}
+    ,
+    {ORIYA_BA_Tbl, sizeof(ORIYA_BA_Tbl) / sizeof(ORIYA_BA_Tbl[0]), 6}
+    ,
+    {ORIYA_BHA_Tbl, sizeof(ORIYA_BHA_Tbl) / sizeof(ORIYA_BHA_Tbl[0]), 6}
+    ,
+    {ORIYA_MA_Tbl, sizeof(ORIYA_MA_Tbl) / sizeof(ORIYA_MA_Tbl[0]), 6}
+    ,
+    {ORIYA_YA_Tbl, sizeof(ORIYA_YA_Tbl) / sizeof(ORIYA_YA_Tbl[0]), 6}
+    ,
+    {ORIYA_RA_Tbl, sizeof(ORIYA_RA_Tbl) / sizeof(ORIYA_RA_Tbl[0]), 3}
+    ,
+    {NULL, 0, 0}
+    ,
+    {ORIYA_LA_Tbl, sizeof(ORIYA_LA_Tbl) / sizeof(ORIYA_LA_Tbl[0]), 6}
+    ,
+    {ORIYA_LLA_Tbl, sizeof(ORIYA_LLA_Tbl) / sizeof(ORIYA_LLA_Tbl[0]), 6}
+    ,
+    {NULL, 0, 0}    
+    ,
+    {ORIYA_VA_Tbl, sizeof(ORIYA_VA_Tbl) / sizeof(ORIYA_VA_Tbl[0]), 6}
+    ,
+    {ORIYA_SHA_Tbl, sizeof(ORIYA_SHA_Tbl) / sizeof(ORIYA_SHA_Tbl[0]), 6}
+    ,
+    {ORIYA_SSA_Tbl, sizeof(ORIYA_SSA_Tbl) / sizeof(ORIYA_SSA_Tbl[0]), 6}
+    ,
+    {ORIYA_SA_Tbl, sizeof(ORIYA_SA_Tbl) / sizeof(ORIYA_SA_Tbl[0]), 6}
+    ,
+    {ORIYA_HA_Tbl, sizeof(ORIYA_HA_Tbl) / sizeof(ORIYA_HA_Tbl[0]), 6}
+    ,
+    {NULL, 0, 0}
+    ,
+    {NULL, 0, 0}
+    ,
+
+    /* Various Signs */
+    /* NULL for Avagraha */
+    {ORIYA_NUKTA_Tbl, sizeof(ORIYA_NUKTA_Tbl) / sizeof(ORIYA_NUKTA_Tbl[0]), 1}
+    ,
+    {ORIYA_AVAGRAHA_Tbl, sizeof(ORIYA_AVAGRAHA_Tbl) / sizeof(ORIYA_AVAGRAHA_Tbl[0]), 1}
+    ,
+
+    /* Dependent Vowel Signs */
+    /* Null for RR,Short E,Chandra O,Short O */
+    {ORIYA_MAA_Tbl, sizeof(ORIYA_MAA_Tbl) / sizeof(ORIYA_MAA_Tbl[0]), 4}
+    ,
+    {ORIYA_MI_Tbl, sizeof(ORIYA_MI_Tbl) / sizeof(ORIYA_MI_Tbl[0]), 3}
+    ,
+    {ORIYA_MII_Tbl, sizeof(ORIYA_MII_Tbl) / sizeof(ORIYA_MII_Tbl[0]), 3}
+    ,
+    {ORIYA_MU_Tbl, sizeof(ORIYA_MU_Tbl) / sizeof(ORIYA_MU_Tbl[0]), 1}
+    ,
+    {ORIYA_MUU_Tbl, sizeof(ORIYA_MUU_Tbl) / sizeof(ORIYA_MUU_Tbl[0]), 1}
+    ,
+    {ORIYA_MR_Tbl, sizeof(ORIYA_MR_Tbl) / sizeof(ORIYA_MR_Tbl[0]), 1}
+    ,
+    {ORIYA_MRR_Tbl, sizeof(ORIYA_MRR_Tbl) / sizeof(ORIYA_MRR_Tbl[0]), 1}
+    ,
+    {NULL, 0, 0}
+    ,
+    {NULL, 0, 0}
+    ,
+    {ORIYA_ME_Tbl, sizeof(ORIYA_ME_Tbl) / sizeof(ORIYA_ME_Tbl[0]), 1}
+    ,
+    {ORIYA_MAI_Tbl, sizeof(ORIYA_MAI_Tbl) / sizeof(ORIYA_MAI_Tbl[0]), 1}
+    ,
+    {NULL, 0, 0}
+    ,
+    {ORIYA_SANAU_Tbl, sizeof(ORIYA_SANAU_Tbl) / sizeof(ORIYA_SANAU_Tbl[0]), 1}
+    ,
+    {ORIYA_MO_Tbl, sizeof(ORIYA_MO_Tbl) / sizeof(ORIYA_MO_Tbl[0]), 1}
+    ,
+    {ORIYA_MAU_Tbl, sizeof(ORIYA_MAU_Tbl) / sizeof(ORIYA_MAU_Tbl[0]), 1}
+    ,
+
+    /* Various Signs */
+    {ORIYA_HAL_Tbl, sizeof(ORIYA_HAL_Tbl) / sizeof(ORIYA_HAL_Tbl[0]), 3}
+    ,
+    {NULL, 0, 0}
+    ,
+    {NULL, 0, 0}
+    ,
+    {NULL, 0, 0}
+    ,
+    {NULL, 0, 0}
+    ,
+    {NULL, 0, 0}
+    ,
+    {NULL, 0, 0}
+    ,
+    {NULL, 0, 0}
+    ,
+    {NULL, 0, 0}
+    ,
+    {ORIYA_MAIM_Tbl, sizeof(ORIYA_MAIM_Tbl) / sizeof(ORIYA_MAIM_Tbl[0]), 1}
+    ,
+    {ORIYA_MAUM_Tbl, sizeof(ORIYA_MAUM_Tbl) / sizeof(ORIYA_MAUM_Tbl[0]), 1}
+    ,
+    /* Additional Consonant */
+    {NULL, 0, 0}
+    ,
+    {NULL, 0, 0}
+    ,
+    {NULL, 0, 0}
+    ,
+    {NULL, 0, 0}
+    ,
+    {ORIYA_RRA_Tbl, sizeof(ORIYA_RRA_Tbl) / sizeof(ORIYA_RRA_Tbl[0]), 6}
+    ,
+    {ORIYA_RHA_Tbl, sizeof(ORIYA_RHA_Tbl) / sizeof(ORIYA_RHA_Tbl[0]), 6}
+    ,
+    {NULL, 0, 0}
+    ,
+    {ORIYA_YYA_Tbl, sizeof(ORIYA_YYA_Tbl) / sizeof(ORIYA_YYA_Tbl[0]), 6}
+    ,
+/*PMT END MAUI_00027066 */
+    /* Generic Addition,used in Sanskrit only */
+    {ORIYA_VRR_Tbl, sizeof(ORIYA_VRR_Tbl) / sizeof(ORIYA_VRR_Tbl[0]), 1}
+    ,
+    {ORIYA_VLL_Tbl, sizeof(ORIYA_VLL_Tbl) / sizeof(ORIYA_VLL_Tbl[0]), 1}
+    ,
+    {ORIYA_MSVL_Tbl, sizeof(ORIYA_MSVL_Tbl) / sizeof(ORIYA_MSVL_Tbl[0]), 1}
+    ,
+    {ORIYA_MSVLL_Tbl, sizeof(ORIYA_MSVLL_Tbl) / sizeof(ORIYA_MSVLL_Tbl[0]), 1}
+    ,
+    {ORIYA_MD_Tbl, sizeof(ORIYA_MD_Tbl) / sizeof(ORIYA_MD_Tbl[0]), 1}
+    ,
+    {ORIYA_MDD_Tbl, sizeof(ORIYA_MDD_Tbl) / sizeof(ORIYA_MDD_Tbl[0]), 1}
+    ,
+    {ORIYA_ZERO_Tbl, sizeof(ORIYA_ZERO_Tbl) / sizeof(ORIYA_ZERO_Tbl[0]), 1}
+    ,
+    {ORIYA_ONE_Tbl, sizeof(ORIYA_ONE_Tbl) / sizeof(ORIYA_ONE_Tbl[0]), 1}
+    ,
+    {ORIYA_TWO_Tbl, sizeof(ORIYA_TWO_Tbl) / sizeof(ORIYA_TWO_Tbl[0]), 1}
+    ,
+    {ORIYA_THREE_Tbl, sizeof(ORIYA_THREE_Tbl) / sizeof(ORIYA_THREE_Tbl[0]), 1}
+    ,
+    {ORIYA_FOUR_Tbl, sizeof(ORIYA_FOUR_Tbl) / sizeof(ORIYA_FOUR_Tbl[0]), 1}
+    ,
+    {ORIYA_FIVE_Tbl, sizeof(ORIYA_FIVE_Tbl) / sizeof(ORIYA_FIVE_Tbl[0]), 1}
+    ,
+    {ORIYA_SIX_Tbl, sizeof(ORIYA_SIX_Tbl) / sizeof(ORIYA_SIX_Tbl[0]), 1}
+    ,
+    {ORIYA_SEVEN_Tbl, sizeof(ORIYA_SEVEN_Tbl) / sizeof(ORIYA_SEVEN_Tbl[0]), 1}
+    ,
+    {ORIYA_EIGHT_Tbl, sizeof(ORIYA_EIGHT_Tbl) / sizeof(ORIYA_EIGHT_Tbl[0]), 1}
+    ,
+    {ORIYA_NINE_Tbl, sizeof(ORIYA_NINE_Tbl) / sizeof(ORIYA_NINE_Tbl[0]), 1}
+    ,
+    {ORIYA_ISSHAR_Tbl, sizeof(ORIYA_ISSHAR_Tbl) / sizeof(ORIYA_ISSHAR_Tbl[0]), 6}
+    ,
+    {ORIYA_WA_Tbl, sizeof(ORIYA_WA_Tbl) / sizeof(ORIYA_WA_Tbl[0]), 6}
+};
+
+/* after consonant */
+
+#if defined (__MMI_MULTITAP_ORIYA__)
+
+const UI_character_type default_oriya_multitap_strings[MAX_MULTITAPS][32] = 
+{
+    {' ', '.', ORIYA_D_ZERO, ORIYA_DEVANAGARI_S_DANDA, ORIYA_DEVANAGARI_S_DOUBLE_DANDA, '0', '\0'}, /* key 0 */
+    {ORIYA_C_KA, ORIYA_C_KHA, ORIYA_C_GA, ORIYA_C_GHA, ORIYA_C_NGA, ORIYA_D_ONE, '1', '\0'},      /* key 1 */
+    {ORIYA_C_CHA, ORIYA_C_CHHA, ORIYA_C_JA, ORIYA_C_JHA, ORIYA_C_NYA, ORIYA_D_TWO, '2', '\0'},  /* key 2 */
+    {ORIYA_C_TTA, ORIYA_C_TTHA, ORIYA_C_DDA, ORIYA_C_DDHA, ORIYA_C_NNA, ORIYA_D_THREE, '3', '\0'},       /* key 3 */
+    {ORIYA_C_TA, ORIYA_C_THA, ORIYA_C_DA, ORIYA_C_DHA, ORIYA_C_NA, ORIYA_D_FOUR, '4', '\0'},    /* key 4 */
+    {ORIYA_C_PA, ORIYA_C_PHA, ORIYA_C_BA, ORIYA_C_BHA, ORIYA_C_MA, ORIYA_D_FIVE, '5', '\0'},     /* key 5 */
+    {ORIYA_C_YA, ORIYA_C_RA, ORIYA_C_LA, ORIYA_C_LLA, ORIYA_C_VA, ORIYA_AC_YYA, ORIYA_AC_RRA, ORIYA_AC_RHA, ORIYA_S_WA, ORIYA_D_SIX, '6', '\0'},  /* key 6 */
+    {ORIYA_C_SHA, ORIYA_C_SSA, ORIYA_C_SA, ORIYA_C_HA, ORIYA_S_ISSHAR, ORIYA_D_SEVEN, '7', '\0'},      /* key 7 */
+    {ORIYA_IV_A, ORIYA_IV_AA, ORIYA_IV_I, ORIYA_IV_II, ORIYA_IV_U, ORIYA_IV_UU, ORIYA_IV_R, ORIYA_IV_L, ORIYA_IV_E, ORIYA_IV_AI, ORIYA_IV_O, ORIYA_IV_AU, ORIYA_D_EIGHT, '8', '\0'},   /* key 8 */
+    {ORIYA_D_NINE, '9', '\0'},    /* key 9 */
+#if !defined(__MMI_MULTITAP_FOR_STAR_AND_POUND__)
+#else /* !defined(__MMI_MULTITAP_FOR_STAR_AND_POUND__) */ 
+    {'\0'},
+    {'\0'},
+#endif /* !defined(__MMI_MULTITAP_FOR_STAR_AND_POUND__) */ 
+};
+
+const UI_character_type default_oriyamatra_multitap_strings[MAX_MULTITAPS][32] = 
+{
+    {' ', ORIYA_S_HALANT, ORIYA_S_CHANDRA_BINDU, ORIYA_S_ANUSVARA, ORIYA_S_VISARGA, ORIYA_NS_AVAGRAHA, '.', ORIYA_D_ZERO, ORIYA_DEVANAGARI_S_DANDA, ORIYA_DEVANAGARI_S_DOUBLE_DANDA, '0', '\0'},    /* key 0 */
+    {ORIYA_C_KA, ORIYA_C_KHA, ORIYA_C_GA, ORIYA_C_GHA, ORIYA_C_NGA, ORIYA_D_ONE, '1', '\0'},      /* key 1 */
+    {ORIYA_C_CHA, ORIYA_C_CHHA, ORIYA_C_JA, ORIYA_C_JHA, ORIYA_C_NYA, ORIYA_D_TWO, '2', '\0'},  /* key 2 */
+    {ORIYA_C_TTA, ORIYA_C_TTHA, ORIYA_C_DDA, ORIYA_C_DDHA, ORIYA_C_NNA, ORIYA_D_THREE, '3', '\0'},       /* key 3 */
+    {ORIYA_C_TA, ORIYA_C_THA, ORIYA_C_DA, ORIYA_C_DHA, ORIYA_C_NA, ORIYA_D_FOUR, '4', '\0'},    /* key 4 */
+    {ORIYA_C_PA, ORIYA_C_PHA, ORIYA_C_BA, ORIYA_C_BHA, ORIYA_C_MA, ORIYA_D_FIVE, '5', '\0'},     /* key 5 */
+    {ORIYA_C_YA, ORIYA_C_RA, ORIYA_C_LA, ORIYA_C_LLA, ORIYA_C_VA, ORIYA_AC_YYA, ORIYA_AC_RRA, ORIYA_AC_RHA, ORIYA_S_WA, ORIYA_D_SIX, '6', '\0'},  /* key 6 */
+    {ORIYA_C_SHA, ORIYA_C_SSA, ORIYA_C_SA, ORIYA_C_HA, ORIYA_S_ISSHAR, ORIYA_D_SEVEN, '7', '\0'},      /* key 7 */
+    {ORIYA_IV_A, ORIYA_IV_AA, ORIYA_IV_I, ORIYA_IV_II, ORIYA_IV_U, ORIYA_IV_UU, ORIYA_IV_R, ORIYA_IV_L, ORIYA_IV_E, ORIYA_IV_AI, ORIYA_IV_O, ORIYA_IV_AU, ORIYA_D_EIGHT, '8', '\0'},   /* key 8 */
+    {ORIYA_DV_AA, ORIYA_DV_I, ORIYA_DV_II, ORIYA_DV_U, ORIYA_DV_UU, ORIYA_DV_R, ORIYA_DV_RR, ORIYA_DV_E, ORIYA_DV_AI, ORIYA_DV_O, ORIYA_DV_AU, ORIYA_D_NINE, '9', '\0'},        /* key 9 */
+#if !defined(__MMI_MULTITAP_FOR_STAR_AND_POUND__)
+#else /* !defined(__MMI_MULTITAP_FOR_STAR_AND_POUND__) */ 
+    {'\0'},
+    {'\0'},
+#endif /* !defined(__MMI_MULTITAP_FOR_STAR_AND_POUND__) */ 
+};
+
+const UI_character_type default_oriyamatra1_multitap_strings[MAX_MULTITAPS][32] = 
+{
+    {' ', ORIYA_S_CHANDRA_BINDU, ORIYA_S_ANUSVARA, ORIYA_S_VISARGA, ORIYA_NS_AVAGRAHA, '.', ORIYA_D_ZERO, ORIYA_DEVANAGARI_S_DANDA, ORIYA_DEVANAGARI_S_DOUBLE_DANDA, '0', '\0'},    /* key 0 */
+    {ORIYA_C_KA, ORIYA_C_KHA, ORIYA_C_GA, ORIYA_C_GHA, ORIYA_C_NGA, ORIYA_D_ONE, '1', '\0'},      /* key 1 */
+    {ORIYA_C_CHA, ORIYA_C_CHHA, ORIYA_C_JA, ORIYA_C_JHA, ORIYA_C_NYA, ORIYA_D_TWO, '2', '\0'},  /* key 2 */
+    {ORIYA_C_TTA, ORIYA_C_TTHA, ORIYA_C_DDA, ORIYA_C_DDHA, ORIYA_C_NNA, ORIYA_D_THREE, '3', '\0'},       /* key 3 */
+    {ORIYA_C_TA, ORIYA_C_THA, ORIYA_C_DA, ORIYA_C_DHA, ORIYA_C_NA, ORIYA_D_FOUR, '4', '\0'},    /* key 4 */
+    {ORIYA_C_PA, ORIYA_C_PHA, ORIYA_C_BA, ORIYA_C_BHA, ORIYA_C_MA, ORIYA_D_FIVE, '5', '\0'},     /* key 5 */
+    {ORIYA_C_YA, ORIYA_C_RA, ORIYA_C_LA, ORIYA_C_LLA, ORIYA_C_VA, ORIYA_AC_YYA, ORIYA_AC_RRA, ORIYA_AC_RHA, ORIYA_S_WA, ORIYA_D_SIX, '6', '\0'},  /* key 6 */
+    {ORIYA_C_SHA, ORIYA_C_SSA, ORIYA_C_SA, ORIYA_C_HA, ORIYA_S_ISSHAR, ORIYA_D_SEVEN, '7', '\0'},      /* key 7 */
+    {ORIYA_IV_A, ORIYA_IV_AA, ORIYA_IV_I, ORIYA_IV_II, ORIYA_IV_U, ORIYA_IV_UU, ORIYA_IV_R, ORIYA_IV_L, ORIYA_IV_E, ORIYA_IV_AI, ORIYA_IV_O, ORIYA_IV_AU, ORIYA_D_EIGHT, '8', '\0'},   /* key 8 */
+    {ORIYA_D_NINE, '9', '\0'},        /* key 9 */
+#if !defined(__MMI_MULTITAP_FOR_STAR_AND_POUND__)
+#else /* !defined(__MMI_MULTITAP_FOR_STAR_AND_POUND__) */ 
+    {'\0'},
+    {'\0'},
+#endif /* !defined(__MMI_MULTITAP_FOR_STAR_AND_POUND__) */ 
+};
+
+const UI_character_type default_oriyamatra2_multitap_strings[MAX_MULTITAPS][32] = 
+{
+    {' ', ORIYA_S_ANUSVARA, ORIYA_S_VISARGA, ORIYA_NS_AVAGRAHA, '.', ORIYA_D_ZERO, ORIYA_DEVANAGARI_S_DANDA, ORIYA_DEVANAGARI_S_DOUBLE_DANDA, '0', '\0'},    /* key 0 */
+    {ORIYA_C_KA, ORIYA_C_KHA, ORIYA_C_GA, ORIYA_C_GHA, ORIYA_C_NGA, ORIYA_D_ONE, '1', '\0'},      /* key 1 */
+    {ORIYA_C_CHA, ORIYA_C_CHHA, ORIYA_C_JA, ORIYA_C_JHA, ORIYA_C_NYA, ORIYA_D_TWO, '2', '\0'},  /* key 2 */
+    {ORIYA_C_TTA, ORIYA_C_TTHA, ORIYA_C_DDA, ORIYA_C_DDHA, ORIYA_C_NNA, ORIYA_D_THREE, '3', '\0'},       /* key 3 */
+    {ORIYA_C_TA, ORIYA_C_THA, ORIYA_C_DA, ORIYA_C_DHA, ORIYA_C_NA, ORIYA_D_FOUR, '4', '\0'},    /* key 4 */
+    {ORIYA_C_PA, ORIYA_C_PHA, ORIYA_C_BA, ORIYA_C_BHA, ORIYA_C_MA, ORIYA_D_FIVE, '5', '\0'},     /* key 5 */
+    {ORIYA_C_YA, ORIYA_C_RA, ORIYA_C_LA, ORIYA_C_LLA, ORIYA_C_VA, ORIYA_AC_YYA, ORIYA_AC_RRA, ORIYA_AC_RHA, ORIYA_S_WA, ORIYA_D_SIX, '6', '\0'},  /* key 6 */
+    {ORIYA_C_SHA, ORIYA_C_SSA, ORIYA_C_SA, ORIYA_C_HA, ORIYA_S_ISSHAR, ORIYA_D_SEVEN, '7', '\0'},      /* key 7 */
+    {ORIYA_IV_A, ORIYA_IV_AA, ORIYA_IV_I, ORIYA_IV_II, ORIYA_IV_U, ORIYA_IV_UU, ORIYA_IV_R, ORIYA_IV_L, ORIYA_IV_E, ORIYA_IV_AI, ORIYA_IV_O, ORIYA_IV_AU, ORIYA_D_EIGHT, '8', '\0'},   /* key 8 */
+    {ORIYA_D_NINE, '9', '\0'},        /* key 9 */
+#if !defined(__MMI_MULTITAP_FOR_STAR_AND_POUND__)
+#else /* !defined(__MMI_MULTITAP_FOR_STAR_AND_POUND__) */ 
+    {'\0'},
+    {'\0'},
+#endif /* !defined(__MMI_MULTITAP_FOR_STAR_AND_POUND__) */ 
+};
+
+#endif /* defined (__MMI_MULTITAP_ORIYA__) */ 
+
+
+#if defined (__MMI_MULTITAP_ORIYA__)
+
+/*****************************************************************************
+ * FUNCTION
+ *  get_oriya_multitap_string
+ * DESCRIPTION
+ *  
+ * PARAMETERS
+ *  i       [IN]        
+ *  i(?)        [IN](?)
+ * RETURNS
+ *  void
+ *****************************************************************************/
+/* UI_character_type *get_ORIYA_multitap_string(S32 i) */
+UI_string_type get_oriya_multitap_string(S32 i)
+{
+    /*----------------------------------------------------------------*/
+    /* Local Variables                                                */
+    /*----------------------------------------------------------------*/
+    UI_character_type previous_char = 0;
+
+    /* U32 i; */
+    mmi_imc_message_struct imc_msg;
+    UI_character_type string_buf[10] = {0}; /* /TODO: define an value for the string length */
+
+    /*----------------------------------------------------------------*/
+    /* Code Body                                                      */
+    /*----------------------------------------------------------------*/
+
+	/* get previous character but skip highlight and multitap. */
+    imc_msg.message_id = MMI_IMC_MESSAGE_GET_STRING_BEFORE_CANDIDATE;
+    imc_msg.param_0 = 1;
+    imc_msg.param_1 = (U32)string_buf;
+	
+    mmi_imc_send_message(&imc_msg);
+	
+    previous_char = string_buf[0];
+    if (previous_char)
+    {
+        if ((previous_char >= ORIYA_C_KA && previous_char <= ORIYA_C_HA) ||
+            (previous_char >= ORIYA_AC_RRA && previous_char <= ORIYA_AC_YYA) || (previous_char >= ORIYA_S_ISSHAR &&
+                                                                                 previous_char <= ORIYA_S_WA))
+        {
+            switch (previous_char)
+            {
+                default:
+                {
+                            return (UI_character_type*) default_oriyamatra_multitap_strings[i];
+                }
+
+            }
+                       
+        }
+        else
+        {
+            switch (previous_char)
+            {
+                case (ORIYA_IV_A):
+                case (ORIYA_IV_AA):
+                case (ORIYA_IV_I):
+                case (ORIYA_IV_II):
+                case (ORIYA_IV_U):
+                case (ORIYA_IV_UU):
+                case (ORIYA_IV_R):
+                case (ORIYA_IV_L):
+                case (ORIYA_IV_E):     
+                case (ORIYA_IV_O):	
+                case (ORIYA_DV_AA):	           	                	
+                case (ORIYA_DV_U):		
+                case (ORIYA_DV_UU):
+                case (ORIYA_DV_R):
+                case (ORIYA_DV_RR):   
+                case (ORIYA_DV_E):     
+                case (ORIYA_DV_O):   
+                case (ORIYA_NG_L):     
+                case (ORIYA_NG_VLL):
+                {
+                            return (UI_character_type*) default_oriyamatra1_multitap_strings[i];
+
+                }
+                        
+                case (ORIYA_IV_AI):
+                case (ORIYA_IV_AU):
+                case (ORIYA_DV_I):
+                case (ORIYA_DV_II):
+                case (ORIYA_DV_AI):
+                case (ORIYA_DV_AU):
+                {
+                            return (UI_character_type*) default_oriyamatra2_multitap_strings[i];
+
+                }
+                default:
+                {
+                    /* return ((UI_character_type*) default_ORIYAmatra_multitap_strings[i]); */
+                       return (UI_character_type*) default_oriya_multitap_strings[i];
+
+                }
+
+            }
+        }
+
+    }
+    else
+    {
+           return (UI_character_type*) default_oriya_multitap_strings[i];
+        /* return ((UI_character_type*) default_ORIYA_multitap_strings[i]); */
+    }
+}
+
+
+/*****************************************************************************
+ * FUNCTION
+ *  get_oriya_single_line_multitap_string
+ * DESCRIPTION
+ *  
+ * PARAMETERS
+ *  i       [IN]        
+ *  i(?)        [IN](?)
+ * RETURNS
+ *  
+ *****************************************************************************/
+UI_character_type *get_oriya_single_line_multitap_string(S32 i)
+{
+    /*----------------------------------------------------------------*/
+    /* Local Variables                                                */
+    /*----------------------------------------------------------------*/
+    UI_character_type previous_char;
+
+    /*----------------------------------------------------------------*/
+    /* Code Body                                                      */
+    /*----------------------------------------------------------------*/
+    previous_char = gui_single_line_current_character(&MMI_singleline_inputbox);
+
+    if (previous_char)
+    {
+        if ((previous_char >= ORIYA_C_KA && previous_char <= ORIYA_C_HA) ||
+            (previous_char >= ORIYA_AC_RRA && previous_char <= ORIYA_AC_YYA) || (previous_char >= ORIYA_S_ISSHAR &&
+                                                                                 previous_char <= ORIYA_S_WA))
+        {
+            switch (previous_char)
+            {
+                default:
+                    return ((UI_character_type*) default_oriyamatra_multitap_strings[i]);
+            }
+                       
+        }
+        else
+        {
+            switch (previous_char)
+            {
+                case (ORIYA_IV_A):
+                case (ORIYA_IV_AA):
+                case (ORIYA_IV_I):
+                case (ORIYA_IV_II):
+                case (ORIYA_IV_U):
+                case (ORIYA_IV_UU):
+                case (ORIYA_IV_R):
+                case (ORIYA_IV_L):
+                case (ORIYA_IV_E):     
+                case (ORIYA_IV_O):	
+                case (ORIYA_DV_AA):	           	                	
+                case (ORIYA_DV_U):		
+                case (ORIYA_DV_UU):
+                case (ORIYA_DV_R):
+                case (ORIYA_DV_RR):   
+                case (ORIYA_DV_E):     
+                case (ORIYA_DV_O):   
+                case (ORIYA_NG_L):     
+                case (ORIYA_NG_VLL):
+                {
+                    return ((UI_character_type*) default_oriyamatra1_multitap_strings[i]);
+
+                }
+                        
+                case (ORIYA_IV_AI):
+                case (ORIYA_IV_AU):
+                case (ORIYA_DV_I):
+                case (ORIYA_DV_II):
+                case (ORIYA_DV_AI):
+                case (ORIYA_DV_AU):
+                {
+                    return ((UI_character_type*) default_oriyamatra2_multitap_strings[i]);
+
+                }
+                default:
+                    return ((UI_character_type*) default_oriya_multitap_strings[i]);
+            }
+        }
+
+    }
+    else
+    {
+        return ((UI_character_type*) default_oriya_multitap_strings[i]);
+    }
+}
+UI_character_type *get_oriya_multitap_string_for_vk(S32 i)
+{
+    /*----------------------------------------------------------------*/
+    /* Local Variables                                                */
+    /*----------------------------------------------------------------*/
+
+    /*----------------------------------------------------------------*/
+    /* Code Body                                                      */
+    /*----------------------------------------------------------------*/    	
+	return ((UI_character_type*) default_oriyamatra_multitap_strings[i]);
+}
+
+#endif /* defined (__MMI_MULTITAP_ORIYA__) */ 
+
+#endif /* defined (__MMI_LANG_ORIYA__) */ 
+
+#endif /* __MMI_ORIYA_H__ */ 
+

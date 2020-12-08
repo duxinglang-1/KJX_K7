@@ -1,0 +1,7 @@
+Can't open the directory: ..\\..\\Customer\\Images\\PLUTO\\DispChar
+                ADD_APPLICATION_IMAGE3(IMG_ID_PHNSET_ON_0=31386, path=..\\..\\Customer\\Images\\PLUTO\\MainLCD\\Active\\poweronoff\\POON.GIF)
+                ADD_APPLICATION_IMAGE3(IMG_ID_PHNSET_OFF_0=31389, path=..\\..\\Customer\\Images\\PLUTO\\MainLCD\\Active\\poweronoff\\pooff.GIF)
+==Begin auto generate image resource==
+    WALLPAPER: ADD_APPLICATION_IMAGE3(31382, ..\\..\\Customer\\Images\\PLUTO\\MainLCD\\IdleScreen\\WallPaper\\wall01.BMP)
+    POWER ON DISPLAY: ADD_APPLICATION_IMAGE3(31387, ..\\..\\Customer\\Images\\PLUTO\\MainLCD\\IdleScreen\\WallPaper\\wall01.BMP)
+    POWER OFF DISPLAY: ADD_APPLICATION_IMAGE3(31390, ..\\..\\Customer\\Images\\PLUTO\\MainLCD\\IdleScreen\\WallPaper\\wall01.BMP)

@@ -1,0 +1,75 @@
+Image: ..\..\..\plutommi\CUSTOMER\IMAGES\PLUTO\MAINLCD\TODOLIST\DAILY\ALARM.BMP
+  Format: BMP (Microsoft Windows bitmap image)
+  Geometry: 17x17
+  Class: PseudoClass
+  Type: Palette
+  Endianess: Undefined
+  Colorspace: RGB
+  Channel depth:
+    Red: 8-bits
+    Green: 8-bits
+    Blue: 8-bits
+  Channel statistics:
+    Red:
+      Min: 0 (0)
+      Max: 255 (1)
+      Mean: 9.86159 (0.0386729)
+      Standard deviation: 43.1564 (0.169241)
+    Green:
+      Min: 0 (0)
+      Max: 255 (1)
+      Mean: 8.14879 (0.031956)
+      Standard deviation: 38.1591 (0.149644)
+    Blue:
+      Min: 0 (0)
+      Max: 255 (1)
+      Mean: 8.36332 (0.0327973)
+      Standard deviation: 38.9417 (0.152713)
+  Colors: 16
+         0: (  0,  0,  0)	black
+         1: (153, 48, 50)	#993032
+         2: (184, 45, 53)	#B82D35
+         3: (166, 62, 70)	#A63E46
+         4: (171,108,114)	#AB6C72
+         5: (238,215,218)	#EED7DA
+         6: (188,145,152)	#BC9198
+         7: (202,162,170)	#CAA2AA
+         8: (199,197,201)	#C7C5C9
+         9: (228,229,231)	#E4E5E7
+        10: (172,175,180)	#ACAFB4
+        11: (207,218,230)	#CFDAE6
+        12: (148,151,151)	#949797
+        13: ( 95,102, 99)	#5F6663
+        14: (244,243,243)	#F4F3F3
+        15: (255,255,255)	white
+  Histogram:
+       115: (  0,  0,  0)	black
+        22: ( 95,102, 99)	#5F6663
+        36: (153, 48, 50)	#993032
+         3: (184, 45, 53)	#B82D35
+         3: (166, 62, 70)	#A63E46
+        18: (171,108,114)	#AB6C72
+        10: (148,151,151)	#949797
+         2: (188,145,152)	#BC9198
+         9: (172,175,180)	#ACAFB4
+         2: (202,162,170)	#CAA2AA
+         9: (199,197,201)	#C7C5C9
+        14: (207,218,230)	#CFDAE6
+         3: (238,215,218)	#EED7DA
+        28: (228,229,231)	#E4E5E7
+        15: (244,243,243)	#F4F3F3
+  Rendering-intent: Undefined
+  Resolution: 28.34x28.34
+  Units: Undefined
+  Filesize: 324
+  Interlace: None
+  Background Color: white
+  Border Color: #DFDFDF
+  Matte Color: grey74
+  Dispose: Undefined
+  Iterations: 0
+  Compression: Undefined
+  Orientation: Undefined
+  Signature: 3ff9254c8a0d43a6688e14b6ac56020010fa057670244ba313347c6ac0232e24
+  Tainted: False
+  Version: ImageMagick 6.2.3 06/08/05 Q16 http://www.imagemagick.org

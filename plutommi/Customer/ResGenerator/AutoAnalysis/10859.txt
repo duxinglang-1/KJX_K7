@@ -1,0 +1,56 @@
+Image: ..\..\..\plutommi\CUSTOMER\IMAGES\PLUTO\MAINLCD\UIELEMENT\CHECKBOX\CK_S.BMP
+  Format: BMP (Microsoft Windows bitmap image)
+  Geometry: 26x26
+  Class: PseudoClass
+  Type: Palette
+  Endianess: Undefined
+  Colorspace: RGB
+  Channel depth:
+    Red: 8-bits
+    Green: 8-bits
+    Blue: 8-bits
+  Channel statistics:
+    Red:
+      Min: 0 (0)
+      Max: 255 (1)
+      Mean: 1.67604 (0.00657269)
+      Standard deviation: 19.7489 (0.0774465)
+    Green:
+      Min: 0 (0)
+      Max: 255 (1)
+      Mean: 1.74852 (0.00685694)
+      Standard deviation: 20.3483 (0.0797971)
+    Blue:
+      Min: 0 (0)
+      Max: 255 (1)
+      Mean: 1.5074 (0.00591136)
+      Standard deviation: 19.0144 (0.0745664)
+  Colors: 6
+         0: (  0,  0,  0)	black
+         1: (255,255,255)	white
+         2: (246,246,246)	#F6F6F6
+         3: (245,245,245)	grey96
+         4: (244,244,244)	#F4F4F4
+         5: (143,192, 29)	#8FC01D
+  Histogram:
+       204: (  0,  0,  0)	black
+       214: (143,192, 29)	#8FC01D
+        60: (244,244,244)	#F4F4F4
+        63: (245,245,245)	grey96
+        71: (246,246,246)	#F6F6F6
+        64: (255,255,255)	white
+  Rendering-intent: Undefined
+  Resolution: 28.34x28.34
+  Units: Undefined
+  Filesize: 496
+  Interlace: None
+  Background Color: white
+  Border Color: #DFDFDF
+  Matte Color: grey74
+  Dispose: Undefined
+  Iterations: 0
+  Compression: Undefined
+  Orientation: Undefined
+  Signature: 7d64cd81aea5dd0b6062436206212fafc7d046151aae62e8f9f184efe8c8fc72
+  Tainted: False
+  Version: ImageMagick 6.2.3 06/08/05 Q16 http://www.imagemagick.org

@@ -1,0 +1,52 @@
+Image: ..\..\..\plutommi\CUSTOMER\IMAGES\PLUTO\MAINLCD\WAP\SW_BROKEN.BMP
+  Format: BMP (Microsoft Windows bitmap image)
+  Geometry: 16x16
+  Class: PseudoClass
+  Type: Palette
+  Endianess: Undefined
+  Colorspace: RGB
+  Channel depth:
+    Red: 8-bits
+    Green: 8-bits
+    Blue: 8-bits
+  Channel statistics:
+    Red:
+      Min: 0 (0)
+      Max: 255 (1)
+      Mean: 3.01563 (0.011826)
+      Standard deviation: 26.5321 (0.104047)
+    Green:
+      Min: 0 (0)
+      Max: 255 (1)
+      Mean: 1.24609 (0.00488664)
+      Standard deviation: 16.3272 (0.0640281)
+    Blue:
+      Min: 0 (0)
+      Max: 255 (1)
+      Mean: 1.95313 (0.00765931)
+      Standard deviation: 20.8047 (0.0815869)
+  Colors: 5
+         0: ( 35, 60,214)	#233CD6
+         1: (249,  0,  0)	#F90000
+         2: (233,  4, 31)	#E9041F
+         3: (255,255,255)	white
+         4: (  0,  0,  0)	black
+  Histogram:
+       190: ( 35, 60,214)	#233CD6
+        32: (233,  4, 31)	#E9041F
+        34: (255,255,255)	white
+  Rendering-intent: Undefined
+  Resolution: 28.34x28.34
+  Units: Undefined
+  Filesize: 332
+  Interlace: None
+  Background Color: white
+  Border Color: #DFDFDF
+  Matte Color: grey74
+  Dispose: Undefined
+  Iterations: 0
+  Compression: Undefined
+  Orientation: Undefined
+  Signature: 6137c3c7569bf7eac2b657ce5390c6419ee4e37d323e304c3c623bf362ebe959
+  Tainted: False
+  Version: ImageMagick 6.2.3 06/08/05 Q16 http://www.imagemagick.org

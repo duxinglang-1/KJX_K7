@@ -1,0 +1,71 @@
+Image: ..\..\..\plutommi\CUSTOMER\IMAGES\PLUTO\MAINLCD\TODOLIST\ICON\BIRTHDAY.BMP
+  Format: BMP (Microsoft Windows bitmap image)
+  Geometry: 26x26
+  Class: PseudoClass
+  Type: Palette
+  Endianess: Undefined
+  Colorspace: RGB
+  Channel depth:
+    Red: 8-bits
+    Green: 8-bits
+    Blue: 8-bits
+  Channel statistics:
+    Red:
+      Min: 0 (0)
+      Max: 255 (1)
+      Mean: 3.05178 (0.0119677)
+      Standard deviation: 23.8552 (0.0935497)
+    Green:
+      Min: 0 (0)
+      Max: 255 (1)
+      Mean: 2.10799 (0.00826662)
+      Standard deviation: 18.7671 (0.0735967)
+    Blue:
+      Min: 0 (0)
+      Max: 255 (1)
+      Mean: 1.9216 (0.00753568)
+      Standard deviation: 17.8211 (0.0698868)
+  Colors: 14
+         0: (  0,  0,  0)	black
+         1: (173, 16, 27)	#AD101B
+         2: (227, 30, 44)	#E31E2C
+         3: ( 80, 47, 29)	#502F1D
+         4: ( 81, 50, 33)	#513221
+         5: (107, 70, 49)	#6B4631
+         6: (133, 95, 74)	#855F4A
+         7: (179,137,114)	#B38972
+         8: ( 99, 78, 66)	#634E42
+         9: (209,136, 97)	#D18861
+        10: (224,215,215)	#E0D7D7
+        11: (255,255,255)	white
+        12: ( 41, 41, 41)	grey16
+        13: (255,255,255)	white
+  Histogram:
+       280: (  0,  0,  0)	black
+        38: ( 41, 41, 41)	grey16
+        57: ( 80, 47, 29)	#502F1D
+         1: ( 81, 50, 33)	#513221
+         3: (107, 70, 49)	#6B4631
+        73: ( 99, 78, 66)	#634E42
+         9: (173, 16, 27)	#AD101B
+        12: (133, 95, 74)	#855F4A
+        14: (227, 30, 44)	#E31E2C
+        22: (179,137,114)	#B38972
+        14: (209,136, 97)	#D18861
+        47: (224,215,215)	#E0D7D7
+       106: (255,255,255)	white
+  Rendering-intent: Undefined
+  Resolution: 28.34x28.34
+  Units: Undefined
+  Filesize: 528
+  Interlace: None
+  Background Color: white
+  Border Color: #DFDFDF
+  Matte Color: grey74
+  Dispose: Undefined
+  Iterations: 0
+  Compression: Undefined
+  Orientation: Undefined
+  Signature: 713ffe71b98650fa887c54a556c79e92b5ee0acb97492a4e5759c776c11acc6f
+  Tainted: False
+  Version: ImageMagick 6.2.3 06/08/05 Q16 http://www.imagemagick.org

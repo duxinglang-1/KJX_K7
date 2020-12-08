@@ -1,0 +1,105 @@
+Image: ..\..\..\plutommi\CUSTOMER\IMAGES\PLUTO\MAINLCD\ALARM\ALARM.GIF
+  Format: GIF (CompuServe graphics interchange format)
+  Geometry: 60x60
+  Class: PseudoClass
+  Type: Palette
+  Endianess: Undefined
+  Colorspace: RGB
+  Channel depth:
+    Red: 8-bits
+    Green: 8-bits
+    Blue: 8-bits
+  Channel statistics:
+    Red:
+      Min: 0 (0)
+      Max: 255 (1)
+      Mean: 1.05889 (0.00415251)
+      Standard deviation: 13.5251 (0.0530394)
+    Green:
+      Min: 0 (0)
+      Max: 255 (1)
+      Mean: 1.30028 (0.00509913)
+      Standard deviation: 15.2377 (0.0597558)
+    Blue:
+      Min: 0 (0)
+      Max: 255 (1)
+      Mean: 1.54111 (0.00604357)
+      Standard deviation: 17.4351 (0.068373)
+  Colors: 32
+         0: (148,167,185)	#94A7B9
+         1: ( 50, 85,122)	#32557A
+         2: (204,213,222)	#CCD5DE
+         3: ( 55,103,151)	#376797
+         4: (113,137,162)	#7189A2
+         5: ( 90,118,147)	#5A7693
+         6: ( 69,101,134)	#456586
+         7: ( 61,124,187)	#3D7CBB
+         8: (135,155,176)	#879BB0
+         9: ( 52, 90,128)	#345A80
+        10: ( 63,129,194)	#3F81C2
+        11: ( 59,115,171)	#3B73AB
+        12: (251,252,252)	#FBFCFC
+        13: (228,233,238)	#E4E9EE
+        14: (162,178,194)	#A2B2C2
+        15: (185,197,209)	#B9C5D1
+        16: (197,207,217)	#C5CFD9
+        17: (222,228,234)	#DEE4EA
+        18: ( 57,109,161)	#396DA1
+        19: ( 53, 96,140)	#35608C
+        20: (174,188,202)	#AEBCCA
+        21: (208,216,224)	#D0D8E0
+        22: (234,238,241)	#EAEEF1
+        23: ( 59,118,176)	#3B76B0
+        24: ( 60,121,181)	#3C79B5
+        25: ( 64,132,199)	#4084C7
+        26: (240,243,245)	#F0F3F5
+        27: ( 64,133,201)	#4085C9
+        28: (255,255,255)	white
+        29: (  0,  0,  0)	black
+        30: (  0,  0,  0)	black
+        31: (  0,  0,  0)	black
+  Histogram:
+        85: ( 50, 85,122)	#32557A
+        53: ( 52, 90,128)	#345A80
+        29: ( 53, 96,140)	#35608C
+        35: ( 55,103,151)	#376797
+        30: ( 57,109,161)	#396DA1
+        24: ( 59,115,171)	#3B73AB
+        16: ( 59,118,176)	#3B76B0
+         7: ( 60,121,181)	#3C79B5
+        40: ( 61,124,187)	#3D7CBB
+        19: ( 69,101,134)	#456586
+        36: ( 90,118,147)	#5A7693
+        25: ( 63,129,194)	#3F81C2
+        16: (113,137,162)	#7189A2
+        16: ( 64,132,199)	#4084C7
+       403: ( 64,133,201)	#4085C9
+        23: (135,155,176)	#879BB0
+        32: (148,167,185)	#94A7B9
+        16: (162,178,194)	#A2B2C2
+        11: (174,188,202)	#AEBCCA
+         9: (185,197,209)	#B9C5D1
+        14: (197,207,217)	#C5CFD9
+         4: (204,213,222)	#CCD5DE
+        28: (208,216,224)	#D0D8E0
+         9: (222,228,234)	#DEE4EA
+        13: (228,233,238)	#E4E9EE
+         5: (234,238,241)	#EAEEF1
+        11: (240,243,245)	#F0F3F5
+        11: (251,252,252)	#FBFCFC
+      2580: (255,255,255)	white
+  Rendering-intent: Undefined
+  Resolution: 72x72
+  Units: Undefined
+  Filesize: 828
+  Interlace: None
+  Background Color: #94A7B9
+  Border Color: #DFDFDF
+  Matte Color: grey74
+  Page geometry: 60x60+0+0
+  Dispose: Undefined
+  Compression: LZW
+  Orientation: Undefined
+  Signature: 2353e70e06250951b756ac474e616916301eea9dcec480e4e049ec37dd076b67
+  Tainted: False
+  Version: ImageMagick 6.2.3 06/08/05 Q16 http://www.imagemagick.org

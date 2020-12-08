@@ -1,0 +1,108 @@
+Image: ..\..\..\plutommi\CUSTOMER\IMAGES\PLUTO\MAINLCD\UIELEMENT\PROGRESSBAR\LOAD_BG.BMP
+  Format: BMP (Microsoft Windows bitmap image)
+  Geometry: 28x46
+  Class: PseudoClass
+  Type: Palette
+  Endianess: Undefined
+  Colorspace: RGB
+  Channel depth:
+    Red: 8-bits
+    Green: 8-bits
+    Blue: 8-bits
+  Channel statistics:
+    Red:
+      Min: 0 (0)
+      Max: 255 (1)
+      Mean: 2.3028 (0.00903057)
+      Standard deviation: 16.8315 (0.0660059)
+    Green:
+      Min: 0 (0)
+      Max: 255 (1)
+      Mean: 2.08385 (0.00817196)
+      Standard deviation: 15.1666 (0.059477)
+    Blue:
+      Min: 0 (0)
+      Max: 255 (1)
+      Mean: 2.28882 (0.00897576)
+      Standard deviation: 16.7602 (0.0657264)
+  Colors: 33
+         0: (255,  0,255)	fuchsia
+         1: (255,255,255)	white
+         2: (101, 98, 99)	#656263
+         3: (101, 99,100)	#656364
+         4: (100, 98, 99)	#646263
+         5: ( 99, 97, 98)	#636162
+         6: ( 96, 94, 95)	#605E5F
+         7: ( 94, 92, 93)	#5E5C5D
+         8: ( 93, 91, 92)	#5D5B5C
+         9: ( 59, 58, 59)	#3B3A3B
+        10: (100, 99,100)	#646364
+        11: ( 54, 55, 55)	#363737
+        12: ( 93, 91, 91)	#5D5B5B
+        13: ( 61, 60, 60)	#3D3C3C
+        14: ( 60, 59, 59)	#3C3B3B
+        15: ( 59, 58, 58)	#3B3A3A
+        16: ( 58, 57, 57)	#3A3939
+        17: ( 85, 84, 84)	#555454
+        18: ( 80, 79, 79)	#504F4F
+        19: ( 96, 95, 95)	#605F5F
+        20: ( 92, 91, 91)	#5C5B5B
+        21: ( 87, 86, 86)	#575656
+        22: ( 64, 64, 64)	grey25
+        23: ( 63, 63, 63)	#3F3F3F
+        24: ( 62, 62, 62)	#3E3E3E
+        25: ( 60, 60, 60)	#3C3C3C
+        26: ( 59, 59, 59)	grey23
+        27: ( 58, 58, 58)	#3A3A3A
+        28: ( 57, 57, 57)	#393939
+        29: ( 56, 56, 56)	grey22
+        30: ( 54, 54, 54)	grey21
+        31: (255,255,255)	white
+        32: (  0,  0,  0)	black
+  Histogram:
+        40: ( 54, 54, 54)	grey21
+         2: ( 54, 55, 55)	#363737
+         2: ( 56, 56, 56)	grey22
+        54: ( 57, 57, 57)	#393939
+         2: ( 58, 57, 57)	#3A3939
+         2: ( 59, 59, 59)	grey23
+         2: ( 59, 58, 58)	#3B3A3A
+        10: ( 58, 58, 58)	#3A3A3A
+         2: ( 59, 58, 59)	#3B3A3B
+         4: ( 60, 59, 59)	#3C3B3B
+         2: ( 60, 60, 60)	#3C3C3C
+         6: ( 61, 60, 60)	#3D3C3C
+         6: ( 62, 62, 62)	#3E3E3E
+         2: ( 63, 63, 63)	#3F3F3F
+         2: ( 64, 64, 64)	grey25
+         2: ( 80, 79, 79)	#504F4F
+         2: ( 85, 84, 84)	#555454
+         2: ( 87, 86, 86)	#575656
+         2: ( 92, 91, 91)	#5C5B5B
+         2: ( 93, 91, 91)	#5D5B5B
+         2: ( 93, 91, 92)	#5D5B5C
+         2: ( 94, 92, 93)	#5E5C5D
+         2: ( 96, 94, 95)	#605E5F
+         2: ( 96, 95, 95)	#605F5F
+         2: ( 99, 97, 98)	#636162
+       400: (100, 98, 99)	#646263
+         6: (101, 98, 99)	#656263
+        48: (101, 99,100)	#656364
+         2: (100, 99,100)	#646364
+        17: (255,  0,255)	fuchsia
+       657: (255,255,255)	white
+  Rendering-intent: Undefined
+  Resolution: 28.34x28.34
+  Units: Undefined
+  Filesize: 1kb
+  Interlace: None
+  Background Color: white
+  Border Color: #DFDFDF
+  Matte Color: grey74
+  Dispose: Undefined
+  Iterations: 0
+  Compression: Undefined
+  Orientation: Undefined
+  Signature: 86fbe7456a1423455f2beec0a0d251d4102f4c186de936cc890a5350db4c425d
+  Tainted: False
+  Version: ImageMagick 6.2.3 06/08/05 Q16 http://www.imagemagick.org

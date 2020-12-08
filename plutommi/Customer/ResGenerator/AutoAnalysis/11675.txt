@@ -1,0 +1,495 @@
+Image: ..\..\..\plutommi\CUSTOMER\IMAGES\PLUTO\MAINLCD\UIELEMENT\CHARGER\CHARGING.GIF
+  Format: GIF (CompuServe graphics interchange format)
+  Geometry: 76x41
+  Class: PseudoClass
+  Type: Palette
+  Endianess: Undefined
+  Colorspace: RGB
+  Channel depth:
+    Red: 8-bits
+    Green: 8-bits
+    Blue: 8-bits
+  Channel statistics:
+    Red:
+      Min: 0 (0)
+      Max: 218 (0.854902)
+      Mean: 2.24454 (0.00880213)
+      Standard deviation: 20.2958 (0.0795913)
+    Green:
+      Min: 0 (0)
+      Max: 218 (0.854902)
+      Mean: 2.28081 (0.00894435)
+      Standard deviation: 20.4951 (0.0803729)
+    Blue:
+      Min: 0 (0)
+      Max: 218 (0.854902)
+      Mean: 2.21117 (0.00867125)
+      Standard deviation: 20.1399 (0.0789799)
+  Colors: 64
+         0: (158,158,158)	grey62
+         1: (162,162,162)	#A2A2A2
+         2: (178,178,178)	#B2B2B2
+         3: (193,193,193)	#C1C1C1
+         4: (197,197,197)	#C5C5C5
+         5: (171,171,171)	grey67
+         6: (186,186,186)	grey73
+         7: (182,182,182)	#B6B6B6
+         8: (175,175,175)	#AFAFAF
+         9: (180,180,180)	#B4B4B4
+        10: (173,173,173)	grey68
+        11: (184,184,184)	grey72
+        12: (195,195,195)	#C3C3C3
+        13: (188,188,188)	#BCBCBC
+        14: (191,191,191)	grey75
+        15: (212,212,212)	grey83
+        16: (199,199,199)	grey78
+        17: (169,169,169)	DarkGray
+        18: (165,165,165)	#A5A5A5
+        19: (201,201,201)	grey79
+        20: (167,167,167)	#A7A7A7
+        21: (210,210,210)	#D2D2D2
+        22: (203,203,203)	#CBCBCB
+        23: (208,208,208)	#D0D0D0
+        24: (207,207,207)	grey81
+        25: (205,205,205)	#CDCDCD
+        26: (149,149,149)	#959595
+        27: (150,150,150)	grey59
+        28: (218,218,218)	#DADADA
+        29: (216,216,216)	#D8D8D8
+        30: (213,213,213)	#D5D5D5
+        31: (217,217,217)	grey85
+        32: (215,215,215)	#D7D7D7
+        33: (151,151,151)	#979797
+        34: (154,154,154)	#9A9A9A
+        35: ( 34, 98, 19)	#226213
+        36: (112,112,112)	grey44
+        37: (153,202, 64)	#99CA40
+        38: (153,153,153)	grey60
+        39: (  0,  0,  0)	black
+        40: (  0,  0,  0)	black
+        41: (  0,  0,  0)	black
+        42: (  0,  0,  0)	black
+        43: (  0,  0,  0)	black
+        44: (  0,  0,  0)	black
+        45: (  0,  0,  0)	black
+        46: (  0,  0,  0)	black
+        47: (  0,  0,  0)	black
+        48: (  0,  0,  0)	black
+        49: (  0,  0,  0)	black
+        50: (  0,  0,  0)	black
+        51: (  0,  0,  0)	black
+        52: (  0,  0,  0)	black
+        53: (  0,  0,  0)	black
+        54: (  0,  0,  0)	black
+        55: (  0,  0,  0)	black
+        56: (  0,  0,  0)	black
+        57: (  0,  0,  0)	black
+        58: (  0,  0,  0)	black
+        59: (  0,  0,  0)	black
+        60: (  0,  0,  0)	black
+        61: (  0,  0,  0)	black
+        62: (  0,  0,  0)	black
+        63: (  0,  0,  0)	black
+  Histogram:
+      1683: (  0,  0,  0)	black
+       386: (112,112,112)	grey44
+        67: (149,149,149)	#959595
+        71: (151,151,151)	#979797
+        67: (150,150,150)	grey59
+        69: (153,153,153)	grey60
+        81: (154,154,154)	#9A9A9A
+        20: (158,158,158)	grey62
+        20: (162,162,162)	#A2A2A2
+        10: (165,165,165)	#A5A5A5
+        10: (167,167,167)	#A7A7A7
+        11: (169,169,169)	DarkGray
+        15: (171,171,171)	grey67
+        15: (173,173,173)	grey68
+        15: (175,175,175)	#AFAFAF
+        15: (178,178,178)	#B2B2B2
+        15: (180,180,180)	#B4B4B4
+        15: (182,182,182)	#B6B6B6
+        15: (184,184,184)	grey72
+        15: (186,186,186)	grey73
+        15: (188,188,188)	#BCBCBC
+        15: (191,191,191)	grey75
+        15: (193,193,193)	#C1C1C1
+        15: (195,195,195)	#C3C3C3
+        15: (197,197,197)	#C5C5C5
+        11: (199,199,199)	grey78
+        10: (201,201,201)	grey79
+        10: (203,203,203)	#CBCBCB
+        10: (205,205,205)	#CDCDCD
+        10: (207,207,207)	grey81
+        10: (208,208,208)	#D0D0D0
+        10: (210,210,210)	#D2D2D2
+        69: (213,213,213)	#D5D5D5
+        12: (212,212,212)	grey83
+        69: (215,215,215)	#D7D7D7
+        69: (217,217,217)	grey85
+        69: (216,216,216)	#D8D8D8
+        67: (218,218,218)	#DADADA
+  Rendering-intent: Undefined
+  Resolution: 72x72
+  Units: Undefined
+  Filesize: 969
+  Interlace: None
+  Background Color: grey62
+  Border Color: #DFDFDF
+  Matte Color: grey74
+  Page geometry: 76x41+0+0
+  Dispose: None
+  Delay: 50
+  Iterations: 0
+  Compression: LZW
+  Orientation: Undefined
+  Signature: e9db87971d7b0e3f70788aa790c31aed86cab5fd6ca0bd87d0601bef65a3cb6a
+  Tainted: False
+  Version: ImageMagick 6.2.3 06/08/05 Q16 http://www.imagemagick.org
+Image: ..\..\..\plutommi\CUSTOMER\IMAGES\PLUTO\MAINLCD\UIELEMENT\CHARGER\CHARGING.GIF
+  Format: GIF (CompuServe graphics interchange format)
+  Geometry: 18x23
+  Class: PseudoClass
+  Type: Palette
+  Endianess: Undefined
+  Colorspace: RGB
+  Channel depth:
+    Red: 8-bits
+    Green: 8-bits
+    Blue: 8-bits
+  Channel statistics:
+    Red:
+      Min: 0 (0)
+      Max: 218 (0.854902)
+      Mean: 16.8937 (0.0662499)
+      Standard deviation: 53.4122 (0.209459)
+    Green:
+      Min: 0 (0)
+      Max: 218 (0.854902)
+      Mean: 17.1667 (0.0673203)
+      Standard deviation: 53.9072 (0.211401)
+    Blue:
+      Min: 0 (0)
+      Max: 218 (0.854902)
+      Mean: 16.6425 (0.0652648)
+      Standard deviation: 53.035 (0.20798)
+  Colors: 64
+         0: (158,158,158)	grey62
+         1: (162,162,162)	#A2A2A2
+         2: (178,178,178)	#B2B2B2
+         3: (193,193,193)	#C1C1C1
+         4: (197,197,197)	#C5C5C5
+         5: (171,171,171)	grey67
+         6: (186,186,186)	grey73
+         7: (182,182,182)	#B6B6B6
+         8: (175,175,175)	#AFAFAF
+         9: (180,180,180)	#B4B4B4
+        10: (173,173,173)	grey68
+        11: (184,184,184)	grey72
+        12: (195,195,195)	#C3C3C3
+        13: (188,188,188)	#BCBCBC
+        14: (191,191,191)	grey75
+        15: (212,212,212)	grey83
+        16: (199,199,199)	grey78
+        17: (169,169,169)	DarkGray
+        18: (165,165,165)	#A5A5A5
+        19: (201,201,201)	grey79
+        20: (167,167,167)	#A7A7A7
+        21: (210,210,210)	#D2D2D2
+        22: (203,203,203)	#CBCBCB
+        23: (208,208,208)	#D0D0D0
+        24: (207,207,207)	grey81
+        25: (205,205,205)	#CDCDCD
+        26: (149,149,149)	#959595
+        27: (150,150,150)	grey59
+        28: (218,218,218)	#DADADA
+        29: (216,216,216)	#D8D8D8
+        30: (213,213,213)	#D5D5D5
+        31: (217,217,217)	grey85
+        32: (215,215,215)	#D7D7D7
+        33: (151,151,151)	#979797
+        34: (154,154,154)	#9A9A9A
+        35: ( 34, 98, 19)	#226213
+        36: (112,112,112)	grey44
+        37: (153,202, 64)	#99CA40
+        38: (153,153,153)	grey60
+        39: (  0,  0,  0)	black
+        40: (  0,  0,  0)	black
+        41: (  0,  0,  0)	black
+        42: (  0,  0,  0)	black
+        43: (  0,  0,  0)	black
+        44: (  0,  0,  0)	black
+        45: (  0,  0,  0)	black
+        46: (  0,  0,  0)	black
+        47: (  0,  0,  0)	black
+        48: (  0,  0,  0)	black
+        49: (  0,  0,  0)	black
+        50: (  0,  0,  0)	black
+        51: (  0,  0,  0)	black
+        52: (  0,  0,  0)	black
+        53: (  0,  0,  0)	black
+        54: (  0,  0,  0)	black
+        55: (  0,  0,  0)	black
+        56: (  0,  0,  0)	black
+        57: (  0,  0,  0)	black
+        58: (  0,  0,  0)	black
+        59: (  0,  0,  0)	black
+        60: (  0,  0,  0)	black
+        61: (  0,  0,  0)	black
+        62: (  0,  0,  0)	black
+        63: (  0,  0,  0)	black
+  Histogram:
+         2: (  0,  0,  0)	black
+       146: ( 34, 98, 19)	#226213
+       266: (153,202, 64)	#99CA40
+  Rendering-intent: Undefined
+  Resolution: 72x72
+  Units: Undefined
+  Filesize: 969
+  Interlace: None
+  Background Color: grey62
+  Border Color: #DFDFDF
+  Matte Color: grey74
+  Page geometry: 76x41+49+9
+  Dispose: None
+  Delay: 50
+  Scene: 1
+  Compression: LZW
+  Orientation: Undefined
+  Signature: 2e799edb3f5496124ad5a769e6ce6a2f00f351102f58846e6d8648c8e5700542
+  Tainted: False
+  User Time: 0.078u
+  Elapsed Time: 0:01
+  Pixels per second: 3kb
+  Version: ImageMagick 6.2.3 06/08/05 Q16 http://www.imagemagick.org
+Image: ..\..\..\plutommi\CUSTOMER\IMAGES\PLUTO\MAINLCD\UIELEMENT\CHARGER\CHARGING.GIF
+  Format: GIF (CompuServe graphics interchange format)
+  Geometry: 19x23
+  Class: PseudoClass
+  Type: Palette
+  Endianess: Undefined
+  Colorspace: RGB
+  Channel depth:
+    Red: 8-bits
+    Green: 8-bits
+    Blue: 8-bits
+  Channel statistics:
+    Red:
+      Min: 0 (0)
+      Max: 218 (0.854902)
+      Mean: 16.0046 (0.062763)
+      Standard deviation: 52.1243 (0.204409)
+    Green:
+      Min: 0 (0)
+      Max: 218 (0.854902)
+      Mean: 16.2632 (0.0637771)
+      Standard deviation: 52.6092 (0.206311)
+    Blue:
+      Min: 0 (0)
+      Max: 218 (0.854902)
+      Mean: 15.7666 (0.0618298)
+      Standard deviation: 51.7541 (0.202957)
+  Colors: 64
+         0: (158,158,158)	grey62
+         1: (162,162,162)	#A2A2A2
+         2: (178,178,178)	#B2B2B2
+         3: (193,193,193)	#C1C1C1
+         4: (197,197,197)	#C5C5C5
+         5: (171,171,171)	grey67
+         6: (186,186,186)	grey73
+         7: (182,182,182)	#B6B6B6
+         8: (175,175,175)	#AFAFAF
+         9: (180,180,180)	#B4B4B4
+        10: (173,173,173)	grey68
+        11: (184,184,184)	grey72
+        12: (195,195,195)	#C3C3C3
+        13: (188,188,188)	#BCBCBC
+        14: (191,191,191)	grey75
+        15: (212,212,212)	grey83
+        16: (199,199,199)	grey78
+        17: (169,169,169)	DarkGray
+        18: (165,165,165)	#A5A5A5
+        19: (201,201,201)	grey79
+        20: (167,167,167)	#A7A7A7
+        21: (210,210,210)	#D2D2D2
+        22: (203,203,203)	#CBCBCB
+        23: (208,208,208)	#D0D0D0
+        24: (207,207,207)	grey81
+        25: (205,205,205)	#CDCDCD
+        26: (149,149,149)	#959595
+        27: (150,150,150)	grey59
+        28: (218,218,218)	#DADADA
+        29: (216,216,216)	#D8D8D8
+        30: (213,213,213)	#D5D5D5
+        31: (217,217,217)	grey85
+        32: (215,215,215)	#D7D7D7
+        33: (151,151,151)	#979797
+        34: (154,154,154)	#9A9A9A
+        35: ( 34, 98, 19)	#226213
+        36: (112,112,112)	grey44
+        37: (153,202, 64)	#99CA40
+        38: (153,153,153)	grey60
+        39: (  0,  0,  0)	black
+        40: (  0,  0,  0)	black
+        41: (  0,  0,  0)	black
+        42: (  0,  0,  0)	black
+        43: (  0,  0,  0)	black
+        44: (  0,  0,  0)	black
+        45: (  0,  0,  0)	black
+        46: (  0,  0,  0)	black
+        47: (  0,  0,  0)	black
+        48: (  0,  0,  0)	black
+        49: (  0,  0,  0)	black
+        50: (  0,  0,  0)	black
+        51: (  0,  0,  0)	black
+        52: (  0,  0,  0)	black
+        53: (  0,  0,  0)	black
+        54: (  0,  0,  0)	black
+        55: (  0,  0,  0)	black
+        56: (  0,  0,  0)	black
+        57: (  0,  0,  0)	black
+        58: (  0,  0,  0)	black
+        59: (  0,  0,  0)	black
+        60: (  0,  0,  0)	black
+        61: (  0,  0,  0)	black
+        62: (  0,  0,  0)	black
+        63: (  0,  0,  0)	black
+  Histogram:
+       114: ( 34, 98, 19)	#226213
+       323: (153,202, 64)	#99CA40
+  Rendering-intent: Undefined
+  Resolution: 72x72
+  Units: Undefined
+  Filesize: 969
+  Interlace: None
+  Background Color: grey62
+  Border Color: #DFDFDF
+  Matte Color: grey74
+  Page geometry: 76x41+32+9
+  Dispose: None
+  Delay: 50
+  Scene: 2
+  Compression: LZW
+  Orientation: Undefined
+  Signature: 698dc9629e223dfc5cf03d21c7153662dae97ebc8262401a6890cab80e60a936
+  Tainted: False
+  User Time: 0.078u
+  Elapsed Time: 0:01
+  Pixels per second: 4kb
+  Version: ImageMagick 6.2.3 06/08/05 Q16 http://www.imagemagick.org
+Image: ..\..\..\plutommi\CUSTOMER\IMAGES\PLUTO\MAINLCD\UIELEMENT\CHARGER\CHARGING.GIF
+  Format: GIF (CompuServe graphics interchange format)
+  Geometry: 20x23
+  Class: PseudoClass
+  Type: Palette
+  Endianess: Undefined
+  Colorspace: RGB
+  Channel depth:
+    Red: 8-bits
+    Green: 8-bits
+    Blue: 8-bits
+  Channel statistics:
+    Red:
+      Min: 0 (0)
+      Max: 218 (0.854902)
+      Mean: 15.2043 (0.0596249)
+      Standard deviation: 50.924 (0.199702)
+    Green:
+      Min: 0 (0)
+      Max: 218 (0.854902)
+      Mean: 15.45 (0.0605882)
+      Standard deviation: 51.3995 (0.201567)
+    Blue:
+      Min: 0 (0)
+      Max: 218 (0.854902)
+      Mean: 14.9783 (0.0587383)
+      Standard deviation: 50.5605 (0.198277)
+  Colors: 64
+         0: (158,158,158)	grey62
+         1: (162,162,162)	#A2A2A2
+         2: (178,178,178)	#B2B2B2
+         3: (193,193,193)	#C1C1C1
+         4: (197,197,197)	#C5C5C5
+         5: (171,171,171)	grey67
+         6: (186,186,186)	grey73
+         7: (182,182,182)	#B6B6B6
+         8: (175,175,175)	#AFAFAF
+         9: (180,180,180)	#B4B4B4
+        10: (173,173,173)	grey68
+        11: (184,184,184)	grey72
+        12: (195,195,195)	#C3C3C3
+        13: (188,188,188)	#BCBCBC
+        14: (191,191,191)	grey75
+        15: (212,212,212)	grey83
+        16: (199,199,199)	grey78
+        17: (169,169,169)	DarkGray
+        18: (165,165,165)	#A5A5A5
+        19: (201,201,201)	grey79
+        20: (167,167,167)	#A7A7A7
+        21: (210,210,210)	#D2D2D2
+        22: (203,203,203)	#CBCBCB
+        23: (208,208,208)	#D0D0D0
+        24: (207,207,207)	grey81
+        25: (205,205,205)	#CDCDCD
+        26: (149,149,149)	#959595
+        27: (150,150,150)	grey59
+        28: (218,218,218)	#DADADA
+        29: (216,216,216)	#D8D8D8
+        30: (213,213,213)	#D5D5D5
+        31: (217,217,217)	grey85
+        32: (215,215,215)	#D7D7D7
+        33: (151,151,151)	#979797
+        34: (154,154,154)	#9A9A9A
+        35: ( 34, 98, 19)	#226213
+        36: (112,112,112)	grey44
+        37: (153,202, 64)	#99CA40
+        38: (153,153,153)	grey60
+        39: (  0,  0,  0)	black
+        40: (  0,  0,  0)	black
+        41: (  0,  0,  0)	black
+        42: (  0,  0,  0)	black
+        43: (  0,  0,  0)	black
+        44: (  0,  0,  0)	black
+        45: (  0,  0,  0)	black
+        46: (  0,  0,  0)	black
+        47: (  0,  0,  0)	black
+        48: (  0,  0,  0)	black
+        49: (  0,  0,  0)	black
+        50: (  0,  0,  0)	black
+        51: (  0,  0,  0)	black
+        52: (  0,  0,  0)	black
+        53: (  0,  0,  0)	black
+        54: (  0,  0,  0)	black
+        55: (  0,  0,  0)	black
+        56: (  0,  0,  0)	black
+        57: (  0,  0,  0)	black
+        58: (  0,  0,  0)	black
+        59: (  0,  0,  0)	black
+        60: (  0,  0,  0)	black
+        61: (  0,  0,  0)	black
+        62: (  0,  0,  0)	black
+        63: (  0,  0,  0)	black
+  Histogram:
+         2: (  0,  0,  0)	black
+       116: ( 34, 98, 19)	#226213
+       342: (153,202, 64)	#99CA40
+  Rendering-intent: Undefined
+  Resolution: 72x72
+  Units: Undefined
+  Filesize: 969
+  Interlace: None
+  Background Color: grey62
+  Border Color: #DFDFDF
+  Matte Color: grey74
+  Page geometry: 76x41+14+9
+  Dispose: None
+  Delay: 50
+  Scene: 3
+  Compression: LZW
+  Orientation: Undefined
+  Signature: 329777d71bf021f4aa62f2d1a269bc7b1a070ffa0b866cc9bed046d7abcbd90c
+  Tainted: False
+  User Time: 0.078u
+  Elapsed Time: 0:01
+  Pixels per second: 4kb
+  Version: ImageMagick 6.2.3 06/08/05 Q16 http://www.imagemagick.org

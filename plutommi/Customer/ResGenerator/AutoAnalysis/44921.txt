@@ -1,0 +1,75 @@
+Image: ..\..\..\plutommi\CUSTOMER\IMAGES\PLUTO\MAINLCD\TODOLIST\ICON\CELEBRATE.BMP
+  Format: BMP (Microsoft Windows bitmap image)
+  Geometry: 26x26
+  Class: PseudoClass
+  Type: Palette
+  Endianess: Undefined
+  Colorspace: RGB
+  Channel depth:
+    Red: 8-bits
+    Green: 8-bits
+    Blue: 8-bits
+  Channel statistics:
+    Red:
+      Min: 0 (0)
+      Max: 255 (1)
+      Mean: 2.36095 (0.00925861)
+      Standard deviation: 20.588 (0.0807371)
+    Green:
+      Min: 0 (0)
+      Max: 255 (1)
+      Mean: 3.15828 (0.0123854)
+      Standard deviation: 22.7462 (0.0892009)
+    Blue:
+      Min: 0 (0)
+      Max: 255 (1)
+      Mean: 4.83876 (0.0189755)
+      Standard deviation: 32.5 (0.127451)
+  Colors: 16
+         0: (  0,  0,  0)	black
+         1: (231,120,231)	#E778E7
+         2: (243,154,243)	#F39AF3
+         3: (147, 26,162)	#931AA2
+         4: (192, 51,211)	#C033D3
+         5: (  0, 91,251)	#005BFB
+         6: (  0,141,255)	#008DFF
+         7: ( 31,139,199)	#1F8BC7
+         8: ( 30,126,173)	#1E7EAD
+         9: ( 37,148,203)	#2594CB
+        10: ( 92,181,228)	#5CB5E4
+        11: (  0,108,159)	#006C9F
+        12: (121,208,248)	#79D0F8
+        13: ( 61,160,199)	#3DA0C7
+        14: (156,227,254)	#9CE3FE
+        15: (255,255,255)	white
+  Histogram:
+       332: (  0,  0,  0)	black
+         9: (  0,108,159)	#006C9F
+        12: ( 30,126,173)	#1E7EAD
+        47: (  0, 91,251)	#005BFB
+        43: ( 31,139,199)	#1F8BC7
+        21: (  0,141,255)	#008DFF
+        16: ( 37,148,203)	#2594CB
+        14: ( 61,160,199)	#3DA0C7
+        18: ( 92,181,228)	#5CB5E4
+        40: (121,208,248)	#79D0F8
+        48: (147, 26,162)	#931AA2
+        51: (192, 51,211)	#C033D3
+         5: (231,120,231)	#E778E7
+        13: (156,227,254)	#9CE3FE
+         7: (243,154,243)	#F39AF3
+  Rendering-intent: Undefined
+  Resolution: 28.34x28.34
+  Units: Undefined
+  Filesize: 536
+  Interlace: None
+  Background Color: white
+  Border Color: #DFDFDF
+  Matte Color: grey74
+  Dispose: Undefined
+  Iterations: 0
+  Compression: Undefined
+  Orientation: Undefined
+  Signature: bcad2e831aca9f050824e48994f87bf70c963762e5b2fbd13438d9dfe783b9f5
+  Tainted: False
+  Version: ImageMagick 6.2.3 06/08/05 Q16 http://www.imagemagick.org

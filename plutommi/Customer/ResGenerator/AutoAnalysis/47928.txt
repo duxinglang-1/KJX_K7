@@ -1,0 +1,72 @@
+Image: ..\..\..\plutommi\CUSTOMER\IMAGES\PLUTO\MAINLCD\SUBMENU\UNIMESSAGE\UNI_SENT.BMP
+  Format: BMP (Microsoft Windows bitmap image)
+  Geometry: 26x26
+  Class: PseudoClass
+  Type: Palette
+  Endianess: Undefined
+  Colorspace: RGB
+  Channel depth:
+    Red: 8-bits
+    Green: 8-bits
+    Blue: 8-bits
+  Channel statistics:
+    Red:
+      Min: 0 (0)
+      Max: 252 (0.988235)
+      Mean: 3.99408 (0.0156631)
+      Standard deviation: 29.4842 (0.115624)
+    Green:
+      Min: 0 (0)
+      Max: 220 (0.862745)
+      Mean: 3.12722 (0.0122636)
+      Standard deviation: 22.8899 (0.0897644)
+    Blue:
+      Min: 0 (0)
+      Max: 145 (0.568627)
+      Mean: 0.924556 (0.00362571)
+      Standard deviation: 9.20454 (0.0360962)
+  Colors: 14
+         0: (  0,  0,  0)	black
+         1: (114,167, 35)	#72A723
+         2: (165,202,106)	#A5CA6A
+         3: (248,184, 35)	#F8B823
+         4: (252,220,145)	#FCDC91
+         5: (247,196, 97)	#F7C461
+         6: (247,200,106)	#F7C86A
+         7: (235,153,  0)	#EB9900
+         8: (230,147, 16)	#E69310
+         9: (239,164, 41)	#EFA429
+        10: (234,145,  8)	#EA9108
+        11: (220,124, 17)	#DC7C11
+        12: (192, 88,  6)	#C05806
+        13: ( 77,124, 13)	#4D7C0D
+  Histogram:
+       349: (  0,  0,  0)	black
+        42: ( 77,124, 13)	#4D7C0D
+        63: (114,167, 35)	#72A723
+         1: (192, 88,  6)	#C05806
+        11: (220,124, 17)	#DC7C11
+        13: (165,202,106)	#A5CA6A
+         1: (234,145,  8)	#EA9108
+        61: (235,153,  0)	#EB9900
+        19: (230,147, 16)	#E69310
+         1: (239,164, 41)	#EFA429
+        94: (248,184, 35)	#F8B823
+         2: (247,196, 97)	#F7C461
+         1: (247,200,106)	#F7C86A
+        18: (252,220,145)	#FCDC91
+  Rendering-intent: Undefined
+  Resolution: 28.34x28.34
+  Units: Undefined
+  Filesize: 528
+  Interlace: None
+  Background Color: white
+  Border Color: #DFDFDF
+  Matte Color: grey74
+  Dispose: Undefined
+  Iterations: 0
+  Compression: Undefined
+  Orientation: Undefined
+  Signature: a76bbd3305492dd1e4395eb385cc5245f95fd1807ce247e6550e821c55bd5bb4
+  Tainted: False
+  Version: ImageMagick 6.2.3 06/08/05 Q16 http://www.imagemagick.org

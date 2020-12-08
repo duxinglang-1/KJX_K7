@@ -1,0 +1,59 @@
+Image: ..\..\..\plutommi\CUSTOMER\IMAGES\PLUTO\MAINLCD\CALL\CALL_OUT.BMP
+  Format: BMP (Microsoft Windows bitmap image)
+  Geometry: 64x24
+  Class: DirectClass
+  Type: Grayscale
+  Endianess: Undefined
+  Colorspace: Gray
+  Channel depth:
+    Gray: 8-bits
+  Channel statistics:
+    Gray:
+      Min: 0 (0)
+      Max: 255 (1)
+      Mean: 15.416 (0.060455)
+      Standard deviation: 52.6486 (0.206465)
+  Colors: 27
+  Histogram:
+      1358: (  0,  0,  0)	black
+        13: (  8,  8,  8)	grey3
+         8: ( 16, 16, 16)	#101010
+         2: ( 24, 24, 24)	#181818
+        16: ( 33, 33, 33)	grey13
+        10: ( 41, 41, 41)	grey16
+         3: ( 49, 49, 49)	#313131
+         3: ( 57, 57, 57)	#393939
+         7: ( 66, 66, 66)	grey26
+         4: ( 74, 74, 74)	grey29
+        11: ( 82, 82, 82)	grey32
+         3: ( 90, 90, 90)	#5A5A5A
+         3: ( 99, 99, 99)	grey39
+         5: (107,107,107)	grey42
+         3: (115,115,115)	grey45
+         4: (123,123,123)	#7B7B7B
+         2: (165,165,165)	#A5A5A5
+        11: (173,173,173)	grey68
+         2: (181,181,181)	grey71
+         7: (189,189,189)	grey74
+         4: (198,198,198)	#C6C6C6
+         3: (206,206,206)	#CECECE
+         5: (214,214,214)	grey84
+         5: (222,222,222)	grey87
+         5: (231,231,231)	#E7E7E7
+         4: (239,239,239)	#EFEFEF
+        35: (255,255,255)	white
+  Rendering-intent: Undefined
+  Resolution: 28.34x28.34
+  Units: Undefined
+  Filesize: 3kb
+  Interlace: None
+  Background Color: white
+  Border Color: #DFDFDF
+  Matte Color: grey74
+  Dispose: Undefined
+  Iterations: 0
+  Compression: Undefined
+  Orientation: Undefined
+  Signature: 47ea72399bd174c9fc8bcf92370d0db5023f0e0babad0e49707744f105b2d28e
+  Tainted: False
+  Version: ImageMagick 6.2.3 06/08/05 Q16 http://www.imagemagick.org

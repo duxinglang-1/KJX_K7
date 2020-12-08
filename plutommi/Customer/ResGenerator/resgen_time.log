@@ -1,0 +1,14 @@
+[11:29:37.46] start 
+[11:30:53.67] Executed copy_ref_list.pl 
+[11:30:56.56] Executed make ref_list_merge.exe 
+[11:30:56.93] Executed run ref_list_merge.exe 
+[11:30:59.64] Executed make plmncreate.exe 
+[11:31:04.31] Executed run plmncreate.exe 
+[11:31:16.01] Executed run VKV2ResourceGen.exe 
+[11:32:30.00] Executed make mtk_resgenerator.exe 
+[11:32:49.06] Executed run mtk_resgenerator.exe 
+[11:32:49.12] Executed mte_parse_img_usage.pl 
+[11:32:49.19] Executed mslt_parse_info.pl 
+[11:33:07.70] Executed output_image_html.pl 
+[11:33:07.75] Executed run venus_theme_generator.bat 
+[11:33:07.77] Executed generate_file_list.pl 

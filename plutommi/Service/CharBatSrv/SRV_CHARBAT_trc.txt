@@ -1,0 +1,29 @@
+[APP NAME] = CharBatSrv
+[SCOPE] = PLUTO,COSMOS
+[MODULE] = MOD_MMI_COMMON_APP
+
+#start trace
+TRC_MSG(TRC_SRV_CHARBAT_EMIT_NOTIFY_EVENT, "[CHARBAT]srv_charbat_emit_notify_event():status=%d,level=%d")
+TRC_MSG(TRC_MMI_GPIO_PMIC_SEND_ACK_TO_PS, "[CHARBAT]srv_charbat_send_ack():action = %d")
+TRC_MSG(TRC_SRV_CHARBAT_EXT, "[CHARBAT]srv_charbat ext  trace: %d,%d")
+
+TRC_MSG(TRC_MMI_GPIO_PMIC_LOW_BATTERY_WARNING, "[CHARBAT]BatteryStatusIndication(), Low battery warning, voltage = %d")
+TRC_MSG(TRC_MMI_GPIO_PMIC_BATTERY_LEVEL, "[CHARBAT]BatteryStatusIndication(), battery level, voltage = %d")   
+TRC_MSG(TRC_MMI_GPIO_PMIC_CHARGER_POWERKEY_ON, "[CHARBAT]ChargingPwnOnThanPwnOn(), CHARGER POWERKEY_ON")    
+TRC_MSG(TRC_MMI_GPIO_PMIC_CHARGER_IN_BEFORE_POWER_ON_IND, "[CHARBAT]CHARGER IN before power on indication")        
+TRC_MSG(TRC_MMI_GPIO_PMIC_NO_CHARGER_IN_BEFORE_POWER_ON_IND, "[CHARBAT]No CHARGER IN before power on indication")            
+TRC_MSG(TRC_MMI_GPIO_PMIC_CHARGER_OUT_BEFORE_POWER_ON_IND, "[CHARBAT]CHARGER OUT before power on indication")                
+TRC_MSG(TRC_MMI_GPIO_PMIC_LOW_BATTERY, "[CHARBAT] PMIC_LOW_BATTERY")                
+TRC_MSG(TRC_MMI_GPIO_PMIC_LOW_BATTERY_HANDLER, "[CHARBAT] LOW Battery: [Thre %d] [Cnt %d] [LBflag %d] [Txflag %d]")                    
+TRC_MSG(TRC_MMI_GPIO_PMIC_LOW_BATTERY_POWER_OFF, "[CHARBAT] LOW_BATTERY_POWER_OFF")                
+TRC_MSG(TRC_MMI_GPIO_PMIC_BATTERY_STATE_UNKNOWN_VOLTAGE, "[CHARBAT]Battery Status Indication unknown voltage")                    
+TRC_MSG(TRC_MMI_GPIO_PMIC_CHARGER_IN, "[CHARBAT] CHARGER IN") 
+TRC_MSG(TRC_MMI_GPIO_PMIC_CHARGER_OUT, "[CHARBAT] CHARGER OUT")     
+TRC_MSG(TRC_MMI_GPIO_PMIC_BATTERY_FULL_CHARGED, "[CHARBAT] BATTERY FULL CHARGED")
+TRC_MSG(TRC_MMI_CHARBAT_BATTERYINDICATION_POPUP, "[CHARBAT]BatteryIndicationPopup()")
+TRC_MSG(TRC_MMI_CHARBAT_PWRON_CHARGE_INIT, "[CHARBAT]InitializeChargingScr(), Pwr_on_Charge_init")
+TRC_MSG(TRC_MMI_CHARBAT_PWRON_CHARGE_SCREEN, "[CHARBAT]ShowChargingScr(), booting_mode=%d")
+TRC_MSG(TRC_MMI_CHARBAT_CHARGE_COMPLETE_SCREEN, "[CHARBAT]ShowChargingCompleteScr()")
+TRC_MSG(TRC_MMI_CHARBAT_MAIN_EVT_HDLR, "[CHARBAT]mmi_charbat_main_evt_hdlr, status=%d, level=%d")
+TRC_MSG(TRC_MMI_CHARBAT_AFTER_POWER_ON, "[CHARBAT]after_power_on, bootup_ing=%d, pwroncharger=%d")
+

@@ -1,0 +1,65 @@
+Image: ..\..\..\plutommi\CUSTOMER\IMAGES\PLUTO\MAINLCD\SUBMENU\UNIMESSAGE\UNI_SET.BMP
+  Format: BMP (Microsoft Windows bitmap image)
+  Geometry: 26x26
+  Class: PseudoClass
+  Type: Palette
+  Endianess: Undefined
+  Colorspace: RGB
+  Channel depth:
+    Red: 8-bits
+    Green: 8-bits
+    Blue: 8-bits
+  Channel statistics:
+    Red:
+      Min: 0 (0)
+      Max: 255 (1)
+      Mean: 3.45562 (0.0135515)
+      Standard deviation: 28.295 (0.110961)
+    Green:
+      Min: 0 (0)
+      Max: 218 (0.854902)
+      Mean: 2.03402 (0.00797656)
+      Standard deviation: 17.9877 (0.0705399)
+    Blue:
+      Min: 0 (0)
+      Max: 107 (0.419608)
+      Mean: 0.329882 (0.00129365)
+      Standard deviation: 4.57861 (0.0179553)
+  Colors: 11
+         0: (255,  0,  0)	red
+         1: (248,184, 35)	#F8B823
+         2: (238,157,  0)	#EE9D00
+         3: (247,173, 21)	#F7AD15
+         4: (235,153,  0)	#EB9900
+         5: (231,153, 23)	#E79917
+         6: (215,124,  9)	#D77C09
+         7: (220,125, 22)	#DC7D16
+         8: (192, 88,  6)	#C05806
+         9: (255,218,107)	#FFDA6B
+        10: (  0,  0,  0)	black
+  Histogram:
+       312: (255,  0,  0)	red
+         6: (192, 88,  6)	#C05806
+        13: (215,124,  9)	#D77C09
+        17: (220,125, 22)	#DC7D16
+        78: (235,153,  0)	#EB9900
+        56: (238,157,  0)	#EE9D00
+        32: (231,153, 23)	#E79917
+        58: (247,173, 21)	#F7AD15
+        62: (248,184, 35)	#F8B823
+        42: (255,218,107)	#FFDA6B
+  Rendering-intent: Undefined
+  Resolution: 28.34x28.34
+  Units: Undefined
+  Filesize: 828
+  Interlace: None
+  Background Color: white
+  Border Color: #DFDFDF
+  Matte Color: grey74
+  Dispose: Undefined
+  Iterations: 0
+  Compression: Undefined
+  Orientation: Undefined
+  Signature: 91e0fec0c3ec5de30dcaf020b2fe950d97325e30915e87608b37a2cb1e726b07
+  Tainted: False
+  Version: ImageMagick 6.2.3 06/08/05 Q16 http://www.imagemagick.org

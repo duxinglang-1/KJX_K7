@@ -1,0 +1,54 @@
+Image: ..\..\..\plutommi\CUSTOMER\IMAGES\PLUTO\MAINLCD\EDIT\SI_ASHIFT.BMP
+  Format: BMP (Microsoft Windows bitmap image)
+  Geometry: 18x17
+  Class: PseudoClass
+  Type: Palette
+  Endianess: Undefined
+  Colorspace: RGB
+  Channel depth:
+    Red: 8-bits
+    Green: 8-bits
+    Blue: 8-bits
+  Channel statistics:
+    Red:
+      Min: 0 (0)
+      Max: 255 (1)
+      Mean: 3.69935 (0.0145072)
+      Standard deviation: 29.2472 (0.114695)
+    Green:
+      Min: 0 (0)
+      Max: 233 (0.913725)
+      Mean: 1.79085 (0.00702294)
+      Standard deviation: 18.388 (0.0721099)
+    Blue:
+      Min: 0 (0)
+      Max: 255 (1)
+      Mean: 2.05882 (0.00807382)
+      Standard deviation: 21.2502 (0.0833342)
+  Colors: 6
+         0: (255,  0,255)	fuchsia
+         1: (249,  0,  0)	#F90000
+         2: (140,141,142)	#8C8D8E
+         3: (255,174,  0)	#FFAE00
+         4: (233,233,233)	#E9E9E9
+         5: (  0,  0,  0)	black
+  Histogram:
+       111: (255,  0,255)	fuchsia
+        52: (255,174,  0)	#FFAE00
+       117: (140,141,142)	#8C8D8E
+        26: (233,233,233)	#E9E9E9
+  Rendering-intent: Undefined
+  Resolution: 28.34x28.34
+  Units: Undefined
+  Filesize: 284
+  Interlace: None
+  Background Color: white
+  Border Color: #DFDFDF
+  Matte Color: grey74
+  Dispose: Undefined
+  Iterations: 0
+  Compression: Undefined
+  Orientation: Undefined
+  Signature: b4fd7e098609b3ddc57953be045681c000a413b1887753b9df8b8f758f87422e
+  Tainted: False
+  Version: ImageMagick 6.2.3 06/08/05 Q16 http://www.imagemagick.org

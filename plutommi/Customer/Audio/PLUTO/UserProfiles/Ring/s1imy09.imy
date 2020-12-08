@@ -1,0 +1,8 @@
+BEGIN:IMELODY
+VERSION:1.2
+FORMAT:CLASS1.0
+NAME:Select_a_ringtone...
+BEAT:150
+COMPOSER:MTK(110)
+MELODY:*3#g2*4#c2*4#c3*4#d3*4f3*4#c3*4f3*4#f3*4#g2*4#g3*4#f3*4f2*4#d3*4#c3*4#d2*4#d2*4#d2*4#c2*4#d3*4f3*4#d3*4c3*3#g3r3*3#g2*4#c2*4#c3*4#d3*4f3*4#c3*4f3*4#f3*4#g2*4#g3*4#f3*4f2*4#d3*4#c3*4#d2*4#d2*4f2*4f3*4#d3*4#c2*4#c2*4#c2.r3*4#g1*4f2.*4#d3*4f3*4#f3*4f3*4#d3*4#c2*4#c2*4#d2*4#d2*4f2*4f3*4#d3*4#c2*4#g2*4#g2.r3*4#g1*4f2.*4#d3*4f3*4#f3*4f3*4#d3*4#c2*4#c2*4#d2*4#d2*4f2*4f3*4#d3*4#c2*4#c2*4#c2
+END:IMELODY

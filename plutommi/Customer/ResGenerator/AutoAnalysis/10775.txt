@@ -1,0 +1,84 @@
+Image: ..\..\..\plutommi\CUSTOMER\IMAGES\PLUTO\MAINLCD\UIELEMENT\VALUEMAP\MAP.9SLICE.PNG
+  Format: PNG (Portable Network Graphics)
+  Geometry: 25x21
+  Class: DirectClass
+  Type: PaletteMatte
+  Endianess: Undefined
+  Colorspace: RGB
+  Channel depth:
+    Red: 8-bits
+    Green: 8-bits
+    Blue: 8-bits
+    Opacity: 1-bits
+  Channel statistics:
+    Red:
+      Min: 88 (0.345098)
+      Max: 255 (1)
+      Mean: 183.154 (0.718252)
+      Standard deviation: 49.9726 (0.195971)
+    Green:
+      Min: 80 (0.313725)
+      Max: 255 (1)
+      Mean: 183.632 (0.720127)
+      Standard deviation: 50.7883 (0.19917)
+    Blue:
+      Min: 78 (0.305882)
+      Max: 255 (1)
+      Mean: 181.162 (0.710439)
+      Standard deviation: 51.193 (0.200757)
+    Opacity:
+      Min: 0 (0)
+      Max: 255 (1)
+      Mean: 9.71429 (0.0380952)
+      Standard deviation: 48.8137 (0.191426)
+  Opacity: (255,255,255,255)	  #FFFFFFFF
+  Colors: 31
+  Histogram:
+        26: ( 88, 80, 78,  0)	#58504E00
+        13: ( 93, 94, 92,  0)	#5D5E5C00
+         8: (103,105,102,  0)	#67696600
+        21: (115,116,113,  0)	#73747100
+         6: (123,123,120,  0)	#7B7B7800
+        35: (128,128,128,  0)	fractal
+         6: (138,139,138,  0)	#8A8B8A00
+         4: (146,146,142,  0)	#92928E00
+        23: (149,149,145,  0)	#95959100
+        18: (155,157,153,  0)	#9B9D9900
+         7: (159,160,157,  0)	#9FA09D00
+        19: (160,161,158,  0)	#A0A19E00
+        21: (164,165,161,  0)	#A4A5A100
+        21: (171,172,169,  0)	#ABACA900
+         2: (173,176,171,  0)	#ADB0AB00
+         2: (178,179,175,  0)	#B2B3AF00
+         4: (178,178,178,  0)	#B2B2B200
+        19: (178,181,176,  0)	#B2B5B000
+         1: (181,182,177,  0)	#B5B6B100
+         2: (183,185,179,  0)	#B7B9B300
+        19: (187,187,187,  0)	#BBBBBB00
+        19: (188,190,184,  0)	#BCBEB800
+         7: (190,193,188,  0)	#BEC1BC00
+        20: (198,199,195,  0)	#C6C7C300
+        19: (204,205,200,  0)	#CCCDC800
+        20: (216,217,212,  0)	#D8D9D400
+        16: (224,226,223,  0)	#E0E2DF00
+        35: (237,238,237,  0)	#EDEEED00
+        22: (241,243,240,  0)	#F1F3F000
+        70: (245,245,245,  0)	grey96
+        20: (255,255,255,255)	#FFFFFFFF
+  Rendering-intent: Undefined
+  Resolution: 72x72
+  Units: Undefined
+  Filesize: 670
+  Interlace: None
+  Background Color: white
+  Border Color: #DFDFDF00
+  Matte Color: grey74
+  Page geometry: 25x21+0+0
+  Dispose: Undefined
+  Iterations: 0
+  Compression: Zip
+  Orientation: Undefined
+  Signature: b57e7ab96700fc4f9a7d09803e495b4100046164f323f8d217d9ff8cb01c1cb9
+  Software: Adobe ImageReady
+  Tainted: False
+  Version: ImageMagick 6.2.3 06/08/05 Q16 http://www.imagemagick.org

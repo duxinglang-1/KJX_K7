@@ -1,0 +1,66 @@
+[APP NAME] = SRV_CBM
+[SCOPE] = PLUTO, COSMOS
+[MODULE] = MOD_MMI_CONN_APP
+
+# CBM Service
+TRC_MSG(TRC_SRV_CBM_ALLOW_BEARER, "[CBM] CBM Allow Bearer Activate Req!! app_id=%d, type=%d")   
+TRC_MSG(TRC_SRV_CBM_ALLOW_BEARER_ACTIVATE, "[CbmSrv] CBM Allow Bearer Activate Req result = %d")   
+TRC_MSG(TRC_SRV_CBM_ALLOW_SET_EVENT_RESULT, "[CbmSrv] CBM Allow Set Event result = %d")   
+
+TRC_MSG(TRC_SRV_CBM_DISALLOW_BEARER, "[CbmSrv] CBM Disallow Bearer Activate Req! app_id=%d, type=%d")   
+TRC_MSG(TRC_SRV_CBM_DISALLOW_BEARER_RESULT, "[CbmSrv] CBM Disallow Bearer Activate Req result = %d")   
+TRC_MSG(TRC_SRV_CBM_BEARER_EVT_REGISTERED, "[CbmSrv] srv_cbm_register_bearer_event: app_id= %d, funcptr= %d, result= %d")
+TRC_MSG(TRC_SRV_CBM_BEARER_EVT_DEREGISTERED, "[CbmSrv] srv_cbm_deregister_bearer_event: app_id=%d, result=%d")
+TRC_MSG(TRC_SRV_CBM_BEARER_INFO_DEREGISTERED, "[CbmSrv] srv_cbm_deregister_bearer_info: app_id=%d, result=%d")
+TRC_MSG(TRC_SRV_CBM_BEARER_EVT_INFO, "[CbmSrv] %d. srv_cbm_bearer_event_notify_ind_hdlr, acct_id = %d, type=%d, bearer=%d")
+TRC_MSG(TRC_SRV_CBM_BEARER_INFO, "[CbmSrv] %d. srv_cbm_app_bearer_info_ind_hdlr, acct_id = %d, state=%d, bearer=%d")
+
+TRC_MSG(TRC_SRV_CBM_DISALLOW_CHECK_BEARER_INFO, "[CbmSrv] Disallow, action[0x%x], type1[0x%x], type2[0x%x], type3[0x%x], type4[0x%x].")
+TRC_MSG(TRC_SRV_CBM_DISALLOW_BEARER_BY_SIM, "[CbmSrv] Disallow sim, sim[%d], type[0x%x], app_id[%d].")
+TRC_MSG(TRC_SRV_CBM_DISALLOW_SIM_CHECK_BEARER_INFO, "[CbmSrv] Disallow sim, action[0x%x], type1[0x%x], type2[0x%x], type3[0x%x], type4[0x%x].")
+TRC_MSG(TRC_SRV_CBM_ALLOW_CHECK_BEARER_INFO, "[CbmSrv] Allow, action[0x%x], type1[0x%x], type2[0x%x], type3[0x%x], type4[0x%x].")
+TRC_MSG(TRC_SRV_CBM_ALLOW_BEARER_BY_SIM, "[CbmSrv] Allow sim, sim[%d], type[0x%x], app_id[%d].")
+TRC_MSG(TRC_SRV_CBM_ALLOW_SIM_CHECK_BEARER_INFO, "[CbmSrv] Allow sim, action[0x%x], type1[0x%x], type2[0x%x], type3[0x%x], type4[0x%x].")
+
+TRC_MSG(TRC_SRV_CBM_REGISTER_BEARER_EVENT, "[CbmSrv] Register bearer event, app_id[%d], type[0x%x].")
+TRC_MSG(TRC_SRV_CBM_GET_APP_SLOT_SUCC, "[CbmSrv] Get app slot success, app_id[%d], slot[%d].")
+TRC_MSG(TRC_SRV_CBM_GET_APP_SLOT_FAIL, "[CbmSrv] Get app slot fail, app_id[%d].")
+TRC_MSG(TRC_SRV_CBM_FREE_APP_SLOT, "[CbmSrv] Free app slot, app_id[%d], nw_acct_id[0x%x].")
+
+TRC_MSG(TRC_SRV_CBM_BEARER_INIT_IND, "[CbmSrv] srv_cbm_bearer_init_ind, acct_id[0x%x].")
+TRC_MSG(TRC_SRV_CBM_BEARER_DEINIT_IND, "[CbmSrv] srv_cbm_bearer_deinit_ind, acct_id[0x%x].")
+TRC_MSG(TRC_SRV_CBM_APP_ID_SAME, "[CbmSrv] app id is same, ori_nw_acct_id[0x%x], ori_rel_acct_id[0x%x], ori_app_state[%d].")
+TRC_MSG(TRC_SRV_CBM_IN_FLIGHT_MODE, "[CbmSrv] In flight mode, acct_id[0x%x].")
+TRC_MSG(TRC_SRV_CBM_GET_REGISTERED_APP_INFO_FAIL, "[CbmSrv] Get registered app info fail, app_id[%d], ret[%d], rel_acct_id[0x%x].")
+TRC_MSG(TRC_SRV_CBM_BEARER_UNAVAILABLE, "[CbmSrv] Bearer is unavailable, event[%d].")
+TRC_MSG(TRC_SRV_CBM_APP_NOT_SUPPORT_WLAN, "[CbmSrv] App doesnot support WLAN, str_id[%d], icon_id[%d], app_type[0x%x], rel_acct_id[0x%x].")
+TRC_MSG(TRC_SRV_CBM_APP_ACCT_HAD_SELECTED, "[CbmSrv] App acct id had been selected already, rel_acct_id[0x%x].")
+TRC_MSG(TRC_SRV_CBM_WLAN_TURN_OFF, "[CbmSrv] WLAN is turned off, wlan_state[%d], rel_acct_id[0x%x].")
+TRC_MSG(TRC_SRV_CBM_WLAN_ACTIVATED, "[CbmSrv] WLAN is activated already, rel_acct_id[0x%x].")
+TRC_MSG(TRC_SRV_CBM_WLAN_ACTIVATING, "[CbmSrv] WLAN is activating, rel_acct_id[0x%x].")
+TRC_MSG(TRC_SRV_CBM_WLAN_IN_OTHER_STATE, "[CbmSrv] WLAN is in other state[%d].")
+TRC_MSG(TRC_SRV_CBM_WLAN_QUERY_RUNNING, "[CbmSrv] WLAN query[%d] is running.")
+TRC_MSG(TRC_SRV_CBM_BEARER_SWITCH_NOTIFY, "[CbmSrv] Bearer switch notify, type[%d], acct_id[0x%x], switch[%d], user_result[%d], ret[%d], callback[0x%x].")
+TRC_MSG(TRC_SRV_CBM_WLAN_CONNECT_FAIL, "[CbmSrv] WLAN connect fail, next_query_type[%d].")
+TRC_MSG(TRC_SRV_CBM_APP_NOT_RECORDED, "[CbmSrv] App id is not recorded, app_id[%d].")
+TRC_MSG(TRC_SRV_CBM_ACCT_NOT_MATCHED, "[CbmSrv] Account id is not matched, ori_acct_id[0x%x], acct_id[0x%x].")
+TRC_MSG(TRC_SRV_CBM_BEARER_STATUS_IND, "[CbmSrv] Bearer status ind, notify[%d], status[0x%x].")
+TRC_MSG(TRC_SRV_CBM_BEARER_STATUS_CHECK, "[CbmSrv] Bearer status check, i[%d], event[%d].")
+TRC_MSG(TRC_SRV_CBM_WLAN_IS_UNUSED, "[CbmSrv] WLAN is unused, event[%d].")
+
+TRC_MSG(TRC_SRV_CBM_WLAN_SCAN_CALLBACK, "[CbmSrv] WLAN scan callback, result[%d], ap_num[%d], query_type[%d].")
+TRC_MSG(TRC_SRV_CBM_WLAN_QUERY_CALLBACK, "[CbmSrv] WLAN query callback, bearer_type[0x%x].")
+TRC_MSG(TRC_SRV_CBM_PROCESS_STARTUP_APP, "[CbmSrv] Process startup app, acct_id[0x%x], query_type[%d], bearer_type[0x%x].")
+TRC_MSG(TRC_SRV_CBM_PROCESS_DISCONNECTED_APP, "[CbmSrv] Process disconnected app, acct_id[0x%x], query_type[%d], bearer_type[0x%x].")
+TRC_MSG(TRC_SRV_CBM_SEND_WLAN_QUERY_EVENT, "[CbmSrv] Send wlan query event, query_type[%d].")
+TRC_MSG(TRC_SRV_CBM_GET_WLAN_QUERY_TYPE, "[CbmSrv] Get wlan query type, get_ori_type[%d], new_type[%d], ori_type[%d].")
+TRC_MSG(TRC_SRV_CBM_GET_WLAN_PREFER_SETTING, "[CbmSrv] Get WLAN prefer setting, result[%d], auto_conn[%d], nwk_switch[%d], query_type[%d].")
+TRC_MSG(TRC_SRV_CBM_WLAN_AUTO_SEARCH_TIMEOUT_CALLBACK, "[CbmSrv] WLAN auto search timeout callback, query_type[%d].")
+TRC_MSG(TRC_SRV_CBM_WLAN_PREFER_TIMER_TIMEOUT, "[CbmSrv] WLAN prefer timer timeout[%ds].")
+TRC_MSG(TRC_SRV_CBM_WLAN_PREFER_TIMER_START, "[CbmSrv] Start WLAN prefer timer, timeout[%ds].")
+TRC_MSG(TRC_SRV_CBM_WLAN_PREFER_TIMER_CHECK, "[CbmSrv] Check WLAN prefer timer status[%d].")
+TRC_MSG(TRC_SRV_CBM_WLAN_PREFER_TIMER_SET, "[CbmSrv] Set WLAN prefer timer timeout[%ds].")
+TRC_MSG(TRC_SRV_CBM_IS_WLAN_SLEEP, "[CbmSrv] Check if WLAN sleep, ret[%d].")
+
+TRC_MSG(TRC_SRV_CBM_TST_INJECT_STRING, "[CbmSrv] Tst inject string, index[%d].")
+

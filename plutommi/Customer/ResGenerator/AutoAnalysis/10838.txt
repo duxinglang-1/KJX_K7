@@ -1,0 +1,63 @@
+Image: ..\..\..\plutommi\CUSTOMER\IMAGES\PLUTO\MAINLCD\UIELEMENT\TABBAR\TAB_ARROW_L.GIF
+  Format: GIF (CompuServe graphics interchange format)
+  Geometry: 10x15
+  Class: PseudoClass
+  Type: PaletteMatte
+  Endianess: Undefined
+  Colorspace: RGB
+  Channel depth:
+    Red: 8-bits
+    Green: 8-bits
+    Blue: 8-bits
+    Opacity: 1-bits
+  Channel statistics:
+    Red:
+      Min: 61 (0.239216)
+      Max: 255 (1)
+      Mean: 198.827 (0.779712)
+      Standard deviation: 79.7089 (0.312584)
+    Green:
+      Min: 137 (0.537255)
+      Max: 255 (1)
+      Mean: 227.033 (0.890327)
+      Standard deviation: 43.8775 (0.172069)
+    Blue:
+      Min: 31 (0.121569)
+      Max: 255 (1)
+      Mean: 188.827 (0.740497)
+      Standard deviation: 92.9131 (0.364365)
+    Opacity:
+      Min: 0 (0)
+      Max: 255 (1)
+      Mean: 163.2 (0.64)
+      Standard deviation: 122.4 (0.48)
+  Colors: 8
+         0: ( 71,137, 47,  0)	#47892F00
+         1: (209,254,193,  0)	#D1FEC100
+         2: (124,207, 95,  0)	#7CCF5F00
+         3: ( 61,145, 31,  0)	#3D911F00
+         4: (255,255,255,  0)	white
+         5: (  0,  0,  0,  0)	black
+         6: (  0,  0,  0,  0)	black
+         7: (  0,  0,  0,  0)	black
+  Histogram:
+        24: ( 61,145, 31,  0)	#3D911F00
+         5: ( 71,137, 47,  0)	#47892F00
+        20: (124,207, 95,  0)	#7CCF5F00
+         5: (209,254,193,  0)	#D1FEC100
+        96: (255,255,255,255)	#FFFFFFFF
+  Rendering-intent: Undefined
+  Resolution: 72x72
+  Units: Undefined
+  Filesize: 93
+  Interlace: None
+  Background Color: white
+  Border Color: #DFDFDF00
+  Matte Color: grey74
+  Page geometry: 10x15+0+0
+  Dispose: Undefined
+  Compression: LZW
+  Orientation: Undefined
+  Signature: 4d85fbcaa37d38e67f0ed91e0a575d9088a1bf1d246be871805aab5800465232
+  Tainted: False
+  Version: ImageMagick 6.2.3 06/08/05 Q16 http://www.imagemagick.org

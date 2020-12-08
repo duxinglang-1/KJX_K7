@@ -1,0 +1,46 @@
+Image: ..\..\..\plutommi\CUSTOMER\IMAGES\PLUTO\MAINLCD\UIELEMENT\COLORSLIDER\COLOR_SLIDER_ARROW.BMP
+  Format: BMP (Microsoft Windows bitmap image)
+  Geometry: 6x4
+  Class: DirectClass
+  Type: Palette
+  Endianess: Undefined
+  Colorspace: RGB
+  Channel depth:
+    Red: 8-bits
+    Green: 8-bits
+    Blue: 8-bits
+  Channel statistics:
+    Red:
+      Min: 0 (0)
+      Max: 16 (0.0627451)
+      Mean: 4 (0.0156863)
+      Standard deviation: 6.9282 (0.0271694)
+    Green:
+      Min: 0 (0)
+      Max: 68 (0.266667)
+      Mean: 24 (0.0941176)
+      Standard deviation: 27.8568 (0.109242)
+    Blue:
+      Min: 0 (0)
+      Max: 192 (0.752941)
+      Mean: 88 (0.345098)
+      Standard deviation: 88.7243 (0.347938)
+  Colors: 3
+  Histogram:
+        12: (  0,  0,  0)	black
+         6: (  0, 28,192)	#001CC0
+         6: ( 16, 68,160)	#1044A0
+  Rendering-intent: Undefined
+  Units: Undefined
+  Filesize: 134
+  Interlace: None
+  Background Color: white
+  Border Color: #DFDFDF
+  Matte Color: grey74
+  Dispose: Undefined
+  Iterations: 0
+  Compression: Undefined
+  Orientation: Undefined
+  Signature: 19ef7531944b8446b776af69ad50ce17bbc7466b17da78ad866660bcd65ddd1c
+  Tainted: False
+  Version: ImageMagick 6.2.3 06/08/05 Q16 http://www.imagemagick.org

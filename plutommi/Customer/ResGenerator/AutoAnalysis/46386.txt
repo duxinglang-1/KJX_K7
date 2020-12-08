@@ -1,0 +1,83 @@
+Image: ..\..\..\plutommi\CUSTOMER\IMAGES\PLUTO\MAINLCD\SMS\SUBMENU\OUTBOX\SS_FAILTOSENT.BMP
+  Format: BMP (Microsoft Windows bitmap image)
+  Geometry: 26x26
+  Class: PseudoClass
+  Type: Palette
+  Endianess: Undefined
+  Colorspace: RGB
+  Channel depth:
+    Red: 8-bits
+    Green: 8-bits
+    Blue: 8-bits
+  Channel statistics:
+    Red:
+      Min: 0 (0)
+      Max: 255 (1)
+      Mean: 6.56065 (0.025728)
+      Standard deviation: 38.8426 (0.152324)
+    Green:
+      Min: 0 (0)
+      Max: 255 (1)
+      Mean: 4.39201 (0.0172236)
+      Standard deviation: 29.5857 (0.116022)
+    Blue:
+      Min: 0 (0)
+      Max: 255 (1)
+      Mean: 2.20562 (0.0086495)
+      Standard deviation: 18.9921 (0.0744787)
+  Colors: 20
+         0: (  0,  0,  0)	black
+         1: (255,230,170)	#FFE6AA
+         2: (254,173,  0)	#FEAD00
+         3: (239,169, 20)	#EFA914
+         4: (241,176, 38)	#F1B026
+         5: (241,180, 50)	#F1B432
+         6: (243,186, 64)	#F3BA40
+         7: (245,190, 71)	#F5BE47
+         8: (244,192, 79)	#F4C04F
+         9: (248,204,106)	#F8CC6A
+        10: (253,220,146)	#FDDC92
+        11: (254,231,181)	#FEE7B5
+        12: (242,182, 56)	#F2B638
+        13: (202,126,  0)	#CA7E00
+        14: (222,  0,  0)	#DE0000
+        15: (199,  0,  0)	#C70000
+        16: (186,  0,  0)	#BA0000
+        17: (157,  0,  0)	#9D0000
+        18: (255,255,255)	white
+        19: (255,255,255)	white
+  Histogram:
+       187: (  0,  0,  0)	black
+        10: (157,  0,  0)	#9D0000
+        25: (186,  0,  0)	#BA0000
+        13: (199,  0,  0)	#C70000
+         8: (222,  0,  0)	#DE0000
+       103: (202,126,  0)	#CA7E00
+        40: (239,169, 20)	#EFA914
+        14: (254,173,  0)	#FEAD00
+        24: (241,176, 38)	#F1B026
+        83: (241,180, 50)	#F1B432
+        10: (242,182, 56)	#F2B638
+         8: (243,186, 64)	#F3BA40
+        22: (245,190, 71)	#F5BE47
+         4: (244,192, 79)	#F4C04F
+        26: (248,204,106)	#F8CC6A
+        15: (253,220,146)	#FDDC92
+        20: (255,230,170)	#FFE6AA
+        20: (254,231,181)	#FEE7B5
+        44: (255,255,255)	white
+  Rendering-intent: Undefined
+  Resolution: 28.34x28.34
+  Units: Undefined
+  Filesize: 864
+  Interlace: None
+  Background Color: white
+  Border Color: #DFDFDF
+  Matte Color: grey74
+  Dispose: Undefined
+  Iterations: 0
+  Compression: Undefined
+  Orientation: Undefined
+  Signature: 992316f1f8458e1930d024f0c9fde72709751a6c6938858a72b18da1cb7acb91
+  Tainted: False
+  Version: ImageMagick 6.2.3 06/08/05 Q16 http://www.imagemagick.org

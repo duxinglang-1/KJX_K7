@@ -1,0 +1,60 @@
+Image: ..\..\..\plutommi\CUSTOMER\IMAGES\PLUTO\MAINLCD\UIELEMENT\SOFTKEY\WEB_BROWSER_CSK.BMP
+  Format: BMP (Microsoft Windows bitmap image)
+  Geometry: 20x20
+  Class: PseudoClass
+  Type: Palette
+  Endianess: Undefined
+  Colorspace: RGB
+  Channel depth:
+    Red: 8-bits
+    Green: 8-bits
+    Blue: 8-bits
+  Channel statistics:
+    Red:
+      Min: 0 (0)
+      Max: 100 (0.392157)
+      Mean: 0.865 (0.00339216)
+      Standard deviation: 7.74382 (0.0303679)
+    Green:
+      Min: 0 (0)
+      Max: 187 (0.733333)
+      Mean: 2.5675 (0.0100686)
+      Standard deviation: 19.5459 (0.0766504)
+    Blue:
+      Min: 0 (0)
+      Max: 239 (0.937255)
+      Mean: 2.7 (0.0105882)
+      Standard deviation: 23.5886 (0.0925041)
+  Colors: 8
+         0: (  0,  0,  0)	black
+         1: ( 17,133,204)	#1185CC
+         2: ( 36,157,213)	#249DD5
+         3: ( 51,170,226)	#33AAE2
+         4: ( 68,187,239)	#44BBEF
+         5: ( 74,129,  7)	#4A8107
+         6: (100,149, 18)	#649512
+         7: (  0,102,173)	#0066AD
+  Histogram:
+       192: (  0,  0,  0)	black
+        23: (  0,102,173)	#0066AD
+        62: ( 74,129,  7)	#4A8107
+        21: (100,149, 18)	#649512
+        37: ( 17,133,204)	#1185CC
+        44: ( 36,157,213)	#249DD5
+        16: ( 51,170,226)	#33AAE2
+         5: ( 68,187,239)	#44BBEF
+  Rendering-intent: Undefined
+  Resolution: 28.34x28.34
+  Units: Undefined
+  Filesize: 328
+  Interlace: None
+  Background Color: white
+  Border Color: #DFDFDF
+  Matte Color: grey74
+  Dispose: Undefined
+  Iterations: 0
+  Compression: Undefined
+  Orientation: Undefined
+  Signature: f0b8dfd604dc9ab138776cb2504f9a558699171e129be466af55c4de878a590b
+  Tainted: False
+  Version: ImageMagick 6.2.3 06/08/05 Q16 http://www.imagemagick.org

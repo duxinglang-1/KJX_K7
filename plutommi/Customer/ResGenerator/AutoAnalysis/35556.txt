@@ -1,0 +1,36 @@
+Image: ..\..\..\plutommi\CUSTOMER\IMAGES\PLUTO\MAINLCD\SNDREC\SR_BG.GIF
+  Format: GIF (CompuServe graphics interchange format)
+  Geometry: 240x320
+  Class: PseudoClass
+  Type: Grayscale
+  Endianess: Undefined
+  Colorspace: Gray
+  Channel depth:
+    Gray: 8-bits
+  Channel statistics:
+    Gray:
+      Min: 28 (0.109804)
+      Max: 84 (0.329412)
+      Mean: 0.0028125 (1.10294e-005)
+      Standard deviation: 0.415823 (0.00163068)
+  Colors: 4
+  Histogram:
+      3280: ( 28, 28, 28)	grey11
+     31635: ( 48, 48, 48)	grey19
+     41405: ( 56, 56, 56)	grey22
+       480: ( 84, 84, 84)	grey33
+  Rendering-intent: Undefined
+  Resolution: 72x72
+  Units: Undefined
+  Filesize: 1kb
+  Interlace: None
+  Background Color: grey33
+  Border Color: #DFDFDF
+  Matte Color: grey74
+  Page geometry: 240x320+0+0
+  Dispose: Undefined
+  Compression: LZW
+  Orientation: Undefined
+  Signature: 31b237516aabf519500c13299405570992747aa2d73787a24f494ec92106c942
+  Tainted: False
+  Version: ImageMagick 6.2.3 06/08/05 Q16 http://www.imagemagick.org

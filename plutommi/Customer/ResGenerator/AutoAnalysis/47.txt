@@ -1,0 +1,221 @@
+Image: ..\..\..\plutommi\CUSTOMER\IMAGES\PLUTO\MAINLCD\WARNINGPAGE\POPUPPAGE\PP_PRO.GIF
+  Format: GIF (CompuServe graphics interchange format)
+  Geometry: 100x90
+  Class: PseudoClass
+  Type: Palette
+  Endianess: Undefined
+  Colorspace: RGB
+  Channel depth:
+    Red: 8-bits
+    Green: 8-bits
+    Blue: 8-bits
+  Channel statistics:
+    Red:
+      Min: 0 (0)
+      Max: 255 (1)
+      Mean: 0.179333 (0.000703268)
+      Standard deviation: 5.62335 (0.0220524)
+    Green:
+      Min: 0 (0)
+      Max: 255 (1)
+      Mean: 0.219222 (0.000859695)
+      Standard deviation: 6.32874 (0.0248186)
+    Blue:
+      Min: 0 (0)
+      Max: 255 (1)
+      Mean: 0.259778 (0.00101874)
+      Standard deviation: 7.25156 (0.0284375)
+  Colors: 16
+         0: (225,231,237)	#E1E7ED
+         1: ( 45,109,173)	#2D6DAD
+         2: (158,179,200)	#9EB3C8
+         3: ( 88,116,146)	#587492
+         4: (129,163,198)	#81A3C6
+         5: (109,134,160)	#6D86A0
+         6: (189,203,217)	#BDCBD9
+         7: ( 57,121,185)	#3979B9
+         8: ( 49, 84,120)	#315478
+         9: (246,245,246)	#F6F5F6
+        10: ( 64,133,201)	#4085C9
+        11: (255,255,255)	white
+        12: (  0,  0,  0)	black
+        13: (  0,  0,  0)	black
+        14: (  0,  0,  0)	black
+        15: (  0,  0,  0)	black
+  Histogram:
+       548: ( 49, 84,120)	#315478
+       306: ( 45,109,173)	#2D6DAD
+       144: ( 57,121,185)	#3979B9
+        60: ( 88,116,146)	#587492
+        44: (109,134,160)	#6D86A0
+      3167: ( 64,133,201)	#4085C9
+        64: (129,163,198)	#81A3C6
+        47: (158,179,200)	#9EB3C8
+        35: (189,203,217)	#BDCBD9
+        98: (225,231,237)	#E1E7ED
+       595: (246,245,246)	#F6F5F6
+      3892: (255,255,255)	white
+  Rendering-intent: Undefined
+  Resolution: 72x72
+  Units: Undefined
+  Filesize: 1kb
+  Interlace: None
+  Background Color: #E1E7ED
+  Border Color: #DFDFDF
+  Matte Color: grey74
+  Page geometry: 100x90+0+0
+  Dispose: None
+  Delay: 50
+  Iterations: 0
+  Compression: LZW
+  Orientation: Undefined
+  Signature: 675ab531f82e747dce7fd4b5f88660cab56ba5914b0993a05bb71def5317800b
+  Tainted: False
+  Version: ImageMagick 6.2.3 06/08/05 Q16 http://www.imagemagick.org
+Image: ..\..\..\plutommi\CUSTOMER\IMAGES\PLUTO\MAINLCD\WARNINGPAGE\POPUPPAGE\PP_PRO.GIF
+  Format: GIF (CompuServe graphics interchange format)
+  Geometry: 20x27
+  Class: PseudoClass
+  Type: Palette
+  Endianess: Undefined
+  Colorspace: RGB
+  Channel depth:
+    Red: 8-bits
+    Green: 8-bits
+    Blue: 8-bits
+  Channel statistics:
+    Red:
+      Min: 0 (0)
+      Max: 255 (1)
+      Mean: 2.98889 (0.0117211)
+      Standard deviation: 22.7736 (0.0893082)
+    Green:
+      Min: 0 (0)
+      Max: 255 (1)
+      Mean: 3.6537 (0.0143282)
+      Standard deviation: 25.593 (0.100365)
+    Blue:
+      Min: 0 (0)
+      Max: 255 (1)
+      Mean: 4.32963 (0.0169789)
+      Standard deviation: 29.3053 (0.114923)
+  Colors: 16
+         0: (225,231,237)	#E1E7ED
+         1: ( 45,109,173)	#2D6DAD
+         2: (158,179,200)	#9EB3C8
+         3: ( 88,116,146)	#587492
+         4: (129,163,198)	#81A3C6
+         5: (109,134,160)	#6D86A0
+         6: (189,203,217)	#BDCBD9
+         7: ( 57,121,185)	#3979B9
+         8: ( 49, 84,120)	#315478
+         9: (246,245,246)	#F6F5F6
+        10: ( 64,133,201)	#4085C9
+        11: (255,255,255)	white
+        12: (  0,  0,  0)	black
+        13: (  0,  0,  0)	black
+        14: (  0,  0,  0)	black
+        15: (  0,  0,  0)	black
+  Histogram:
+        61: ( 45,109,173)	#2D6DAD
+        40: ( 57,121,185)	#3979B9
+       273: ( 64,133,201)	#4085C9
+        27: (129,163,198)	#81A3C6
+         8: (158,179,200)	#9EB3C8
+         3: (189,203,217)	#BDCBD9
+        13: (225,231,237)	#E1E7ED
+        33: (246,245,246)	#F6F5F6
+        82: (255,255,255)	white
+  Rendering-intent: Undefined
+  Resolution: 72x72
+  Units: Undefined
+  Filesize: 1kb
+  Interlace: None
+  Background Color: #E1E7ED
+  Border Color: #DFDFDF
+  Matte Color: grey74
+  Page geometry: 100x90+40+32
+  Dispose: None
+  Delay: 50
+  Scene: 1
+  Compression: LZW
+  Orientation: Undefined
+  Signature: fffe09148d8bdff80a2f51835027a5739d6959bff2fa4184e7b1a1af612fc0ae
+  Tainted: False
+  User Time: 0.094u
+  Elapsed Time: 0:01
+  Pixels per second: 6kb
+  Version: ImageMagick 6.2.3 06/08/05 Q16 http://www.imagemagick.org
+Image: ..\..\..\plutommi\CUSTOMER\IMAGES\PLUTO\MAINLCD\WARNINGPAGE\POPUPPAGE\PP_PRO.GIF
+  Format: GIF (CompuServe graphics interchange format)
+  Geometry: 20x23
+  Class: PseudoClass
+  Type: Palette
+  Endianess: Undefined
+  Colorspace: RGB
+  Channel depth:
+    Red: 8-bits
+    Green: 8-bits
+    Blue: 8-bits
+  Channel statistics:
+    Red:
+      Min: 0 (0)
+      Max: 255 (1)
+      Mean: 3.5087 (0.0137596)
+      Standard deviation: 24.6376 (0.096618)
+    Green:
+      Min: 0 (0)
+      Max: 255 (1)
+      Mean: 4.28913 (0.0168201)
+      Standard deviation: 27.6801 (0.108549)
+    Blue:
+      Min: 0 (0)
+      Max: 255 (1)
+      Mean: 5.08261 (0.0199318)
+      Standard deviation: 31.6911 (0.124279)
+  Colors: 16
+         0: (225,231,237)	#E1E7ED
+         1: ( 45,109,173)	#2D6DAD
+         2: (158,179,200)	#9EB3C8
+         3: ( 88,116,146)	#587492
+         4: (129,163,198)	#81A3C6
+         5: (109,134,160)	#6D86A0
+         6: (189,203,217)	#BDCBD9
+         7: ( 57,121,185)	#3979B9
+         8: ( 49, 84,120)	#315478
+         9: (246,245,246)	#F6F5F6
+        10: ( 64,133,201)	#4085C9
+        11: (255,255,255)	white
+        12: (  0,  0,  0)	black
+        13: (  0,  0,  0)	black
+        14: (  0,  0,  0)	black
+        15: (  0,  0,  0)	black
+  Histogram:
+        49: ( 45,109,173)	#2D6DAD
+        21: ( 57,121,185)	#3979B9
+       231: ( 64,133,201)	#4085C9
+        22: (129,163,198)	#81A3C6
+         8: (158,179,200)	#9EB3C8
+         5: (189,203,217)	#BDCBD9
+        13: (225,231,237)	#E1E7ED
+       111: (246,245,246)	#F6F5F6
+  Rendering-intent: Undefined
+  Resolution: 72x72
+  Units: Undefined
+  Filesize: 1kb
+  Interlace: None
+  Background Color: #E1E7ED
+  Border Color: #DFDFDF
+  Matte Color: grey74
+  Page geometry: 100x90+40+36
+  Dispose: None
+  Delay: 50
+  Scene: 2
+  Compression: LZW
+  Orientation: Undefined
+  Signature: 0edca792ccee1236a519c4b9bc1f5219b4481a0fe4cf0e6261351fb7f8b5b2a1
+  Tainted: False
+  User Time: 0.094u
+  Elapsed Time: 0:01
+  Pixels per second: 5kb
+  Version: ImageMagick 6.2.3 06/08/05 Q16 http://www.imagemagick.org

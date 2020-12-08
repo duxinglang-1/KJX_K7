@@ -1,0 +1,121 @@
+Image: ..\..\..\plutommi\CUSTOMER\IMAGES\PLUTO\MAINLCD\UIELEMENT\RADIOBUTTON\RO_UNS.BMP
+  Format: BMP (Microsoft Windows bitmap image)
+  Geometry: 26x26
+  Class: PseudoClass
+  Type: Palette
+  Endianess: Undefined
+  Colorspace: RGB
+  Channel depth:
+    Red: 8-bits
+    Green: 8-bits
+    Blue: 8-bits
+  Channel statistics:
+    Red:
+      Min: 0 (0)
+      Max: 255 (1)
+      Mean: 11.6139 (0.0455447)
+      Standard deviation: 48.4268 (0.189909)
+    Green:
+      Min: 0 (0)
+      Max: 255 (1)
+      Mean: 12.4438 (0.0487992)
+      Standard deviation: 51.9414 (0.203692)
+    Blue:
+      Min: 0 (0)
+      Max: 255 (1)
+      Mean: 9.1568 (0.035909)
+      Standard deviation: 41.0862 (0.161122)
+  Colors: 39
+         0: (255,  0,  0)	red
+         1: (240,247,229)	#F0F7E5
+         2: (244,249,236)	#F4F9EC
+         3: (251,253,248)	#FBFDF8
+         4: (140,191, 52)	#8CBF34
+         5: (143,193, 57)	#8FC139
+         6: (144,193, 59)	#90C13B
+         7: (145,194, 62)	#91C23E
+         8: (148,196, 66)	#94C442
+         9: (158,201, 83)	#9EC953
+        10: (162,203, 90)	#A2CB5A
+        11: (163,204, 93)	#A3CC5D
+        12: (164,205, 95)	#A4CD5F
+        13: (166,205, 97)	#A6CD61
+        14: (170,208,105)	#AAD069
+        15: (172,209,109)	#ACD16D
+        16: (191,220,143)	#BFDC8F
+        17: (209,229,174)	#D1E5AE
+        18: (210,230,176)	#D2E6B0
+        19: (212,231,179)	#D4E7B3
+        20: (213,232,181)	#D5E8B5
+        21: (214,232,183)	#D6E8B7
+        22: (216,233,186)	#D8E9BA
+        23: (217,234,188)	#D9EABC
+        24: (221,236,195)	#DDECC3
+        25: (224,238,200)	#E0EEC8
+        26: (237,245,224)	#EDF5E0
+        27: (241,247,231)	#F1F7E7
+        28: (200,224,157)	#C8E09D
+        29: (223,237,198)	#DFEDC6
+        30: (232,242,214)	#E8F2D6
+        31: (239,246,226)	#EFF6E2
+        32: (246,250,238)	#F6FAEE
+        33: (247,250,241)	#F7FAF1
+        34: (252,253,250)	#FCFDFA
+        35: (254,254,253)	#FEFEFD
+        36: (233,243,217)	#E9F3D9
+        37: (255,255,255)	white
+        38: (  0,  0,  0)	black
+  Histogram:
+       344: (255,  0,  0)	red
+       107: (140,191, 52)	#8CBF34
+         3: (143,193, 57)	#8FC139
+         2: (144,193, 59)	#90C13B
+         2: (145,194, 62)	#91C23E
+         2: (148,196, 66)	#94C442
+         1: (158,201, 83)	#9EC953
+         1: (162,203, 90)	#A2CB5A
+         1: (163,204, 93)	#A3CC5D
+         1: (164,205, 95)	#A4CD5F
+         2: (166,205, 97)	#A6CD61
+         1: (170,208,105)	#AAD069
+         1: (172,209,109)	#ACD16D
+         1: (191,220,143)	#BFDC8F
+         1: (200,224,157)	#C8E09D
+         2: (209,229,174)	#D1E5AE
+         1: (210,230,176)	#D2E6B0
+         1: (212,231,179)	#D4E7B3
+         1: (213,232,181)	#D5E8B5
+         4: (214,232,183)	#D6E8B7
+         2: (216,233,186)	#D8E9BA
+         1: (217,234,188)	#D9EABC
+         1: (221,236,195)	#DDECC3
+         1: (223,237,198)	#DFEDC6
+         1: (224,238,200)	#E0EEC8
+         1: (232,242,214)	#E8F2D6
+         1: (233,243,217)	#E9F3D9
+         2: (237,245,224)	#EDF5E0
+         1: (239,246,226)	#EFF6E2
+         1: (240,247,229)	#F0F7E5
+         1: (241,247,231)	#F1F7E7
+         2: (244,249,236)	#F4F9EC
+         1: (246,250,238)	#F6FAEE
+         1: (247,250,241)	#F7FAF1
+         1: (251,253,248)	#FBFDF8
+         1: (252,253,250)	#FCFDFA
+         2: (254,254,253)	#FEFEFD
+       176: (255,255,255)	white
+  Rendering-intent: Undefined
+  Resolution: 28.34x28.34
+  Units: Undefined
+  Filesize: 940
+  Interlace: None
+  Background Color: white
+  Border Color: #DFDFDF
+  Matte Color: grey74
+  Dispose: Undefined
+  Iterations: 0
+  Compression: Undefined
+  Orientation: Undefined
+  Signature: 828235759d37b1a037638ab8e1a2a7a184b624d9fe5fac96b89264e89b04516e
+  Tainted: False
+  Version: ImageMagick 6.2.3 06/08/05 Q16 http://www.imagemagick.org

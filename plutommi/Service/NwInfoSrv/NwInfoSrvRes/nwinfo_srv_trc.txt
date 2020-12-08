@@ -1,0 +1,17 @@
+[APP NAME] = NWINFO SRV
+[SCOPE] = PLUTO, COSMOS
+[MODULE] = MOD_MMI_COMMON_APP
+
+#start trace
+TRC_MSG(TRC_SRV_NW_INFO_SERVICE_AVAI_CHANGED, "[NwInfo] Service availability changed: sim = %Mmmi_sim_enum, %d -> %d")
+TRC_MSG(TRC_SRV_NW_INFO_LOCATION_CHANGED,   "[NwInfo] Location changed: sim = %Mmmi_sim_enum, (LAC, cell-ID) = (%d, %d) -> (%d, %d), PLMN = %s -> %s")
+TRC_MSG(TRC_SRV_NW_INFO_DN_STATUS_CHANGED,  "[NwInfo] Data network changed: sim = %Mmmi_sim_enum, 0x%x -> 0x%x")
+TRC_MSG(TRC_SRV_NW_INFO_PROT_CAP_CHANGED,   "[NwInfo] Protocol/capability changed: sim = %Mmmi_sim_enum, (%d, 0x%x, 0x%x) -> (%d, 0x%x, 0x%x) : (protocol, cell, channel)")
+TRC_MSG(TRC_SRV_NW_INFO_ROAMING_CONDITION,  "[NwInfo] Roaming condition: sim = %Mmmi_sim_enum, (Spec %d, T-mobile %d, Phn-tbl %d) => roaming = %d")
+TRC_MSG(TRC_SRV_NW_INFO_ROAMING_CHANGED,    "[NwInfo] Roaming status changed: sim = %Mmmi_sim_enum, %d -> %d")
+TRC_MSG(TRC_SRV_NW_INFO_CIPHER_CHANGED,     "[NwInfo] Cipher status changed: sim = %Mmmi_sim_enum, -> nw_support = %d, cs_conn = %d, cs = %d, ps = %d")
+TRC_MSG(TRC_SRV_NW_INFO_HOMEZONE_CHANGED,   "[NwInfo] Homezone status: sim = %Mmmi_sim_enum, notify = %d, hz = %d")
+TRC_MSG(TRC_SRV_NW_INFO_NOTIFY_MODE_CHANGED, "[NwInfo] srv_nw_info_notify_mode_changed()")
+TRC_MSG(TRC_SRV_NW_INFO_IS_ENABLED,         "[NwInfo] srv_nw_info_is_enabled(sim = %Mmmi_sim_enum) return %d at #%d")
+TRC_MSG(TRC_SRV_NW_INFO_SIGNAL_STRENGTH,    "[NwInfo] Signal strength: sim = %Mmmi_sim_enum, %d -> %d")
+TRC_MSG(TRC_SRV_NW_INFO_CNMGR_NOTIFY_NWINFO_HDLR,    "[NwInfo] srv_nw_info_cnmgr_notify_nwinfo_hdlr(): sim = %Mmmi_sim_enum, old_dn_status = %d, uplink = %d, downlink = %d")

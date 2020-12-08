@@ -1,0 +1,43 @@
+Image: ..\..\..\plutommi\CUSTOMER\IMAGES\PLUTO\MAINLCD\IDLESCREEN\WALLPAPER\WALL01.BMP
+  Format: BMP (Microsoft Windows bitmap image)
+  Geometry: 240x320
+  Class: DirectClass
+  Type: TrueColor
+  Endianess: Undefined
+  Colorspace: RGB
+  Channel depth:
+    Red: 8-bits
+    Green: 8-bits
+    Blue: 8-bits
+  Channel statistics:
+    Red:
+      Min: 0 (0)
+      Max: 171 (0.670588)
+      Mean: 89.8473 (0.352342)
+      Standard deviation: 71.3463 (0.27979)
+    Green:
+      Min: 0 (0)
+      Max: 171 (0.670588)
+      Mean: 103.911 (0.407495)
+      Standard deviation: 67.567 (0.264969)
+    Blue:
+      Min: 0 (0)
+      Max: 171 (0.670588)
+      Mean: 104.675 (0.410489)
+      Standard deviation: 75.3295 (0.29541)
+  Colors: 15300
+  Rendering-intent: Undefined
+  Resolution: 37.79x37.79
+  Units: Undefined
+  Filesize: 225kb
+  Interlace: None
+  Background Color: white
+  Border Color: #DFDFDF
+  Matte Color: grey74
+  Dispose: Undefined
+  Iterations: 0
+  Compression: Undefined
+  Orientation: Undefined
+  Signature: e3c1fca071379da20adcb74810f58309e2400a9dca4264178e7edcbf4f97b9e3
+  Tainted: False
+  Version: ImageMagick 6.2.3 06/08/05 Q16 http://www.imagemagick.org

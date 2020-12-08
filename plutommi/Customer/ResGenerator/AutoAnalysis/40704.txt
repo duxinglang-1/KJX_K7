@@ -1,0 +1,76 @@
+Image: ..\..\..\plutommi\CUSTOMER\IMAGES\PLUTO\MAINLCD\FILEMANAGER\FM_SIVCF.BMP
+  Format: BMP (Microsoft Windows bitmap image)
+  Geometry: 26x26
+  Class: PseudoClass
+  Type: Palette
+  Endianess: Undefined
+  Colorspace: RGB
+  Channel depth:
+    Red: 8-bits
+    Green: 8-bits
+    Blue: 8-bits
+  Channel statistics:
+    Red:
+      Min: 0 (0)
+      Max: 255 (1)
+      Mean: 5.11686 (0.0200661)
+      Standard deviation: 34.2725 (0.134402)
+    Green:
+      Min: 0 (0)
+      Max: 255 (1)
+      Mean: 4.72337 (0.018523)
+      Standard deviation: 31.7692 (0.124585)
+    Blue:
+      Min: 0 (0)
+      Max: 255 (1)
+      Mean: 3.08876 (0.0121128)
+      Standard deviation: 23.2335 (0.0911116)
+  Colors: 16
+         0: (  0,  0,  0)	black
+         1: (237,238,240)	#EDEEF0
+         2: (152,158,168)	#989EA8
+         3: (162,168,178)	#A2A8B2
+         4: (227,229,232)	#E3E5E8
+         5: (254,251,143)	#FEFB8F
+         6: (252,245,133)	#FCF585
+         7: (250,237,121)	#FAED79
+         8: (247,229,107)	#F7E56B
+         9: (244,220, 93)	#F4DC5D
+        10: (239,204, 65)	#EFCC41
+        11: (242,212, 79)	#F2D44F
+        12: (237,196, 53)	#EDC435
+        13: (246,134,  0)	#F68600
+        14: (255,255,255)	white
+        15: (215,217,221)	#D7D9DD
+  Histogram:
+       270: (  0,  0,  0)	black
+        28: (246,134,  0)	#F68600
+         4: (237,196, 53)	#EDC435
+         6: (239,204, 65)	#EFCC41
+         8: (242,212, 79)	#F2D44F
+         8: (244,220, 93)	#F4DC5D
+         8: (247,229,107)	#F7E56B
+         8: (250,237,121)	#FAED79
+        50: (152,158,168)	#989EA8
+        71: (162,168,178)	#A2A8B2
+         6: (252,245,133)	#FCF585
+         4: (254,251,143)	#FEFB8F
+         8: (215,217,221)	#D7D9DD
+         2: (227,229,232)	#E3E5E8
+       143: (237,238,240)	#EDEEF0
+        52: (255,255,255)	white
+  Rendering-intent: Undefined
+  Resolution: 28.34x28.34
+  Units: Undefined
+  Filesize: 536
+  Interlace: None
+  Background Color: white
+  Border Color: #DFDFDF
+  Matte Color: grey74
+  Dispose: Undefined
+  Iterations: 0
+  Compression: Undefined
+  Orientation: Undefined
+  Signature: 31fbf84ffd0bc1a45fa28522cba0d7fec23b1452d2a7d4115263361cefaaf494
+  Tainted: False
+  Version: ImageMagick 6.2.3 06/08/05 Q16 http://www.imagemagick.org

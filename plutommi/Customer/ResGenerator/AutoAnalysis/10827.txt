@@ -1,0 +1,53 @@
+Image: ..\..\..\plutommi\CUSTOMER\IMAGES\PLUTO\MAINLCD\TITLEBAR\TB_IV_BG.BMP
+  Format: BMP (Microsoft Windows bitmap image)
+  Geometry: 240x36
+  Class: PseudoClass
+  Type: Palette
+  Endianess: Undefined
+  Colorspace: RGB
+  Channel depth:
+    Red: 8-bits
+    Green: 8-bits
+    Blue: 8-bits
+  Channel statistics:
+    Red:
+      Min: 0 (0)
+      Max: 255 (1)
+      Mean: 0.109259 (0.000428468)
+      Standard deviation: 5.12588 (0.0201015)
+    Green:
+      Min: 0 (0)
+      Max: 255 (1)
+      Mean: 0.0989583 (0.000388072)
+      Standard deviation: 4.73167 (0.0185556)
+    Blue:
+      Min: 0 (0)
+      Max: 255 (1)
+      Mean: 0.140278 (0.000550109)
+      Standard deviation: 5.86099 (0.0229843)
+  Colors: 6
+         0: (255,  0,255)	fuchsia
+         1: (179,217,255)	#B3D9FF
+         2: (255,255,255)	white
+         3: (255,255,255)	white
+         4: (  0,128,192)	#0080C0
+         5: (  0,  0,  0)	black
+  Histogram:
+       364: (  0,128,192)	#0080C0
+      3404: (255,  0,255)	fuchsia
+      4872: (179,217,255)	#B3D9FF
+  Rendering-intent: Undefined
+  Resolution: 28.34x28.34
+  Units: Undefined
+  Filesize: 9kb
+  Interlace: None
+  Background Color: white
+  Border Color: #DFDFDF
+  Matte Color: grey74
+  Dispose: Undefined
+  Iterations: 0
+  Compression: Undefined
+  Orientation: Undefined
+  Signature: af5e5077ded42b5f3e6fc41a40e704447a17069067af3c65d533ea8644b21147
+  Tainted: False
+  Version: ImageMagick 6.2.3 06/08/05 Q16 http://www.imagemagick.org

@@ -1,0 +1,50 @@
+Image: ..\..\..\plutommi\CUSTOMER\IMAGES\PLUTO\MAINLCD\CAMERA\CAMERA\OSD\CAPQTY_NORMAL.BMP
+  Format: BMP (Microsoft Windows bitmap image)
+  Geometry: 25x25
+  Class: PseudoClass
+  Type: Palette
+  Endianess: Undefined
+  Colorspace: RGB
+  Channel depth:
+    Red: 8-bits
+    Green: 1-bits
+    Blue: 8-bits
+  Channel statistics:
+    Red:
+      Min: 0 (0)
+      Max: 255 (1)
+      Mean: 0.8128 (0.00318745)
+      Standard deviation: 14.3455 (0.0562569)
+    Green:
+      Min: 0 (0)
+      Max: 255 (1)
+      Mean: 0.408 (0.0016)
+      Standard deviation: 10.1918 (0.039968)
+    Blue:
+      Min: 0 (0)
+      Max: 255 (1)
+      Mean: 0.7984 (0.00313098)
+      Standard deviation: 14.0947 (0.0552733)
+  Colors: 3
+         0: (253,  0,244)	#FD00F4
+         1: (255,255,255)	white
+         2: (  0,  0,  0)	black
+  Histogram:
+       481: (  0,  0,  0)	black
+        12: (253,  0,244)	#FD00F4
+       132: (255,255,255)	white
+  Rendering-intent: Undefined
+  Resolution: 28.34x28.34
+  Units: Undefined
+  Filesize: 468
+  Interlace: None
+  Background Color: white
+  Border Color: #DFDFDF
+  Matte Color: grey74
+  Dispose: Undefined
+  Iterations: 0
+  Compression: Undefined
+  Orientation: Undefined
+  Signature: ed764a79ee33f9ec7488d68516983ffa96c59bb52cea803c392a9e7e1af0886d
+  Tainted: False
+  Version: ImageMagick 6.2.3 06/08/05 Q16 http://www.imagemagick.org

@@ -1,0 +1,26 @@
+[APP NAME] = WLAN
+[SCOPE] = PLUTO
+[MODULE] = MOD_MMI_CONN_APP
+
+TRC_MSG(CUI_WLAN_LIST_CREATE, "[WLAN UI][CUI] cui_wlan_list_create() gid = %d")
+TRC_MSG(CUI_WLAN_INPUT_DONE_CONN, "[WLAN UI][CUI] input_done_connect() step = %d")
+TRC_MSG(CUI_WLAN_PASSPHRASE_INPUT, "[WLAN UI][CUI] passphrase_input()")
+TRC_MSG(CUI_WLAN_DEFAULT_EAP_INPUT, "[WLAN UI][CUI] default_eap_input()")
+TRC_MSG(CUI_WLAN_PRE_CONNECT, "[WLAN UI][CUI] wlan_pre_connect() step =%d")
+TRC_MSG(CUI_WLAN_CONNECT_EVENT_HDR, "[WLAN UI][CUI] connect_event_hdlr()")
+TRC_MSG(CUI_WLAN_SCAN_EVENT_HDR, "[WLAN UI][CUI] scan_event_hdlr()")
+TRC_MSG(CUI_WLAN_EVENT_HDR, "[WLAN UI][CUI] wlan_event_handler() evt_id = %d")
+TRC_MSG(CUI_WLAN_LIST_RUN, "[WLAN UI][CUI] wlan_list_run Group ID = %d")
+TRC_MSG(CUI_WLAN_LIST_CLOSE, "[WLAN UI][CUI] wlan_list_close Group ID = %d")
+TRC_MSG(CUI_WLAN_SCAN_JOB, "[WLAN UI][CUI] entry_find_network scan job = %d")
+TRC_MSG(CUI_WLAN_CONNECT_SAVED, "[WLAN UI][CUI] cui_wlan_connect saved ap.")
+TRC_MSG(CUI_WLAN_CONNECT_SEARCH, "[WLAN UI][CUI] cui_wlan_connect ap searched.")
+TRC_MSG(CUI_WLAN_CMCC_CONNECT_SUCCESS, "[WLAN UI][CUI] Close CUI(%d) after connect to ap successfully ")
+TRC_MSG(CUI_WLAN_CMCC_CANCEL, "[WLAN UI][CUI] Press RSK 'Cancel' CUI ID - [%d] Notify caller!! ")
+TRC_MSG(CUI_WLAN_CMCC_ABORT_SEARCH, "[WLAN UI][CUI] Abort scanning for networks - Notify caller to close CUI(%d)")
+TRC_MSG(CUI_WLAN_CMCC_CREATE_FAILED, "[WLAN UI][CUI] Create CUI failed - Notify caller to close CUI(%d)")
+TRC_MSG(CUI_WLAN_CMCC_SHOW_AP_LIST_AFTER_SCAN, "[WLAN UI][CUI] Show WLAN CUI after receive scan event. - Group ID: [%d]")
+TRC_MSG(CUI_WLAN_CMCC_AP_LIST_HIGHLIGHT_INDEX, "[WLAN UI][CUI] CID: [%d] Hilt idx: [%d] Main list idx: [%d] Type: [%d]")
+TRC_MSG(CUI_WLAN_CMCC_AP_LIST_BEFORE_CONNECT, "[WLAN UI][CUI] ==> Before connect to AP. Type: [%d] SSID length: [%d] Profile ID: [%d]")
+TRC_MSG(CUI_WLAN_STOP_TETHERING_CNF, "[WLAN CUI] Wi-Fi tethering is off or not - %d")
+TRC_MSG(CUI_WLAN_AFTER_STOP_TETHERING_CB, "[WLAN CUI] Stop tethering. Result: %d")

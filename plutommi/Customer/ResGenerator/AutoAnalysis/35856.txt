@@ -1,0 +1,207 @@
+Image: ..\..\..\plutommi\CUSTOMER\IMAGES\PLUTO\MAINLCD\AUDIOPLAYER\PLAY\AP_PLAY_ANIMATION.GIF
+  Format: GIF (CompuServe graphics interchange format)
+  Geometry: 240x200
+  Class: PseudoClass
+  Type: PaletteMatte
+  Endianess: Undefined
+  Colorspace: RGB
+  Channel depth:
+    Red: 8-bits
+    Green: 8-bits
+    Blue: 8-bits
+    Opacity: 1-bits
+  Channel statistics:
+    Red:
+      Min: 141 (0.552941)
+      Max: 255 (1)
+      Mean: 247.6 (0.97098)
+      Standard deviation: 27.9041 (0.109428)
+    Green:
+      Min: 195 (0.764706)
+      Max: 255 (1)
+      Mean: 251.106 (0.984728)
+      Standard deviation: 14.6858 (0.0575913)
+    Blue:
+      Min: 53 (0.207843)
+      Max: 255 (1)
+      Mean: 241.889 (0.948583)
+      Standard deviation: 49.4414 (0.193888)
+    Opacity:
+      Min: 0 (0)
+      Max: 0 (0)
+      Mean: 0 (0)
+      Standard deviation: 0 (0)
+  Colors: 8
+         0: (255,255,255,  0)	white
+         1: (164,207, 94,  0)	#A4CF5E00
+         2: (141,195, 53,  0)	#8DC33500
+         3: (209,231,174,  0)	#D1E7AE00
+         4: (227,241,206,  0)	#E3F1CE00
+         5: (244,249,235,  0)	#F4F9EB00
+         6: (184,218,130,  0)	#B8DA8200
+         7: (255,255,255,  0)	white
+  Histogram:
+      3022: (141,195, 53,  0)	#8DC33500
+        57: (164,207, 94,  0)	#A4CF5E00
+        22: (184,218,130,  0)	#B8DA8200
+        56: (209,231,174,  0)	#D1E7AE00
+        27: (227,241,206,  0)	#E3F1CE00
+        56: (244,249,235,  0)	#F4F9EB00
+     44760: (255,255,255,  0)	white
+  Rendering-intent: Undefined
+  Resolution: 72x72
+  Units: Undefined
+  Filesize: 2kb
+  Interlace: None
+  Background Color: white
+  Border Color: #DFDFDF00
+  Matte Color: grey74
+  Page geometry: 240x200+0+0
+  Dispose: None
+  Delay: 50
+  Iterations: 0
+  Compression: LZW
+  Orientation: Undefined
+  Signature: 6cc9046a730b60ec2abbd2cf2c185dff2be4ebcc87f1e81cef46425d8dde5bfc
+  Tainted: False
+  Version: ImageMagick 6.2.3 06/08/05 Q16 http://www.imagemagick.org
+Image: ..\..\..\plutommi\CUSTOMER\IMAGES\PLUTO\MAINLCD\AUDIOPLAYER\PLAY\AP_PLAY_ANIMATION.GIF
+  Format: GIF (CompuServe graphics interchange format)
+  Geometry: 89x92
+  Class: PseudoClass
+  Type: PaletteMatte
+  Endianess: Undefined
+  Colorspace: RGB
+  Channel depth:
+    Red: 8-bits
+    Green: 8-bits
+    Blue: 8-bits
+    Opacity: 1-bits
+  Channel statistics:
+    Red:
+      Min: 141 (0.552941)
+      Max: 255 (1)
+      Mean: 245.059 (0.961014)
+      Standard deviation: 30.7881 (0.120738)
+    Green:
+      Min: 195 (0.764706)
+      Max: 255 (1)
+      Mean: 249.774 (0.979506)
+      Standard deviation: 16.1957 (0.0635127)
+    Blue:
+      Min: 53 (0.207843)
+      Max: 255 (1)
+      Mean: 237.397 (0.930968)
+      Standard deviation: 54.5279 (0.213835)
+    Opacity:
+      Min: 0 (0)
+      Max: 255 (1)
+      Mean: 227.781 (0.893258)
+      Standard deviation: 78.74 (0.308784)
+  Colors: 8
+         0: (255,255,255,  0)	white
+         1: (164,207, 94,  0)	#A4CF5E00
+         2: (141,195, 53,  0)	#8DC33500
+         3: (209,231,174,  0)	#D1E7AE00
+         4: (227,241,206,  0)	#E3F1CE00
+         5: (244,249,235,  0)	#F4F9EB00
+         6: (184,218,130,  0)	#B8DA8200
+         7: (255,255,255,  0)	white
+  Histogram:
+       574: (141,195, 53,  0)	#8DC33500
+        67: (164,207, 94,  0)	#A4CF5E00
+        83: (184,218,130,  0)	#B8DA8200
+        46: (209,231,174,  0)	#D1E7AE00
+        42: (227,241,206,  0)	#E3F1CE00
+        62: (244,249,235,  0)	#F4F9EB00
+      7314: (255,255,255,255)	#FFFFFFFF
+  Rendering-intent: Undefined
+  Resolution: 72x72
+  Units: Undefined
+  Filesize: 2kb
+  Interlace: None
+  Background Color: white
+  Border Color: #DFDFDF00
+  Matte Color: grey74
+  Page geometry: 240x200+71+58
+  Dispose: None
+  Delay: 50
+  Scene: 1
+  Compression: LZW
+  Orientation: Undefined
+  Signature: f708964799cd4fc004e187bf3885b31df827cbf6679e6e1e9dfadb54d65671e3
+  Tainted: False
+  User Time: 0.125u
+  Elapsed Time: 0:01
+  Pixels per second: 43kb
+  Version: ImageMagick 6.2.3 06/08/05 Q16 http://www.imagemagick.org
+Image: ..\..\..\plutommi\CUSTOMER\IMAGES\PLUTO\MAINLCD\AUDIOPLAYER\PLAY\AP_PLAY_ANIMATION.GIF
+  Format: GIF (CompuServe graphics interchange format)
+  Geometry: 31x92
+  Class: PseudoClass
+  Type: PaletteMatte
+  Endianess: Undefined
+  Colorspace: RGB
+  Channel depth:
+    Red: 8-bits
+    Green: 8-bits
+    Blue: 8-bits
+    Opacity: 1-bits
+  Channel statistics:
+    Red:
+      Min: 141 (0.552941)
+      Max: 255 (1)
+      Mean: 223.947 (0.878225)
+      Standard deviation: 49.1444 (0.192723)
+    Green:
+      Min: 195 (0.764706)
+      Max: 255 (1)
+      Mean: 238.674 (0.935975)
+      Standard deviation: 25.8639 (0.101427)
+    Blue:
+      Min: 53 (0.207843)
+      Max: 255 (1)
+      Mean: 200.005 (0.784332)
+      Standard deviation: 87.0663 (0.341436)
+    Opacity:
+      Min: 0 (0)
+      Max: 255 (1)
+      Mean: 176.676 (0.692847)
+      Standard deviation: 117.635 (0.461313)
+  Colors: 8
+         0: (255,255,255,  0)	white
+         1: (164,207, 94,  0)	#A4CF5E00
+         2: (141,195, 53,  0)	#8DC33500
+         3: (209,231,174,  0)	#D1E7AE00
+         4: (227,241,206,  0)	#E3F1CE00
+         5: (244,249,235,  0)	#F4F9EB00
+         6: (184,218,130,  0)	#B8DA8200
+         7: (255,255,255,  0)	white
+  Histogram:
+       692: (141,195, 53,  0)	#8DC33500
+        44: (164,207, 94,  0)	#A4CF5E00
+        29: (184,218,130,  0)	#B8DA8200
+        44: (209,231,174,  0)	#D1E7AE00
+        50: (227,241,206,  0)	#E3F1CE00
+        17: (244,249,235,  0)	#F4F9EB00
+      1976: (255,255,255,255)	#FFFFFFFF
+  Rendering-intent: Undefined
+  Resolution: 72x72
+  Units: Undefined
+  Filesize: 2kb
+  Interlace: None
+  Background Color: white
+  Border Color: #DFDFDF00
+  Matte Color: grey74
+  Page geometry: 240x200+143+58
+  Dispose: None
+  Delay: 50
+  Scene: 2
+  Compression: LZW
+  Orientation: Undefined
+  Signature: 943bc4c182adfb3f5c8b11ad64730eaf5ee9d81e316f2145776eeb446c80456b
+  Tainted: False
+  User Time: 0.125u
+  Elapsed Time: 0:01
+  Pixels per second: 15kb
+  Version: ImageMagick 6.2.3 06/08/05 Q16 http://www.imagemagick.org

@@ -1,0 +1,17 @@
+[APP NAME] = MotSrv
+[SCOPE] = PLUTO, COSMOS
+[MODULE] = MOD_MMI_MEDIA_APP
+
+#starttrace
+TRC_MSG(MMI_SRV_MOT_CREATE, "[SRV MOT] srv_mot_create")
+TRC_MSG(MMI_SRV_MOT_DESTROY, "[SRV MOT] srv_mot_destroy, state=%d")
+TRC_MSG(MMI_SRV_MOT_OPEN, "[SRV MOT] srv_mot_open, state=%d")
+TRC_MSG(MMI_SRV_MOT_CLOSE, "[SRV MOT] srv_mot_close, state=%d")
+TRC_MSG(MMI_SRV_MOT_UPDATE, "[SRV MOT] srv_mot_update, state=%d")
+TRC_MSG(MMI_SRV_MOT_STOP_UPDATING, "[SRV MOT] srv_mot_stop_updating, state=%d")
+TRC_MSG(MMI_SRV_MOT_STATE, "[SRV MOT] state=%d, line=%d")
+TRC_MSG(MMI_SRV_MOT_ERROR, "[SRV MOT] error=%d, line=%d")
+TRC_MSG(MMI_SRV_MOT_MEM_ALLOC, "[SRV MOT][MEM] alloc=%X, size=%d, line=%d")
+TRC_MSG(MMI_SRV_MOT_MEM_ALLOC_FAIL, "[SRV MOT][MEM] alloc failed!! size=%d, line=%d")
+TRC_MSG(MMI_SRV_MOT_MEM_FREE, "[SRV MOT][MEM] free=%X, line=%d")
+TRC_MSG(MMI_SRV_MOT_GET_ERROR_STRING, "[SRV MOT] srv_mot_get_error_string_id, error=%d")

@@ -1,0 +1,42 @@
+[APP NAME] = GPIOSrv
+[SCOPE] = PLUTO,COSMOS
+[MODULE] = MOD_MMI_COMMON_APP
+
+#start trace
+
+#/* GeneralDeviceInterface.c */
+TRC_MSG(TRC_MMI_GPIO_IND_BEFORE_POWER_ON, "[MMIGPIO]srv_gpio_detect_ind_hdlr(), GPIO ind before power on")
+TRC_MSG(TRC_MMI_GPIO_IN_CALL_READY_TO_HEADSET_KEY, "[MMIGPIO]srv_gpio_detect_ind_hdlr(), In Call Ready to Process Headset Key")
+TRC_MSG(TRC_MMI_GPIO_PROCESS_HEADSET_KEY_FOR_GSM, "[MMIGPIO]srv_gpio_detect_ind_hdlr(), Process Headset Key for GSM")
+TRC_MSG(TRC_MMI_GPIO_PROCESS_HEADSET_KEY_FOR_VOIP, "[MMIGPIO]srv_gpio_detect_ind_hdlr(), Process Headset Key for VOIP")
+TRC_MSG(TRC_MMI_GPIO_IS_CLAMTONE_ALLOW_AND_INCALL, "[MMIGPIO]IsClamToneAllow(), is in call = %d")
+TRC_MSG(TRC_MMI_GPIO_IS_CLAMTONE_ALLOW_AND_ISWAPCALL_PRESENT, "[MMIGPIO]IsClamToneAllow(), is wap call = %d")
+TRC_MSG(TRC_MMI_GPIO_CLAMCLOSE_GOTO_IDEL_END_KEY, "[MMIGPIO]ClamCloseGotoIdleScreen(), END Key Press, FP = %d")
+TRC_MSG(TRC_MMI_GPIO_TURN_ON_ALL_LIGHT, "[MMIGPIO]srv_backlight_turn_on_all_light(),SYNC_MODE=%d,lcd_state=%d,sublcd_state=%d")
+TRC_MSG(TRC_MMI_GPIO_TURN_OFF_ALL_LIGHT, "[MMIGPIO]srv_backlight_turn_off_all_light(),SYNC_MODE=%d,lcd_state=%d,sublcd_state=%d")
+TRC_MSG(TRC_MMI_GPIO_TURN_OFF_BACKLIGHT, "[MMIGPIO]srv_backlight_turn_off(),SYNC_MODE=%d,timer_status=%d,lcd_state=%d,sublcd_state=%d")
+TRC_MSG(TRC_MMI_GPIO_BACKLIGHT_TIMER_HDLR, "[MMIGPIO]srv_backlight_timer_hdlr(),SYNC_MODE=%d,timer_status=%d,lcd_state=%d,sublcd_state=%d")
+TRC_MSG(TRC_MMI_GPIO_CLAM_IS_CLOSE_START_TIME, "[MMIGPIO]srv_backlight_timer_hdlr,clam_is_close,StartTimer")
+TRC_MSG(TRC_MMI_GPIO_TURNON_BACKLIGHT, "[MMIGPIO]srv_backlight_turn_on(),timer_enum=%d,timer_status=%d,lcd_state=%d,sublcd_state=%d")
+TRC_MSG(TRC_MMI_GPIO_TURNON_BACKLIGHT_CHECK_CLAM, "[MMIGPIO]srv_backlight_turn_on(),lcd_state=%d,clam_is_close=%d")
+TRC_MSG(TRC_MMI_GPIO_CLOSE_BACKLIGHT, "[MMIGPIO]srv_backlight_close(),SYNC_MODE=%d,timer_status=%d,lcd_state=%d,sublcd_state=%d")
+TRC_MSG(TRC_MMI_GPIO_LCM_SLEEP_GOTO_IDLE, "[MMIGPIO]LCMSleepGotoIdleScreen(), END Key Press, FP = %d")
+TRC_MSG(TRC_MMI_GPIO_SEND_DETECT_ACK, "[MMIGPIO]mmi_gpio_detect_send_ack(), gpio_device = %d")
+
+TRC_MSG(TRC_MMI_GPIO_LCD_SLEEP_IN, "[MMIGPIO]GpioLCDSleepIn(), GPIO LCD sleep in")
+TRC_MSG(TRC_MMI_GPIO_LCD_SLEEP_OUT, "[MMIGPIO]GpioLCDSleepOut(), GPIO LCD sleep out")
+TRC_MSG(TRC_MMI_GPIO_EARPHONE_IND, "[MMIGPIO]earphone ind")
+TRC_MSG(TRC_MMI_GPIO_EARPHONE_IN, "[MMIGPIO]earphone in")
+TRC_MSG(TRC_MMI_GPIO_EARPHONE_OUT, "[MMIGPIO]earphone out")
+TRC_MSG(TRC_MMI_GPIO_EARPHONE_BOOTUP_CALLBACK, "[MMIGPIO]earphone bootup callback")
+TRC_MSG(TRC_SRV_GPIO_GPIO_CHECK_PWRON_READY, "[MMIGPIO]srv_gpio_check_pwron_ready, ready=%d,notifer=%x")
+TRC_MSG(TRC_SRV_GPIO_GPIO_IS_READY, "[MMIGPIO]srv_gpio_is_ready,notifer=%x")
+
+#/* SRV GPIO */
+TRC_MSG(TRC_SRV_GPIO_BACKLIGHT_SLEPP, "[SRVGPIO]srv_backlight_lcd_sleep_in/out, sleep_in=%d,progress=%d")
+TRC_MSG(TRC_SRV_GPIO_BACKLIGHT_EXT, "[SRVGPIO]srv_backlight ext trace, %d,%d")
+
+TRC_MSG(TRC_SRV_GPIO_PLAY_PATTERN, "[SRVGPIO]srv_gpio_play_pattern, pattern=%d,action=%d, %d, %d, %d, %d")
+TRC_MSG(TRC_SRV_GPIO_PLAY_VIBRATE, "[SRVGPIO]srv_gpio_play_vibrate, id=%d,type=%d")
+TRC_MSG(TRC_SRV_GPIO_SET_DEVICE_MUTE, "[SRVGPIO]srv_gpio_set_device_mute, device=%d,mute_on=%d")
+

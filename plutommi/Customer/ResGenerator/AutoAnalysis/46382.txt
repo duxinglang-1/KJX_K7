@@ -1,0 +1,188 @@
+Image: ..\..\..\plutommi\CUSTOMER\IMAGES\PLUTO\MAINLCD\SMS\SENDING\SS_SEND.GIF
+  Format: GIF (CompuServe graphics interchange format)
+  Geometry: 110x85
+  Class: PseudoClass
+  Type: Palette
+  Endianess: Undefined
+  Colorspace: RGB
+  Channel depth:
+    Red: 8-bits
+    Green: 8-bits
+    Blue: 8-bits
+  Channel statistics:
+    Red:
+      Min: 47 (0.184314)
+      Max: 255 (1)
+      Mean: 0.108449 (0.000425291)
+      Standard deviation: 4.30249 (0.0168725)
+    Green:
+      Min: 84 (0.329412)
+      Max: 255 (1)
+      Mean: 0.137219 (0.000538115)
+      Standard deviation: 4.96913 (0.0194868)
+    Blue:
+      Min: 120 (0.470588)
+      Max: 255 (1)
+      Mean: 0.165989 (0.000650938)
+      Standard deviation: 5.80303 (0.022757)
+  Colors: 8
+         0: (169,192,214)	#A9C0D6
+         1: (220,229,238)	#DCE5EE
+         2: (120,159,198)	#789FC6
+         3: ( 90,118,147)	#5A7693
+         4: ( 47,113,179)	#2F71B3
+         5: ( 49, 84,120)	#315478
+         6: (255,255,255)	white
+         7: ( 64,133,201)	#4085C9
+  Histogram:
+       905: ( 49, 84,120)	#315478
+       340: ( 47,113,179)	#2F71B3
+        44: ( 90,118,147)	#5A7693
+      4298: ( 64,133,201)	#4085C9
+        64: (120,159,198)	#789FC6
+        84: (169,192,214)	#A9C0D6
+        63: (220,229,238)	#DCE5EE
+      3552: (255,255,255)	white
+  Rendering-intent: Undefined
+  Resolution: 72x72
+  Units: Undefined
+  Filesize: 1kb
+  Interlace: None
+  Background Color: #A9C0D6
+  Border Color: #DFDFDF
+  Matte Color: grey74
+  Page geometry: 110x85+0+0
+  Dispose: None
+  Delay: 30
+  Iterations: 0
+  Compression: LZW
+  Orientation: Undefined
+  Signature: bcfd2449eacedf7c57641b94b6c5ef146f3d54e39ac33d0aaa1a2c414576778b
+  Tainted: False
+  Version: ImageMagick 6.2.3 06/08/05 Q16 http://www.imagemagick.org
+Image: ..\..\..\plutommi\CUSTOMER\IMAGES\PLUTO\MAINLCD\SMS\SENDING\SS_SEND.GIF
+  Format: GIF (CompuServe graphics interchange format)
+  Geometry: 29x15
+  Class: PseudoClass
+  Type: Palette
+  Endianess: Undefined
+  Colorspace: RGB
+  Channel depth:
+    Red: 8-bits
+    Green: 8-bits
+    Blue: 8-bits
+  Channel statistics:
+    Red:
+      Min: 47 (0.184314)
+      Max: 255 (1)
+      Mean: 2.33103 (0.00914131)
+      Standard deviation: 19.8169 (0.0777133)
+    Green:
+      Min: 84 (0.329412)
+      Max: 255 (1)
+      Mean: 2.94943 (0.0115664)
+      Standard deviation: 22.8571 (0.0896358)
+    Blue:
+      Min: 120 (0.470588)
+      Max: 255 (1)
+      Mean: 3.56782 (0.0139914)
+      Standard deviation: 26.6774 (0.104617)
+  Colors: 8
+         0: (169,192,214)	#A9C0D6
+         1: (220,229,238)	#DCE5EE
+         2: (120,159,198)	#789FC6
+         3: ( 90,118,147)	#5A7693
+         4: ( 47,113,179)	#2F71B3
+         5: ( 49, 84,120)	#315478
+         6: (255,255,255)	white
+         7: ( 64,133,201)	#4085C9
+  Histogram:
+        66: ( 47,113,179)	#2F71B3
+       160: ( 64,133,201)	#4085C9
+         6: (120,159,198)	#789FC6
+         3: (169,192,214)	#A9C0D6
+         6: (220,229,238)	#DCE5EE
+       194: (255,255,255)	white
+  Rendering-intent: Undefined
+  Resolution: 72x72
+  Units: Undefined
+  Filesize: 1kb
+  Interlace: None
+  Background Color: #A9C0D6
+  Border Color: #DFDFDF
+  Matte Color: grey74
+  Page geometry: 110x85+55+25
+  Dispose: None
+  Delay: 30
+  Scene: 1
+  Compression: LZW
+  Orientation: Undefined
+  Signature: 4ce822d794448a999ade66f1d400fc066e972326e781e504173e67d1053009b8
+  Tainted: False
+  User Time: 0.078u
+  Elapsed Time: 0:01
+  Pixels per second: 4kb
+  Version: ImageMagick 6.2.3 06/08/05 Q16 http://www.imagemagick.org
+Image: ..\..\..\plutommi\CUSTOMER\IMAGES\PLUTO\MAINLCD\SMS\SENDING\SS_SEND.GIF
+  Format: GIF (CompuServe graphics interchange format)
+  Geometry: 29x15
+  Class: PseudoClass
+  Type: Palette
+  Endianess: Undefined
+  Colorspace: RGB
+  Channel depth:
+    Red: 8-bits
+    Green: 8-bits
+    Blue: 8-bits
+  Channel statistics:
+    Red:
+      Min: 47 (0.184314)
+      Max: 255 (1)
+      Mean: 2.33103 (0.00914131)
+      Standard deviation: 19.8169 (0.0777133)
+    Green:
+      Min: 84 (0.329412)
+      Max: 255 (1)
+      Mean: 2.94943 (0.0115664)
+      Standard deviation: 22.8571 (0.0896358)
+    Blue:
+      Min: 120 (0.470588)
+      Max: 255 (1)
+      Mean: 3.56782 (0.0139914)
+      Standard deviation: 26.6774 (0.104617)
+  Colors: 8
+         0: (169,192,214)	#A9C0D6
+         1: (220,229,238)	#DCE5EE
+         2: (120,159,198)	#789FC6
+         3: ( 90,118,147)	#5A7693
+         4: ( 47,113,179)	#2F71B3
+         5: ( 49, 84,120)	#315478
+         6: (255,255,255)	white
+         7: ( 64,133,201)	#4085C9
+  Histogram:
+        51: ( 47,113,179)	#2F71B3
+       250: ( 64,133,201)	#4085C9
+         6: (120,159,198)	#789FC6
+         3: (169,192,214)	#A9C0D6
+         6: (220,229,238)	#DCE5EE
+       119: (255,255,255)	white
+  Rendering-intent: Undefined
+  Resolution: 72x72
+  Units: Undefined
+  Filesize: 1kb
+  Interlace: None
+  Background Color: #A9C0D6
+  Border Color: #DFDFDF
+  Matte Color: grey74
+  Page geometry: 110x85+63+25
+  Dispose: None
+  Delay: 30
+  Scene: 2
+  Compression: LZW
+  Orientation: Undefined
+  Signature: 69c3e4fd999a89e280de13ff96dc282385229c71f1785c788dd926e58a36173d
+  Tainted: False
+  User Time: 0.078u
+  Elapsed Time: 0:01
+  Pixels per second: 4kb
+  Version: ImageMagick 6.2.3 06/08/05 Q16 http://www.imagemagick.org

@@ -1,0 +1,19 @@
+[APP NAME] = SecSetCui
+[SCOPE] = PLUTO
+[MODULE] = MOD_MMI_COMMON_APP
+
+#start trace
+TRC_MSG(TRC_CUI_VERIFY_CREATE,          "[SecSet][CUI] cui_verify_create(parent_grp_id = %d, type = %d): grp_id = %d, cntx = 0x%x; #inst = %d")
+TRC_MSG(TRC_CUI_VERIFY_RUN,             "[SecSet][CUI] cui_verify_run(%d): sim = %Mmmi_sim_enum, proc = 0x%x")
+TRC_MSG(TRC_CUI_VERIFY_RUN_PRECHECK,    "[SecSet][CUI] cui_verify_run(): Pre-check, %d")
+TRC_MSG(TRC_CUI_VERIFY_CLOSE,           "[SecSet][CUI] cui_verify_close(%d): cntx = 0x%x, input_cui = %d, ubchv_handle = 0x%x")
+TRC_MSG(TRC_CUI_VERIFY_GROUP_DEINIT,    "[SecSet][CUI] cui_verify_grp_proc(): GROUP_DEINIT, grp_id = %d, cntx = 0x%x; #inst = %d")
+TRC_MSG(TRC_CUI_VERIFY_INPUT_DONE,      "[SecSet][CUI] cui_verify_input_proc(): INPUT_DONE, grp_id = %d, input_cui = %d")
+TRC_MSG(TRC_CUI_VERIFY_CANCEL,          "[SecSet][CUI] cui_verify_input_proc(): CANCEL, grp_id = %d, input_cui = %d")
+TRC_MSG(TRC_CUI_VERIFY_PASSIVE_CLOSING, "[SecSet][CUI] cui_verify_input_proc(): PASSIVE_CLOSING, grp_id = %d, input_cui = %d, ret = %d")
+TRC_MSG(TRC_CUI_VERIFY_INVALID_CNTX,    "[SecSet][CUI] cui_verify: invalid cntx 0x%x")
+TRC_MSG(TRC_CUI_VERIFY_SIM_PRECHECK,    "[SecSet][CUI] cui_verify_sim_pre_check(): grp_id = %d; #%d")
+TRC_MSG(TRC_CUI_VERIFY_SIM_RESULT,      "[SecSet][CUI] cui_verify_sim_verify_result_proc(): grp_id = %d, suc = %d, fail_cause = %d")
+TRC_MSG(TRC_CUI_VERIFY_SIM_POPUP_CHV_BLOCKED, "[SecSet][CUI] cui_verify_sim_popup_chv_blocked(): grp_id = %d, type = %d")
+TRC_MSG(TRC_CUI_VERIFY_SIM_SHOW_UBCHV,  "[SecSet][CUI] cui_verify_sim_show_ubchv(): grp_id = %d, type = %d")
+TRC_MSG(TRC_CUI_VERIFY_SIM_UNAVAILABLE, "[SecSet][CUI] cui_verify_sim_on_sim_unavailable(): %Mmmi_sim_enum, grp_id = %d, cntx = 0x%x, type = %d")

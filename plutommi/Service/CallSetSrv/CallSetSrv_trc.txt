@@ -1,0 +1,53 @@
+[APP NAME] = CallSetSrv
+[SCOPE] = PLUTO, COSMOS 
+[MODULE] = MOD_MMI_COMMON_APP
+#don't change any value above
+
+#start trace
+
+#----------------- CallSetSrvInterface.c ------------------------------------------------------
+TRC_MSG(TRC_SRV_CALLSET_POST_CTM_SETTING_CHANGED_IND_EVT,"srv_callset_post_ctm_setting_changed_ind_evt, mode=%d, setting=%d")
+TRC_MSG(TRC_SRV_CALLSET_POST_RSP_EVT_IGNORE,"srv_callset_post_rsp_evt, rsp_cb is NULL")
+TRC_MSG(TRC_SRV_CALLSET_POST_RSP_EVT,"srv_callset_post_rsp_evt, sim=%d, result=%d")
+TRC_MSG(TRC_SRV_CALLSET_POST_RSP_EVT_CB,"srv_callset_post_rsp_evt_cb, user_data=%d")
+TRC_MSG(TRC_SRV_CALLSET_POST_ACT_EVT,"srv_callset_post_act_evt, op=%d, rsp_cb=%d, rsp_user_data=%d, info.param1=%d, info.param2=%d")
+TRC_MSG(TRC_SRV_CALLSET_POST_ACT_EVT_HDLR,"srv_callset_post_act_evt_hdlr, op=%d, rsp_cb=%d, rsp_user_data=%d, info=%d")
+TRC_MSG(TRC_SRV_CALLSET_POST_LSW_IND_EVT,"srv_callset_post_lsw_ind_evt, sim=%d, active_line=%d")
+TRC_MSG(TRC_SRV_CALLSET_POST_CFU_STATUS_EVT,"srv_callset_post_cfu_status_evt, sim=%d, status=%d")
+
+#----------------- CallSetSrvStructMgmt.c ------------------------------------------------------
+TRC_MSG(TRC_SRV_CALLSET_CALLER_ID_SET_MODE,"srv_callset_caller_id_set_mode, result=%d, info=%d, info.detail1=%d, info.detail2=%d")
+TRC_MSG(TRC_SRV_CALLSET_LINE_SWITCH_SET_ID,"srv_callset_line_switch_set_id, result=%d, info=%d, info.detail1=%d, info.detail2=%d")
+TRC_MSG(TRC_SRV_CALLSET_LINE_SWITCH_SET_ID_IGNORE,"srv_callset_line_switch_set_id, do nothing")
+TRC_MSG(TRC_SRV_CALLSET_CUG_SET_ITEM,"srv_callset_cug_set_item, result=%d, sim=%d, info=%d, info.detail=%d")
+TRC_MSG(TRC_SRV_CALLSET_CUG_GET_ITEM,"srv_callset_cug_get_item, result=%d, sim=%d, cug_id=%d, item=%d")
+TRC_MSG(TRC_SRV_CALLSET_CUG_ACTIVATE,"srv_callset_cug_activate, result=%d, info=%d, info.detail1=%d, info.detail2=%d")
+TRC_MSG(TRC_SRV_CALLSET_CUG_DEACTIVATE,"srv_callset_cug_deactivate, result=%d, info=%d, info.detail1=%d, info.detail2=%d")
+TRC_MSG(TRC_SRV_CALLSET_CTR_SET_MODE,"srv_callset_ctr_set_mode, result=%d, info=%d, mode=%d, time=%d")
+TRC_MSG(TRC_SRV_CALLSET_CTR_GET_MODE,"srv_callset_ctr_get_mode, result=%d, info=%d, mode=%d, time=%d")
+TRC_MSG(TRC_SRV_CALLSET_ANSWER_MODE_SET_MODE,"srv_callset_answer_mode_set_mode, result=%d, mode=%d")
+TRC_MSG(TRC_SRV_CALLSET_ANSWER_MODE_GET_MODE,"srv_callset_answer_mode_get_mode, mode=%d")
+TRC_MSG(TRC_SRV_CALLSET_ANSWER_MODE_GET_STATUS,"srv_callset_answer_mode_get_status, mode=%d, is_test_sim1=%d, is_test_sim2=%d, is_earphone_plug_in=%d")
+TRC_MSG(TRC_SRV_CALLSET_IP_NUMBER_GET_ITEM,"srv_callset_ip_number_get_item, result=%d, index=%d, item=%d, number=%c%c%c%c%c, status=%d")
+TRC_MSG(TRC_SRV_CALLSET_IP_NUMBER_ACTIVATE,"srv_callset_ip_number_activate, result=%d, sim=%d, index=%d")
+TRC_MSG(TRC_SRV_CALLSET_IP_NUMBER_DEACTIVATE,"srv_callset_ip_number_deactivate, result=%d, sim=%d, index=%d")
+TRC_MSG(TRC_SRV_CALLSET_IP_NUMBER_SET_NUMBER,"srv_callset_ip_number_set_number, result=%d, index=%d, length=%d, ip_num=%d")
+TRC_MSG(TRC_SRV_CALLSET_IP_NUMBER_GET_ACTIVATED_NUMBER,"srv_callset_ip_number_get_activated_number, result=%d, sim=%d, ip_num=%d, number=%c%c%c%c%c")
+TRC_MSG(TRC_SRV_CALLSET_BLACKLIST_SET_MODE,"srv_callset_blacklist_set_mode, result=%d, mode=%d")
+TRC_MSG(TRC_SRV_CALLSET_BLACKLIST_GET_ITEM,"srv_callset_blacklist_get_item, result=%d, index=%d, item=%d, number=%c%c%c%c%c")
+TRC_MSG(TRC_SRV_CALLSET_BLACKLIST_SET_NUMBER,"srv_callset_blacklist_set_number, result=%d, item=%d, index=%d, number=%c%c%c%c%c")
+TRC_MSG(TRC_SRV_CALLSET_BLACKLIST_ADD_NUMBER,"srv_callset_blacklist_add_number, length=%d, pNumber=%d, pIndex=%d")
+TRC_MSG(TRC_SRV_CALLSET_BLACKLIST_IS_BLOCKED_NUMBER,"srv_callset_blacklist_is_blocked_number, result=%d, condition=%d")
+TRC_MSG(TRC_SRV_CALLSET_WHITELIST_SET_MODE,"srv_callset_whitelist_set_mode, result=%d, mode=%d")
+TRC_MSG(TRC_SRV_CALLSET_WHITELIST_GET_ITEM,"srv_callset_whitelist_get_item, result=%d, index=%d, item=%d, number=%c%c%c%c%c")
+TRC_MSG(TRC_SRV_CALLSET_WHITELIST_SET_NUMBER,"srv_callset_whitelist_set_number, result=%d, item=%d, index=%d, number=%c%c%c%c%c")
+TRC_MSG(TRC_SRV_CALLSET_WHITELIST_IS_AUTO_ANSWER_NUMBER,"srv_callset_whitelist_is_auto_answer_number, result=%d, condition=%d")
+TRC_MSG(TRC_SRV_CALLSET_AUTO_QUICK_END_SET_MODE,"srv_callset_auto_quick_end_set_mode, result=%d, mode=%d, time=%d")
+TRC_MSG(TRC_SRV_CALLSET_AUTO_QUICK_END_GET_MODE,"srv_callset_auto_quick_end_get_mode, result=%d, mode=%d, time=%d")
+TRC_MSG(TRC_SRV_CALLSET_CTM_SET_MODE,"srv_callset_ctm_set_mode, result=%d, mode=%d, setting=%d")
+TRC_MSG(TRC_SRV_CALLSET_CTM_SET_MODE_IGNORE,"srv_callset_ctm_set_mode, do nothing")
+TRC_MSG(TRC_SRV_CALLSET_SIM_CNTX_SET_PTR,"srv_callset_sim_cntx_set_ptr, sim=%d")
+TRC_MSG(TRC_SRV_CALLSET_SIM_CNTX_RESET_PTR,"srv_callset_sim_cntx_reset_ptr")
+
+#----------------- CallSetSrvUtil.c ------------------------------------------------------
+TRC_MSG(TRC_SRV_CALLSET_IS_AVAILABLE,"srv_callset_is_available, sim=%d, result=%d, condition=%d")

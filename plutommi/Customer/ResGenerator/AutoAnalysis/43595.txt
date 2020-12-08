@@ -1,0 +1,56 @@
+Image: ..\..\..\plutommi\CUSTOMER\IMAGES\PLUTO\MAINLCD\CALCULATOR\MR.BMP
+  Format: BMP (Microsoft Windows bitmap image)
+  Geometry: 43x133
+  Class: PseudoClass
+  Type: Palette
+  Endianess: Undefined
+  Colorspace: RGB
+  Channel depth:
+    Red: 8-bits
+    Green: 8-bits
+    Blue: 8-bits
+  Channel statistics:
+    Red:
+      Min: 0 (0)
+      Max: 255 (1)
+      Mean: 0.205281 (0.000805022)
+      Standard deviation: 6.56168 (0.0257321)
+    Green:
+      Min: 0 (0)
+      Max: 255 (1)
+      Mean: 0.176954 (0.000693937)
+      Standard deviation: 6.05946 (0.0237626)
+    Blue:
+      Min: 0 (0)
+      Max: 255 (1)
+      Mean: 0.129393 (0.000507425)
+      Standard deviation: 5.1461 (0.0201808)
+  Colors: 7
+         0: (255,  0,  0)	red
+         1: (116,155, 25)	#749B19
+         2: (255,255,255)	white
+         3: (215,215,215)	#D7D7D7
+         4: (192,192,192)	silver
+         5: (141,195, 53)	#8DC335
+         6: (  0,  0,  0)	black
+  Histogram:
+       197: (116,155, 25)	#749B19
+      3306: (141,195, 53)	#8DC335
+        74: (192,192,192)	silver
+      1022: (215,215,215)	#D7D7D7
+      1120: (255,255,255)	white
+  Rendering-intent: Undefined
+  Resolution: 28.34x28.34
+  Units: Undefined
+  Filesize: 3kb
+  Interlace: None
+  Background Color: white
+  Border Color: #DFDFDF
+  Matte Color: grey74
+  Dispose: Undefined
+  Iterations: 0
+  Compression: Undefined
+  Orientation: Undefined
+  Signature: 935c380d6fe1768a98ef83ffe2969fbc680a46eee269526415e63617c7d3d3a3
+  Tainted: False
+  Version: ImageMagick 6.2.3 06/08/05 Q16 http://www.imagemagick.org

@@ -1,0 +1,82 @@
+Root of SW-Load: F:\K7_TOUR\CODE
+paddingSize: 20
+Meta section found!!
+Parse Type: MAP
+Parse Language: 1
+Parse BIT_MODE: 16
+symbol found:__align(4) const CUSTOM_STRING_MAP_16 StrMap_1[] = {
+
+Meta section found!!
+Parse Type: MAP
+Parse Language: 2
+Parse BIT_MODE: 16
+symbol found:__align(4) const CUSTOM_STRING_MAP_16 StrMap_2[] = {
+
+Meta section found!!
+Parse Type: MAP
+Parse Language: FIXED
+Parse BIT_MODE: 16
+symbol found:const CUSTOM_STRING_MAP_16 StrMap_Fixed[] = {
+
+Meta section found!!
+Parse Type: VALUE
+Parse Name: mtk_gTrans_string_count
+Parse (NALE: VALUE) =  (mtk_gTrans_string_count,3013)
+Meta section found!!
+Parse Type: VALUE
+Parse Name: mtk_gMaxDeployedLangs
+Parse (NALE: VALUE) =  (mtk_gMaxDeployedLangs,2)
+Meta section found!!
+Parse Type: VALUE
+Parse Name: max_total_len
+Parse (NALE: VALUE) =  (max_total_len,75588)
+Finish parse
+
+Meta section found!!
+Parse Type: RES
+Parse Language: DUP
+symbol found:__align(4) const CUSTOM_STRING StrRes_Dup[] = {
+
+Meta section found!!
+Parse Type: RES
+Parse Language: 1
+symbol found:__align(4) const CUSTOM_STRING StrRes_1[] = {
+
+Meta section found!!
+Parse Type: RES
+Parse Language: 2
+symbol found:__align(4) const CUSTOM_STRING StrRes_2[] = {
+
+Meta section found!!
+Parse Type: RES
+Parse Language: FIXED
+symbol found:__align(4) const CUSTOM_STRING StrRes_Fixed[] = {
+
+Meta section found!!
+Parse Type: SEARCH_MAP
+symbol found:const CUSTOM_STRMAP_SEARCH StrMapSearch[] = {
+
+Finish parse
+
+Read data from strres_1.compress
+Read data from strmap_1.compress
+Read data from strres_2.compress
+Read data from strmap_2.compress
+Read data from strres_dup.compress
+Read data from strres_FIXED.compress
+Read data from strmap_FIXED.compress
+Read data from strres_1.compress
+Read data from strres_1.bin.decompress
+read strres_1.bin.decompress75590
+
+Read data from strres_2.compress
+Read data from strres_2.bin.decompress
+read strres_2.bin.decompress29392
+
+content lengh:1790
+content lengh:75590
+content lengh:6026
+content lengh:29392
+content lengh:6026
+content lengh:9928
+content lengh:1354

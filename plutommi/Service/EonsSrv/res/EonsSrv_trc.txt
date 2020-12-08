@@ -1,0 +1,27 @@
+[APP NAME] = EonsSrv
+[SCOPE] = PLUTO,COSMOS
+[MODULE] = MOD_MMI_COMMON_APP
+
+#start trace
+TRC_MSG(TRC_SRV_EONS_EMIT_UPDATED,                      "[EONS] srv_eons_emit_updated, sim: %d, trace: %d")
+TRC_MSG(TRC_SRV_EONS_HANDLE_BOOTUP_EARLY_INIT,          "[EONS] srv_eons_handle_bootup_early_init, trace: %d")
+TRC_MSG(TRC_SRV_EONS_HANDLE_BOOTUP_BEFORE_IDLE,         "[EONS] srv_eons_handle_bootup_before_idle, trace: %d")
+TRC_MSG(TRC_SRV_EONS_HANDLE_SIM_STATE_CHANGED,          "[EONS] srv_eons_handle_sim_state_changed, sim: %d, trace: %d, old-state: %d, new-state: %d")
+TRC_MSG(TRC_SRV_EONS_HANDLE_AVAILABILITY_CHANGED,       "[EONS] srv_eons_handle_service_availability_changed, availability: %d -> %d, trace: %d (%Mmmi_sim_enum)")
+TRC_MSG(TRC_SRV_EONS_INIT_MODULE,                       "[EONS] srv_eons_init_module, sim: %d, trace: %d")
+TRC_MSG(TRC_SRV_EONS_UPDATE_MODULE_STATE,               "[EONS] srv_eons_update_module_state, sim: %d, trace: %d, mod: %x")
+TRC_MSG(TRC_SRV_EONS_READ_OPL_INFO,                     "[EONS] srv_eons_read_opl_info, sim: %d, trace: %d")
+TRC_MSG(TRC_SRV_EONS_READ_OPL_INFO_HDLR,                "[EONS] srv_eons_read_opl_info_hdlr, sim: %d, trace: %d")
+TRC_MSG(TRC_SRV_EONS_READ_OPL_RECORD,                   "[EONS] srv_eons_read_opl_record, sim: %d, trace: %d")
+TRC_MSG(TRC_SRV_EONS_READ_OPL_RECORD_HDLR,              "[EONS] srv_eons_read_opl_record_hdlr, sim: %d, trace: %d")
+TRC_MSG(TRC_SRV_EONS_READ_PNN_INFO,                     "[EONS] srv_eons_read_pnn_info, sim: %d, trace: %d")
+TRC_MSG(TRC_SRV_EONS_READ_PNN_INFO_HDLR,                "[EONS] srv_eons_read_pnn_info_hdlr, sim: %d, trace: %d")
+TRC_MSG(TRC_SRV_EONS_READ_PNN_RECORD,                   "[EONS] srv_eons_read_pnn_record, sim: %d, trace: %d")
+TRC_MSG(TRC_SRV_EONS_READ_PNN_RECORD_HDLR,              "[EONS] srv_eons_read_pnn_record_hdlr, sim: %d, trace: %d")
+TRC_MSG(TRC_SRV_EONS_PRASE_OPL,                         "[EONS] srv_eons_parse_opl, trace: %d")
+TRC_MSG(TRC_SRV_EONS_PARSE_PNN,                         "[EONS] srv_eons_parse_pnn, trace: %d")
+TRC_MSG(TRC_SRV_EONS_IS_READY,                          "[EONS] srv_eons_is_ready, sim: %d, trace: %d, ret: %d")
+TRC_MSG(TRC_SRV_EONS_IS_PRESENT,                        "[EONS] srv_eons_is_present, sim: %d, trace: %d, ret: %d")
+TRC_MSG(TRC_SRV_EONS_GET_NAME,                          "[EONS] srv_eons_get_name, sim: %d, trace: %d")
+TRC_MSG(TRC_SRV_EONS_HANDLE_SIM_CHANGED_BY_SAT,         "[EONS] srv_eons_handle_sim_changed_by_sat, trace: %d")
+

@@ -1,0 +1,48 @@
+Image: ..\..\..\plutommi\CUSTOMER\IMAGES\PLUTO\MAINLCD\TITLEBAR\TB_FLEXIBLE.BMP
+  Format: BMP (Microsoft Windows bitmap image)
+  Geometry: 240x36
+  Class: PseudoClass
+  Type: Palette
+  Endianess: Undefined
+  Colorspace: RGB
+  Channel depth:
+    Red: 8-bits
+    Green: 8-bits
+    Blue: 1-bits
+  Channel statistics:
+    Red:
+      Min: 0 (0)
+      Max: 163 (0.639216)
+      Mean: 0.0188657 (7.39833e-005)
+      Standard deviation: 1.7535 (0.00687647)
+    Green:
+      Min: 0 (0)
+      Max: 217 (0.85098)
+      Mean: 0.0251157 (9.84931e-005)
+      Standard deviation: 2.33441 (0.00915456)
+    Blue:
+      Min: 0 (0)
+      Max: 255 (1)
+      Mean: 0.0295139 (0.000115741)
+      Standard deviation: 2.7432 (0.0107577)
+  Colors: 3
+         0: (  0,  0,  0)	black
+         1: (  0,  0,  0)	black
+         2: (163,217,255)	#A3D9FF
+  Histogram:
+      8640: (163,217,255)	#A3D9FF
+  Rendering-intent: Undefined
+  Resolution: 28.34x28.34
+  Units: Undefined
+  Filesize: 9kb
+  Interlace: None
+  Background Color: white
+  Border Color: #DFDFDF
+  Matte Color: grey74
+  Dispose: Undefined
+  Iterations: 0
+  Compression: Undefined
+  Orientation: Undefined
+  Signature: 043ea7b7c239936b6240d6c822fa7a414f3331ce276a7e9f48f31b1388ce51df
+  Tainted: False
+  Version: ImageMagick 6.2.3 06/08/05 Q16 http://www.imagemagick.org

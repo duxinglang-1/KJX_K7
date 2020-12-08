@@ -1,0 +1,57 @@
+Image: ..\..\..\plutommi\CUSTOMER\IMAGES\PLUTO\MAINLCD\SUBMENU\UNIMESSAGE\UNI_DELETE.BMP
+  Format: BMP (Microsoft Windows bitmap image)
+  Geometry: 26x26
+  Class: PseudoClass
+  Type: Palette
+  Endianess: Undefined
+  Colorspace: RGB
+  Channel depth:
+    Red: 8-bits
+    Green: 8-bits
+    Blue: 8-bits
+  Channel statistics:
+    Red:
+      Min: 0 (0)
+      Max: 255 (1)
+      Mean: 1.57544 (0.00617821)
+      Standard deviation: 17.1432 (0.0672282)
+    Green:
+      Min: 0 (0)
+      Max: 211 (0.827451)
+      Mean: 1.21598 (0.00476853)
+      Standard deviation: 14.3031 (0.0560904)
+    Blue:
+      Min: 0 (0)
+      Max: 211 (0.827451)
+      Mean: 1.24704 (0.00489036)
+      Standard deviation: 14.6731 (0.0575414)
+  Colors: 7
+         0: (255,  0,  0)	red
+         1: (162,168,178)	#A2A8B2
+         2: (163,169,180)	#A3A9B4
+         3: (211,211,211)	LightGray
+         4: (152,152,152)	#989898
+         5: (122,122,122)	grey48
+         6: (  0,  0,  0)	black
+  Histogram:
+        56: (122,122,122)	grey48
+       392: (255,  0,  0)	red
+        68: (152,152,152)	#989898
+       100: (162,168,178)	#A2A8B2
+        22: (163,169,180)	#A3A9B4
+        38: (211,211,211)	LightGray
+  Rendering-intent: Undefined
+  Resolution: 28.34x28.34
+  Units: Undefined
+  Filesize: 812
+  Interlace: None
+  Background Color: white
+  Border Color: #DFDFDF
+  Matte Color: grey74
+  Dispose: Undefined
+  Iterations: 0
+  Compression: Undefined
+  Orientation: Undefined
+  Signature: 6c0d95b2771684a156c07ddd0e41e1c9dc0474993ca5dfa04f638c3e3ba4a2ac
+  Tainted: False
+  Version: ImageMagick 6.2.3 06/08/05 Q16 http://www.imagemagick.org

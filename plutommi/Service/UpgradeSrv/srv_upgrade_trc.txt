@@ -1,0 +1,24 @@
+[APP NAME] = Upgrade Service
+[SCOPE] = PLUTO, COSMOS
+[MODULE] = MOD_MMI_INET_APP
+
+#start trace
+TRC_MSG(SRV_UPGRADE_INIT, "[SRV_UPGRADE] Init upgrade service")
+TRC_MSG(SRV_UPGRADE_CHECK_UPDATE, "[SRV_UPGRADE] Check update - originator: %d, count: %d")
+TRC_MSG(SRV_UPGRADE_CHECK_VPP, "[SRV_UPGRADE] Check VPP - provider: %d, APP ID: %d, version: %d, status: %d, path: %s")
+TRC_MSG(SRV_UPGRADE_FOUND_DONWNLOADED_VERSION, "[SRV_UPGRADE] Found downloaded version - APP ID: %d, version: %d, path: %s")
+TRC_MSG(SRV_UPGRADE_FAILED_TO_INIT_SESSION, "[SRV_UPGRADE] Failed to init session.")
+TRC_MSG(SRV_UPGRADE_FAILED_TO_GET_DATA_ACCOUNT, "[SRV_UPGRADE] Failed to get data account.")
+TRC_MSG(SRV_UPGRADE_FAILED_TO_NEW_HTTP_REQ, "[SRV_UPGRADE] Failed to new http request.")
+TRC_MSG(SRV_UPGRADE_FAILED_TO_ALLOC_MEM, "[SRV_UPGRADE] Failed to allocate memory - file: %s, line: %d")
+TRC_MSG(SRV_UPGRADE_CURRENT_CHECKING, "[SRV_UPGRADE] Current checking vpp: %d")
+TRC_MSG(SRV_UPGRADE_INET_CALLBACK, "[SRV_UPGRADE] Inet callback - handle: %d, event: %d, result: %d, status, %d, response: %s")
+TRC_MSG(SRV_UPGRADE_POST_DOWNLOAD_REQ, "[SRV_UPGRADE] Post download request - originator: %d, count: %d")
+TRC_MSG(SRV_UPGRADE_NO_NEW_VERSION, "[SRV_UPGRADE] NO newer versions.")
+TRC_MSG(SRV_UPGRADE_CLOSE_SESSION, "[SRV_UPGRADE] Close session")
+TRC_MSG(SRV_UPGRADE_CONFRIM_DOWNLOAD, "[SRV_UPGRADE] Confirm download - originator: %d")	
+TRC_MSG(SRV_UPGRADE_ALREADY_DOWNLOADING_OTHER_REQUEST, "[SRV_UPGRADE] Already downloading another request")	
+TRC_MSG(SRV_UPGRADE_REJECT_DOWNLOAD, "[SRV_UPGRADE] Reject download request - originator: %d")
+TRC_MSG(SRV_UPGRADE_PROCESS_DOWNLOAD_REQUEST, "[SRV_UPGRADE] Process download request - originator: %d, APP ID: %d, handler: %d")
+TRC_MSG(SRV_UPGRADE_DA_DISPATCH_CALLBACK, "[SRV_UPGRADE] Download agent dispatch callback - APP ID: %d, filepath: %s")
+TRC_MSG(SRV_UPGRADE_DA_PROGRESS_CALLBACK, "[SRV_UPGRADE] Download agent progress callback - APP ID: %d, status: %d, cause: %d")

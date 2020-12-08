@@ -1,0 +1,12 @@
+[APP NAME] = SRV_SECSET
+[SCOPE] = PLUTO,COSMOS
+[MODULE] = MOD_MMI_COMMON_APP
+
+#start trace
+TRC_MSG(TRC_SRV_SECSET_PHNLOCK_IS_ENABLED,   "[SecSet] srv_secset_phone_lock_is_enabled(), (Inv/F/T) = %d")
+TRC_MSG(TRC_SRV_SECSET_PHNLOCK_SET_ENABLED,  "[SecSet] srv_secset_phone_lock_set_enabled(enabled = %d, proc = 0x%x)")
+TRC_MSG(TRC_SRV_SECSET_PHNLOCK_SET_ENABLED_RESULT, "[SecSet] srv_secset_phnlock_smu_lock_rsp_hdlr(), proc = 0x%x, suc = %d, enabled = %d")
+TRC_MSG(TRC_SRV_SECSET_VERIFY_PHNPWD,        "[SecSet] srv_secset_verify_phone_password(proc = 0x%x)")
+TRC_MSG(TRC_SRV_SECSET_VERIFY_PHNPWD_RESULT, "[SecSet] srv_secset_phnlock_verify_pin_rsp(), proc = 0x%x, suc = %d")
+TRC_MSG(TRC_SRV_SECSET_CHANGE_PHNPWD,        "[SecSet] srv_secset_change_phone_password(proc = 0x%x)")
+TRC_MSG(TRC_SRV_SECSET_CHANGE_PHNPWD_RESULT, "[SecSet] srv_secset_phnlock_change_pwd_rsp_hdlr(), proc = 0x%x, suc = %d")

@@ -1,0 +1,77 @@
+Image: ..\..\..\plutommi\CUSTOMER\IMAGES\PLUTO\MAINLCD\PHONEBOOK\PHB_CSK_ADD.BMP
+  Format: BMP (Microsoft Windows bitmap image)
+  Geometry: 20x20
+  Class: PseudoClass
+  Type: Palette
+  Endianess: Undefined
+  Colorspace: RGB
+  Channel depth:
+    Red: 8-bits
+    Green: 8-bits
+    Blue: 8-bits
+  Channel statistics:
+    Red:
+      Min: 0 (0)
+      Max: 255 (1)
+      Mean: 3.905 (0.0153137)
+      Standard deviation: 22.998 (0.0901881)
+    Green:
+      Min: 0 (0)
+      Max: 255 (1)
+      Mean: 6.545 (0.0256667)
+      Standard deviation: 33.5959 (0.131749)
+    Blue:
+      Min: 0 (0)
+      Max: 255 (1)
+      Mean: 8.1925 (0.0321275)
+      Standard deviation: 41.7143 (0.163586)
+  Colors: 17
+         0: (255,  0,  0)	red
+         1: ( 57,159,213)	#399FD5
+         2: ( 60,161,215)	#3CA1D7
+         3: ( 64,164,216)	#40A4D8
+         4: ( 67,165,217)	#43A5D9
+         5: ( 70,168,219)	#46A8DB
+         6: ( 74,170,220)	#4AAADC
+         7: ( 77,172,221)	#4DACDD
+         8: ( 80,174,223)	#50AEDF
+         9: ( 83,176,224)	#53B0E0
+        10: ( 84,177,225)	#54B1E1
+        11: ( 88,179,226)	#58B3E2
+        12: (152,216,242)	#98D8F2
+        13: ( 42,125,149)	#2A7D95
+        14: ( 54,157,212)	#369DD4
+        15: (255,255,255)	white
+        16: (  0,  0,  0)	black
+  Histogram:
+        66: ( 42,125,149)	#2A7D95
+        14: ( 54,157,212)	#369DD4
+        12: ( 57,159,213)	#399FD5
+        12: ( 60,161,215)	#3CA1D7
+        12: ( 64,164,216)	#40A4D8
+        12: ( 67,165,217)	#43A5D9
+         4: ( 70,168,219)	#46A8DB
+         4: ( 74,170,220)	#4AAADC
+         4: ( 77,172,221)	#4DACDD
+        12: ( 80,174,223)	#50AEDF
+        12: ( 83,176,224)	#53B0E0
+        12: ( 84,177,225)	#54B1E1
+        26: ( 88,179,226)	#58B3E2
+       148: (255,  0,  0)	red
+        14: (152,216,242)	#98D8F2
+        36: (255,255,255)	white
+  Rendering-intent: Undefined
+  Resolution: 28.34x28.34
+  Units: Undefined
+  Filesize: 364
+  Interlace: None
+  Background Color: white
+  Border Color: #DFDFDF
+  Matte Color: grey74
+  Dispose: Undefined
+  Iterations: 0
+  Compression: Undefined
+  Orientation: Undefined
+  Signature: bca8484f624dc727594e26d4321cd04cb27f87c30adfdcc47102529d8a5e530b
+  Tainted: False
+  Version: ImageMagick 6.2.3 06/08/05 Q16 http://www.imagemagick.org

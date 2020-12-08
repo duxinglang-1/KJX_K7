@@ -1,0 +1,71 @@
+Image: ..\..\..\plutommi\CUSTOMER\IMAGES\PLUTO\MAINLCD\SMS\PIC\EMS12.BMP
+  Format: BMP (Microsoft Windows bitmap image)
+  Geometry: 32x32
+  Class: PseudoClass
+  Type: Palette
+  Endianess: Undefined
+  Colorspace: RGB
+  Channel depth:
+    Red: 8-bits
+    Green: 8-bits
+    Blue: 8-bits
+  Channel statistics:
+    Red:
+      Min: 0 (0)
+      Max: 255 (1)
+      Mean: 1.87793 (0.00736443)
+      Standard deviation: 19.1594 (0.075135)
+    Green:
+      Min: 0 (0)
+      Max: 255 (1)
+      Mean: 1.52441 (0.00597809)
+      Standard deviation: 17.0011 (0.0666711)
+    Blue:
+      Min: 0 (0)
+      Max: 255 (1)
+      Mean: 1.41309 (0.00554151)
+      Standard deviation: 16.3618 (0.0641638)
+  Colors: 16
+         0: (  0,255,255)	aqua
+         1: (227, 30, 44)	#E31E2C
+         2: ( 80, 47, 29)	#502F1D
+         3: ( 81, 50, 33)	#513221
+         4: (107, 70, 49)	#6B4631
+         5: (133, 95, 74)	#855F4A
+         6: (179,137,114)	#B38972
+         7: (209,136, 97)	#D18861
+         8: (224,215,215)	#E0D7D7
+         9: (255,255,255)	white
+        10: (  0,  0,  0)	black
+        11: (255,255,255)	white
+        12: (173, 16, 27)	#AD101B
+        13: (  0,  0,  0)	black
+        14: (  0,  0,  0)	black
+        15: (  0,  0,  0)	black
+  Histogram:
+       124: (  0,  0,  0)	black
+        68: ( 80, 47, 29)	#502F1D
+         1: ( 81, 50, 33)	#513221
+         3: (107, 70, 49)	#6B4631
+       543: (  0,255,255)	aqua
+         9: (173, 16, 27)	#AD101B
+        17: (133, 95, 74)	#855F4A
+        15: (227, 30, 44)	#E31E2C
+        36: (179,137,114)	#B38972
+        23: (209,136, 97)	#D18861
+        54: (224,215,215)	#E0D7D7
+       131: (255,255,255)	white
+  Rendering-intent: Undefined
+  Units: Undefined
+  Filesize: 630
+  Interlace: None
+  Background Color: white
+  Border Color: #DFDFDF
+  Matte Color: grey74
+  Dispose: Undefined
+  Iterations: 0
+  Compression: Undefined
+  Orientation: Undefined
+  Signature: def681a64bb30692ef3dedd93515dffe948e159b8c3e9c24c2512eabc056c4a4
+  Tainted: False
+  Version: ImageMagick 6.2.3 06/08/05 Q16 http://www.imagemagick.org

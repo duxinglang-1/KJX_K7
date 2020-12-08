@@ -1,0 +1,97 @@
+Image: ..\..\..\plutommi\CUSTOMER\IMAGES\PLUTO\MAINLCD\PHONEBOOK\PHB_GROUP.BMP
+  Format: BMP (Microsoft Windows bitmap image)
+  Geometry: 16x16
+  Class: PseudoClass
+  Type: Palette
+  Endianess: Undefined
+  Colorspace: RGB
+  Channel depth:
+    Red: 8-bits
+    Green: 8-bits
+    Blue: 8-bits
+  Channel statistics:
+    Red:
+      Min: 0 (0)
+      Max: 255 (1)
+      Mean: 11.3281 (0.044424)
+      Standard deviation: 36.6007 (0.143532)
+    Green:
+      Min: 0 (0)
+      Max: 195 (0.764706)
+      Mean: 16.125 (0.0632353)
+      Standard deviation: 49.3954 (0.193707)
+    Blue:
+      Min: 0 (0)
+      Max: 212 (0.831373)
+      Mean: 9.49219 (0.0372243)
+      Standard deviation: 40.1253 (0.157354)
+  Colors: 27
+         0: (255,  0,  0)	red
+         1: ( 52,148,190)	#3494BE
+         2: ( 57,151,192)	#3997C0
+         3: ( 62,154,194)	#3E9AC2
+         4: ( 68,158,197)	#449EC5
+         5: ( 75,162,200)	#4BA2C8
+         6: ( 81,166,203)	#51A6CB
+         7: ( 87,170,206)	#57AACE
+         8: ( 92,173,208)	#5CADD0
+         9: ( 97,176,210)	#61B0D2
+        10: (100,178,212)	#64B2D4
+        11: (118,151, 15)	#76970F
+        12: (120,154, 16)	#789A10
+        13: (142,183, 20)	#8EB714
+        14: (136,174, 19)	#88AE13
+        15: (132,170, 18)	#84AA12
+        16: (129,165, 18)	#81A512
+        17: (126,161, 17)	#7EA111
+        18: (152,195, 22)	#98C316
+        19: (148,190, 21)	#94BE15
+        20: (145,187, 21)	#91BB15
+        21: (139,179, 20)	#8BB314
+        22: (150,193, 22)	#96C116
+        23: ( 91,116, 15)	#5B740F
+        24: (123,157, 16)	#7B9D10
+        25: ( 23,117,158)	#17759E
+        26: (  0,  0,  0)	black
+  Histogram:
+        44: ( 91,116, 15)	#5B740F
+        21: ( 23,117,158)	#17759E
+         9: (118,151, 15)	#76970F
+         7: (120,154, 16)	#789A10
+         3: (123,157, 16)	#7B9D10
+         1: (126,161, 17)	#7EA111
+         4: ( 52,148,190)	#3494BE
+         3: ( 57,151,192)	#3997C0
+         1: ( 62,154,194)	#3E9AC2
+         1: ( 68,158,197)	#449EC5
+         3: ( 75,162,200)	#4BA2C8
+         3: ( 81,166,203)	#51A6CB
+         4: ( 87,170,206)	#57AACE
+         3: ( 92,173,208)	#5CADD0
+         2: ( 97,176,210)	#61B0D2
+         3: (100,178,212)	#64B2D4
+       101: (255,  0,  0)	red
+         1: (129,165, 18)	#81A512
+         3: (132,170, 18)	#84AA12
+         5: (136,174, 19)	#88AE13
+         5: (139,179, 20)	#8BB314
+         7: (142,183, 20)	#8EB714
+         7: (145,187, 21)	#91BB15
+         5: (148,190, 21)	#94BE15
+         5: (150,193, 22)	#96C116
+         5: (152,195, 22)	#98C316
+  Rendering-intent: Undefined
+  Resolution: 28.34x28.34
+  Units: Undefined
+  Filesize: 420
+  Interlace: None
+  Background Color: white
+  Border Color: #DFDFDF
+  Matte Color: grey74
+  Dispose: Undefined
+  Iterations: 0
+  Compression: Undefined
+  Orientation: Undefined
+  Signature: 493bc422ca17e832a01dee8c4cac4da723f0b63ae986b54704e1156b7a5e2b5b
+  Tainted: False
+  Version: ImageMagick 6.2.3 06/08/05 Q16 http://www.imagemagick.org

@@ -1,0 +1,75 @@
+Image: ..\..\..\plutommi\CUSTOMER\IMAGES\PLUTO\MAINLCD\CALL\OUTGOING\CL_ACT.BMP
+  Format: BMP (Microsoft Windows bitmap image)
+  Geometry: 26x26
+  Class: PseudoClass
+  Type: Palette
+  Endianess: Undefined
+  Colorspace: RGB
+  Channel depth:
+    Red: 8-bits
+    Green: 8-bits
+    Blue: 8-bits
+  Channel statistics:
+    Red:
+      Min: 0 (0)
+      Max: 255 (1)
+      Mean: 3.31953 (0.0130178)
+      Standard deviation: 25.4152 (0.0996673)
+    Green:
+      Min: 0 (0)
+      Max: 255 (1)
+      Mean: 4.10207 (0.0160866)
+      Standard deviation: 29.2 (0.11451)
+    Blue:
+      Min: 0 (0)
+      Max: 255 (1)
+      Mean: 4.14793 (0.0162664)
+      Standard deviation: 28.2807 (0.110905)
+  Colors: 16
+         0: (  0,  0,  0)	black
+         1: ( 12, 81,207)	#0C51CF
+         2: ( 37, 72,135)	#254887
+         3: ( 49,119,211)	#3177D3
+         4: ( 80,146,226)	#5092E2
+         5: ( 31, 87,150)	#1F5796
+         6: (133,187,240)	#85BBF0
+         7: (182,226,251)	#B6E2FB
+         8: (217,255,136)	#D9FF88
+         9: (223,255,150)	#DFFF96
+        10: (228,255,161)	#E4FFA1
+        11: (233,255,172)	#E9FFAC
+        12: (239,255,185)	#EFFFB9
+        13: (207,207,207)	grey81
+        14: (118,118,118)	#767676
+        15: (255,255,255)	white
+  Histogram:
+       151: (  0,  0,  0)	black
+        10: (118,118,118)	#767676
+         4: ( 31, 87,150)	#1F5796
+        89: ( 37, 72,135)	#254887
+         8: ( 12, 81,207)	#0C51CF
+        68: ( 49,119,211)	#3177D3
+        41: ( 80,146,226)	#5092E2
+        18: (133,187,240)	#85BBF0
+        27: (182,226,251)	#B6E2FB
+        24: (217,255,136)	#D9FF88
+        51: (223,255,150)	#DFFF96
+        73: (228,255,161)	#E4FFA1
+        63: (233,255,172)	#E9FFAC
+        29: (239,255,185)	#EFFFB9
+        20: (207,207,207)	grey81
+  Rendering-intent: Undefined
+  Resolution: 28.34x28.34
+  Units: Undefined
+  Filesize: 536
+  Interlace: None
+  Background Color: white
+  Border Color: #DFDFDF
+  Matte Color: grey74
+  Dispose: Undefined
+  Iterations: 0
+  Compression: Undefined
+  Orientation: Undefined
+  Signature: 134310923a56d9c7b1438f1c7bb3b7fb9d05e089546198a50dad20a628c91a24
+  Tainted: False
+  Version: ImageMagick 6.2.3 06/08/05 Q16 http://www.imagemagick.org

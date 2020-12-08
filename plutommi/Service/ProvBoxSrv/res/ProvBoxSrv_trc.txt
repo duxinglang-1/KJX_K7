@@ -1,0 +1,120 @@
+[APP NAME] = SRV_PROVBOX
+[SCOPE] = PLUTO, COSMOS
+[MODULE] = MOD_MMI_INET_APP
+
+#start trace
+
+#    /*ProvBoxMain.c*/
+TRC_MSG(SRV_PROVBOX_TRC_PROVBOX_INIT, "[ProvBox]srv_provbox_init")
+TRC_MSG(SRV_PROVBOX_TRC_APP_ALLOC, "[ProvBox]MEMORY FULL!, no memory available!")
+TRC_MSG(SRV_PROVBOX_TRC_MEM_INIT, "[ProvBox]srv_provbox_mem_init(max_alloc_size=%d, total_left_size=%d)")
+TRC_MSG(SRV_PROVBOX_TRC_MEM_MALLOC, "[ProvBox]srv_provbox_mem_malloc:No memory(size=%d,max_alloc_size=%d, total_left_size=%d)")
+TRC_MSG(SRV_PROVBOX_TRC_MEM_TRY_RECLAIM_MEMORY, "[ProvBox]srv_provbox_mem_try_reclaim_memory(format_all=%d)")
+TRC_MSG(SRV_PROVBOX_TRC_CNTX_GET_INIT_NEXT_MSG_ID, "[ProvBox]srv_provbox_cntx_get_init_next_msg_id(next_new_msg_id=%d)")
+TRC_MSG(SRV_PROVBOX_TRC_JOB_SUBMIT_NEW_JOB, "[ProvBox]srv_provbox_job_submit_new_job(job_type=%d,src_mod=%d,int_value=%d,req_data=%x,hold_ctrl_buf=%d)")
+TRC_MSG(SRV_PROVBOX_TRC_HANDLE_MEM_FULL, "[ProvBox]srv_provbox_handle_mem_full(job_type=%d,sub_type=%d,job_state=%d,int_value=%d)")
+TRC_MSG(SRV_PROVBOX_TRC_HANDLE_DISK_FULL, "[ProvBox]srv_provbox_handle_disk_full(job_type=%d,sub_type=%d,job_state=%d,int_value=%d)")
+TRC_MSG(SRV_PROVBOX_TRC_SAVE_MSG_FAIL, "[ProvBox]srv_provbox_handle_save_msg_fail(job_type=%d,sub_type=%d,job_state=%d,int_value=%d)")
+TRC_MSG(SRV_PROVBOX_TRC_RESTORE_FACTORY_SETTING, "[ProvBox]srv_provbox_restore_factory_setting")
+
+TRC_MSG(SRV_PROVBOX_TRC_JOB_RECLAIM_MEM_EXCEPT, "[ProvBox]srv_provbox_job_reclaim_mem_except(node_type=%d,except_box_type=%d,start_idx=%d,msg_num=%d)")
+TRC_MSG(SRV_PROVBOX_TRC_JOB_SUBMIT_ALL_INIT_JOB, "[ProvBox]srv_provbox_job_submit_all_init_job")
+TRC_MSG(SRV_PROVBOX_TRC_JOB_ASYNC_PROCESS_JOB_DEFRAG_FILE,"[ProvBox]srv_provbox_job_async_process_job: need to defrag some file")
+TRC_MSG(SRV_PROVBOX_TRC_JOB_ASYNC_PROCESS_JOB_DONE,"[ProvBox]srv_provbox_job_async_process_job(max_alloc_size=%d,total_left_size=%d, job_num=%d)")
+TRC_MSG(SRV_PROVBOX_TRC_JOB_PROCESS_CURRENT_JOB_NO_JOB, "[ProvBox]srv_provbox_job_process_current_job(NO JOB NOW)")
+TRC_MSG(SRV_PROVBOX_TRC_JOB_PROCESS_CURRENT_JOB_BEGIN, "[ProvBox]srv_provbox_job_process_current_job(job_type=%d,sub_type=%d,job_state=%d,int_value=%d)")
+TRC_MSG(SRV_PROVBOX_TRC_JOB_PROCESS_CURRENT_JOB_RESULT, "[ProvBox]srv_provbox_job_process_current_job(job_type=%d,sub_type=%d,job_state=%d,int_value=%d,result=%d)")
+TRC_MSG(SRV_PROVBOX_TRC_JOB_PROCESS_CURRENT_JOB_DONE, "[ProvBox]srv_provbox_job_process_current_job_done(job_type=%d)")
+
+TRC_MSG(SRV_PROVBOX_TRC_JOB_INIT_CHECK_VERSION_HDLR_CHECK_FOLDER_CONTINUE, "[ProvBox]srv_provbox_job_init_check_version_hdlr: continue to check folder(del_num=%d)")
+TRC_MSG(SRV_PROVBOX_TRC_JOB_INIT_CHECK_VERSION_HDLR_VERSION_OK, "[ProvBox]srv_provbox_job_init_check_version_hdlr: version is ok")
+TRC_MSG(SRV_PROVBOX_TRC_JOB_INIT_CHECK_VERSION_HDLR_VERSION_NOT_MATCH,"[ProvBox]srv_provbox_job_init_check_version_hdlr: Version not match, reset")
+TRC_MSG(SRV_PROVBOX_TRC_JOB_CHECK_RESTORE_FACTORY, "[ProvBox]srv_provbox_job_check_restore_factory:find(result=%d)")
+TRC_MSG(SRV_PROVBOX_TRC_JOB_CHECK_DELETE_ALL, "srv_provbox_job_check_delete_all:find(box_type=%d,result=%d)")
+
+TRC_MSG(SRV_PROVBOX_TRC_JOB_INIT_MSG_LSIT_HDLR, "[ProvBox]srv_provbox_job_init_msg_list_hdlr(box_type=%d,msg_num=%d,result=%d)")
+TRC_MSG(SRV_PROVBOX_TRC_JOB_DELETE_ALL_INVALID_MSG_CONTINUE, "[ProvBox]srv_provbox_job_delete_all_invalid_msg:continue")
+TRC_MSG(SRV_PROVBOX_TRC_JOB_DELETE_INVALID_MSG, "[ProvBox]srv_provbox_job_delete_invalid_msg(box_type=%d,msg_id=%d,result=%d)")
+
+TRC_MSG(SRV_PROVBOX_TRC_JOB_SAVE_MSG_HDLR_NEW_MSG_BASE_INFO, "[ProvBox]srv_provbox_job_save_msg_hdlr:new_msg(msg_id=%d,time=%d:%d,src=%d,sim=%d,type=%d,read=%d,addr=%d)")
+TRC_MSG(SRV_PROVBOX_TRC_JOB_SAVE_MSG_HDLR_NEW_MSG_DATA_INFO, "[ProvBox]srv_provbox_job_save_msg_hdlr:new_msg(trans_id=%d,app_size=%d,prov_type=%d,prov_size=%d)")
+TRC_MSG(SRV_PROVBOX_TRC_JOB_SAVE_MSG_HDLR_NOT_ACCEPT, "[ProvBox]srv_provbox_job_save_msg_hdlr:not_accept(result=%d)")
+TRC_MSG(SRV_PROVBOX_TRC_JOB_SAVE_MSG_HDLR_SAVE_RESULT, "[ProvBox]srv_provbox_job_save_msg_hdlr:save_result(result=%d)")
+TRC_MSG(SRV_PROVBOX_TRC_JOB_SHOW_EXT_MSG_HDLR_INBOX_FULL, "[ProvBox]srv_provbox_job_show_ext_msg_hdlr:inbox is full(imsg_num=%d)")
+TRC_MSG(SRV_PROVBOX_TRC_JOB_SHOW_EXT_MSG_HDLR_SHOW, "[ProvBox]srv_provbox_job_show_ext_msg_hdlr(emsg_num=%d)")
+TRC_MSG(SRV_PROVBOX_TRC_JOB_SHOW_EXT_MSG_HDLR_MOVE_TO_BOX, "[ProvBox]srv_provbox_job_show_ext_msg_hdlr:move to box(cur_index=%d,new_index=%d,result=%d)")
+TRC_MSG(SRV_PROVBOX_TRC_JOB_SAVE_EXT_MSG_HDLR, "[ProvBox]srv_provbox_job_save_ext_msg_hdlr(msg_num=%d)")
+
+TRC_MSG(SRV_PROVBOX_TRC_JOB_DELETE_ALL_MSG_HDLR, "[ProvBox]srv_provbox_job_delete_all_msg_hdlr(result=%d)")
+TRC_MSG(SRV_PROVBOX_TRC_JOB_RESTORE_FACTORY_HDLR, "[ProvBox]srv_provbox_job_restore_factory_hdlr")
+
+#    /* ProvBoxMsgList.c */
+TRC_MSG(SRV_PROVBOX_TRC_MSG_INIT_NULTI_MSG_NODE_CHECK, "[ProvBox]srv_provbox_msg_init_multi_msg_node:check(box_type=%d,rec_num=%d,cursor=%d)")
+TRC_MSG(SRV_PROVBOX_TRC_MSG_INIT_MULTI_MSG_NODE_INFO, "[ProvBox]srv_provbox_msg_init_multi_msg_node(box_type=%d,cursor=%d,msg_id=%d,bit_prop=%d,result=%d)")
+TRC_MSG(SRV_PROVBOX_TRC_MSG_FORCE_DELETE_MSG_BY_ID, "[ProvBox]srv_provbox_msg_force_delete_msg_by_id(box_type=%d,msg_id=%d,find=%d,result=%d:%d:%d)")
+TRC_MSG(SRV_PROVBOX_TRC_MSG_GET_MSG_DATA_BY_INDEX_READ_APP_DATA, "[ProvBox]srv_provbox_msg_get_msg_data_by_index:read_app_fail(msg_id,app_size=%d,prov_size=%d,result=%d)")
+TRC_MSG(SRV_PROVBOX_TRC_MSG_DELETE_MSG_BY_INDEX_UNDELETE, "[ProvBox]srv_provbox_msg_delete_msg_by_index:undeletable(msg_id=%d,box_type=%d,result=%d)")
+TRC_MSG(SRV_PROVBOX_TRC_MSG_DELETE_MSG_BY_INDEX_DEL_INFO, "[ProvBox]srv_provbox_msg_delete_msg_by_index:undeletable(msg_id=%d,box_type=%d,result=%d)")
+
+TRC_MSG(SRV_PROVBOX_TRC_MSG_LOAD_INFO_TO_LIST_READ_RECORD, "[ProvBox]srv_provbox_msg_load_info_to_list:read_record(msg_id=%d,box_type=%d,result=%d)")
+TRC_MSG(SRV_PROVBOX_TRC_MSG_LOAD_INFO_TO_LIST_RESULT, "[ProvBox]srv_provbox_msg_load_info_to_list(msg_id=%d,box_type=%d,result=%d)")
+TRC_MSG(SRV_PROVBOX_TRC_MSG_FORMAT_MSG_NODE_BY_INDEX, "[ProvBox]srv_provbox_msg_format_msg_node_by_index(msg_id=%d,box_type=%d,format_all=%d,lock_format=%d)")
+TRC_MSG(SRV_PROVBOX_TRC_MSG_PARSE_AND_ADD_NEW_TO_LIST, "[ProvBox]srv_provbox_msg_parse_and_add_new_to_list:check(msg_id=%d,box_type=%d,bit_prop=%d,result=%d)")
+
+TRC_MSG(SRV_PROVBOX_TRC_MSG_SAVE_FULL_INFO, "[ProvBox]srv_provbox_msg_save_full_info(msg_id=%d, bit_prop=%d, result=%d)")
+TRC_MSG(SRV_PROVBOX_TRC_MSG_SAVE_MSG_CHECK, "[ProvBox]srv_provbox_msg_save_msg:check(msg_id=%d,result=%d)")
+TRC_MSG(SRV_PROVBOX_TRC_MSG_SAVE_MSG_TO_FILE, "[ProvBox]srv_provbox_msg_save_msg(save_to_file=1,result=%d,box_type=%d,msg_id=%d,info=%d,app=%d,prov=%d)")
+TRC_MSG(SRV_PROVBOX_TRC_MSG_SAVE_MSG_TO_MEMORY, "[ProvBox]srv_provbox_msg_save_msg(save_to_mem=1,result=%d,box_type=%d,msg_id=%d)")
+TRC_MSG(SRV_PROVBOX_TRC_MSG_SAVE_APP_PROV_DATA_TO_FILE_MOVE, "[ProvBox]srv_provbox_msg_save_app_prov_data_to_file:move_file(msg_id=%d,box_type=%d,prov_size=%d,ret=%d)")
+TRC_MSG(SRV_PROVBOX_TRC_MSG_SAVE_APP_PROV_DATA_TO_FILE_SAVE_PROV_DATA, "[ProvBox]srv_provbox_msg_save_app_prov_data_to_file:save_prov(msg_id=%d,box_type=%d,prov_size=%d,result=%d)")
+TRC_MSG(SRV_PROVBOX_TRC_MSG_SAVE_APP_PROV_DATA_TO_FILE_SAVE_APP_DATA, "[ProvBox](msg_id=%d,box_type=%d,app_size=%d,result=%d)")
+TRC_MSG(SRV_PROVBOX_TRC_MSG_SAVE_NEW_MSG_INFO_DATA, "[ProvBox]srv_provbox_msg_save_new_msg_info_data(msg_id=%d,msg_type=%d,bit_prop=%d,result=%d)")
+TRC_MSG(SRV_PROVBOX_TRC_MSG_SAVE_MSG_DATA_TO_FILE, "[ProvBox]srv_provbox_msg_save_msg_data_to_file(msg_id=%d,result=%d,info=%d)")
+TRC_MSG(SRV_PROVBOX_TRC_MSG_SAVE_EXTRA_MSG_DATA_PROV_DATA, "[ProvBox]srv_provbox_msg_save_extra_msg_data:save_prov_data(msg_id=%d,bit_prop=%d,data_size=%d,result=%d)")
+TRC_MSG(SRV_PROVBOX_TRC_MSG_SAVE_EXTRA_MSG_DATA_APP_DATA, "[ProvBox]srv_provbox_msg_save_extra_msg_data:save_app_data(msg_id=%d,bit_prop=%d,data_size=%d,result=%d)")
+TRC_MSG(SRV_PROVBOX_TRC_MSG_SAVE_EXTRA_MSG_DATA_INFO_DATA, "[ProvBox]srv_provbox_msg_save_extra_msg_data:save_info(msg_id=%d,bit_prop=%d,result=%d)")
+TRC_MSG(SRV_PROVBOX_TRC_MSG_SAVE_MSG_DATA_TO_MEM, "[ProvBox]srv_provbox_msg_save_msg_data_to_mem(msg_id=%d,app_size=%d,prov_size=%d)")
+
+TRC_MSG(SRV_PROVBOX_TRC_MSG_DELETE_ALL_MSG_CHECK, "[ProvBox]srv_provbox_msg_delete_all_msg(box_type=%d,msg_num=%d,un_del_num=%d)")
+TRC_MSG(SRV_PROVBOX_TRC_MSG_DELETE_ALL_MSG_ONE_BY_ONE, "[ProvBox]srv_provbox_msg_delete_all_msg(one_by_one=1,box_type=%d,msg_num=%d,left_num=%d)")
+
+TRC_MSG(SRV_PROVBOX_TRC_MSG_DELETE_DIRTY_MSG_RESULT, "[ProvBox]srv_provbox_msg_delete_dirty_msg(msg_id=%d,box_type=%d,save=%d:%d:%d,result=%d:%d:%d)")
+TRC_MSG(SRV_PROVBOX_TRC_MSG_DELETE_PROV_DATA_FILE, "[ProvBox]srv_provbox_msg_delete_prov_data_file:del_fail(msg_id=%d,box_type=%d,ret=%d)")
+TRC_MSG(SRV_PROVBOX_TRC_MSG_COPY_PROV_DATA_FILE, "[ProvBox]srv_provbox_msg_copy_prov_data_file:del_fail(msg_id=%d,src_box_type=%d,dst_box_type=%d,ret=%d)")
+
+TRC_MSG(SRV_PROVBOX_TRC_MSG_LOAD_MSG_APP_DATA_BY_INDEX_READ_RECORD, "[ProvBox]srv_provbox_msg_load_msg_app_data_by_index:read_record(msg_id=%d,box_type=%d,app_size=%d,result=%d)")
+TRC_MSG(SRV_PROVBOX_TRC_MSG_PREPROCESS_NEW_MSG, "[ProvBox]srv_provbox_msg_preprocess_new_msg(msg_id=%d,timestamp=%d,app_data_size=%d,prov_data_size=%d)")
+TRC_MSG(SRV_PROVBOX_TRC_MSG_GET_MAX_MSG_ID, "[ProvBox]srv_provbox_msg_get_max_msg_id:not match(box_type=%d,info_id=%d,app_id=%d)")
+
+TRC_MSG(SRV_PROVBOX_TRC_MSG_MOVE_TO_BOX_LOAD_APP_DATA, "[ProvBox]srv_provbox_msg_move_to_box_by_index:load_app_data(result=%d)")
+TRC_MSG(SRV_PROVBOX_TRC_MSG_MOVE_TO_BOX_BY_INDEX_RESULT, "[ProvBox]srv_provbox_msg_move_to_box_by_index:result(msg_id=%d, new_box=%d,result=%d:%d:%d)")
+TRC_MSG(SRV_PROVBOX_TRC_MSG_MOVE_TO_BOX_BY_ID,"[ProvBox]srv_provbox_msg_move_to_box_by_id:not found(cur_box_type=%d,new_box_type=%d,msg_id=%d)")
+TRC_MSG(SRV_PROVBOX_TRC_MSG_CAN_MOVE_MSG_WRONG_INDEX, "[ProvBox]srv_provbox_msg_can_move_msg:not found(cur_box_type=%d,new_box_type=%d,cur_index=%d,cur_msg_num=%d)")
+TRC_MSG(SRV_PROVBOX_TRC_MSG_CAN_MOVE_MSG_NOT_SAVED, "[ProvBox]srv_provbox_msg_can_move_msg:not saved(cur_box_type=%d,new_box_type=%d,cur_index=%d,msg_id=%d,msg_flag=%d,bit_prop=%d)")
+TRC_MSG(SRV_PROVBOX_TRC_MSG_CAN_MOVE_MSG_READING, "[ProvBox]srv_provbox_msg_can_move_msg:reading(cur_box_type=%d,new_box_type=%d,cur_index=%d,msg_id=%d,msg_flag=%d,bit_prop=%d)")
+TRC_MSG(SRV_PROVBOX_TRC_CAN_MOVE_MSG_ARCHIVE_FULL, "[ProvBox]srv_provbox_msg_can_move_msg:archive full(cur_box_type=%d,new_box_type=%d,cur_index=%d,msg_id=%d,msg_flag=%d,bit_prop=%d)")
+TRC_MSG(SRV_PROVBOX_TRC_CAN_MOVE_MSG_INBOX_FULL,   "[ProvBox]srv_provbox_msg_can_move_msg:inbox full(cur_box_type=%d,new_box_type=%d,cur_index=%d,msg_id=%d,msg_flag=%d,bit_prop=%d)")
+  
+  
+#    /* ProvBoxFile.c */
+TRC_MSG(SRV_PROVBOX_TRC_RESET_PROVBOX_CLEAN_FOLDER_CONTINUE, "[ProvBox]srv_provbox_reset_provbox: continue to clear folder(max_del_num=%d,total_del_num=%d)")
+TRC_MSG(SRV_PROVBOX_TRC_RESET_PROVBOX_CHECK_FOLDER, "[ProvBox]srv_provbox_reset_provbox:check_folder(max_del_num=%d,total_del_num=%d,result=%d)")
+TRC_MSG(SRV_PROVBOX_TRC_CREATE_FODER_BY_ID, "[ProvBox]srv_provbox_create_folder_by_id(dir_id=%d,ret=%d)")
+TRC_MSG(SRV_PROVBOX_TRC_FILE_READ_CHECK_FILE, "[ProvBox]srv_provbox_file_read_check_file(result=%d,check_type=%d,box_type=%d,msg_id=%d)")
+TRC_MSG(SRV_PROVBOX_TRC_FILE_WRITE_CHECK_FILE, "[ProvBox]srv_provbox_file_write_check_file(check_type=%d,box_type=%d,msg_id=%d,result=%d)")
+
+TRC_MSG(SRV_PROVBOX_TRC_FILE_INIT_RECORD_LIST, "[ProvBox]srv_provbox_file_init_record_list(file_id=%d,msg_num=%d:%d,file_size=%d,free_size=%d)")
+TRC_MSG(SRV_PROVBOX_TRC_FILE_INIT_OPEN_FILE_OPEN_FAIL, "[ProvBox]srv_provbox_file_init_open_file:open fail(file_id=%d,ret=%d,start_pos=%d)")
+TRC_MSG(SRV_PROVBOX_TRC_FILE_INIT_OPEN_FILE_SEEK_FAIL, "[ProvBox]srv_provbox_file_init_open_file:seek fail(file_id=%d,ret=%d,start_pos=%d)")
+TRC_MSG(SRV_PROVBOX_TRC_FILE_INIT_LOAD_PACK_DATA_CHECK_HEAD, "[ProvBox]srv_provbox_file_init_load_pack_data:err head(file_id=%d,rec_type=%d,rec_id=%d,rec_size=%d,start_pos=%d,result=%d)")
+TRC_MSG(SRV_PROVBOX_TRC_FILE_INIT_LOAD_PACK_DATA_CHECK_FOOTER, "[ProvBox]srv_provbox_file_init_load_pack_data:err footer(result=%d,file_id=%d,rec_id=%d,rec_size=%d,start_pos=%d,checksum=%d,foot=%x)")
+TRC_MSG(SRV_PROVBOX_TRC_FILE_INIT_CREATE_FREE_RECORD_WRITE_FREE, "[ProvBox]mmi_provox_file_init_create_free_record(result=%d,file_id=%d,rec_id=%d,start_pos=%d,rec_size=%d,file_size=%d)")
+
+TRC_MSG(SRV_PROVBOX_TRC_FILE_WRITE_RECORD_OPEN, "[ProvBox]srv_provbox_file_write_record:open fail(file_id=%d,rec_id=%d,data_size=%d)")
+TRC_MSG(SRV_PROVBOX_TRC_FILE_WRITE_RECORD_WRITE_FREE, "[ProvBox]srv_provbox_file_write_record:split(file_id=%d,rec_id=%d,data_size=%d,start_pos=%d,new_rec_size=%d,result=%d)")
+TRC_MSG(SRV_PROVBOX_TRC_FILE_WRITE_RECORD_WRITE_USE, "[ProvBox]srv_provbox_file_write_record:write(file_id=%d,rec_id=%d,start_pos=%d,data_size=%d,result=%d)")
+TRC_MSG(SRV_PROVBOX_TRC_FILE_GET_FREE_RECORD_BY_SIZE_FILE_SIZE, "[ProvBox]srv_provbox_file_get_free_record_by_size:enlarge(file_id=%d,rec_id=%d,total_size=%d,inc_size=%d,file_size=%d,ret=%d,result=%d)")
+TRC_MSG(SRV_PROVBOX_TRC_FILE_WRITE_FREE_RECORD_DATA, "[ProvBox]srv_provbox_file_write_free_record_data(fail_id=%d,rec_id=%d,start=%d,rec_size=%d,write_size=%d,write_len=%d)")
+TRC_MSG(SRV_PROVBOX_TRC_FILE_WRITE_USE_RECORD_DATA, "[ProvBox]srv_provbox_file_write_use_record_data(rec_id=%d,start_pos=%d,rec_size=%d)")
+TRC_MSG(SRV_PROVBOX_TRC_FILE_READ_USE_RECORD_DATA, "[ProvBox]srv_provbox_file_read_use_record_data(fail_id=%d,ret=%d,rec_id=%d,start=%d,rec_size=%d,read_size=%d,read_len=%d)")
+TRC_MSG(SRV_PROVBOX_TRC_FILE_UPDATE_RECORD_WRONG_SIZE, "[ProvBox]srv_provbox_file_update_record(file_id=%d,rec_id=%d,data_size=%d,rec_size=%d,start_pos=%d)")

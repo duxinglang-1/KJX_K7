@@ -1,0 +1,821 @@
+1	STR_GLOBAL_0	Global String- 0	../../MMI/Resource/PopulateRes.c	0	0	APP name unknown	
+2	STR_GLOBAL_1	Global String- 1	../../MMI/Resource/PopulateRes.c	0	1	APP name unknown	
+3	STR_GLOBAL_2	Global String- 2	../../MMI/Resource/PopulateRes.c	0	2	APP name unknown	
+4	STR_GLOBAL_3	Global String- 3	../../MMI/Resource/PopulateRes.c	0	3	APP name unknown	
+5	STR_GLOBAL_4	Global String- 4	../../MMI/Resource/PopulateRes.c	0	4	APP name unknown	
+6	STR_GLOBAL_5	Global String- 5	../../MMI/Resource/PopulateRes.c	0	5	APP name unknown	
+7	STR_GLOBAL_6	Global String- 6	../../MMI/Resource/PopulateRes.c	0	6	APP name unknown	
+8	STR_GLOBAL_7	Global String- 7	../../MMI/Resource/PopulateRes.c	0	7	APP name unknown	
+9	STR_GLOBAL_8	Global String- 8	../../MMI/Resource/PopulateRes.c	0	8	APP name unknown	
+10	STR_GLOBAL_9	Global String- 9	../../MMI/Resource/PopulateRes.c	0	9	APP name unknown	
+11	STR_GLOBAL_10	Global String- 10	../../MMI/Resource/PopulateRes.c	0	10	APP name unknown	
+12	STR_GLOBAL_ABORT	Global String- Abort	../../MMI/Resource/PopulateRes.c	0	Abort	APP name unknown	
+13	STR_GLOBAL_ABORTING	Global String- Aborting	../../MMI/Resource/PopulateRes.c	0	Aborting	APP name unknown	
+14	STR_GLOBAL_ACCEPT	Global String- Accept	../../MMI/Resource/PopulateRes.c	0	Accept	APP name unknown	
+15	STR_GLOBAL_ACCOUNTS	Accounts- configuration folder	../../MMI/Resource/PopulateRes.c	0	Accounts	APP name unknown	
+16	STR_GLOBAL_ACTIVATE	Global String- Activate	../../MMI/Resource/PopulateRes.c	0	Activate	APP name unknown	
+17	STR_GLOBAL_ACTIVATED	Global String- Activated	../../MMI/Resource/PopulateRes.c	0	Activated	APP name unknown	
+18	STR_GLOBAL_ADD	Global String- Add	../../MMI/Resource/PopulateRes.c	0	Add	APP name unknown	
+19	STR_GLOBAL_ADDRESS	Global String- Address	../../MMI/Resource/PopulateRes.c	0	Address	APP name unknown	
+20	STR_GLOBAL_ADVANCED	Global String- Advanced	../../MMI/Resource/PopulateRes.c	0	Advanced	APP name unknown	
+21	STR_GLOBAL_ALARM	Global String- Alarm	../../MMI/Resource/PopulateRes.c	0	Alarm	APP name unknown	
+22	STR_GLOBAL_ALWAYS_ASK	Global String- Always ask	../../MMI/Resource/PopulateRes.c	0	Always ask	APP name unknown	
+23	STR_GLOBAL_AS_EMAIL	Global String- As Email- sub option of sending command	../../MMI/Resource/PopulateRes.c	0	As Email	APP name unknown	
+24	STR_GLOBAL_AS_MULTIMEDIA_MSG	Global String- As multimedia message- sub option of sending command	../../MMI/Resource/PopulateRes.c	0	As multimedia message	APP name unknown	
+25	STR_GLOBAL_AS_TEXT_MESSAGE	Global String- As text message- sub option of sending command	../../MMI/Resource/PopulateRes.c	0	As text message	APP name unknown	
+26	STR_GLOBAL_ATTACHMENT	Global String- Attachment	../../MMI/Resource/PopulateRes.c	0	Attachment	APP name unknown	
+27	STR_GLOBAL_AUTHENTICATION	Global String- Authentication	../../MMI/Resource/PopulateRes.c	0	Authentication	APP name unknown	
+28	STR_GLOBAL_AUTOMATIC	Global String- Automatic	../../MMI/Resource/PopulateRes.c	0	Automatic	APP name unknown	
+29	STR_GLOBAL_BACK	Global String- Back	../../MMI/Resource/PopulateRes.c	0	Back	APP name unknown	
+30	STR_GLOBAL_BLUETOOTH	Global String- Bluetooth	../../MMI/Resource/PopulateRes.c	0	Bluetooth	APP name unknown	
+31	STR_GLOBAL_BUSY_TRY_LATER	STR_GLOBAL_BUSY_TRY_LATER	../../MMI/Resource/PopulateRes.c	0	Busy	APP name unknown	
+32	STR_GLOBAL_CANCEL	Global String- Cancel	../../MMI/Resource/PopulateRes.c	0	Cancel	APP name unknown	
+33	STR_GLOBAL_CANCELLING	Global String- Cancelling	../../MMI/Resource/PopulateRes.c	0	Cancelling	APP name unknown	
+34	STR_GLOBAL_CLEAR	Global String- Clear	../../MMI/Resource/PopulateRes.c	0	Clear	APP name unknown	
+35	STR_GLOBAL_CLOSE	Global String- Close	../../MMI/Resource/PopulateRes.c	0	Close	APP name unknown	
+36	STR_GLOBAL_CONFIRM	Global String- Confirm	../../MMI/Resource/PopulateRes.c	0	Confirm	APP name unknown	
+37	STR_GLOBAL_CONNECT	Global String- Connect	../../MMI/Resource/PopulateRes.c	0	Connect	APP name unknown	
+38	STR_GLOBAL_CONNECTING	Global String- Connecting	../../MMI/Resource/PopulateRes.c	0	Connecting	APP name unknown	
+39	STR_GLOBAL_CONTENT	Global String- Content	../../MMI/Resource/PopulateRes.c	0	Content	APP name unknown	
+40	STR_GLOBAL_CONTINUE	Global String- Cont.- use as LSK for length limit	../../MMI/Resource/PopulateRes.c	0	Cont.	APP name unknown	
+41	STR_GLOBAL_COPY	Global String- Copy	../../MMI/Resource/PopulateRes.c	0	Copy	APP name unknown	
+42	STR_GLOBAL_COPYING	Global String- Copying	../../MMI/Resource/PopulateRes.c	0	Copying	APP name unknown	
+43	STR_GLOBAL_CURRENTLY_NOT_AVAILABLE	Global String- the services/operations aren't workable in some situations	../../MMI/Resource/PopulateRes.c	0	Currently not available	APP name unknown	
+44	STR_GLOBAL_CURRENTLY_NOT_AVAILABLE_IN_CALL	Global String- the services/operations aren't workable during the call	../../MMI/Resource/PopulateRes.c	0	Not available during the call	APP name unknown	
+45	STR_GLOBAL_CUSTOM	Global String- Custom- user defined	../../MMI/Resource/PopulateRes.c	0	Custom	APP name unknown	
+46	STR_GLOBAL_DATA_ACCOUNT	Global String- Data account	../../MMI/Resource/PopulateRes.c	0	Data account	APP name unknown	
+47	STR_GLOBAL_DATA_ACCOUNTS	Global String- Data accounts	../../MMI/Resource/PopulateRes.c	0	Data accounts	APP name unknown	
+48	STR_GLOBAL_DATA_CONN_SETTING	Global String- Data connection settings	../../MMI/Resource/PopulateRes.c	0	Data connection settings	APP name unknown	
+49	STR_GLOBAL_DATE	Global String- Date	../../MMI/Resource/PopulateRes.c	0	Date	APP name unknown	
+50	STR_GLOBAL_DEACTIVATE	Global String- Deactivate	../../MMI/Resource/PopulateRes.c	0	Deactivate	APP name unknown	
+51	STR_GLOBAL_DEFAULT	Global String- Default	../../MMI/Resource/PopulateRes.c	0	Default	APP name unknown	
+52	STR_GLOBAL_DELETE	Global String- Delete	../../MMI/Resource/PopulateRes.c	0	Delete	APP name unknown	
+53	STR_GLOBAL_DELETE_ALL	Global String- Delete All	../../MMI/Resource/PopulateRes.c	0	Delete All	APP name unknown	
+54	STR_GLOBAL_DELETED	Global String- Deleted	../../MMI/Resource/PopulateRes.c	0	Deleted	APP name unknown	
+55	STR_GLOBAL_DELETING	Global String- Deleting	../../MMI/Resource/PopulateRes.c	0	Deleting	APP name unknown	
+56	STR_GLOBAL_DETAILS	Global String- Details	../../MMI/Resource/PopulateRes.c	0	Details	APP name unknown	
+58	STR_GLOBAL_DIALLED_CALLS	Global string- Dialled calls	../../MMI/Resource/PopulateRes.c	0	Dialled call	APP name unknown	
+57	STR_GLOBAL_DIAL	Global String- Call	../../MMI/Resource/PopulateRes.c	0	Call	APP name unknown	
+59	STR_GLOBAL_DISCARD	Global String- Discard	../../MMI/Resource/PopulateRes.c	0	Discard	APP name unknown	
+60	STR_GLOBAL_DISCONNECT	Global String- Disconnect	../../MMI/Resource/PopulateRes.c	0	Disconnect	APP name unknown	
+61	STR_GLOBAL_DISCONNECTING	Global String- Disconnecting	../../MMI/Resource/PopulateRes.c	0	Disconnecting	APP name unknown	
+62	STR_GLOBAL_DONE	Global String- Done	../../MMI/Resource/PopulateRes.c	0	Done	APP name unknown	
+63	STR_GLOBAL_DOWNLOAD	STR_GLOBAL_DOWNLOAD	../../MMI/Resource/PopulateRes.c	0	Download	APP name unknown	
+64	STR_GLOBAL_DOWNLOAD_ASK	STR_GLOBAL_DOWNLOAD_ASK	../../MMI/Resource/PopulateRes.c	0	Download?	APP name unknown	
+65	STR_GLOBAL_DOWNLOADING	STR_GLOBAL_DOWNLOADING	../../MMI/Resource/PopulateRes.c	0	Downloading	APP name unknown	
+66	STR_GLOBAL_DRAFTS	Global String- Drafts	../../MMI/Resource/PopulateRes.c	0	Drafts	APP name unknown	
+68	STR_GLOBAL_DRM_FS_ERROR	Global String- File Access Error	../../MMI/Resource/PopulateRes.c	0	File Access Error	APP name unknown	
+69	STR_GLOBAL_DRM_INVALID_FORMAT	Global String- Format Error	../../MMI/Resource/PopulateRes.c	0	Format Error	APP name unknown	
+70	STR_GLOBAL_DRM_NON_DRM	Global String- Not DRM File	../../MMI/Resource/PopulateRes.c	0	Not DRM File	APP name unknown	
+71	STR_GLOBAL_DRM_PROCESSING	Global String- DRM Processing	../../MMI/Resource/PopulateRes.c	0	DRM Processing	APP name unknown	
+72	STR_GLOBAL_DRM_PROHIBITED	Global String- DRM Prohibited	../../MMI/Resource/PopulateRes.c	0	DRM Prohibited	APP name unknown	
+75	STR_GLOBAL_EARPHONE_IN	Global String- String Associated with Ear Phone Plug In Popup.	../../MMI/Resource/PopulateRes.c	0	Earphone plugged in!	APP name unknown	
+76	STR_GLOBAL_EARPHONE_OUT	Global String- Earphone plugged Out	../../MMI/Resource/PopulateRes.c	0	Earphone plugged Out	APP name unknown	
+77	STR_GLOBAL_EDIT	Global String- Edit	../../MMI/Resource/PopulateRes.c	0	Edit	APP name unknown	
+78	STR_GLOBAL_EDIT_BEFORE_CALL	Global String- Edit before call	../../MMI/Resource/PopulateRes.c	0	Edit before call	APP name unknown	
+79	STR_GLOBAL_EMAIL	Global String- Email	../../MMI/Resource/PopulateRes.c	0	Email	APP name unknown	
+80	STR_GLOBAL_EMPTY	Global String- Empty	../../MMI/Resource/PopulateRes.c	0	Empty	APP name unknown	
+81	STR_GLOBAL_EMPTY_LIST	Global String- <Empty>	../../MMI/Resource/PopulateRes.c	0	<Empty>	APP name unknown	
+82	STR_GLOBAL_ERROR	Global String- Error	../../MMI/Resource/PopulateRes.c	0	Error	APP name unknown	
+83	STR_GLOBAL_EXIT	Global String- Exit	../../MMI/Resource/PopulateRes.c	0	Exit	APP name unknown	
+84	STR_GLOBAL_FAILED	Global String- Failed	../../MMI/Resource/PopulateRes.c	0	Failed	APP name unknown	
+85	STR_GLOBAL_FAILED_TO_SAVE	Global String- Failed to save	../../MMI/Resource/PopulateRes.c	0	Failed to save	APP name unknown	
+86	STR_GLOBAL_FAILED_TO_SEND	Global String- Failed to send	../../MMI/Resource/PopulateRes.c	0	Failed to send	APP name unknown	
+87	STR_GLOBAL_FAST	Global String- Fast	../../MMI/Resource/PopulateRes.c	0	Fast	APP name unknown	
+88	STR_GLOBAL_FILE_ALREADY_EXISTS	Global String- File already exists	../../MMI/Resource/PopulateRes.c	0	File already exists	APP name unknown	
+89	STR_GLOBAL_FILE_NOT_FOUND	Global string- File not found	../../MMI/Resource/PopulateRes.c	0	File not found	APP name unknown	
+90	STR_GLOBAL_FILENAME	Global String- Filename	../../MMI/Resource/PopulateRes.c	0	Filename	APP name unknown	
+92	STR_GLOBAL_FORWARD	Global String- Forward- send message to other recipients	../../MMI/Resource/PopulateRes.c	0	Forward	APP name unknown	
+93	STR_GLOBAL_GO_TO	Global String- Go to- connect the URL	../../MMI/Resource/PopulateRes.c	0	Go to	APP name unknown	
+94	STR_GLOBAL_GPRS	Global String- GPRS	../../MMI/Resource/PopulateRes.c	0	GPRS	APP name unknown	
+96	STR_GLOBAL_HELP	Global String- Help- show the usage tips or notes	../../MMI/Resource/PopulateRes.c	0	Help	APP name unknown	
+97	STR_GLOBAL_HIGH	Global String- High	../../MMI/Resource/PopulateRes.c	0	High	APP name unknown	
+98	STR_GLOBAL_HTTP	Global String- HTTP	../../MMI/Resource/PopulateRes.c	0	HTTP	APP name unknown	
+99	STR_GLOBAL_INBOX	Global String- Inbox	../../MMI/Resource/PopulateRes.c	0	Inbox	APP name unknown	
+100	STR_GLOBAL_INCOMING_CALL	Global String- Incoming call	../../MMI/Resource/PopulateRes.c	0	Incoming call	APP name unknown	
+101	STR_GLOBAL_INPUT_METHOD	Global String- Input Method	../../MMI/Resource/PopulateRes.c	0	Input Method	APP name unknown	
+103	STR_GLOBAL_INSERT_SIM_CARD	Gloabl String - Please insert a SIM card	../../MMI/Resource/PopulateRes.c	0	Please insert a SIM card	APP name unknown	
+104	STR_GLOBAL_INSTALL	Global String- Install	../../MMI/Resource/PopulateRes.c	0	Install	APP name unknown	
+105	STR_GLOBAL_INSUFFICIENT_MEMORY	Global String- Insufficient memory- not enough RAM to operate	../../MMI/Resource/PopulateRes.c	0	Insufficient memory	APP name unknown	
+106	STR_GLOBAL_INVALID	Global String- Invalid	../../MMI/Resource/PopulateRes.c	0	Invalid	APP name unknown	
+107	STR_GLOBAL_INVALID_DATA_ACCOUNT	Global String- Invalid data account. Configure?	../../MMI/Resource/PopulateRes.c	0	Invalid data account. Configure?	APP name unknown	
+108	STR_GLOBAL_INVALID_EMAIL_ADDRESS	Global String- Invalid Email address	../../MMI/Resource/PopulateRes.c	0	Invalid Email address	APP name unknown	
+109	STR_GLOBAL_INVALID_EMAIL_ADDRESSES	Global String- Invalid Email addresses	../../MMI/Resource/PopulateRes.c	0	Invalid Email addresses	APP name unknown	
+110	STR_GLOBAL_INVALID_FILENAME	Global String- Invalid filename	../../MMI/Resource/PopulateRes.c	0	Invalid filename	APP name unknown	
+111	STR_GLOBAL_INVALID_FORMAT	Global String- Invalid format	../../MMI/Resource/PopulateRes.c	0	Invalid format	APP name unknown	
+112	STR_GLOBAL_INVALID_INPUT	Global String- Invalid input	../../MMI/Resource/PopulateRes.c	0	Invalid input	APP name unknown	
+113	STR_GLOBAL_INVALID_NUMBER	Global String- Invalid number	../../MMI/Resource/PopulateRes.c	0	Invalid number	APP name unknown	
+114	STR_GLOBAL_INVALID_NUMBERS	Global String- Invalid numbers	../../MMI/Resource/PopulateRes.c	0	Invalid numbers	APP name unknown	
+115	STR_GLOBAL_INVALID_RECIPIENTS	Global String- Invalid recipients	../../MMI/Resource/PopulateRes.c	0	Invalid recipients	APP name unknown	
+116	STR_GLOBAL_INVALID_URL	Global String- Invalid URL	../../MMI/Resource/PopulateRes.c	0	Invalid URL	APP name unknown	
+117	STR_GLOBAL_LIST	Global String- List	../../MMI/Resource/PopulateRes.c	0	List	APP name unknown	
+118	STR_GLOBAL_LOADING	Global String- Loading	../../MMI/Resource/PopulateRes.c	0	Loading	APP name unknown	
+119	STR_GLOBAL_LOGIN	Global String- Login	../../MMI/Resource/PopulateRes.c	0	Login	APP name unknown	
+120	STR_GLOBAL_LOGO	Global String- Logo	../../MMI/Resource/PopulateRes.c	0	Logo	APP name unknown	
+121	STR_GLOBAL_LOGOUT	Global String- Logout	../../MMI/Resource/PopulateRes.c	0	Logout	APP name unknown	
+122	STR_GLOBAL_LOW	Global String- Low	../../MMI/Resource/PopulateRes.c	0	Low	APP name unknown	
+123	STR_GLOBAL_MANUAL	Global String- Manual	../../MMI/Resource/PopulateRes.c	0	Manual	APP name unknown	
+124	STR_GLOBAL_MARK	Global String- Mark	../../MMI/Resource/PopulateRes.c	0	Mark	APP name unknown	
+125	STR_GLOBAL_MARK_ALL	Global String- Mark all	../../MMI/Resource/PopulateRes.c	0	Mark all	APP name unknown	
+126	STR_GLOBAL_MAXIMUM	Global String- Maximum	../../MMI/Resource/PopulateRes.c	0	Maximum	APP name unknown	
+127	STR_GLOBAL_MEDIUM	Global String- Medium	../../MMI/Resource/PopulateRes.c	0	Medium	APP name unknown	
+128	STR_GLOBAL_MEMORY_CARD	Global String- Memory card	../../MMI/Resource/PopulateRes.c	0	Memory card	APP name unknown	
+129	STR_GLOBAL_MEMORY_FULL	Global String- Memory full- indicate user not save again	../../MMI/Resource/PopulateRes.c	0	Memory full	APP name unknown	
+130	STR_GLOBAL_MEMORY_STATUS	Global String- Memory status	../../MMI/Resource/PopulateRes.c	0	Memory status	APP name unknown	
+131	STR_GLOBAL_MESSAGE	Global String- Message	../../MMI/Resource/PopulateRes.c	0	Message	APP name unknown	
+132	STR_GLOBAL_MISSED_CALLS	Global String- Missed calls	../../MMI/Resource/PopulateRes.c	0	Missed calls	APP name unknown	
+133	STR_GLOBAL_MMS	Global String- MMS	../../MMI/Resource/PopulateRes.c	0	MMS	APP name unknown	
+134	STR_GLOBAL_MODE	Global String- Mode	../../MMI/Resource/PopulateRes.c	0	Mode	APP name unknown	
+135	STR_GLOBAL_MOVE	Global String- Move	../../MMI/Resource/PopulateRes.c	0	Move	APP name unknown	
+136	STR_GLOBAL_MOVING	Global String- Moving	../../MMI/Resource/PopulateRes.c	0	Moving	APP name unknown	
+137	STR_GLOBAL_MULTIMEDIA_MESSAGE	Global String- Multimedia message	../../MMI/Resource/PopulateRes.c	0	Multimedia message	APP name unknown	
+138	STR_GLOBAL_MUTE	Global String- Mute	../../MMI/Resource/PopulateRes.c	0	Mute	APP name unknown	
+139	STR_GLOBAL_NETWORK_SETTINGS	Global String- Network settings	../../MMI/Resource/PopulateRes.c	0	Network settings	APP name unknown	
+140	STR_GLOBAL_NO	Global String- No	../../MMI/Resource/PopulateRes.c	0	No	APP name unknown	
+141	STR_GLOBAL_NO_MEMORY_CARD	[Notify-No Memory Card]	../../MMI/Resource/PopulateRes.c	0	No Memory Card	APP name unknown	
+142	STR_GLOBAL_NONE	Global String- None	../../MMI/Resource/PopulateRes.c	0	None	APP name unknown	
+143	STR_GLOBAL_NORMAL	Global String- Normal	../../MMI/Resource/PopulateRes.c	0	Normal	APP name unknown	
+144	STR_GLOBAL_NOT_AVAILABLE	Global String- Not Available	../../MMI/Resource/PopulateRes.c	0	Not Available	APP name unknown	
+145	STR_GLOBAL_NOT_AVAILABLE_DURING_VIDEO_CALL	Global String- Not available during video call	../../MMI/Resource/PopulateRes.c	0	Not available during video call	APP name unknown	
+146	STR_GLOBAL_NOT_ENOUGH_MEMORY	Global String- Not enough memory- memory is too small to save	../../MMI/Resource/PopulateRes.c	0	Not enough memory	APP name unknown	
+147	STR_GLOBAL_NOT_SUPPORT_AT_PC_SIMULATOR	Global String- Not supported on PC simulator	../../MMI/Resource/PopulateRes.c	0	Not supported on PC simulator	APP name unknown	
+148	STR_GLOBAL_NOT_SUPPORTED	Global String- Not supported	../../MMI/Resource/PopulateRes.c	0	Not supported	APP name unknown	
+149	STR_GLOBAL_OFF	Global String- Off	../../MMI/Resource/PopulateRes.c	0	Off	APP name unknown	
+150	STR_GLOBAL_OK	Global String- OK	../../MMI/Resource/PopulateRes.c	0	Ok	APP name unknown	
+151	STR_GLOBAL_ON	Global String- On	../../MMI/Resource/PopulateRes.c	0	On	APP name unknown	
+152	STR_GLOBAL_OPEN	Global String- Open	../../MMI/Resource/PopulateRes.c	0	Open	APP name unknown	
+153	STR_GLOBAL_OPTIONS	Global String- Options	../../MMI/Resource/PopulateRes.c	0	Option	APP name unknown	
+154	STR_GLOBAL_OUTBOX	Global String- Outbox	../../MMI/Resource/PopulateRes.c	0	Outbox	APP name unknown	
+155	STR_GLOBAL_OVERWRITE_EXISTING_FILE	Global String- Overwrite existing file?	../../MMI/Resource/PopulateRes.c	0	Overwrite existing file?	APP name unknown	
+156	STR_GLOBAL_PASSWORD	Global String- Password menu	../../MMI/Resource/PopulateRes.c	0	Password	APP name unknown	
+157	STR_GLOBAL_PAUSE	Global String- Pause	../../MMI/Resource/PopulateRes.c	0	Pause	APP name unknown	
+158	STR_GLOBAL_PHONE	Global String- Phone	../../MMI/Resource/PopulateRes.c	0	Phone	APP name unknown	
+159	STR_GLOBAL_PICTURE	Global String- Picture	../../MMI/Resource/PopulateRes.c	0	Picture	APP name unknown	
+160	STR_GLOBAL_PLAY	Global String- Play	../../MMI/Resource/PopulateRes.c	0	Play	APP name unknown	
+162	STR_GLOBAL_PLEASE_WAIT	Global String- Please Wait	../../MMI/Resource/PopulateRes.c	0	Please Wait	APP name unknown	
+161	STR_GLOBAL_PLEASE_INPUT_THE_FILENAME	Global String- Prompt user the filename is empty	../../MMI/Resource/PopulateRes.c	0	Please input the filename	APP name unknown	
+163	STR_GLOBAL_PREFERRED_STORAGE	Global String- Preferred storage	../../MMI/Resource/PopulateRes.c	0	Preferred storage	APP name unknown	
+164	STR_GLOBAL_PREV	Global String- Prev.	../../MMI/Resource/PopulateRes.c	0	Prev.	APP name unknown	
+165	STR_GLOBAL_PREVIEW	Global String- Preview	../../MMI/Resource/PopulateRes.c	0	Preview	APP name unknown	
+166	STR_GLOBAL_PRINT	Global String- Print	../../MMI/Resource/PopulateRes.c	0	Print	APP name unknown	
+167	STR_GLOBAL_PRIORITY	Global String- Priority	../../MMI/Resource/PopulateRes.c	0	Priority	APP name unknown	
+168	STR_GLOBAL_PROXY	Global String- Proxy	../../MMI/Resource/PopulateRes.c	0	Proxy	APP name unknown	
+169	STR_GLOBAL_QUIT	Global String- Quit	../../MMI/Resource/PopulateRes.c	0	Quit	APP name unknown	
+170	STR_GLOBAL_READ	Global String- Read	../../MMI/Resource/PopulateRes.c	0	Read	APP name unknown	
+171	STR_GLOBAL_RECEIVED	Global String- Received	../../MMI/Resource/PopulateRes.c	0	Received	APP name unknown	
+172	STR_GLOBAL_RECEIVED_CALLS	Global string- Received calls	../../MMI/Resource/PopulateRes.c	0	Received calls	APP name unknown	
+173	STR_GLOBAL_RECEIVING	Global String- Receiving	../../MMI/Resource/PopulateRes.c	0	Receiving	APP name unknown	
+174	STR_GLOBAL_RECIPIENTS	Global String- Recipients- recipient list name	../../MMI/Resource/PopulateRes.c	0	Recipients	APP name unknown	
+175	STR_GLOBAL_REFRESH	Global String- Refresh	../../MMI/Resource/PopulateRes.c	0	Refresh	APP name unknown	
+176	STR_GLOBAL_REMOVE	Global String- Remove- delete the reference link or remove accessory from phone	../../MMI/Resource/PopulateRes.c	0	Remove	APP name unknown	
+177	STR_GLOBAL_REMOVED	Global String- Removed- remove successfully	../../MMI/Resource/PopulateRes.c	0	Removed	APP name unknown	
+178	STR_GLOBAL_RENAME	Global String- Rename	../../MMI/Resource/PopulateRes.c	0	Rename	APP name unknown	
+179	STR_GLOBAL_REPLACE	Global String- Replace	../../MMI/Resource/PopulateRes.c	0	Replace	APP name unknown	
+180	STR_GLOBAL_REPLY	Global String- Reply	../../MMI/Resource/PopulateRes.c	0	Reply	APP name unknown	
+181	STR_GLOBAL_RESEND	Global String- Resend	../../MMI/Resource/PopulateRes.c	0	Resend	APP name unknown	
+182	STR_GLOBAL_RESET	Global String- Reset	../../MMI/Resource/PopulateRes.c	0	Reset	APP name unknown	
+183	STR_GLOBAL_RESUME	Global String- Resume	../../MMI/Resource/PopulateRes.c	0	Resume	APP name unknown	
+184	STR_GLOBAL_RINGTONE	Global String- Ringtone	../../MMI/Resource/PopulateRes.c	0	Ringtone	APP name unknown	
+185	STR_GLOBAL_SAVE	Global String- Save	../../MMI/Resource/PopulateRes.c	0	Save	APP name unknown	
+186	STR_GLOBAL_SAVE_ASK	Global String- Save?	../../MMI/Resource/PopulateRes.c	0	Save?	APP name unknown	
+187	STR_GLOBAL_SAVE_TO_PHONEBOOK	Global String- Save to Phonebook	../../MMI/Resource/PopulateRes.c	0	Save to Phonebook	APP name unknown	
+188	STR_GLOBAL_SAVED	Global String- Saved	../../MMI/Resource/PopulateRes.c	0	Saved	APP name unknown	
+189	STR_GLOBAL_SAVING	Global String- Saving	../../MMI/Resource/PopulateRes.c	0	Saving	APP name unknown	
+190	STR_GLOBAL_SEARCH	Global String- Search	../../MMI/Resource/PopulateRes.c	0	Search	APP name unknown	
+191	STR_GLOBAL_SEARCHING	Global String- Searching	../../MMI/Resource/PopulateRes.c	0	Searching	APP name unknown	
+192	STR_GLOBAL_SELECT	Global String- Select	../../MMI/Resource/PopulateRes.c	0	Select	APP name unknown	
+193	STR_GLOBAL_SEND	Global String- Send	../../MMI/Resource/PopulateRes.c	0	Send	APP name unknown	
+194	STR_GLOBAL_SEND_MESSAGE	Global String- Send message	../../MMI/Resource/PopulateRes.c	0	Send message	APP name unknown	
+195	STR_GLOBAL_SEND_MULTIMEDIA_MESSAGE	The option of send multimedia message	../../MMI/Resource/PopulateRes.c	0	Send multimedia message	APP name unknown	
+196	STR_GLOBAL_SEND_TEXT_MESSAGE	The option of send text message	../../MMI/Resource/PopulateRes.c	0	Send text message	APP name unknown	
+197	STR_GLOBAL_SENDING	Global String- Sending	../../MMI/Resource/PopulateRes.c	0	Sending	APP name unknown	
+198	STR_GLOBAL_SENT	Global String- Sent- send successfully	../../MMI/Resource/PopulateRes.c	0	Sent	APP name unknown	
+199	STR_GLOBAL_SETTINGS	Global String- Settings	../../MMI/Resource/PopulateRes.c	0	Settings	APP name unknown	
+200	STR_GLOBAL_SILENT	Global String- Silent	../../MMI/Resource/PopulateRes.c	0	Silent	APP name unknown	
+201	STR_GLOBAL_SIM	Global String- SIM	../../MMI/Resource/PopulateRes.c	0	SIM	APP name unknown	
+202	STR_GLOBAL_SIM_1	Global String- SIM1	../../MMI/Resource/PopulateRes.c	0	SIM1	APP name unknown	
+203	STR_GLOBAL_SIM_2	Global String- SIM2	../../MMI/Resource/PopulateRes.c	0	SIM2	APP name unknown	
+271	STR_GLOBAL_SIM_3	Global String- SIM3	../../MMI/Resource/PopulateRes.c	0	SIM3	APP name unknown	
+272	STR_GLOBAL_SIM_4	Global String- SIM4	../../MMI/Resource/PopulateRes.c	0	SIM4	APP name unknown	
+204	STR_GLOBAL_SLOW	Global String- Slow	../../MMI/Resource/PopulateRes.c	0	Slow	APP name unknown	
+205	STR_GLOBAL_SORT_BY	Global String- Sort by- include sub options	../../MMI/Resource/PopulateRes.c	0	Sort by	APP name unknown	
+206	STR_GLOBAL_START	Global String- Start	../../MMI/Resource/PopulateRes.c	0	Start	APP name unknown	
+207	STR_GLOBAL_STOP	Global String- Stop	../../MMI/Resource/PopulateRes.c	0	Stop	APP name unknown	
+208	STR_GLOBAL_STORAGE	Global String- Storage	../../MMI/Resource/PopulateRes.c	0	Storage	APP name unknown	
+209	STR_GLOBAL_SUBJECT	Global String- Subject	../../MMI/Resource/PopulateRes.c	0	Subject	APP name unknown	
+210	STR_GLOBAL_TEXT	Global String- Text	../../MMI/Resource/PopulateRes.c	0	Text	APP name unknown	
+211	STR_GLOBAL_TEXT_MESSAGE	Global String- Text message- SMS	../../MMI/Resource/PopulateRes.c	0	Text message	APP name unknown	
+212	STR_GLOBAL_TIME	Global String- Time	../../MMI/Resource/PopulateRes.c	0	Time	APP name unknown	
+213	STR_GLOBAL_UNAVAILABLE_IN_FLIGHT_MODE	Global String- Unavailable in flight mode	../../MMI/Resource/PopulateRes.c	0	Unavailable in flight mode	APP name unknown	
+214	STR_GLOBAL_UNAVAILABLE_SIM	Global String- Unavailable SIM	../../MMI/Resource/PopulateRes.c	0	Unavailable SIM	APP name unknown	
+215	STR_GLOBAL_UNFINISHED	Global String- Unfinished	../../MMI/Resource/PopulateRes.c	0	Unfinished	APP name unknown	
+216	STR_GLOBAL_UNMARK	Global String- Unmark	../../MMI/Resource/PopulateRes.c	0	Unmark	APP name unknown	
+217	STR_GLOBAL_UNMARK_ALL	Global String- Unmark all	../../MMI/Resource/PopulateRes.c	0	Unmark all	APP name unknown	
+218	STR_GLOBAL_UNSUPPORTED_FORMAT	Global String- Unsupported Format	../../MMI/Resource/PopulateRes.c	0	Unsupported Format	APP name unknown	
+220	STR_GLOBAL_UPDATE	Global String- Update	../../MMI/Resource/PopulateRes.c	0	Update	APP name unknown	
+219	STR_GLOBAL_URL	Global String- URL	../../MMI/Resource/PopulateRes.c	0	URL	APP name unknown	
+221	STR_GLOBAL_USE	Global String- Use	../../MMI/Resource/PopulateRes.c	0	Use	APP name unknown	
+222	STR_GLOBAL_USE_TEMPLATE	Global String- Use Template	../../MMI/Resource/PopulateRes.c	0	Use Template	APP name unknown	
+223	STR_GLOBAL_USERNAME	Global String- User name menu	../../MMI/Resource/PopulateRes.c	0	User Name	APP name unknown	
+224	STR_GLOBAL_VIA_BLUETOOTH	Global String- Via Bluetooth- sub option of sending command	../../MMI/Resource/PopulateRes.c	0	Via Bluetooth	APP name unknown	
+225	STR_GLOBAL_VIA_INFRARED	Global String- Via infrared- sub option of sending command	../../MMI/Resource/PopulateRes.c	0	Via infrared	APP name unknown	
+226	STR_GLOBAL_VIDEO	Global String- Video	../../MMI/Resource/PopulateRes.c	0	Video	APP name unknown	
+227	STR_GLOBAL_VIEW	Global String- View	../../MMI/Resource/PopulateRes.c	0	View	APP name unknown	
+228	STR_GLOBAL_VOLUME	Global String- Volume	../../MMI/Resource/PopulateRes.c	0	Volume	APP name unknown	
+229	STR_GLOBAL_WALLPAPER	Global String- Wallpaper	../../MMI/Resource/PopulateRes.c	0	Wallpaper	APP name unknown	
+230	STR_GLOBAL_WAP	Global String- WAP	../../MMI/Resource/PopulateRes.c	0	WAP	APP name unknown	
+231	STR_GLOBAL_WIFI	Global String- Wi-Fi	../../MMI/Resource/PopulateRes.c	0	Wi-Fi	APP name unknown	
+233	STR_GLOBAL_YES	Global String- Yes	../../MMI/Resource/PopulateRes.c	0	Yes	APP name unknown	
+234	STR_GLOBAL_INSERT_MEMORY_CARD	Global String- Please insert memory card	../../MMI/Resource/PopulateRes.c	0	Please insert memory card	APP name unknown	
+235	STR_GLOBAL_MC_REMOVED_USE_PHONE	Global String- Memory card removed. Use phone?	../../MMI/Resource/PopulateRes.c	0	Memory card removed. Use phone?	APP name unknown	
+236	STR_GLOBAL_MC_REMOVED	Global String- Memory card removed	../../MMI/Resource/PopulateRes.c	0	Memory card removed	APP name unknown	
+237	STR_GLOBAL_MC_INSERTED	Global String- Memory card inserted	../../MMI/Resource/PopulateRes.c	0	Memory card inserted	APP name unknown	
+238	STR_GLOBAL_OTG_REMOVED_USE_PHONE	Global String- OTG device removed. Phone will be used.	../../MMI/Resource/PopulateRes.c	0	OTG device removed. Phone will be used.	APP name unknown	
+239	STR_GLOBAL_OTG_REMOVED_USE_PHONE_QUERY	Global String- OTG device removed. Use phone?	../../MMI/Resource/PopulateRes.c	0	OTG device removed. Use phone?	APP name unknown	
+240	STR_GLOBAL_OTG_REMOVED	Global String- OTG device removed	../../MMI/Resource/PopulateRes.c	0	OTG device removed	APP name unknown	
+241	STR_GLOBAL_OTG_CONNECTED	Global String- OTG device connected	../../MMI/Resource/PopulateRes.c	0	OTG device connected	APP name unknown	
+242	STR_GLOBAL_NOT_AVAILABLE_IN_MASS_STORAGE_MODE	Global String- Not available in mass storage mode	../../MMI/Resource/PopulateRes.c	0	Not available in mass storage mode	APP name unknown	
+243	STR_GLOBAL_NO_NUMBER	Global String- No number	../../MMI/Resource/PopulateRes.c	0	No number	APP name unknown	
+244	STR_GLOBAL_SUNDAY	Global String- Sunday	../../MMI/Resource/PopulateRes.c	0	Sunday	APP name unknown	
+245	STR_GLOBAL_MONDAY	Global String- Monday	../../MMI/Resource/PopulateRes.c	0	Monday	APP name unknown	
+246	STR_GLOBAL_TUESDAY	Global String- Tuesday	../../MMI/Resource/PopulateRes.c	0	Tuesday	APP name unknown	
+247	STR_GLOBAL_WEDNESDAY	Global String- Wednesday	../../MMI/Resource/PopulateRes.c	0	Wednesday	APP name unknown	
+248	STR_GLOBAL_THURSDAY	Global String- Thursday	../../MMI/Resource/PopulateRes.c	0	Thursday	APP name unknown	
+249	STR_GLOBAL_FRIDAY	Global String- Friday	../../MMI/Resource/PopulateRes.c	0	Friday	APP name unknown	
+250	STR_GLOBAL_SATURDAY	Global String- Saturday	../../MMI/Resource/PopulateRes.c	0	Saturday	APP name unknown	
+251	STR_GLOBAL_SUNDAY_SHORT	Global String- Sun	../../MMI/Resource/PopulateRes.c	0	Sun	APP name unknown	
+252	STR_GLOBAL_MONDAY_SHORT	Global String- Mon	../../MMI/Resource/PopulateRes.c	0	Mon	APP name unknown	
+253	STR_GLOBAL_TUESDAY_SHORT	Global String- Tue	../../MMI/Resource/PopulateRes.c	0	Tue	APP name unknown	
+254	STR_GLOBAL_WEDNESDAY_SHORT	Global String- Wed	../../MMI/Resource/PopulateRes.c	0	Wed	APP name unknown	
+255	STR_GLOBAL_THURSDAY_SHORT	Global String- Thu	../../MMI/Resource/PopulateRes.c	0	Thu	APP name unknown	
+256	STR_GLOBAL_FRIDAY_SHORT	Global String- Fri	../../MMI/Resource/PopulateRes.c	0	Fri	APP name unknown	
+257	STR_GLOBAL_SATURDAY_SHORT	Global String- Sat	../../MMI/Resource/PopulateRes.c	0	Sat	APP name unknown	
+258	STR_GLOBAL_JANUARY_SHORT	Global String- Jan	../../MMI/Resource/PopulateRes.c	0	Jan	APP name unknown	
+259	STR_GLOBAL_FEBRUARY_SHORT	Global String- Feb	../../MMI/Resource/PopulateRes.c	0	Feb	APP name unknown	
+260	STR_GLOBAL_MARCH_SHORT	Global String- Mar	../../MMI/Resource/PopulateRes.c	0	Mar	APP name unknown	
+261	STR_GLOBAL_APRIL_SHORT	Global String- Apr	../../MMI/Resource/PopulateRes.c	0	Apr	APP name unknown	
+262	STR_GLOBAL_MAY_SHORT	Global String- May	../../MMI/Resource/PopulateRes.c	0	May	APP name unknown	
+263	STR_GLOBAL_JUNE_SHORT	Global String- Jun	../../MMI/Resource/PopulateRes.c	0	Jun	APP name unknown	
+264	STR_GLOBAL_JULY_SHORT	Global String- Jul	../../MMI/Resource/PopulateRes.c	0	Jul	APP name unknown	
+265	STR_GLOBAL_AUGEST_SHORT	Global String- Aug	../../MMI/Resource/PopulateRes.c	0	Aug	APP name unknown	
+266	STR_GLOBAL_SEPTEMBER_SHORT	Global String- Sep	../../MMI/Resource/PopulateRes.c	0	Sep	APP name unknown	
+267	STR_GLOBAL_OCTOBER_SHORT	Global String- Oct	../../MMI/Resource/PopulateRes.c	0	Oct	APP name unknown	
+268	STR_GLOBAL_NOVEMBER_SHORT	Global String- Nov	../../MMI/Resource/PopulateRes.c	0	Nov	APP name unknown	
+269	STR_GLOBAL_DECEMBER_SHORT	Global String- Dec	../../MMI/Resource/PopulateRes.c	0	Dec	APP name unknown	
+270	STR_GLOBAL_DIAL_VIDEO_CALL	Global String- Video call	../../MMI/Resource/PopulateRes.c	0	Video call	APP name unknown	
+273	STR_GLOBAL_DELETE_ASK	Global String- Delete ask	../../MMI/Resource/PopulateRes.c	0	Delete?	APP name unknown	
+274	STR_GLOBAL_DELETE_ALL_ASK	Global String- Delete all ask	../../MMI/Resource/PopulateRes.c	0	Delete all?	APP name unknown	
+275	STR_GLOBAL_USE_AS	Global String- Use as	../../MMI/Resource/PopulateRes.c	0	Use as	APP name unknown	
+276	STR_GLOBAL_STATUS	Global String- Status	../../MMI/Resource/PopulateRes.c	0	Status	APP name unknown	
+26365	STR_PLMN_NAME_1	PLMN Name 46000, 46002, 46007.	../Res_MMI/res_MiscFramework.c	0	China Mobile	APP name unknown	
+26366	STR_PLMN_NAME_2	PLMN Name 46001.	../Res_MMI/res_MiscFramework.c	0	China Unicom	APP name unknown	
+26367	STR_PLMN_NAME_3	PLMN Name 46601.	../Res_MMI/res_MiscFramework.c	0	FarEasTone	APP name unknown	
+26368	STR_PLMN_NAME_4	PLMN Name 46688.	../Res_MMI/res_MiscFramework.c	0	KG Telecom	APP name unknown	
+26369	STR_PLMN_NAME_5	PLMN Name 46689.	../Res_MMI/res_MiscFramework.c	0	VIBO	APP name unknown	
+26370	STR_PLMN_NAME_6	PLMN Name 46692.	../Res_MMI/res_MiscFramework.c	0	ChungHwa	APP name unknown	
+26371	STR_PLMN_NAME_7	PLMN Name 46693.	../Res_MMI/res_MiscFramework.c	0	MobiTai	APP name unknown	
+26372	STR_PLMN_NAME_8	PLMN Name 46697.	../Res_MMI/res_MiscFramework.c	0	Taiwan Mobile	APP name unknown	
+26373	STR_PLMN_NAME_9	PLMN Name 46699.	../Res_MMI/res_MiscFramework.c	0	TransAsia	APP name unknown	
+26374	STR_PLMN_NAME_10	PLMN Name 45400, 45402, 45418.	../Res_MMI/res_MiscFramework.c	0	CSL	APP name unknown	
+26375	STR_PLMN_NAME_11	PLMN Name 45403, 45404.	../Res_MMI/res_MiscFramework.c	0	3 HK	APP name unknown	
+26376	STR_PLMN_NAME_12	PLMN Name 45406.	../Res_MMI/res_MiscFramework.c	0	SmarToneVodafone	APP name unknown	
+26377	STR_PLMN_NAME_13	PLMN Name 45410.	../Res_MMI/res_MiscFramework.c	0	New World	APP name unknown	
+26378	STR_PLMN_NAME_14	PLMN Name 45412.	../Res_MMI/res_MiscFramework.c	0	CMCC	APP name unknown	
+26379	STR_PLMN_NAME_15	PLMN Name 45415.	../Res_MMI/res_MiscFramework.c	0	SmarToneVodafone	APP name unknown	
+26380	STR_PLMN_NAME_16	PLMN Name 45416, 45419.	../Res_MMI/res_MiscFramework.c	0	PCCW	APP name unknown	
+26381	STR_PLMN_NAME_17	PLMN Name 45500.	../Res_MMI/res_MiscFramework.c	0	SmarToneVodafone	APP name unknown	
+26382	STR_PLMN_NAME_18	PLMN Name 45501, 45504.	../Res_MMI/res_MiscFramework.c	0	CTM	APP name unknown	
+26383	STR_PLMN_NAME_19	PLMN Name 45503, 45505.	../Res_MMI/res_MiscFramework.c	0	3 Macau	APP name unknown	
+26384	STR_PLMN_NAME_20	PLMN Name 40401.	../Res_MMI/res_MiscFramework.c	0	Vodafone	APP name unknown	
+26385	STR_PLMN_NAME_21	PLMN Name 40402.	../Res_MMI/res_MiscFramework.c	0	Airtel	APP name unknown	
+26386	STR_PLMN_NAME_22	PLMN Name 40404.	../Res_MMI/res_MiscFramework.c	0	IDEA	APP name unknown	
+26387	STR_PLMN_NAME_23	PLMN Name 40414.	../Res_MMI/res_MiscFramework.c	0	Spice	APP name unknown	
+26388	STR_PLMN_NAME_24	PLMN Name 40417.	../Res_MMI/res_MiscFramework.c	0	Aircel	APP name unknown	
+26389	STR_PLMN_NAME_25	PLMN Name 40418.	../Res_MMI/res_MiscFramework.c	0	Reliance	APP name unknown	
+26390	STR_PLMN_NAME_26	PLMN Name 40421.	../Res_MMI/res_MiscFramework.c	0	BPL MOBILE	APP name unknown	
+26391	STR_PLMN_NAME_27	PLMN Name 40434.	../Res_MMI/res_MiscFramework.c	0	CellOne	APP name unknown	
+26392	STR_PLMN_NAME_28	PLMN Name 40468.	../Res_MMI/res_MiscFramework.c	0	Dolphin	APP name unknown	
+26393	STR_PLMN_NAME_29	PLMN Name 40470.	../Res_MMI/res_MiscFramework.c	0	Oasis	APP name unknown	
+26394	STR_PLMN_NAME_30	PLMN Name 405025.	../Res_MMI/res_MiscFramework.c	0	IND TATA	APP name unknown	
+26395	STR_PLMN_NAME_31	PLMN Name 405913.	../Res_MMI/res_MiscFramework.c	0	Etisalat	APP name unknown	
+26396	STR_PLMN_NAME_32	PLMN Name 41201.	../Res_MMI/res_MiscFramework.c	0	AWCC	APP name unknown	
+26397	STR_PLMN_NAME_33	PLMN Name 41220.	../Res_MMI/res_MiscFramework.c	0	Roshan	APP name unknown	
+26398	STR_PLMN_NAME_34	PLMN Name 41240.	../Res_MMI/res_MiscFramework.c	0	Areeba	APP name unknown	
+26399	STR_PLMN_NAME_35	PLMN Name 41250.	../Res_MMI/res_MiscFramework.c	0	Etisalat Af	APP name unknown	
+26400	STR_PLMN_NAME_36	PLMN Name 47001.	../Res_MMI/res_MiscFramework.c	0	GramenPhone	APP name unknown	
+26401	STR_PLMN_NAME_37	PLMN Name 47002.	../Res_MMI/res_MiscFramework.c	0	AKTel	APP name unknown	
+26402	STR_PLMN_NAME_38	PLMN Name 47003.	../Res_MMI/res_MiscFramework.c	0	Banglalink	APP name unknown	
+26403	STR_PLMN_NAME_39	PLMN Name 47004.	../Res_MMI/res_MiscFramework.c	0	Teletalk	APP name unknown	
+26404	STR_PLMN_NAME_40	PLMN Name 47007.	../Res_MMI/res_MiscFramework.c	0	Warid Telecom	APP name unknown	
+26405	STR_PLMN_NAME_41	PLMN Name 42601.	../Res_MMI/res_MiscFramework.c	0	BATELCO	APP name unknown	
+26406	STR_PLMN_NAME_42	PLMN Name 42602.	../Res_MMI/res_MiscFramework.c	0	zain BH	APP name unknown	
+26407	STR_PLMN_NAME_43	PLMN Name 40211.	../Res_MMI/res_MiscFramework.c	0	B-Mobile	APP name unknown	
+26408	STR_PLMN_NAME_44	PLMN Name 40277.	../Res_MMI/res_MiscFramework.c	0	TashiCell	APP name unknown	
+26409	STR_PLMN_NAME_45	PLMN Name 52811.	../Res_MMI/res_MiscFramework.c	0	DSTCom	APP name unknown	
+26410	STR_PLMN_NAME_46	PLMN Name 45601.	../Res_MMI/res_MiscFramework.c	0	MOBITEL - KHM	APP name unknown	
+26411	STR_PLMN_NAME_47	PLMN Name 45602.	../Res_MMI/res_MiscFramework.c	0	hello	APP name unknown	
+26412	STR_PLMN_NAME_48	PLMN Name 45604.	../Res_MMI/res_MiscFramework.c	0	CADCOMMS	APP name unknown	
+26413	STR_PLMN_NAME_49	PLMN Name 45605.	../Res_MMI/res_MiscFramework.c	0	STARCELL	APP name unknown	
+26414	STR_PLMN_NAME_50	PLMN Name 45618.	../Res_MMI/res_MiscFramework.c	0	CAMSHIN	APP name unknown	
+26415	STR_PLMN_NAME_51	PLMN Name 51402.	../Res_MMI/res_MiscFramework.c	0	TLS-TT	APP name unknown	
+26416	STR_PLMN_NAME_52	PLMN Name 51001.	../Res_MMI/res_MiscFramework.c	0	INDOSAT	APP name unknown	
+26417	STR_PLMN_NAME_53	PLMN Name 51008.	../Res_MMI/res_MiscFramework.c	0	axis	APP name unknown	
+26418	STR_PLMN_NAME_54	PLMN Name 51010.	../Res_MMI/res_MiscFramework.c	0	Telkomsel	APP name unknown	
+26419	STR_PLMN_NAME_55	PLMN Name 51011.	../Res_MMI/res_MiscFramework.c	0	XL	APP name unknown	
+26420	STR_PLMN_NAME_56	PLMN Name 51089.	../Res_MMI/res_MiscFramework.c	0	3	APP name unknown	
+26421	STR_PLMN_NAME_57	PLMN Name 43211.	../Res_MMI/res_MiscFramework.c	0	MCI	APP name unknown	
+26422	STR_PLMN_NAME_58	PLMN Name 43214.	../Res_MMI/res_MiscFramework.c	0	KISH	APP name unknown	
+26423	STR_PLMN_NAME_59	PLMN Name 43219.	../Res_MMI/res_MiscFramework.c	0	MTCE	APP name unknown	
+26424	STR_PLMN_NAME_60	PLMN Name 43232.	../Res_MMI/res_MiscFramework.c	0	Taliya	APP name unknown	
+26425	STR_PLMN_NAME_61	PLMN Name 43235.	../Res_MMI/res_MiscFramework.c	0	IranCell	APP name unknown	
+26426	STR_PLMN_NAME_62	PLMN Name 41805.	../Res_MMI/res_MiscFramework.c	0	ASIACELL	APP name unknown	
+26427	STR_PLMN_NAME_63	PLMN Name 41820.	../Res_MMI/res_MiscFramework.c	0	zain IQ	APP name unknown	
+26428	STR_PLMN_NAME_64	PLMN Name 42501.	../Res_MMI/res_MiscFramework.c	0	Orange	APP name unknown	
+26429	STR_PLMN_NAME_65	PLMN Name 42502.	../Res_MMI/res_MiscFramework.c	0	Cellcom	APP name unknown	
+26430	STR_PLMN_NAME_66	PLMN Name 42503.	../Res_MMI/res_MiscFramework.c	0	Pelephone	APP name unknown	
+26431	STR_PLMN_NAME_67	PLMN Name 44000.	../Res_MMI/res_MiscFramework.c	0	eMobile	APP name unknown	
+26432	STR_PLMN_NAME_68	PLMN Name 44010.	../Res_MMI/res_MiscFramework.c	0	NTT DoCoMo	APP name unknown	
+26433	STR_PLMN_NAME_69	PLMN Name 44020.	../Res_MMI/res_MiscFramework.c	0	Softbank	APP name unknown	
+26434	STR_PLMN_NAME_70	PLMN Name 41601.	../Res_MMI/res_MiscFramework.c	0	zain JO	APP name unknown	
+26435	STR_PLMN_NAME_71	PLMN Name 41603.	../Res_MMI/res_MiscFramework.c	0	Umniah	APP name unknown	
+26436	STR_PLMN_NAME_72	PLMN Name 41677.	../Res_MMI/res_MiscFramework.c	0	Orange JO	APP name unknown	
+26437	STR_PLMN_NAME_73	PLMN Name 45002, 45008.	../Res_MMI/res_MiscFramework.c	0	KTF	APP name unknown	
+26438	STR_PLMN_NAME_74	PLMN Name 45005.	../Res_MMI/res_MiscFramework.c	0	SK Telecom	APP name unknown	
+26439	STR_PLMN_NAME_75	PLMN Name 41902.	../Res_MMI/res_MiscFramework.c	0	zain KW	APP name unknown	
+26440	STR_PLMN_NAME_76	PLMN Name 41903.	../Res_MMI/res_MiscFramework.c	0	Wataniya	APP name unknown	
+26441	STR_PLMN_NAME_77	PLMN Name 43701.	../Res_MMI/res_MiscFramework.c	0	BITEL	APP name unknown	
+26442	STR_PLMN_NAME_78	PLMN Name 43705.	../Res_MMI/res_MiscFramework.c	0	MEGACOM	APP name unknown	
+26443	STR_PLMN_NAME_79	PLMN Name 45701.	../Res_MMI/res_MiscFramework.c	0	LAO GSM	APP name unknown	
+26444	STR_PLMN_NAME_80	PLMN Name 45702.	../Res_MMI/res_MiscFramework.c	0	ETL	APP name unknown	
+26445	STR_PLMN_NAME_81	PLMN Name 45703.	../Res_MMI/res_MiscFramework.c	0	LAO-ASIA	APP name unknown	
+26446	STR_PLMN_NAME_82	PLMN Name 45708.	../Res_MMI/res_MiscFramework.c	0	TANGO LAO	APP name unknown	
+26447	STR_PLMN_NAME_83	PLMN Name 41501.	../Res_MMI/res_MiscFramework.c	0	Alfa	APP name unknown	
+26448	STR_PLMN_NAME_84	PLMN Name 50212.	../Res_MMI/res_MiscFramework.c	0	MY MAXIS	APP name unknown	
+26449	STR_PLMN_NAME_85	PLMN Name 50213.	../Res_MMI/res_MiscFramework.c	0	MY CELCOM 3G	APP name unknown	
+26450	STR_PLMN_NAME_86	PLMN Name 50216.	../Res_MMI/res_MiscFramework.c	0	DiGi	APP name unknown	
+26451	STR_PLMN_NAME_87	PLMN Name 50218.	../Res_MMI/res_MiscFramework.c	0	U MOBILE	APP name unknown	
+26452	STR_PLMN_NAME_88	PLMN Name 50219.	../Res_MMI/res_MiscFramework.c	0	MY CELCOM	APP name unknown	
+26453	STR_PLMN_NAME_89	PLMN Name 47201.	../Res_MMI/res_MiscFramework.c	0	Dhiraagu	APP name unknown	
+26454	STR_PLMN_NAME_90	PLMN Name 47202.	../Res_MMI/res_MiscFramework.c	0	WMOBILE	APP name unknown	
+26455	STR_PLMN_NAME_91	PLMN Name 42888.	../Res_MMI/res_MiscFramework.c	0	Unitel	APP name unknown	
+26456	STR_PLMN_NAME_92	PLMN Name 42899.	../Res_MMI/res_MiscFramework.c	0	MobiCom	APP name unknown	
+26457	STR_PLMN_NAME_93	PLMN Name 41401.	../Res_MMI/res_MiscFramework.c	0	MPT	APP name unknown	
+26458	STR_PLMN_NAME_94	PLMN Name 42901.	../Res_MMI/res_MiscFramework.c	0	NTC	APP name unknown	
+26459	STR_PLMN_NAME_95	PLMN Name 42902.	../Res_MMI/res_MiscFramework.c	0	Mero Mobile	APP name unknown	
+26460	STR_PLMN_NAME_96	PLMN Name 42202.	../Res_MMI/res_MiscFramework.c	0	OMAN MOBILE	APP name unknown	
+26461	STR_PLMN_NAME_97	PLMN Name 42203.	../Res_MMI/res_MiscFramework.c	0	nawras	APP name unknown	
+26462	STR_PLMN_NAME_98	PLMN Name 41001.	../Res_MMI/res_MiscFramework.c	0	Mobilink	APP name unknown	
+26463	STR_PLMN_NAME_99	PLMN Name 41003.	../Res_MMI/res_MiscFramework.c	0	PK-UFONE	APP name unknown	
+26464	STR_PLMN_NAME_100	PLMN Name 41004.	../Res_MMI/res_MiscFramework.c	0	ZONG	APP name unknown	
+26465	STR_PLMN_NAME_101	PLMN Name 41006.	../Res_MMI/res_MiscFramework.c	0	Telenor PK	APP name unknown	
+26466	STR_PLMN_NAME_102	PLMN Name 41007.	../Res_MMI/res_MiscFramework.c	0	WaridTel	APP name unknown	
+26467	STR_PLMN_NAME_103	PLMN Name 51501.	../Res_MMI/res_MiscFramework.c	0	ISLACOM	APP name unknown	
+26468	STR_PLMN_NAME_104	PLMN Name 51502.	../Res_MMI/res_MiscFramework.c	0	Globe Telecom	APP name unknown	
+26469	STR_PLMN_NAME_105	PLMN Name 51503.	../Res_MMI/res_MiscFramework.c	0	SMART	APP name unknown	
+26470	STR_PLMN_NAME_106	PLMN Name 51505.	../Res_MMI/res_MiscFramework.c	0	Sun Cellular	APP name unknown	
+26471	STR_PLMN_NAME_107	PLMN Name 51518.	../Res_MMI/res_MiscFramework.c	0	Red Mobile	APP name unknown	
+26472	STR_PLMN_NAME_108	PLMN Name 42701.	../Res_MMI/res_MiscFramework.c	0	Qat-Qtel	APP name unknown	
+26473	STR_PLMN_NAME_109	PLMN Name 42001.	../Res_MMI/res_MiscFramework.c	0	STC	APP name unknown	
+26474	STR_PLMN_NAME_110	PLMN Name 42003.	../Res_MMI/res_MiscFramework.c	0	mobily	APP name unknown	
+26475	STR_PLMN_NAME_111	PLMN Name 52501, 52502.	../Res_MMI/res_MiscFramework.c	0	SingTel	APP name unknown	
+26476	STR_PLMN_NAME_112	PLMN Name 52503.	../Res_MMI/res_MiscFramework.c	0	M1	APP name unknown	
+26477	STR_PLMN_NAME_113	PLMN Name 52505.	../Res_MMI/res_MiscFramework.c	0	SSTARHUB	APP name unknown	
+26478	STR_PLMN_NAME_114	PLMN Name 41301.	../Res_MMI/res_MiscFramework.c	0	Mobitel	APP name unknown	
+26479	STR_PLMN_NAME_115	PLMN Name 41302.	../Res_MMI/res_MiscFramework.c	0	SRI DIALOG	APP name unknown	
+26480	STR_PLMN_NAME_116	PLMN Name 41303.	../Res_MMI/res_MiscFramework.c	0	SRI - Tigo	APP name unknown	
+26481	STR_PLMN_NAME_117	PLMN Name 41305.	../Res_MMI/res_MiscFramework.c	0	SIR AIRTEL	APP name unknown	
+26482	STR_PLMN_NAME_118	PLMN Name 41308.	../Res_MMI/res_MiscFramework.c	0	Hutch	APP name unknown	
+26483	STR_PLMN_NAME_119	PLMN Name 41701.	../Res_MMI/res_MiscFramework.c	0	SyriaTel	APP name unknown	
+26484	STR_PLMN_NAME_120	PLMN Name 43601.	../Res_MMI/res_MiscFramework.c	0	Somoncom	APP name unknown	
+26485	STR_PLMN_NAME_121	PLMN Name 43602, 43612.	../Res_MMI/res_MiscFramework.c	0	INDIGO-T	APP name unknown	
+26486	STR_PLMN_NAME_122	PLMN Name 43603.	../Res_MMI/res_MiscFramework.c	0	MLT	APP name unknown	
+26487	STR_PLMN_NAME_123	PLMN Name 43604.	../Res_MMI/res_MiscFramework.c	0	Babilon	APP name unknown	
+26488	STR_PLMN_NAME_124	PLMN Name 43605.	../Res_MMI/res_MiscFramework.c	0	Beeline	APP name unknown	
+26489	STR_PLMN_NAME_125	PLMN Name 52001.	../Res_MMI/res_MiscFramework.c	0	AIS GSM	APP name unknown	
+26490	STR_PLMN_NAME_126	PLMN Name 52010, 52099.	../Res_MMI/res_MiscFramework.c	0	TRUE	APP name unknown	
+26491	STR_PLMN_NAME_127	PLMN Name 52015.	../Res_MMI/res_MiscFramework.c	0	TOT	APP name unknown	
+26492	STR_PLMN_NAME_128	PLMN Name 52018.	../Res_MMI/res_MiscFramework.c	0	DTAC	APP name unknown	
+26493	STR_PLMN_NAME_129	PLMN Name 52023.	../Res_MMI/res_MiscFramework.c	0	TH GSM 1800	APP name unknown	
+26494	STR_PLMN_NAME_130	PLMN Name 28601.	../Res_MMI/res_MiscFramework.c	0	Turkcell	APP name unknown	
+26495	STR_PLMN_NAME_131	PLMN Name 28602.	../Res_MMI/res_MiscFramework.c	0	VODAFONE TR	APP name unknown	
+26496	STR_PLMN_NAME_132	PLMN Name 28603.	../Res_MMI/res_MiscFramework.c	0	AVEA	APP name unknown	
+26497	STR_PLMN_NAME_133	PLMN Name 42403.	../Res_MMI/res_MiscFramework.c	0	du	APP name unknown	
+26498	STR_PLMN_NAME_134	PLMN Name 45201.	../Res_MMI/res_MiscFramework.c	0	Mobifone	APP name unknown	
+26499	STR_PLMN_NAME_135	PLMN Name 45202.	../Res_MMI/res_MiscFramework.c	0	VINAPHONE	APP name unknown	
+26500	STR_PLMN_NAME_136	PLMN Name 45204.	../Res_MMI/res_MiscFramework.c	0	Viettel	APP name unknown	
+26501	STR_PLMN_NAME_137	PLMN Name 42101.	../Res_MMI/res_MiscFramework.c	0	SabaFon	APP name unknown	
+26502	STR_PLMN_NAME_138	PLMN Name 42102.	../Res_MMI/res_MiscFramework.c	0	MTN	APP name unknown	
+26503	STR_PLMN_NAME_139	PLMN Name 27601.	../Res_MMI/res_MiscFramework.c	0	AMC - AL	APP name unknown	
+26504	STR_PLMN_NAME_140	PLMN Name 27602.	../Res_MMI/res_MiscFramework.c	0	vodafone AL	APP name unknown	
+26505	STR_PLMN_NAME_141	PLMN Name 27603.	../Res_MMI/res_MiscFramework.c	0	EAGLE AL	APP name unknown	
+26506	STR_PLMN_NAME_142	PLMN Name 21303.	../Res_MMI/res_MiscFramework.c	0	MOBILAND	APP name unknown	
+26507	STR_PLMN_NAME_143	PLMN Name 28301.	../Res_MMI/res_MiscFramework.c	0	Beeline AM	APP name unknown	
+26508	STR_PLMN_NAME_144	PLMN Name 28305.	../Res_MMI/res_MiscFramework.c	0	ARM MTS	APP name unknown	
+26509	STR_PLMN_NAME_145	PLMN Name 23201.	../Res_MMI/res_MiscFramework.c	0	A1	APP name unknown	
+26510	STR_PLMN_NAME_146	PLMN Name 23203.	../Res_MMI/res_MiscFramework.c	0	T-Mobile A	APP name unknown	
+26511	STR_PLMN_NAME_147	PLMN Name 23205.	../Res_MMI/res_MiscFramework.c	0	Orange AT	APP name unknown	
+26512	STR_PLMN_NAME_148	PLMN Name 23207.	../Res_MMI/res_MiscFramework.c	0	telering	APP name unknown	
+26513	STR_PLMN_NAME_149	PLMN Name 23210.	../Res_MMI/res_MiscFramework.c	0	3 AT	APP name unknown	
+26514	STR_PLMN_NAME_150	PLMN Name 40001.	../Res_MMI/res_MiscFramework.c	0	AZE ACELL	APP name unknown	
+26515	STR_PLMN_NAME_151	PLMN Name 40002.	../Res_MMI/res_MiscFramework.c	0	AZE BKCELL	APP name unknown	
+26516	STR_PLMN_NAME_152	PLMN Name 40004.	../Res_MMI/res_MiscFramework.c	0	Nar	APP name unknown	
+26517	STR_PLMN_NAME_153	PLMN Name 25701.	../Res_MMI/res_MiscFramework.c	0	Velcom	APP name unknown	
+26518	STR_PLMN_NAME_154	PLMN Name 25702.	../Res_MMI/res_MiscFramework.c	0	MTS	APP name unknown	
+26519	STR_PLMN_NAME_155	PLMN Name 25704.	../Res_MMI/res_MiscFramework.c	0	Best	APP name unknown	
+26520	STR_PLMN_NAME_156	PLMN Name 20601.	../Res_MMI/res_MiscFramework.c	0	Proximus	APP name unknown	
+26521	STR_PLMN_NAME_157	PLMN Name 20610.	../Res_MMI/res_MiscFramework.c	0	Mobistar	APP name unknown	
+26522	STR_PLMN_NAME_158	PLMN Name 20620.	../Res_MMI/res_MiscFramework.c	0	BASE	APP name unknown	
+26523	STR_PLMN_NAME_159	PLMN Name 21803.	../Res_MMI/res_MiscFramework.c	0	Eronet	APP name unknown	
+26524	STR_PLMN_NAME_160	PLMN Name 21805.	../Res_MMI/res_MiscFramework.c	0	m:tel	APP name unknown	
+26525	STR_PLMN_NAME_161	PLMN Name 21890.	../Res_MMI/res_MiscFramework.c	0	BH Mobile	APP name unknown	
+26526	STR_PLMN_NAME_162	PLMN Name 28401.	../Res_MMI/res_MiscFramework.c	0	M-Tel BG	APP name unknown	
+26527	STR_PLMN_NAME_163	PLMN Name 28403.	../Res_MMI/res_MiscFramework.c	0	vivatel	APP name unknown	
+26528	STR_PLMN_NAME_164	PLMN Name 28405.	../Res_MMI/res_MiscFramework.c	0	BG GLOBUL	APP name unknown	
+26529	STR_PLMN_NAME_165	PLMN Name 21901.	../Res_MMI/res_MiscFramework.c	0	T-Mobile	APP name unknown	
+26530	STR_PLMN_NAME_166	PLMN Name 21902.	../Res_MMI/res_MiscFramework.c	0	TELE2	APP name unknown	
+26531	STR_PLMN_NAME_167	PLMN Name 21910.	../Res_MMI/res_MiscFramework.c	0	VIPnet	APP name unknown	
+26532	STR_PLMN_NAME_168	PLMN Name 28001.	../Res_MMI/res_MiscFramework.c	0	CYTAVODA	APP name unknown	
+26533	STR_PLMN_NAME_169	PLMN Name 23001.	../Res_MMI/res_MiscFramework.c	0	T-Mobile CZ	APP name unknown	
+26534	STR_PLMN_NAME_170	PLMN Name 23002.	../Res_MMI/res_MiscFramework.c	0	O2 CZ	APP name unknown	
+26535	STR_PLMN_NAME_171	PLMN Name 23003.	../Res_MMI/res_MiscFramework.c	0	Vodafone CZ	APP name unknown	
+26536	STR_PLMN_NAME_172	PLMN Name 23801.	../Res_MMI/res_MiscFramework.c	0	TDC MOBIL	APP name unknown	
+26537	STR_PLMN_NAME_173	PLMN Name 23802.	../Res_MMI/res_MiscFramework.c	0	Sonofon	APP name unknown	
+26538	STR_PLMN_NAME_174	PLMN Name 23806.	../Res_MMI/res_MiscFramework.c	0	3 DK	APP name unknown	
+26539	STR_PLMN_NAME_175	PLMN Name 23820.	../Res_MMI/res_MiscFramework.c	0	TELIA DK	APP name unknown	
+26540	STR_PLMN_NAME_176	PLMN Name 24801.	../Res_MMI/res_MiscFramework.c	0	EE EMT	APP name unknown	
+26541	STR_PLMN_NAME_177	PLMN Name 24802.	../Res_MMI/res_MiscFramework.c	0	EE elisa	APP name unknown	
+26542	STR_PLMN_NAME_178	PLMN Name 28801.	../Res_MMI/res_MiscFramework.c	0	Føroya Tele	APP name unknown	
+26543	STR_PLMN_NAME_179	PLMN Name 28802.	../Res_MMI/res_MiscFramework.c	0	KALL	APP name unknown	
+26544	STR_PLMN_NAME_180	PLMN Name 24403.	../Res_MMI/res_MiscFramework.c	0	DNA	APP name unknown	
+26545	STR_PLMN_NAME_181	PLMN Name 24405.	../Res_MMI/res_MiscFramework.c	0	FI Elisa	APP name unknown	
+26546	STR_PLMN_NAME_182	PLMN Name 24414.	../Res_MMI/res_MiscFramework.c	0	FI AMT	APP name unknown	
+26547	STR_PLMN_NAME_183	PLMN Name 24491.	../Res_MMI/res_MiscFramework.c	0	FI SONERA	APP name unknown	
+26548	STR_PLMN_NAME_184	PLMN Name 20801.	../Res_MMI/res_MiscFramework.c	0	Orange F	APP name unknown	
+26549	STR_PLMN_NAME_185	PLMN Name 20810.	../Res_MMI/res_MiscFramework.c	0	SFR FR	APP name unknown	
+26550	STR_PLMN_NAME_186	PLMN Name 20820.	../Res_MMI/res_MiscFramework.c	0	Bouygues FR	APP name unknown	
+26551	STR_PLMN_NAME_187	PLMN Name 28201.	../Res_MMI/res_MiscFramework.c	0	GCELL	APP name unknown	
+26552	STR_PLMN_NAME_188	PLMN Name 28202.	../Res_MMI/res_MiscFramework.c	0	MAGTI	APP name unknown	
+26553	STR_PLMN_NAME_189	PLMN Name 26201.	../Res_MMI/res_MiscFramework.c	0	T-Mobile D	APP name unknown	
+26554	STR_PLMN_NAME_190	PLMN Name 26202.	../Res_MMI/res_MiscFramework.c	0	Vodafone.de	APP name unknown	
+26555	STR_PLMN_NAME_191	PLMN Name 26203.	../Res_MMI/res_MiscFramework.c	0	E-Plus	APP name unknown	
+26556	STR_PLMN_NAME_192	PLMN Name 26207, 26208.	../Res_MMI/res_MiscFramework.c	0	O2-de	APP name unknown	
+26557	STR_PLMN_NAME_193	PLMN Name 26601.	../Res_MMI/res_MiscFramework.c	0	GIBTEL	APP name unknown	
+26558	STR_PLMN_NAME_194	PLMN Name 20201.	../Res_MMI/res_MiscFramework.c	0	COSMOTE GR	APP name unknown	
+26559	STR_PLMN_NAME_195	PLMN Name 20205.	../Res_MMI/res_MiscFramework.c	0	vodafone GR	APP name unknown	
+26560	STR_PLMN_NAME_196	PLMN Name 20210.	../Res_MMI/res_MiscFramework.c	0	WIND GR	APP name unknown	
+26561	STR_PLMN_NAME_197	PLMN Name 29001.	../Res_MMI/res_MiscFramework.c	0	TELE GRL	APP name unknown	
+26562	STR_PLMN_NAME_198	PLMN Name 21601.	../Res_MMI/res_MiscFramework.c	0	H pannon	APP name unknown	
+26563	STR_PLMN_NAME_199	PLMN Name 21630.	../Res_MMI/res_MiscFramework.c	0	T-Mobile H	APP name unknown	
+26564	STR_PLMN_NAME_200	PLMN Name 21670.	../Res_MMI/res_MiscFramework.c	0	vodafone HU	APP name unknown	
+26565	STR_PLMN_NAME_201	PLMN Name 27401.	../Res_MMI/res_MiscFramework.c	0	Siminn	APP name unknown	
+26566	STR_PLMN_NAME_202	PLMN Name 27404.	../Res_MMI/res_MiscFramework.c	0	Viking	APP name unknown	
+26567	STR_PLMN_NAME_203	PLMN Name 27407.	../Res_MMI/res_MiscFramework.c	0	IceCell	APP name unknown	
+26568	STR_PLMN_NAME_204	PLMN Name 27408.	../Res_MMI/res_MiscFramework.c	0	On-waves	APP name unknown	
+26569	STR_PLMN_NAME_205	PLMN Name 27411.	../Res_MMI/res_MiscFramework.c	0	NOVA	APP name unknown	
+26570	STR_PLMN_NAME_206	PLMN Name 27201.	../Res_MMI/res_MiscFramework.c	0	vodafone IRL	APP name unknown	
+26571	STR_PLMN_NAME_207	PLMN Name 27202.	../Res_MMI/res_MiscFramework.c	0	O2 IRL	APP name unknown	
+26572	STR_PLMN_NAME_208	PLMN Name 27203.	../Res_MMI/res_MiscFramework.c	0	METEOR IRL	APP name unknown	
+26573	STR_PLMN_NAME_209	PLMN Name 27205.	../Res_MMI/res_MiscFramework.c	0	3 IRL	APP name unknown	
+26574	STR_PLMN_NAME_210	PLMN Name 22201.	../Res_MMI/res_MiscFramework.c	0	TIM IT	APP name unknown	
+26575	STR_PLMN_NAME_211	PLMN Name 22210.	../Res_MMI/res_MiscFramework.c	0	vodafone IT	APP name unknown	
+26576	STR_PLMN_NAME_212	PLMN Name 22288.	../Res_MMI/res_MiscFramework.c	0	WIND IT	APP name unknown	
+26577	STR_PLMN_NAME_213	PLMN Name 22299.	../Res_MMI/res_MiscFramework.c	0	3 IT	APP name unknown	
+26578	STR_PLMN_NAME_214	PLMN Name 40101.	../Res_MMI/res_MiscFramework.c	0	Beeline KZ	APP name unknown	
+26579	STR_PLMN_NAME_215	PLMN Name 40102.	../Res_MMI/res_MiscFramework.c	0	KCELL KZ	APP name unknown	
+26580	STR_PLMN_NAME_216	PLMN Name 40177.	../Res_MMI/res_MiscFramework.c	0	NEO KZ	APP name unknown	
+26581	STR_PLMN_NAME_217	PLMN Name 24701.	../Res_MMI/res_MiscFramework.c	0	LMT LV	APP name unknown	
+26582	STR_PLMN_NAME_218	PLMN Name 24702.	../Res_MMI/res_MiscFramework.c	0	TELE2 LV	APP name unknown	
+26583	STR_PLMN_NAME_219	PLMN Name 24705.	../Res_MMI/res_MiscFramework.c	0	BITE LV	APP name unknown	
+26584	STR_PLMN_NAME_220	PLMN Name 29501.	../Res_MMI/res_MiscFramework.c	0	SwisscomFL	APP name unknown	
+26585	STR_PLMN_NAME_221	PLMN Name 29502.	../Res_MMI/res_MiscFramework.c	0	Orange FL	APP name unknown	
+26586	STR_PLMN_NAME_222	PLMN Name 29505.	../Res_MMI/res_MiscFramework.c	0	FL1	APP name unknown	
+26587	STR_PLMN_NAME_223	PLMN Name 29577.	../Res_MMI/res_MiscFramework.c	0	LI TANGO	APP name unknown	
+26588	STR_PLMN_NAME_224	PLMN Name 24601.	../Res_MMI/res_MiscFramework.c	0	OMNITEL LT	APP name unknown	
+26589	STR_PLMN_NAME_225	PLMN Name 24602.	../Res_MMI/res_MiscFramework.c	0	LT BITE GSM	APP name unknown	
+26590	STR_PLMN_NAME_226	PLMN Name 27001.	../Res_MMI/res_MiscFramework.c	0	L LUXGSM	APP name unknown	
+26591	STR_PLMN_NAME_227	PLMN Name 27077.	../Res_MMI/res_MiscFramework.c	0	L TANGO	APP name unknown	
+26592	STR_PLMN_NAME_228	PLMN Name 27099.	../Res_MMI/res_MiscFramework.c	0	L VOX	APP name unknown	
+26593	STR_PLMN_NAME_229	PLMN Name 29401.	../Res_MMI/res_MiscFramework.c	0	T-Mobile MK	APP name unknown	
+26594	STR_PLMN_NAME_230	PLMN Name 29402.	../Res_MMI/res_MiscFramework.c	0	COSMOFON MKD	APP name unknown	
+26595	STR_PLMN_NAME_231	PLMN Name 29403.	../Res_MMI/res_MiscFramework.c	0	Vip MKD	APP name unknown	
+26596	STR_PLMN_NAME_232	PLMN Name 27801.	../Res_MMI/res_MiscFramework.c	0	vodafone MT	APP name unknown	
+26597	STR_PLMN_NAME_233	PLMN Name 27821.	../Res_MMI/res_MiscFramework.c	0	go mobile	APP name unknown	
+26598	STR_PLMN_NAME_234	PLMN Name 27877.	../Res_MMI/res_MiscFramework.c	0	3GT MT	APP name unknown	
+26599	STR_PLMN_NAME_235	PLMN Name 25901.	../Res_MMI/res_MiscFramework.c	0	Orange MD	APP name unknown	
+26600	STR_PLMN_NAME_236	PLMN Name 25902.	../Res_MMI/res_MiscFramework.c	0	MOLDCELL MD	APP name unknown	
+26601	STR_PLMN_NAME_237	PLMN Name 25904.	../Res_MMI/res_MiscFramework.c	0	EVENTIS MD	APP name unknown	
+26602	STR_PLMN_NAME_238	PLMN Name 20404.	../Res_MMI/res_MiscFramework.c	0	Vodafone NL	APP name unknown	
+26603	STR_PLMN_NAME_239	PLMN Name 20408.	../Res_MMI/res_MiscFramework.c	0	KPN NL	APP name unknown	
+26604	STR_PLMN_NAME_240	PLMN Name 20412.	../Res_MMI/res_MiscFramework.c	0	Telfort NL	APP name unknown	
+26605	STR_PLMN_NAME_241	PLMN Name 20416.	../Res_MMI/res_MiscFramework.c	0	T-Mobile NL	APP name unknown	
+26606	STR_PLMN_NAME_242	PLMN Name 20420.	../Res_MMI/res_MiscFramework.c	0	Orange NL	APP name unknown	
+26607	STR_PLMN_NAME_243	PLMN Name 24201.	../Res_MMI/res_MiscFramework.c	0	N Telenor	APP name unknown	
+26608	STR_PLMN_NAME_244	PLMN Name 24202.	../Res_MMI/res_MiscFramework.c	0	N NetCom	APP name unknown	
+26609	STR_PLMN_NAME_245	PLMN Name 24203.	../Res_MMI/res_MiscFramework.c	0	MTU	APP name unknown	
+26610	STR_PLMN_NAME_246	PLMN Name 24205.	../Res_MMI/res_MiscFramework.c	0	Mobile Norway	APP name unknown	
+26611	STR_PLMN_NAME_247	PLMN Name 26001.	../Res_MMI/res_MiscFramework.c	0	Plus	APP name unknown	
+26612	STR_PLMN_NAME_248	PLMN Name 26002.	../Res_MMI/res_MiscFramework.c	0	Era	APP name unknown	
+26613	STR_PLMN_NAME_249	PLMN Name 26003.	../Res_MMI/res_MiscFramework.c	0	Orange PL	APP name unknown	
+26614	STR_PLMN_NAME_250	PLMN Name 26006.	../Res_MMI/res_MiscFramework.c	0	Play	APP name unknown	
+26615	STR_PLMN_NAME_251	PLMN Name 26017.	../Res_MMI/res_MiscFramework.c	0	Aero 2 Sp. z o.o.	APP name unknown	
+26616	STR_PLMN_NAME_252	PLMN Name 26801.	../Res_MMI/res_MiscFramework.c	0	vodafone P	APP name unknown	
+26617	STR_PLMN_NAME_253	PLMN Name 26803.	../Res_MMI/res_MiscFramework.c	0	Optimus P	APP name unknown	
+26618	STR_PLMN_NAME_254	PLMN Name 26806.	../Res_MMI/res_MiscFramework.c	0	TMN P	APP name unknown	
+26619	STR_PLMN_NAME_255	PLMN Name 22601.	../Res_MMI/res_MiscFramework.c	0	RO Vodafone	APP name unknown	
+26620	STR_PLMN_NAME_256	PLMN Name 22603.	../Res_MMI/res_MiscFramework.c	0	RO COSMOTE	APP name unknown	
+26621	STR_PLMN_NAME_257	PLMN Name 22605.	../Res_MMI/res_MiscFramework.c	0	RO DigiMobil	APP name unknown	
+26622	STR_PLMN_NAME_258	PLMN Name 22610.	../Res_MMI/res_MiscFramework.c	0	RO ORANGE	APP name unknown	
+26623	STR_PLMN_NAME_259	PLMN Name 25001.	../Res_MMI/res_MiscFramework.c	0	MTS RUS	APP name unknown	
+26624	STR_PLMN_NAME_260	PLMN Name 25002.	../Res_MMI/res_MiscFramework.c	0	MegaFon RUS	APP name unknown	
+26625	STR_PLMN_NAME_261	PLMN Name 25004.	../Res_MMI/res_MiscFramework.c	0	SCN RUS	APP name unknown	
+26626	STR_PLMN_NAME_262	PLMN Name 25005.	../Res_MMI/res_MiscFramework.c	0	STC RUS	APP name unknown	
+26627	STR_PLMN_NAME_263	PLMN Name 25007.	../Res_MMI/res_MiscFramework.c	0	BMT RUS	APP name unknown	
+26628	STR_PLMN_NAME_264	PLMN Name 25010.	../Res_MMI/res_MiscFramework.c	0	DTC RUS	APP name unknown	
+26629	STR_PLMN_NAME_265	PLMN Name 25012.	../Res_MMI/res_MiscFramework.c	0	AKOS RUS	APP name unknown	
+26630	STR_PLMN_NAME_266	PLMN Name 25013.	../Res_MMI/res_MiscFramework.c	0	Kuban RUS	APP name unknown	
+26631	STR_PLMN_NAME_267	PLMN Name 25015.	../Res_MMI/res_MiscFramework.c	0	SMARTS RUS	APP name unknown	
+26632	STR_PLMN_NAME_268	PLMN Name 25016.	../Res_MMI/res_MiscFramework.c	0	NTC RUS	APP name unknown	
+26633	STR_PLMN_NAME_269	PLMN Name 25017.	../Res_MMI/res_MiscFramework.c	0	Utel RUS	APP name unknown	
+26634	STR_PLMN_NAME_270	PLMN Name 25019.	../Res_MMI/res_MiscFramework.c	0	INDIGO RUS	APP name unknown	
+26635	STR_PLMN_NAME_271	PLMN Name 25020.	../Res_MMI/res_MiscFramework.c	0	TELE2 RUS	APP name unknown	
+26636	STR_PLMN_NAME_272	PLMN Name 25028.	../Res_MMI/res_MiscFramework.c	0	Beeline RUS	APP name unknown	
+26637	STR_PLMN_NAME_273	PLMN Name 25035.	../Res_MMI/res_MiscFramework.c	0	MOTIV RUS	APP name unknown	
+26638	STR_PLMN_NAME_274	PLMN Name 22001.	../Res_MMI/res_MiscFramework.c	0	Telenor	APP name unknown	
+26639	STR_PLMN_NAME_275	PLMN Name 22002.	../Res_MMI/res_MiscFramework.c	0	ProMonte	APP name unknown	
+26640	STR_PLMN_NAME_276	PLMN Name 22003.	../Res_MMI/res_MiscFramework.c	0	mt:s	APP name unknown	
+26641	STR_PLMN_NAME_277	PLMN Name 22004.	../Res_MMI/res_MiscFramework.c	0	T-Mobile CG	APP name unknown	
+26642	STR_PLMN_NAME_278	PLMN Name 22005.	../Res_MMI/res_MiscFramework.c	0	VIP Mobile	APP name unknown	
+26643	STR_PLMN_NAME_279	PLMN Name 23101.	../Res_MMI/res_MiscFramework.c	0	Orange SK	APP name unknown	
+26644	STR_PLMN_NAME_280	PLMN Name 23102.	../Res_MMI/res_MiscFramework.c	0	T-Mobile SK	APP name unknown	
+26645	STR_PLMN_NAME_281	PLMN Name 23106.	../Res_MMI/res_MiscFramework.c	0	O2 SK	APP name unknown	
+26646	STR_PLMN_NAME_282	PLMN Name 29340.	../Res_MMI/res_MiscFramework.c	0	Si.mobil	APP name unknown	
+26647	STR_PLMN_NAME_283	PLMN Name 29364.	../Res_MMI/res_MiscFramework.c	0	T-2	APP name unknown	
+26648	STR_PLMN_NAME_284	PLMN Name 29370.	../Res_MMI/res_MiscFramework.c	0	Tuamobil	APP name unknown	
+26649	STR_PLMN_NAME_285	PLMN Name 21401.	../Res_MMI/res_MiscFramework.c	0	vodafone ES	APP name unknown	
+26650	STR_PLMN_NAME_286	PLMN Name 21404.	../Res_MMI/res_MiscFramework.c	0	Yoigo	APP name unknown	
+26651	STR_PLMN_NAME_287	PLMN Name 21407.	../Res_MMI/res_MiscFramework.c	0	movistar	APP name unknown	
+26652	STR_PLMN_NAME_288	PLMN Name 24001.	../Res_MMI/res_MiscFramework.c	0	TELIA SE	APP name unknown	
+26653	STR_PLMN_NAME_289	PLMN Name 24002.	../Res_MMI/res_MiscFramework.c	0	3 SE	APP name unknown	
+26654	STR_PLMN_NAME_290	PLMN Name 24004.	../Res_MMI/res_MiscFramework.c	0	Sweden	APP name unknown	
+26655	STR_PLMN_NAME_291	PLMN Name 24005.	../Res_MMI/res_MiscFramework.c	0	Sweden 3G	APP name unknown	
+26656	STR_PLMN_NAME_292	PLMN Name 24007.	../Res_MMI/res_MiscFramework.c	0	COMVIQ SE	APP name unknown	
+26657	STR_PLMN_NAME_293	PLMN Name 24008.	../Res_MMI/res_MiscFramework.c	0	Telenor SE	APP name unknown	
+26658	STR_PLMN_NAME_294	PLMN Name 24010.	../Res_MMI/res_MiscFramework.c	0	SpringMobil SE	APP name unknown	
+26659	STR_PLMN_NAME_295	PLMN Name 22801.	../Res_MMI/res_MiscFramework.c	0	Swisscom	APP name unknown	
+26660	STR_PLMN_NAME_296	PLMN Name 22802.	../Res_MMI/res_MiscFramework.c	0	Sunrise	APP name unknown	
+26661	STR_PLMN_NAME_297	PLMN Name 22807.	../Res_MMI/res_MiscFramework.c	0	In&Phone	APP name unknown	
+26662	STR_PLMN_NAME_298	PLMN Name 25501.	../Res_MMI/res_MiscFramework.c	0	UMC	APP name unknown	
+26663	STR_PLMN_NAME_299	PLMN Name 25503.	../Res_MMI/res_MiscFramework.c	0	Kyivstar	APP name unknown	
+26664	STR_PLMN_NAME_300	PLMN Name 25505.	../Res_MMI/res_MiscFramework.c	0	Uni	APP name unknown	
+26665	STR_PLMN_NAME_301	PLMN Name 25506.	../Res_MMI/res_MiscFramework.c	0	life:)	APP name unknown	
+26666	STR_PLMN_NAME_302	PLMN Name 25507.	../Res_MMI/res_MiscFramework.c	0	Utel	APP name unknown	
+26667	STR_PLMN_NAME_303	PLMN Name 23401.	../Res_MMI/res_MiscFramework.c	0	UK01	APP name unknown	
+26668	STR_PLMN_NAME_304	PLMN Name 23410.	../Res_MMI/res_MiscFramework.c	0	O2 UK	APP name unknown	
+26669	STR_PLMN_NAME_305	PLMN Name 23415.	../Res_MMI/res_MiscFramework.c	0	Vodafone UK	APP name unknown	
+26670	STR_PLMN_NAME_306	PLMN Name 23420.	../Res_MMI/res_MiscFramework.c	0	3 UK	APP name unknown	
+26671	STR_PLMN_NAME_307	PLMN Name 23430, 23431, 23432.	../Res_MMI/res_MiscFramework.c	0	T-Mobile UK	APP name unknown	
+26672	STR_PLMN_NAME_308	PLMN Name 43404.	../Res_MMI/res_MiscFramework.c	0	Beeline UZ	APP name unknown	
+26673	STR_PLMN_NAME_309	PLMN Name 43405.	../Res_MMI/res_MiscFramework.c	0	UZB Ucell	APP name unknown	
+26674	STR_PLMN_NAME_310	PLMN Name 43407.	../Res_MMI/res_MiscFramework.c	0	UZB MTS	APP name unknown	
+26675	STR_PLMN_NAME_311	PLMN Name 43801.	../Res_MMI/res_MiscFramework.c	0	MTS TM	APP name unknown	
+26676	STR_PLMN_NAME_312	PLMN Name 344030.	../Res_MMI/res_MiscFramework.c	0	APUA	APP name unknown	
+26677	STR_PLMN_NAME_313	PLMN Name 344920.	../Res_MMI/res_MiscFramework.c	0	bMobile	APP name unknown	
+26678	STR_PLMN_NAME_314	PLMN Name 344930.	../Res_MMI/res_MiscFramework.c	0	Digicel	APP name unknown	
+26679	STR_PLMN_NAME_315	PLMN Name 72234.	../Res_MMI/res_MiscFramework.c	0	Personal	APP name unknown	
+26680	STR_PLMN_NAME_316	PLMN Name 722310.	../Res_MMI/res_MiscFramework.c	0	Claro	APP name unknown	
+26681	STR_PLMN_NAME_317	PLMN Name 36301.	../Res_MMI/res_MiscFramework.c	0	SETAR GSM	APP name unknown	
+26682	STR_PLMN_NAME_318	PLMN Name 70267.	../Res_MMI/res_MiscFramework.c	0	BTL	APP name unknown	
+26683	STR_PLMN_NAME_319	PLMN Name 35002.	../Res_MMI/res_MiscFramework.c	0	M3	APP name unknown	
+26684	STR_PLMN_NAME_320	PLMN Name 73601.	../Res_MMI/res_MiscFramework.c	0	VIVA	APP name unknown	
+26685	STR_PLMN_NAME_321	PLMN Name 73602.	../Res_MMI/res_MiscFramework.c	0	EMOVIL	APP name unknown	
+26686	STR_PLMN_NAME_322	PLMN Name 73603.	../Res_MMI/res_MiscFramework.c	0	Telecel	APP name unknown	
+26687	STR_PLMN_NAME_323	PLMN Name 72402, 72403, 72404.	../Res_MMI/res_MiscFramework.c	0	TIM BRASIL	APP name unknown	
+26688	STR_PLMN_NAME_324	PLMN Name 72406, 72410, 72411, 72423.	../Res_MMI/res_MiscFramework.c	0	VIVO	APP name unknown	
+26689	STR_PLMN_NAME_325	PLMN Name 72415.	../Res_MMI/res_MiscFramework.c	0	Sercomtel	APP name unknown	
+26690	STR_PLMN_NAME_326	PLMN Name 72416.	../Res_MMI/res_MiscFramework.c	0	Brasil Telecom	APP name unknown	
+26691	STR_PLMN_NAME_327	PLMN Name 72424.	../Res_MMI/res_MiscFramework.c	0	AMAZONIA	APP name unknown	
+26692	STR_PLMN_NAME_328	PLMN Name 72431.	../Res_MMI/res_MiscFramework.c	0	Oi	APP name unknown	
+26693	STR_PLMN_NAME_329	PLMN Name 72432, 72433, 72434.	../Res_MMI/res_MiscFramework.c	0	CTBC	APP name unknown	
+26694	STR_PLMN_NAME_330	PLMN Name 302350.	../Res_MMI/res_MiscFramework.c	0	FIRST	APP name unknown	
+26695	STR_PLMN_NAME_331	PLMN Name 302370.	../Res_MMI/res_MiscFramework.c	0	Fido	APP name unknown	
+26696	STR_PLMN_NAME_332	PLMN Name 302380.	../Res_MMI/res_MiscFramework.c	0	DMTS	APP name unknown	
+26697	STR_PLMN_NAME_333	PLMN Name 302720.	../Res_MMI/res_MiscFramework.c	0	ROGERS	APP name unknown	
+26698	STR_PLMN_NAME_334	PLMN Name 73001.	../Res_MMI/res_MiscFramework.c	0	ENTEL	APP name unknown	
+26699	STR_PLMN_NAME_335	PLMN Name 73003.	../Res_MMI/res_MiscFramework.c	0	CLARO CHL	APP name unknown	
+26700	STR_PLMN_NAME_336	PLMN Name 732103.	../Res_MMI/res_MiscFramework.c	0	Tigo	APP name unknown	
+26701	STR_PLMN_NAME_337	PLMN Name 732123.	../Res_MMI/res_MiscFramework.c	0	Comcel	APP name unknown	
+26702	STR_PLMN_NAME_338	PLMN Name 71201.	../Res_MMI/res_MiscFramework.c	0	I.C.E.	APP name unknown	
+26703	STR_PLMN_NAME_339	PLMN Name 36801.	../Res_MMI/res_MiscFramework.c	0	Cubacel	APP name unknown	
+26704	STR_PLMN_NAME_340	PLMN Name 37002.	../Res_MMI/res_MiscFramework.c	0	CLARO DOM	APP name unknown	
+26705	STR_PLMN_NAME_341	PLMN Name 74001.	../Res_MMI/res_MiscFramework.c	0	PORTA GSM	APP name unknown	
+26706	STR_PLMN_NAME_342	PLMN Name 70601.	../Res_MMI/res_MiscFramework.c	0	CLARO SLV	APP name unknown	
+26707	STR_PLMN_NAME_343	PLMN Name 70603.	../Res_MMI/res_MiscFramework.c	0	TELEMOVIL	APP name unknown	
+26708	STR_PLMN_NAME_344	PLMN Name 708001.	../Res_MMI/res_MiscFramework.c	0	CLARO HND	APP name unknown	
+26709	STR_PLMN_NAME_345	PLMN Name 70802.	../Res_MMI/res_MiscFramework.c	0	CELTELHND	APP name unknown	
+26710	STR_PLMN_NAME_346	PLMN Name 34001.	../Res_MMI/res_MiscFramework.c	0	F-Orange	APP name unknown	
+26711	STR_PLMN_NAME_347	PLMN Name 34002.	../Res_MMI/res_MiscFramework.c	0	ONLY	APP name unknown	
+26712	STR_PLMN_NAME_348	PLMN Name 334020.	../Res_MMI/res_MiscFramework.c	0	TELCEL	APP name unknown	
+26713	STR_PLMN_NAME_349	PLMN Name 70401.	../Res_MMI/res_MiscFramework.c	0	ClaroGTM	APP name unknown	
+26714	STR_PLMN_NAME_350	PLMN Name 36251.	../Res_MMI/res_MiscFramework.c	0	TELCELL GSM	APP name unknown	
+26715	STR_PLMN_NAME_351	PLMN Name 36269.	../Res_MMI/res_MiscFramework.c	0	CT GSM	APP name unknown	
+26716	STR_PLMN_NAME_352	PLMN Name 362951.	../Res_MMI/res_MiscFramework.c	0	ANT	APP name unknown	
+26717	STR_PLMN_NAME_353	PLMN Name 71021.	../Res_MMI/res_MiscFramework.c	0	ClaroNIC	APP name unknown	
+26718	STR_PLMN_NAME_354	PLMN Name 71401.	../Res_MMI/res_MiscFramework.c	0	Móvil	APP name unknown	
+26719	STR_PLMN_NAME_355	PLMN Name 74401.	../Res_MMI/res_MiscFramework.c	0	VOX	APP name unknown	
+26720	STR_PLMN_NAME_356	PLMN Name 71610.	../Res_MMI/res_MiscFramework.c	0	CLARO PER	APP name unknown	
+26721	STR_PLMN_NAME_357	PLMN Name 30801.	../Res_MMI/res_MiscFramework.c	0	AMERIS	APP name unknown	
+26722	STR_PLMN_NAME_358	PLMN Name 74602.	../Res_MMI/res_MiscFramework.c	0	Telesur	APP name unknown	
+26723	STR_PLMN_NAME_359	PLMN Name 310150, 310170, 310380, 310410.	../Res_MMI/res_MiscFramework.c	0	AT&T	APP name unknown	
+26724	STR_PLMN_NAME_360	PLMN Name 310030.	../Res_MMI/res_MiscFramework.c	0	Centennial	APP name unknown	
+26725	STR_PLMN_NAME_361	PLMN Name 310130.	../Res_MMI/res_MiscFramework.c	0	Cell One	APP name unknown	
+26726	STR_PLMN_NAME_362	PLMN Name 310890.	../Res_MMI/res_MiscFramework.c	0	UNICEL	APP name unknown	
+26727	STR_PLMN_NAME_363	PLMN Name 74810.	../Res_MMI/res_MiscFramework.c	0	CLARO UY	APP name unknown	
+26728	STR_PLMN_NAME_364	PLMN Name 73402.	../Res_MMI/res_MiscFramework.c	0	Digitel	APP name unknown	
+26729	STR_PLMN_NAME_365	PLMN Name 334050.	../Res_MMI/res_MiscFramework.c	0	Lusacell	APP name unknown	
+26730	STR_PLMN_NAME_366	PLMN Name 50501.	../Res_MMI/res_MiscFramework.c	0	Telstra Mobile	APP name unknown	
+26731	STR_PLMN_NAME_367	PLMN Name 50502.	../Res_MMI/res_MiscFramework.c	0	Optus	APP name unknown	
+26732	STR_PLMN_NAME_368	PLMN Name 50503.	../Res_MMI/res_MiscFramework.c	0	vodafone AU	APP name unknown	
+26733	STR_PLMN_NAME_369	PLMN Name 54801.	../Res_MMI/res_MiscFramework.c	0	Telecom	APP name unknown	
+26734	STR_PLMN_NAME_370	PLMN Name 54201.	../Res_MMI/res_MiscFramework.c	0	VODAFONE FJ	APP name unknown	
+26735	STR_PLMN_NAME_371	PLMN Name 54720.	../Res_MMI/res_MiscFramework.c	0	VINI	APP name unknown	
+26736	STR_PLMN_NAME_372	PLMN Name 54509.	../Res_MMI/res_MiscFramework.c	0	TSKL	APP name unknown	
+26737	STR_PLMN_NAME_373	PLMN Name 55001.	../Res_MMI/res_MiscFramework.c	0	FSM Telecom	APP name unknown	
+26738	STR_PLMN_NAME_374	PLMN Name 54601.	../Res_MMI/res_MiscFramework.c	0	Mobilis	APP name unknown	
+26739	STR_PLMN_NAME_375	PLMN Name 53001.	../Res_MMI/res_MiscFramework.c	0	vodafone NZ	APP name unknown	
+26740	STR_PLMN_NAME_376	PLMN Name 53005.	../Res_MMI/res_MiscFramework.c	0	Telecom NZ	APP name unknown	
+26741	STR_PLMN_NAME_377	PLMN Name 55280.	../Res_MMI/res_MiscFramework.c	0	Palau Mobile	APP name unknown	
+26742	STR_PLMN_NAME_378	PLMN Name 54927.	../Res_MMI/res_MiscFramework.c	0	SamoaTel	APP name unknown	
+26743	STR_PLMN_NAME_379	PLMN Name 54001.	../Res_MMI/res_MiscFramework.c	0	BREEZE	APP name unknown	
+26744	STR_PLMN_NAME_380	PLMN Name 53901.	../Res_MMI/res_MiscFramework.c	0	U-CALL	APP name unknown	
+26745	STR_PLMN_NAME_381	PLMN Name 54101.	../Res_MMI/res_MiscFramework.c	0	VUT SMILE	APP name unknown	
+26746	STR_PLMN_NAME_382	PLMN Name 60302.	../Res_MMI/res_MiscFramework.c	0	Djezzy	APP name unknown	
+26747	STR_PLMN_NAME_383	PLMN Name 61602.	../Res_MMI/res_MiscFramework.c	0	TLCL-BEN	APP name unknown	
+26748	STR_PLMN_NAME_384	PLMN Name 61604.	../Res_MMI/res_MiscFramework.c	0	BBCOM	APP name unknown	
+26749	STR_PLMN_NAME_385	PLMN Name 61605.	../Res_MMI/res_MiscFramework.c	0	GloBenin	APP name unknown	
+26750	STR_PLMN_NAME_386	PLMN Name 65201.	../Res_MMI/res_MiscFramework.c	0	MASCOM	APP name unknown	
+26751	STR_PLMN_NAME_387	PLMN Name 61302.	../Res_MMI/res_MiscFramework.c	0	Zain	APP name unknown	
+26752	STR_PLMN_NAME_388	PLMN Name 64201.	../Res_MMI/res_MiscFramework.c	0	Spacetel	APP name unknown	
+26753	STR_PLMN_NAME_389	PLMN Name 64202.	../Res_MMI/res_MiscFramework.c	0	Safaris	APP name unknown	
+26754	STR_PLMN_NAME_390	PLMN Name 64203.	../Res_MMI/res_MiscFramework.c	0	ONATEL	APP name unknown	
+26755	STR_PLMN_NAME_391	PLMN Name 62401.	../Res_MMI/res_MiscFramework.c	0	MTN CAM	APP name unknown	
+26756	STR_PLMN_NAME_392	PLMN Name 62402.	../Res_MMI/res_MiscFramework.c	0	Orange CAM	APP name unknown	
+26757	STR_PLMN_NAME_393	PLMN Name 62501.	../Res_MMI/res_MiscFramework.c	0	CPV MOVEL	APP name unknown	
+26758	STR_PLMN_NAME_394	PLMN Name 62304.	../Res_MMI/res_MiscFramework.c	0	NationLink	APP name unknown	
+26759	STR_PLMN_NAME_395	PLMN Name 654001.	../Res_MMI/res_MiscFramework.c	0	HURI	APP name unknown	
+26760	STR_PLMN_NAME_396	PLMN Name 62910.	../Res_MMI/res_MiscFramework.c	0	Libertis	APP name unknown	
+26761	STR_PLMN_NAME_397	PLMN Name 63001.	../Res_MMI/res_MiscFramework.c	0	Vodacom CD	APP name unknown	
+26762	STR_PLMN_NAME_398	PLMN Name 63005.	../Res_MMI/res_MiscFramework.c	0	SCELL CD	APP name unknown	
+26763	STR_PLMN_NAME_399	PLMN Name 63801.	../Res_MMI/res_MiscFramework.c	0	EVATIS	APP name unknown	
+26764	STR_PLMN_NAME_400	PLMN Name 60201.	../Res_MMI/res_MiscFramework.c	0	MobiNiL	APP name unknown	
+26765	STR_PLMN_NAME_401	PLMN Name 60202.	../Res_MMI/res_MiscFramework.c	0	Vodafone EG	APP name unknown	
+26766	STR_PLMN_NAME_402	PLMN Name 63601.	../Res_MMI/res_MiscFramework.c	0	ETHMTN	APP name unknown	
+26767	STR_PLMN_NAME_403	PLMN Name 62701.	../Res_MMI/res_MiscFramework.c	0	Orange GQ	APP name unknown	
+26768	STR_PLMN_NAME_404	PLMN Name 60701.	../Res_MMI/res_MiscFramework.c	0	Gamcel	APP name unknown	
+26769	STR_PLMN_NAME_405	PLMN Name 60702.	../Res_MMI/res_MiscFramework.c	0	Africell	APP name unknown	
+26770	STR_PLMN_NAME_406	PLMN Name 62002.	../Res_MMI/res_MiscFramework.c	0	Onetouch	APP name unknown	
+26771	STR_PLMN_NAME_407	PLMN Name 61102.	../Res_MMI/res_MiscFramework.c	0	Sotelgui Guinea	APP name unknown	
+26772	STR_PLMN_NAME_408	PLMN Name 61202.	../Res_MMI/res_MiscFramework.c	0	ACELL-CI	APP name unknown	
+26773	STR_PLMN_NAME_409	PLMN Name 61205.	../Res_MMI/res_MiscFramework.c	0	MTN CI	APP name unknown	
+26774	STR_PLMN_NAME_410	PLMN Name 63902.	../Res_MMI/res_MiscFramework.c	0	Safaricom	APP name unknown	
+26775	STR_PLMN_NAME_411	PLMN Name 65101.	../Res_MMI/res_MiscFramework.c	0	Vodacom-LS	APP name unknown	
+26776	STR_PLMN_NAME_412	PLMN Name 65102.	../Res_MMI/res_MiscFramework.c	0	Econet	APP name unknown	
+26777	STR_PLMN_NAME_413	PLMN Name 60601.	../Res_MMI/res_MiscFramework.c	0	Al Madar	APP name unknown	
+26778	STR_PLMN_NAME_414	PLMN Name 64602.	../Res_MMI/res_MiscFramework.c	0	Orange MG	APP name unknown	
+26779	STR_PLMN_NAME_415	PLMN Name 65001.	../Res_MMI/res_MiscFramework.c	0	TNL	APP name unknown	
+26780	STR_PLMN_NAME_416	PLMN Name 61001.	../Res_MMI/res_MiscFramework.c	0	MALITEL ML	APP name unknown	
+26781	STR_PLMN_NAME_417	PLMN Name 61002.	../Res_MMI/res_MiscFramework.c	0	ORANGE ML	APP name unknown	
+26782	STR_PLMN_NAME_418	PLMN Name 60901.	../Res_MMI/res_MiscFramework.c	0	MATTEL	APP name unknown	
+26783	STR_PLMN_NAME_419	PLMN Name 60910.	../Res_MMI/res_MiscFramework.c	0	Mauritel	APP name unknown	
+26784	STR_PLMN_NAME_420	PLMN Name 61701.	../Res_MMI/res_MiscFramework.c	0	Cellplus	APP name unknown	
+26785	STR_PLMN_NAME_421	PLMN Name 61710.	../Res_MMI/res_MiscFramework.c	0	EMTEL	APP name unknown	
+26786	STR_PLMN_NAME_422	PLMN Name 60400.	../Res_MMI/res_MiscFramework.c	0	MEDITEL	APP name unknown	
+26787	STR_PLMN_NAME_423	PLMN Name 60401.	../Res_MMI/res_MiscFramework.c	0	IAM	APP name unknown	
+26788	STR_PLMN_NAME_424	PLMN Name 64301.	../Res_MMI/res_MiscFramework.c	0	mCel	APP name unknown	
+26789	STR_PLMN_NAME_425	PLMN Name 64304.	../Res_MMI/res_MiscFramework.c	0	VodaCom	APP name unknown	
+26790	STR_PLMN_NAME_426	PLMN Name 64901.	../Res_MMI/res_MiscFramework.c	0	MTC	APP name unknown	
+26791	STR_PLMN_NAME_427	PLMN Name 61401.	../Res_MMI/res_MiscFramework.c	0	Sonitel	APP name unknown	
+26792	STR_PLMN_NAME_428	PLMN Name 61403.	../Res_MMI/res_MiscFramework.c	0	Moov	APP name unknown	
+26793	STR_PLMN_NAME_429	PLMN Name 62120.	../Res_MMI/res_MiscFramework.c	0	Zain NG	APP name unknown	
+26794	STR_PLMN_NAME_430	PLMN Name 62130.	../Res_MMI/res_MiscFramework.c	0	MTN NG	APP name unknown	
+26795	STR_PLMN_NAME_431	PLMN Name 62140.	../Res_MMI/res_MiscFramework.c	0	Mtel	APP name unknown	
+26796	STR_PLMN_NAME_432	PLMN Name 62150.	../Res_MMI/res_MiscFramework.c	0	glo	APP name unknown	
+26797	STR_PLMN_NAME_433	PLMN Name 64702.	../Res_MMI/res_MiscFramework.c	0	OUTREMER	APP name unknown	
+26798	STR_PLMN_NAME_434	PLMN Name 64710.	../Res_MMI/res_MiscFramework.c	0	SFR	APP name unknown	
+26799	STR_PLMN_NAME_435	PLMN Name 62601.	../Res_MMI/res_MiscFramework.c	0	CSTmovel	APP name unknown	
+26800	STR_PLMN_NAME_436	PLMN Name 60801.	../Res_MMI/res_MiscFramework.c	0	ALIZE	APP name unknown	
+26801	STR_PLMN_NAME_437	PLMN Name 60802.	../Res_MMI/res_MiscFramework.c	0	SENTEL	APP name unknown	
+26802	STR_PLMN_NAME_438	PLMN Name 63301.	../Res_MMI/res_MiscFramework.c	0	C&W SEY	APP name unknown	
+26803	STR_PLMN_NAME_439	PLMN Name 61902.	../Res_MMI/res_MiscFramework.c	0	MILLICOM	APP name unknown	
+26804	STR_PLMN_NAME_440	PLMN Name 63701.	../Res_MMI/res_MiscFramework.c	0	Telesom	APP name unknown	
+26805	STR_PLMN_NAME_441	PLMN Name 63704.	../Res_MMI/res_MiscFramework.c	0	SOMAFONE	APP name unknown	
+26806	STR_PLMN_NAME_442	PLMN Name 63730.	../Res_MMI/res_MiscFramework.c	0	Golis	APP name unknown	
+26807	STR_PLMN_NAME_443	PLMN Name 63782.	../Res_MMI/res_MiscFramework.c	0	Telsom	APP name unknown	
+26808	STR_PLMN_NAME_444	PLMN Name 65501.	../Res_MMI/res_MiscFramework.c	0	VodaCom-SA	APP name unknown	
+26809	STR_PLMN_NAME_445	PLMN Name 65507.	../Res_MMI/res_MiscFramework.c	0	Cell C	APP name unknown	
+26810	STR_PLMN_NAME_446	PLMN Name 65510.	../Res_MMI/res_MiscFramework.c	0	MTN-SA	APP name unknown	
+26811	STR_PLMN_NAME_447	PLMN Name 64003.	../Res_MMI/res_MiscFramework.c	0	ZANTEL	APP name unknown	
+26812	STR_PLMN_NAME_448	PLMN Name 61501.	../Res_MMI/res_MiscFramework.c	0	TOGO CELL	APP name unknown	
+26813	STR_PLMN_NAME_449	PLMN Name 61503.	../Res_MMI/res_MiscFramework.c	0	Telecel Togo	APP name unknown	
+26814	STR_PLMN_NAME_450	PLMN Name 60502.	../Res_MMI/res_MiscFramework.c	0	TUNTEL	APP name unknown	
+26815	STR_PLMN_NAME_451	PLMN Name 60503.	../Res_MMI/res_MiscFramework.c	0	TUNISIANA	APP name unknown	
+26816	STR_PLMN_NAME_452	PLMN Name 64111.	../Res_MMI/res_MiscFramework.c	0	UT Mobile	APP name unknown	
+26817	STR_PLMN_NAME_453	PLMN Name 64801.	../Res_MMI/res_MiscFramework.c	0	NetOne	APP name unknown	
+26818	STR_PLMN_NAME_454	PLMN Name 74404.	../Res_MMI/res_MiscFramework.c	0	TIGO	APP name unknown	
+26819	STR_PLMN_NAME_455	PLMN Name 74401.	../Res_MMI/res_MiscFramework.c	0	VO	APP name unknown	
+10536	SSC_SCR_LANGUAGE_ENGLISH_STR_ID	Set English SSC string screen.	../Res_MMI/res_SSC.c	0	Language is set to English	APP name unknown	
+10537	SSC_SCR_LANGUAGE_SCHINESE_STR_ID	Set Simplified Chinese SSC string screen.	../Res_MMI/res_SSC.c	0	Language is set to simplified Chinese	APP name unknown	
+10539	SSC_SCR_LANGUAGE_DEFAULT_STR_ID	Set Default Language SSC string screen.	../Res_MMI/res_SSC.c	0	Language is set to Default	APP name unknown	
+10698	SSC_STR_ERR_SET_DEFAULT	String assoicated with Error in Set Default.	../Res_MMI/res_SSC.c	0	Error in Set Default Language	APP name unknown	
+10699	SSC_STR_ERR_SET_ENGLISH	String assoicated with Error in Set English.	../Res_MMI/res_SSC.c	0	Error in Set English Language	APP name unknown	
+10616	SSC_STR_ERR_SET_SCHINESE	String assoicated with Error in Set Simplified Chinese.	../Res_MMI/res_SSC.c	0	Error in Set Simplified Chinese Language	APP name unknown	
+10696	SSC_SCR_IMEI_CAPTION_ID	Display IMEI SSC Screen.	../Res_MMI/res_SSC.c	0	IMEI	APP name unknown	
+9325	SERVICES_TITLE_STRING_ID	Title for Services Menu	../Res_MMI/res_SAT.c	0	Services	APP name unknown	
+40703	STR_ID_FMGR_FILE_LIMIT_IMAGE_TOO_LARGE	STR_ID_FMGR_FILE_LIMIT_IMAGE_TOO_LARGE	../Res_MMI/res_FileMgrService.c	0	Image too large\nLimit	APP name unknown	
+40704	STR_ID_FMGR_FILE_LIMIT_VIDEO_TOO_LARGE	STR_ID_FMGR_FILE_LIMIT_VIDEO_TOO_LARGE	../Res_MMI/res_FileMgrService.c	0	Video too large\nLimit	APP name unknown	
+40705	STR_ID_FMGR_FILE_LIMIT_VIDEO_TOO_LONG	STR_ID_FMGR_FILE_LIMIT_VIDEO_TOO_LONG	../Res_MMI/res_FileMgrService.c	0	Video too long\nLimit	APP name unknown	
+40706	STR_ID_FMGR_FILE_LIMIT_FILE_TOO_LARGE	STR_ID_FMGR_FILE_LIMIT_FILE_TOO_LARGE	../Res_MMI/res_FileMgrService.c	0	File too large\nLimit	APP name unknown	
+40700	STR_ID_FMGR_FWD_CONTACT	STR_ID_FMGR_FWD_CONTACT	../Res_MMI/res_FileMgrService.c	0	Contact	APP name unknown	
+3305	BRS_STR_ID_CANCEL	Cancel	../Res_MMI/res_Wap.c	0	Cancel	APP name unknown	
+4083	BRS_STR_ID_BUTTON	Button	../Res_MMI/res_Wap.c	0	Button	APP name unknown	
+3302	BRS_STR_ID_DEFAULT_IMODE_DLG_CANCEL_MSG	No	../Res_MMI/res_Wap.c	0	No	APP name unknown	
+3303	BRS_STR_ID_DEFAULT_IMODE_DLG_OK_MSG	Yes	../Res_MMI/res_Wap.c	0	Yes	APP name unknown	
+3304	BRS_STR_ID_DEFAULT_IMODE_DLG_USER_MSG	Send mobile phone info?	../Res_MMI/res_Wap.c	0	Send mobile phone info?	APP name unknown	
+3306	BRS_STR_ID_DEFAULT_INPUT_FORMAT_USER_MSG	Input format error	../Res_MMI/res_Wap.c	0	Input format error	APP name unknown	
+3307	BRS_STR_ID_OK	Ok	../Res_MMI/res_Wap.c	0	Ok	APP name unknown	
+4103	BRS_STR_ID_REDIRECT_POST	Redirected request received. Resubmit user data ?	../Res_MMI/res_Wap.c	0	Redirected request received. Resubmit user data ?	APP name unknown	
+4104	BRS_STR_ID_RESEND_POST	Do you want to resubmit user data ?	../Res_MMI/res_Wap.c	0	Do you want to resubmit user data ?	APP name unknown	
+4105	BRS_STR_ID_RESET	Reset	../Res_MMI/res_Wap.c	0	Reset	APP name unknown	
+4112	BRS_STR_ID_SUBMIT	Submit	../Res_MMI/res_Wap.c	0	Submit	APP name unknown	
+3308	BRS_STR_ID_NO_MIME_MSG	Do you wish to load this object?	../Res_MMI/res_Wap.c	0	Do you wish to load this object ?	APP name unknown	
+3685	MSF_STR_ID_DLG_ACTION_OK	Ok	../Res_MMI/res_Wap.c	0	Ok	APP name unknown	
+3686	MSF_STR_ID_DLG_ACTION_BACK	Back	../Res_MMI/res_Wap.c	0	Back	APP name unknown	
+3687	MSF_STR_ID_DLG_ACTION_CANCEL	Cancel	../Res_MMI/res_Wap.c	0	Cancel	APP name unknown	
+3689	MSF_STR_ID_DLG_TEXT_EDIT_FILENAME	Edit filename	../Res_MMI/res_Wap.c	0	Edit filename	APP name unknown	
+3694	MSF_STR_ID_DLG_EXISTS_TITLE	File exists	../Res_MMI/res_Wap.c	0	File exists	APP name unknown	
+3696	MSF_STR_ID_DLG_NO_REPLACE_TEXT2	  exists and cannot be replaced.	../Res_MMI/res_Wap.c	0	  exists and cannot be replaced.	APP name unknown	
+3698	MSF_STR_ID_DLG_SAVE_ERROR	Save Error	../Res_MMI/res_Wap.c	0	Save Error	APP name unknown	
+3706	MSF_STR_ID_SAS_ACTION_CANCEL	Cancel	../Res_MMI/res_Wap.c	0	Cancel	APP name unknown	
+3708	MSF_STR_ID_SAS_ERROR_FULL	indicate user storage is too small to save large content	../Res_MMI/res_Wap.c	0	Not enough memory	APP name unknown	
+3709	MSF_STR_ID_SAS_ERROR_SIZE	File size exceeds maximum value	../Res_MMI/res_Wap.c	0	File size exceeds maximum value	APP name unknown	
+3710	MSF_STR_ID_DAS_MEMORY_NOT_ENOUGH	Memory not enough	../Res_MMI/res_Wap.c	0	Memory not enough	APP name unknown	
+3711	MSF_STR_ID_MIME_ACTION_SAVE	Save As	../Res_MMI/res_Wap.c	0	Save As	APP name unknown	
+3729	MSF_STR_ID_DLG_MIME_ACTION_NONE	Unsupported content.	../Res_MMI/res_Wap.c	0	Unsupported content.	APP name unknown	
+3735	MSF_STR_ID_DAY_MONDAY_SHORT	Mon	../Res_MMI/res_Wap.c	0	Mon	APP name unknown	
+3736	MSF_STR_ID_DAY_TUESDAY_SHORT	Tue	../Res_MMI/res_Wap.c	0	Tue	APP name unknown	
+3737	MSF_STR_ID_DAY_WEDNESDAY_SHORT	Wed	../Res_MMI/res_Wap.c	0	Wed	APP name unknown	
+3738	MSF_STR_ID_DAY_THURSDAY_SHORT	Thu	../Res_MMI/res_Wap.c	0	Thu	APP name unknown	
+3739	MSF_STR_ID_DAY_FRIDAY_SHORT	Fri	../Res_MMI/res_Wap.c	0	Fri	APP name unknown	
+3740	MSF_STR_ID_DAY_SATURDAY_SHORT	Sat	../Res_MMI/res_Wap.c	0	Sat	APP name unknown	
+3741	MSF_STR_ID_DAY_SUNDAY_SHORT	Sun	../Res_MMI/res_Wap.c	0	Sun	APP name unknown	
+3742	MSF_STR_ID_MONTH_JANUARY_SHORT	Jan	../Res_MMI/res_Wap.c	0	Jan	APP name unknown	
+3743	MSF_STR_ID_MONTH_FEBRUARY_SHORT	Feb	../Res_MMI/res_Wap.c	0	Feb	APP name unknown	
+3744	MSF_STR_ID_MONTH_MARCH_SHORT	Mar	../Res_MMI/res_Wap.c	0	Mar	APP name unknown	
+3745	MSF_STR_ID_MONTH_APRIL_SHORT	Apr	../Res_MMI/res_Wap.c	0	Apr	APP name unknown	
+3746	MSF_STR_ID_MONTH_MAY_SHORT	May	../Res_MMI/res_Wap.c	0	May	APP name unknown	
+3747	MSF_STR_ID_MONTH_JUNE_SHORT	Jun	../Res_MMI/res_Wap.c	0	Jun	APP name unknown	
+3748	MSF_STR_ID_MONTH_JULY_SHORT	Jul	../Res_MMI/res_Wap.c	0	Jul	APP name unknown	
+3749	MSF_STR_ID_MONTH_AUGUST_SHORT	Aug	../Res_MMI/res_Wap.c	0	Aug	APP name unknown	
+3750	MSF_STR_ID_MONTH_SEPTEMBER_SHORT	Sep	../Res_MMI/res_Wap.c	0	Sep	APP name unknown	
+3751	MSF_STR_ID_MONTH_OCTOBER_SHORT	Oct	../Res_MMI/res_Wap.c	0	Oct	APP name unknown	
+3752	MSF_STR_ID_MONTH_NOVEMBER_SHORT	Nov	../Res_MMI/res_Wap.c	0	Nov	APP name unknown	
+3753	MSF_STR_ID_MONTH_DECEMBER_SHORT	Dec	../Res_MMI/res_Wap.c	0	Dec	APP name unknown	
+3754	MSF_STR_ID_INTERNAL_ERROR	Internal error	../Res_MMI/res_Wap.c	0	Internal error	APP name unknown	
+3759	SEC_STR_ID_CERT1	Store unknown certificate?	../Res_MMI/res_Wap.c	0	Store unknown certificate?	APP name unknown	
+3760	SEC_STR_ID_CERT10	No trusted certificate, continue?	../Res_MMI/res_Wap.c	0	No trusted certificate, continue?	APP name unknown	
+3761	SEC_STR_ID_CERT11	No user certificate, continue?	../Res_MMI/res_Wap.c	0	No user certificate, continue?	APP name unknown	
+3762	SEC_STR_ID_CERT14	Could not show the certificate	../Res_MMI/res_Wap.c	0	Could not show the certificate	APP name unknown	
+3763	SEC_STR_ID_CERT15	Could not delete the certificate	../Res_MMI/res_Wap.c	0	Could not delete the certificate	APP name unknown	
+3764	SEC_STR_ID_CERT16	No trusted certificate. continue?	../Res_MMI/res_Wap.c	0	No trusted certificate. continue?	APP name unknown	
+3765	SEC_STR_ID_CERT17	Cannot store the certificate	../Res_MMI/res_Wap.c	0	Cannot store the certificate	APP name unknown	
+3766	SEC_STR_ID_CERT18	Unknown server, continue?	../Res_MMI/res_Wap.c	0	Unknown server, continue?	APP name unknown	
+3767	SEC_STR_ID_CERT19	Error in certificate. continue?	../Res_MMI/res_Wap.c	0	Error in certificate. continue?	APP name unknown	
+3768	SEC_STR_ID_CERT2	Overwrite existing same certificate?	../Res_MMI/res_Wap.c	0	Overwrite existing same certificate?	APP name unknown	
+3769	SEC_STR_ID_CERT3	Overwrite existing old certificate?	../Res_MMI/res_Wap.c	0	Overwrite existing old certificate?	APP name unknown	
+3770	SEC_STR_ID_CERT4	Overwrite existing new certificate?	../Res_MMI/res_Wap.c	0	Overwrite existing new certificate?	APP name unknown	
+3771	SEC_STR_ID_CERT5	The certificate has been stored.	../Res_MMI/res_Wap.c	0	The certificate has been stored.	APP name unknown	
+3772	SEC_STR_ID_CERT7	Remove existing old trust certificate?	../Res_MMI/res_Wap.c	0	Remove existing old trust certificate?	APP name unknown	
+3773	SEC_STR_ID_CHOOSE_CERT_TITLE	Choose a certificate:	../Res_MMI/res_Wap.c	0	Choose a certificate:	APP name unknown	
+3774	SEC_STR_ID_EMPTY	 	../Res_MMI/res_Wap.c	0	 	APP name unknown	
+3775	SEC_STR_ID_OK	Ok	../Res_MMI/res_Wap.c	0	Ok	APP name unknown	
+3777	SEC_STR_ID_NO	No	../Res_MMI/res_Wap.c	0	No	APP name unknown	
+3776	SEC_STR_ID_YES	Yes	../Res_MMI/res_Wap.c	0	Yes	APP name unknown	
+3778	SEC_STR_ID_STORE_CERT	Store this certificate?	../Res_MMI/res_Wap.c	0	Store this certificate?	APP name unknown	
+3820	WIDGET_STR_ID_CANCEL	Cancel	../Res_MMI/res_Wap.c	0	Cancel	APP name unknown	
+3821	WIDGET_STR_ID_CANT_INPUT_EMPTY_VALUE	Cannot input empty value!	../Res_MMI/res_Wap.c	0	Cannot input empty value!	APP name unknown	
+3822	WIDGET_STR_ID_CANT_SWITCH_INPUT_METHOD	Can't set input method	../Res_MMI/res_Wap.c	0	Can't set input method	APP name unknown	
+3823	WIDGET_STR_ID_DONE	Done	../Res_MMI/res_Wap.c	0	Done	APP name unknown	
+3824	WIDGET_STR_ID_INPUT_FORMAT_ERROR	Invalid number!	../Res_MMI/res_Wap.c	0	Invalid number!	APP name unknown	
+3826	WIDGET_STR_ID_INPUT_TITLE	Input	../Res_MMI/res_Wap.c	0	Input	APP name unknown	
+3828	WIDGET_STR_ID_OPTION	Option	../Res_MMI/res_Wap.c	0	Option	APP name unknown	
+3829	WIDGET_STR_ID_SAVEAS_NAME_INVALID_CHARS	Please input alphabets and numbers only	../Res_MMI/res_Wap.c	0	Please input alphabets and numbers only	APP name unknown	
+3830	WIDGET_STR_ID_PLEASE_WAIT	Please Wait	../Res_MMI/res_Wap.c	0	Please Wait	APP name unknown	
+3831	WIDGET_STR_ID_IMAGE_RESIZE	Resizing image	../Res_MMI/res_Wap.c	0	Resizing image	APP name unknown	
+3833	WIDGET_STR_ID_RECEIVED_PUSH	Push message prompt	../Res_MMI/res_Wap.c	0	New Service Message	APP name unknown	
+3836	WIDGET_STR_ID_RECEIVED_PROVISION	Provision message prompt	../Res_MMI/res_Wap.c	0	New Settings	APP name unknown	
+3839	WIDGET_STR_ID_RECEIVED_MMS_MSG	MMS message prompt	../Res_MMI/res_Wap.c	0	New MMS Message	APP name unknown	
+4427	WIDGET_STR_ID_RECEIVED_JAVA_MMS_MSG	JAVA MMS message prompt	../Res_MMI/res_Wap.c	0	New JAVA MMS Message	APP name unknown	
+3844	WIDGET_STR_ID_RECEIVED_MMS_NOTIFICATION	MMS notification prompt	../Res_MMI/res_Wap.c	0	New MMS Message	APP name unknown	
+3847	WIDGET_STR_ID_RECEIVED_MMS_READ_REPORT	MMS report prompt	../Res_MMI/res_Wap.c	0	New MMS Report	APP name unknown	
+3850	WIDGET_STR_ID_RECEIVED_MMS_DELIVERY_REPORT	MMS report prompt	../Res_MMI/res_Wap.c	0	New MMS Report	APP name unknown	
+3858	WIDGET_STR_ID_INPUT_EMAIL_ERROR	Invalid Email address	../Res_MMI/res_Wap.c	0	Invalid Email address	APP name unknown	
+4457	WAP_STR_ID_LAST_DUMMY	dummy	../Res_MMI/res_Wap.c	0	dummy	APP name unknown	

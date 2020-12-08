@@ -1,0 +1,53 @@
+Image: ..\..\..\plutommi\CUSTOMER\IMAGES\PLUTO\MAINLCD\UIELEMENT\SLIDECONTROLS\V_SC07.PNG
+  Format: PNG (Portable Network Graphics)
+  Geometry: 100x260
+  Class: DirectClass
+  Type: TrueColorMatte
+  Endianess: Undefined
+  Colorspace: RGB
+  Channel depth:
+    Red: 8-bits
+    Green: 8-bits
+    Blue: 8-bits
+    Opacity: 8-bits
+  Channel statistics:
+    Red:
+      Min: 0 (0)
+      Max: 255 (1)
+      Mean: 232.735 (0.912686)
+      Standard deviation: 52.5916 (0.206241)
+    Green:
+      Min: 0 (0)
+      Max: 255 (1)
+      Mean: 236.154 (0.926093)
+      Standard deviation: 49.3723 (0.193617)
+    Blue:
+      Min: 0 (0)
+      Max: 255 (1)
+      Mean: 232.379 (0.911291)
+      Standard deviation: 52.8651 (0.207314)
+    Opacity:
+      Min: 0 (0)
+      Max: 255 (1)
+      Mean: 227.074 (0.890486)
+      Standard deviation: 73.6373 (0.288774)
+  Opacity: (255,255,255,255)	  #FFFFFFFF
+  Colors: 1643
+  Rendering-intent: Undefined
+  Gamma: 0.45
+  Resolution: 72x72
+  Units: Undefined
+  Filesize: 7kb
+  Interlace: None
+  Background Color: white
+  Border Color: #DFDFDF00
+  Matte Color: grey74
+  Page geometry: 100x260+0+0
+  Dispose: Undefined
+  Iterations: 0
+  Compression: Zip
+  Orientation: Undefined
+  Signature: d78d48900e8fd45a839c0d5f7252af61d220ed6b9981b03758c5aec17c4d180b
+  Software: Adobe ImageReady
+  Tainted: False
+  Version: ImageMagick 6.2.3 06/08/05 Q16 http://www.imagemagick.org

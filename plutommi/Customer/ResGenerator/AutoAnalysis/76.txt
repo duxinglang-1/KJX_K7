@@ -1,0 +1,55 @@
+Image: ..\..\..\plutommi\CUSTOMER\IMAGES\PLUTO\MAINLCD\UIELEMENT\SOFTKEY\DIAL_PAD_CSK.BMP
+  Format: BMP (Microsoft Windows bitmap image)
+  Geometry: 20x20
+  Class: PseudoClass
+  Type: Palette
+  Endianess: Undefined
+  Colorspace: RGB
+  Channel depth:
+    Red: 8-bits
+    Green: 8-bits
+    Blue: 8-bits
+  Channel statistics:
+    Red:
+      Min: 0 (0)
+      Max: 255 (1)
+      Mean: 2.7225 (0.0106765)
+      Standard deviation: 24.431 (0.095808)
+    Green:
+      Min: 0 (0)
+      Max: 233 (0.913725)
+      Mean: 2.085 (0.00817647)
+      Standard deviation: 20.9136 (0.082014)
+    Blue:
+      Min: 0 (0)
+      Max: 233 (0.913725)
+      Mean: 2.085 (0.00817647)
+      Standard deviation: 20.9136 (0.082014)
+  Colors: 6
+         0: (255,  0,  0)	red
+         1: (233,233,233)	#E9E9E9
+         2: (226,226,226)	#E2E2E2
+         3: (210,210,210)	#D2D2D2
+         4: (165,165,165)	#A5A5A5
+         5: (  0,  0,  0)	black
+  Histogram:
+       256: (255,  0,  0)	red
+       108: (165,165,165)	#A5A5A5
+         9: (210,210,210)	#D2D2D2
+        18: (226,226,226)	#E2E2E2
+         9: (233,233,233)	#E9E9E9
+  Rendering-intent: Undefined
+  Resolution: 28.34x28.34
+  Units: Undefined
+  Filesize: 320
+  Interlace: None
+  Background Color: white
+  Border Color: #DFDFDF
+  Matte Color: grey74
+  Dispose: Undefined
+  Iterations: 0
+  Compression: Undefined
+  Orientation: Undefined
+  Signature: 31703205a49204c8d847416117a6f680f6324a2d0a0233cb6012674433385f8a
+  Tainted: False
+  Version: ImageMagick 6.2.3 06/08/05 Q16 http://www.imagemagick.org

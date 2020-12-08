@@ -1,0 +1,54 @@
+Image: ..\..\..\plutommi\CUSTOMER\IMAGES\PLUTO\MAINLCD\UCE\SVIDEO.BMP
+  Format: BMP (Microsoft Windows bitmap image)
+  Geometry: 10x10
+  Class: PseudoClass
+  Type: Palette
+  Endianess: Undefined
+  Colorspace: RGB
+  Channel depth:
+    Red: 8-bits
+    Green: 8-bits
+    Blue: 8-bits
+  Channel statistics:
+    Red:
+      Min: 0 (0)
+      Max: 255 (1)
+      Mean: 8.56 (0.0335686)
+      Standard deviation: 43.9923 (0.172519)
+    Green:
+      Min: 0 (0)
+      Max: 255 (1)
+      Mean: 11.7 (0.0458824)
+      Standard deviation: 51.7787 (0.203054)
+    Blue:
+      Min: 0 (0)
+      Max: 255 (1)
+      Mean: 9.63 (0.0377647)
+      Standard deviation: 47.4347 (0.186019)
+  Colors: 6
+         0: (247,251,255)	#F7FBFF
+         1: ( 99,154,198)	#639AC6
+         2: (  0,255,  0)	lime
+         3: (255,255,255)	white
+         4: (255,255,255)	white
+         5: (  0,  0,  0)	black
+  Histogram:
+        20: (  0,255,  0)	lime
+        38: ( 99,154,198)	#639AC6
+        38: (247,251,255)	#F7FBFF
+         4: (255,255,255)	white
+  Rendering-intent: Undefined
+  Resolution: 28.34x28.34
+  Units: Undefined
+  Filesize: 200
+  Interlace: None
+  Background Color: white
+  Border Color: #DFDFDF
+  Matte Color: grey74
+  Dispose: Undefined
+  Iterations: 0
+  Compression: Undefined
+  Orientation: Undefined
+  Signature: 43875767f151d25891df5a44d954a853544a00e710c9a679c58ed8ce2e5d836a
+  Tainted: False
+  Version: ImageMagick 6.2.3 06/08/05 Q16 http://www.imagemagick.org

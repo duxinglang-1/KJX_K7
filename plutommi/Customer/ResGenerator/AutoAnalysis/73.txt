@@ -1,0 +1,66 @@
+Image: ..\..\..\plutommi\CUSTOMER\IMAGES\PLUTO\MAINLCD\WARNINGPAGE\POPUPPAGE\PP_FAIL.GIF
+  Format: GIF (CompuServe graphics interchange format)
+  Geometry: 100x90
+  Class: PseudoClass
+  Type: PaletteMatte
+  Endianess: Undefined
+  Colorspace: RGB
+  Channel depth:
+    Red: 8-bits
+    Green: 8-bits
+    Blue: 8-bits
+    Opacity: 1-bits
+  Channel statistics:
+    Red:
+      Min: 159 (0.623529)
+      Max: 255 (1)
+      Mean: 235.43 (0.923255)
+      Standard deviation: 25.1403 (0.0985895)
+    Green:
+      Min: 159 (0.623529)
+      Max: 255 (1)
+      Mean: 235.339 (0.922898)
+      Standard deviation: 25.1036 (0.0984457)
+    Blue:
+      Min: 29 (0.113725)
+      Max: 255 (1)
+      Mean: 152.053 (0.596288)
+      Standard deviation: 108.742 (0.42644)
+    Opacity:
+      Min: 0 (0)
+      Max: 255 (1)
+      Mean: 109.933 (0.431111)
+      Standard deviation: 126.284 (0.495232)
+  Colors: 8
+         0: (204,204,127,  0)	#CCCC7F00
+         1: (205,205, 32,  0)	#CDCD2000
+         2: (179,179, 67,  0)	#B3B34300
+         3: (232,232,204,  0)	#E8E8CC00
+         4: (159,159, 43,  0)	#9F9F2B00
+         5: (246,245,246,  0)	#F6F5F600
+         6: (228,228, 29,  0)	#E4E41D00
+         7: (255,255,255,  0)	white
+  Histogram:
+       528: (159,159, 43,  0)	#9F9F2B00
+       146: (179,179, 67,  0)	#B3B34300
+       248: (205,205, 32,  0)	#CDCD2000
+      3084: (228,228, 29,  0)	#E4E41D00
+       162: (204,204,127,  0)	#CCCC7F00
+       132: (232,232,204,  0)	#E8E8CC00
+       820: (246,245,246,  0)	#F6F5F600
+      3880: (255,255,255,255)	#FFFFFFFF
+  Rendering-intent: Undefined
+  Resolution: 72x72
+  Units: Undefined
+  Filesize: 906
+  Interlace: None
+  Background Color: white
+  Border Color: #DFDFDF00
+  Matte Color: grey74
+  Page geometry: 100x90+0+0
+  Dispose: Undefined
+  Compression: LZW
+  Orientation: Undefined
+  Signature: be2095c1566929aac589ed6dc11f25f5046ae2df2408abeab5383b754ad36294
+  Tainted: False
+  Version: ImageMagick 6.2.3 06/08/05 Q16 http://www.imagemagick.org

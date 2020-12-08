@@ -1,0 +1,65 @@
+Image: ..\..\..\plutommi\CUSTOMER\IMAGES\PLUTO\MAINLCD\FILEMANAGER\FM_LI3GP.GIF
+  Format: GIF (CompuServe graphics interchange format)
+  Geometry: 39x42
+  Class: PseudoClass
+  Type: PaletteMatte
+  Endianess: Undefined
+  Colorspace: RGB
+  Channel depth:
+    Red: 8-bits
+    Green: 8-bits
+    Blue: 8-bits
+    Opacity: 1-bits
+  Channel statistics:
+    Red:
+      Min: 66 (0.258824)
+      Max: 255 (1)
+      Mean: 214.201 (0.840003)
+      Standard deviation: 65.3789 (0.256388)
+    Green:
+      Min: 52 (0.203922)
+      Max: 255 (1)
+      Mean: 211.411 (0.829062)
+      Standard deviation: 74.4427 (0.291932)
+    Blue:
+      Min: 30 (0.117647)
+      Max: 255 (1)
+      Mean: 209.537 (0.821712)
+      Standard deviation: 79.8302 (0.31306)
+    Opacity:
+      Min: 0 (0)
+      Max: 255 (1)
+      Mean: 37.0513 (0.145299)
+      Standard deviation: 89.8626 (0.352402)
+  Colors: 8
+         0: ( 88, 52, 30,  0)	#58341E00
+         1: (106, 66, 42,  0)	#6A422A00
+         2: ( 66, 53, 46,  0)	#42352E00
+         3: (215,231,231,  0)	#D7E7E700
+         4: (162,168,178,  0)	#A2A8B200
+         5: (255,255,255,  0)	white
+         6: (255,255,255,  0)	white
+         7: (  0,  0,  0,  0)	black
+  Histogram:
+        80: ( 88, 52, 30,  0)	#58341E00
+       118: ( 66, 53, 46,  0)	#42352E00
+        81: (106, 66, 42,  0)	#6A422A00
+       146: (162,168,178,  0)	#A2A8B200
+       138: (215,231,231,  0)	#D7E7E700
+       837: (255,255,255,  0)	white
+       238: (255,255,255,255)	#FFFFFFFF
+  Rendering-intent: Undefined
+  Resolution: 72x72
+  Units: Undefined
+  Filesize: 311
+  Interlace: None
+  Background Color: white
+  Border Color: #DFDFDF00
+  Matte Color: grey74
+  Page geometry: 39x42+0+0
+  Dispose: Undefined
+  Compression: LZW
+  Orientation: Undefined
+  Signature: f26570ccfe634c3dc6bb5ac6f661dc11645e3473164f166bd75f8af352fda78d
+  Tainted: False
+  Version: ImageMagick 6.2.3 06/08/05 Q16 http://www.imagemagick.org

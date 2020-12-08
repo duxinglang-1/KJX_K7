@@ -1,0 +1,19 @@
+[APP NAME] = Music List Slim Service
+[SCOPE] = PLUTO, COSMOS
+[MODULE] = MOD_MMI_MEDIA_APP
+
+#start trace
+
+
+/* MusicPlaylist.c */
+TRC_MSG(TRC_MUSIC_PLST_OPEN_LIB,"[PLST SRV] music_playlist_open(), fs_ret:%d, ret:%d, line:%d")
+TRC_MSG(TRC_MUSIC_PLST_CLOSE_LIB,"[PLST SRV] srv_playlist_close_library(), handler:%d")
+TRC_MSG(TRC_MUSIC_PLST_CREATE_INST,"[PLST SRV] srv_playlist_create_instance(), handler:%d")
+TRC_MSG(TRC_MUSIC_PLST_DESTORY_INST,"[PLST SRV] srv_playlist_destroy_instance(), handler:%d")
+TRC_MSG(TRC_MUSIC_PLST_CHECK_CARD,"[PLST SRV] music_playlist_check_card_state(), fs_ret:%d, line:%d")
+TRC_MSG(TRC_MUSIC_PLST_CREATE_PLST,"[PLST SRV] music_playlist_create(), fs_ret:%d, ret:%d")
+TRC_MSG(TRC_MUSIC_PLST_MSDC_PLUG_IN,"[PLST SRV] music_playlist_msdc_plug_in_hdlr()")
+TRC_MSG(TRC_MUSIC_PLST_MSDC_PLUG_OUT,"[PLST SRV] music_playlist_msdc_plug_out_hdlr()")
+TRC_MSG(TRC_MUSIC_PLST_DELETE_MARKED,"[PLST SRV] music_playlist_delete_marked(), mark_cunt:%d, del_cunt:%d, line:%d")
+TRC_MSG(TRC_MUSIC_PLST_DELETE_ITEM,"[PLST SRV] music_playlist_delete_remove(), index:%d, ret:%d, total:%d")
+TRC_MSG(TRC_MUSIC_PLST_GET_TITLE,"[PLST SRV] music_playlist_get_filename(), index:%d, start_index:%d, start_index:%d")

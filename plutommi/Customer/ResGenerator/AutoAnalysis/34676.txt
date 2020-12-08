@@ -1,0 +1,63 @@
+Image: ..\..\..\plutommi\CUSTOMER\IMAGES\PLUTO\MAINLCD\CAMERA\CAMERA\OSD\ZOOM_OUT.BMP
+  Format: BMP (Microsoft Windows bitmap image)
+  Geometry: 19x11
+  Class: DirectClass
+  Type: Palette
+  Endianess: Undefined
+  Colorspace: RGB
+  Channel depth:
+    Red: 8-bits
+    Green: 8-bits
+    Blue: 8-bits
+  Channel statistics:
+    Red:
+      Min: 52 (0.203922)
+      Max: 228 (0.894118)
+      Mean: 201.464 (0.790055)
+      Standard deviation: 59.1749 (0.232058)
+    Green:
+      Min: 52 (0.203922)
+      Max: 228 (0.894118)
+      Mean: 201.727 (0.791087)
+      Standard deviation: 59.2722 (0.23244)
+    Blue:
+      Min: 52 (0.203922)
+      Max: 228 (0.894118)
+      Mean: 201.201 (0.789023)
+      Standard deviation: 59.0985 (0.231759)
+  Colors: 19
+  Histogram:
+        22: ( 52, 52, 52)	#343434
+         1: ( 56, 56, 56)	grey22
+         2: ( 64, 64, 64)	grey25
+         1: ( 71, 71, 71)	grey28
+         1: ( 93, 93, 93)	#5D5D5D
+         1: (112,112,112)	grey44
+         1: (114,114,114)	#727272
+         2: (124,124,124)	#7C7C7C
+         1: (135,135,135)	grey53
+         1: (156,156,156)	grey61
+         1: (162,162,162)	#A2A2A2
+         1: (176,176,176)	grey69
+         1: (195,195,195)	#C3C3C3
+         1: (209,209,209)	grey82
+         1: (214,214,214)	grey84
+         2: (220,220,220)	gainsboro
+        11: (221,226,216)	#DDE2D8
+         1: (226,226,226)	#E2E2E2
+       157: (228,228,228)	#E4E4E4
+  Rendering-intent: Undefined
+  Resolution: 28.34x28.34
+  Units: Undefined
+  Filesize: 716
+  Interlace: None
+  Background Color: white
+  Border Color: #DFDFDF
+  Matte Color: grey74
+  Dispose: Undefined
+  Iterations: 0
+  Compression: Undefined
+  Orientation: Undefined
+  Signature: 963e38d24e9d9d554caabac59425570ee80f4babf2d93cc3bec6df831a04b791
+  Tainted: False
+  Version: ImageMagick 6.2.3 06/08/05 Q16 http://www.imagemagick.org

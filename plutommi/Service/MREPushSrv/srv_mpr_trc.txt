@@ -1,0 +1,27 @@
+[APP NAME] = MRE Push Receiver
+[SCOPE] = PLUTO, COSMOS
+[MODULE] = MOD_MMI_INET_APP
+
+#start trace
+TRC_MSG(TRC_MPR_17f466700c3648e6bd69af154332a390,               "[MPR] Wrapper, Release image buffer later")
+TRC_MSG(TRC_MPR_6919a80c24134158953b65801822b68d,               "[MPR] Wrapper, icon > %d")
+TRC_MSG(TRC_MPR_9be12bcb56714334958d3f868d7f3ddb,               "[MPR] Wrapper, generate image filename > %d")
+TRC_MSG(TRC_MPR_72e19ed14b8e4b969826c1655df64cd3,               "[MPR] Wrapper, sound > %d")
+TRC_MSG(TRC_MPR_6b70f5569b7d4b9a99a4a4ae55006aeb,               "[MPR] Wrapper, get audio from rom > (%d, %d, %d)")
+TRC_MSG(TRC_MPR_e75448f38d4a40eb8d8d09b827d179fe,               "[MPR] Wrapper, generate audio filename > %d")
+TRC_MSG(TRC_MPR_7bfa4960bb414d15b2260b982c99e65a,               "[MPR] Wrapper, action > (%d, %d)")
+TRC_MSG(TRC_MPR_d845643fcb394da9ad3e05a93f57b9b4,               "[MPR] Wrapper, get action > (%d, %d, %d)")
+TRC_MSG(TRC_MPR_490e6f4006e149aaa97837a8a81521a8,               "[MPR] Wrapper, result > (%d)")
+TRC_MSG(TRC_MPR_e6833433a5084374a945b609d204fe5b,               "[MPR] Show status icon only > (%d, %d, %d, %d)")
+TRC_MSG(TRC_MPR_6f4971c0253d47af960940bcb1739627,               "[MPR] MRE App is in rom > (%d)")
+TRC_MSG(TRC_MPR_e046f5bdb098496cb93d7c00157246fd,               "[MPR] Get NMGR callback, cancel > (%d)")
+TRC_MSG(TRC_MPR_5c2fb2d2bc9b4504ad2d406fd965d184,               "[MPR] Get NMGR callback, launch > (%d)")
+TRC_MSG(TRC_MPR_bd885f84c1824414a3ec9fe9999e1cd8,               "[MPR] Convert string, result > (%d)")
+TRC_MSG(TRC_MPR_bc4f5d389386455db682192f7af8e43a,               "[MPR] Convert string, args num > (%d)")
+TRC_MSG(TRC_MPR_10626f7398f84e4f96fbc7a120ca6e33,               "[MPR] Convert string, case resource > (%d, %d, %d, %d)")
+TRC_MSG(TRC_MPR_b364871056d9495abe2ed54028ed01e5,               "[MPR] Convert string, case string > (%d, %d)")
+TRC_MSG(TRC_MPR_3054ed7eb4634c53b6222df11b6aba5d,               "[MPR] Convert string, buffer len > (%d)")
+TRC_MSG(TRC_MPR_b8f2a27be97942db9d46a45e6d39f664,               "[MPR] Show status icon, try to get icon id > (%d, %d, %d)")
+TRC_MSG(TRC_MPR_c8bf9a0e34714e4eae9014e84cbbba7f,               "[MPR] Show status icon, get icon buffer > (%d, %d, %d, %d)")
+TRC_MSG(TRC_MPR_97b42ac8440d4b7aa30af23d0f2b2eb6,               "[MPR] Get vm tag > (%d, %d)")
+TRC_MSG(TRC_MPR_166be444de2146db8c5fa64f942a5de4,               "[MPR] Get NMGR oom mre launch callback, launch > (%d, %d)")

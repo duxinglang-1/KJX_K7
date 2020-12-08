@@ -1,0 +1,3 @@
+# THIS REPORT SHOWS THE USAGE OF THE GENERATED RESOURCES
+# FILEDS: [Id]	[Source-Level Id]	[Res File]	[Description]	[Binary-Type]	[Content path]	[App Name]	
+1	BINARY_GLOBAL_NO_BINARY	../../MMI/Resource/PopulateRes.c	Empty binary data file	1	..\\..\\Customer\\Binary\\NoBinary.bin	APP name unknown	

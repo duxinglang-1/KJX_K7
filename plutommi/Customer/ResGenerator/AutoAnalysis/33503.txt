@@ -1,0 +1,35 @@
+Image: ..\..\..\plutommi\CUSTOMER\IMAGES\PLUTO\MAINLCD\SIGNAL\5.BMP
+  Format: BMP (Microsoft Windows bitmap image)
+  Geometry: 13x10
+  Class: DirectClass
+  Type: Grayscale
+  Endianess: Undefined
+  Colorspace: Gray
+  Channel depth:
+    Gray: 8-bits
+  Channel statistics:
+    Gray:
+      Min: 0 (0)
+      Max: 255 (1)
+      Mean: 58.7308 (0.230317)
+      Standard deviation: 107.235 (0.42053)
+  Colors: 3
+  Histogram:
+       100: (  0,  0,  0)	black
+         1: (240,240,240)	grey94
+        29: (255,255,255)	white
+  Rendering-intent: Undefined
+  Resolution: 28.34x28.34
+  Units: Undefined
+  Filesize: 576
+  Interlace: None
+  Background Color: white
+  Border Color: #DFDFDF
+  Matte Color: grey74
+  Dispose: Undefined
+  Iterations: 0
+  Compression: Undefined
+  Orientation: Undefined
+  Signature: b9890a0df496bd8eb40e6ef16467d077e948dff9f22e28c4126f0565b1fdb282
+  Tainted: False
+  Version: ImageMagick 6.2.3 06/08/05 Q16 http://www.imagemagick.org

@@ -1,0 +1,74 @@
+Image: ..\..\..\plutommi\CUSTOMER\IMAGES\PLUTO\MAINLCD\CALL\OUTGOING\CL_LINE1.BMP
+  Format: BMP (Microsoft Windows bitmap image)
+  Geometry: 20x20
+  Class: PseudoClass
+  Type: Palette
+  Endianess: Undefined
+  Colorspace: RGB
+  Channel depth:
+    Red: 8-bits
+    Green: 8-bits
+    Blue: 8-bits
+  Channel statistics:
+    Red:
+      Min: 0 (0)
+      Max: 255 (1)
+      Mean: 7.0525 (0.0276569)
+      Standard deviation: 36.644 (0.143702)
+    Green:
+      Min: 0 (0)
+      Max: 255 (1)
+      Mean: 7.6475 (0.0299902)
+      Standard deviation: 39.6397 (0.15545)
+    Blue:
+      Min: 0 (0)
+      Max: 255 (1)
+      Mean: 8.5725 (0.0336176)
+      Standard deviation: 43.8728 (0.17205)
+  Colors: 16
+         0: (  0,  0,  0)	black
+         1: ( 69, 75,119)	#454B77
+         2: (151,164,211)	#97A4D3
+         3: (159,172,216)	#9FACD8
+         4: (166,182,221)	#A6B6DD
+         5: (174,191,226)	#AEBFE2
+         6: (179,197,229)	#B3C5E5
+         7: (186,205,234)	#BACDEA
+         8: (196,216,239)	#C4D8EF
+         9: (204,226,245)	#CCE2F5
+        10: (209,232,248)	#D1E8F8
+        11: (211,235,250)	#D3EBFA
+        12: (212,235,249)	#D4EBF9
+        13: (214,238,251)	#D6EEFB
+        14: (236,236,236)	#ECECEC
+        15: (255,255,255)	white
+  Histogram:
+       120: ( 69, 75,119)	#454B77
+        36: (151,164,211)	#97A4D3
+        18: (159,172,216)	#9FACD8
+        12: (166,182,221)	#A6B6DD
+         6: (174,191,226)	#AEBFE2
+        10: (179,197,229)	#B3C5E5
+        20: (186,205,234)	#BACDEA
+        20: (196,216,239)	#C4D8EF
+        20: (204,226,245)	#CCE2F5
+        10: (209,232,248)	#D1E8F8
+         6: (211,235,250)	#D3EBFA
+         4: (212,235,249)	#D4EBF9
+        54: (214,238,251)	#D6EEFB
+        64: (236,236,236)	#ECECEC
+  Rendering-intent: Undefined
+  Resolution: 28.34x28.34
+  Units: Undefined
+  Filesize: 360
+  Interlace: None
+  Background Color: white
+  Border Color: #DFDFDF
+  Matte Color: grey74
+  Dispose: Undefined
+  Iterations: 0
+  Compression: Undefined
+  Orientation: Undefined
+  Signature: a06ae35a8be792c30958a7099eb38d6cfc9346320369811ae727b00ca3ab3353
+  Tainted: False
+  Version: ImageMagick 6.2.3 06/08/05 Q16 http://www.imagemagick.org

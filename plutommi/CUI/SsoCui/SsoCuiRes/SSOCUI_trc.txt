@@ -1,0 +1,20 @@
+[APP NAME] = SSO
+[SCOPE] = PLUTO
+[MODULE] = MOD_MMI_INET_APP
+#don't change any value above
+
+#start trace
+#----------------- SSOCUI.c ------------------------------------------------------
+TRC_MSG(CUI_SSO_LOGIN_CREATE, "---[SSOCUI.c]CUI SSO Login create parent_id = %d, g_ssocui+gid = %d, g_ssocui_inline_gid = %d, provider = %d, account = %d---")
+TRC_MSG(CUI_SSO_LOGIN_CREATE_BOOTUP, "---[SSOCUI.c]CUI SSO Login create boot up parent_id = %d, g_ssocui+gid = %d, g_ssocui_inline_gid = %d, provider = %d, account = %d---")
+TRC_MSG(CUI_SSO_LOGIN_RUN, "---[SSOCUI.c] CUI SSO Login run parent_id = %d, g_ssocui+gid = %d, g_ssocui_inline_gid = %d, provider = %d, account = %d---")
+TRC_MSG(CUI_SSO_LOGIN_CLOSE, "---[SSOCUI.c] CUI SSO Login close parent_id = %d, g_ssocui+gid = %d, g_ssocui_inline_gid = %d, provider = %d, account = %d---")
+TRC_MSG(CUI_SSO_LOGIN_ACCOUNT_CB, "---[SSOCUI.c] CUI SSO Login account cb result = %d, provider = %d, account_id = %d, user_data = %d---")
+TRC_MSG(CUI_SSO_LOGIN_SIGNUP, "---[SSOCUI.c] CUI SSO Login signup---")
+TRC_MSG(CUI_SSO_LOGIN_POPUP_CB, "---[SSOCUI.c] CUI SSO Login popup cb evt_id = %d, result = %d---")
+TRC_MSG(CUI_SSO_LOGIN_LOGIN, "---[SSOCUI.c] CUI SSO Login login g_ssocui_provider = %d, account_id = %s, account_pw = %s---")
+TRC_MSG(CUI_SSO_LOGIN_OPTION, "---[SSOCUI.c] CUI SSO Login option account_id = %s, account_pw = %s---")      
+TRC_MSG(CUI_SSO_LOGIN_TAP_CB, "---[SSOCUI.c] CUI SSO Login tap cb tap_type = %d, index = %d---")     
+TRC_MSG(CUI_SSO_LOGIN_POST_EVT, "---[SSOCUI.c] CUI SSO login post evt evt_id = %d, result = %d, size = %d, user_data = %d, sender_id = %d, provider = %d, account_id = %d---")
+TRC_MSG(CUI_SSO_DELETE_ACCOUNT_CB_SUCESS, "---[SSOCUI.c] cui_sso_delete_account_cb delete account success, later add account---")
+TRC_MSG(CUI_SSO_DELETE_ACCOUNT_CB_FAILED, "---[SSOCUI.c] cui_sso_delete_account_cb delete account failed---")

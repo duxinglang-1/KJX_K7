@@ -1,0 +1,1 @@
+80	IMG_GLOBAL_OPTION_CSK	option CSK icon	../../MMI/Resource/PopulateRes.c	0	0	0	..\\..\\Customer\\Images\\PLUTO\\MainLCD\\UIElement\\Softkey\\Common_CSK.bmp	0	1	APP name unknown	1	

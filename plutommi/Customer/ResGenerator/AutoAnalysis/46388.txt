@@ -1,0 +1,70 @@
+Image: ..\..\..\plutommi\CUSTOMER\IMAGES\PLUTO\MAINLCD\SMS\PIC\EMS09.BMP
+  Format: BMP (Microsoft Windows bitmap image)
+  Geometry: 32x32
+  Class: PseudoClass
+  Type: Palette
+  Endianess: Undefined
+  Colorspace: RGB
+  Channel depth:
+    Red: 8-bits
+    Green: 8-bits
+    Blue: 8-bits
+  Channel statistics:
+    Red:
+      Min: 0 (0)
+      Max: 255 (1)
+      Mean: 1.91211 (0.00749847)
+      Standard deviation: 20.8758 (0.0818661)
+    Green:
+      Min: 0 (0)
+      Max: 255 (1)
+      Mean: 1.7832 (0.00699295)
+      Standard deviation: 18.4228 (0.0722463)
+    Blue:
+      Min: 0 (0)
+      Max: 255 (1)
+      Mean: 2.13477 (0.00837163)
+      Standard deviation: 21.5882 (0.0846594)
+  Colors: 16
+         0: (  0,255, 64)	#00FF40
+         1: (248,120,225)	#F878E1
+         2: (249,136,229)	#F988E5
+         3: (252,189,241)	#FCBDF1
+         4: ( 76, 13, 71)	#4C0D47
+         5: ( 14,107,246)	#0E6BF6
+         6: ( 10, 61,138)	#0A3D8A
+         7: (131,179,251)	#83B3FB
+         8: (244,187, 14)	#F4BB0E
+         9: (255,255,255)	white
+        10: (  0,  0,  0)	black
+        11: (255,255,255)	white
+        12: (224, 69,197)	#E045C5
+        13: (  0,  0,  0)	black
+        14: (  0,  0,  0)	black
+        15: (  0,  0,  0)	black
+  Histogram:
+         6: (  0,  0,  0)	black
+        78: ( 76, 13, 71)	#4C0D47
+        28: ( 10, 61,138)	#0A3D8A
+        81: ( 14,107,246)	#0E6BF6
+       555: (  0,255, 64)	#00FF40
+        48: (224, 69,197)	#E045C5
+        98: (248,120,225)	#F878E1
+        38: (244,187, 14)	#F4BB0E
+        52: (131,179,251)	#83B3FB
+        22: (249,136,229)	#F988E5
+        18: (252,189,241)	#FCBDF1
+  Rendering-intent: Undefined
+  Units: Undefined
+  Filesize: 630
+  Interlace: None
+  Background Color: white
+  Border Color: #DFDFDF
+  Matte Color: grey74
+  Dispose: Undefined
+  Iterations: 0
+  Compression: Undefined
+  Orientation: Undefined
+  Signature: a21c08bc0b37ea75264050719229d699e826b017a1ed4ddeb588188b312f2d41
+  Tainted: False
+  Version: ImageMagick 6.2.3 06/08/05 Q16 http://www.imagemagick.org

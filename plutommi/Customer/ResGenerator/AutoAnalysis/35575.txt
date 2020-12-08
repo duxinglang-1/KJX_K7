@@ -1,0 +1,58 @@
+Image: ..\..\..\plutommi\CUSTOMER\IMAGES\PLUTO\MAINLCD\SNDREC\SR_NEXT_DISABLE.BMP
+  Format: BMP (Microsoft Windows bitmap image)
+  Geometry: 47x47
+  Class: PseudoClass
+  Type: Palette
+  Endianess: Undefined
+  Colorspace: RGB
+  Channel depth:
+    Red: 8-bits
+    Green: 8-bits
+    Blue: 8-bits
+  Channel statistics:
+    Red:
+      Min: 0 (0)
+      Max: 255 (1)
+      Mean: 0.290629 (0.00113972)
+      Standard deviation: 6.64652 (0.0260648)
+    Green:
+      Min: 0 (0)
+      Max: 139 (0.545098)
+      Mean: 0.176098 (0.00069058)
+      Standard deviation: 3.86031 (0.0151385)
+    Blue:
+      Min: 0 (0)
+      Max: 139 (0.545098)
+      Mean: 0.173834 (0.000681703)
+      Standard deviation: 3.82655 (0.0150061)
+  Colors: 8
+         0: (255,  0,  0)	red
+         1: ( 69, 70, 68)	#454644
+         2: ( 50, 50, 49)	#323231
+         3: (139,139,139)	#8B8B8B
+         4: ( 56, 56, 56)	grey22
+         5: ( 23, 23, 23)	grey9
+         6: ( 50, 51, 49)	#323331
+         7: (  0,  0,  0)	black
+  Histogram:
+      1044: ( 23, 23, 23)	grey9
+         7: ( 50, 51, 49)	#323331
+         1: ( 50, 50, 49)	#323231
+       682: ( 56, 56, 56)	grey22
+       280: ( 69, 70, 68)	#454644
+       195: (139,139,139)	#8B8B8B
+  Rendering-intent: Undefined
+  Resolution: 28.34x28.34
+  Units: Undefined
+  Filesize: 1kb
+  Interlace: None
+  Background Color: white
+  Border Color: #DFDFDF
+  Matte Color: grey74
+  Dispose: Undefined
+  Iterations: 0
+  Compression: Undefined
+  Orientation: Undefined
+  Signature: 5f4006573b301caff69bf48895d16a6ce32ec62ff4e104f7fecf79d4a722dae5
+  Tainted: False
+  Version: ImageMagick 6.2.3 06/08/05 Q16 http://www.imagemagick.org

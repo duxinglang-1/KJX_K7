@@ -1,0 +1,75 @@
+Image: ..\..\..\plutommi\CUSTOMER\IMAGES\PLUTO\MAINLCD\IDLESCREEN\STATUSICONS\SI_USB.BMP
+  Format: BMP (Microsoft Windows bitmap image)
+  Geometry: 18x17
+  Class: PseudoClass
+  Type: Palette
+  Endianess: Undefined
+  Colorspace: RGB
+  Channel depth:
+    Red: 8-bits
+    Green: 8-bits
+    Blue: 8-bits
+  Channel statistics:
+    Red:
+      Min: 0 (0)
+      Max: 255 (1)
+      Mean: 8.08824 (0.0317186)
+      Standard deviation: 36.6759 (0.143827)
+    Green:
+      Min: 0 (0)
+      Max: 255 (1)
+      Mean: 7.20915 (0.0282712)
+      Standard deviation: 33.6382 (0.131915)
+    Blue:
+      Min: 0 (0)
+      Max: 255 (1)
+      Mean: 8.04248 (0.0315392)
+      Standard deviation: 36.4873 (0.143087)
+  Colors: 16
+         0: (255,  0,255)	fuchsia
+         1: (255,255,255)	white
+         2: (161,159,159)	#A19F9F
+         3: (180,178,178)	#B4B2B2
+         4: (177,175,175)	#B1AFAF
+         5: (173,172,172)	#ADACAC
+         6: (165,164,164)	#A5A4A4
+         7: (156,155,155)	#9C9B9B
+         8: (151,150,150)	#979696
+         9: (147,146,146)	#939292
+        10: (142,141,141)	#8E8D8D
+        11: (134,133,133)	#868585
+        12: (130,129,129)	#828181
+        13: (126,126,126)	gray
+        14: (123,123,123)	#7B7B7B
+        15: (  0,  0,  0)	black
+  Histogram:
+         3: (123,123,123)	#7B7B7B
+         4: (126,126,126)	gray
+       211: (255,  0,255)	fuchsia
+         1: (130,129,129)	#828181
+         2: (134,133,133)	#868585
+         2: (142,141,141)	#8E8D8D
+         3: (147,146,146)	#939292
+         3: (151,150,150)	#979696
+         4: (156,155,155)	#9C9B9B
+         4: (161,159,159)	#A19F9F
+         3: (165,164,164)	#A5A4A4
+         3: (173,172,172)	#ADACAC
+         3: (177,175,175)	#B1AFAF
+         4: (180,178,178)	#B4B2B2
+        56: (255,255,255)	white
+  Rendering-intent: Undefined
+  Resolution: 28.34x28.34
+  Units: Undefined
+  Filesize: 460
+  Interlace: None
+  Background Color: white
+  Border Color: #DFDFDF
+  Matte Color: grey74
+  Dispose: Undefined
+  Iterations: 0
+  Compression: Undefined
+  Orientation: Undefined
+  Signature: d070620c735e3bb3817f70025aa3c847bfb41542102834fbb45eed8d047597d5
+  Tainted: False
+  Version: ImageMagick 6.2.3 06/08/05 Q16 http://www.imagemagick.org

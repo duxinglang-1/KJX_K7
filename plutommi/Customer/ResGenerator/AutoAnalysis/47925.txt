@@ -1,0 +1,69 @@
+Image: ..\..\..\plutommi\CUSTOMER\IMAGES\PLUTO\MAINLCD\SUBMENU\UNIMESSAGE\UNI_WRITE.BMP
+  Format: BMP (Microsoft Windows bitmap image)
+  Geometry: 26x26
+  Class: PseudoClass
+  Type: Palette
+  Endianess: Undefined
+  Colorspace: RGB
+  Channel depth:
+    Red: 8-bits
+    Green: 8-bits
+    Blue: 8-bits
+  Channel statistics:
+    Red:
+      Min: 0 (0)
+      Max: 255 (1)
+      Mean: 3.54586 (0.0139053)
+      Standard deviation: 26.798 (0.10509)
+    Green:
+      Min: 0 (0)
+      Max: 255 (1)
+      Mean: 2.66716 (0.0104595)
+      Standard deviation: 21.4547 (0.0841361)
+    Blue:
+      Min: 0 (0)
+      Max: 255 (1)
+      Mean: 2.06805 (0.00810999)
+      Standard deviation: 18.583 (0.0728744)
+  Colors: 13
+         0: (255,  0,  0)	red
+         1: (211,215,223)	#D3D7DF
+         2: (162,168,178)	#A2A8B2
+         3: (232,182, 88)	#E8B658
+         4: (222,148, 53)	#DE9435
+         5: (188,132, 62)	#BC843E
+         6: (200,172,136)	#C8AC88
+         7: (163,104, 44)	#A3682C
+         8: (192,108, 35)	#C06C23
+         9: (181,183,188)	#B5B7BC
+        10: (255,255,255)	white
+        11: (136,136,136)	#888888
+        12: (  0,  0,  0)	black
+  Histogram:
+        12: (163,104, 44)	#A3682C
+       247: (255,  0,  0)	red
+        10: (192,108, 35)	#C06C23
+        14: (188,132, 62)	#BC843E
+        11: (222,148, 53)	#DE9435
+         9: (232,182, 88)	#E8B658
+        25: (136,136,136)	#888888
+        70: (162,168,178)	#A2A8B2
+        20: (181,183,188)	#B5B7BC
+         8: (200,172,136)	#C8AC88
+        10: (211,215,223)	#D3D7DF
+       240: (255,255,255)	white
+  Rendering-intent: Undefined
+  Resolution: 28.34x28.34
+  Units: Undefined
+  Filesize: 524
+  Interlace: None
+  Background Color: white
+  Border Color: #DFDFDF
+  Matte Color: grey74
+  Dispose: Undefined
+  Iterations: 0
+  Compression: Undefined
+  Orientation: Undefined
+  Signature: a1a1d22940bb12d79675d5e12d95ca400776a316589a0fdb57d049b77346d8fc
+  Tainted: False
+  Version: ImageMagick 6.2.3 06/08/05 Q16 http://www.imagemagick.org

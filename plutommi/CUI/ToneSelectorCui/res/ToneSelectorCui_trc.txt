@@ -1,0 +1,21 @@
+[APP NAME] = CUI_TONE_SELECTOR
+[SCOPE] = PLUTO
+[MODULE] = MOD_MMI_MEDIA_APP
+
+/* --------------------------------------------------------------- */
+/* ---------------------- ToneSelector CUI ----------------------- */
+/* --------------------------------------------------------------- */
+TRC_MSG(MMI_CUI_TONESEL_EXCEPTION,"[ToneSel] exception: %d")
+TRC_MSG(MMI_CUI_TONESEL_CREATE,"[ToneSel] cui_tone_selector_create, parent_gid = %d")
+TRC_MSG(MMI_CUI_TONESEL_RUN,"[ToneSel] cui_tone_selector_run, ts_gid = %d")
+TRC_MSG(MMI_CUI_TONESEL_ENTRY_MAIN_SCRN,"[ToneSel] entry main scrn, cur_gid:%d")
+TRC_MSG(MMI_CUI_TONESEL_CLOSE,"[ToneSel] cui_tone_selector_close, ts_gid = %d")
+TRC_MSG(MMI_CUI_TONESEL_SET_TONE,"[ToneSel] cui_tone_selector_set_current_tone, selected_tone: %d")
+TRC_MSG(MMI_CUI_TONESEL_SET_FILTER,"[ToneSel] cui_tone_selector_set_filter, filter:%d")
+TRC_MSG(MMI_CUI_TONESEL_RESULT,"[ToneSel] tone_selected, Tone:%d, ts_group:%d")
+TRC_MSG(MMI_CUI_TONESEL_GROUP_AVTIVE,"[ToneSel] group active:%d")
+TRC_MSG(MMI_CUI_TONESEL_POPUP_QUIT,"[ToneSel] popup quit, cur_gid:%d")
+TRC_MSG(MMI_CUI_TONESEL_DEINIT,"[ToneSel] deinit group:%d")
+TRC_MSG(MMI_CUI_TONESEL_FMGR_RES,"[ToneSel] FMGR result:%d")
+TRC_MSG(MMI_CUI_TONESEL_HFP_VOL_SYNC,"[ToneSel] HFP vol sync, vol:%d, is mute:%d")
+TRC_MSG(MMI_CUI_TONESEL_PREVIEW_PLAY_TONE,"[ToneSel] preview_play_tone")

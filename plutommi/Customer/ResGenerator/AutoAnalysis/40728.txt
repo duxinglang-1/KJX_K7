@@ -1,0 +1,82 @@
+Image: ..\..\..\plutommi\CUSTOMER\IMAGES\PLUTO\MAINLCD\FILEMANAGER\FM_LIAUDIO.GIF
+  Format: GIF (CompuServe graphics interchange format)
+  Geometry: 39x42
+  Class: PseudoClass
+  Type: PaletteMatte
+  Endianess: Undefined
+  Colorspace: RGB
+  Channel depth:
+    Red: 8-bits
+    Green: 8-bits
+    Blue: 8-bits
+    Opacity: 1-bits
+  Channel statistics:
+    Red:
+      Min: 96 (0.376471)
+      Max: 255 (1)
+      Mean: 223.559 (0.8767)
+      Standard deviation: 51.3487 (0.201368)
+    Green:
+      Min: 152 (0.596078)
+      Max: 255 (1)
+      Mean: 233.938 (0.917403)
+      Standard deviation: 34.9578 (0.13709)
+    Blue:
+      Min: 33 (0.129412)
+      Max: 255 (1)
+      Mean: 215.711 (0.845926)
+      Standard deviation: 73.2384 (0.287209)
+    Opacity:
+      Min: 0 (0)
+      Max: 255 (1)
+      Mean: 37.0513 (0.145299)
+      Standard deviation: 89.8626 (0.352402)
+  Colors: 16
+         0: (255,255,255,  0)	white
+         1: (162,168,178,  0)	#A2A8B200
+         2: (215,231,231,  0)	#D7E7E700
+         3: ( 96,181, 33,  0)	#60B52100
+         4: (103,184, 36,  0)	#67B82400
+         5: (108,187, 38,  0)	#6CBB2600
+         6: (131,198, 73,  0)	#83C64900
+         7: (139,200, 86,  0)	#8BC85600
+         8: (149,205, 90,  0)	#95CD5A00
+         9: (157,208, 98,  0)	#9DD06200
+        10: (159,209, 93,  0)	#9FD15D00
+        11: (163,211,100,  0)	#A3D36400
+        12: (139,200, 50,  0)	#8BC83200
+        13: (109,152, 37,  0)	#6D982500
+        14: (180,220,113,  0)	#B4DC7100
+        15: (255,255,255,  0)	white
+  Histogram:
+        96: (109,152, 37,  0)	#6D982500
+        24: ( 96,181, 33,  0)	#60B52100
+         3: (103,184, 36,  0)	#67B82400
+        32: (108,187, 38,  0)	#6CBB2600
+        43: (139,200, 50,  0)	#8BC83200
+        14: (131,198, 73,  0)	#83C64900
+         3: (139,200, 86,  0)	#8BC85600
+         4: (149,205, 90,  0)	#95CD5A00
+         2: (159,209, 93,  0)	#9FD15D00
+         2: (157,208, 98,  0)	#9DD06200
+         6: (163,211,100,  0)	#A3D36400
+        13: (180,220,113,  0)	#B4DC7100
+       146: (162,168,178,  0)	#A2A8B200
+       138: (215,231,231,  0)	#D7E7E700
+       874: (255,255,255,  0)	white
+       238: (255,255,255,255)	#FFFFFFFF
+  Rendering-intent: Undefined
+  Resolution: 72x72
+  Units: Undefined
+  Filesize: 352
+  Interlace: None
+  Background Color: white
+  Border Color: #DFDFDF00
+  Matte Color: grey74
+  Page geometry: 39x42+0+0
+  Dispose: Undefined
+  Compression: LZW
+  Orientation: Undefined
+  Signature: 66b7b1acbf9eb1feb8cfa5797d06f74e0fc88ab0a84a84291fb404f9ff43dcec
+  Tainted: False
+  Version: ImageMagick 6.2.3 06/08/05 Q16 http://www.imagemagick.org

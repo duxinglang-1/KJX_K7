@@ -1,0 +1,22 @@
+[APP NAME] = SsSrv
+[SCOPE] = PLUTO, COSMOS 
+[MODULE] = MOD_MMI_COMMON_APP
+#don't change any value above
+
+#start trace
+#----------------- SsSrvInterface.c ------------------------------------------------------
+TRC_MSG(TRC_SRV_SS_ACT_REQ,"srv_ss_act_req, act_op=%d, act_data=%d, callback=%d, user_data=%d")
+TRC_MSG(TRC_SRV_SS_POST_RSP_EVT,"srv_ss_post_rsp_evt, rsp_cb=%d, rsp_user_data=%d, sim=%d, result=%d, ps_cause=%d, opcode=%d")
+TRC_MSG(TRC_SRV_SS_POST_ACT_REQ_EVT,"srv_ss_post_act_req_evt, op=%d, info=%d, rsp_cb=%d, rsp_user_data=%d")
+TRC_MSG(TRC_SRV_SS_POST_IND_EVT,"srv_ss_post_ind_evt, sim=%d, source=%d, ind_type=%d, data=%d")
+TRC_MSG(TRC_SRV_SS_POST_ACT_NOTIFY_EVT,"srv_ss_post_act_notify_evt, type=%d, act_op=%d, info=%d")
+TRC_MSG(TRC_SRV_SS_POST_EVT_CB,"srv_ss_post_evt_cb, user_data=%d, evt_id=%d")
+
+#----------------- SsSrvStructMgmt.c ------------------------------------------------------
+TRC_MSG(TRC_SRV_SS_IS_BUSY,"srv_ss_is_busy, op=%d, condition=%d")
+TRC_MSG(TRC_SRV_SS_CNTX_SET_PTR,"srv_ss_cntx_set_ptr, sim=%d")
+TRC_MSG(TRC_SRV_SS_CNTX_RESET_PTR,"srv_ss_cntx_reset_ptr")
+
+#----------------- SsSrvUtil.c ------------------------------------------------------
+TRC_MSG(TRC_SRV_SS_IS_AVAILABLE,"srv_ss_is_available, sim=%d, result=%d, condition=%d")
+TRC_MSG(TRC_SRV_SS_IS_VALID_SS_STRING,"srv_ss_is_valid_ss_string, sim=%d, length=%d, pStr=%d, result=%d, condition=%d")

@@ -1,0 +1,75 @@
+Image: ..\..\..\plutommi\CUSTOMER\IMAGES\PLUTO\MAINLCD\PHONEBOOK\PHB_CSK_EDIT.BMP
+  Format: BMP (Microsoft Windows bitmap image)
+  Geometry: 20x20
+  Class: PseudoClass
+  Type: Palette
+  Endianess: Undefined
+  Colorspace: RGB
+  Channel depth:
+    Red: 8-bits
+    Green: 8-bits
+    Blue: 8-bits
+  Channel statistics:
+    Red:
+      Min: 0 (0)
+      Max: 255 (1)
+      Mean: 6.965 (0.0273137)
+      Standard deviation: 36.453 (0.142953)
+    Green:
+      Min: 0 (0)
+      Max: 255 (1)
+      Mean: 5.4675 (0.0214412)
+      Standard deviation: 29.9569 (0.117478)
+    Blue:
+      Min: 0 (0)
+      Max: 255 (1)
+      Mean: 4.4525 (0.0174608)
+      Standard deviation: 26.6448 (0.104489)
+  Colors: 16
+         0: (255,  0,  0)	red
+         1: (181,183,188)	#B5B7BC
+         2: (211,215,223)	#D3D7DF
+         3: (162,168,178)	#A2A8B2
+         4: (232,182, 88)	#E8B658
+         5: (222,148, 53)	#DE9435
+         6: (188,132, 62)	#BC843E
+         7: (200,172,136)	#C8AC88
+         8: (172,107, 42)	#AC6B2A
+         9: (192,108, 35)	#C06C23
+        10: (176,177,181)	#B0B1B5
+        11: (255,255,255)	white
+        12: (136,136,136)	#888888
+        13: (135,135,135)	grey53
+        14: ( 69, 69, 69)	grey27
+        15: (  0,  0,  0)	black
+  Histogram:
+         1: ( 69, 69, 69)	grey27
+         8: (172,107, 42)	#AC6B2A
+       165: (255,  0,  0)	red
+         6: (192,108, 35)	#C06C23
+        11: (188,132, 62)	#BC843E
+         8: (222,148, 53)	#DE9435
+         8: (232,182, 88)	#E8B658
+         3: (135,135,135)	grey53
+        16: (136,136,136)	#888888
+        50: (162,168,178)	#A2A8B2
+         2: (176,177,181)	#B0B1B5
+         7: (181,183,188)	#B5B7BC
+         5: (200,172,136)	#C8AC88
+         3: (211,215,223)	#D3D7DF
+       107: (255,255,255)	white
+  Rendering-intent: Undefined
+  Resolution: 28.34x28.34
+  Units: Undefined
+  Filesize: 360
+  Interlace: None
+  Background Color: white
+  Border Color: #DFDFDF
+  Matte Color: grey74
+  Dispose: Undefined
+  Iterations: 0
+  Compression: Undefined
+  Orientation: Undefined
+  Signature: 474df3a5e0775ac88ff527234bbab2edee0bbfeada62caeb038bc4e6e8c6ce73
+  Tainted: False
+  Version: ImageMagick 6.2.3 06/08/05 Q16 http://www.imagemagick.org

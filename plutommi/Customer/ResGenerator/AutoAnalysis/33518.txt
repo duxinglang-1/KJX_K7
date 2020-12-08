@@ -1,0 +1,59 @@
+Image: ..\..\..\plutommi\CUSTOMER\IMAGES\PLUTO\MAINLCD\STEPS\STEPS.BMP
+  Format: BMP (Microsoft Windows bitmap image)
+  Geometry: 64x24
+  Class: DirectClass
+  Type: Grayscale
+  Endianess: Undefined
+  Colorspace: Gray
+  Channel depth:
+    Gray: 8-bits
+  Channel statistics:
+    Gray:
+      Min: 0 (0)
+      Max: 255 (1)
+      Mean: 24.5332 (0.0962086)
+      Standard deviation: 65.9188 (0.258505)
+  Colors: 27
+  Histogram:
+      1273: (  0,  0,  0)	black
+         5: (  8,  8,  8)	grey3
+        20: ( 16, 16, 16)	#101010
+         5: ( 24, 24, 24)	#181818
+         5: ( 33, 33, 33)	grey13
+        10: ( 41, 41, 41)	grey16
+         6: ( 49, 49, 49)	#313131
+         6: ( 57, 57, 57)	#393939
+        42: ( 66, 66, 66)	grey26
+         1: ( 74, 74, 74)	grey29
+        12: ( 82, 82, 82)	grey32
+         4: ( 90, 90, 90)	#5A5A5A
+         7: ( 99, 99, 99)	grey39
+         2: (107,107,107)	grey42
+         1: (115,115,115)	grey45
+         5: (123,123,123)	#7B7B7B
+         2: (132,132,132)	#848484
+         7: (140,140,140)	grey55
+         2: (181,181,181)	grey71
+         4: (189,189,189)	grey74
+        22: (198,198,198)	#C6C6C6
+         2: (206,206,206)	#CECECE
+         8: (214,214,214)	grey84
+         8: (222,222,222)	grey87
+         3: (231,231,231)	#E7E7E7
+         1: (239,239,239)	#EFEFEF
+        73: (255,255,255)	white
+  Rendering-intent: Undefined
+  Resolution: 28.34x28.34
+  Units: Undefined
+  Filesize: 3kb
+  Interlace: None
+  Background Color: white
+  Border Color: #DFDFDF
+  Matte Color: grey74
+  Dispose: Undefined
+  Iterations: 0
+  Compression: Undefined
+  Orientation: Undefined
+  Signature: befe2bcd8eac0353449bf14a10c41096559dd8375626e02f9fb0648abcaf9ee0
+  Tainted: False
+  Version: ImageMagick 6.2.3 06/08/05 Q16 http://www.imagemagick.org

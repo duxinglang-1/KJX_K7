@@ -1,0 +1,53 @@
+Image: ..\..\..\plutommi\CUSTOMER\IMAGES\PLUTO\MAINLCD\GPRS\GPRS_CHECK.BMP
+  Format: BMP (Microsoft Windows bitmap image)
+  Geometry: 13x10
+  Class: DirectClass
+  Type: Grayscale
+  Endianess: Undefined
+  Colorspace: Gray
+  Channel depth:
+    Gray: 8-bits
+  Channel statistics:
+    Gray:
+      Min: 0 (0)
+      Max: 255 (1)
+      Mean: 94.9385 (0.372308)
+      Standard deviation: 104.497 (0.40979)
+  Colors: 21
+  Histogram:
+        56: (  0,  0,  0)	black
+         3: (  7,  7,  7)	#070707
+         1: (  8,  8,  8)	grey3
+         1: ( 21, 21, 21)	#151515
+         5: ( 22, 22, 22)	#161616
+         2: ( 43, 43, 43)	grey17
+         7: (105,105,105)	DimGray
+         5: (106,106,106)	#6A6A6A
+         1: (145,145,145)	grey57
+         5: (149,149,149)	#959595
+         7: (150,150,150)	grey59
+         1: (168,168,168)	grey66
+         2: (181,181,181)	grey71
+         1: (189,189,189)	grey74
+         1: (190,190,190)	grey
+         2: (212,212,212)	grey83
+         1: (221,221,221)	#DDDDDD
+         1: (230,230,230)	#E6E6E6
+         1: (237,237,237)	grey93
+         1: (240,240,240)	grey94
+        26: (255,255,255)	white
+  Rendering-intent: Undefined
+  Resolution: 28.34x28.34
+  Units: Undefined
+  Filesize: 454
+  Interlace: None
+  Background Color: white
+  Border Color: #DFDFDF
+  Matte Color: grey74
+  Dispose: Undefined
+  Iterations: 0
+  Compression: Undefined
+  Orientation: Undefined
+  Signature: b0b47b3322f0c2dc6ff275551883d3db8a948b59f7f217ec59dae99331786bbb
+  Tainted: False
+  Version: ImageMagick 6.2.3 06/08/05 Q16 http://www.imagemagick.org

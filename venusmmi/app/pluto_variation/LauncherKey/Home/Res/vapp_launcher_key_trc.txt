@@ -1,0 +1,35 @@
+[APP NAME] = KeyLauncher
+[SCOPE] = PLUTO,COSMOS
+[MODULE] = MOD_MMI_COMMON_APP
+
+#start trace
+TRC_MSG(TRC_VAPP_LAUNCHER_KEY_HS_DIRECTOR_ON_INIT,              "[KeyL][HS]onInit, trace:%d")
+TRC_MSG(TRC_VAPP_LAUNCHER_KEY_HS_DIRECTOR_ON_DEINIT,            "[KeyL][HS]onDeinit, trace:%d")
+TRC_MSG(TRC_VAPP_LAUNCHER_KEY_HS_DIRECTOR_ON_KEY_INPUT,         "[KeyL][HS]onKeyInput,keyCode=%MVfxKeyCodeEnum,type=%MVfxKeyEventTypeEnum,currentPage=%d,perviousPage=%d,captureKey=%d")
+TRC_MSG(TRC_VAPP_LAUNCHER_KEY_HS_DIRECTOR_ON_PEN_INPUT,         "[KeyL][HS]onPenInput, type:%MVfxPenEventTypeEnum, pos(%d,%d)")
+TRC_MSG(TRC_VAPP_LAUNCHER_KEY_HS_DIRECTOR_SWITCH_PAGE,          "[KeyL][HS]switchPage from:%d to:%d, need fly:%d")
+TRC_MSG(TRC_VAPP_LAUNCHER_KEY_HS_DIRECTOR_ON_WIDGET_MENU_FLY,   "[KeyL][HS]onWidgetMenuFly,FlyType:%d,FlyState:%d")
+TRC_MSG(TRC_VAPP_LAUNCHER_KEY_HS_DIRECTOR_ON_MAIN_MENU_FLY,     "[KeyL][HS]onMainMenuBack,MM_Hidden:%d,s_perviousPage:%d")
+TRC_MSG(TRC_VAPP_LAUNCHER_KEY_HS_DIRECTOR_ON_TOOLBAR_EXCUTE,    "[KeyL][HS]onToolbarExecute, buttonId:%d")
+
+TRC_MSG(TRC_VAPP_LAUNCHER_KEY_HS_WIDGETMENU_SET_COUNT,               "[KeyL][WM]setMenuCount=%d")
+TRC_MSG(TRC_VAPP_LAUNCHER_KEY_HS_WIDGETMENU_CREATE_WIDGET_DATA,      "[KeyL][WM]createWidgetData, Id(%d,%d,%d,%d,%d,%d,%d,%d,%d,%d)")
+TRC_MSG(TRC_VAPP_LAUNCHER_KEY_HS_WIDGETMENU_FOCUS_IDX_CHANGE,        "[KeyL][WM]onFocusIndexChange from:%d to:%d, current index:%d")
+TRC_MSG(TRC_VAPP_LAUNCHER_KEY_HS_WIDGETMENU_FOCUS_IDX,               "[KeyL][WM]onWidgetFocused, trace:%d")
+TRC_MSG(TRC_VAPP_LAUNCHER_KEY_HS_WIDGETMENU_ON_PREVIEW_PEN_INPUT,    "[KeyL][WM]onPreviewPenInput, type:%c, pos(%d,%d)")
+TRC_MSG(TRC_VAPP_LAUNCHER_KEY_HS_WIDGETMENU_ON_PEN_INPUT,            "[KeyL][WM]onPenInput, type:%MVfxPenEventTypeEnum, pos(%d,%d), capture=%d")
+TRC_MSG(TRC_VAPP_LAUNCHER_KEY_HS_WIDGETMENU_CAPTURE,                 "[KeyL][WM]*** capture left or right moev pen event ***")
+TRC_MSG(TRC_VAPP_LAUNCHER_KEY_HS_WIDGETMENU_ON_KEY_INPUT,            "[KeyL][WM]onKeyInput, keyCode=%MVfxKeyCodeEnum, type=%MVfxKeyEventTypeEnum, foucus=%d")
+TRC_MSG(TRC_VAPP_LAUNCHER_KEY_HS_WIDGETMENU_ONTAP,                   "[KeyL][WM]onTap, pos(%d,%d)")
+
+TRC_MSG(TRC_VAPP_LAUNCHER_KEY_HS_SHORTCUT_CREATE,             "[KeyL][SC]createShortcutView, count=%d")
+TRC_MSG(TRC_VAPP_LAUNCHER_KEY_HS_SHORTCUT_ON_KEY_INPUT,       "[KeyL][SC]onKeyInput, keyCode=%MVfxKeyCodeEnum, type=%MVfxKeyEventTypeEnum")
+TRC_MSG(TRC_VAPP_LAUNCHER_KEY_HS_SHORTCUT_SWITCH_HIGHLIGHT,   "[KeyL][SC]switchShortcutHighlight, current highlight=%d, inc=%d")
+TRC_MSG(TRC_VAPP_LAUNCHER_KEY_HS_SHORTCUT_LAUNCH,             "[KeyL][SC]launchShortcut")
+
+TRC_MSG(TRC_VAPP_LAUNCHER_KEY_HS_OP_EVENT_HDLR,             "[KeyL][Op]eventHandler, EVT_ID_SRV_NW_NAME_CHANGED")
+TRC_MSG(TRC_VAPP_LAUNCHER_KEY_HS_OP_UPDATE,                 "[KeyL][Op]update, numSIMInsert=%d")
+
+TRC_MSG(TRC_VAPP_LAUNCHER_KEY_HS_TOOLBAR_ON_EVENT,         "[KeyL][Toolbar]onEvent, keyCode:%c, eventenum=%MVcpSoftkeyEventEnum, m_style=%d")
+
+TRC_MSG(TRC_MMI_KEYLAUNCHER_ON_WANT_TO_RUN,              "[KeyL]mmi_idle_keylauncher_on_want_to_run:%d")

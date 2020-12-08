@@ -1,0 +1,175 @@
+
+<VenusXML>
+
+#if defined(__MMI_MAINLCD_480X800__)
+	<!-- WVGA Layout -->
+	<!-- Index Page -->
+
+#ifndef __MMI_GALLERY_SLIM__
+
+  <Layout id="VAPP_GALLERY_LAYOUT_LAST_PLAY">
+    <VcpImageButton size="(480, 133)" isStretchMode="TRUE" 
+                    image="(@IMG_ID_VAPP_GALLERY_IDX_BG_LAST_PLAY, @IMG_ID_VAPP_GALLERY_IDX_BG_LAST_PLAY, @IMG_ID_VAPP_GALLERY_IDX_BG_LAST_PLAY, @IMG_ID_VAPP_GALLERY_IDX_BG_LAST_PLAY)" >
+        <VfxTextFrame name="caption" pos = "(10, 20)" text="@STR_ID_VAPP_GALLERY_IDX_LAST_PLAY" />
+        <VfxFrame name="thumbnail" pos = "(5, 55)" size = "(100, 75)" />
+      
+        <VfxTextFrame name="filename" pos = "(110, 65)" text="Lie to Me_S01E08.avi" />
+        <VfxTextFrame name="duration" pos = "(110, 105)" color="#FFD8D8D8" text="45:06" />
+        <VfxTextFrame name="position" pos = "(345, 105)" color="#FFD8D8D8" text="16:05" />
+        <VfxImageFrame name="pauseIcon" pos = "(445, 100)" resId="@IMG_ID_VAPP_GALLERY_MYVID_ICON_LAST_PLAY" />
+    </VcpImageButton>
+	</Layout>
+#endif
+	<!-- Video Player Page -->
+  <Layout id="VAPP_GALLERY_LAYOUT_VIDEO_PLAYER_BUTTON_PANEL">
+		<VfxFrame name="buttonPanel" pos="(10, 380)" size="(93, 93)" anchor="(0.0, 0.0)">
+		</VfxFrame>
+	</Layout>
+	
+	<Layout id="VAPP_GALLERY_LAYOUT_VIDEO_PLAYER_SEEK_BAR_PANEL">
+		<VfxFrame size="(800, 45)" pos="(0, 405)">
+	        <VcpSlider name="seekbarFrame" Length="500" pos="(200, 0)" />
+	        <VfxTextFrame name="positionText" color="#FFD8D8D8" size="(90, 20)" pos = "(110, 13)" text="--:--:--" />        
+	        <VfxTextFrame name="durationText" color="#FFD8D8D8" size="(90, 20)" pos = "(700, 13)" text="--:--:--" />
+		</VfxFrame>
+	</Layout>
+	
+#elif defined(__MMI_MAINLCD_320X480__)
+	<!-- HVGA Layout -->
+	<!-- Index Page -->
+
+#ifndef __MMI_GALLERY_SLIM__
+
+  <Layout id="VAPP_GALLERY_LAYOUT_LAST_PLAY">
+    <VcpImageButton size="(320, 77)" isStretchMode="TRUE" 
+                    image="(@IMG_ID_VAPP_GALLERY_IDX_BG_LAST_PLAY, @IMG_ID_VAPP_GALLERY_IDX_BG_LAST_PLAY, @IMG_ID_VAPP_GALLERY_IDX_BG_LAST_PLAY, @IMG_ID_VAPP_GALLERY_IDX_BG_LAST_PLAY)" >
+        <VfxTextFrame name="caption" pos = "(10, 8)" text="@STR_ID_VAPP_GALLERY_IDX_LAST_PLAY" />
+        <VfxFrame name="thumbnail" pos = "(10, 30)" size = "(56, 42)" />
+      
+        <VfxTextFrame name="filename" pos = "(82, 35)" text="Lie to Me_S01E08.avi" />
+        <VfxTextFrame name="duration" pos = "(82, 56)" color="#FFD8D8D8" text="45:06" />
+        <VfxTextFrame name="position" pos = "(235, 56)" color="#FFD8D8D8" text="16:05" />
+        <VfxImageFrame name="pauseIcon" pos = "(300, 54)" resId="@IMG_ID_VAPP_GALLERY_MYVID_ICON_LAST_PLAY" />
+    </VcpImageButton>
+  </Layout>
+
+#endif
+  <!-- Video Player Page -->
+  <Layout id="VAPP_GALLERY_LAYOUT_VIDEO_PLAYER_BUTTON_PANEL">
+    <VfxFrame name="buttonPanel" pos="(10, 250)" size="(60, 60)" anchor="(0.0, 0.0)">
+    </VfxFrame>
+  </Layout>
+  
+  <Layout id="VAPP_GALLERY_LAYOUT_VIDEO_PLAYER_SEEK_BAR_PANEL">
+    <VfxFrame size="(480, 40)" pos="(0, 268)">
+        <VcpSlider name="seekbarFrame" Length="286" pos="(130, 0)" />
+        <VfxTextFrame name="positionText" color="#FFD8D8D8" size="(56, 12)" pos = "(74, 8)" text="--:--:--" />        
+        <VfxTextFrame name="durationText" color="#FFD8D8D8" size="(56, 12)" pos = "(420, 8)" text="--:--:--" />
+    </VfxFrame>
+  </Layout>
+
+#elif defined(__MMI_MAINLCD_240X320__) || defined(__MMI_MAINLCD_240X400__)
+	<!-- QVGA Layout -->
+	<!-- Index Page -->
+#ifndef __MMI_GALLERY_SLIM__
+  <Layout id="VAPP_GALLERY_LAYOUT_LAST_PLAY">
+    <VcpImageButton size="(240, 55)" isStretchMode="TRUE" 
+                    image="(@IMG_ID_VAPP_GALLERY_IDX_BG_LAST_PLAY, @IMG_ID_VAPP_GALLERY_IDX_BG_LAST_PLAY, @IMG_ID_VAPP_GALLERY_IDX_BG_LAST_PLAY, @IMG_ID_VAPP_GALLERY_IDX_BG_LAST_PLAY)" >
+        <VfxTextFrame name="caption" pos = "(10, 5)" text="@STR_ID_VAPP_GALLERY_IDX_LAST_PLAY" />
+        <VfxFrame name="thumbnail" pos = "(10, 22)" size = "(45, 30)" />
+      
+        <VfxTextFrame name="filename" pos = "(70, 25)" size = "(140, 18)" text="Lie to Me_S01E08.avi" />
+        <VfxTextFrame name="duration" pos = "(70, 40)" color="#FFD8D8D8" text="45:06" />
+        <VfxTextFrame name="position" pos = "(160, 40)" color="#FFD8D8D8" text="16:05" />
+        <VfxImageFrame name="pauseIcon" pos = "(220, 28)" resId="@IMG_ID_VAPP_GALLERY_MYVID_ICON_LAST_PLAY" />
+    </VcpImageButton>
+  </Layout>
+#endif
+
+#ifdef __MMI_REDUCED_UI_BUFFER__
+  <!-- Video Player Page -->
+  <Layout id="VAPP_GALLERY_LAYOUT_VIDEO_PLAYER_BUTTON_PANEL">
+    <VfxFrame name="buttonPanel" pos="(8, 7)" size="(47, 47)" anchor="(0.0, 0.0)">
+    </VfxFrame>
+  </Layout>
+  
+    #if defined(__MMI_MAINLCD_240X400__) 
+      <Layout id="VAPP_GALLERY_LAYOUT_VIDEO_PLAYER_SEEK_BAR_PANEL">
+        <VfxFrame size="(480, 40)" pos="(58, 200)">
+            <VcpSlider name="seekbarFrame" Length="330" pos="(0, 0)" />
+            <VfxTextFrame name="positionText" color="#FFD8D8D8" size="(56, 12)" pos = "(3, 23)" text="--:--:--" />        
+            <VfxTextFrame name="durationText" color="#FFD8D8D8" size="(56, 12)" pos = "(270, 23)" text="--:--:--" />
+        </VfxFrame>
+      </Layout>
+    #else
+        <Layout id="VAPP_GALLERY_LAYOUT_VIDEO_PLAYER_SEEK_BAR_PANEL">
+        <VfxFrame size="(42, 480)" pos="(0, 58)">
+            <VcpSlider name="seekbarFrame" Length="250" pos="(20, 0)" />
+            <VfxTextFrame name="positionText" color="#FFD8D8D8" size="(56, 12)" pos = "(17, 3)" text="--:--:--" />        
+            <VfxTextFrame name="durationText" color="#FFD8D8D8" size="(56, 12)" pos = "(17, 190)" text="--:--:--" />
+        </VfxFrame>
+      </Layout>
+    #endif
+#else
+    <!-- Video Player Page -->
+  <Layout id="VAPP_GALLERY_LAYOUT_VIDEO_PLAYER_BUTTON_PANEL">
+    <VfxFrame name="buttonPanel" pos="(7, 192)" size="(47, 47)" anchor="(0.0, 0.0)">
+    </VfxFrame>
+  </Layout>
+  
+    #if defined(__MMI_MAINLCD_240X400__) 
+      <Layout id="VAPP_GALLERY_LAYOUT_VIDEO_PLAYER_SEEK_BAR_PANEL">
+        <VfxFrame size="(480, 40)" pos="(58, 200)">
+            <VcpSlider name="seekbarFrame" Length="330" pos="(0, 0)" />
+            <VfxTextFrame name="positionText" color="#FFD8D8D8" size="(56, 12)" pos = "(3, 23)" text="--:--:--" />        
+            <VfxTextFrame name="durationText" color="#FFD8D8D8" size="(56, 12)" pos = "(270, 23)" text="--:--:--" />
+        </VfxFrame>
+      </Layout>
+    #else
+        <Layout id="VAPP_GALLERY_LAYOUT_VIDEO_PLAYER_SEEK_BAR_PANEL">
+        <VfxFrame size="(480, 40)" pos="(58, 200)">
+            <VcpSlider name="seekbarFrame" Length="250" pos="(0, 0)" />
+            <VfxTextFrame name="positionText" color="#FFD8D8D8" size="(56, 12)" pos = "(3, 23)" text="--:--:--" />        
+            <VfxTextFrame name="durationText" color="#FFD8D8D8" size="(56, 12)" pos = "(190, 23)" text="--:--:--" />
+        </VfxFrame>
+      </Layout>
+    #endif
+#endif
+
+#else
+    <!-- Prevent build error -->
+    <!-- Index Page -->
+#ifndef __MMI_GALLERY_SLIM__
+
+  <Layout id="VAPP_GALLERY_LAYOUT_LAST_PLAY">
+    <VcpImageButton size="(240, 55)" isStretchMode="TRUE" 
+                    image="(@IMG_ID_VAPP_GALLERY_IDX_BG_LAST_PLAY, @IMG_ID_VAPP_GALLERY_IDX_BG_LAST_PLAY, @IMG_ID_VAPP_GALLERY_IDX_BG_LAST_PLAY, @IMG_ID_VAPP_GALLERY_IDX_BG_LAST_PLAY)" >
+        <VfxTextFrame name="caption" pos = "(10, 5)" text="@STR_ID_VAPP_GALLERY_IDX_LAST_PLAY" />
+        <VfxFrame name="thumbnail" pos = "(10, 22)" size = "(45, 30)" />
+      
+        <VfxTextFrame name="filename" pos = "(70, 25)" size = "(140, 18)" text="Lie to Me_S01E08.avi" />
+        <VfxTextFrame name="duration" pos = "(70, 40)" color="#FFD8D8D8" text="45:06" />
+        <VfxTextFrame name="position" pos = "(180, 40)" color="#FFD8D8D8" text="16:05" />
+        <VfxImageFrame name="pauseIcon" pos = "(220, 28)" resId="@IMG_ID_VAPP_GALLERY_MYVID_ICON_LAST_PLAY" />
+    </VcpImageButton>
+  </Layout>
+#endif
+
+  <!-- Video Player Page -->
+  <Layout id="VAPP_GALLERY_LAYOUT_VIDEO_PLAYER_BUTTON_PANEL">
+    <VfxFrame name="buttonPanel" pos="(7, 192)" size="(47, 47)" anchor="(0.0, 0.0)">
+    </VfxFrame>
+  </Layout>
+  
+  <Layout id="VAPP_GALLERY_LAYOUT_VIDEO_PLAYER_SEEK_BAR_PANEL">
+    <VfxFrame size="(480, 40)" pos="(58, 200)">
+        <VcpSlider name="seekbarFrame" Length="250" pos="(0, 0)" />
+        <VfxTextFrame name="positionText" color="#FFD8D8D8" size="(49, 12)" pos = "(3, 23)" text="--:--:--" />        
+        <VfxTextFrame name="durationText" color="#FFD8D8D8" size="(49, 12)" pos = "(199, 23)" text="--:--:--" />
+    </VfxFrame>
+  </Layout>
+  
+#endif
+
+</VenusXML>
+

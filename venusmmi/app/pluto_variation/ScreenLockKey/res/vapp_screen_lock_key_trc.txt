@@ -1,0 +1,22 @@
+[APP NAME] = LauncherKey - Locker
+[SCOPE] = PLUTO,COSMOS
+[MODULE] = MOD_MMI_COMMON_APP
+
+#start trace
+TRC_MSG(TRC_VAPP_SCREEN_LOCK_KEY_INIT_STATE,   				"[Launcher Key][Locker] VappScreenLockKeyMain::onInit, state = %d")
+TRC_MSG(TRC_VAPP_SCREEN_LOCK_KEY_DEINIT_STATE,   			"[Launcher Key][Locker] VappScreenLockKeyMain::onDeinit, state = %d")
+TRC_MSG(TRC_VAPP_SCREEN_LOCK_KEY_KEY_INPUT,   				"[Launcher Key][Locker] VappScreenLockKeyMain::onKeyInput, code = %d, type = %d")TRC_MSG(TRC_VAPP_SCREEN_LOCK_KEY_ENTER_STATE,   			"[Launcher Key][Locker] VappScreenLockKeyMain::enterScreenLockState, curr state = %d, entering state = %d")
+TRC_MSG(TRC_VAPP_SCREEN_LOCK_KEY_MISSED_CALL,   			"[Launcher Key][Locker] VappScreenLockKeyUnlockCallLog: missed call = %d")
+TRC_MSG(TRC_VAPP_SCREEN_LOCK_KEY_MISSED_MSG,   				"[Launcher Key][Locker] VappScreenLockKeyUnlockMsg: missed msg = %d")TRC_MSG(TRC_VAPP_SCREEN_LOCK_KEY_IMGSET_TYPE,   			"[Launcher Key][Locker][image setting] image setting type = %d")
+TRC_MSG(TRC_VAPP_SCREEN_LOCK_KEY_IMGSET_USR_SELECT,   "[Launcher Key][Locker][image setting] user defined select file result = %d")
+TRC_MSG(TRC_VAPP_SCREEN_LOCK_KEY_IMGSET_USR_CLIP,   	"[Launcher Key][Locker][image setting] user defined clip file success")
+TRC_MSG(TRC_VAPP_SCREEN_LOCK_KEY_IMGSET_SYS_DONE,   	"[Launcher Key][Locker][image setting] img setting sys done, index = %d")
+TRC_MSG(TRC_VAPP_SCREEN_LOCK_KEY_IMGSET_USR_CHECK1,   "[Launcher Key][Locker][image setting] user defined select file check result = %d")
+TRC_MSG(TRC_VAPP_SCREEN_LOCK_KEY_IMGSET_USR_CHECK2,   "[Launcher Key][Locker][image setting] user defined select file out of limit")
+TRC_MSG(TRC_VAPP_SCREEN_LOCK_KEY_IMGSET_USR_SAVE,     "[Launcher Key][Locker][image setting] user defined save file path result = %d")
+TRC_MSG(TRC_VAPP_SCREEN_LOCK_KEY_IMGSET_USR_DECODE,   "[Launcher Key][Locker][image setting] mmi_screen_lock_key_img_setting_usr_decode")
+TRC_MSG(TRC_VAPP_SCREEN_LOCK_KEY_IMGSET_USR_DECODE_CB,"[Launcher Key][Locker][image setting] img setting usr decode, result = %d")
+TRC_MSG(TRC_VAPP_SCREEN_LOCK_KEY_IMGSET_USR_ENCODE,	 	"[Launcher Key][Locker][image setting] img setting usr encode, result = %d")
+TRC_MSG(TRC_VAPP_SCREEN_LOCK_KEY_PN_NOTIFY,	 					"[Launcher Key][Locker][push notification] m_notiList->onNotify, result = %d")TRC_MSG(TRC_VAPP_SCREEN_LOCK_KEY_PN_SUPPORT_IDX,	 		"[Launcher Key][Locker][push notification] notify group id's index = %d, status = %d")
+TRC_MSG(TRC_VAPP_SCREEN_LOCK_KEY_PN_CREATE,	 					"[Launcher Key][Locker][push notification] create new cell, grp = %d, pos = %d")
+TRC_MSG(TRC_VAPP_SCREEN_LOCK_KEY_PN_UPDATE,	 					"[Launcher Key][Locker][push notification] notify cell update")

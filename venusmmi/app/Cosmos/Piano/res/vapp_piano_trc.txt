@@ -1,0 +1,58 @@
+[APP NAME] = Piano
+[SCOPE] = COSMOS
+[MODULE] = MOD_MMI_MEDIA_APP
+
+#starttrace
+TRC_MSG(TRC_VAPP_PIANO_ON_INIT, "[PIANO] onInit()")
+TRC_MSG(TRC_VAPP_PIANO_ON_ENTER, "[PIANO] onEnter() [isBackward = %d]")
+TRC_MSG(TRC_VAPP_PIANO_ON_EXIT, "[PIANO] onExit() [isBackward = %d]")
+TRC_MSG(TRC_VAPP_PIANO_ON_SEETING_BTN_CLICKED, "[PIANO] onSettingBtnClicked()")
+TRC_MSG(TRC_VAPP_PIANO_READ_FROM_NVRAM, "[PIANO] readFromNVRAM(), ret = %d")
+TRC_MSG(TRC_VAPP_PIANO_FLUSH_TO_NVRAM, "[PIANO] flushToNVRAM(), ret = %d")
+
+TRC_MSG(TRC_VAPP_PIANO_SETTING_ON_INIT, "[PIANO][setting] page_onInit()")
+TRC_MSG(TRC_VAPP_PIANO_SETTING_ON_LABEL_SW_CHANGE, "[PIANO][setting] onLabelSwitchChangeReq() [newStatus = %d]")
+TRC_MSG(TRC_VAPP_PIANO_SETTING_ON_PROGRAM_CHANGE, "[PIANO][setting] onProgramSliderChange() [midi program = %d]")
+
+TRC_MSG(TRC_VAPP_PIANO_KEY_SET_DATA,      "[PIANO][key] setKeyData() [key id = %d]")
+TRC_MSG(TRC_VAPP_PIANO_INCREASE_PRESS_LOCK_COUNT, "[Piano][Key] increasePressLockCount, key = %d increase lock count %d to %d")
+TRC_MSG(TRC_VAPP_PIANO_DECREASE_PRESS_LOCK_COUNT, "[Piano][Key] increasePressLockCount, key = %d decrease lock count %d to %d")
+TRC_MSG(TRC_VAPP_PIANO_MORE_THAN_VALID_KEY_RELEASE_LOCK_COUNT, "[Piano][Key] more than validKeyReleaseLockCount, key = %d, lock count = %d")
+
+TRC_MSG(TRC_VAPP_PIANO_RELEASE_REAL_TARGET, "[Piano][keyboard] releaseKey(), release to real target key = %d")
+
+TRC_MSG(TRC_VAPP_PIANO_KEYBOARD_ON_INIT, "[PIANO][keyboard] onInit()")
+TRC_MSG(TRC_VAPP_PIANO_KEYBOARD_ON_DEINT, "[PIANO][keyboard]onDeint()")
+TRC_MSG(TRC_VAPP_PIANO_KEYBOARD_SET_TOUCH_MODE, "[PIANO][keyboard]setMultiTouchMode() [toucn mode = %d]")
+TRC_MSG(TRC_VAPP_PIANO_KEYBOARD_INIT_KEYBOARD, "[PIANO][keyboard] initKeyboard()")
+TRC_MSG(TRC_VAPP_PIANO_KEYBOARD_UPDATE_KEYBOARD_DATA, "[PIANO][keyboard] updateKeyboardData()")
+TRC_MSG(TRC_VAPP_PIANO_KEYBOARD_DISPLAY_KEYBOARD, "[PIANO][keyboard] updateKeyboardData()")
+TRC_MSG(TRC_VAPP_PIANO_KEYBOARD_SET_MIDI_MODE, "[PIANO][keyboard] setIsMidiMode() [play midi = %d]")
+TRC_MSG(TRC_VAPP_PIANO_KEYBOARD_SET_ALL_KEY_CLICKED, "[PIANO][keyboard] setAllKeyClicked() [All key clicked = %d]")
+TRC_MSG(TRC_VAPP_PIANO_KEYBOARD_INIT_PLAYER, "[PIANO][keyboard] initPlayer()")
+TRC_MSG(TRC_VAPP_PIANO_KEYBOARD_CLOSE_PLAYER, "[PIANO][keyboard] closePlayer()")
+TRC_MSG(TRC_VAPP_PIANO_KEYBOARD_CLOSE_MDI_PLAYER, "[PIANO][keyboard] closeMdiPlayer()")
+TRC_MSG(TRC_VAPP_PIANO_KEYBOARD_CLOSE_MIDI_PLAYER, "[PIANO][keyboard] closeMidiPlayer()")
+
+TRC_MSG(TRC_VAPP_PIANO_KEYBOARD_PLAY_WAV_SOUND,    "[PIANO][keyboard] playWavSound() [play wav = %d]")
+TRC_MSG(TRC_VAPP_PIANO_KEYBOARD_STOP_WAV_SOUND,    "[PIANO]]keyboard] stopWavSound() [stop wav = %d]")
+
+TRC_MSG(TRC_VAPP_PIANO_KEYBOARD_KEY_DOWN, "[PIANO][keyboard] touch[%d] key down = %d, lock count = %d")
+TRC_MSG(TRC_VAPP_PIANO_KEYBOARD_KEY_UP,   "[PIANO][keyboard] touch[%d] key up = %d, lock count = %d")
+TRC_MSG(TRC_VAPP_PIANO_KEYBOARD_KEY_MOVE_UP, "[PIANO][keyboard] touch[%d] key move up = %d, lock count = %d")
+TRC_MSG(TRC_VAPP_PIANO_KEYBOARD_KEY_MOVE_DOWN, "[PIANO][keyboard] touch[%d] key move down = %d, lock count = %d")
+TRC_MSG(TRC_VAPP_PIANO_KEYBOARD_DO_MOVE, "[PIANO][keyboard] Do move: press prev key and down key")
+
+TRC_MSG(TRC_VAPP_PIANO_KEYBOARD_ON_PEN_INPUT_TIMER_START,       "[PIANO][keyboard] onPenInput() [Timer start time = %d, isMidi = %d, isTriger = %d]")
+TRC_MSG(TRC_VAPP_PIANO_KEYBOARD_KEY_CATCHER_TIMEOUT_TOTAL_NOTE, "[PIANO][keyboard] onCatcherTimerCallback() [down = %d, up = %d][todoDown = %d, todoUp = %d]")
+TRC_MSG(TRC_VAPP_PIANO_KEYBOARD_KEY_CATCHER_TIMEOUT_END,        "[PIANO][keyboard] onCatcherTimerCallback() [End Time = %d, Duration = %d]")
+TRC_MSG(TRC_VAPP_PIANO_KEYBOARD_KEY_CATCHER_TIMEOUT_CASE_1,     "[PIANO][keyboard] onCatcherTimerCallback()_Case1")
+TRC_MSG(TRC_VAPP_PIANO_KEYBOARD_KEY_CATCHER_TIMEOUT_CASE_2,     "[PIANO][keyboard] onCatcherTimerCallback()_Case2")
+TRC_MSG(TRC_VAPP_PIANO_KEYBOARD_KEY_CATCHER_TIMEOUT_CASE_3,     "[PIANO][keyboard] onCatcherTimerCallback()_Case3")
+TRC_MSG(TRC_VAPP_PIANO_KEYBOARD_KEY_CATCHER_TIMEOUT_CASE_4,     "[PIANO][keyboard] onCatcherTimerCallback()_Case4")
+
+TRC_MSG(TRC_VAPP_PIANO_KEYBOARD_ON_PEN_INPUT_EVENT_START, "[PIANO] keyboard_onPenInput() [Start time = %d]")
+TRC_MSG(TRC_VAPP_PIANO_KEYBOARD_ON_PEN_INPUT_EVENT_END, "[PIANO] keyboard_onPenInput() [End time = %d, Duration = %d]")
+
+TRC_MSG(TRC_VAPP_PIANO_KEYBOARD_PEN_EVENT_POS, "[PIANO][keyboard] pos = (%d, %d)")
+TRC_MSG(TRC_VAPP_PIANO_KEYBOARD_PEN_EVENT_PREV_POS, "[PIANO][keyboard] prev pos = (%d, %d)")

@@ -1,0 +1,14 @@
+[OWNER] = Iris Chang
+[APP NAME] = CNMGR APP
+[SCOPE] = COSMOS
+[MODULE] = MOD_MMI_CONN_APP
+
+#start trace
+TRC_MSG(VAPP_CNMGR_LIST_RESET, "[MMI CNMGR] APP list reset")
+TRC_MSG(VAPP_CNMGR_LIST_UPDATE_BEARER_LIST, "[MMI CNMGR] APP list update bearer list: active node number %d")
+TRC_MSG(VAPP_CNMGR_LIST_REFRESH_PAGE, "[MMI CNMGR] APP list refreshPage")
+TRC_MSG(VAPP_CNMGR_DETAIL_GET_BEARER_DATA, "[MMI CNMGR] APP detail getBearerData: result %d, account %d, bearer status %d")
+TRC_MSG(VAPP_CNMGR_DETAIL_ONENTER, "[MMI CNMGR] APP detail onEnter: isBackward %d, bearer status %d")
+TRC_MSG(VAPP_CNMGR_DETAIL_REFRESH_PAGE, "[MMI CNMGR] APP detail refreshPage")
+TRC_MSG(VAPP_CNMGR_DETAIL_REDRAW_PAGE, "[MMI CNMGR] APP detail redrawPage: bearer status %d")
+TRC_MSG(VAPP_CNMGR_DETAIL_UPDATE_DATA, "[MMI CNMGR] APP detail updateData")

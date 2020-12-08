@@ -1,0 +1,27 @@
+#include "mmi_features.h"
+#include "custresdef.h"
+#if defined(__GPS_SUPPORT__)
+
+<?xml version="1.0" encoding="UTF-8"?>
+
+<APP id="VAPP_GPS_SETTING" name="STR_ID_VAPP_GPS_SETTING_GPS_SETTING" type="venus">
+    <INCLUDE file="GlobalResDef.h"/>
+    
+    <MEMORY heap="1024*100"/>
+    <LAYOUT file="vapp_gpssetting.xml" />
+
+    <STRING id="STR_ID_VAPP_GPS_SETTING_GPS"/>
+    <STRING id="STR_ID_VAPP_GPS_SETTING_GPS_SETTING"/>
+    <STRING id="STR_ID_VAPP_GPS_SETTING_TIME_SYNC"/>
+    <STRING id="STR_ID_VAPP_GPS_SETTING_AGPS"/>
+    <STRING id="STR_ID_VAPP_GPS_SETTING_AGPS_PROFILE"/>
+    <STRING id="STR_ID_VAPP_GPS_SETTING_SEND_LOCATION"/>
+    <STRING id="STR_ID_VAPP_GPS_SETTING_SEND_LOCATION_HINT"/>
+    <STRING id="STR_ID_VAPP_GPS_SETTING_SERVER_ADDRESS"/>
+    <STRING id="STR_ID_VAPP_GPS_SETTING_PORT_NUMBER"/>
+    <STRING id="STR_ID_VAPP_GPS_SETTING_INVALID_PORT"/>
+    <STRING id="STR_ID_VAPP_GPS_SETTING_DATA_ACCOUNT"/>
+    <STRING id="STR_ID_VAPP_GPS_SETTING_EM_AGPS"/>
+</APP>
+
+#endif /*defined(__GPS_SUPPORT__)*/

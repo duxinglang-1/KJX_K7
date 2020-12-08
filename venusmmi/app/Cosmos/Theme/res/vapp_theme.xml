@@ -1,0 +1,105 @@
+#ifdef __MMI_MAINLCD_480X800__
+<VenusXML>
+    <Layout id="VAPP_THEME_MENU_CELL_LAYOUT">
+    <VfxControl>
+        <VfxImageFrame name="iconOuter" 
+        			   pos="(0, 0)" 
+        			   size="(99, 141)" 
+        			   contentPlacement="VFX_FRAME_CONTENT_PLACEMENT_TYPE_RESIZE" 
+        			   resId="@IMG_ID_VAPP_THEME_SMALL_BG" />
+        			   
+        <VfxFrame name="cover" pos="(49, 68)" anchor="(0.5F, 0.5F)" size="(83, 125)" />
+        
+        <VfxImageFrame name="icon" pos="(49, 68)" anchor="(0.5F, 0.5F)" />
+        
+        <VfxTextFrame name="name" anchor="(0.5F, 0.5F)" pos="(0, 141)" size="(99, 17)" color="VFX_COLOR_RES(CLR_COSMOS_TEXT_MAIN)" />
+
+    </VfxControl>
+    </Layout>    
+</VenusXML>
+
+#elif defined(__MMI_MAINLCD_320X480__)
+
+<VenusXML>
+    <Layout id="VAPP_THEME_MENU_CELL_LAYOUT">
+    <VfxControl size="(99, 157)">
+        <VfxImageFrame name="iconOuter" 
+        			   pos="(0, 0)" 
+        			   size="(99, 141)" 
+        			   contentPlacement="VFX_FRAME_CONTENT_PLACEMENT_TYPE_RESIZE" 
+        			   resId="@IMG_ID_VAPP_THEME_SMALL_BG" />
+        			   
+        <VfxFrame name="cover" pos="(49, 68)" anchor="(0.5, 0.5)" size="(83, 125)" />
+        
+        <VfxImageFrame name="icon" pos="(49, 68)" anchor="(0.5, 0.5)" />
+        
+        <VfxTextFrame name="name" pos="(0, 141)" size="(99, 17)" />
+
+    </VfxControl>
+    </Layout>    
+</VenusXML>
+
+#elif defined(__MMI_MAINLCD_240X320__)
+
+<VenusXML>
+    <Layout id="VAPP_THEME_MENU_CELL_LAYOUT">
+    <VfxControl>
+        <VfxImageFrame name="iconOuter" 
+        			   pos="(0, 0)" 
+        			   size="(99, 141)" 
+        			   contentPlacement="VFX_FRAME_CONTENT_PLACEMENT_TYPE_RESIZE" 
+        			   resId="@IMG_ID_VAPP_THEME_SMALL_BG" />
+        			   
+        <VfxFrame name="cover" pos="(49, 68)" anchor="(0.5F, 0.5F)" size="(83, 125)" />
+        
+        <VfxImageFrame name="icon" pos="(49, 68)" anchor="(0.5F, 0.5F)" />
+        
+        <VfxTextFrame name="name" anchor="(0.5F, 0.5F)" pos="(0, 141)" size="(99, 17)" color="VFX_COLOR_RES(CLR_COSMOS_TEXT_MAIN)" />
+
+    </VfxControl>
+    </Layout>    
+</VenusXML>
+
+#elif defined(__MMI_MAINLCD_240X400__)
+
+<VenusXML>
+    <Layout id="VAPP_THEME_MENU_CELL_LAYOUT">
+    <VfxControl>
+        <VfxImageFrame name="iconOuter" 
+        			   pos="(0, 0)" 
+        			   size="(99, 141)" 
+        			   contentPlacement="VFX_FRAME_CONTENT_PLACEMENT_TYPE_RESIZE" 
+        			   resId="@IMG_ID_VAPP_THEME_SMALL_BG" />
+        			   
+        <VfxFrame name="cover" pos="(49, 68)" anchor="(0.5F, 0.5F)" size="(83, 125)" />
+        
+        <VfxImageFrame name="icon" pos="(49, 68)" anchor="(0.5F, 0.5F)" />
+        
+        <VfxTextFrame name="name" anchor="(0.5F, 0.5F)" pos="(0, 141)" size="(99, 17)" color="VFX_COLOR_RES(CLR_COSMOS_TEXT_MAIN)" />
+
+    </VfxControl>
+    </Layout>    
+</VenusXML>
+
+#else
+
+<VenusXML>
+    <Layout id="VAPP_THEME_MENU_CELL_LAYOUT">
+    <VfxControl>
+        <VfxImageFrame name="iconOuter" 
+        			   pos="(0, 0)" 
+        			   size="(99, 141)" 
+        			   contentPlacement="VFX_FRAME_CONTENT_PLACEMENT_TYPE_RESIZE" 
+        			   resId="@IMG_ID_VAPP_THEME_SMALL_BG" />
+        			   
+        <VfxFrame name="cover" pos="(49, 68)" anchor="(0.5F, 0.5F)" size="(83, 125)" />
+        
+        <VfxImageFrame name="icon" pos="(49, 68)" anchor="(0.5F, 0.5F)" />
+        
+        <VfxTextFrame name="name" anchor="(0.5F, 0.5F)" pos="(0, 141)" size="(99, 17)" color="VFX_COLOR_RES(CLR_COSMOS_TEXT_MAIN)" />
+
+    </VfxControl>
+    </Layout>    
+</VenusXML>
+
+#endif

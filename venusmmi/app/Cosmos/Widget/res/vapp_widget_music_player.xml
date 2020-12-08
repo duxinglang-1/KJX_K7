@@ -1,0 +1,194 @@
+#ifdef __MMI_MAINLCD_480X800__
+<VenusXML>
+    <Layout id="VAPP_WIDGET_MUSIC_PLAYER_LAYOUT_WIDGET">
+    <VfxFrame>
+        <VfxImageFrame name="background" pos="(0, 0)" size="(425, 226)" />
+
+        <VfxControl name="meta_panel" pos="(0, 0)" size="(307, 106)" />
+
+        <VfxImageFrame name="slider_bg" pos="(7, 111)" size="(411, 14)" />
+        <VfxImageFrame name="slider_bar" pos="(7, 111)" size="(411, 14)" />
+
+        <VcpButton name="btn_play" anchor="(0.5, 1.0)" pos="(212, 209)" size="(79, 79)"
+                         image="(@IMG_ID_VAPP_WIDGET_MUSPLY_BTN_PLAY_NORMAL, @IMG_ID_VAPP_WIDGET_MUSPLY_BTN_PLAY_PRESS, @IMG_ID_VAPP_WIDGET_MUSPLY_BTN_PLAY_DISABLE, 0)" />
+        <VcpButton name="btn_prev" anchor="(1.0, 1.0)" pos="(146, 203)" size="(69, 69)"
+                         image="(@IMG_ID_VAPP_WIDGET_MUSPLY_BTN_PREV_NORMAL, @IMG_ID_VAPP_WIDGET_MUSPLY_BTN_PREV_PRESS, @IMG_ID_VAPP_WIDGET_MUSPLY_BTN_PREV_DISABLE, 0)" />
+        <VcpButton name="btn_next" anchor="(0.0, 1.0)" pos="(278, 203)" size="(69, 69)"
+                         image="(@IMG_ID_VAPP_WIDGET_MUSPLY_BTN_NEXT_NORMAL, @IMG_ID_VAPP_WIDGET_MUSPLY_BTN_NEXT_PRESS, @IMG_ID_VAPP_WIDGET_MUSPLY_BTN_NEXT_DISABLE, 0)" />
+
+    </VfxFrame>
+    </Layout>
+
+    <Layout id="VAPP_WIDGET_MUSIC_PLAYER_LAYOUT_LOCK">
+    <VfxFrame>
+        <VfxImageFrame name="background" pos="(0, 0)" size="(466, 226)" />
+        <VfxImageFrame name="background_hide_ctrl" pos="(0, 0)" size="(425, 168)" />
+
+        <VfxControl name="meta_panel" pos="(0, 0)" size="(348, 106)" />
+
+        <VfxTextFrame name="text_show_control" anchor="(0.5,0.5)" pos="(233, 141)"  color="#7F7F7F" text="@STR_ID_VAPP_WIDGET_SHOW_CONTROL"/>
+
+        <VfxImageFrame name="slider_bg" pos="(7, 111)" size="(452, 14)" />
+        <VfxImageFrame name="slider_bar" pos="(7, 111)" size="(452, 14)" />
+
+        <VcpButton name="btn_play" anchor="(0.5, 1.0)" pos="(233, 209)" size="(79, 79)"
+                         image="(@IMG_ID_VAPP_WIDGET_MUSPLY_BTN_PLAY_NORMAL, @IMG_ID_VAPP_WIDGET_MUSPLY_BTN_PLAY_PRESS, @IMG_ID_VAPP_WIDGET_MUSPLY_BTN_PLAY_DISABLE, 0)" />
+        <VcpButton name="btn_prev" anchor="(1.0, 1.0)" pos="(167, 203)" size="(69, 69)"
+                         image="(@IMG_ID_VAPP_WIDGET_MUSPLY_BTN_PREV_NORMAL, @IMG_ID_VAPP_WIDGET_MUSPLY_BTN_PREV_PRESS, @IMG_ID_VAPP_WIDGET_MUSPLY_BTN_PREV_DISABLE, 0)" />
+        <VcpButton name="btn_next" anchor="(0.0, 1.0)" pos="(299, 203)" size="(69, 69)"
+                         image="(@IMG_ID_VAPP_WIDGET_MUSPLY_BTN_NEXT_NORMAL, @IMG_ID_VAPP_WIDGET_MUSPLY_BTN_NEXT_PRESS, @IMG_ID_VAPP_WIDGET_MUSPLY_BTN_NEXT_DISABLE, 0)" />
+    </VfxFrame>
+    </Layout>
+
+    <Layout id="VAPP_WIDGET_MUSIC_PLAYER_LAYOUT_CONTENT">
+    <VfxControl>
+#ifdef __COSMOS_WIDGET_MUSICPLY_COVER_SUPPORT__
+        <VfxImageFrame name="cover_border" pos="(7, 5)" resId="@IMG_ID_VAPP_WIDGET_MUSPLY_COVER_FRAME" />
+        <VfxFrame name="cover_default" pos="(13, 9)" size="(86, 88)" contentPlacement="VFX_FRAME_CONTENT_PLACEMENT_TYPE_RESIZE_ASPECT_FILL" />
+
+        <VfxTextFrame name="text_title" pos="(118, 16)"  size="(307, 36)" color="#FFFFFF"/>
+        <VfxTextFrame name="text_album" pos="(118, 55)"  size="(200, 28)" color="#B1B1B1"/>
+        <VfxTextFrame name="text_artist" pos="(118, 78)" size="(200, 28)" color="#B1B1B1"/>
+#else
+        <VfxTextFrame name="text_title" pos="(10, 16)"  size="(380, 36)" color="#FFFFFF"/>
+        <VfxTextFrame name="text_album" pos="(10, 55)"  size="(380, 28)" color="#B1B1B1"/>
+        <VfxTextFrame name="text_artist" pos="(10, 78)" size="(380, 28)" color="#B1B1B1"/>
+#endif        
+        <VfxTextFrame name="text_duration" anchor="(1.0, 0.0)" pos="(13, 83)" color="#FFFFFF"/>
+
+    </VfxControl>
+    </Layout>
+    
+</VenusXML>
+
+#elif defined(__MMI_MAINLCD_240X320__) || defined(__MMI_MAINLCD_240X400__)
+
+<VenusXML>
+    <Layout id="VAPP_WIDGET_MUSIC_PLAYER_LAYOUT_WIDGET">
+    <VfxFrame>
+        <VfxImageFrame name="background" pos="(0, 0)" size="(212, 114)" />
+
+        <VfxControl name="meta_panel" pos="(0, 0)" size="(212, 56)" />
+
+        <VfxImageFrame name="slider_bg" pos="(7, 56)" size="(198, 10)" />
+        <VfxImageFrame name="slider_bar" pos="(7, 56)" size="(198, 10)" />
+
+        <VcpButton name="btn_play" anchor="(0.5, 0.0)" pos="(106, 68)" size="(41, 41)"
+                         image="(@IMG_ID_VAPP_WIDGET_MUSPLY_BTN_PLAY_NORMAL, @IMG_ID_VAPP_WIDGET_MUSPLY_BTN_PLAY_PRESS, @IMG_ID_VAPP_WIDGET_MUSPLY_BTN_PLAY_DISABLE, 0)" />
+        <VcpButton name="btn_prev" anchor="(1.0, 0.0)" pos="(73, 70)" size="(35, 35)"
+                         image="(@IMG_ID_VAPP_WIDGET_MUSPLY_BTN_PREV_NORMAL, @IMG_ID_VAPP_WIDGET_MUSPLY_BTN_PREV_PRESS, @IMG_ID_VAPP_WIDGET_MUSPLY_BTN_PREV_DISABLE, 0)" />
+        <VcpButton name="btn_next" anchor="(0.0, 0.0)" pos="(139, 70)" size="(35, 35)"
+                         image="(@IMG_ID_VAPP_WIDGET_MUSPLY_BTN_NEXT_NORMAL, @IMG_ID_VAPP_WIDGET_MUSPLY_BTN_NEXT_PRESS, @IMG_ID_VAPP_WIDGET_MUSPLY_BTN_NEXT_DISABLE, 0)" />
+
+    </VfxFrame>
+    </Layout>
+
+    <Layout id="VAPP_WIDGET_MUSIC_PLAYER_LAYOUT_LOCK">
+    <VfxFrame>
+        <VfxImageFrame name="background" pos="(0, 0)" size="(232, 114)" />
+        <VfxImageFrame name="background_hide_ctrl" pos="(0, 0)" size="(232, 85)" />
+
+        <VfxControl name="meta_panel" pos="(0, 0)" size="(232, 56)" />
+
+        <VfxTextFrame name="text_show_control" anchor="(0.5, 0.0)" pos="(116, 68)"  color="#7F7F7F" text="@STR_ID_VAPP_WIDGET_SHOW_CONTROL"/>
+
+        <VfxImageFrame name="slider_bg" pos="(7, 56)" size="(218, 10)" />
+        <VfxImageFrame name="slider_bar" pos="(7, 56)" size="(218, 10)" />
+
+        <VcpButton name="btn_play" anchor="(0.5, 0.0)" pos="(116, 68)" size="(41, 41)"
+                         image="(@IMG_ID_VAPP_WIDGET_MUSPLY_BTN_PLAY_NORMAL, @IMG_ID_VAPP_WIDGET_MUSPLY_BTN_PLAY_PRESS, @IMG_ID_VAPP_WIDGET_MUSPLY_BTN_PLAY_DISABLE, 0)" />
+        <VcpButton name="btn_prev" anchor="(1.0, 0.0)" pos="(83, 70)" size="(35, 35)"
+                         image="(@IMG_ID_VAPP_WIDGET_MUSPLY_BTN_PREV_NORMAL, @IMG_ID_VAPP_WIDGET_MUSPLY_BTN_PREV_PRESS, @IMG_ID_VAPP_WIDGET_MUSPLY_BTN_PREV_DISABLE, 0)" />
+        <VcpButton name="btn_next" anchor="(0.0, 0.0)" pos="(149, 70)" size="(35, 35)"
+                         image="(@IMG_ID_VAPP_WIDGET_MUSPLY_BTN_NEXT_NORMAL, @IMG_ID_VAPP_WIDGET_MUSPLY_BTN_NEXT_PRESS, @IMG_ID_VAPP_WIDGET_MUSPLY_BTN_NEXT_DISABLE, 0)" />
+    </VfxFrame>
+    </Layout>
+
+    <Layout id="VAPP_WIDGET_MUSIC_PLAYER_LAYOUT_CONTENT">
+    <VfxControl>
+#ifdef __COSMOS_WIDGET_MUSICPLY_COVER_SUPPORT__
+        <VfxImageFrame name="cover_border" pos="(3, 4)" resId="@IMG_ID_VAPP_WIDGET_MUSPLY_COVER_FRAME" />
+        <VfxFrame name="cover_default" pos="(8, 7)" size="(42, 42)" contentPlacement="VFX_FRAME_CONTENT_PLACEMENT_TYPE_RESIZE_ASPECT_FILL" />
+
+        <VfxTextFrame name="text_title" pos="(58, 8)"  size="(110, 24)" color="#FFFFFF"/>
+        <VfxTextFrame name="text_album" pos="(58, 27)"  size="(110, 18)" color="#B1B1B1"/>
+        <VfxTextFrame name="text_artist" pos="(58, 40)" size="(110, 18)" color="#B1B1B1"/>
+#else
+        <VfxTextFrame name="text_title" pos="(10, 8)"  size="(130, 24)" color="#FFFFFF"/>
+        <VfxTextFrame name="text_album" pos="(10, 27)"  size="(130, 18)" color="#B1B1B1"/>
+        <VfxTextFrame name="text_artist" pos="(10, 40)" size="(130, 18)" color="#B1B1B1"/>
+#endif
+
+        <VfxTextFrame name="text_duration" anchor="(1.0, 0.0)" pos="(6, 40)" color="#FFFFFF"/>
+
+    </VfxControl>
+    </Layout>
+    
+</VenusXML>
+
+
+#else /* 320x480 */
+
+<VenusXML>
+    <Layout id="VAPP_WIDGET_MUSIC_PLAYER_LAYOUT_WIDGET">
+    <VfxFrame>
+        <VfxImageFrame name="background" pos="(0, 0)" size="(286, 154)" />
+
+        <VfxControl name="meta_panel" pos="(0, 0)" size="(286, 72)" />
+
+        <VfxImageFrame name="slider_bg" pos="(7, 74)" size="(271, 10)" />
+        <VfxImageFrame name="slider_bar" pos="(7, 74)" size="(271, 10)" />
+
+        <VcpButton name="btn_play" anchor="(0.5, 1.0)" pos="(143, 141)" size="(53, 54)"
+                         image="(@IMG_ID_VAPP_WIDGET_MUSPLY_BTN_PLAY_NORMAL, @IMG_ID_VAPP_WIDGET_MUSPLY_BTN_PLAY_PRESS, @IMG_ID_VAPP_WIDGET_MUSPLY_BTN_PLAY_DISABLE, 0)" />
+        <VcpButton name="btn_prev" anchor="(1.0, 1.0)" pos="(93, 137)" size="(47, 47)"
+                         image="(@IMG_ID_VAPP_WIDGET_MUSPLY_BTN_PREV_NORMAL, @IMG_ID_VAPP_WIDGET_MUSPLY_BTN_PREV_PRESS, @IMG_ID_VAPP_WIDGET_MUSPLY_BTN_PREV_DISABLE, 0)" />
+        <VcpButton name="btn_next" anchor="(0.0, 1.0)" pos="(193, 137)" size="(47, 47)"
+                         image="(@IMG_ID_VAPP_WIDGET_MUSPLY_BTN_NEXT_NORMAL, @IMG_ID_VAPP_WIDGET_MUSPLY_BTN_NEXT_PRESS, @IMG_ID_VAPP_WIDGET_MUSPLY_BTN_NEXT_DISABLE, 0)" />
+
+    </VfxFrame>
+    </Layout>
+
+    <Layout id="VAPP_WIDGET_MUSIC_PLAYER_LAYOUT_LOCK">
+    <VfxFrame>
+        <VfxImageFrame name="background" pos="(0, 0)" size="(318, 154)" />
+        <VfxImageFrame name="background_hide_ctrl" pos="(0, 0)" size="(318, 117)" />
+
+        <VfxControl name="meta_panel" pos="(0, 0)" size="(318, 72)" />
+
+        <VfxTextFrame name="text_show_control" anchor="(0.5,0.5)" pos="(159, 96)"  color="#7F7F7F" text="@STR_ID_VAPP_WIDGET_SHOW_CONTROL"/>
+
+        <VfxImageFrame name="slider_bg" pos="(7, 74)" size="(303, 10)" />
+        <VfxImageFrame name="slider_bar" pos="(7, 74)" size="(303, 10)" />
+
+        <VcpButton name="btn_play" anchor="(0.5, 1.0)" pos="(159, 141)" size="(53, 54)"
+                         image="(@IMG_ID_VAPP_WIDGET_MUSPLY_BTN_PLAY_NORMAL, @IMG_ID_VAPP_WIDGET_MUSPLY_BTN_PLAY_PRESS, @IMG_ID_VAPP_WIDGET_MUSPLY_BTN_PLAY_DISABLE, 0)" />
+        <VcpButton name="btn_prev" anchor="(1.0, 1.0)" pos="(109, 137)" size="(47, 47)"
+                         image="(@IMG_ID_VAPP_WIDGET_MUSPLY_BTN_PREV_NORMAL, @IMG_ID_VAPP_WIDGET_MUSPLY_BTN_PREV_PRESS, @IMG_ID_VAPP_WIDGET_MUSPLY_BTN_PREV_DISABLE, 0)" />
+        <VcpButton name="btn_next" anchor="(0.0, 1.0)" pos="(209, 137)" size="(47, 47)"
+                         image="(@IMG_ID_VAPP_WIDGET_MUSPLY_BTN_NEXT_NORMAL, @IMG_ID_VAPP_WIDGET_MUSPLY_BTN_NEXT_PRESS, @IMG_ID_VAPP_WIDGET_MUSPLY_BTN_NEXT_DISABLE, 0)" />
+    </VfxFrame>
+    </Layout>
+
+    <Layout id="VAPP_WIDGET_MUSIC_PLAYER_LAYOUT_CONTENT">
+    <VfxControl>
+#ifdef __COSMOS_WIDGET_MUSICPLY_COVER_SUPPORT__
+        <VfxImageFrame name="cover_border" pos="(6, 4)" resId="@IMG_ID_VAPP_WIDGET_MUSPLY_COVER_FRAME" />
+        <VfxFrame name="cover_default" pos="(10, 7)" size="(59, 59)" contentPlacement="VFX_FRAME_CONTENT_PLACEMENT_TYPE_RESIZE_ASPECT_FILL" />
+
+        <VfxTextFrame name="text_title" pos="(81, 8)"  size="(100, 24)" color="#FFFFFF"/>
+        <VfxTextFrame name="text_album" pos="(81, 34)"  size="(100, 18)" color="#B1B1B1"/>
+        <VfxTextFrame name="text_artist" pos="(81, 52)" size="(100, 18)" color="#B1B1B1"/>
+#else
+        <VfxTextFrame name="text_title" pos="(10, 8)"  size="(230, 24)" color="#FFFFFF"/>
+        <VfxTextFrame name="text_album" pos="(10, 34)"  size="(230, 18)" color="#B1B1B1"/>
+        <VfxTextFrame name="text_artist" pos="(10, 52)" size="(230, 18)" color="#B1B1B1"/>
+#endif
+
+        <VfxTextFrame name="text_duration" anchor="(1.0, 0.0)" pos="(11, 54)" color="#FFFFFF"/>
+
+    </VfxControl>
+    </Layout>
+    
+</VenusXML>
+#endif

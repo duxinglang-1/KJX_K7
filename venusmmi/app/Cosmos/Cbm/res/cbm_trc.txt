@@ -1,0 +1,7 @@
+[APP NAME] = VAPP_CBM
+[SCOPE] = COSMOS
+[MODULE] = MOD_MMI_CONN_APP
+
+# VAPP CBM
+TRC_MSG(TRC_VAPP_CBM_WLAN_SCAN_CALLBACK, "[CbmApp] WLAN scan callback, result[%d], ap_num[%d], wait[%d], query_type[%d].")
+

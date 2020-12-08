@@ -1,0 +1,8 @@
+<VenusXML>
+  <Layout id="VAPP_CALCULATOR_LAYOUT">
+    <VfxPage> 
+      <VfxTextFrame text="Calculator from XML!" />
+    </VfxPage>
+  </Layout>
+</VenusXML>
+

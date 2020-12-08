@@ -1,0 +1,44 @@
+[APP NAME] = vapp alarm
+[SCOPE] = COSMOS
+[MODULE] = MOD_MMI_COMMON_APP
+
+#start trace
+#vapp_alarm_bootup_init.cpp
+TRC_MSG(VAPP_ALM_BOOTUP_INITS,"[VappAlmBootup.c]vapp_alarm_bootup_init_apps()")
+TRC_MSG(VAPP_ALM_BOOTUP_START,"[VappAlmBootup.c]vapp_alarm_bootup_start()")
+
+#vapp_alarm.cpp
+TRC_MSG(VAPP_ALM_REMINDER, "[VappAlm.c]VappAlarmApp::onReminderEvt(evtid=%d, type=%d, notify=%d)")
+TRC_MSG(VAPP_ALM_PWR_ASK, "[VappAlm.c]VappAlarmApp::onPwroffAsk()mode=%d")
+TRC_MSG(VAPP_ALM_FMGR_FMT,"[VappAlm.c]VappAlarmApp::onFmgrEvtFormat()line=%d")
+TRC_MSG(VAPP_ALM_FMGR_ADV,"[VappAlm.c]VappAlarmApp::onFmgrEvtAdv()line=%d")
+TRC_MSG(VAPP_ALM_NMGR, 	 	"[VappAlm.c]VappAlarmApp::onNmgrNotify()")
+TRC_MSG(VAPP_ALM_GET_LIST, 	 "[VappAlm.c]VappAlarmApp::getAlmList(count=%d) ret=%d")
+TRC_MSG(VAPP_ALM_GET_RECENT, "[VappAlm.c]VappAlarmApp::getRecentAlm(), count=%d, list[0]=%d, ret=%d")
+
+#vapp_alarm_indication.cpp
+TRC_MSG(VAPP_ALM_IND_INIT, 	 			"[VappAlmInd.c]VappAlarmIndicationPopup::onInit()index=%d")
+TRC_MSG(VAPP_ALM_IND_DEINIT, 			"[VappAlmInd.c]VappAlarmIndicationPopup::onDeinit()")
+TRC_MSG(VAPP_ALM_IND_BTN_CLICK, 			"[VappAlmInd.c]VappAlarmIndicationPopup::onBtnClick(%d)")
+TRC_MSG(VAPP_ALM_IND_BTN_CLICK_SNOOZE, 			"[VappAlmInd.c]VappAlarmIndicationPopup::onBtnClick(SNOOZE), snooze=%d")
+TRC_MSG(VAPP_ALM_IND_PLAY_TONE, 	 "[VappAlmInd.c]VappAlarmIndicationPopup::onPlayTone(%d)")
+TRC_MSG(VAPP_ALM_IND_PLAY_TONE_CB, "[VappAlmInd.c]VappAlarmIndicationPopup::onPlayToneCallback(%d)")
+TRC_MSG(VAPP_ALM_IND_PLAY_VIB, "[VappAlmInd.c]VappAlarmIndicationPopup::onPlayVib(%d)")
+TRC_MSG(VAPP_ALM_IND_ON_TIME, "[VappAlmInd.c]VappAlarmIndicationPopup::onTimeChanged(%d/%d/%d-%d:%d:%d)")
+TRC_MSG(VAPP_ALM_IND_ON_EVT, "[VappAlmInd.c]VappAlarmCard::onEvtHdlr(%d)")
+TRC_MSG(VAPP_ALM_IND_POP_ON_EVT,"[VappAlarmInd.c]VappAlarmIndicationPopup::onEvtHdlr(%d)")
+
+#vapp_alarm_list.cpp
+TRC_MSG(VAPP_ALM_LIST_SET_RECENT, "[VappAlmList.c]VappAlarmRecentFrame::setIndex(%d)")
+TRC_MSG(VAPP_ALM_LIST_UPDATE_RECENT, "[VappAlmList.c]VappAlarmRecentFrame::update(),m_activeAlm=%d")
+TRC_MSG(VAPP_ALM_LIST_ON_BACK, 	  "[VappAlmList.c]VappAlarmlistPage::onBack(),%d")
+TRC_MSG(VAPP_ALM_LIST_ON_TOOLBAR, "[VappAlmList.c]VappAlarmlistPage::onToolbarClick(id=%d)")
+TRC_MSG(VAPP_ALM_LIST_ON_CHANGEMODE, "[VappAlmList.c]VappAlarmlistPage::changeMode(%d)")
+TRC_MSG(VAPP_ALM_LIST_ON_TAP, "[VappAlmList.c]VappAlarmlistPage::onListItemTap(%d)")
+TRC_MSG(VAPP_ALM_LIST_ON_SWITCH, "[VappAlmList.c]VappAlarmlistPage::onListItemSwitch(%d,%d)")
+TRC_MSG(VAPP_ALM_LIST_ON_TIME, "[VappAlmList.c]VappAlarmlistPage::onTimeChanged()")
+TRC_MSG(VAPP_ALM_LIST_ON_EDIT_DONE, "[VappAlmList.c]VappAlarmlistPage::onEditDone(%d)")
+TRC_MSG(VAPP_ALM_LIST_ON_DEL_DONE, "[VappAlmList.c]VappAlarmlistPage::onDeleteDone()")
+TRC_MSG(VAPP_ALM_LIST_ON_DEL_TOOLBAR, "[VappAlmList.c]VappAlarmlistPage::onDelToolbarClick(%d)")
+TRC_MSG(VAPP_ALM_LIST_ON_SEL_CHANGE, "[VappAlmList.c]VappAlarmlistPage::onSelChange(,%d)")
+TRC_MSG(VAPP_ALM_LIST_ON_DEL_CMD, "[VappAlmList.c]VappAlarmlistPage::onDelCmdCallback(,%d)")

@@ -1,0 +1,48 @@
+[APP NAME] = NCenter
+[SCOPE] = PLUTO, COSMOS
+[MODULE] = MOD_MMI_COMMON_APP
+
+#start trace
+
+
+#VappNCenter
+TRC_MSG(TRC_VAPP_NCENTER_REQUEST_LEAVE, "[VappNCenter] requestLeave: noti=%x, gid=%d, nid=%d, ntype=%d")
+TRC_MSG(TRC_VAPP_NCENTER_ENTER, "[VappNCenter] enter")
+TRC_MSG(TRC_VAPP_NCENTER_LEAVE, "[VappNCenter] leave")
+TRC_MSG(TRC_VAPP_NCENTER_LEAVE_INTERNAL, "[VappNCenter] leaveInternal")
+TRC_MSG(TRC_VAPP_NCENTER_LEAVE_INTERNAL_EX, "[VappNCenter] leaveInternalEx")
+TRC_MSG(TRC_VAPP_NCENTER_ON_LEAVE_END, "[VappNCenter] onLeaveEnd")
+TRC_MSG(TRC_VAPP_NCENTER_ON_EVENT_CLEAR_ALL, "[VappNCenter] onEventClearAll")
+TRC_MSG(TRC_VAPP_NCENTER_CHECK_NOTIFICATION, "[VappNCenter] checkNotification: noti=%x, gid=%d, nid=%d, ntype=%d, nstable=%d, result=%d")
+TRC_MSG(TRC_VAPP_NCENTER_CREATE_CONTENT, "[VappNCenter] createContent: vid=%d")
+TRC_MSG(TRC_VAPP_NCENTER_CLOSE_CONTENT, "[VappNCenter] closeContent: vid=%d")
+TRC_MSG(TRC_VAPP_NCENTER_ON_SCREEN_CHANGED, "[VappNCenter] onScreenChanged Hidden=%d")
+TRC_MSG(TRC_VAPP_NCENTER_AFTER_REQUEST_LEAVE, "[VappNCenter] callbackNoti=%x, AL=%d, ACAL=%d, ACARL=%d")
+TRC_MSG(TRC_VAPP_NCENTER_CREATE_CELL, "[VappNCenter] createCell: noti=%x, gid=%d, nid=%d, ntype=%d, refId=%x, addBeforeRef=%d")
+TRC_MSG(TRC_VAPP_NCENTER_CLOSE_CELL, "[VappNCenter] closeCell: noti=%x, gid=%d, nid=%d, ntype=%d")
+TRC_MSG(TRC_VAPP_NCENTER_CELL_COUNT, "[VappNCenter] cellCount: event=%d, ongoing=%d")
+TRC_MSG(TRC_VAPP_NCENTER_CREATE_HEADER, "[VappNCenter] createHeader: ngroup=%x, gid=%d, gtype=%d")
+TRC_MSG(TRC_VAPP_NCENTER_CLOSE_HEADER, "[VappNCenter] closeHeader: ngroup=%x, gid=%d, gtype=%d")
+TRC_MSG(TRC_VAPP_NCENTER_NOTI_CHANGED, "[VappNCenter] onNotiChanged: noti=%x, type=%d")
+TRC_MSG(TRC_VAPP_NCENTER_NOTI_CHANGED_CREATE, "[VappNCenter] onNotiChanged create")
+TRC_MSG(TRC_VAPP_NCENTER_NOTI_CHANGED_REFRESH, "[VappNCenter] onNotiChanged refresh")
+
+#VsrvNCenter
+
+TRC_MSG(TRC_VSRV_NCENTER_BROADCAST, "[VsrvNCenter] broadcast: noti=%x, gid=%d, nid=%d, ntype=%d, type=%d")
+TRC_MSG(TRC_VSRV_NCENTER_INIT_NGROUP, "[VsrvNCenter] initNGroup: ngroup=%x, gid=%d, gtype=%d")
+TRC_MSG(TRC_VSRV_NCENTER_DEINIT_NGROUP, "[VsrvNCenter] deinitNGroup: ngroup=%x, gid=%d, gtype=%d")
+TRC_MSG(TRC_VSRV_NCENTER_INIT_NOTI, "[VsrvNCenter] initNoti: noti=%x, gid=%d, nid=%d, ntype=%d")
+TRC_MSG(TRC_VSRV_NCENTER_DEINIT_NOTI, "[VsrvNCenter] deinitNoti: noti=%x, gid=%d, nid=%d, ntype=%d")
+TRC_MSG(TRC_VSRV_NCENTER_OOM, "[VsrvNCenter] OOM: noti=%x, gid=%d, nid=%d, ntype=%d")
+TRC_MSG(TRC_VSRV_NCENTER_SEND_INTENT_NOTI, "[VsrvNCenter] sendIntentNoti: viewer=%d, intent=%d, noti=%x")
+TRC_MSG(TRC_VSRV_NCENTER_SEND_INTENT_NTYPE, "[VsrvNCenter] sendIntentNType: viewer=%d, intent=%d, ntype=%d")
+
+
+#vapp_ncenter_quick_setting.cpp
+TRC_MSG(TRC_VAPP_NCENTER_AFTER_STOP_TETHERING, "[QSETTING] enter VappQuickSettingCell::afterStopTethering()")
+TRC_MSG(TRC_VAPP_NCENTER_ON_USER_CLICKED, "[QSETTING] enter VappQuickSettingCell::onUserClicked(Id = %d)")
+TRC_MSG(TRC_VAPP_NCENTER_SET_INDICATOR, "[QSETTING] enter VappQuickSettingElement::setIndicator(aIndicatorCont = %d)")
+TRC_MSG(TRC_VAPP_NCENTER_INCREASE_INDICATOR, "[QSETTING] enter VappQuickSettingElement::increaseIndicator()")
+TRC_MSG(TRC_VAPP_NCENTER_DECREASE_INDICATOR, "[QSETTING] enter VappQuickSettingCell::decreaseIndicator()")
+TRC_MSG(WIFI_CURRENT_NOT_AVAILABLE, "[QSETTING] WIFI is not available currently")

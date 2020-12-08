@@ -1,0 +1,9 @@
+[APP NAME] = VAPP_UPGRADE
+[SCOPE] = COSMOS
+[MODULE] = MOD_MMI_INET_APP
+
+#start trace
+TRC_MSG(TRC_MMI_VAPP_UPGRADE_REQ,                 "[VappUpgrade]recevie request, (type:%d, count:%d, total:%d)")
+TRC_MSG(TRC_MMI_VAPP_UPGRADE_START,               "[VappUpgrade]start to upgrade, (type:%d, total:%d)")
+TRC_MSG(TRC_MMI_VAPP_UPGRADE_CANCEL,              "[VappUpgrade]cancel upgrade, (type:%d, total:%d)")
+TRC_MSG(TRC_MMI_VAPP_UPGRADE_RESET,               "[VappUpgrade]reset count, (total:%d)")

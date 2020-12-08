@@ -1,0 +1,9 @@
+#ifndef _MMI_TRC_GEN_H_
+#define _MMI_TRC_GEN_H_
+
+// MMI_BUFFER_TRACE
+#define MMI_BUFFER_TRACE_size ""
+#define MMI_BUFFER_TRACE MMI_BUFFER_TRACE__enum,MMI_BUFFER_TRACE_size
+
+
+#endif // MMI_TRC_GEN.H

@@ -1,0 +1,20 @@
+[APP NAME] = ScreenLock
+[SCOPE] = COSMOS
+[MODULE] = MOD_MMI_COMMON_APP
+
+#start trace
+
+TRC_MSG(TRC_VAPP_SCREEN_LOCK_PAGE_ON_INIT, "[SCREEN_LOCK] VappScreenLockPage::onInit, trace: %d")
+TRC_MSG(TRC_VAPP_SCREEN_LOCK_PAGE_INIT_WALLPAPER, "[SCREEN_LOCK] VappScreenLockPage::initWallpaper, id: %d, trace: %d")
+TRC_MSG(TRC_VAPP_SCREEN_LOCK_PAGE_PRE_KEY_HANDLER, "[SCREEN_LOCK] VappScreenLockPage::preKeyHandler, key_code: %d, trace: %d")
+TRC_MSG(TRC_VAPP_SCREEN_LOCK_FRAME_NOTIFY_UNLOCK, "[SCREEN_LOCK] VappScreenLockFrame::notifyUnlock, trace: %d")
+TRC_MSG(TRC_VAPP_SCREEN_LOCK_CALL_CARD_ON_UNLOCKED, "[SCREEN_LOCK] VappScreenLockCallCard::onUnlocked, trace: %d")
+TRC_MSG(TRC_VAPP_SCREEN_LOCK_MSG_CARD_ON_UNLOCKED, "[SCREEN_LOCK] VappScreenLockMsgCard::onUnlocked, trace: %d")
+TRC_MSG(TRC_VAPP_SCREEN_LOCK_MSG_CARD_GET_UNREAD_MSG_NUM, "[SCREEN_LOCK] VappScreenLockMsgCard::getUnreadMsgNum, count: %d, trace: %d")
+TRC_MSG(TRC_VAPP_SCREEN_LOCK_UNLOCK_CARD_ON_UNLOCKED, "[SCREEN_LOCK] VappScreenLockUnlockCard::onUnlocked, trace: %d")
+TRC_MSG(TRC_VAPP_SCREEN_LOCK_PAGE_SWITCH_MEDIA_CONTROL_PANEL, "[SCREEN_LOCK] VappScreenLockPage::switchMediaControlPanel, isHidden: %d, trace: %d")
+TRC_MSG(TRC_VAPP_SCREEN_LOCK_MSG_CARD_UPDATE_MSG_NUMBER, "[SCREEN_LOCK] VappScreenLockMsgCard::updateMsgNum, um_ready: %d, unread_num: %d, trace: %d")
+TRC_MSG(TRC_VAPP_SCREEN_LOCK_MSG_CARD_EVENT_HANDLER, "[SCREEN_LOCK] VappScreenLockMsgCard::eventHandler, event_id: %d, trace: %d")
+TRC_MSG(TRC_VAPP_SCREEN_LOCK_PAGE_ON_UNLOCK_HANDLER, "[SCREEN_LOCK] VappScreenLockPage::onUnlockHandler, trace: %d")
+TRC_MSG(TRC_VAPP_SCREEN_LOCK_FRAME_NOTIFY_BUBBLE_EXPLODE, "[SCREEN_LOCK] VappScreenLockFrame::notifyBubbleExplode, trace: %d")
+TRC_MSG(TRC_VAPP_SCREEN_LOCK_ROTATE_DIFF, "[SCREEN_LOCK] Vapp_screen_lock_frame, tDiff: %d, xDiff: %d , yDiff: %d")

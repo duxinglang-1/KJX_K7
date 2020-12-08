@@ -1,0 +1,22 @@
+[APP NAME] = Cosmos Sound Recorder App
+[SCOPE] = PLUTO, COSMOS
+[MODULE] = MOD_MMI_MEDIA_APP
+
+#start trace
+TRC_MSG(TRC_VAPP_SOUNDREC_SLIM_RECPAGE_UPDATE_TIMER, "[SOUNDREC] VappSoundRecorderRecordPage::onUpdateTimerExpir() State=[%d]")
+TRC_MSG(TRC_VAPP_SOUNDREC_SLIM_RECPAGE_UPDATE_TIMER_GET_TIME, "[SOUNDREC] VappSoundRecorderRecordPage::onUpdateTimerExpir() Rec Time=[%d]")
+TRC_MSG(TRC_VAPP_SOUNDREC_SLIM_RECPAGE_UPDATE_REMAIN_TIME, "[SOUNDREC] VappSoundRecorderRecordPage::updateRemainTimeText() forceUpdate=[%d]")
+TRC_MSG(TRC_VAPP_SOUNDREC_SLIM_RECPAGE_RECCALLBACK, "[SOUNDREC] VappSoundRecorderRecordPage::recordCallbackHdlr(), result=[%d]")
+TRC_MSG(TRC_VAPP_SOUNDREC_SLIM_RECPAGE_UPDATE_FREE_SPACE, "[SOUNDREC] VappSoundRecorderRecordPage::updateFreeSpaceTimeText(), remain_time=[%d]")
+TRC_MSG(TRC_VAPP_SOUNDREC_SLIM_FILELIST_CREATE, "[SOUNDREC] VappSoundRecorderFileList::createList(), create list = [%d]")
+TRC_MSG(TRC_VAPP_SOUNDREC_SLIM_FILELIST_CREATE_1, "[SOUNDREC] VappSoundRecorderFileList::createList(), refresh = [%d]")
+TRC_MSG(TRC_VAPP_SOUNDREC_SLIM_FILELIST_IS_LOADING, "[SOUNDREC] VappSoundRecorderFileList::isLoading(), handle=[%d], state=[%d]")
+TRC_MSG(TRC_VAPP_SOUNDREC_SLIM_VADP_REC_START, "[SOUNDREC] vadp_soundrec_rec_start(), result=[%d]")
+TRC_MSG(TRC_VAPP_SOUNDREC_SLIM_VADP_REC_PAUSE, "[SOUNDREC] vadp_soundrec_rec_pause(), result=[%d]")
+TRC_MSG(TRC_VAPP_SOUNDREC_SLIM_VADP_REC_RESUME, "[SOUNDREC] vadp_soundrec_rec_resume(), result=[%d]")
+TRC_MSG(TRC_VAPP_SOUNDREC_SLIM_VADP_REC_STOP, "[SOUNDREC] vadp_soundrec_rec_stop(), result=[%d]")
+TRC_MSG(TRC_VAPP_SOUNDREC_SLIM_RECPAGE_SET_STORAGE_TYPE, "[SOUNDREC] VappSoundRecorderRecordPage::setStorageType(), storageType=[%d]") 
+TRC_MSG(TRC_VAPP_SOUNDREC_SLIM_RECPAGE_SELECT_STORAGE_POPUP, "[SOUNDREC] VappSoundRecorderRecordPage::selectStoragePopup(), storageType=[%d]") 
+TRC_MSG(TRC_VAPP_SOUNDREC_SLIM_RECPAGE_ON_STORAGE_SELECTED, "[SOUNDREC] VappSoundRecorderRecordPage::onStorageSelected(), event=[%d], item->getId()=[%d]") 
+TRC_MSG(TRC_VAPP_SOUNDREC_SLIM_RECPAGE_SHOW_DEFAULT_STORAGE_POPUP, "[SOUNDREC] VappSoundRecorderRecordPage::showDefaultStoragePopup()") 
+TRC_MSG(TRC_VAPP_SOUNDREC_SLIM_RECPAGE_ON_DEFAULT_STORAGE_CONFIRM, "[SOUNDREC] VappSoundRecorderRecordPage::onDefaultStorageConfirm(), id=[%d]") 

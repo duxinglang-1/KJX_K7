@@ -1,0 +1,7 @@
+[OWNER] = CH Ko
+[APP NAME] = Screen Lock System
+[SCOPE] = PLUTO, COSMOS
+[MODULE] = MOD_MMI_COMMON_APP
+
+#start trace
+TRC_MSG(TRC_VAPP_SCREEN_LOCK_SYSTEM_INIT,         "[ScreenLock][System] init, trace: %d")

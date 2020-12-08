@@ -1,0 +1,17 @@
+[APP NAME] = KeyLauncher
+[SCOPE] = PLUTO,COSMOS
+[MODULE] = MOD_MMI_COMMON_APP
+
+#start trace
+TRC_MSG(TRC_VAPP_KEY_WG_FM_GET_STATE,			                  "[WG-FM] VappWidgetKeyFMRadioPanel::getState state:%d")
+TRC_MSG(TRC_VAPP_KEY_WG_FM_STOPCT,                          "[WG-FM] VappWidgetKeyFMRadioPanel::stopCurTimer is_start:%d")
+TRC_MSG(TRC_VAPP_KEY_WG_FM_STARTCT,                         "[WG-FM] VappWidgetKeyFMRadioPanel::startCurTimer is_start:%d")
+TRC_MSG(TRC_VAPP_KEY_WG_FM_LTIMERTICK,                      "[WG-FM] VappWidgetKeyFMRadioPanel::onLongPTClick is_next:%d, is_prev:%d, is_longStart:%d")
+TRC_MSG(TRC_VAPP_KEY_WG_FM_STARTLCT,                        "[WG-FM] VappWidgetKeyFMRadioPanel::startLPTimer is_longstart:%d")
+TRC_MSG(TRC_VAPP_KEY_WG_FM_STOPLCT,                         "[WG-FM] VappWidgetKeyFMRadioPanel::stopLPTimer is_longstart:%d")
+TRC_MSG(TRC_VAPP_KEY_WG_FM_SEARCH_CALLBACK,                 "[WG-FM] VappWidgetKeyFMRadioPanel::fmRadioSearchCallback")
+TRC_MSG(TRC_VAPP_KEY_WG_FM_POWER_CALLBACK,                  "[WG-FM] VappWidgetKeyFMRadioPanel::fmRadioPowerCallback")
+TRC_MSG(TRC_VAPP_KEY_WG_FM_GET_FREG,                        "[WG_FM] Vapp...Panel::getCurFreq freq:%d")
+TRC_MSG(TRC_VAPP_KEY_WG_FM_SET_FREG,                        "[WG_FM] Vapp...Panel::setFreq freq:%d")
+TRC_MSG(TRC_VAPP_KEY_WG_FM_KEY_TYPE,                        "[WG_FM] Vapp...Panel::onKeyInput type:%d, keycode:%d, m_State:%d,is_next:%d, is_prev:%d")
+TRC_MSG(TRC_VAPP_KEY_WG_FM_PEN_TYPE,                        "[WG_FM] Vapp...Panel::onPenInput type:%d, m_State:%d,is_next:%d, is_prev:%d, is_power:%d")    

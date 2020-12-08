@@ -1,0 +1,36 @@
+[OWNER] = CH Ko
+[APP NAME] = Home
+[SCOPE] = COSMOS
+[MODULE] = MOD_MMI_COMMON_APP
+
+#start trace
+TRC_MSG(TRC_VAPP_LAUNCHER_ROBOT_LAUNCH,                           "[Home] ***** launch home screen *****")
+TRC_MSG(TRC_VAPP_LAUNCHER_ROBOT_EMIT_EVENT_ACTIVE,                "[Home] Emit 'active' event")
+TRC_MSG(TRC_VAPP_LAUNCHER_ROBOT_EMIT_EVENT_INACTIVE,              "[Home] Emit 'inactive' event")
+TRC_MSG(TRC_VAPP_LAUNCHER_ROBOT_DIRECTOR_ON_INIT,                 "[Home][Director] onInit, trace: %d")
+TRC_MSG(TRC_VAPP_LAUNCHER_ROBOT_DIRECTOR_ON_DEINIT,               "[Home][Director] onDeinit, trace: %d")
+TRC_MSG(TRC_VAPP_LAUNCHER_ROBOT_DIRECTOR_ON_APP_ACTIVE,           "[Home][Director] onAppActive, trace: %d")
+TRC_MSG(TRC_VAPP_LAUNCHER_ROBOT_DIRECTOR_ON_APP_INACTIVE,         "[Home][Director] onAppInactive, trace: %d")
+TRC_MSG(TRC_VAPP_LAUNCHER_ROBOT_DIRECTOR_ON_ENTER,                "[Home][Director] onEnter, trace: %d")
+TRC_MSG(TRC_VAPP_LAUNCHER_ROBOT_DIRECTOR_ON_EXIT,                 "[Home][Director] onExit, trace: %d")
+TRC_MSG(TRC_VAPP_LAUNCHER_ROBOT_DIRECTOR_ON_ENTERED,              "[Home][Director] onEntered, trace: %d")
+TRC_MSG(TRC_VAPP_LAUNCHER_ROBOT_DIRECTOR_ON_EXITED,               "[Home][Director] onExited, trace: %d")
+TRC_MSG(TRC_VAPP_LAUNCHER_ROBOT_DIRECTOR_ON_PREVIEW_PEN_INPUT,    "[Home][Director] onPreviewPenInput, type: %c, pos(%d, %d)")
+TRC_MSG(TRC_VAPP_LAUNCHER_ROBOT_DIRECTOR_ON_PEN_INPUT,            "[Home][Director] onPenInput, type: %c, pos(%d, %d)")
+TRC_MSG(TRC_VAPP_LAUNCHER_ROBOT_DIRECTOR_CAPTURE,                 "[Home][Director] *** capture pen event ***")
+TRC_MSG(TRC_VAPP_LAUNCHER_ROBOT_DIRECTOR_ON_WALLPAPER_CHANGED,    "[Home][Director] onWallpaperChanged, trace: %d")
+TRC_MSG(TRC_VAPP_LAUNCHER_ROBOT_DIRECTOR_RELEASE_WALLPAPER,       "[Home][Director] releaseWallpaper, trace: %d")
+TRC_MSG(TRC_VAPP_LAUNCHER_ROBOT_DIRECTOR_CREATE_WALLPAPER_EXT,    "[Home][Director] createWallpaperExt, delayTime: %d, trace: %d")
+TRC_MSG(TRC_VAPP_LAUNCHER_ROBOT_DIRECTOR_ON_2ND_PASS_LOADER,      "[Home][Director] on2ndPassLoader, trace: %d")
+TRC_MSG(TRC_VAPP_LAUNCHER_ROBOT_DIRECTOR_ON_2ND_PASS_DEINIT,      "[Home][Director] on2ndPassDeinit, trace: %d")
+TRC_MSG(TRC_VAPP_LAUNCHER_ROBOT_DESKTOP_DO_PEN_INPUT,             "[Home][Desktop] doPenInput, type: %c, time: %d, pos(%d, %d)")
+TRC_MSG(TRC_VAPP_LAUNCHER_ROBOT_DESKTOP_QUICK_SWIPE,              "[Home][Desktop] *** Swipe quickly, x-diff: %d, t-diff: %d ***")
+TRC_MSG(TRC_VAPP_LAUNCHER_ROBOT_DESKTOP_NORMAL_SWIPE,             "[Home][Desktop] *** Swipe normally, x-diff: %d, t-diff: %d ***")
+TRC_MSG(TRC_VAPP_LAUNCHER_ROBOT_DIRECTOR_ON_PEN_DOWN_TIMER_TICK,  "[Home][Director] onPenDownTimerTick, trace: %d")
+TRC_MSG(TRC_VAPP_LAUNCHER_ROBOT_DESKTOP_UPDATE_DUMMY_NODE_POS_X,  "[Home][Desktop] updateDummyNodePosX, trace: %d")
+TRC_MSG(TRC_VAPP_LAUNCHER_ROBOT_DESKTOP_FPE_CALLBACK,  "[Home][Desktop] framePropertyEffectCallback, &m_transition: 0x%x, curDesktopBounds: %d, curDummyPos:%d, targetPos:%d, trace: %d")
+TRC_MSG(TRC_VAPP_LAUNCHER_ROBOT_DESKTOP_CREATE_TRANSITION_EFFECT,  "[Home][Desktop] createTransitionEffect, &m_transition: 0x%x, trace: %d")
+TRC_MSG(TRC_VAPP_LAUNCHER_ROBOT_DESKTOP_SETUP_TRANSITION_EFFECT,  "[Home][Desktop] setupTransitionEffect, trace: %d")
+TRC_MSG(TRC_VAPP_LAUNCHER_ROBOT_DESKTOP_UPDATE_TRANSITION_EFFECT,  "[Home][Desktop] updateTransitionEffect, trace: %d")
+TRC_MSG(TRC_VAPP_LAUNCHER_ROBOT_DESKTOP_SLIDE_WITH_FANTASTIC_EFFECT,  "[Home][Desktop] slideWithFantasticEffect, trace: %d")
+

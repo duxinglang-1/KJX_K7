@@ -1,0 +1,11 @@
+
+/******************************ERROR LOG FOR STMT********************************/ 
+
+
+FileName: T:\Issue\MT6276V2_EVB_HSPA(COSMOS_MATV).W11.10\mcu\venusmmi\app\Cosmos\ATV\res\ref_list_atv.txt
+
+The Following ENUM(s) Couldn't Be Loaded Properly:
+
+Enum Value                             Item No.In Grid
+------------------------------------------------------
+

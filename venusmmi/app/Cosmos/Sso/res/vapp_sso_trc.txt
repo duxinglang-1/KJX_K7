@@ -1,0 +1,18 @@
+[APP NAME] = VAPP_SSO
+[SCOPE] = COSMOS
+[MODULE] = MOD_MMI_INET_APP
+
+#start trace
+TRC_MSG(TRC_MMI_VAPP_SSO_d9297b4e495542ceb351a112022cd9c0,              "[VappSSO] Contacts backup (%d, %d, %d, %d)")
+TRC_MSG(TRC_MMI_VAPP_SSO_52eecb35d4524d0290f3e7334f1e87c7,              "[VappSSO] Contacts restore (%d, %d, %d, %d)")
+TRC_MSG(TRC_MMI_VAPP_SSO_b1fd1b5d34c9445f85b891afbede7edd,              "[VappSSO] SMS backup (%d, %d, %d, %d)")
+TRC_MSG(TRC_MMI_VAPP_SSO_a084df4b549846a685024e494fc88078,              "[VappSSO] SMS restore (%d, %d, %d, %d)")
+TRC_MSG(TRC_MMI_VAPP_SSO_c67db25d34664584b931aa3a4c6689b5,              "[VappSSO] Cancel backup or restore")
+TRC_MSG(TRC_MMI_VAPP_SSO_10ebfaa16aeb4b479d7a27a3d576d5e7,              "[VappSSO] Alloc ASM for cloud service, (%d, %d)")
+TRC_MSG(TRC_MMI_VAPP_SSO_abc8d61cceed464a802d3f4ebc64b937,              "[VappSSO] Free ASM for cloud service, (%d)")
+TRC_MSG(TRC_MMI_VAPP_SSO_4ddd93cb669348898ca049e24d9632a9,              "[VappSSO] Backup and restore page onDeinit")
+TRC_MSG(TRC_MMI_VAPP_SSO_434fcb37a3954c649a606a505a6d6809,              "[VappSSO] Leave because mass storage mode")
+TRC_MSG(TRC_MMI_VAPP_SSO_ee426a0ec141409da85ed000328424aa,              "[VappSSO] Leave because plug out")
+TRC_MSG(TRC_MMI_VAPP_SSO_7b0cd8f126af4117bc86bd3b0aa126eb,              "[VappSSO] Leave because sso not ready")
+TRC_MSG(TRC_MMI_VAPP_SSO_7b6ff5cb18ef43068245cbf998ca7ad2,              "[VappSSO] Refresh accounts list, sso: %d")
+TRC_MSG(TRC_MMI_VAPP_SSO_694dbd1b11d54306ae7a3036975e9734,              "[VappSSO] Upgrade %d")

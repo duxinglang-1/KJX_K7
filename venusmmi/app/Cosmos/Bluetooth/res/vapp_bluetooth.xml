@@ -1,0 +1,8 @@
+<VenusXML>
+  <Layout id="APP_BT_SETTING_LAYOUT_1">
+    <VfxPage>
+      <VfxTextFrame text="Hello world from XML!" />
+    </VfxPage>
+  </Layout>
+</VenusXML>
+

@@ -1,0 +1,24 @@
+[APP_NAME] = ImageFlow
+[MODULE] = MOD_MMI_MEDIA_APP
+[SCOPE] = PLUTO
+
+TRC_MSG(VAPP_TRACE_IMAGEFLOW_DURATION, "[IMGFL][Perf]Line: %d. Duration: %d")
+TRC_MSG(VAPP_TRACE_IMAGEFLOW_INFO_STATE_CHANGE, "[IMGFL][INFO]State change from %d to %d at Line:%d ")
+TRC_MSG(VAPP_TRACE_IMAGEFLOW_FETCH_RAW_DATA, "[IMGFL][STEP_2]ListSRV fatch raw data. index: %d. result:%d. size:%d ")
+TRC_MSG(VAPP_TRACE_IMAGEFLOW_GET_DIMENSION, "[IMGFL][INFO]get image dimension. ret: %d. w:%d. h:%d ")
+TRC_MSG(VAPP_TRACE_IMAGEFLOW_BEGIN_TO_DECODE, "[IMGFL][STEP_3]Begin to decode. index: %d. result:%d ")
+TRC_MSG(VAPP_TRACE_IMAGEFLOW_DECORDE_ERROR, "[IMGFL][STEP_0]nb decode error. back to ready state ")
+TRC_MSG(VAPP_TRACE_IMAGEFLOW_SET_FOCUS_INDEX, "[IMGFL][INFO]vadp_v2p_imgflow_set_focus_index index: %d.")
+TRC_MSG(VAPP_TRACE_IMAGEFLOW_GET_VCP_QUERY_INDEX, "[IMGFL][INFO]VCP query index: %d. curr_state: %d ")
+TRC_MSG(VAPP_TRACE_IMAGEFLOW_GET_IMAGE_DIRECTLY, "[IMGFL][INFO]VCP get image directly! ")
+TRC_MSG(VAPP_TRACE_IMAGEFLOW_FAIL_TO_GET_IMAGE, "[IMGFL][INFO]VCP fail to get image, draw default! ")
+TRC_MSG(VAPP_TRACE_IMAGEFLOW_VCP_QUERY_INDEX, "[IMGFL][INFO]VCP query index: %d. curr_state: %d ")
+TRC_MSG(VAPP_TRACE_IMAGEFLOW_LOCK_FRAME_BUF, "[IMGFL][INFO]Lock frame buffer. result: %d.")
+TRC_MSG(VAPP_TRACE_IMAGEFLOW_UNLOCK_FRAME_BUF, "[IMGFL][INFO]Unlock frame buffer. index: %d.")
+TRC_MSG(VAPP_TRACE_IMAGEFLOW_POPUP_ERROR, "[IMGFL][INFO]vadp_v2p_imgflow_popup_error. err_code :%d")
+TRC_MSG(VAPP_TRACE_IMAGEFLOW_QUERY_RAW_DATA, "[IMGFL][STEP_1]Media cache query raw data. index: %d. result:%d ")
+TRC_MSG(VAPP_TRACE_IMAGEFLOW_DECODE_DONE, "[IMGFL][STEP_4]Media cache decode done. result:%d. index:%d. state:%d ")
+TRC_MSG(VAPP_TRACE_IMAGEFLOW_CALL_CANCEL, "[IMGFL][STEP_0]Media cache call cancel. index:%d. state:%d ")
+TRC_MSG(VAPP_TRACE_IMAGEFLOW_PAUSE_CACHE_SERVICE, "[IMGFL][INFO]Pause media cache service")
+TRC_MSG(VAPP_TRACE_IMAGEFLOW_SCHEDULE_NEW_IMAGE, "[IMGFL][INFO]Cache service schedule new image")
+TRC_MSG(VAPP_TRACE_IMAGEFLOW_RESUME_CACHE_SERVICE, "[IMGFL][INFO]resume cache service")

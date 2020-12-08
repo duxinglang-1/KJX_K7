@@ -1,0 +1,88 @@
+[APP NAME] = VCUI_SMS_COMPOSER
+[SCOPE] = COSMOS
+[MODULE] = MOD_MMI_COMMON_APP
+
+#start trace
+
+/* vcui_sms_composer_main.cpp */
+TRC_MSG(TRC_VCUI_SMSC_MAIN_CREATE_CUI, "[SMSC MAIN] vcui_sms_composer_create() - cuiID(%d))")
+TRC_MSG(TRC_VCUI_SMSC_MAIN_RUN_CUI, "[SMSC MAIN] vcui_sms_composer_run() - cuiID(%d))")
+TRC_MSG(TRC_VCUI_SMSC_MAIN_CLOSE_CUI, "[SMSC MAIN] vcui_sms_composer_close() - cuiID(%d))")
+TRC_MSG(TRC_VCUI_SMSC_MAIN_SET_ENTRY_DATA, "[SMSC MAIN] vcui_sms_composer_set_entry_data() - cuiID(%d), entryData is NULL?(%d))")
+TRC_MSG(TRC_VCUI_SMSC_MAIN_SET_ROTATE, "[SMSC MAIN] vcui_sms_composer_set_rotate() - cuiID(%d), supportRotate(%d))")
+
+
+/* vcui_sms_composer_scrn.cpp */
+TRC_MSG(TRC_VCUI_SMSC_SCRN_COMPOSER_SET_ENTRY_DATA_ADDR, "[SMSC SCRN] VcuiSmsComposer::setEntryData() - addrNum(%d), addr is NULL?(%d)")
+TRC_MSG(TRC_VCUI_SMSC_SCRN_COMPOSER_SET_ENTRY_DATA_TEXT, "[SMSC SCRN] VcuiSmsComposer::setEntryData() - textNum(%d), text is NULL?(%d)")
+TRC_MSG(TRC_VCUI_SMSC_SCRN_COMPOSER_SET_ENTRY_DATA_PARA, "[SMSC SCRN] VcuiSmsComposer::setEntryData() - action(%d), msgId(%d), simId(%d), appId(%d), info is NULL?(%d)")
+TRC_MSG(TRC_VCUI_SMSC_SCRN_COMPOSER_FREE_ENTRY_DATA, "[SMSC SCRN] VcuiSmsComposer::freeEntryData() - addrNum(%d)")
+
+TRC_MSG(TRC_VCUI_SMSC_SCRN_COMPOSER_PAGE_ONINIT, "[SMSC SCRN] VcuiSmsComposerPage::onInit() - entryData is NULL?(%d), isGettingData?(%d)")
+TRC_MSG(TRC_VCUI_SMSC_SCRN_COMPOSER_PAGE_2ND_ENTER, "[SMSC SCRN] VcuiSmsComposerPage::page2ndEnter()")
+TRC_MSG(TRC_VCUI_SMSC_SCRN_COMPOSER_PAGE_ONDEINIT, "[SMSC SCRN] VcuiSmsComposerPage::onDeinit()")
+TRC_MSG(TRC_VCUI_SMSC_SCRN_COMPOSER_PAGE_ONPROC, "[SMSC SCRN] VcuiSmsComposerPage::onProc()")
+TRC_MSG(TRC_VCUI_SMSC_SCRN_COMPOSER_PAGE_ONPROC_RESULT, "[SMSC SCRN] VcuiSmsComposerPage::onProc() - result(%d), cuiId(%d), state(%d)")
+TRC_MSG(TRC_VCUI_SMSC_SCRN_COMPOSER_PAGE_ONBACK, "[SMSC SCRN] VcuiSmsComposerPage::onBack()")
+TRC_MSG(TRC_VCUI_SMSC_SCRN_COMPOSER_PAGE_DATA_REFRESH_HDLR, "[SMSC SCRN] VcuiSmsComposerPage::onDataRefreshHdlr() - refresh type(%d), result(%d)")
+TRC_MSG(TRC_VCUI_SMSC_SCRN_COMPOSER_PAGE_DATA_READY, "[SMSC SCRN] VcuiSmsComposerPage::handleDataReadyEvent() - addrNum(%d, %d) after data ready")
+TRC_MSG(TRC_VCUI_SMSC_SCRN_COMPOSER_PAGE_POST_EVENT, "[SMSC SCRN] VcuiSmsComposerPage::postEventToCaller() - eventId(%d)")
+TRC_MSG(TRC_VCUI_SMSC_SCRN_COMPOSER_PAGE_OPEN_PHB_CUI, "[SMSC SCRN] VcuiSmsComposerPage::openPhbCui() - cuiId(%d), state(%d)")
+TRC_MSG(TRC_VCUI_SMSC_SCRN_COMPOSER_PAGE_INSERT_RECIPIENT_ADDR, "[SMSC SCRN] VcuiSmsComposerPage::insertRecipientAddr() - result(%d), addrNum(%d, %d) after insert")
+TRC_MSG(TRC_VCUI_SMSC_SCRN_COMPOSER_PAGE_CONTACT_CHANGE, "[SMSC SCRN] VcuiSmsComposerPage::setContactChange() - addrNum(%d, %d) after change")
+TRC_MSG(TRC_VCUI_SMSC_SCRN_COMPOSER_PAGE_SAVE_SMS, "[SMSC SCRN] VcuiSmsComposerPage::saveSms() - result(%d)")
+TRC_MSG(TRC_VCUI_SMSC_SCRN_COMPOSER_PAGE_SEND_SMS, "[SMSC SCRN] VcuiSmsComposerPage::sendSms() - result(%d)")
+TRC_MSG(TRC_VCUI_SMSC_SCRN_COMPOSER_PAGE_UPDATE_TITLEBAR, "[SMSC SCRN] VcuiSmsComposerPage::updateTitleBar() - sim_id(%d)")
+TRC_MSG(TRC_VCUI_SMSC_SCRN_COMPOSER_PAGE_CREATE_TITLEBAR, "[SMSC SCRN] VcuiSmsComposerPage::createTitleBar() - sim_id(%d)")
+TRC_MSG(TRC_VCUI_SMSC_SCRN_COMPOSER_PAGE_TOOLBAR_CLICK, "[SMSC SCRN] VcuiSmsComposerPage::onToolBarClicked() - button_id(%d)")
+TRC_MSG(TRC_VCUI_SMSC_SCRN_COMPOSER_PAGE_UPDATE_HINTTEXT, "[SMSC SCRN] VcuiSmsComposerPage::updateHintText() - remain(%d), curSeg(%d), max(%d), maxInOneSegment(%d)")
+
+TRC_MSG(TRC_VCUI_SMSC_SCRN_RECIPIENT_PAGE_ONINIT, "[SMSC SCRN] VcuiSmsComposerRecipientPage::onInit() - addrNum(%d) then")
+TRC_MSG(TRC_VCUI_SMSC_SCRN_RECIPIENT_PAGE_DELETE_ADDR, "[SMSC SCRN] VcuiSmsComposerPage::onDeleteRecipient() - addrNum(%d) after delete")
+
+
+/* vcui_sms_composer_core.cpp */
+TRC_MSG(TRC_VCUI_SMSC_CORE_PROVIDER_ONINIT, "[SMSC CORE] VcuiSmsComposerDataProvider::onInit()")
+TRC_MSG(TRC_VCUI_SMSC_CORE_PROVIDER_ONDEINIT, "[SMSC CORE] VcuiSmsComposerDataProvider::onDeinit()")
+TRC_MSG(TRC_VCUI_SMSC_CORE_PROVIDER_SET_DATA_BEGIN, "[SMSC CORE] VcuiSmsComposerDataProvider::setEntryData() - gettingData(%d), entryData is NULL?(%d)")
+TRC_MSG(TRC_VCUI_SMSC_CORE_PROVIDER_SET_DATA_END, "[SMSC CORE] VcuiSmsComposerDataProvider::setEntryData() - gettingData(%d), simId(%d)")
+TRC_MSG(TRC_VCUI_SMSC_CORE_PROVIDER_ADD_RECIPIENT, "[SMSC CORE] VcuiSmsComposerDataProvider::addRecipient() - result(%d)")
+TRC_MSG(TRC_VCUI_SMSC_CORE_PROVIDER_DELETE_RECIPIENT, "[SMSC CORE] VcuiSmsComposerDataProvider::deleteRecipientByIndex() - result(%d), index(%d)")
+TRC_MSG(TRC_VCUI_SMSC_CORE_PROVIDER_RESET_RECIPIENT, "[SMSC CORE] VcuiSmsComposerDataProvider::resetRecipient() - result(%d)")
+TRC_MSG(TRC_VCUI_SMSC_CORE_PROVIDER_GET_RREFER_SIM, "[SMSC CORE] VcuiSmsComposerDataProvider::getPreferSim() - forceUpdateSim(%d), simId(%d), takenPrefSimFromPhb(%d)")
+TRC_MSG(TRC_VCUI_SMSC_CORE_PROVIDER_PHB_RREFER_SIM, "[SMSC CORE] VcuiSmsComposerDataProvider::getPreferSim() - PhbPreferSimId(%d), vaildSimId(%d)")
+TRC_MSG(TRC_VCUI_SMSC_CORE_PROVIDER_SET_SIMID, "[SMSC CORE] VcuiSmsComposerDataProvider::setSimId() - SimId update from %d to %d")
+TRC_MSG(TRC_VCUI_SMSC_CORE_PROVIDER_SET_PREFER_SIMID, "[SMSC CORE] VcuiSmsComposerDataProvider::setPreferSim() - waitPhbCallback(%d), currSetPreferSim(%d)")
+TRC_MSG(TRC_VCUI_SMSC_CORE_PROVIDER_SET_PREFER_SIMID_RSP, "[SMSC CORE] VcuiSmsComposerDataProvider::setPreferSimRsp() - waitPhbCallback(%d), currSetPreferSim(%d)")
+TRC_MSG(TRC_VCUI_SMSC_CORE_PROVIDER_SEND_SMS, "[SMSC CORE] VcuiSmsComposerDataProvider::sendSms() - addrNum(%d)")
+TRC_MSG(TRC_VCUI_SMSC_CORE_PROVIDER_SEND_SMS_REQ, "[SMSC CORE] VcuiSmsComposerDataProvider::sendSmsReq() - addrNum(%d), currSendNum(%d)")
+TRC_MSG(TRC_VCUI_SMSC_CORE_PROVIDER_SEND_SMS_RSP, "[SMSC CORE] VcuiSmsComposerDataProvider::sendSmsRsp() - result(%d), cause(%d)")
+TRC_MSG(TRC_VCUI_SMSC_CORE_PROVIDER_HANDLE_DATA_SEND_FINISH, "[SMSC CORE] VcuiSmsComposerDataProvider::handleDataAfterSend() - msgBox(%d)")
+TRC_MSG(TRC_VCUI_SMSC_CORE_PROVIDER_SAVE_SMS, "[SMSC CORE] VcuiSmsComposerDataProvider::saveSms()")
+TRC_MSG(TRC_VCUI_SMSC_CORE_PROVIDER_SAVE_SMS_REQ, "[SMSC CORE] VcuiSmsComposerDataProvider::saveSmsReq() - addrNum(%d), currSaveNum(%d)")
+TRC_MSG(TRC_VCUI_SMSC_CORE_PROVIDER_SAVE_SMS_RSP, "[SMSC CORE] VcuiSmsComposerDataProvider::saveSmsRsp() - result(%d), cause(%d)")
+TRC_MSG(TRC_VCUI_SMSC_CORE_PROVIDER_HANDLE_DATA_SAVE, "[SMSC CORE] VcuiSmsComposerDataProvider::handleDataAfterSave() - cause(%d)")
+TRC_MSG(TRC_VCUI_SMSC_CORE_PROVIDER_ERROR_HDLR, "[SMSC CORE] VcuiSmsComposerDataProvider::smsErrHdlr() - type(%d), cause(%d)")
+TRC_MSG(TRC_VCUI_SMSC_CORE_PROVIDER_GET_CONTENT_REQ, "[SMSC CORE] VcuiSmsComposerDataProvider::getSmsContentReq()")
+TRC_MSG(TRC_VCUI_SMSC_CORE_PROVIDER_GET_CONTENT_RSP, "[SMSC CORE] VcuiSmsComposerDataProvider::getSmsContentRsp() - result(%d), closeApp(%d), action(%d)")
+TRC_MSG(TRC_VCUI_SMSC_CORE_PROVIDER_GET_CONTENT_ERROR, "[SMSC CORE] VcuiSmsComposerDataProvider::getSmsContentRsp() - Error")
+TRC_MSG(TRC_VCUI_SMSC_CORE_PROVIDER_HANDLE_GET_CONTENT, "[SMSC CORE] VcuiSmsComposerDataProvider::handleDataAfterGetContent()")
+TRC_MSG(TRC_VCUI_SMSC_CORE_PROVIDER_EVT_HDLR, "[SMSC CORE] VcuiSmsComposerDataProvider::onCommonEvtCb() - eventId(%d), closeApp(%d), freshSim(%d), GettingData(%d)")
+
+TRC_MSG(TRC_VCUI_SMSC_CORE_CONTROL_GET_SMS_CONTENT, "[SMSC CORE] VcuiSmsComposerControl::getSmsContent()")
+TRC_MSG(TRC_VCUI_SMSC_CORE_CONTROL_SEND_SMS, "[SMSC CORE] VcuiSmsComposerControl::sendSms() - sendHandle(%d)")
+TRC_MSG(TRC_VCUI_SMSC_CORE_CONTROL_SAVE_SMS, "[SMSC CORE] VcuiSmsComposerControl::saveSms() - saveHandle(%d)")
+TRC_MSG(TRC_VCUI_SMSC_CORE_CONTROL_DELETE_SMS, "[SMSC CORE] VcuiSmsComposerControl::deleteSms()")
+TRC_MSG(TRC_VCUI_SMSC_CORE_CONTROL_SET_PREFER_SIM, "[SMSC CORE] VcuiSmsComposerControl::setPreferSim() - needWaitToCloseProgress(%d)")
+
+TRC_MSG(TRC_VCUI_SMSC_CORE_DATA_SET_ENTRY_DATA, "[SMSC CORE] VcuiSmsComposerData::setEntryData() - result(%d)")
+
+
+/* vcui_sms_composer_util.cpp */
+TRC_MSG(TRC_VCUI_SMSC_UTIL_EVENT_HDLR, "[SMSC UTIL] vcuiSmsComposerSimStatusInfoHdlr() - eventId(%d), valid_sim(%d), blocked_sim(%d), closed_sim(%d)")
+
+
+
+
+
+

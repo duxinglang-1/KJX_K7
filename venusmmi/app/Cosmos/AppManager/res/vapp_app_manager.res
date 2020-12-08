@@ -1,0 +1,207 @@
+#include "mmi_features.h"
+#include "custresdef.h"
+#include "vfx_config.h"
+
+<?xml version = "1.0" encoding = "UTF-8"?>
+
+
+<APP id="VAPP_MRE_APP_FMGR" name="STR_ID_VAPP_MRE_APP_FMGR">
+
+#ifdef __COSMOS_MMI_PACKAGE__
+#if defined(__LOW_COST_SUPPORT_COMMON__)
+    <MEMORY heap="100*1024" cui = "VCUI_FMGR"/>
+#else
+    <MEMORY heap="500*1024" cui = "VCUI_FMGR"/>
+#endif
+#endif //__COSMOS_MMI_PACKAGE__
+
+</APP>
+
+<APP id="VAPP_MRE_APP_DIALER" name="STR_ID_VAPP_MRE_APP_DIALER">
+
+#ifdef __COSMOS_MMI_PACKAGE__
+#if defined(__LOW_COST_SUPPORT_COMMON__)
+    <MEMORY heap="100*1024" cui = "VCUI_DIALER_MAKE_CALL"/>
+#else
+    <MEMORY heap="500*1024" cui = "VCUI_DIALER_MAKE_CALL"/>
+#endif
+#endif //__COSMOS_MMI_PACKAGE__
+    
+</APP>
+
+<APP id="VAPP_MRE_APP_DTCNT" name="STR_ID_VAPP_MRE_APP_DTCNT">
+
+#ifdef __COSMOS_MMI_PACKAGE__
+#if defined(__LOW_COST_SUPPORT_COMMON__)
+    <MEMORY heap="100*1024" cui = "VCUI_DTCNT"/>
+#else
+    <MEMORY heap="500*1024" cui = "VCUI_DTCNT"/>
+#endif
+#endif //__COSMOS_MMI_PACKAGE__
+
+</APP>
+
+
+<APP id = "VAPP_APP_MANAGER" 
+        name="STR_ID_VAPP_AM_TITLE_MAIN"
+#ifdef __MMI_COSMOS_APP_MANAGER__
+        package_name="native.mtk.appmanager"        
+        img="VAPP_AM_IMG_APPMANAGER" 
+        launch="vapp_app_manager_launch" type="venus"
+#endif        
+        >
+#ifdef __MMI_COSMOS_APP_MANAGER__        
+    <MEMORY heap="400*1024" cui = "VCUI_DTCNT + VCUI_DIALER_MAKE_CALL" fg="500*1024" vrt_mem_factor="2.0"/> 
+#endif    
+<!-----------------------------------------------------String Resource Area----------------------------------------------------->
+    //main page strings
+    <STRING id="STR_ID_VAPP_AM_TITLE_MAIN"/>
+    <STRING id="STR_ID_VAPP_AM_TITLE_MAIN_FULL"/>
+    <STRING id="STR_ID_VAPP_AM_BTN_APPTAB"/>
+    <STRING id="STR_ID_VAPP_AM_BTN_WGTTAB"/>
+    <STRING id="STR_ID_VAPP_AM_BTN_SETTINGS"/>
+    //detail info page strings
+    <STRING id="STR_ID_VAPP_AM_BTN_DETAIL"/>
+    <STRING id="STR_ID_VAPP_AM_BTN_CHECK_UPDATE"/>
+    <STRING id="STR_ID_VAPP_AM_BTN_UNINSTALL"/>
+    <STRING id="STR_ID_VAPP_AM_BTN_ADV_SETTINGS"/>
+    
+    <STRING id="STR_ID_VAPP_AM_DETAIL_APPNAME"/>
+    <STRING id="STR_ID_VAPP_AM_DETAIL_INSTALLTIME"/>
+    <STRING id="STR_ID_VAPP_AM_DETAIL_STORAGE"/>
+    <STRING id="STR_ID_VAPP_AM_DETAIL_INTRODUCE"/>
+    <STRING id="STR_ID_VAPP_AM_DETAIL_SIZE"/>
+    <STRING id="STR_ID_VAPP_AM_DETAIL_AUTHOR"/>
+    <STRING id="STR_ID_VAPP_AM_DETAIL_COPYRIGHT"/>
+    <STRING id="STR_ID_VAPP_AM_DETAIL_VERSION"/>
+    <STRING id="STR_ID_VAPP_AM_DETAIL_AUTHORIZED"/>
+    <STRING id="STR_ID_VAPP_AM_DETAIL_NUMBER"/>
+    <STRING id="STR_ID_VAPP_AM_DETAIL_WEBSITE"/>
+    <STRING id="STR_ID_VAPP_AM_DETAIL_PHONE"/>
+    <STRING id="STR_ID_VAPP_AM_DETAIL_CARD"/>
+    <STRING id="STR_ID_VAPP_AM_DETAIL_AUTHORIZE_Y"/>
+    <STRING id="STR_ID_VAPP_AM_DETAIL_AUTHORIZE_N"/>
+    //settings page strings
+    <STRING id="STR_ID_VAPP_AM_TITLE_SETTINGS"/>
+    <STRING id="STR_ID_VAPP_AM_SETTINGS_MRE"/>
+    <STRING id="STR_ID_VAPP_AM_SETTINGS_MRE_L"/>
+    <STRING id="STR_ID_VAPP_AM_SETTINGS_JAVA"/>
+    <STRING id="STR_ID_VAPP_AM_SETTINGS_JAVA_L"/>
+    <STRING id="STR_ID_VAPP_AM_SETTINGS_WGT"/>
+    <STRING id="STR_ID_VAPP_AM_SETTINGS_WGT_L"/>
+    <STRING id="STR_ID_VAPP_AM_CAPTION_NEWWORK"/>
+    <STRING id="STR_ID_VAPP_AM_SETTINGS_NEWWORK"/>
+    <STRING id="STR_ID_VAPP_AM_SETTINGS_NEWWORK_L"/>
+    <STRING id="STR_ID_VAPP_AM_SETTINGS_WLAN"/>
+    <STRING id="STR_ID_VAPP_AM_SETTINGS_WLAN_L"/>
+    <STRING id="STR_ID_VAPP_AM_SETTINGS_DATAACCOUNT"/>
+    <STRING id="STR_ID_VAPP_AM_SETTINGS_PROXY"/>
+    <STRING id="STR_ID_VAPP_AM_SETTINGS_NO_PROXY"/>
+    //popup strings
+    <STRING id="STR_ID_VAPP_AM_POPUP_NOT_EXIST_ON_PHONE"/>
+    <STRING id="STR_ID_VAPP_AM_POPUP_NOT_EXIST_ON_CARD"/>
+    <STRING id="STR_ID_VAPP_AM_POPUP_UNINSTALL"/>
+    <STRING id="STR_ID_VAPP_AM_POPUP_UPDATE"/>
+    <STRING id="STR_ID_VAPP_AM_POPUP_START_UPDATE"/>
+    <STRING id="STR_ID_VAPP_AM_POPUP_UNINSTALLED"/>
+    <STRING id="STR_ID_VAPP_AM_POPUP_NO_NEW_VERSION"/>
+    <STRING id="STR_ID_VAPP_AM_POPUP_NETWORK_FAIL"/>
+    <STRING id="STR_ID_VAPP_AM_POPUP_CANT_FOR_UPDATING"/>
+    <STRING id="STR_ID_VAPP_AM_POPUP_CANT_FOR_RUNNING"/>
+    <STRING id="STR_ID_VAPP_AM_POPUP_CHECKING"/>
+    <STRING id="STR_ID_VAPP_AM_POPUP_UPDATING"/>
+    <STRING id="STR_ID_VAPP_AM_POPUP_UNINSTALLING"/>
+    <STRING id="STR_ID_VAPP_AM_POPUP_MRE_ENV_UPDATE"/>
+    <STRING id="STR_ID_VAPP_AM_POPUP_VXP_OPERATE"/>
+    <STRING id="STR_ID_VAPP_AM_POPUP_MASS_STORAGE"/>
+    <STRING id="STR_ID_VAPP_AM_POPUP_UPDATE_FAIL"/>
+    <STRING id="STR_ID_VAPP_AM_POPUP_UPDATE_FAIL_NO_MEM"/>
+    <STRING id="STR_ID_VAPP_AM_POPUP_INSTALL_FAIL"/>
+    <STRING id="STR_ID_VAPP_AM_POPUP_LAUNCH_FAIL"/>
+    <STRING id="STR_ID_VAPP_AM_POPUP_LAUNCH_FAIL_TIME"/>
+    <STRING id="STR_ID_VAPP_AM_POPUP_LAUNCH_FAIL_ONLY_ONE_FG"/>
+    <STRING id="STR_ID_VAPP_AM_POPUP_CONFLICTS"/>
+    <STRING id="STR_ID_VAPP_AM_POPUP_NO_AUTH"/>
+    <STRING id="STR_ID_VAPP_AM_POPUP_LIMITATION_APP"/>
+    <STRING id="STR_ID_VAPP_AM_POPUP_VERSION_DISMATCH"/>
+    <STRING id="STR_ID_VAPP_AM_POPUP_BTN_JUST_LAUNCH"/>
+    <STRING id="STR_ID_VAPP_AM_POPUP_BTN_INSTALL_LAUNCH"/>
+    <STRING id="STR_ID_VAPP_AM_POPUP_BTN_UPDATE"/>
+    <STRING id="STR_ID_VAPP_AM_POPUP_BTN_REPAIR"/>
+    <STRING id="STR_ID_VAPP_AM_POPUP_BTN_UNINSTALL"/>
+    <STRING id="STR_ID_VAPP_AM_POPUP_BTN_CANCEL"/>
+    <STRING id="STR_ID_VAPP_AM_POPUP_BTN_DELETE"/>
+    <STRING id="STR_ID_VAPP_AM_POPUP_BTN_KEEP"/>
+    <STRING id="STR_ID_VAPP_AM_POPUP_NO_AUTH_INSTALL"/>
+    
+    <STRING id="STR_ID_VAPP_AM_POPUP_VSO_OPERATE"/>
+    <STRING id="STR_ID_VAPP_AM_POPUP_INSTALL_SUCCESS"/>
+    <STRING id="STR_ID_VAPP_AM_POPUP_ALREADY_INSTALLED"/>
+    <STRING id="STR_ID_VAPP_AM_POPUP_BTN_INSTALL"/>
+
+    <STRING id="STR_ID_VAPP_AM_POPUP_SHORTCUT_DOWNLOAD_ASK"/>
+    <STRING id="STR_ID_VAPP_AM_POPUP_SHORTCUT_DOWNLOAD_FAIL"/>
+    <STRING id="STR_ID_VAPP_AM_POPUP_SHORTCUT_INSTALL_SUCESS"/>
+    <STRING id="STR_ID_VAPP_AM_POPUP_SHORTCUT_INSTALL_FAIL"/>
+    <STRING id="STR_ID_VAPP_AM_POPUP_SHORTCUT_BTN_DOWNLOAD"/>
+
+    <STRING id="STR_ID_VAPP_AM_POPUP_CAN_NOT_INSTALL_WIDGET"/>
+    <STRING id="STR_ID_VAPP_AM_POPUP_CAN_NOT_INSTALL_WALLPAPER"/>
+    <STRING id="STR_ID_VAPP_AM_POPUP_CAN_NOT_INSTALL_LAUNCHER"/>
+    <STRING id="STR_ID_VAPP_AM_POPUP_CAN_NOT_INSTALL_SCRLOCK"/>
+    //other strings
+    <STRING id="STR_ID_VAPP_AM_NO_APPLICATIONS"/>
+    <STRING id="STR_ID_VAPP_AM_NO_WIDGETS"/>
+    <STRING id="STR_ID_VAPP_AM_NOT_FOUND_APP"/>
+    
+    //pluto screen id
+    <SCREEN id="GRP_ID_VAPP_AM"/>
+    <SCREEN id="SCR_ID_VAPP_AM_LOADING"/>
+    
+    <!-----------------------------------------------------Image Resource Area------------------------------------------------------>
+    #define ROOT_PATH RES_IMG_ROOT"\\\\APP_Manager\\\\"
+    #define LIST_ICON ROOT_PATH"ListIcon\\\\"
+    #define TOOL_BAR_ICON ROOT_PATH"ToolBarIcon\\\\"
+    #define TAB_BAR_ICON ROOT_PATH"TabIcon\\\\"
+    
+    <THEME>
+        <IMAGE id="VAPP_AM_IMG_APPMANAGER" desc="Main menu application manager icon">RES_IMG_ROOT"\\\\Mainmenu_Icon\\\\AppManager.png"</IMAGE>
+    </THEME>
+    <IMAGE id="VAPP_AM_IMG_APPICON_BG">RES_THEME_ROOT"\\\\Theme1\\\\Mainmenu\\\\Icon_BG.png"</IMAGE>
+    <IMAGE id="VAPP_AM_IMG_SYSTEM">RES_IMG_ROOT"\\\\Common\\\\ListIcon\\\\System.png"</IMAGE>
+    <IMAGE id="VAPP_AM_IMG_ON_CARD">RES_IMG_ROOT"\\\\Common\\\\ListIcon\\\\MemoryCard.png"</IMAGE>
+    
+    <IMAGE id="VAPP_AM_IMG_DOWNLOAD">LIST_ICON"DownLoad.png"</IMAGE>
+    <IMAGE id="VAPP_AM_IMG_LOCALINSTALL">LIST_ICON"LocalInstall.png"</IMAGE>
+
+    <IMAGE id="VAPP_AM_IMG_UPDATE">TOOL_BAR_ICON"Update.png"</IMAGE>
+    <IMAGE id="VAPP_AM_IMG_APP">TAB_BAR_ICON"App_Manager.png"</IMAGE>
+    <IMAGE id="VAPP_AM_IMG_WIDGET">TAB_BAR_ICON"Widget.png"</IMAGE>
+    <IMAGE id="VAPP_AM_IMG_MRE_LOGO">ROOT_PATH"MRE_Loading.png"</IMAGE>
+    
+    <!-----------------------------------------------------NVRAM------------------------------------------------------>
+    <CACHEDATA type="short" id="NVRAM_VAPP_MRE_UPDATE_TIME">
+        <DEFAULT_VALUE> [0xFF, 0xFF] </DEFAULT_VALUE>
+        <DESCRIPTION> NVRAM_VAPP_MRE_UPDATE_TIME </DESCRIPTION>
+    </CACHEDATA> 
+    
+    <CACHEDATA type="short" id="NVRAM_VAPP_MRE_CANCEL_TIME">
+        <DEFAULT_VALUE> [0xFF, 0xFF] </DEFAULT_VALUE>
+        <DESCRIPTION> NVRAM_VAPP_MRE_CANCEL_TIME </DESCRIPTION>
+    </CACHEDATA> 
+#ifdef __COSMOS_MMI_PACKAGE__
+#ifdef __MMI_COSMOS_APP_MANAGER__ 
+    <RECEIVER id="EVT_ID_SRV_FMGR_NOTIFICATION_DEV_PLUG_IN" proc="vapp_app_manager_handle_evnet"/>
+    <RECEIVER id="EVT_ID_SRV_FMGR_NOTIFICATION_DEV_PLUG_OUT" proc="vapp_app_manager_handle_evnet"/>
+    <RECEIVER id="EVT_ID_SRV_APPMGR_INSTALL_PACKAGE" proc="vapp_app_manager_handle_evnet"/>
+    <RECEIVER id="EVT_ID_SRV_APPMGR_UPDATE_INSTALLED_PACKAGE" proc="vapp_app_manager_handle_evnet"/>
+#endif    
+#endif    
+</APP>
+
+<APP id = "VAPP_MRE_APP_OPERATOR" name = "STR_MRE_APP_OPERATOR" type="venus">
+    <MEMORY base="100*1024"/>
+    
+    <STRING id="STR_MRE_APP_OPERATOR"/>
+    <TIMER id="MRE_SRV_OOM_TIMER"/>
+</APP>    

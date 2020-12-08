@@ -1,0 +1,14 @@
+[OWNER] = CH Ko
+[APP NAME] = Desktop
+[SCOPE] = COSMOS
+[MODULE] = MOD_MMI_COMMON_APP
+
+#start trace
+TRC_MSG(TRC_VAPP_DESKTOP_DIRECTOR_ON_INIT,                 "[Desktop][Director] onInit, trace: %d")
+TRC_MSG(TRC_VAPP_DESKTOP_DIRECTOR_ON_DEINIT,               "[Desktop][Director] onDeinit, trace: %d")
+TRC_MSG(TRC_VAPP_DESKTOP_DIRECTOR_ON_PREVIEW_PEN_INPUT,    "[Desktop][Director] onPreviewPenInput, type: %c, pos(%d, %d)")
+TRC_MSG(TRC_VAPP_DESKTOP_DIRECTOR_ON_PEN_INPUT,            "[Desktop][Director] onPenInput, type: %c, pos(%d, %d)")
+TRC_MSG(TRC_VAPP_DESKTOP_DIRECTOR_CAPTURE,                 "[Desktop][Director] *** capture pen event ***")
+TRC_MSG(TRC_VAPP_DESKTOP_PAGE_DO_PEN_INPUT,                "[Desktop][Page] doPenInput, type: %c, time: %d, pos(%d, %d)")
+TRC_MSG(TRC_VAPP_DESKTOP_PAGE_QUICK_SWIPE,                 "[Desktop][Page] *** Swipe quickly, x-diff: %d, t-diff: %d ***")
+TRC_MSG(TRC_VAPP_DESKTOP_PAGE_NORMAL_SWIPE,                "[Desktop][Page] *** Swipe normally, x-diff: %d, t-diff: %d ***")

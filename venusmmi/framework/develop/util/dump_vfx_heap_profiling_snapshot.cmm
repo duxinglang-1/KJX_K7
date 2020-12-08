@@ -1,0 +1,83 @@
+; Output File Name
+LOCAL &filename &max_level &spacestr
+
+LOCAL &is_show_hidden
+LOCAL &f_name &vtblstr &clsstr &parent
+;
+; to ignore hidden frames, set this to 0
+;
+&is_show_hidden=1
+
+&output_file="T:\Vfx_heap_snapshot.txt"
+&filename="T:\dump_vfx_heap_graph_intermedia.txt"
+&max_level=20
+&spacestr="  "
+
+
+OPEN #1 "&filename" /Create
+Var.New VfxU32 \count
+Var.New VfxU32 \curcnt
+V \count=g_snapshotData.snapshotcount
+V \curcnt=0
+
+Var.WRITE #1 "HeapMaxUsedSize\t" g_snapshotData.max_size
+Var.WHILE \curcnt<\count
+(
+   Local &i &j
+   &f_name=y.name(p:V.Value(g_snapshotData.info[\curcnt].file))
+   &i=0-1
+   &j=0
+   Var.While &j>=0
+   (
+      &j=STRING.SCAN("&f_name","\",&i+1)
+      Var.IF &j>=0
+      (
+	&i=&j
+      )
+   )
+   Var.IF &i>=0
+   (
+	&f_name=string.cut("&f_name",&i+1)
+   )
+   Var.IF g_snapshotData.info[\curcnt].virtual_table!=0
+   (
+      &vtblstr=y.name(d:data.long(V.ADDRESS(g_snapshotData.info[\curcnt].virtual_table)))
+      &clsstr=string.cut("&vtblstr", 11.+STRING.SCAN("&vtblstr","vtable for ",0))
+      &parent=V.VALUE(g_snapshotData.info[\curcnt].parent)
+   )
+   ELSE
+   (
+      &vtblstr=0
+      &clsstr=0
+      &parent=0      
+   )
+   Var.WRITE #1 "&f_name," g_snapshotData.info[\curcnt].line "," g_snapshotData.info[\curcnt].mem_addr "," g_snapshotData.info[\curcnt].size ",&clsstr,&parent"
+   V \curcnt+=1
+)
+
+endprog:
+
+CLOSE #1
+;OS.window dir T:\
+;OS.window python Stage2.py
+;OS python E:\home\mtk01709\Load\VICTOR56V10_DEMO_GPRS(MRE_SPP).W11.50\mcu\venusmmi\framework\develop\util\123.py
+;TYPE T:\12345.txt
+;OS.window dir C:\\*.*
+
+Os.screen cmd /c .\..\..\..\..\tools\python25\python.exe dump_vfx_heap_profiling_snapshot.py &filename > &output_file
+Os.window cmd /c .\..\..\..\..\tools\python25\python.exe dump_vfx_heap_profiling_snapshot.py &filename
+
+
+;Os.screen cmd /c stage2.py t:\dump_vfx_heap_graph.txt > t:\1234556.txt
+;type t:\1234556.txt
+
+
+
+ENDDO
+
+
+
+
+
+
+

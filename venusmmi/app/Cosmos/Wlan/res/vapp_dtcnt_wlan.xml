@@ -1,0 +1,8 @@
+<VenusXML>
+  <Layout id="VAPP_DTCNT_WLAN_LAYOUT">
+    <VfxPage>
+      <VfxTextFrame text="Hello world from XML!" />
+    </VfxPage>
+  </Layout>
+</VenusXML>
+

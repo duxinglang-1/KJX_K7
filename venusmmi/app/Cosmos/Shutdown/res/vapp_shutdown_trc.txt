@@ -1,0 +1,11 @@
+[APP NAME] = Shutdown
+[SCOPE] = COSMOS
+[MODULE] = MOD_MMI_COMMON_APP
+
+#start trace
+TRC_MSG(TRC_VAPP_SHUTDOWN_NORMAL_START, "[Shutdown] vapp_shutdown_normal_start(): is_launched: %d(before)")
+TRC_MSG(TRC_VAPP_SHUTDOWN_FLOW_DEINIT, "[Shutdown] vapp_shutdown_flow_deinit()")
+TRC_MSG(TRC_VAPP_SHUTDOWN_FLOW_COMPLETED, "[Shutdown] vapp_shutdown_flow_completed()")
+TRC_MSG(TRC_VAPP_SHUTDOWN_FLOW_DEINIT_PROTOCOL, "[Shutdown] vapp_shutdown_flow_deinit_protocol()")
+TRC_MSG(TRC_VAPP_SHUTDOWN_FLOW_DEINIT_PROTOCOL_COMPLETED, "[Shutdown] vapp_shutdown_flow_deinit_protocol_completed()")
+TRC_MSG(TRC_VAPP_SHUTDOWN_TIMEOUT, "[Shutdown] vapp_shutdown_process_timeout_handler(): timeout = %d msec")

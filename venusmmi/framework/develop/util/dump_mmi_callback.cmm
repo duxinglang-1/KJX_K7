@@ -1,0 +1,72 @@
+;output file
+LOCAL &OUTPUT_FILE
+&OUTPUT_FILE="T:\callback.txt"
+
+OPEN #1 "&OUTPUT_FILE" /Create
+
+Var.NEW mmi_proc_func * \func
+LOCAL &func
+Var.NEW mmi_cb_dynamic_node * \header
+LOCAL &dynamic_cb
+Var.NEW int \i
+Var.SET \i=0
+Var.NEW int \event_id
+Var.SET \event_id=mmi_cb_table_map[\i].evt_id
+LOCAL &j
+&j=0
+Var.NEW mmi_cb_dynamic_node * \cb_header
+Var.SET \cb_header=(mmi_cb_dynamic_node *)(mmi_cb_table_map[&j]->header)
+Var.WHILE \event_id!=0
+(
+    Var.WRITE #1  \i "," %d mmi_cb_table_map[\i].evt_id
+    
+    ;output static register callback function
+    V \func=mmi_cb_table_map[\i]->static_table
+    ;output static table name
+    WRITE #1 "static table" " : " Y.VARNAME(d:V.VALUE(\func))
+    &j=0
+    &func="\func[&j]"
+    Var.IF &func!=0
+    (
+        ;Var.WRITE #1 "static register"
+        ;WRITE #1 Y.VARNAME(d:V.VALUE(\func))
+        Var.WHILE &func!=0
+        (
+            WRITE #1 "    " Y.VARNAME(d:V.VALUE(&func))
+            &j=&j+1
+            &func="\func[&j]"
+        )
+    )
+    
+    ;output dynamic register callback function
+    LOCAL &dynamic_cb_next
+    V \header=mmi_cb_table_map[\i]->header
+    &dynamic_cb="\header.cb"
+    Var.IF (unsigned int)\header!=0
+    (
+        V \header=\header->next
+        &dynamic_cb_next="\header.cb"
+        Var.IF &dynamic_cb_next!=0
+        (
+            Var.WRITE #1 "dynamic register :"
+
+            Var.WHILE &dynamic_cb_next!=0
+            (
+                WRITE #1 "    " Y.VARNAME(d:V.VALUE(&dynamic_cb))
+                V \header=\header->next
+                &dynamic_cb="\header.cb"
+                &dynamic_cb_next="\header->next.cb"
+            )
+        )
+    )
+    
+    V \i=\i+1
+    V \event_id=mmi_cb_table_map[\i].evt_id
+    WRITE #1 ""
+)
+
+CLOSE #1
+
+TYPE &OUTPUT_FILE
+
+ENDDO

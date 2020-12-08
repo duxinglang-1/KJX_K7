@@ -1,0 +1,14 @@
+[APP NAME] = vapp ss
+[SCOPE] = COSMOS
+[MODULE] = MOD_MMI_COMMON_APP
+
+#start trace
+#vapp_ss.cpp
+TRC_MSG(VAPP_SS_ON_EVENTS,"[VappSS.cpp]VappSsApp::onEvent(sim=%d, type=%d, localAbort=%d)")
+TRC_MSG(VAPP_SS_ON_ABORT,"[VappSS.cpp]VappSsApp::onAbort(sim=%d, id=%d)")
+TRC_MSG(VAPP_SS_POP_CALLBACK,"[VappSS.cpp]VappSsApp::popupCallback(app=%d)")
+TRC_MSG(VAPP_SS_NOTIFY_APP,"[VappSS.cpp]VappSsNCell::notifyApp(app=%d)")
+TRC_MSG(VAPP_SS_ON_CELL_IND,"[VappSS.cpp]VappSsNCell::onIndication(sim=%d, type=%d)")
+TRC_MSG(VAPP_SS_ON_CELL_INTMSG,"[VappSS.cpp]VappSsNCell::onIntMsg(sim=%d, type=%d)")
+TRC_MSG(VAPP_SS_ON_TIMEOUT,"[VappSS.cpp]VappSsNCell::onTimeOut(sim=%d, type=%d)")
+TRC_MSG(VAPP_SS_ON_ACT,"[VappSS.cpp]VappSsNCell::onActNotify(type=%d, act=%d)")

@@ -1,0 +1,64 @@
+LOCAL &cfg_output_filename
+
+;
+; the output file name, please change if the path does not writable
+;
+&cfg_output_filename="u:\dump_asm.txt"
+
+OPEN #1 "&cfg_output_filename" /Create
+
+WRITE #1 "[ASM]"
+WRITE #1
+GOSUB dumpASM
+WRITE #1
+WRITE #1
+WRITE #1
+
+CLOSE #1
+
+TYPE &cfg_output_filename
+
+ENDDO
+
+
+; =============================================================================
+;  Function
+; =============================================================================
+
+
+dumpASM:
+    LOCAL &asm_total_size &asm_usage_size &head &header &anonymous_id &asm_anonymous_size
+    ENTRY
+    
+    &anonymous_id=4903.
+    
+    &asm_total_size="g_applib_mem_cntx.app_pool_size"
+    &header=V.VALUE("&g_applib_mem_cntx.app_head")
+    &asm_usage_size=0
+    &asm_anonymous_size=0
+    
+    WRITE #1 "ADDR          ID      SIZE"
+    WRITE #1 "=========================="
+           
+    while &header!=0
+    (
+        &head="((applib_mem_header_struct*)&header)";
+        &asm_usage_size=&asm_usage_size+V.VALUE(&head->chunk_size)
+        
+        Var.IF &head->owner_id==&anonymous_id
+            &asm_anonymous_size=&asm_anonymous_size+V.VALUE(&head->chunk_size)
+        
+        WRITE #1 FORMAT.HEX(8., V.VALUE(&head)) FORMAT.DECIMAL(8., V.VALUE(&head->owner_id)) "  " FORMAT.DECIMAL(8., V.VALUE(&head->chunk_size))
+        &header=V.VALUE(&head->next)
+    )
+    
+    WRITE #1 "=========================="
+        
+    WRITE #1 "ASM total size: " FORMAT.DECIMAL(10., V.VALUE(&asm_total_size))
+    WRITE #1 "ASM usage size: " FORMAT.DECIMAL(10., V.VALUE(&asm_usage_size))
+    WRITE #1 "ASM free  size: " FORMAT.DECIMAL(10., V.VALUE(&asm_total_size-&asm_usage_size)) 
+    WRITE #1   
+    WRITE #1 "Anonymous size: " FORMAT.DECIMAL(10., V.VALUE(&asm_anonymous_size)) " (ID &anonymous_id)"
+    
+    RETURN
+

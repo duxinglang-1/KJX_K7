@@ -1,0 +1,14 @@
+[APP NAME] = ScreenLock
+[SCOPE] = COSMOS
+[MODULE] = MOD_MMI_COMMON_APP
+
+#start trace
+TRC_MSG(TRC_VAPP_STEAM_SCREEN_LOCK_ON_SLIDE_DUMMY_STOPPED, "[STEAM_LOCK] VappSteamScreenLockDummyFrame::onSlideDummyStopped, state: %d, trace: %d")
+TRC_MSG(TRC_VAPP_STEAM_SCREEN_LOCK_ON_ICON_DRAG_START_HANDLER, "[STEAM_LOCK] VappSteamScreenLockDummyFrame::onIconDragStartHandler, state: %d, penPosY: %d, trace: %d")
+TRC_MSG(TRC_VAPP_STEAM_SCREEN_LOCK_ON_ICON_DRAG_HANDLER, "[STEAM_LOCK] VappSteamScreenLockDummyFrame::onIconDragHandler, state: %d, penPosY: %d, trace: %d")
+TRC_MSG(TRC_VAPP_STEAM_SCREEN_LOCK_ON_ICON_DRAG_END_HANDLER, "[STEAM_LOCK] VappSteamScreenLockDummyFrame::onIconDragEndHandler, state: %d, penPosY: %d, trace: %d")
+TRC_MSG(TRC_VAPP_STEAM_SCREEN_LOCK_ON_ICON_ABORT_HANDLER, "[STEAM_LOCK] VappSteamScreenLockPage::onIconDragAbortHandler, state: %d, penPosY: %d, trace: %d")
+TRC_MSG(TRC_VAPP_STEAM_SCREEN_LOCK_ICON_ON_PEN_INPUT, "[STEAM_LOCK] VappSteamScreenLockIcon::onPenInput, type: %d, trace: %d")
+TRC_MSG(TRC_VAPP_STEAM_SCREEN_LOCK_FRAME_ON_PEN_INPUT, "[STEAM_LOCK] VappSteamScreenLockFrame::onPenInput, type: %d, prevPos( %d, %d), pos( %d, %d), trace: %d\n")
+TRC_MSG(TRC_VAPP_STEAM_SCREEN_LOCK_EDGE_FRAME_EFFECT_CALLBACK, "[STEAM_LOCK] VappSteamScreenLockPage::edgeFrameEffectCallBack, target_posX: %d, target_posY: %d")
+TRC_MSG(TRC_VAPP_STEAM_SCREEN_LOCK_BLING_EFFECT_FRAME_EFFECT_CALLBACK, "[STEAM_LOCK] VappSteamScreenLockPage::blingEffectFrameEffectCallBack, target_posX: %d")

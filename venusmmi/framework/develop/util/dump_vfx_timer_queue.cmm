@@ -1,0 +1,210 @@
+; Output File Name
+LOCAL &filename
+&filename="T:\dump_vfx_timer_queue.txt"
+
+OPEN #1 &filename /Create
+
+WRITE #1 "[VfxTimerManager]"
+WRITE #1 
+
+WRITE #1 "m_state            : " V.STRING(VfxTimerManager::s_instance->m_state)
+WRITE #1 "m_timerType        : " V.STRING(VfxTimerManager::s_instance->m_timerType)
+WRITE #1 "m_startedTimerType : " V.STRING(VfxTimerManager::s_instance->m_startedTimerType)
+WRITE #1 "m_timeUpTime       : " FORMAT.DECIMAL(0., V.VALUE(VfxTimerManager::s_instance->m_timeUpTime))
+
+WRITE #1
+WRITE #1
+
+
+; Queued timer list (ready to commit)
+WRITE #1 "[VfxTimerManager::m_queuedTimerList]"
+WRITE #1 
+
+GOSUB printQueuedTimerQueue 0
+
+WRITE #1 
+WRITE #1 
+
+; Enabled timer list
+WRITE #1 "[VfxTimerManager::m_enabledTimerList]"
+WRITE #1 
+
+GOSUB printEnabledTimerQueue 0
+
+WRITE #1 
+WRITE #1 
+
+; Queued timer list (ready to commit)
+WRITE #1 "[VfxTimerManager::m_queuedTimerList (with slots)]"
+WRITE #1 
+
+GOSUB printQueuedTimerQueue 1
+
+WRITE #1 
+WRITE #1 
+
+; Enabled timer list
+WRITE #1 "[VfxTimerManager::m_enabledTimerList (with slots)]"
+WRITE #1 
+
+GOSUB printEnabledTimerQueue 1
+
+CLOSE #1
+
+TYPE &filename
+
+ENDDO
+
+
+; =============================================================================
+;  Function
+; =============================================================================
+
+getClassName:
+    ENTRY &obj
+    LOCAL &vtable &className
+    &vtable=Y.NAME(d:DATA.LONG(d:V.VALUE(&obj)))
+    IF string.len("&vtable")!=0
+        &className=string.cut("&vtable", 11.+STRING.SCAN("&vtable", "vtable for ", 0))
+    ELSE
+        &className="?????"
+    RETURN &className
+
+printSlotList:
+    ENTRY &signal
+    Var.NEW SlotListEntry * \slotEntry
+    V \slotEntry=((VfxBaseSignal *)&signal).m_slotList.m_listHead
+    Var.WHILE \slotEntry!=0
+    (
+        LOCAL &obj &func
+        &obj="\slotEntry->m_slot->m_objPtr->m_flagPtr->m_objPtr"
+        GOSUB getClassName &obj
+        ENTRY &className
+        &func="\slotEntry->m_slot.m_callback"
+        WRITE #1 "        (&className *)0x",V.VALUE(&obj) " " Y.VARNAME(d:V.VALUE(&func))
+        
+        V \slotEntry=\slotEntry->m_next;
+    )
+    RETURN
+
+printTimer:
+    ENTRY &basetimer &needPrintSlot
+
+    WRITE #1 "This is a VfxTimer Object"
+    LOCAL &duration 
+    &duration = FORMAT.DECIMAL(8, V.VALUE(((VfxTimer*)&basetimer).m_duration)
+    WRITE #1 "m_duration		: "FORMAT.DECIMAL(V.VALUE(&duration)
+
+    IF &needPrintSlot !=0
+    (
+        LOCAL &signal
+        &signal = V.VALUE(((VfxTimer*)&basetimer).m_signalTick)
+        GOSUB printSlotList &signal
+    )
+    RETURN
+
+printSimpleTimer:
+    ENTRY &basetimer &needPrintSlot
+
+    WRITE #1 "This is a VfxSimpleTimer Object"
+    IF &needPrintSlot != 0
+    (
+        LOCAL &obj &func
+        &obj = "((VfxSimpleTimer*)&basetimer).m_callback.m_objPtr"
+        GOSUB getClassName &obj
+        ENTRY &className
+        &func = "((VfxSimpleTimer*)&basetimer).m_callback.m_callback"
+        WRITE #1 "		(&className *)0x", V.VALUE(&obj)" "Y.VARNAME(d:V.VALUE(&func))
+    )
+    RETURN
+
+printQueuedTimerQueue:
+    ENTRY &needPrintSlot
+    Var.NEW VfxObjListEntry * \i
+    V \i=VfxTimerManager::s_instance->m_queuedTimerList->m_head
+    
+    LOCAL &n
+    &n=0
+    
+    Var.WHILE \i!=0
+    (
+        Var.NEW VfxBaseTimer * \timer
+        V \timer=\i->m_objPtr->m_flagPtr->m_objPtr
+        Var.IF \timer!=0
+        (    
+            LOCAL &startDelay &timerFlags
+            &startDelay=FORMAT.DECIMAL(8,V.VALUE("\timer->m_startDelay"))
+            &timerFlags = FORMAT.DECIMAL(8, V.VALUE("\timer->m_timerFlags"))
+            
+            LOCAL &parent 
+            &parent=V.VALUE("((VfxObject *)\timer)->m_parentObj")
+            GOSUB getClassName &parent
+            ENTRY &parentClassName
+            
+            WRITE #1 "#" FORMAT.DECIMAL(3, &n) " (VfxBaseTimer *)0x" V.VALUE(\timer) " (&startDelay) (&parentClassName *)&parent"
+
+            IF &timerFlags < 4
+            (
+                GOSUB printTimer &\timer, &needPrintSlot
+            )
+            ELSE
+            (
+                GOSUB printSimpleTimer &\timer, &needPrintSlot
+            )
+        )
+    
+        V \i=\i->m_next;
+        &n=&n+1
+    )
+    
+    IF &n==0
+        WRITE #1 "<empty>"
+
+    RETURN
+
+printEnabledTimerQueue:
+    ENTRY &needPrintSlot
+    Var.NEW VfxObjListEntry * \i
+    V \i=VfxTimerManager::s_instance->m_enabledTimerList->m_head
+    
+    LOCAL &n
+    &n=0
+    
+    Var.WHILE \i!=0
+    (
+        Var.NEW VfxBaseTimer * \timer
+        V \timer=\i->m_objPtr->m_flagPtr->m_objPtr
+        Var.IF \timer!=0
+        (    
+            LOCAL &tickTime &commitDuration &startDelay
+            &tickTime=FORMAT.DECIMAL(8,V.VALUE("\timer->m_tickTime-VfxTimerManager::s_instance->m_timeUpTime"))
+            &commitDuration=FORMAT.DECIMAL(5,V.VALUE("\timer->m_commitDuration"))
+            &startDelay=FORMAT.DECIMAL(8,V.VALUE("\timer->m_startDelay"))
+            
+            LOCAL &parent 
+            &parent=V.VALUE("((VfxObject *)\timer)->m_parentObj")
+            GOSUB getClassName &parent
+            ENTRY &parentClassName
+            
+            WRITE #1 "#" FORMAT.DECIMAL(3, &n) " (VfxBaseTimer *)0x" V.VALUE(\timer) " (&tickTime, &commitDuration ) (&startDelay) (&parentClassName *)&parent"
+
+            IF &timerFlags < 4
+            (
+                GOSUB printTimer &\timer, &needPrintSlot
+            )
+            ELSE
+            (
+                GOSUB printSimpleTimer &\timer, &needPrintSlot
+            )
+        )
+    
+        V \i=\i->m_next;
+        &n=&n+1
+    )
+    
+    IF &n==0
+        WRITE #1 "<empty>"
+
+    RETURN
+
+

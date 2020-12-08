@@ -1,0 +1,520 @@
+<VfxXmlExport>
+    <!-- Example -->
+    <!--
+    <Struct name="VfxSize">
+        <Member name="width"    type="VfxS32" />
+        <Member name="height"   type="VfxS32" />
+    </Struct>
+    -->
+
+    <!-- Classes -->
+
+    <Class name="VfxObject" header="vfx_object.h">
+        <Handler  name="name"           type="ObjName" />
+        <Property name="items"          type="VfxObject" />
+    </Class>
+
+    <Class name="VfxFrame"      parent="VfxObject" header="vfx_frame.h">
+        <Property name="pos"                type="VfxPoint" />
+        <Property name="size"               type="VfxSize" />
+        <Property name="bounds"             type="VfxRect" />
+        <Property name="rect"               type="VfxRect" />
+        <Property name="anchor"             type="VfxFPoint" />
+        <Property name="opacity"            type="VfxFloat" />
+        <Property name="bgColor"            type="VfxColor" />
+        <Property name="borderWidth"        type="VfxS32" />
+        <Property name="borderColor"        type="VfxColor" />
+        <Property name="autoAnimate"        type="VfxBool" />
+        <Property name="cullingType"        type="VfxFrameCullingTypeEnum" />
+        <Property name="contentPlacement"   type="VfxFrameContentPlacementTypeEnum" />
+        <Property name="alignParent"        type="VfxFrameAlignStruct" method="setAlignParentEx" />
+    </Class>
+    
+    <Class name="VfxImageFrame" parent="VfxFrame" header="vfx_primitive_frame.h">
+        <Property name="resId"          type="VfxResId" />
+        <Property name="path"           type="VfxWString" />
+    </Class>
+
+    <Class name="VfxAnimImageFrame" parent="VfxImageFrame" header="vfx_primitive_frame.h">
+        <Property name="RepeatCount"    type="VfxU32" />
+        <Property name="EndIndex"       type="VfxU32" />
+    </Class>
+
+    <Class name="VfxTextFrame"  parent="VfxFrame" header="vfx_text_frame.h">
+        <Property name="text"           type="VfxWString" method="setString"/>
+        <Property name="color"          type="VfxColor" />
+        <Property name="borderColor"    type="VfxColor" />
+    </Class>
+    
+    <!-- VcpTextView Begin -->
+    <Enum name="VcpTextLineModeEnum">
+        <EnumValue name="VCP_TEXT_LINE_MODE_SINGLE" />
+        <EnumValue name="VCP_TEXT_LINE_MODE_MULTI" />
+    </Enum>
+
+    <Enum name="VcpTextColorTypeEnum">
+        <EnumValue name="VCP_TEXT_NORMAL_TEXT_COLOR" />
+        <EnumValue name="VCP_TEXT_HINT_TEXT_COLOR" />
+        <EnumValue name="VCP_TEXT_HIGHLIGHTED_TEXT_COLOR" />
+        <EnumValue name="VCP_TEXT_HIGHLIGHT_FILLER_COLOR" />
+        <EnumValue name="VCP_TEXT_UNDERLINE_COLOR" />
+    </Enum>
+
+    <Enum name="VcpTextAlignModeEnum">
+        <EnumValue name="VCP_TEXT_ALIGN_MODE_NATURAL" />
+        <EnumValue name="VCP_TEXT_ALIGN_MODE_LEFT" />
+        <EnumValue name="VCP_TEXT_ALIGN_MODE_RIGHT" />
+        <EnumValue name="VCP_TEXT_ALIGN_MODE_CENTER" />
+        <EnumValue name="VCP_TEXT_ALIGN_MODE_CENTER_WITHIN_MARGIN" />
+    </Enum>
+    
+    <Enum name="VcpTextVertAlignModeEnum">
+        <EnumValue name="VCP_TEXT_VERT_ALIGN_MODE_TOP" />
+        <EnumValue name="VCP_TEXT_VERT_ALIGN_MODE_MID" />
+        <EnumValue name="VCP_TEXT_VERT_ALIGN_MODE_BOTTOM" />
+    </Enum>
+    
+    <Enum name="VcpTextTruncateModeEnum">
+        <EnumValue name="VCP_TEXT_TRUNCATE_MODE_NONE" />
+        <EnumValue name="VCP_TEXT_TRUNCATE_MODE_END" />
+        <EnumValue name="VCP_TEXT_TRUNCATE_MODE_MID" />
+    </Enum>
+    
+    <Enum name="VcpTextMarginFrameEnum">
+        <EnumValue name="VCP_TEXT_MARGIN_FRAME_LEFT" />
+        <EnumValue name="VCP_TEXT_MARGIN_FRAME_RIGHT" />
+        <EnumValue name="VCP_TEXT_MARGIN_FRAME_TOP" />
+        <EnumValue name="VCP_TEXT_MARGIN_FRAME_BOTTOM" />
+    </Enum>
+
+    <Class name="VcpTextView"             parent="VcpScrollable">
+        <Property  name="mode"           type="VcpTextLineModeEnum" method="setLineMode"/>
+    </Class>
+<!-- VcpTextView Finish -->
+
+<!-- VcpTextEditor Begin -->
+    <Enum name="VcpTextEncodingEnum">
+        <EnumValue name="VCP_TEXT_ENCODING_UCS2" />
+        <EnumValue name="VCP_TEXT_ENCODING_GB2312" />
+    </Enum>
+
+    <Class name="VcpTextEditor"             parent="VcpTextView">
+        <Property  name="mode"           type="VcpTextLineModeEnum" method="setLineMode"/>
+    </Class>
+<!-- VcpTextEditor Finish -->
+
+    <Class name="VfxControl"    parent="VfxFrame" header="vfx_control.h"/>
+    <Class name="VfxScreen"     parent="VfxControl" header="vfx_screen.h"/>
+    <Class name="VfxAppCatScr"  parent="VfxScreen" header="vfx_app_cat_scr.h"/>
+
+    <Class name="VfxTimer"      parent="VfxObject" header="vfx_timer.h">
+        <Property name="startDelay"     type="VfxMsec" />
+        <Property name="duration"       type="VfxMsec" />
+        <Signal   name="tick"           type="VfxXmlSignal" member="m_signalTick"/>
+    </Class>
+
+    <Class name="VfxPage" parent="VfxControl" header="vfx_page.h">
+        <Property name="statusBar"      type="VfxBool" />
+        <Property name="barAutoHide"    type="VfxBool" />
+        <Property name="translucent"    type="VfxBool" />
+        <Property name="topBar"         type="VfxPageBar" method="setTopBar"/>
+        <Property name="bottomBar"      type="VfxPageBar" method="setBottomBar" />
+    </Class>
+
+    <Class name="VfxPageBar" parent="VfxControl" header="vfx_page_bar.h" />
+    
+    <!-- Controls -->
+    
+    <Class name="VcpPlutoControl"   parent="VfxControl" abstract="1" />
+
+    <Class name="VcpStatusIconBar"  parent="VcpPlutoControl" header="vcp_status_icon_bar.h" />
+#if !defined(__MMI_VUI_COSMOS_CP__)    
+    <Class name="VcpCommandTitle"   parent="VfxControl" header="vcp_command_title.h">
+        <Property   name="text"             type="VfxWString" />
+    </Class>
+#endif
+
+    <Class name="VcpButton" parent="VfxControl" header="vcp_button.h">
+        <Property   name="id"               type="VfxId" />
+        <Property   name="isAutoResized"    type="VfxBool" />
+        <Property   name="placement"        type="VcpButtonPlacementEnum" />
+        <Property   name="text"             type="VfxWString" />
+        <Property   name="image"            type="VcpStateImage" />
+        <Property   name="innerRect"        type="VfxRect" />
+        <Signal     name="clicked"          type="VfxXmlIdSignal" member="m_signalClicked" />
+    </Class>
+
+    <Class name="VcpImageButton" parent="VfxControl" header="vcp_image_button.h">
+        <Property   name="id"               type="VfxId" />
+        <Property   name="isStretchMode"      type="VfxBool" />
+        <Property   name="isHighlight"      type="VfxBool" />
+        <Property   name="image"            type="VcpStateImage" />
+        <Signal     name="clicked"          type="VfxXmlIdSignal" member="m_signalClicked" />
+    </Class>
+
+    <Class name="VcpSwitch" parent="VfxControl" header="vcp_switch.h">
+        <Property   name="checked"          type="VfxBool" />
+        <!--Signal     name="clicked"          type="VfxXmlIdSignal" member="m_signalSwitchChanged" /-->
+    </Class>
+
+#if defined(__MMI_VUI_COSMOS_CP__)
+
+    <Class name="VcpTitleBar" parent="VfxPageBar" header="vcp_navi_title_bar.h">
+        <Property   name="title"            type="VfxWString" />
+        <Property   name="titleStyle"       type="VcpTitleBarStyleEnum" />
+    </Class>
+
+<!-- VcpToolBar Begin -->
+    <Enum name="VcpToolBarSegmentButtonCountEnum">
+        <EnumValue name="VCP_TOOL_BAR_SEGMENT_BUTTON_COUNT_TWO" />
+        <EnumValue name="VCP_TOOL_BAR_SEGMENT_BUTTON_COUNT_THREE" />
+    </Enum>
+
+    <Struct name="VcpToolBarItemStruct">
+        <Member    name="id"             type="VfxId" />
+        <Member    name="string"         type="VfxWString" />
+        <Member    name="icon"           type="VfxResId" />
+    </Struct>
+
+    <Struct name="VcpToolBarDisableItemStruct">
+        <Member    name="id"             type="VfxId" />
+        <Member    name="is_disable"     type="VfxBool" />
+    </Struct>
+
+    <Class name="VcpToolBar"             parent="VfxPageBar" header="vcp_tool_bar.h" >
+        <Property  name="item"           type="VcpToolBarItemStruct"            	method="addItemStruct"/>
+        <Property  name="button_count"   type="VcpToolBarSegmentButtonCountEnum"   	method="addControlFrame"/>
+        <Property  name="disable_item"   type="VcpToolBarDisableItemStruct"     	method="setDisableItemStruct"/>
+        <Signal    name="button_tap"     type="VfxXmlSignal"                 		member="m_signalButtonTap"/>
+        <Signal    name="bar_fold"       type="VfxXmlSignal"                 		member="m_signalBarFolded"/>
+    </Class>
+<!-- VcpToolBar Finish -->
+#endif
+
+#if defined(__COSMOS_MMI_PACKAGE__)
+  <!--VcpMsgContactBar Begin -->
+  <Class name ="VappMsgContactBar" parent ="VfxControl" header="Cosmos\Message\vapp_msg_contact_bar.h">
+   </Class>
+  <!-- VcpMsgContactBar Finish -->
+#endif
+
+#if defined(__MMI_VUI_COSMOS_CP__)
+<!-- VcpPanelBar Begin -->
+    <Struct name="VcpPanelBarHeightsStruct">
+        <Member    name="portrait"       type="VfxU32"/>
+        <Member    name="landscape"      type="VfxU32"/>
+    </Struct>
+
+    <Class name="VcpPanelBar"            parent="VfxPageBar" header="vcp_panel_bar.h">
+        <Property  name="height"         type="VfxU32"						 method="setHeight"/>
+        <Property  name="item"           type="VcpPanelBarHeightsStruct"     method="setBothHeights"/>
+    </Class>
+<!-- VcpPanelBar Finish -->
+  <!-- VcpSlider starts-->
+  <Class name="VcpSlider" parent="VfxFrame" header="vcp_slider.h" >
+    <Property name="Layout" type="VcpSliderLayoutEnum"  method="setLayout" />
+    <Property name="Length" type="VfxS32"  method="setLength" />
+    <Property name="MaxValue" type="VfxFloat"  method="setMaxValue" />
+    <Property name="MinValue" type="VfxFloat"  method="setMinValue" />
+    <Property name="CurrentValue" type="VfxFloat"  method="setCurrentValue" />
+    <Property name="SliderMode" type="VcpSliderModeEnum"  method="setSliderMode" />
+    <Property name="IsDisabled" type="VfxBool"  method="setIsDisabled" />              
+  </Class>
+  <!-- VcpSlider ends-->
+#endif  
+
+    <Struct name="VcpTabBarItem">
+        <Member   name="id"             type="VfxS32" />
+        <Member   name="imagelist"      type="VcpStateImage" />
+        <Member   name="text"           type="VfxWString" />
+    </Struct>
+
+    <Class name="VcpTabBar" parent="VfxControl" header="vcp_tab_bar.h" >
+        <Property name="HighlightedTab" type="VfxId"                    method="setHighlightedTab"/>
+        <Property name="tab"            type="VcpTabBarItem"            method="addTabFromXML" />
+    </Class>
+
+    <Class name="VcpPagePanel" parent="VfxControl" header="vcp_page_panel.h" />
+
+
+    <Struct name="VcpSegmentButtonItem">
+        <Member   name="id"             type="VfxS32" />
+        <Member   name="image"          type="VcpStateImage" />
+        <Member   name="text"           type="VfxWString" />
+    </Struct>
+
+    <Class name="VcpSegmentButton" parent="VfxControl" header="vcp_segment_button.h" >
+        <Property name="button"        type="VcpSegmentButtonItem" method="addButton" />
+        <Property name="type"          type="VcpSegmentButtonTypeEnum"  method="setType" />
+        <Property name="style"         type="VcpSegmentButtonStyleEnum" method="setStyle" />
+    </Class>
+    
+#if defined(__MMI_VUI_COSMOS_CP__)    
+    <Class name="VcpTabTitleBar"    parent="VfxPageBar" header="vcp_tab_title_bar.h" >
+        <Property name="addTab"     type="VcpTabTitleBarItem"   method="addTab" />
+        <Property name="HighlightedTab" type="VfxId"    method="setHighlightedTab" />
+    </Class>
+    
+    <Struct name="VcpTabTitleBarItem">
+        <Member   name="id"             type="VfxS32" />
+        <Member   name="imagelist"      type="VcpStateImage" />
+        <Member   name="text"           type="VfxWString" />
+    </Struct>
+#endif
+
+    <!-- cannot check in 
+    <Class name="VfxScreen" parent="VfxControl" />
+    <Class name="VfxAppCatScr" parent="VfxScreen" />
+    <Class name="VtstSampleScr" parent="VfxAppCatScr" header="../test/vtst_hello.h" >
+        <Slot name="onBtnClick" type="VfxXmlIdSlot" />
+    </Class>
+    -->
+
+#if defined(__MMI_VUI_COSMOS_CP__)
+
+<!-- VcpForm starts -->
+  <Class name="VcpFormItemBase" parent="VfxControl" header ="vcp_form.h" >
+    <Property name="itemId" type="VfxId"  method="setId" />
+    <Property name="height" type="VfxS32"  method="setHeight" />
+    <Property name="isHidden" type="VfxBool"  method="setIsHidden" />
+    <Property name="isDisabled" type="VfxBool"  method="setIsDisabled" />
+  </Class>
+  <Class name="VcpFormItemCustomFrame" parent="VcpFormItemBase" >
+    <Property name="customFrame" type="VfxFrame"  method="attachCustomFrame" />
+  </Class>
+  <Class name="VcpFormItemCaption" parent="VcpFormItemBase" >
+    <Property name="text" type="VfxWString"  method="setText" />    
+  </Class>
+  <Class name="VcpFormItemRemovableTextEntry" parent="VcpFormItemBase" >
+    <Property name="mode" type="VfxBool"  method="setMode" />    
+  </Class>
+  <Class name="VcpFormItemLabeledControl" parent="VcpFormItemBase" >
+    <Property name="labelPosition" type="VcpFormLabelPositionEnum"  method="setLabelPosition" />
+        <Property name="LabelText" type="VfxWString" method ="setLabelTextFromXML"/>    
+  </Class>
+  <Class name="VcpFormItemBigArrowButton" parent="VcpFormItemLabeledControl" >
+    <Property name="ButtonText" type="VfxWString" method ="setButtonText"/>
+  </Class>
+  <Class name="VcpFormItemBigAddButton" parent="VcpFormItemLabeledControl" >
+    <Property name="ButtonText" type="VfxWString" method ="setButtonText"/>
+  </Class>
+  <Class name="VcpFormItemTextInput" parent="VcpFormItemLabeledControl" >
+    <Property name="labelPosition" type="VcpFormLabelPositionEnum" method ="setLabelPosition"/>
+        <Property name="Text" type="VfxWString" method ="setTextFromXML"/>
+  </Class>  
+  <Class name="VcpFormItemCell"  parent="VcpFormItemBase">
+    <Property name="MainText" type="VfxWString"  method="setMainText" />
+    <Property name="HintText"  type="VfxWString" method="setHintText"/>
+  </Class>
+
+  <Class name="VcpFormItemLauncherCell" parent="VcpFormItemCell">
+    <Property name="Accessory" type="VfxS32"  method="setAccessory" />  
+  </Class>
+
+  <Class name="VcpFormItemAidButtonCell" parent="VcpFormItemCell">
+    <Property name="ButtonText" type="VfxWString"  method="setButtonText" />
+  </Class>
+
+  <Class name="VcpFormItemSwitchCell" parent="VcpFormItemCell">
+    <Property name="SwitchStatus" type="VfxBool" method="setSwitchStatus" />    
+  </Class>
+
+  <Class name="VcpForm" parent="VcpScrollable">
+    <Property name="Item" type="VcpFormItemBase" method="addItemFromXML" />    
+  </Class>
+  
+  <!-- VcpForm finishes -->        
+
+<Class name="VcpMenuSeekBar" parent="VfxControl" header="vcp_menu_seek_bar.h" >
+	<Property  name="MenuSeekBarHeight"           type="VfxS32"            	method="setHeight"/>
+</Class>
+#endif
+
+#if defined(__COSMOS_MMI_PACKAGE__)
+  <!-- VappMmsViewerCp starts -->
+  <Class name ="VappMsgViewerCp" parent ="VfxControl" header ="Cosmos\Message\vapp_msg_viewer.h">
+  </Class>
+  <Class name ="VappMmsViewerCp" parent ="VappMsgViewerCp" header ="Cosmos\Message\vapp_mms_viewer_cp.h">
+  </Class>
+  <Class name ="VappMmsDetailsViewer" parent ="VfxControl" header ="Cosmos\Message\vapp_mms_details_viewer.h">
+    </Class>
+  <Class name ="VappMmsClock" parent ="VfxTextFrame" header ="Cosmos\Message\vapp_mms_viewer_cp.h">
+  </Class>
+   <!-- VappMmsViewerCp finishes -->
+ #endif
+  <!-- Animation 
+    <Class name="VfxAnimation" parent="VfxObject" />
+
+    <Class name="VfxBaseTimeline" parent="VfxObject" >
+        <Property name="startTime"      type="VfxS32"               method="setStartTime" />
+        <Property name="durationTime"   type="VfxS32"               method="setDurationTime" />
+        <Property name="repeatDuration" type="VfxS32"               method="setRepeatDuration" />
+        <Property name="repeatCount"    type="VfxS32"               method="setRepeatCount" />
+        <Property name="autoReversed"   type="VfxBool"              method="setAutoReversed" />
+        <Property name="isFromCurrent"  type="VfxBool"              method="setIsFromCurrent" />
+        <Property name="target"         type="VfxFrame*"            method="setTarget" />
+        <Property name="targetPropertyId" type="VfxS32"             method="setTargetPropertyId" /> 
+    </Class>
+    
+    <Class name="VfxColorTimeline" parent="VfxBaseTimeline">
+        <Property name="fromValue"      type="VfxColor"             method="setFromValue" />
+        <Property name="toValue"        type="VfxColor"             method="setToValue" />
+    </Class>
+    
+    <Class name="VfxPointTimeline" parent="VfxBaseTimeline">
+        <Property name="fromValue"      type="VfxPoint"             method="setFromValue" />
+        <Property name="toValue"        type="VfxPoint"             method="setToValue" />
+    </Class>
+    -->
+
+    <Class name="VcpScrollable" parent="VfxControl" abstract = "1" />
+
+    <Class name="VcpBaseMenu" parent="VcpScrollable" abstract = "1" />
+
+    <Class name="VcpBaseListMenu" parent="VcpBaseMenu" abstract = "1" header="vcp_list_menu.h" />
+
+    <Class name="VcpListMenu" parent="VcpBaseListMenu" header="vcp_list_menu.h" >
+        <Property name="cellStyle"          type="VcpListMenuCellStyleEnum"         method="setCellStyle"/>
+        <Property name="menuMode"           type="VcpListMenuModeEnum"              method="setMenuModeXML"/>
+        <Property name="menuControlMode"           type="VcpListMenuControlModeEnum"    method="setMenuControlModeXML"/>
+    </Class>
+    
+    <Class name="VcpGroupListMenu" parent="VcpBaseListMenu" >
+        <Property name="cellStyle"          type="VcpListMenuCellStyleEnum"         method="setCellStyle"/>
+        <Property name="menuMode"           type="VcpListMenuModeEnum"              method="setMenuMode"/>
+        <Property name="menuControlMode"           type="VcpListMenuControlModeEnum"    method="setMenuControlMode"/>
+    </Class>
+
+#if defined(__MMI_VUI_COSMOS_CP__)
+
+    <Class name="VcpPhotoBorderFrame" parent="VfxControl"  header="vcp_photo_border_frame.h">
+        <Property name="placement"          type="VcpPhotoBorderFramePlacementEnum"/>
+        <Property name="imageContentPlacement"          type="VfxFrameContentPlacementTypeEnum"/>
+        <Property name="maxSize"            type="VfxSize"/>
+        <!-- use only one of resId/path to set the image source-->
+        <Property name="resId"              type="VfxResId"         method="setImgResId"/>
+        <Property name="path"               type="VfxWString"       method="setImgPath"/>
+    </Class>
+#endif
+
+#if defined(__MMI_VUI_COSMOS_CP__)
+
+    <!-- Enums -->
+  <Enum name="VcpFormLabelPositionEnum">
+    <EnumValue name="VCPFORM_NO_LABEL" />
+    <EnumValue name="VCPFORM_TOP_LEFT" />
+    <EnumValue name="VCPFORM_LEFT" />
+  </Enum>
+
+  <Enum name="VcpSliderLayoutEnum">
+    <EnumValue name="VCP_SLIDER_LAYOUT_VERT"/>
+    <EnumValue name="VCP_SLIDER_LAYOUT_HORZ"/>
+  </Enum>
+  <Enum name="VcpSliderModeEnum">
+    <EnumValue name="VCP_SLIDER_MODE_INTERACTIVE_CONTINUOUS"/>
+    <EnumValue name="VCP_SLIDER_MODE_INTERACTIVE_DISCRETE"/>
+    <EnumValue name="VCP_SLIDER_MODE_NON_INTERACTIVE"/>
+  </Enum>
+#endif
+
+    <Enum name="VfxFrameCullingTypeEnum">
+        <EnumValue name="VFX_FRAME_CULLING_TYPE_NONE" />
+        <EnumValue name="VFX_FRAME_CULLING_TYPE_BACK" />
+        <EnumValue name="VFX_FRAME_CULLING_TYPE_FRONT" />
+    </Enum>
+
+    <Enum name="VfxFrameContentPlacementTypeEnum">
+        <EnumValue name="VFX_FRAME_CONTENT_PLACEMENT_TYPE_TOP_LEFT" />
+        <EnumValue name="VFX_FRAME_CONTENT_PLACEMENT_TYPE_TOP" />
+        <EnumValue name="VFX_FRAME_CONTENT_PLACEMENT_TYPE_TOP_RIGHT" />
+        <EnumValue name="VFX_FRAME_CONTENT_PLACEMENT_TYPE_LEFT" />
+        <EnumValue name="VFX_FRAME_CONTENT_PLACEMENT_TYPE_CENTER" />
+        <EnumValue name="VFX_FRAME_CONTENT_PLACEMENT_TYPE_RIGHT" />
+        <EnumValue name="VFX_FRAME_CONTENT_PLACEMENT_TYPE_BOTTOM_LEFT" />
+        <EnumValue name="VFX_FRAME_CONTENT_PLACEMENT_TYPE_BOTTOM" />
+        <EnumValue name="VFX_FRAME_CONTENT_PLACEMENT_TYPE_BOTTOM_RIGHT" />
+        <EnumValue name="VFX_FRAME_CONTENT_PLACEMENT_TYPE_RESIZE" />
+        <EnumValue name="VFX_FRAME_CONTENT_PLACEMENT_TYPE_RESIZE_ASPECT" />
+        <EnumValue name="VFX_FRAME_CONTENT_PLACEMENT_TYPE_RESIZE_ASPECT_FILL" />
+    </Enum>
+
+    <Enum name="VcpSegmentButtonTypeEnum">
+        <EnumValue name="VCP_SEGMENT_BUTTON_TYPE_GROUP" />    
+        <EnumValue name="VCP_SEGMENT_BUTTON_TYPE_RADIO" />    
+    </Enum>
+    <Enum name="VcpSegmentButtonStyleEnum">
+        <EnumValue name="VCP_SEGMENT_BUTTON_STYLE_IMAGE_ONLY" />    
+        <EnumValue name="VCP_SEGMENT_BUTTON_STYLE_TEXT_ONLY" />    
+    </Enum>
+        <Enum name="VcpListMenuCellStyleEnum">
+        <EnumValue name="VCP_LIST_MENU_CELL_STYLE_NONE" />    
+        <EnumValue name="VCP_LIST_MENU_CELL_STYLE_CUSTOM" />      
+        <EnumValue name="VCP_LIST_MENU_CELL_STYLE_SINGLE_TEXT" />    
+        <EnumValue name="VCP_LIST_MENU_CELL_STYLE_MULTI_TEXT" /> 
+        <EnumValue name="VCP_LIST_MENU_CELL_STYLE_MULTI_TEXT_EX" /> 
+        <EnumValue name="VCP_LIST_MENU_CELL_STYLE_TRIPLE_TEXT" /> 
+        <EnumValue name="VCP_LIST_MENU_CELL_STYLE_TRIPLE_TEXT_EX" /> 
+        <EnumValue name="VCP_LIST_MENU_CELL_STYLE_QUADRUPLE_TEXT" /> 
+        <EnumValue name="VCP_LIST_MENU_CELL_STYLE_ICON_SINGLE_TEXT" />   
+        <EnumValue name="VCP_LIST_MENU_CELL_STYLE_ICON_SINGLE_TEXT_EX" /> 
+        <EnumValue name="VCP_LIST_MENU_CELL_STYLE_ICON_MULTI_TEXT" />    
+        <EnumValue name="VCP_LIST_MENU_CELL_STYLE_ICON_MULTI_TEXT_EX" /> 
+        <EnumValue name="VCP_LIST_MENU_CELL_STYLE_ICON_TRIPLE_TEXT" /> 
+        <EnumValue name="VCP_LIST_MENU_CELL_STYLE_ICON_TRIPLE_TEXT_EX" /> 
+        <EnumValue name="VCP_LIST_MENU_CELL_STYLE_ICON_QUADRUPLE_TEXT" />   
+        <EnumValue name="VCP_LIST_MENU_CELL_STYLE_ICON_QUINTUPLE_TEXT" />    
+        <EnumValue name="VCP_LIST_MENU_CELL_STYLE_MAX" />   
+    </Enum>
+
+    <Enum name="VcpListMenuFocusBehaviorEnum">
+        <EnumValue name="VCP_LIST_MENU_FOCUS_BEHAVIOR_NONE" />    
+        <EnumValue name="VCP_LIST_MENU_FOCUS_BEHAVIOR_SEMI" />      
+        <EnumValue name="VCP_LIST_MENU_FOCUS_BEHAVIOR_ALWAYS" />  
+    </Enum>
+
+    <Enum name="VcpListMenuModeEnum">
+        <EnumValue name="VCP_LIST_MENU_MODE_NORMAL" />    
+        <EnumValue name="VCP_LIST_MENU_MODE_REORDER" />      
+        <EnumValue name="VCP_LIST_MENU_MODE_SINGLE_SELECTION" />    
+        <EnumValue name="VCP_LIST_MENU_MODE_MULTI_SELECTION" />   
+        <EnumValue name="VCP_LIST_MENU_MODE_HEAD_SINGLE_CHECK_MARK" />    
+        <EnumValue name="VCP_LIST_MENU_MODE_HEAD_MULTI_CHECK_MARK" />     
+        <EnumValue name="VCP_LIST_MENU_MODE_TAIL_SINGLE_CHECK_MARK" />    
+        <EnumValue name="VCP_LIST_MENU_MODE_TAIL_MULTI_CHECK_MARK" />   
+    </Enum>
+    
+    <Enum name="VcpListMenuControlModeEnum">
+        <EnumValue name="VCP_LIST_MENU_CONTROL_MODE_NORMAL" />    
+        <EnumValue name="VCP_LIST_MENU_CONTROL_MODE_CMD_BUTTON" />      
+        <EnumValue name="VCP_LIST_MENU_CONTROL_MODE_DISCLOSURE" />   
+    </Enum>
+
+    <Enum name="VcpButtonPlacementEnum">
+        <EnumValue name="VCP_BUTTON_PLACEMENT_TEXT_ONLY" />    
+        <EnumValue name="VCP_BUTTON_PLACEMENT_IMAGE_ONLY" />    
+        <EnumValue name="VCP_BUTTON_PLACEMENT_IMAGE_LEFT" />    
+        <EnumValue name="VCP_BUTTON_PLACEMENT_IMAGE_RIGHT" />    
+        <EnumValue name="VCP_BUTTON_PLACEMENT_IMAGE_TOP" />    
+        <EnumValue name="VCP_BUTTON_PLACEMENT_IMAGE_BOTTOM" />    
+        <EnumValue name="VCP_BUTTON_PLACEMENT_OVERLAP" />    
+        <EnumValue name="VCP_BUTTON_PLACEMENT_TEXT_ONLY_LEFT" />    
+        <EnumValue name="VCP_BUTTON_PLACEMENT_TEXT_LEFT_IMAGE_RIGHT" />    
+    </Enum>
+
+#if defined(__MMI_VUI_COSMOS_CP__)
+
+    <Enum name="VcpTitleBarStyleEnum">
+        <EnumValue name="VCP_TITLE_BAR_STYLE_BASE" />
+        <EnumValue name="VCP_TITLE_BAR_STYLE_EMPTY" />
+    </Enum>
+
+    <Enum name="VcpPhotoBorderFramePlacementEnum">
+        <EnumValue name="VCP_PHOTO_BORDER_FRAME_PLACEMENT_FIT_IMAGE_SIZE" />    
+        <EnumValue name="VCP_PHOTO_BORDER_FRAME_PLACEMENT_FIT_MAX_SIZE" />    
+        <EnumValue name="VCP_PHOTO_BORDER_FRAME_PLACEMENT_FIT_EXACT_SIZE" />    
+    </Enum>
+
+#endif
+
+</VfxXmlExport>
+

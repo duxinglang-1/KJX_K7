@@ -1,0 +1,8 @@
+<VenusXML>
+  <Layout id="LAYOUT_PHONEBOOK_MANAGER">
+    <VfxPage>
+    	<VfxTextFrame name="PBM_TextFrame" text="PhoneBookManager" pos="(0,0)">
+    	</VfxTextFrame>
+    </VfxPage>
+  </Layout>
+</VenusXML>

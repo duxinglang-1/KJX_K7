@@ -1,0 +1,29 @@
+OPEN #1 T:\venus_vfx_target.log /Create
+
+Var.NEW int \total
+Var.SET \total=sizeof(g_vfx_logger_mem_recent_array)/8
+
+Var.NEW int \i
+Var.SET \i=g_vfx_logger_mem_recent_index
+Var.WHILE \i<\total
+(
+  Var.IF g_vfx_logger_mem_recent_array[\i].funcPtr==0
+  (
+    V \i=\total
+  )
+  ELSE
+  (
+    Var.WRITE #1 \i "," g_vfx_logger_mem_recent_array[\i].depth "," %s g_vfx_logger_mem_recent_array[\i].funcPtr
+    V \i=\i+1
+  )
+)
+Var.SET \i=0
+Var.WHILE \i<g_vfx_logger_mem_recent_index
+(
+  Var.WRITE #1 \i "," g_vfx_logger_mem_recent_array[\i].depth "," %s g_vfx_logger_mem_recent_array[\i].funcPtr
+  V \i=\i+1
+)
+
+CLOSE #1
+
+

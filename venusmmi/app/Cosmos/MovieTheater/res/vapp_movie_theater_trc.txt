@@ -1,0 +1,12 @@
+[APP NAME] = MovieTheater
+[SCOPE] = COSMOS
+[MODULE] = MOD_MMI_MEDIA_APP
+
+#starttrace
+TRC_MSG(TRC_VAPP_MOVIE_THEATER_LAUNCH_VAPP, "[MOT][launch] launch movie theater..")
+TRC_MSG(TRC_VAPP_MOVIE_THEATER_POPUP_WAITING, "[MOT] VappMovieTheaterIndexPage::popupWaiting()")
+TRC_MSG(TRC_VAPP_MOVIE_THEATER_ON_WAITING_CANCELED, "[MOT] VappMovieTheaterIndexPage::onWaitingCanceled()")
+TRC_MSG(TRC_VAPP_MOVIE_THEATER_POPUP_WAITING_CLOSE, "[MOT] VappMovieTheaterIndexPage::popupWaitingClose()")
+TRC_MSG(TRC_VAPP_MOVIE_THEATER_ON_PRELOCK_ROUTING, "[MOT] VappMovieTheater::onProcPreLockRouting()")
+TRC_MSG(TRC_VAPP_MOVIE_THEATER_ON_PROC, "[MUSICPLY] VappMovieTheater::onProc(), evnet: %d")
+

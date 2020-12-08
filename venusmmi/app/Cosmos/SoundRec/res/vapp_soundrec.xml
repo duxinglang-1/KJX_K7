@@ -1,0 +1,257 @@
+#ifdef __MMI_MAINLCD_480X800__
+<VenusXML>
+  <Layout id="VAPP_SOUNDREC_LAYOUT_COMMON_PAGE">
+    <VfxPage>
+        <VfxImageFrame name="background" pos="(0, 347)" />
+        <VfxImageFrame name="cassette_background" pos="(0, 0)" size="(480,351)" />    
+        
+        <VfxControl name="cassette_frame" pos="(8, 25)"/>    
+    </VfxPage>
+  </Layout>
+    
+  <Layout id="VAPP_SOUNDREC_LAYOUT_RECORD_PAGE_APP">
+    <VfxPage>
+        <VfxTextFrame name="record_time" anchor="(0.0, 0.0)" pos="(86, 385)" text="00:00:00" color="#ECECEC"/>
+        <VfxTextFrame name="remain_time" anchor="(0.5, 0.0)" pos="(240, 490)" color="#BCBCBC"/>    
+        
+        <VcpButton name="btn_record" anchor="(0.0, 0.0)" pos="(127, 554)" size="(79, 79)"/>
+        <VcpButton name="btn_stop" anchor="(0.0, 0.0)" pos="(273, 554)" size="(79, 79)"/>
+    </VfxPage>
+  </Layout>
+
+  <Layout id="VAPP_SOUNDREC_LAYOUT_RECORD_PAGE_CUI">
+    <VfxPage>
+        <VfxTextFrame name="record_time" anchor="(0.0, 0.0)" pos="(86, 407)" text="00:00:00" color="#ECECEC"/>
+        <VfxTextFrame name="remain_time" anchor="(0.5, 0.0)" pos="(240, 511)" color="#BCBCBC"/>    
+        
+        <VcpButton name="btn_record" anchor="(0.0, 0.0)" pos="(127, 576)" size="(79, 79)"/>
+        <VcpButton name="btn_stop" anchor="(0.0, 0.0)" pos="(273, 576)" size="(79, 79)"/>
+    </VfxPage>
+  </Layout>
+
+  <Layout id="VAPP_SOUNDREC_LAYOUT_PLAY_PAGE">
+    <VfxPage>
+        <VfxTextFrame name="current_time" anchor="(0.0, 0.0)" pos="(22, 388)" text="00:00:00" color="#E9E9E9"/>
+        <VfxTextFrame name="duration_time" anchor="(0.0, 0.0)" pos="(255, 388)" text="00:00:00" color="#9C9C9C"/>
+        <VfxTextFrame name="slash" anchor="(0.0, 0.0)" pos="(240, 398)" text=" / " color="#9C9C9C"/>
+        
+        <VcpButton name="btn_play" anchor="(0.5, 0.0)" pos="(240, 556)" size="(79, 79)"/>
+        <VcpButton name="btn_prev" anchor="(0.5, 0.0)" pos="(146, 560)" size="(69, 69)"/>
+        <VcpButton name="btn_next" anchor="(0.5, 0.0)" pos="(334, 560)" size="(69, 69)"/>
+        
+        <VcpSlider name="progress_bar" pos="(20, 485)" Length="440" MaxValue="1" MinValue="0" />
+    </VfxPage>
+  </Layout>
+
+  <Layout id="VAPP_SOUNDREC_LAYOUT_CASSETTE_FRAME">
+    <VfxControl>
+        <VfxFrame name="block_color" pos="(72, 101)" size="(324,68)" bgColor="#B45A5A5A" />
+    
+        <VfxImageFrame name="left_tape" anchor="(0.5, 0.5)" pos="(151, 132)" />
+        <VfxImageFrame name="right_tape" anchor="(0.5, 0.5)" pos="(327, 132)" />
+        <VfxImageFrame name="left_tape_axis" anchor="(0.5, 0.5)" pos="(151, 132)" resId="@IMG_ID_VAPP_SNDREC_TAPE_AXIS" />
+        <VfxImageFrame name="right_tape_axis" anchor="(0.5, 0.5)" pos="(327, 132)" resId="@IMG_ID_VAPP_SNDREC_TAPE_AXIS" />        
+        <VfxImageFrame name="left_tape_center" anchor="(0.5, 0.5)" pos="(151, 132)" resId="@IMG_ID_VAPP_SNDREC_ROLL_CENTER" />
+        <VfxImageFrame name="right_tape_center" anchor="(0.5, 0.5)" pos="(327, 132)" resId="@IMG_ID_VAPP_SNDREC_ROLL_CENTER" />
+        <VfxImageFrame name="cassette" pos="(0, 0)" resId="@IMG_ID_VAPP_SNDREC_CASSETTE" />
+    
+        <VfxTextFrame name="display_name" pos="(128, 60)" size="(270, 42)" color="#000000"/>
+    
+    </VfxControl>
+  </Layout>
+</VenusXML>
+
+#elif defined(__MMI_MAINLCD_240X320__)
+
+<VenusXML>
+  <Layout id="VAPP_SOUNDREC_LAYOUT_COMMON_PAGE">
+    <VfxPage>
+        <VfxImageFrame name="background" pos="(0, 149)" />
+        <VfxImageFrame name="cassette_background" pos="(0, 0)" size="(240,152)" />    
+        
+        <VfxControl name="cassette_frame" pos="(5, 2)"/>    
+    </VfxPage>
+  </Layout>
+    
+  <Layout id="VAPP_SOUNDREC_LAYOUT_RECORD_PAGE_APP">
+    <VfxPage>
+        <VfxTextFrame name="record_time" anchor="(0.0, 0.0)" pos="(78, 159)" text="00:00:00" color="#ECECEC"/>
+        <VfxTextFrame name="remain_time" anchor="(0.5, 0.0)" pos="(120, 186)" color="#BCBCBC"/>    
+        
+        <VcpButton name="btn_record" anchor="(0.0, 0.0)" pos="(63, 202)" size="(42, 42)"/>
+        <VcpButton name="btn_stop" anchor="(0.0, 0.0)" pos="(136, 202)" size="(42, 42)"/>
+    </VfxPage>
+  </Layout>
+
+  <Layout id="VAPP_SOUNDREC_LAYOUT_RECORD_PAGE_CUI">
+    <VfxPage>
+        <VfxTextFrame name="record_time" anchor="(0.0, 0.0)" pos="(78, 169)" text="00:00:00" color="#ECECEC"/>
+        <VfxTextFrame name="remain_time" anchor="(0.5, 0.0)" pos="(120, 206)" color="#BCBCBC"/>    
+        
+        <VcpButton name="btn_record" anchor="(0.0, 0.0)" pos="(63, 226)" size="(42, 42)"/>
+        <VcpButton name="btn_stop" anchor="(0.0, 0.0)" pos="(136, 226)" size="(42, 42)"/>
+    </VfxPage>
+  </Layout>
+
+  <Layout id="VAPP_SOUNDREC_LAYOUT_PLAY_PAGE">
+    <VfxPage>
+        <VfxTextFrame name="current_time" anchor="(0.0, 0.0)" pos="(7, 166)" text="00:00:00" color="#E9E9E9"/>
+        <VfxTextFrame name="duration_time" anchor="(0.0, 0.0)" pos="(186, 166)" text="00:00:00" color="#9C9C9C"/>
+        <VfxTextFrame name="slash" anchor="(0.0, 0.0)" pos="(0, 163)" text="" color="#9C9C9C"/>
+        
+        <VcpButton name="btn_play" anchor="(0.5, 0.0)" pos="(120, 198)" size="(42, 42)"/>
+        <VcpButton name="btn_prev" anchor="(0.5, 0.0)" pos="(65, 200)" size="(36, 36)"/>
+        <VcpButton name="btn_next" anchor="(0.5, 0.0)" pos="(175, 200)" size="(36, 36)"/>
+        
+        <VcpSlider name="progress_bar" pos="(58, 162)" Length="120" MaxValue="1" MinValue="0" />
+    </VfxPage>
+  </Layout>
+
+  <Layout id="VAPP_SOUNDREC_LAYOUT_CASSETTE_FRAME">
+    <VfxControl>
+        <VfxFrame name="block_color" pos="(34, 52)" size="(164,35)" bgColor="#B45A5A5A" />
+    
+        <VfxImageFrame name="left_tape" anchor="(0.5, 0.5)" pos="(76, 67)" />
+        <VfxImageFrame name="right_tape" anchor="(0.5, 0.5)" pos="(164, 67)" />
+        <VfxImageFrame name="left_tape_axis" anchor="(0.5, 0.5)" pos="(76, 67)" resId="@IMG_ID_VAPP_SNDREC_TAPE_AXIS" />
+        <VfxImageFrame name="right_tape_axis" anchor="(0.5, 0.5)" pos="(164, 67)" resId="@IMG_ID_VAPP_SNDREC_TAPE_AXIS" />        
+        <VfxImageFrame name="left_tape_center" anchor="(0.5, 0.5)" pos="(76, 67)" resId="@IMG_ID_VAPP_SNDREC_ROLL_CENTER" />
+        <VfxImageFrame name="right_tape_center" anchor="(0.5, 0.5)" pos="(164, 67)" resId="@IMG_ID_VAPP_SNDREC_ROLL_CENTER" />
+        <VfxImageFrame name="cassette" pos="(0, 0)" resId="@IMG_ID_VAPP_SNDREC_CASSETTE" />
+    
+        <VfxTextFrame name="display_name" pos="(76, 31)" size="(120, 36)" color="#000000"/>
+    
+    </VfxControl>
+  </Layout>
+</VenusXML>
+
+#elif defined(__MMI_MAINLCD_240X400__)
+
+<VenusXML>
+  <Layout id="VAPP_SOUNDREC_LAYOUT_COMMON_PAGE">
+    <VfxPage>
+        <VfxImageFrame name="background" pos="(0, 171)" />
+        <VfxImageFrame name="cassette_background" pos="(0, 0)" size="(240,174)" />    
+        
+        <VfxControl name="cassette_frame" pos="(7, 12)"/>    
+    </VfxPage>
+  </Layout>
+    
+  <Layout id="VAPP_SOUNDREC_LAYOUT_RECORD_PAGE_APP">
+    <VfxPage>
+        <VfxTextFrame name="record_time" anchor="(0.0, 0.0)" pos="(38, 191)" text="00:00:00" color="#ECECEC"/>
+        <VfxTextFrame name="remain_time" anchor="(0.5, 0.0)" pos="(120, 243)" color="#BCBCBC"/>    
+        
+        <VcpButton name="btn_record" anchor="(0.0, 0.0)" pos="(63, 273)" size="(42, 42)"/>
+        <VcpButton name="btn_stop" anchor="(0.0, 0.0)" pos="(136, 273)" size="(42, 42)"/>
+    </VfxPage>
+  </Layout>
+
+  <Layout id="VAPP_SOUNDREC_LAYOUT_RECORD_PAGE_CUI">
+    <VfxPage>
+        <VfxTextFrame name="record_time" anchor="(0.0, 0.0)" pos="(38, 211)" text="00:00:00" color="#ECECEC"/>
+        <VfxTextFrame name="remain_time" anchor="(0.5, 0.0)" pos="(120, 263)" color="#BCBCBC"/>    
+        
+        <VcpButton name="btn_record" anchor="(0.0, 0.0)" pos="(63, 293)" size="(42, 42)"/>
+        <VcpButton name="btn_stop" anchor="(0.0, 0.0)" pos="(136, 293)" size="(42, 42)"/>
+    </VfxPage>
+  </Layout>
+
+  <Layout id="VAPP_SOUNDREC_LAYOUT_PLAY_PAGE">
+    <VfxPage>
+        <VfxTextFrame name="current_time" anchor="(0.0, 0.0)" pos="(8, 201)" text="00:00:00" color="#E9E9E9"/>
+        <VfxTextFrame name="duration_time" anchor="(0.0, 0.0)" pos="(128, 201)" text="00:00:00" color="#9C9C9C"/>
+        <VfxTextFrame name="slash" anchor="(0.0, 0.0)" pos="(110, 201)" text=" / " color="#9C9C9C"/>
+        
+        <VcpButton name="btn_play" anchor="(0.5, 0.0)" pos="(120, 275)" size="(42, 42)"/>
+        <VcpButton name="btn_prev" anchor="(0.5, 0.0)" pos="(65, 277)" size="(36, 36)"/>
+        <VcpButton name="btn_next" anchor="(0.5, 0.0)" pos="(175, 277)" size="(36, 36)"/>
+        
+        <VcpSlider name="progress_bar" pos="(10, 240)" Length="220" MaxValue="1" MinValue="0" />
+    </VfxPage>
+  </Layout>
+
+  <Layout id="VAPP_SOUNDREC_LAYOUT_CASSETTE_FRAME">
+    <VfxControl>
+        <VfxFrame name="block_color" pos="(34, 52)" size="(164,35)" bgColor="#B45A5A5A" />
+    
+        <VfxImageFrame name="left_tape" anchor="(0.5, 0.5)" pos="(76, 67)" />
+        <VfxImageFrame name="right_tape" anchor="(0.5, 0.5)" pos="(164, 67)" />
+        <VfxImageFrame name="left_tape_axis" anchor="(0.5, 0.5)" pos="(76, 67)" resId="@IMG_ID_VAPP_SNDREC_TAPE_AXIS" />
+        <VfxImageFrame name="right_tape_axis" anchor="(0.5, 0.5)" pos="(164, 67)" resId="@IMG_ID_VAPP_SNDREC_TAPE_AXIS" />        
+        <VfxImageFrame name="left_tape_center" anchor="(0.5, 0.5)" pos="(76, 67)" resId="@IMG_ID_VAPP_SNDREC_ROLL_CENTER" />
+        <VfxImageFrame name="right_tape_center" anchor="(0.5, 0.5)" pos="(164, 67)" resId="@IMG_ID_VAPP_SNDREC_ROLL_CENTER" />
+        <VfxImageFrame name="cassette" pos="(0, 0)" resId="@IMG_ID_VAPP_SNDREC_CASSETTE" />
+    
+        <VfxTextFrame name="display_name" pos="(77, 30)" size="(120, 36)" color="#000000"/>
+    
+    </VfxControl>
+  </Layout>
+</VenusXML>
+
+#else /* 320x480 */
+
+<VenusXML>
+  <Layout id="VAPP_SOUNDREC_LAYOUT_COMMON_PAGE">
+    <VfxPage>
+        <VfxImageFrame name="background" pos="(0, 225)" />
+        <VfxImageFrame name="cassette_background" pos="(0, 0)" size="(320,230)" />    
+        
+        <VfxControl name="cassette_frame" pos="(0, 14)"/>    
+    </VfxPage>
+  </Layout>
+
+  <Layout id="VAPP_SOUNDREC_LAYOUT_RECORD_PAGE_APP">
+    <VfxPage>
+        <VfxTextFrame name="record_time" anchor="(0.0, 0.0)" pos="(61, 246)" text="00:00:00" color="#ECECEC"/>
+        <VfxTextFrame name="remain_time" anchor="(0.5, 0.0)" pos="(160, 304)" color="#BCBCBC"/>    
+        
+        <VcpButton name="btn_record" anchor="(0.0, 0.0)" pos="(85, 335)" size="(54, 54)"/>
+        <VcpButton name="btn_stop" anchor="(0.0, 0.0)" pos="(182, 335)" size="(54, 54)"/>
+    </VfxPage>
+  </Layout>
+    
+  <Layout id="VAPP_SOUNDREC_LAYOUT_RECORD_PAGE_CUI">
+    <VfxPage>
+        <VfxTextFrame name="record_time" anchor="(0.0, 0.0)" pos="(61, 278)" text="00:00:00" color="#ECECEC"/>
+        <VfxTextFrame name="remain_time" anchor="(0.5, 0.0)" pos="(160, 332)" color="#BCBCBC"/>
+        
+        <VcpButton name="btn_record" anchor="(0.0, 0.0)" pos="(85, 364)" size="(54, 54)"/>
+        <VcpButton name="btn_stop" anchor="(0.0, 0.0)" pos="(182, 364)" size="(54, 54)"/>
+    </VfxPage>
+  </Layout>
+
+  <Layout id="VAPP_SOUNDREC_LAYOUT_PLAY_PAGE">
+    <VfxPage>
+        <VfxTextFrame name="current_time" anchor="(0.0, 0.0)" pos="(25, 252)" text="00:00:00" color="#E9E9E9"/>
+        <VfxTextFrame name="duration_time" anchor="(0.0, 0.0)" pos="(177, 252)" text="00:00:00" color="#9C9C9C"/>
+        <VfxTextFrame name="slash" anchor="(0.0, 0.0)" pos="(163, 258)" text=" / " color="#9C9C9C"/>
+        
+        <VcpButton name="btn_play" anchor="(0.5, 0.0)" pos="(160, 335)" size="(54, 54)"/>
+        <VcpButton name="btn_prev" anchor="(0.5, 0.0)" pos="(93, 339)" size="(54, 54)"/>
+        <VcpButton name="btn_next" anchor="(0.5, 0.0)" pos="(227, 339)" size="(54, 54)"/>
+        
+        <VcpSlider name="progress_bar" pos="(13, 308)" Length="294" MaxValue="1" MinValue="0" />
+    </VfxPage>
+  </Layout>
+
+  <Layout id="VAPP_SOUNDREC_LAYOUT_CASSETTE_FRAME">
+    <VfxControl>
+        <VfxFrame name="block_color" pos="(45, 70)" size="(228,48)" bgColor="#B45A5A5A" />
+    
+        <VfxImageFrame name="left_tape" anchor="(0.5, 0.5)" pos="(96, 92)" />
+        <VfxImageFrame name="right_tape" anchor="(0.5, 0.5)" pos="(222, 92)" />
+        <VfxImageFrame name="left_tape_axis" anchor="(0.5, 0.5)" pos="(96, 92)" resId="@IMG_ID_VAPP_SNDREC_TAPE_AXIS" />
+        <VfxImageFrame name="right_tape_axis" anchor="(0.5, 0.5)" pos="(222, 92)" resId="@IMG_ID_VAPP_SNDREC_TAPE_AXIS" />        
+        <VfxImageFrame name="left_tape_center" anchor="(0.5, 0.5)" pos="(96, 92)" resId="@IMG_ID_VAPP_SNDREC_ROLL_CENTER" />
+        <VfxImageFrame name="right_tape_center" anchor="(0.5, 0.5)" pos="(222, 92)" resId="@IMG_ID_VAPP_SNDREC_ROLL_CENTER" />
+        <VfxImageFrame name="cassette" pos="(0, 0)" resId="@IMG_ID_VAPP_SNDREC_CASSETTE" />
+    
+        <VfxTextFrame name="display_name" pos="(94, 43)" size="(178, 20)" color="#000000"/>
+    
+    </VfxControl>
+  </Layout>
+
+</VenusXML>
+
+#endif

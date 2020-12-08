@@ -1,0 +1,186 @@
+<VenusXML>
+#if defined(__MMI_MAINLCD_320X480__)
+	<Layout id="VENUS_COMPOSER_MAIN_PAGE">
+		<VfxPage bgColor="#000000" name="VappComposerMainPage" translucent="false">
+			<VcpForm name="composer_form" pos="(0,0)" size="(320, 480)" /> 
+			<VcpTitleBar name="composerTitleBar" title="New Message"/>
+			<!--	<VfxImageFrame name="titleIcon" resId="@VCP_IMG_BUTTON_PLUS" size="(20, 20)" />-->
+			<!--</VcpTitleBar>-->
+			<!--  Cant add this
+			<VcpToolBar name="composerToolbar" pos="(0,427)" /> 
+			-->
+			
+    </VfxPage>
+  </Layout>
+   
+	<Layout id="VENUS_COMPOSER_INSERT_MENU_LIST_PAGE">
+		<VfxPage bgColor="#000000" name="VappTestInsertMenuListPage" translucent="false">
+		  <VcpTitleBar name="menutitleBar" title="@STR_ID_VAPP_UC_INSERT_ID" />
+			<VcpGroupListMenu cellStyle="VCP_LIST_MENU_CELL_STYLE_SINGLE_TEXT" name="m_list" pos="(0,0)" size="(320, 480)" />
+		</VfxPage>
+	</Layout>
+	
+	<Layout id="VENUS_COMPOSER_ATTACHMENT_LIST_PAGE">
+	<VfxPage bgColor="#000000" name="VAppUcAttachmentlistPage" translucent="false">
+		<VcpTitleBar name="titleBar" title="@STR_ID_VAPP_UC_ATTACHMENT_LIST_ID" />
+		<VcpListMenu cellStyle="VCP_LIST_MENU_CELL_STYLE_ICON_MULTI_TEXT_EX" name="attahmentList" pos="(0,0)" size="(320, 480)" />
+		<VcpToolBar name="attachmentToolBar" />	
+	</VfxPage>
+	</Layout>
+	
+	<Layout id="VENUS_COMPOSER_RECIPIENT_LIST_PAGE">
+	<VfxPage bgColor="#000000" name="VAppUcRecipientlistPage" translucent="false">
+		<VcpTitleBar name="titleBar" title="@STR_ID_VAPP_UC_REMOVE_RECIPIENT_ID" />
+		<VcpListMenu cellStyle="VCP_LIST_MENU_CELL_STYLE_MULTI_TEXT" name="recipientList" pos="(0,0)" size="(320, 480)" />
+	</VfxPage>
+  </Layout>
+
+#elif defined(__MMI_MAINLCD_240X400__)
+	<Layout id="VENUS_COMPOSER_MAIN_PAGE">
+		<VfxPage bgColor="#000000" name="VappComposerMainPage" translucent="false">
+			<VcpForm name="composer_form" pos="(0,0)" size="(240, 400)" /> 
+			<VcpTitleBar name="composerTitleBar" title="New Message"/>
+			<!--	<VfxImageFrame name="titleIcon" resId="@VCP_IMG_BUTTON_PLUS" size="(20, 20)" />-->
+			<!--</VcpTitleBar>-->
+			<!--  Cant add this
+			<VcpToolBar name="composerToolbar" pos="(0,400)" /> 
+			-->
+			
+    </VfxPage>
+  </Layout>
+   
+	<Layout id="VENUS_COMPOSER_INSERT_MENU_LIST_PAGE">
+		<VfxPage bgColor="#000000" name="VappTestInsertMenuListPage" translucent="false">
+		  <VcpTitleBar name="menutitleBar" title="@STR_ID_VAPP_UC_INSERT_ID" />
+			<VcpGroupListMenu cellStyle="VCP_LIST_MENU_CELL_STYLE_SINGLE_TEXT" name="m_list" pos="(0,0)" size="(240, 400)" />
+		</VfxPage>
+	</Layout>
+	
+	<Layout id="VENUS_COMPOSER_ATTACHMENT_LIST_PAGE">
+	<VfxPage bgColor="#000000" name="VAppUcAttachmentlistPage" translucent="false">
+		<VcpTitleBar name="titleBar" title="@STR_ID_VAPP_UC_ATTACHMENT_LIST_ID" />
+		<VcpListMenu cellStyle="VCP_LIST_MENU_CELL_STYLE_ICON_MULTI_TEXT_EX" name="attahmentList" pos="(0,0)" size="(240, 400)" />
+		<VcpToolBar name="attachmentToolBar" />	
+	</VfxPage>
+	</Layout>
+	
+	<Layout id="VENUS_COMPOSER_RECIPIENT_LIST_PAGE">
+	<VfxPage bgColor="#000000" name="VAppUcRecipientlistPage" translucent="false">
+		<VcpTitleBar name="titleBar" title="@STR_ID_VAPP_UC_REMOVE_RECIPIENT_ID" />
+		<VcpListMenu cellStyle="VCP_LIST_MENU_CELL_STYLE_MULTI_TEXT" name="recipientList" pos="(0,0)" size="(240, 400)" />
+	</VfxPage>
+	</Layout>
+
+#elif defined(__MMI_MAINLCD_240X320__)
+
+	<Layout id="VENUS_COMPOSER_MAIN_PAGE">
+		<VfxPage bgColor="#000000" name="VappComposerMainPage" translucent="false">
+			<VcpForm name="composer_form" pos="(0,0)" size="(240, 320)" /> 
+			<VcpTitleBar name="composerTitleBar" title="New Message"/>
+			<!--	<VfxImageFrame name="titleIcon" resId="@VCP_IMG_BUTTON_PLUS" size="(20, 20)" />-->
+			<!--</VcpTitleBar>-->
+			<!--  Cant add this
+			<VcpToolBar name="composerToolbar" pos="(0,427)" /> 
+			-->
+			
+    </VfxPage>
+  </Layout>
+   
+	<Layout id="VENUS_COMPOSER_INSERT_MENU_LIST_PAGE">
+		<VfxPage bgColor="#000000" name="VappTestInsertMenuListPage" translucent="false">
+		  <VcpTitleBar name="menutitleBar" title="@STR_ID_VAPP_UC_INSERT_ID" />
+			<VcpGroupListMenu cellStyle="VCP_LIST_MENU_CELL_STYLE_SINGLE_TEXT" name="m_list" pos="(0,0)" size="(240, 320)" />
+		</VfxPage>
+	</Layout>
+	
+	<Layout id="VENUS_COMPOSER_ATTACHMENT_LIST_PAGE">
+	<VfxPage bgColor="#000000" name="VAppUcAttachmentlistPage" translucent="false">
+		<VcpTitleBar name="titleBar" title="@STR_ID_VAPP_UC_ATTACHMENT_LIST_ID" />
+		<VcpListMenu cellStyle="VCP_LIST_MENU_CELL_STYLE_ICON_MULTI_TEXT_EX" name="attahmentList" pos="(0,0)" size="(240, 320)" />
+		<VcpToolBar name="attachmentToolBar" />	
+	</VfxPage>
+	</Layout>
+	
+	<Layout id="VENUS_COMPOSER_RECIPIENT_LIST_PAGE">
+	<VfxPage bgColor="#000000" name="VAppUcRecipientlistPage" translucent="false">
+		<VcpTitleBar name="titleBar" title="@STR_ID_VAPP_UC_REMOVE_RECIPIENT_ID" />
+		<VcpListMenu cellStyle="VCP_LIST_MENU_CELL_STYLE_MULTI_TEXT" name="recipientList" pos="(0,0)" size="(240, 320)" />
+	</VfxPage>
+	</Layout>
+
+#elif defined(__MMI_MAINLCD_480X800__)
+
+	<Layout id="VENUS_COMPOSER_MAIN_PAGE">
+		<VfxPage bgColor="#000000" name="VappComposerMainPage" translucent="false">
+			<VcpForm name="composer_form" pos="(0,0)" size="(320, 453)" /> 
+			<VcpTitleBar name="composerTitleBar" title="New Message"/>
+			<!--	<VfxImageFrame name="titleIcon" resId="@VCP_IMG_BUTTON_PLUS" size="(20, 20)" />-->
+			<!--</VcpTitleBar>-->
+			<!--  Cant add this
+			<VcpToolBar name="composerToolbar" pos="(0,427)" /> 
+			-->
+			
+    </VfxPage>
+  </Layout>
+   
+	<Layout id="VENUS_COMPOSER_INSERT_MENU_LIST_PAGE">
+		<VfxPage bgColor="#000000" name="VappTestInsertMenuListPage" translucent="false">
+		  <VcpTitleBar name="menutitleBar" title="@STR_ID_VAPP_UC_INSERT_ID" />
+			<VcpGroupListMenu cellStyle="VCP_LIST_MENU_CELL_STYLE_SINGLE_TEXT" name="m_list" pos="(0,0)" size="(480, 800)" />
+		</VfxPage>
+	</Layout>
+	
+	<Layout id="VENUS_COMPOSER_ATTACHMENT_LIST_PAGE">
+	<VfxPage bgColor="#000000" name="VAppUcAttachmentlistPage" translucent="false">
+		<VcpTitleBar name="titleBar" title="@STR_ID_VAPP_UC_ATTACHMENT_LIST_ID" />
+		<VcpListMenu cellStyle="VCP_LIST_MENU_CELL_STYLE_ICON_MULTI_TEXT_EX" name="attahmentList" pos="(0,0)" size="(480, 800)" />
+		<VcpToolBar name="attachmentToolBar" />	
+	</VfxPage>
+	</Layout>
+	
+	<Layout id="VENUS_COMPOSER_RECIPIENT_LIST_PAGE">
+	<VfxPage bgColor="#000000" name="VAppUcRecipientlistPage" translucent="false">
+		<VcpTitleBar name="titleBar" title="@STR_ID_VAPP_UC_REMOVE_RECIPIENT_ID" />
+		<VcpListMenu cellStyle="VCP_LIST_MENU_CELL_STYLE_MULTI_TEXT" name="recipientList" pos="(0,0)" size="(480, 800)" />
+	</VfxPage>
+	</Layout>
+	
+#else
+
+	<Layout id="VENUS_COMPOSER_MAIN_PAGE">
+		<VfxPage bgColor="#000000" name="VappComposerMainPage" translucent="false">
+			<VcpForm name="composer_form" pos="(0,0)" size="(320, 480)" /> 
+			<VcpTitleBar name="composerTitleBar" title="New Message"/>
+			<!--	<VfxImageFrame name="titleIcon" resId="@VCP_IMG_BUTTON_PLUS" size="(20, 20)" />-->
+			<!--</VcpTitleBar>-->
+			<!--  Cant add this
+			<VcpToolBar name="composerToolbar" pos="(0,427)" /> 
+			-->
+			
+    </VfxPage>
+  </Layout>
+   
+	<Layout id="VENUS_COMPOSER_INSERT_MENU_LIST_PAGE">
+		<VfxPage bgColor="#000000" name="VappTestInsertMenuListPage" translucent="false">
+		  <VcpTitleBar name="menutitleBar" title="@STR_ID_VAPP_UC_INSERT_ID" />
+			<VcpGroupListMenu cellStyle="VCP_LIST_MENU_CELL_STYLE_SINGLE_TEXT" name="m_list" pos="(0,0)" size="(320, 480)" />
+		</VfxPage>
+	</Layout>
+	
+	<Layout id="VENUS_COMPOSER_ATTACHMENT_LIST_PAGE">
+	<VfxPage bgColor="#000000" name="VAppUcAttachmentlistPage" translucent="false">
+		<VcpTitleBar name="titleBar" title="@STR_ID_VAPP_UC_ATTACHMENT_LIST_ID" />
+		<VcpListMenu cellStyle="VCP_LIST_MENU_CELL_STYLE_ICON_MULTI_TEXT_EX" name="attahmentList" pos="(0,0)" size="(320, 480)" />
+		<VcpToolBar name="attachmentToolBar" />	
+	</VfxPage>
+	</Layout>
+	
+	<Layout id="VENUS_COMPOSER_RECIPIENT_LIST_PAGE">
+	<VfxPage bgColor="#000000" name="VAppUcRecipientlistPage" translucent="false">
+		<VcpTitleBar name="titleBar" title="@STR_ID_VAPP_UC_REMOVE_RECIPIENT_ID" />
+		<VcpListMenu cellStyle="VCP_LIST_MENU_CELL_STYLE_MULTI_TEXT" name="recipientList" pos="(0,0)" size="(320, 480)" />
+	</VfxPage>
+	</Layout>
+#endif
+		
+</VenusXML>

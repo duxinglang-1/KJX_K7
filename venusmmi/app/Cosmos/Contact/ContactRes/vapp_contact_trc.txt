@@ -1,0 +1,37 @@
+[APP NAME] = vapp contact
+[SCOPE] = COSMOS
+[MODULE] = MOD_MMI_COMMON_APP
+
+#start trace
+#vapp_phb_app.cpp
+TRC_MSG(VAPP_CONTACT_RECEIVE_EVT_ID, "[VAPP_CONTACT_DM]mmi_ret vapp_phb_do_format(mmi_event_struct* evt): evt->id = %d")
+TRC_MSG(VAPP_CONTACT_WIPE_PROC, "[VAPP_CONTACT_DM]void vapp_phb_dm_wipe_format_result_proc(srv_phb_async_op_cb_struct *param): param->type = %d\n")
+TRC_MSG(VAPP_CONTACT_WIPE_PROC_DELETE_ALL, "[VAPP_CONTACT_DM]void vapp_phb_dm_wipe_format_result_proc(srv_phb_async_op_cb_struct *param): param->type = %d, finish_count: %d, total_count: %d\n")
+TRC_MSG(VAPP_CONTACT_WIPE_PROC_UPDATE_STATUS, "[VAPP_CONTACT_DM]void vapp_phb_dm_wipe_format_result_proc(srv_phb_async_op_cb_struct *param): param->type = %d, delUpdate->finish_count: %d, delUpdate->fail_count: %d\n")
+TRC_MSG(VAPP_CONTACT_MULTI_OP_DONE, "[VAPP_CONTACT_DM]vapp_phb_multi_op_done: 0x%x, evt_id = %d\n")
+TRC_MSG(VAPP_CONTACT_OP_TASK, "[VAPP_CONTACT_DM]Contact op task & state: %d\n")
+TRC_MSG(VAPP_CONTACT_OP_TASK_WIPE, "[VAPP_CONTACT_DM]EVT_ID_SRV_DM_LAWMO_WIPE_IND-Contact op task & state: %d\n")
+TRC_MSG(VAPP_CONTACT_DM_EVT_LOCK, "[VAPP_CONTACT_DM]EVT_ID_SRV_DM_LAWMO_LOCK_IND, evt_id = %d, srv_dm_lawmo_lock_cmd_enum = %d, srv_dm_lawmo_lock_report_cb_func_type = 0x%x\n")
+TRC_MSG(VAPP_CONTACT_DM_EVT_WIPE, "[VAPP_CONTACT_DM]EVT_ID_SRV_DM_LAWMO_WIPE_IND, evt_id = %d, srv_dm_lawmo_lock_cmd_enum = %d, srv_dm_lawmo_lock_report_cb_func_type = 0x%x\n")
+
+#contact backup and restore
+TRC_MSG(VAPP_CONTACT_BACKUP_ONPROC, "[VAPP_CONTACT_BACKUP_RESTORE]VappContactBackupPage::onProc evt->evt_id: %d\n")
+TRC_MSG(VAPP_CONTACT_RESTORE_ONPROC, "[VAPP_CONTACT_BACKUP_RESTORE]VappContactRestorePage::onProc evt->evt_id: %d\n")
+TRC_MSG(VAPP_CONTACT_BACKUP_CLOUD_LOGIN, "[VAPP_CONTACT_BACKUP_RESTORE]BackUp-onProc result: %d, accountId: %d, providerId: %d, err: %d\n")
+TRC_MSG(VAPP_CONTACT_RESTORE_CLOUD_LOGIN, "[VAPP_CONTACT_BACKUP_RESTORE]Restore-onProc result: %d, accountId: %d, providerId: %d, err: %d\n")
+TRC_MSG(VAPP_CONTACT_BACKUP_CB, "[VAPP_CONTACT_BACKUP_RESTORE]BackUpCB-cloud: %d, type_enum: %d, finish: %d, fail: %d, total: %d, userdata: %0x\n")
+TRC_MSG(VAPP_CONTACT_RESTORE_CB, "[VAPP_CONTACT_BACKUP_RESTORE]RestoreCB-cloud: %d, type_enum: %d, finish: %d, fail: %d, total: %d, userdata: %0x\n")
+TRC_MSG(VAPP_CONTACT_DELETE_CB, "[VAPP_CONTACT_BACKUP_RESTORE]DeleteAllCB-cloud: %d, type_enum: %d, finish: %d, fail: %d, total: %d, userdata: %0x\n")
+TRC_MSG(VAPP_CONTACT_BACKUP_DONE, "[VAPP_CONTACT_BACKUP_RESTORE]BackUpDone-cloud: %d, type_enum: %d, finish: %d, fail: %d, total: %d, userdata: %0x, result: %d\n")
+TRC_MSG(VAPP_CONTACT_RESTORE_DONE, "[VAPP_CONTACT_BACKUP_RESTORE]RestoreDone-cloud: %d, type_enum: %d, finish: %d, fail: %d, total: %d, userdata: %0x, result: %d\n")
+TRC_MSG(VAPP_CONTACT_DELETE_DONE, "[VAPP_CONTACT_BACKUP_RESTORE]DeleteAllDone-cloud: %d, type_enum: %d, finish: %d, fail: %d, total: %d, userdata: %0x, result: %d\n")
+
+#contact multi-copy & delete
+TRC_MSG(VAPP_CONTACT_MULTI_DELETE_CB, "[VAPP_CONTACT_MULTI_COPY_DELETE]MultiDeleteCB-type_enum: %d, finish: %d, fail: %d, total: %d, userdata: %0x\n")
+TRC_MSG(VAPP_CONTACT_MULTI_COPY_CB, "[VAPP_CONTACT_MULTI_COPY_DELETE]MultiCopyCB-type_enum: %d, finish: %d, fail: %d, total: %d, userdata: %0x\n")
+TRC_MSG(VAPP_CONTACT_MULTI_DELETE_DONE, "[VAPP_CONTACT_MULTI_COPY_DELETE]MultiDeleteDone-type_enum: %d, finish: %d, fail: %d, total: %d, userdata: %0x, result: %d\n")
+TRC_MSG(VAPP_CONTACT_MULTI_COPY_DONE, "[VAPP_CONTACT_MULTI_COPY_DELETE]MultiCopyDone-type_enum: %d, finish: %d, fail: %d, total: %d, userdata: %0x, result: %d\n")
+
+#cloud srv alloc asm memory
+TRC_MSG(VAPP_CONTACT_SETTING_ALLOCATOR, "[VAPP_CONTACT_SETTING_ALLOCATOR_FREE_MEMORY]Allocator--countAllocMem: %d, app: 0x%0x, groupId: %d, size: %d, memPtr: 0x%0x\n")
+TRC_MSG(VAPP_CONTACT_SETTING_FREE, "[VAPP_CONTACT_SETTING_ALLOCATOR_FREE_MEMORY]Deallocator--countAllocMem: %d, app: 0x%0x, groupId: %d, size: %d, memPtr: 0x%0x\n")

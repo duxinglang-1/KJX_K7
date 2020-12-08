@@ -1,0 +1,10 @@
+[APP NAME] = Music player widget
+[SCOPE] = COSMOS
+[MODULE] = MOD_MMI_MEDIA_APP
+
+#start trace
+TRC_MSG(TRC_VAPP_WIDGET_MUSICPLY_INFO_PANEL_BTN_CLICK, "[MUSICPLY WIDGET] VappWidgetMusicPlayerInfoPanel::onButtonClicked(), PLAY BTN, state = [%d]")
+TRC_MSG(TRC_VAPP_WIDGET_MUSICPLY_INFO_PANEL_STATE_CHANGE, "[MUSICPLY WIDGET] VappWidgetMusicPlayerInfoPanel::onPlaybackStateChange(), state = [%d]")
+TRC_MSG(TRC_VAPP_WIDGET_MUSICPLY_INFO_PANEL_ON_HIDDEN_DOWN, "[MUSICPLY WIDGET] VappWidgetMusicPlayerInfoPanel::onHiddenDone(), is_complete=[%d]")
+TRC_MSG(TRC_VAPP_WIDGET_MUSICPLY_INFO_PANEL_ON_UNHIDDEN_DOWN, "[MUSICPLY WIDGET] VappWidgetMusicPlayerInfoPanel::onUnHiddenDone(), is_complete=[%d]")
+TRC_MSG(TRC_VAPP_WIDGET_MUSICPLY_INFO_PANEL_SET_CTRL_HIDDEN, "[MUSICPLY WIDGET] VappWidgetMusicPlayerInfoPanel::setControlHidden(), current=[%d], is_hidden=[%d]")

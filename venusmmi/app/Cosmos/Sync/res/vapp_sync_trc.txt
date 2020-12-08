@@ -1,0 +1,18 @@
+[APP NAME] = vapp sync
+[SCOPE] = COSMOS
+[MODULE] = MOD_MMI_CONN_APP
+
+#start trace
+#vapp_sync.cpp
+TRC_MSG(MMI_SYNC_NOW_IS_CONNECTED, "[SYNC][VAPP]isConnection!")
+TRC_MSG(MMI_SYNC_APP_LIVE, "[SYNC][VAPP]VappSyncPhoneBtServer::onConnAsk(), app alive, i=%d")
+TRC_MSG(MMI_SYNC_OTHER_APP_LIVE, "[SYNC][VAPP]VappSyncPhoneBtServer::onConnAsk(), other app alive, i=%d")
+TRC_MSG(MMI_SYNC_SHOW_ICON, "[SYNC][VAPP]VappSyncPhoneAccntListMenu::isShowIcon(%d)=%d")
+TRC_MSG(MMI_SYNC_PHONE_LIST_PROC, "[SYNC][VAPP]VappSyncPhoneAccntListPage::onProc()")
+TRC_MSG(MMI_SYNC_PHONE_LIST_PROC_BT, "[SYNC][VAPP]VappSyncPhoneAccntListPage::onProc(),bt result=%d")
+TRC_MSG(MMI_SYNC_PHONE_START_NEW_SYNC, "[SYNC]VappSyncPhoneAccntListPage::startNewSync()")
+TRC_MSG(MMI_SYNC_PHONE_FIND_ACCNT, "[SYNC]VappSyncPhoneAccntListPage::locateAccntIndex(isNew=%d),accntIdx=%d,firstSlot=%d,oldIdx=%d")
+
+#vapp_sync_phone_bt_srv.cpp
+TRC_MSG(MMI_SYNC_PHONE_EVT_HDLR, "[SYNC]vapp_sync_phone_evt_handlr()")
+TRC_MSG(MMI_SYNC_PHONE_ON_BTON, "[SYNC]VappSyncPhoneAccntListPage::onProc(BT_ON=%d,idx=%d)")

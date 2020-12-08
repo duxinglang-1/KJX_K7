@@ -1,0 +1,318 @@
+<VenusXML>
+
+  <Layout id = "VENUS_MMS_LAYOUT_MMS_SETTING">
+    <VfxPage name ="VappMMSSettingPage" bgColor ="#000000" translucent="false">
+      <VcpTitleBar name ="m_titleBar" title = "@STR_ID_VAPP_MMS_MMS_SETTINGS"  prop ="topBar"/>
+      <VcpGroupListMenu name ="m_groupList" pos ="(0,0)" size ="(320, 480)" />
+    </VfxPage>
+  </Layout>
+
+  <Layout id = "VENUS_MMS_LAYOUT_MMS_SETTING_PREF_STORAGE">
+    <VfxPage name ="VappMMSSetPrefStPage" bgColor ="#000000" translucent="false">
+      <VcpTitleBar name ="m_titleBar" title = "@STR_ID_VAPP_MMS_MMS_PREFER_STORAGE"  prop ="topBar"/>
+      <VcpListMenu name ="m_menu" pos ="(0,0)" size ="(320, 480)" />
+    </VfxPage>
+  </Layout>
+
+  <Layout id = "VENUS_MMS_LAYOUT_MMS_SETTING_DATA_ACCOUNT">
+    <VfxPage name ="VappMMSSetDataActPage" bgColor ="#000000" translucent="false">
+      <VcpTitleBar name ="m_titleBar" title = "@STR_ID_VAPP_MMS_DATA_ACCOUNT"  prop ="topBar"/>
+      <VcpListMenu name ="m_menu" pos ="(0,0)" size ="(320, 480)" />
+    </VfxPage>
+  </Layout>
+ <Layout id = "VENUS_MMS_LAYOUT_MMS_SETTING_MSG_FILTER">
+    <VfxPage name ="VappMMSSetFilterPage" bgColor ="#000000" translucent="false">
+      <VcpTitleBar name ="m_titleBar" title = "@STR_ID_VAPP_MMS_MESSAGE_FILTER"  prop ="topBar"/>
+      <VcpListMenu name ="m_menu" pos ="(0,0)" size ="(320, 480)" />
+    </VfxPage>
+  </Layout>
+
+  <Layout id = "VENUS_MMS_LAYOUT_MMS_SETTING_CREATION_MODE">
+    <VfxPage name ="VappMMSSetCreationPage" bgColor ="#000000" translucent="false">
+      <VcpTitleBar name ="m_titleBar" title = "@STR_ID_VAPP_MMS_SETTINGS_CREATION_MODES"  prop ="topBar"/>
+      <VcpListMenu name ="m_menu" pos ="(0,0)" size ="(320, 480)" />
+    </VfxPage>
+  </Layout>
+
+  <Layout id = "VENUS_MMS_LAYOUT_MMS_SETTING_PICTURE_RESIZE">
+    <VfxPage name ="VappMMSSetPicResizePage" bgColor ="#000000" translucent="false">
+      <VcpTitleBar name ="m_titleBar" title = "@STR_ID_VAPP_MMS_SETTINGS_IMAGE_RESIZE"  prop ="topBar"/>
+      <VcpListMenu name ="m_menu" pos ="(0,0)" size ="(320, 480)" />
+    </VfxPage>
+  </Layout>
+
+  <Layout id = "VENUS_MMS_LAYOUT_MMS_SETTING_SLIDE_TIME">
+    <VfxPage name ="VappMMSSetSlideTimePage" bgColor ="#000000" translucent="false">
+      <VcpTitleBar name ="m_titleBar" title = "@STR_ID_VAPP_MMS_SETTINGS_DEFAULT_SLIDE_TIMING"  prop ="topBar"/>
+      <VcpListMenu name ="m_menu" pos ="(0,0)" size ="(320, 480)" />
+    </VfxPage>
+  </Layout>
+  
+  <Layout id = "VENUS_MMS_LAYOUT_MMS_SETTING_SLIDE_TIME_EDI">
+    <VfxPage name ="VappMMSSetSlideEdiPage" bgColor ="#000000" translucent="false">
+      <VcpTitleBar name ="m_titleBar" title = "@STR_ID_VAPP_MMS_SETTINGS_DEFAULT_SLIDE_TIMING"  prop ="topBar"/>
+      <VcpForm name ="m_form" pos ="(0,0)" size ="(320, 480)" />
+    </VfxPage>
+  </Layout>
+
+  <Layout id = "VENUS_MMS_LAYOUT_MMS_SETTING_PRIORITY">
+    <VfxPage name ="VappMMSSetSendPrioPage" bgColor ="#000000" translucent="false">
+      <VcpTitleBar name ="m_titleBar" title = "@STR_ID_VAPP_MMS_PRIORITY"  prop ="topBar"/>
+      <VcpListMenu name ="m_menu" pos ="(0,0)" size ="(320, 480)" />
+    </VfxPage>
+  </Layout>
+
+  <Layout id = "VENUS_MMS_LAYOUT_MMS_SETTING_VALIDITY_PERIOD">
+    <VfxPage name ="VappMMSSetSendValidPage" bgColor ="#000000" translucent="false">
+      <VcpTitleBar name ="m_titleBar" title = "@STR_ID_VAPP_MMS_SETTINGS_VALIDITY_PERIOD"  prop ="topBar"/>
+      <VcpListMenu name ="m_menu" pos ="(0,0)" size ="(320, 480)" />
+    </VfxPage>
+  </Layout>
+
+  <Layout id = "VENUS_MMS_LAYOUT_MMS_SETTING_DELIVERY_TIME">
+    <VfxPage name ="VappMMSSetSendDeliveryPage" bgColor ="#000000" translucent="false">
+      <VcpTitleBar name ="m_titleBar" title = "@STR_ID_VAPP_MMS_SETTINGS_DELIVERY_TIME"  prop ="topBar"/>
+      <VcpListMenu name ="m_menu" pos ="(0,0)" size ="(320, 480)" />
+    </VfxPage>
+  </Layout>
+
+  <Layout id = "VENUS_MMS_LAYOUT_MMS_SETTING_HOME_NETWORK">
+    <VfxPage name ="VappMMSSetRetvlHomePage" bgColor ="#000000" translucent="false">
+      <VcpTitleBar name ="m_titleBar" title = "@STR_ID_VAPP_MMS_SETTINGS_HOME_NETWORK"  prop ="topBar"/>
+      <VcpListMenu name ="m_menu" pos ="(0,0)" size ="(320, 480)" />
+    </VfxPage>
+  </Layout>
+
+  <Layout id = "VENUS_MMS_LAYOUT_MMS_SETTING_ROAM_NETWORK">
+    <VfxPage name ="VappMMSSetRetvlRoamPage" bgColor ="#000000" translucent="false">
+      <VcpTitleBar name ="m_titleBar" title = "@STR_ID_VAPP_MMS_SETTINGS_ROAMING"  prop ="topBar"/>
+      <VcpListMenu name ="m_menu" pos ="(0,0)" size ="(320, 480)" />
+    </VfxPage>
+  </Layout>  
+  	<Layout id = "VENUS_MMS_LAYOUT_MMS_VIEWER_PLAY">
+    <VfxPage name =" VappMmsViewerPage" bgColor ="#FFFFFF">
+      <VcpTitleBar name ="infobar" prop ="topBar" titleStyle = "VCP_TITLE_BAR_STYLE_EMPTY">
+        <VfxTextFrame name ="Slider" pos ="(0, 0)" size ="(100,25)" color ="#FFFFFF" />
+        <VappMmsClock name ="MMSClock" pos ="(250,0)" size ="(50,25)" color ="#FFFFFF"/>
+      </VcpTitleBar>
+      <VcpPagePanel name = "Panel" pos ="(0, 0)" size = "(0, 0)">
+      <VappMmsViewerCp name ="MMSContent" pos ="(0,0)" size ="(320, 480)" />
+        </VcpPagePanel>
+      <VcpButton name ="previous" pos =" (4,383)" size =" (67,50)" image = "@IMG_ID_VENUS_MMS_PREVIOUS_SLIDE" placement = "VCP_BUTTON_PLACEMENT_IMAGE_ONLY"/>
+      <VcpButton name ="m_button_play" pos =" (75,383)" size =" (170,50)" image = "@IMG_ID_VENUS_MMS_PLAY_SLIDE" placement = "VCP_BUTTON_PLACEMENT_IMAGE_ONLY"/>
+      <VcpButton name ="next" pos =" (249,383)" size =" (67,50)" image = "@IMG_ID_VENUS_MMS_NEXT_SLIDE" placement = "VCP_BUTTON_PLACEMENT_IMAGE_ONLY"/>
+                 </VfxPage>
+	</Layout>
+  #ifdef __MMI_MAINLCD_480X800__
+  <Layout id = "VENUS_MMS_LAYOUT_MMS_VIEWER">
+        <VfxPage name ="VappMmsViewerPage" bgColor ="#FFFFFF" translucent="false">
+          <VappMsgContactBar name ="ContactBar" pos ="(0,0)" />
+          <VfxTextFrame name ="Subject" pos ="(14,62)" size ="(466,50)" color ="#000000" borderColor="#FF0000"/>
+          <VfxTextFrame name ="Slider" pos ="(0,240)" size ="(240,50)" color ="#000000" borderColor="#FF0000"/>
+	  <!--VcpToolBar name ="m_tool_bar" prop ="bottomBar">
+            <VcpToolBarItemStruct id ="123" string ="Objects"  prop ="item" icon="@IMG_ID_UMMS_USE_DETAILS_IMAGE_NUMBER" />
+            <VcpToolBarItemStruct id = "234" string ="Details"  prop ="item" icon="@IMG_ID_UMMS_USE_DETAILS_IMAGE_NUMBER"/>
+            <VcpToolBarItemStruct id ="345" string ="Copy"  prop ="item" icon="@IMG_ID_UMMS_USE_DETAILS_IMAGE_NUMBER"/>
+            <VcpToolBarItemStruct id ="456" string ="D"  prop ="item" icon="@IMG_ID_UMMS_USE_DETAILS_IMAGE_NUMBER"/>
+            <VcpToolBarItemStruct id ="567" string ="E"  prop ="item" icon="@IMG_ID_UMMS_USE_DETAILS_IMAGE_NUMBER"/>
+            <VcpToolBarItemStruct id ="678" string ="F"  prop ="item" icon="@IMG_ID_UMMS_USE_DETAILS_IMAGE_NUMBER"/>
+          </VcpToolBar-->
+         <VcpButton name ="previous" pos =" (14,344)" size =" (107,70)" image = "@IMG_ID_VENUS_MMS_PREVIOUS_SLIDE" placement = "VCP_BUTTON_PLACEMENT_IMAGE_ONLY"/>
+          <VcpButton name ="m_button_play" pos =" (130,344)" size =" (222,70)" image = "@IMG_ID_VENUS_MMS_PLAY_SLIDE" placement = "VCP_BUTTON_PLACEMENT_IMAGE_ONLY"/>
+          <VcpButton name ="next" pos =" (361,344)" size =" (107,70)" image = "@IMG_ID_VENUS_MMS_NEXT_SLIDE" placement = "VCP_BUTTON_PLACEMENT_IMAGE_ONLY"/>
+          <VfxTextFrame name ="DateTime" pos ="(240,391)" size ="(240,50)" color ="#000000" borderColor="#FF0000"/>
+          <VfxTextFrame name ="MmsSize" pos ="(14,72)" size ="(100,50)" color ="#000000" borderColor="#FF0000"/>
+          <VcpPagePanel name = "Panel" pos ="(0, 62)" size = "(0, 0)">
+             <VappMmsViewerCp name ="MMSContent" size ="(480, 480)" />
+          </VcpPagePanel>
+          </VfxPage>
+  </Layout>
+  <Layout id = "VENUS_MMS_LAYOUT_NON_MMS_VIEWER">
+        <VfxPage name ="VappMmsViewerPage" bgColor ="#FFFFFF" translucent="false">
+          <VappMsgContactBar name ="ContactBar" pos ="(0,0)"/>
+          <VcpPagePanel name = "Panel" pos ="(0, 62)" size = "(0, 0)">
+            <VappMmsDetailsViewer name ="MMSContentEx" size ="(0, 0)" />
+            <VappMmsViewerCp name ="MMSContent" size ="(0, 0)" />
+          </VcpPagePanel> 
+          <VfxTextFrame name ="Subject" pos ="(14,62)" size ="(466,50)" color ="#000000" borderColor="#FF0000"/>
+          <VfxTextFrame name ="Slider" pos ="(0,240)" size ="(240,50)" color ="#000000" borderColor="#FF0000"/>
+          <VfxTextFrame name ="DateTime" pos ="(240,391)" size ="(240,50)" color ="#000000" borderColor="#FF0000"/>
+          <VfxTextFrame name ="MmsSize" pos ="(14,72)" size ="(100,50)" color ="#000000" borderColor="#FF0000"/>
+          <!--VappMmsDetailsViewer name ="MMSContent" pos ="(0,62)" size ="(480, 312)" /-->
+	  <!--VcpToolBar name ="m_tool_bar" prop ="bottomBar">
+            <VcpToolBarItemStruct id ="123" string ="Objects"  prop ="item" icon="@IMG_ID_UMMS_USE_DETAILS_IMAGE_NUMBER" />
+            <VcpToolBarItemStruct id = "234" string ="Details"  prop ="item" icon="@IMG_ID_UMMS_USE_DETAILS_IMAGE_NUMBER"/>
+            <VcpToolBarItemStruct id ="345" string ="Copy"  prop ="item" icon="@IMG_ID_UMMS_USE_DETAILS_IMAGE_NUMBER"/>
+            <VcpToolBarItemStruct id ="456" string ="D"  prop ="item" icon="@IMG_ID_UMMS_USE_DETAILS_IMAGE_NUMBER"/>
+            <VcpToolBarItemStruct id ="567" string ="E"  prop ="item" icon="@IMG_ID_UMMS_USE_DETAILS_IMAGE_NUMBER"/>
+            <VcpToolBarItemStruct id ="678" string ="F"  prop ="item" icon="@IMG_ID_UMMS_USE_DETAILS_IMAGE_NUMBER"/>
+          </VcpToolBar-->
+         <VcpButton name ="previous" pos =" (14,344)" size =" (0,70)" image = "@IMG_ID_VENUS_MMS_PREVIOUS_SLIDE" placement = "VCP_BUTTON_PLACEMENT_IMAGE_ONLY"/>
+          <VcpButton name ="m_button_play" pos =" (130,344)" size =" (0,70)" image = "@IMG_ID_VENUS_MMS_PLAY_SLIDE" placement = "VCP_BUTTON_PLACEMENT_IMAGE_ONLY"/>
+          <VcpButton name ="next" pos =" (361,344)" size =" (0,70)" image = "@IMG_ID_VENUS_MMS_NEXT_SLIDE" placement = "VCP_BUTTON_PLACEMENT_IMAGE_ONLY"/>
+          </VfxPage>
+  </Layout>
+  #elif defined(__MMI_MAINLCD_320X480__)
+  <Layout id = "VENUS_MMS_LAYOUT_MMS_VIEWER">
+    <VfxPage name ="VappMmsViewerPage" bgColor ="#FFFFFF" translucent="false">
+      <VappMsgContactBar name ="ContactBar" pos ="(0,0)" />
+      <VfxTextFrame name ="Subject" pos ="(8,62)" size ="(312,22)" color ="#000000" borderColor="#FF0000"/>
+          <VfxTextFrame name ="Slider" pos ="(0,391)" size ="(150,30)" color ="#000000" borderColor="#FF0000"/>
+      <VcpPagePanel name = "Panel" pos ="(0, 62)" size = "(0, 0)">
+      <VappMmsViewerCp name ="MMSContent" size ="(320, 265)" />
+        </VcpPagePanel>
+      <!--VcpToolBar name ="m_tool_bar" prop ="bottomBar">
+            <VcpToolBarItemStruct id ="123" string ="Objects"  prop ="item" icon="@IMG_ID_UMMS_USE_DETAILS_IMAGE_NUMBER" />
+            <VcpToolBarItemStruct id = "234" string ="Details"  prop ="item" icon="@IMG_ID_UMMS_USE_DETAILS_IMAGE_NUMBER"/>
+            <VcpToolBarItemStruct id ="345" string ="Copy"  prop ="item" icon="@IMG_ID_UMMS_USE_DETAILS_IMAGE_NUMBER"/>
+            <VcpToolBarItemStruct id ="456" string ="D"  prop ="item" icon="@IMG_ID_UMMS_USE_DETAILS_IMAGE_NUMBER"/>
+            <VcpToolBarItemStruct id ="567" string ="E"  prop ="item" icon="@IMG_ID_UMMS_USE_DETAILS_IMAGE_NUMBER"/>
+            <VcpToolBarItemStruct id ="678" string ="F"  prop ="item" icon="@IMG_ID_UMMS_USE_DETAILS_IMAGE_NUMBER"/>
+          </VcpToolBar-->
+      <VcpButton name ="previous" pos =" (8,344)" size =" (65,47)" image = "@IMG_ID_VENUS_MMS_PREVIOUS_SLIDE" placement = "VCP_BUTTON_PLACEMENT_IMAGE_ONLY"/>
+      <VcpButton name ="m_button_play" pos =" (78,344)" size =" (165,47)" image = "@IMG_ID_VENUS_MMS_PLAY_SLIDE" placement = "VCP_BUTTON_PLACEMENT_IMAGE_ONLY"/>
+      <VcpButton name ="next" pos =" (248,344)" size =" (65,47)" image = "@IMG_ID_VENUS_MMS_NEXT_SLIDE" placement = "VCP_BUTTON_PLACEMENT_IMAGE_ONLY"/>
+      <VfxTextFrame name ="DateTime" pos ="(160,391)" size ="(150,30)" color ="#000000" borderColor="#FF0000"/>
+      <VfxTextFrame name ="MmsSize" pos ="(8,64)" size ="(100,50)" color ="#000000" borderColor="#FF0000"/>
+
+    </VfxPage>
+  </Layout>
+  <Layout id = "VENUS_MMS_LAYOUT_NON_MMS_VIEWER">
+    <VfxPage name ="VappMmsViewerPage" bgColor ="#FFFFFF" translucent="false">
+      <VappMsgContactBar name ="ContactBar" pos ="(0,0)"/>
+      <VcpPagePanel name = "Panel" pos ="(0, 62)" size = "(0, 0)">
+        <VappMmsDetailsViewer name ="MMSContentEx" size ="(0, 0)" />
+        <VappMmsViewerCp name ="MMSContent" size ="(0, 0)" />
+      </VcpPagePanel>
+      <VfxTextFrame name ="Subject" pos ="(8,62)" size ="(312,22)" color ="#000000" borderColor="#FF0000"/>
+      <VfxTextFrame name ="MmsSize" pos ="(8,64)" size ="(100,50)" color ="#000000" borderColor="#FF0000"/>
+      <VfxTextFrame name ="Slider" pos ="(0,391)" size ="(150,30)" color ="#000000" borderColor="#FF0000"/>
+      <!--VcpToolBar name ="m_tool_bar" prop ="bottomBar">
+            <VcpToolBarItemStruct id ="123" string ="Objects"  prop ="item" icon="@IMG_ID_UMMS_USE_DETAILS_IMAGE_NUMBER" />
+            <VcpToolBarItemStruct id = "234" string ="Details"  prop ="item" icon="@IMG_ID_UMMS_USE_DETAILS_IMAGE_NUMBER"/>
+            <VcpToolBarItemStruct id ="345" string ="Copy"  prop ="item" icon="@IMG_ID_UMMS_USE_DETAILS_IMAGE_NUMBER"/>
+            <VcpToolBarItemStruct id ="456" string ="D"  prop ="item" icon="@IMG_ID_UMMS_USE_DETAILS_IMAGE_NUMBER"/>
+            <VcpToolBarItemStruct id ="567" string ="E"  prop ="item" icon="@IMG_ID_UMMS_USE_DETAILS_IMAGE_NUMBER"/>
+            <VcpToolBarItemStruct id ="678" string ="F"  prop ="item" icon="@IMG_ID_UMMS_USE_DETAILS_IMAGE_NUMBER"/>
+          </VcpToolBar-->
+      <VcpButton name ="previous" pos =" (8,344)" size =" (0,47)" image = "@IMG_ID_VENUS_MMS_PREVIOUS_SLIDE" placement = "VCP_BUTTON_PLACEMENT_IMAGE_ONLY"/>
+      <VcpButton name ="m_button_play" pos =" (78,344)" size =" (0,47)" image = "@IMG_ID_VENUS_MMS_PLAY_SLIDE" placement = "VCP_BUTTON_PLACEMENT_IMAGE_ONLY"/>
+      <VcpButton name ="next" pos =" (248,344)" size =" (0,47)" image = "@IMG_ID_VENUS_MMS_NEXT_SLIDE" placement = "VCP_BUTTON_PLACEMENT_IMAGE_ONLY"/>
+      <VfxTextFrame name ="DateTime" pos ="(160,391)" size ="(150,30)" color ="#000000" borderColor="#FF0000"/>
+    </VfxPage>
+  </Layout>
+  #elif defined(__MMI_MAINLCD_240X320__) || defined(__MMI_MAINLCD_240X400__)
+  <Layout id = "VENUS_MMS_LAYOUT_MMS_VIEWER">
+    <VfxPage name ="VappMmsViewerPage" bgColor ="#FFFFFF" translucent="false">
+  <VappMsgContactBar name="ContactBar" pos="(0,0)" /> 
+  <VfxTextFrame name="Subject" pos="(5,62)" size="(240,19)" color="#000000" borderColor="#FF0000" /> 
+  <VfxTextFrame name="Slider" pos="(0,391)" size="(120,16)" color="#000000" borderColor="#FF0000" /> 
+  <VcpPagePanel name = "Panel" pos ="(0, 62)" size = "(0, 0)">
+      <VappMmsViewerCp name="MMSContent" size="(240, 265)" /> 
+   </VcpPagePanel>
+      <!--VcpToolBar name ="m_tool_bar" prop ="bottomBar">
+            <VcpToolBarItemStruct id ="123" string ="Objects"  prop ="item" icon="@IMG_ID_UMMS_USE_DETAILS_IMAGE_NUMBER" />
+            <VcpToolBarItemStruct id = "234" string ="Details"  prop ="item" icon="@IMG_ID_UMMS_USE_DETAILS_IMAGE_NUMBER"/>
+            <VcpToolBarItemStruct id ="345" string ="Copy"  prop ="item" icon="@IMG_ID_UMMS_USE_DETAILS_IMAGE_NUMBER"/>
+            <VcpToolBarItemStruct id ="456" string ="D"  prop ="item" icon="@IMG_ID_UMMS_USE_DETAILS_IMAGE_NUMBER"/>
+            <VcpToolBarItemStruct id ="567" string ="E"  prop ="item" icon="@IMG_ID_UMMS_USE_DETAILS_IMAGE_NUMBER"/>
+            <VcpToolBarItemStruct id ="678" string ="F"  prop ="item" icon="@IMG_ID_UMMS_USE_DETAILS_IMAGE_NUMBER"/>
+          </VcpToolBar-->
+      <VcpButton name ="previous" pos =" (5,344)" size =" (55,38)" image = "@IMG_ID_VENUS_MMS_PREVIOUS_SLIDE" placement = "VCP_BUTTON_PLACEMENT_IMAGE_ONLY"/>
+      <VcpButton name ="m_button_play" pos =" (78,344)" size =" (110,38)" image = "@IMG_ID_VENUS_MMS_PLAY_SLIDE" placement = "VCP_BUTTON_PLACEMENT_IMAGE_ONLY"/>
+      <VcpButton name ="next" pos =" (248,344)" size =" (55,38)" image = "@IMG_ID_VENUS_MMS_NEXT_SLIDE" placement = "VCP_BUTTON_PLACEMENT_IMAGE_ONLY"/>
+      <VfxTextFrame name ="DateTime" pos ="(120,391)" size ="(120,16)" color ="#000000" borderColor="#FF0000"/>
+      <VfxTextFrame name ="MmsSize" pos ="(5,63)" size ="(100,50)" color ="#000000" borderColor="#FF0000"/>
+
+    </VfxPage>
+  </Layout>
+  <Layout id = "VENUS_MMS_LAYOUT_NON_MMS_VIEWER">
+    <VfxPage name ="VappMmsViewerPage" bgColor ="#FFFFFF" translucent="false">
+      <VappMsgContactBar name ="ContactBar" pos ="(0,0)"/>
+  <VcpPagePanel name = "Panel" pos ="(0, 62)" size = "(0, 0)">
+        <VappMmsDetailsViewer name ="MMSContentEx" size ="(0, 0)" />
+        <VappMmsViewerCp name ="MMSContent" size ="(0, 0)" />
+      </VcpPagePanel>
+   <VfxTextFrame name="Subject" pos="(5,62)" size="(240,19)" color="#000000" borderColor="#FF0000" /> 
+    <VfxTextFrame name ="MmsSize" pos ="(8,64)" size ="(100,50)" color ="#000000" borderColor="#FF0000"/>
+  <VfxTextFrame name="Slider" pos="(0,391)" size="(120,16)" color="#000000" borderColor="#FF0000" /> 
+     <!--VcpToolBar name ="m_tool_bar" prop ="bottomBar">
+            <VcpToolBarItemStruct id ="123" string ="Objects"  prop ="item" icon="@IMG_ID_UMMS_USE_DETAILS_IMAGE_NUMBER" />
+            <VcpToolBarItemStruct id = "234" string ="Details"  prop ="item" icon="@IMG_ID_UMMS_USE_DETAILS_IMAGE_NUMBER"/>
+            <VcpToolBarItemStruct id ="345" string ="Copy"  prop ="item" icon="@IMG_ID_UMMS_USE_DETAILS_IMAGE_NUMBER"/>
+            <VcpToolBarItemStruct id ="456" string ="D"  prop ="item" icon="@IMG_ID_UMMS_USE_DETAILS_IMAGE_NUMBER"/>
+            <VcpToolBarItemStruct id ="567" string ="E"  prop ="item" icon="@IMG_ID_UMMS_USE_DETAILS_IMAGE_NUMBER"/>
+            <VcpToolBarItemStruct id ="678" string ="F"  prop ="item" icon="@IMG_ID_UMMS_USE_DETAILS_IMAGE_NUMBER"/>
+          </VcpToolBar-->
+  <VcpButton name="previous" pos="(5,344)" size="(0,38)" image="@IMG_ID_VENUS_MMS_PREVIOUS_SLIDE" placement="VCP_BUTTON_PLACEMENT_IMAGE_ONLY" /> 
+  <VcpButton name="m_button_play" pos="(78,344)" size="(0,38)" image="@IMG_ID_VENUS_MMS_PLAY_SLIDE" placement="VCP_BUTTON_PLACEMENT_IMAGE_ONLY" /> 
+  <VcpButton name="next" pos="(248,344)" size="(0,38)" image="@IMG_ID_VENUS_MMS_NEXT_SLIDE" placement="VCP_BUTTON_PLACEMENT_IMAGE_ONLY" /> 
+  <VfxTextFrame name="DateTime" pos="(120,391)" size="(120,16)" color="#000000" borderColor="#FF0000" /> 
+  </VfxPage>
+  </Layout>
+  #else
+  <Layout id = "VENUS_MMS_LAYOUT_MMS_VIEWER">
+  <VfxPage name ="VappMmsViewerPage" bgColor ="#FFFFFF" translucent="false">
+    <VappMsgContactBar name ="ContactBar" pos ="(0,0)" />
+    <VfxTextFrame name ="Subject" pos ="(8,62)" size ="(312,22)" color ="#000000" borderColor="#FF0000"/>
+    <VfxTextFrame name ="Slider" pos ="(0,391)" size ="(150,30)" color ="#000000" borderColor="#FF0000"/>
+    <VcpPagePanel name = "Panel" pos ="(0, 62)" size = "(0, 0)">
+      <VappMmsViewerCp name ="MMSContent" size ="(320, 265)" />
+    </VcpPagePanel>
+    <!--VcpToolBar name ="m_tool_bar" prop ="bottomBar">
+            <VcpToolBarItemStruct id ="123" string ="Objects"  prop ="item" icon="@IMG_ID_UMMS_USE_DETAILS_IMAGE_NUMBER" />
+            <VcpToolBarItemStruct id = "234" string ="Details"  prop ="item" icon="@IMG_ID_UMMS_USE_DETAILS_IMAGE_NUMBER"/>
+            <VcpToolBarItemStruct id ="345" string ="Copy"  prop ="item" icon="@IMG_ID_UMMS_USE_DETAILS_IMAGE_NUMBER"/>
+            <VcpToolBarItemStruct id ="456" string ="D"  prop ="item" icon="@IMG_ID_UMMS_USE_DETAILS_IMAGE_NUMBER"/>
+            <VcpToolBarItemStruct id ="567" string ="E"  prop ="item" icon="@IMG_ID_UMMS_USE_DETAILS_IMAGE_NUMBER"/>
+            <VcpToolBarItemStruct id ="678" string ="F"  prop ="item" icon="@IMG_ID_UMMS_USE_DETAILS_IMAGE_NUMBER"/>
+          </VcpToolBar-->
+    <VcpButton name ="previous" pos =" (8,344)" size =" (65,47)" image = "@IMG_ID_VENUS_MMS_PREVIOUS_SLIDE" placement = "VCP_BUTTON_PLACEMENT_IMAGE_ONLY"/>
+    <VcpButton name ="m_button_play" pos =" (78,344)" size =" (165,47)" image = "@IMG_ID_VENUS_MMS_PLAY_SLIDE" placement = "VCP_BUTTON_PLACEMENT_IMAGE_ONLY"/>
+    <VcpButton name ="next" pos =" (248,344)" size =" (65,47)" image = "@IMG_ID_VENUS_MMS_NEXT_SLIDE" placement = "VCP_BUTTON_PLACEMENT_IMAGE_ONLY"/>
+    <VfxTextFrame name ="DateTime" pos ="(160,391)" size ="(150,30)" color ="#000000" borderColor="#FF0000"/>
+    <VfxTextFrame name ="MmsSize" pos ="(8,64)" size ="(100,50)" color ="#000000" borderColor="#FF0000"/>
+      
+  </VfxPage>
+</Layout>
+<Layout id = "VENUS_MMS_LAYOUT_NON_MMS_VIEWER">
+  <VfxPage name ="VappMmsViewerPage" bgColor ="#FFFFFF" translucent="false">
+    <VappMsgContactBar name ="ContactBar" pos ="(0,0)"/>
+    <VcpPagePanel name = "Panel" pos ="(0, 62)" size = "(0, 0)">
+      <VappMmsDetailsViewer name ="MMSContentEx" size ="(0, 0)" />
+      <VappMmsViewerCp name ="MMSContent" size ="(0, 0)" />
+    </VcpPagePanel>
+    <VfxTextFrame name ="Subject" pos ="(8,62)" size ="(0,22)" color ="#000000" borderColor="#FF0000"/>
+    <VfxTextFrame name ="MmsSize" pos ="(8,64)" size ="(100,50)" color ="#000000" borderColor="#FF0000"/>
+
+    <VfxTextFrame name ="Slider" pos ="(0,391)" size ="(0,30)" color ="#000000" borderColor="#FF0000"/>
+    <!--VcpToolBar name ="m_tool_bar" prop ="bottomBar">
+            <VcpToolBarItemStruct id ="123" string ="Objects"  prop ="item" icon="@IMG_ID_UMMS_USE_DETAILS_IMAGE_NUMBER" />
+            <VcpToolBarItemStruct id = "234" string ="Details"  prop ="item" icon="@IMG_ID_UMMS_USE_DETAILS_IMAGE_NUMBER"/>
+            <VcpToolBarItemStruct id ="345" string ="Copy"  prop ="item" icon="@IMG_ID_UMMS_USE_DETAILS_IMAGE_NUMBER"/>
+            <VcpToolBarItemStruct id ="456" string ="D"  prop ="item" icon="@IMG_ID_UMMS_USE_DETAILS_IMAGE_NUMBER"/>
+            <VcpToolBarItemStruct id ="567" string ="E"  prop ="item" icon="@IMG_ID_UMMS_USE_DETAILS_IMAGE_NUMBER"/>
+            <VcpToolBarItemStruct id ="678" string ="F"  prop ="item" icon="@IMG_ID_UMMS_USE_DETAILS_IMAGE_NUMBER"/>
+          </VcpToolBar-->
+    <VcpButton name ="previous" pos =" (8,344)" size =" (0,0)" image = "@IMG_ID_VENUS_MMS_PREVIOUS_SLIDE" placement = "VCP_BUTTON_PLACEMENT_IMAGE_ONLY"/>
+    <VcpButton name ="m_button_play" pos =" (78,344)" size =" (0,0)" image = "@IMG_ID_VENUS_MMS_PLAY_SLIDE" placement = "VCP_BUTTON_PLACEMENT_IMAGE_ONLY"/>
+    <VcpButton name ="next" pos =" (248,344)" size =" (0,0)" image = "@IMG_ID_VENUS_MMS_NEXT_SLIDE" placement = "VCP_BUTTON_PLACEMENT_IMAGE_ONLY"/>
+    <VfxTextFrame name ="DateTime" pos ="(160,391)" size ="(0,30)" color ="#000000" borderColor="#FF0000"/>
+  </VfxPage>
+</Layout> 
+  #endif
+  <Layout id = "VENUS_MMS_LAYOUT_MMS_VIEW_OBJECTS">
+    <VfxPage name =" VappMmsViewObjectsPage" bgColor ="#FFFFFF" translucent="false">
+      <VcpTitleBar name ="ViewObjects" title = "@STR_ID_VAPP_MMS_OBJECT_TBAR"  prop ="topBar"/>
+      <VcpGroupListMenu name ="ViewObjectsList" pos ="(0,0)" size ="(320, 480)" cellStyle ="VCP_LIST_MENU_CELL_STYLE_ICON_MULTI_TEXT_EX"/>
+    </VfxPage>
+  </Layout>
+#ifdef __MMI_MV_SUPPORT_USE_DETAIL_HIGHLIGHT__  
+  <Layout id = "VENUS_MMS_LAYOUT_MMS_USE_DETAILS">
+    <VfxPage name =" VappMmsUseDetailsPage" bgColor ="#FFFFFF" translucent="false">
+      <VcpTitleBar name ="UseDetails" title = "@STR_ID_VAPP_MMS_DETAIL_TBAR"  prop ="topBar"/>
+      <VcpListMenu name ="UseDetailsList" pos ="(0,0)" size ="(320, 480)" cellStyle ="VCP_LIST_MENU_CELL_STYLE_SINGLE_TEXT"/>
+    </VfxPage>
+  </Layout>
+#endif  
+</VenusXML>

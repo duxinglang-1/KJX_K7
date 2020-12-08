@@ -1,0 +1,27 @@
+[APP NAME] = VAPP_CALLLOG
+[SCOPE] = COSMOS
+[MODULE] = MOD_MMI_COMMON_APP
+
+#start trace
+
+TRC_MSG(TRC_VCLOG_INIT, "[CLOG]vapp_clog_init(%d)------------")
+TRC_MSG(TRC_VCLOG_SRV_INIT_SET_SRV_STYLE, "[CLOG]vapp_clog_init_srv(set_style: type=0x%x,style=0x%x)")
+
+TRC_MSG(TRC_VCLOG_LAUNCH_FROM_PHB, "[CLOG]vapp_clog_launch_from_phb, list_id=%d, user_data=0x%x")
+TRC_MSG(TRC_VCLOG_LIST_DEFAULT_CONSTRUCTOR, "[CLOG]VappCLogList default Constructor")
+TRC_MSG(TRC_VCLOG_LIST_CONSTRUCTOR, "[CLOG]VappCLogList Constructor, pageType=%d, listID=%d, store_idx=%d, sim_id=%d")
+TRC_MSG(TRC_VCLOG_LIST_ONINIT, "[CLOG]VappCLogList onInit, m_currPageType=%d")
+TRC_MSG(TRC_VCLOG_LIST_ONINIT_BASIC, "[CLOG]VappCLogList onInit basic, m_currPageType=%d, list_id=%d, user_data=0x%x")
+TRC_MSG(TRC_VCLOG_LIST_ONENTER, "[CLOG]VappCLogList onEnter, m_currPageType=%d, isBackward=%d")
+TRC_MSG(TRC_VCLOG_LIST_ONUPDATECLOGLIST, "[CLOG]VappCLogList onUpdateClogList, m_currPageType=%d, m_currListID=%d, evt_id=%d, EVT_ADD=%d")
+TRC_MSG(TRC_VCLOG_LIST_ONUPDATEPAGEFORCONTACT, "[CLOG]VappCLogList onUpdatePageForContact, m_currPageType=%d, getClogNum=%d")
+
+TRC_MSG(TRC_VCLOG_ACTION_BTN_CLICKED, "[CLOG]VppCLogAction::onButtonClicked, btnID=%d")
+TRC_MSG(TRC_VCLOG_ACTION_MAKE_CALL, "[CLOG]VppCLogAction::makeCall, dial_type=%d, phb_data=0x%x")
+TRC_MSG(TRC_VCLOG_ACTION_MAKE_CALL_CB, "[CLOG]VppCLogAction::makeCallCb, phb_data=0x%x")
+TRC_MSG(TRC_VCLOG_DATA_PROVIDER_GET_CLOG_BY_ID, "[CLOG]VappCLogDataProvider::getClogByID, get_error=%d")
+TRC_MSG(TRC_VCLOG_CHECK_PHB_ID, "[CLOG]vapp_clog_check_phb_id(%d is hide)")
+TRC_MSG(TRC_VCLOG_CREAT_COMBO_BUTTON, "[CLOG]VappCLogDetail::creatComboButton(buttontype=%d,sim_count=%d,m_insertSIM=%d,m_perferSIM[0]=%d,m_perferSIM[1]=%d)")
+
+TRC_MSG(TRC_VCLOG_GPRS_GET_DATA, "[CLOG]VappClogUsagePage::getGPRSCountData(parent_gid=%d,sim_id=%d)------------")
+TRC_MSG(TRC_VCLOG_GPRS_GET_DATA_CB, "[CLOG]VappClogUsagePage::getGPRSCountDataCbk(sim_id=%d,last_r=%d,last_s=%d,total_r=%d,total_s=%d)")

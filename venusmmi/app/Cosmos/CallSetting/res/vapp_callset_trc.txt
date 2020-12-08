@@ -1,0 +1,13 @@
+[APP NAME] = VAPP_CALLSET
+[SCOPE] = COSMOS
+[MODULE] = MOD_MMI_COMMON_APP
+
+#start trace
+#vapp_callset_cf.cpp
+TRC_MSG(VAPP_CALLSET_CF_ONRESULT_RET,"[VappCallsetCf.c]VappCallSetPageCf::onResult()line=%d")
+TRC_MSG(VAPP_CALLSET_CF_ONRESULT,"[VappCallsetCf.c]VappCallSetPageCf::onResult(state=%d, waitState=%d, result=%d, op_code=%d)")
+TRC_MSG(VAPP_CALLSET_CNTX,"[VappCallsetCf.c]VappCallSetCntx:sim=%d, type=%d, callType=%d, actoin=%d")
+
+#vapp_callset.cpp
+TRC_MSG(VAPP_CALLSET_SET_STATE,"[VappCallset.c]VappCallSetAsyncPage::setCurrState(state=%d)")
+TRC_MSG(VAPP_CALLSET_GET_STATE,"[VappCallset.c]VappCallSetAsyncPage::getCurrState() = %d")

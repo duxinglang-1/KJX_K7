@@ -1,0 +1,780 @@
+Archive member included because of file (symbol)
+
+f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmingw32.a(CRTglob.o)
+                              f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../crt2.o (_CRT_glob)
+f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmingw32.a(CRTfmode.o)
+                              f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../crt2.o (_CRT_fmode)
+f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmingw32.a(txtmode.o)
+                              f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../crt2.o (_fmode)
+f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmingw32.a(pseudo-reloc.o)
+                              f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../crt2.o (_pei386_runtime_relocator)
+f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmingw32.a(CRT_fp10.o)
+                              f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../crt2.o (_fpreset)
+f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmingw32.a(gccmain.o)
+                              ../debug/nvram_auto_gen.o (__main)
+f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmingw32.a(pseudo-reloc-list.o)
+                              f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmingw32.a(pseudo-reloc.o) (__RUNTIME_PSEUDO_RELOC_LIST_END__)
+f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/libgcc.a(w32-shared-ptr.o)
+                              f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/crtbegin.o (__w32_sharedptr_initialize)
+f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/libgcc.a(_chkstk.o)
+                              ../debug/nvram_auto_gen.o (_alloca)
+f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/libgcc.a(_ctors.o)
+                              f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmingw32.a(gccmain.o) (__CTOR_LIST__)
+f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmoldname.a(ds00000.o)
+                              ../debug/nvram_auto_gen.o (access)
+f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmoldname.a(ds00084.o)
+                              ../debug/nvram_auto_gen.o (stricmp)
+f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmoldname.a(dh.o)
+                              f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmoldname.a(ds00000.o) (_head_libmoldname_a)
+f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmoldname.a(dt.o)
+                              f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmoldname.a(dh.o) (_libmoldname_a_iname)
+f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmsvcrt.a(ds00222.o)
+                              f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../crt2.o (_imp___iob)
+f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmsvcrt.a(ds00078.o)
+                              f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../crt2.o (_imp____set_app_type)
+f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmsvcrt.a(ds00517.o)
+                              f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../crt2.o (_imp__atexit)
+f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmsvcrt.a(ds00336.o)
+                              f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../crt2.o (_imp___onexit)
+f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmsvcrt.a(ds00118.o)
+                              f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../crt2.o (_cexit)
+f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmsvcrt.a(ds00059.o)
+                              f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../crt2.o (__p__environ)
+f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmsvcrt.a(ds00633.o)
+                              f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../crt2.o (signal)
+f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmsvcrt.a(ds00061.o)
+                              f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../crt2.o (__p__fmode)
+f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmsvcrt.a(ds00169.o)
+                              f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../crt2.o (_fileno)
+f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmsvcrt.a(ds00373.o)
+                              f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../crt2.o (_setmode)
+f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmsvcrt.a(ds00039.o)
+                              f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../crt2.o (__getmainargs)
+f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmsvcrt.a(ds00663.o)
+                              ../debug/nvram_auto_gen.o (system)
+f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmsvcrt.a(ds00636.o)
+                              ../debug/nvram_auto_gen.o (sprintf)
+f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmsvcrt.a(ds00648.o)
+                              ../debug/nvram_auto_gen.o (strlen)
+f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmsvcrt.a(ds00603.o)
+                              ../debug/nvram_auto_gen.o (malloc)
+f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmsvcrt.a(ds00534.o)
+                              ../debug/nvram_auto_gen.o (fclose)
+f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmsvcrt.a(ds00616.o)
+                              ../debug/nvram_auto_gen.o (printf)
+f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmsvcrt.a(ds00653.o)
+                              ../debug/nvram_auto_gen.o (strrchr)
+f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmsvcrt.a(ds00655.o)
+                              ../debug/nvram_auto_gen.o (strstr)
+f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmsvcrt.a(ds00641.o)
+                              ../debug/nvram_auto_gen.o (strchr)
+f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmsvcrt.a(ds00540.o)
+                              ../debug/nvram_auto_gen.o (fgets)
+f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmsvcrt.a(ds00147.o)
+                              ../debug/nvram_auto_gen.o (_errno)
+f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmsvcrt.a(ds00646.o)
+                              ../debug/nvram_auto_gen.o (strerror)
+f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmsvcrt.a(ds00545.o)
+                              ../debug/nvram_auto_gen.o (fopen)
+f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmsvcrt.a(ds00531.o)
+                              ../debug/nvram_auto_gen.o (exit)
+f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmsvcrt.a(ds00546.o)
+                              ../debug/nvram_auto_gen.o (fprintf)
+f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmsvcrt.a(ds00611.o)
+                              ../debug/nvram_auto_gen.o (memset)
+f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmsvcrt.a(ds00642.o)
+                              ../debug/nvram_gen_util.o (strcmp)
+f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmsvcrt.a(ds00552.o)
+                              f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/libgcc.a(w32-shared-ptr.o) (free)
+f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmsvcrt.a(ds00510.o)
+                              f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/libgcc.a(w32-shared-ptr.o) (abort)
+f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmsvcrt.a(dh.o)
+                              f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmsvcrt.a(ds00222.o) (_head_libmsvcrt_a)
+f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmsvcrt.a(dt.o)
+                              f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmsvcrt.a(dh.o) (_libmsvcrt_a_iname)
+f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libkernel32.a(ds00660.o)
+                              f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../crt2.o (SetUnhandledExceptionFilter@4)
+f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libkernel32.a(ds00131.o)
+                              f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../crt2.o (ExitProcess@4)
+f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libkernel32.a(ds00148.o)
+                              f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/libgcc.a(w32-shared-ptr.o) (FindAtomA@4)
+f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libkernel32.a(ds00000.o)
+                              f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/libgcc.a(w32-shared-ptr.o) (AddAtomA@4)
+f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libkernel32.a(ds00193.o)
+                              f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/libgcc.a(w32-shared-ptr.o) (GetAtomNameA@12)
+f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libkernel32.a(dh.o)
+                              f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libkernel32.a(ds00660.o) (_head_libkernel32_a)
+f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libkernel32.a(dt.o)
+                              f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libkernel32.a(dh.o) (_libkernel32_a_iname)
+
+Allocating common symbols
+Common symbol       size              file
+
+gFS_IntQuotaSet     0x10              ../debug/fs_quota_entry_dump.o
+__DTOR_LIST__       0x10              f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/libgcc.a(_ctors.o)
+__w32_sharedptr_terminate
+                    0x10              f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/libgcc.a(w32-shared-ptr.o)
+logical_data_item_table
+                    0x10              ../debug/nvram_gen_util.o
+s                   0x200             ../debug/nvram_auto_gen.o
+nvram_gen_total_lid
+                    0x10              ../debug/nvram_gen_util.o
+__w32_sharedptr     0x10              f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/libgcc.a(w32-shared-ptr.o)
+__CTOR_LIST__       0x10              f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/libgcc.a(_ctors.o)
+FS_MAX_QSET         0x10              ../debug/fs_quota_entry_dump.o
+__w32_sharedptr_unexpected
+                    0x10              f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/libgcc.a(w32-shared-ptr.o)
+system_boot_mode    0x10              ../debug/nvram_gen_util.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+                0x00400000                __image_base__ = 0x400000
+                0x00000000                __dll__ = 0x0
+                0x00001000                __section_alignment__ = 0x1000
+                0x00000200                __file_alignment__ = 0x200
+                0x00000004                __major_os_version__ = 0x4
+                0x00000000                __minor_os_version__ = 0x0
+                0x00000001                __major_image_version__ = 0x1
+                0x00000000                __minor_image_version__ = 0x0
+                0x00000004                __major_subsystem_version__ = 0x4
+                0x00000000                __minor_subsystem_version__ = 0x0
+                0x00000003                __subsystem__ = 0x3
+                0x00200000                __size_of_stack_reserve__ = 0x200000
+                0x00001000                __size_of_stack_commit__ = 0x1000
+                0x00100000                __size_of_heap_reserve__ = 0x100000
+                0x00001000                __size_of_heap_commit__ = 0x1000
+                0x00000000                __loader_flags__ = 0x0
+LOAD f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../crt2.o
+LOAD f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/crtbegin.o
+
+.text           0x00401000     0xa800
+ *(.init)
+ *(.text)
+ .text          0x00401000      0x2c0 f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../crt2.o
+                0x00401260                WinMainCRTStartup
+                0x00401240                mainCRTStartup
+                0x00401280                atexit
+                0x004012a0                _onexit
+ .text          0x004012c0       0x10 f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/crtbegin.o
+                0x004012c0                __do_sjlj_init
+ .text          0x004012d0     0x4ce0 ../debug/nvram_auto_gen.o
+                0x00401546                nvram_gen_sys_cache_default
+                0x004022ef                nvram_gen_lid_size
+                0x004037b8                nvram_gen_array
+                0x004019fb                nvram_gen_sys_cache_res_func
+                0x0040478d                nvram_gen_close_file
+                0x004049cf                nvram_gen_restore_function
+                0x00404ff0                nvram_gen_custpack_table
+                0x00404c83                nvram_gen_database_key
+                0x00404659                nvram_gen_create_file
+                0x00401346                nvram_gen_check_sys_cache
+                0x004056b3                nvram_gen_cat_xml
+                0x00403543                nvram_gen_statistic
+                0x00401cf0                nvram_gen_ltable_list
+                0x0040534e                get_str_default_value
+                0x00403e70                nvram_gen_secro
+                0x00405b7e                nvram_gen_trace
+                0x00405de6                main
+ .text          0x00405fb0      0x860 ../debug/nvram_gen_util.o
+                0x004067a8                nvram_gen_search_entry
+                0x00405fb4                free_int_ilm
+                0x004065ca                nvram_gen_construct_ltable
+                0x0040616e                nvram_gen_assign_entry
+                0x00405fb0                NVRAM_EF_CAT_TIMESTAMP_DEFAULT
+ .text          0x00406810      0x480 ../debug/nvram_factory_config.o
+ .text          0x00406c90      0xcc0 ../debug/nvram_data_items.o
+                0x00406c91                NVRAM_EF_FF_DEFAULT
+                0x00406c90                NVRAM_EF_ZERO_DEFAULT
+ .text          0x00407950      0x6c0 ../debug/nvram_cust_pack.o
+                0x00407bf0                NVRAM_EF_MMI_CACHE_SHORT_DEFAULT
+                0x004079c0                COMMON_NVRAM_EF_RAC_PREFERENCE_DEFAULT
+                0x004079b6                COMMON_NVRAM_EF_ALS_LINE_ID_DEFAULT
+                0x004079b8                COMMON_NVRAM_EF_MSCAP_DEFAULT
+                0x00407950                COMMON_NVRAM_EF_SMSAL_MAILBOX_ADDR_DEFAULT
+                0x004079d7                COMMON_NVRAM_EF_CB_DEFAULT_CH_DEFAULT
+                0x00407df0                NVRAM_EF_MMI_CACHE_DOUBLE_DEFAULT
+                0x004079f0                NVRAM_EF_MMI_CACHE_BYTE_DEFAULT
+                0x00407fe8                COMMON_NVRAM_EF_PHB_SOS_DEFAULT
+                0x004079c7                COMMON_NVRAM_EF_SMSAL_COMMON_PARAM_DEFAULT
+                0x00407990                COMMON_NVRAM_EF_MS_SECURITY_DEFAULT
+ .text          0x00408010       0xe0 ../debug/custom_nvram_sec.o
+                0x00408010                custom_secret_key
+                0x00408030                NVRAM_EF_SML_DEFAULT
+                0x00408018                NVRAM_SECURE_PARA
+ .text          0x004080f0      0x2e0 ../debug/fs_quota_entry_dump.o
+                0x004081fa                nvram_gen_fs_quota
+                0x00408106                FS_QuotaInit
+ .text          0x004083d0       0xa0 ../debug/adc_nvram_def.o
+ .text          0x00408470       0xa0 ../debug/camera_nvram_def.o
+ .text          0x00408510      0x1a0 ../debug/touchpanel_nvram_def.o
+                0x00408510                NVRAM_TOUCHPANEL_DEFAULT
+ .text          0x004086b0      0x6e0 ../debug/nvram_user_config.o
+                0x004086b0                NVRAM_EF_CUST_HW_LEVEL_TBL_DEFAULT
+ .text          0x00408d90      0xfc0 ../debug/nvram_common_config.o
+                0x00408d90                NVRAM_EF_KJX_LOG_PARAM_DEFAULT
+                0x00408f40                NVRAM_EF_MMS_SENDING_SETTING_CONTENT_DEFAULT
+                0x00408e30                NVRAM_EF_MMS_COMPOSE_SETTING_CONTENT_DEFAULT
+                0x00408f54                NVRAM_EF_PUSH_GEN_SETTING_DEFAULT
+ .text          0x00409d50      0xfc0 ../debug/audio_nvram_def.o
+ .text          0x0040ad10      0x200 ../debug/userprofile_nvram_def.o
+                0x0040ad10                NVRAM_PROFILES_DEFAULT
+ .text          0x0040af10      0x100 ../debug/fs_quota.o
+                0x0040afe8                fs_quota_init
+ .text          0x0040b010       0x70 f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmingw32.a(pseudo-reloc.o)
+                0x0040b050                _pei386_runtime_relocator
+ .text          0x0040b080       0x10 f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmingw32.a(CRT_fp10.o)
+                0x0040b080                _fpreset
+                0x0040b080                fpreset
+ .text          0x0040b090       0xb0 f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmingw32.a(gccmain.o)
+                0x0040b120                __main
+                0x0040b090                __do_global_dtors
+                0x0040b0c0                __do_global_ctors
+ .text          0x0040b140      0x320 f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/libgcc.a(w32-shared-ptr.o)
+                0x0040b200                __w32_sharedptr_initialize
+ .text          0x0040b460       0x30 f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/libgcc.a(_chkstk.o)
+                0x0040b460                __chkstk
+                0x0040b460                _alloca
+ .text          0x0040b490        0x8 f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmoldname.a(ds00000.o)
+                0x0040b490                access
+ *fill*         0x0040b498        0x8 00
+ .text          0x0040b4a0        0x8 f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmoldname.a(ds00084.o)
+                0x0040b4a0                stricmp
+ *fill*         0x0040b4a8        0x8 00
+ .text          0x0040b4b0        0x8 f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmsvcrt.a(ds00078.o)
+                0x0040b4b0                __set_app_type
+ *fill*         0x0040b4b8        0x8 00
+ .text          0x0040b4c0        0x8 f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmsvcrt.a(ds00118.o)
+                0x0040b4c0                _cexit
+ *fill*         0x0040b4c8        0x8 00
+ .text          0x0040b4d0        0x8 f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmsvcrt.a(ds00059.o)
+                0x0040b4d0                __p__environ
+ *fill*         0x0040b4d8        0x8 00
+ .text          0x0040b4e0        0x8 f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmsvcrt.a(ds00633.o)
+                0x0040b4e0                signal
+ *fill*         0x0040b4e8        0x8 00
+ .text          0x0040b4f0        0x8 f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmsvcrt.a(ds00061.o)
+                0x0040b4f0                __p__fmode
+ *fill*         0x0040b4f8        0x8 00
+ .text          0x0040b500        0x8 f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmsvcrt.a(ds00169.o)
+                0x0040b500                _fileno
+ *fill*         0x0040b508        0x8 00
+ .text          0x0040b510        0x8 f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmsvcrt.a(ds00373.o)
+                0x0040b510                _setmode
+ *fill*         0x0040b518        0x8 00
+ .text          0x0040b520        0x8 f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmsvcrt.a(ds00039.o)
+                0x0040b520                __getmainargs
+ *fill*         0x0040b528        0x8 00
+ .text          0x0040b530        0x8 f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmsvcrt.a(ds00663.o)
+                0x0040b530                system
+ *fill*         0x0040b538        0x8 00
+ .text          0x0040b540        0x8 f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmsvcrt.a(ds00636.o)
+                0x0040b540                sprintf
+ *fill*         0x0040b548        0x8 00
+ .text          0x0040b550        0x8 f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmsvcrt.a(ds00648.o)
+                0x0040b550                strlen
+ *fill*         0x0040b558        0x8 00
+ .text          0x0040b560        0x8 f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmsvcrt.a(ds00603.o)
+                0x0040b560                malloc
+ *fill*         0x0040b568        0x8 00
+ .text          0x0040b570        0x8 f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmsvcrt.a(ds00534.o)
+                0x0040b570                fclose
+ *fill*         0x0040b578        0x8 00
+ .text          0x0040b580        0x8 f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmsvcrt.a(ds00616.o)
+                0x0040b580                printf
+ *fill*         0x0040b588        0x8 00
+ .text          0x0040b590        0x8 f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmsvcrt.a(ds00653.o)
+                0x0040b590                strrchr
+ *fill*         0x0040b598        0x8 00
+ .text          0x0040b5a0        0x8 f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmsvcrt.a(ds00655.o)
+                0x0040b5a0                strstr
+ *fill*         0x0040b5a8        0x8 00
+ .text          0x0040b5b0        0x8 f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmsvcrt.a(ds00641.o)
+                0x0040b5b0                strchr
+ *fill*         0x0040b5b8        0x8 00
+ .text          0x0040b5c0        0x8 f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmsvcrt.a(ds00540.o)
+                0x0040b5c0                fgets
+ *fill*         0x0040b5c8        0x8 00
+ .text          0x0040b5d0        0x8 f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmsvcrt.a(ds00147.o)
+                0x0040b5d0                _errno
+ *fill*         0x0040b5d8        0x8 00
+ .text          0x0040b5e0        0x8 f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmsvcrt.a(ds00646.o)
+                0x0040b5e0                strerror
+ *fill*         0x0040b5e8        0x8 00
+ .text          0x0040b5f0        0x8 f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmsvcrt.a(ds00545.o)
+                0x0040b5f0                fopen
+ *fill*         0x0040b5f8        0x8 00
+ .text          0x0040b600        0x8 f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmsvcrt.a(ds00531.o)
+                0x0040b600                exit
+ *fill*         0x0040b608        0x8 00
+ .text          0x0040b610        0x8 f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmsvcrt.a(ds00546.o)
+                0x0040b610                fprintf
+ *fill*         0x0040b618        0x8 00
+ .text          0x0040b620        0x8 f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmsvcrt.a(ds00611.o)
+                0x0040b620                memset
+ *fill*         0x0040b628        0x8 00
+ .text          0x0040b630        0x8 f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmsvcrt.a(ds00642.o)
+                0x0040b630                strcmp
+ *fill*         0x0040b638        0x8 00
+ .text          0x0040b640        0x8 f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmsvcrt.a(ds00552.o)
+                0x0040b640                free
+ *fill*         0x0040b648        0x8 00
+ .text          0x0040b650        0x8 f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmsvcrt.a(ds00510.o)
+                0x0040b650                abort
+ *fill*         0x0040b658        0x8 00
+ .text          0x0040b660        0x8 f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libkernel32.a(ds00660.o)
+                0x0040b660                SetUnhandledExceptionFilter@4
+ *fill*         0x0040b668        0x8 00
+ .text          0x0040b670        0x8 f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libkernel32.a(ds00131.o)
+                0x0040b670                ExitProcess@4
+ *fill*         0x0040b678        0x8 00
+ .text          0x0040b680        0x8 f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libkernel32.a(ds00148.o)
+                0x0040b680                FindAtomA@4
+ *fill*         0x0040b688        0x8 00
+ .text          0x0040b690        0x8 f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libkernel32.a(ds00000.o)
+                0x0040b690                AddAtomA@4
+ *fill*         0x0040b698        0x8 00
+ .text          0x0040b6a0        0x8 f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libkernel32.a(ds00193.o)
+                0x0040b6a0                GetAtomNameA@12
+ *fill*         0x0040b6a8        0x8 00
+ .text          0x0040b6b0       0x10 f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/crtend.o
+ *(SORT(.text$*))
+ *(.glue_7t)
+ *(.glue_7)
+                0x0040b6c0                ___CTOR_LIST__ = .
+                0x0040b6c0                __CTOR_LIST__ = .
+                0x0040b6c0        0x4 LONG 0xffffffff
+ *(SORT(.ctors.*))
+ *(.ctors)
+ .ctors         0x0040b6c4        0x4 f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/crtend.o
+ *(.ctor)
+                0x0040b6c8        0x4 LONG 0x0
+                0x0040b6cc                ___DTOR_LIST__ = .
+                0x0040b6cc                __DTOR_LIST__ = .
+                0x0040b6cc        0x4 LONG 0xffffffff
+ *(SORT(.dtors.*))
+ *(.dtors)
+ *(.dtor)
+                0x0040b6d0        0x4 LONG 0x0
+ *(.fini)
+ *(.gcc_exc)
+                0x0040b6d4                etext = .
+ *(.gcc_except_table)
+
+.data           0x0040c000      0x800
+                0x0040c000                __data_start__ = .
+ *(.data)
+ .data          0x0040c000       0x10 f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../crt2.o
+                0x0040c000                _argc
+                0x0040c004                _argv
+ .data          0x0040c010      0x400 ../debug/nvram_data_items.o
+                0x0040c010                nvram_sys_cache
+ .data          0x0040c410       0x10 ../debug/nvram_common_config.o
+                0x0040c410                nvram_ltable_comm_app
+ .data          0x0040c420       0x20 ../debug/custom_nvram_cat.o
+                0x0040c420                nvram_cat_replace_tbl
+ .data          0x0040c440      0x180 ../debug/fs_quota.o
+                0x0040c440                gFS_ExtQuotaSet
+ .data          0x0040c5c0       0x10 f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmingw32.a(CRTglob.o)
+                0x0040c5c0                _CRT_glob
+ .data          0x0040c5d0       0x10 f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmingw32.a(CRTfmode.o)
+                0x0040c5d0                _CRT_fmode
+ .data          0x0040c5e0       0x10 f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmingw32.a(txtmode.o)
+                0x0040c5e0                _fmode
+ .data          0x0040c5f0       0x10 f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmingw32.a(gccmain.o)
+ .data          0x0040c600       0x10 f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmingw32.a(pseudo-reloc-list.o)
+ .data          0x0040c610       0x10 f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/libgcc.a(w32-shared-ptr.o)
+ *(.data2)
+ *(SORT(.data$*))
+                0x0040c620                __data_end__ = .
+ *(.data_cygwin_nocopy)
+
+.rdata          0x0040d000        0x0
+ *(.rdata)
+ *(SORT(.rdata$*))
+ *(.eh_frame)
+                0x0040d000                ___RUNTIME_PSEUDO_RELOC_LIST__ = .
+                0x0040d000                __RUNTIME_PSEUDO_RELOC_LIST__ = .
+ *(.rdata_runtime_pseudo_reloc)
+                0x0040d000                ___RUNTIME_PSEUDO_RELOC_LIST_END__ = .
+                0x0040d000                __RUNTIME_PSEUDO_RELOC_LIST_END__ = .
+
+.pdata
+ *(.pdata)
+
+.bss            0x0040d000      0x520
+                0x0040d000                __bss_start__ = .
+ *(.bss)
+ .bss           0x0040d000       0xc0 ../debug/nvram_auto_gen.o
+ .bss           0x0040d0c0       0x20 ../debug/nvram_gen_util.o
+                0x0040d0c4                secupack_total_to_verify
+                0x0040d0d4                nvram_gen_backup_total
+                0x0040d0c8                secupack_size_to_verify
+                0x0040d0d0                nvram_gen_backup_size
+                0x0040d0cc                secupack_idx
+                0x0040d0c0                custpack_total_to_verify
+ .bss           0x0040d0e0      0x180 ../debug/nvram_common_config.o
+ .bss           0x0040d260       0x20 f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/libgcc.a(w32-shared-ptr.o)
+ *(COMMON)
+ COMMON         0x0040d280      0x200 ../debug/nvram_auto_gen.o
+                                  0x0 (size before relaxing)
+                0x0040d280                s
+ COMMON         0x0040d480       0x30 ../debug/nvram_gen_util.o
+                                  0x0 (size before relaxing)
+                0x0040d480                logical_data_item_table
+                0x0040d490                nvram_gen_total_lid
+                0x0040d4a0                system_boot_mode
+ COMMON         0x0040d4b0       0x20 ../debug/fs_quota_entry_dump.o
+                                  0x0 (size before relaxing)
+                0x0040d4b0                gFS_IntQuotaSet
+                0x0040d4c0                FS_MAX_QSET
+ COMMON         0x0040d4d0       0x30 f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/libgcc.a(w32-shared-ptr.o)
+                                  0x0 (size before relaxing)
+                0x0040d4d0                __w32_sharedptr_terminate
+                0x0040d4e0                __w32_sharedptr
+                0x0040d4f0                __w32_sharedptr_unexpected
+ COMMON         0x0040d500       0x20 f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/libgcc.a(_ctors.o)
+                                  0x0 (size before relaxing)
+                0x0040d520                __bss_end__ = .
+
+.edata
+ *(.edata)
+
+/DISCARD/
+ *(.debug$S)
+ *(.debug$T)
+ *(.debug$F)
+ *(.drectve)
+
+.idata          0x0040e000      0x600
+ SORT(*)(.idata$2)
+ .idata$2       0x0040e000       0x14 f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libkernel32.a(dh.o)
+                0x0040e000                _head_libkernel32_a
+ .idata$2       0x0040e014       0x14 f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmoldname.a(dh.o)
+                0x0040e014                _head_libmoldname_a
+ .idata$2       0x0040e028       0x14 f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmsvcrt.a(dh.o)
+                0x0040e028                _head_libmsvcrt_a
+ SORT(*)(.idata$3)
+                0x0040e03c        0x4 LONG 0x0
+                0x0040e040        0x4 LONG 0x0
+                0x0040e044        0x4 LONG 0x0
+                0x0040e048        0x4 LONG 0x0
+                0x0040e04c        0x4 LONG 0x0
+ SORT(*)(.idata$4)
+ .idata$4       0x0040e050        0x4 f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libkernel32.a(dh.o)
+ .idata$4       0x0040e054        0x4 f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libkernel32.a(ds00000.o)
+ .idata$4       0x0040e058        0x4 f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libkernel32.a(ds00131.o)
+ .idata$4       0x0040e05c        0x4 f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libkernel32.a(ds00148.o)
+ .idata$4       0x0040e060        0x4 f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libkernel32.a(ds00193.o)
+ .idata$4       0x0040e064        0x4 f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libkernel32.a(ds00660.o)
+ .idata$4       0x0040e068        0x4 f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libkernel32.a(dt.o)
+ .idata$4       0x0040e06c        0x4 f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmoldname.a(dh.o)
+ .idata$4       0x0040e070        0x4 f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmoldname.a(ds00000.o)
+ .idata$4       0x0040e074        0x4 f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmoldname.a(ds00084.o)
+ .idata$4       0x0040e078        0x4 f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmoldname.a(dt.o)
+ .idata$4       0x0040e07c        0x4 f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmsvcrt.a(dh.o)
+ .idata$4       0x0040e080        0x4 f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmsvcrt.a(ds00039.o)
+ .idata$4       0x0040e084        0x4 f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmsvcrt.a(ds00059.o)
+ .idata$4       0x0040e088        0x4 f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmsvcrt.a(ds00061.o)
+ .idata$4       0x0040e08c        0x4 f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmsvcrt.a(ds00078.o)
+ .idata$4       0x0040e090        0x4 f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmsvcrt.a(ds00118.o)
+ .idata$4       0x0040e094        0x4 f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmsvcrt.a(ds00147.o)
+ .idata$4       0x0040e098        0x4 f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmsvcrt.a(ds00169.o)
+ .idata$4       0x0040e09c        0x4 f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmsvcrt.a(ds00222.o)
+ .idata$4       0x0040e0a0        0x4 f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmsvcrt.a(ds00336.o)
+ .idata$4       0x0040e0a4        0x4 f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmsvcrt.a(ds00373.o)
+ .idata$4       0x0040e0a8        0x4 f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmsvcrt.a(ds00510.o)
+ .idata$4       0x0040e0ac        0x4 f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmsvcrt.a(ds00517.o)
+ .idata$4       0x0040e0b0        0x4 f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmsvcrt.a(ds00531.o)
+ .idata$4       0x0040e0b4        0x4 f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmsvcrt.a(ds00534.o)
+ .idata$4       0x0040e0b8        0x4 f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmsvcrt.a(ds00540.o)
+ .idata$4       0x0040e0bc        0x4 f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmsvcrt.a(ds00545.o)
+ .idata$4       0x0040e0c0        0x4 f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmsvcrt.a(ds00546.o)
+ .idata$4       0x0040e0c4        0x4 f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmsvcrt.a(ds00552.o)
+ .idata$4       0x0040e0c8        0x4 f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmsvcrt.a(ds00603.o)
+ .idata$4       0x0040e0cc        0x4 f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmsvcrt.a(ds00611.o)
+ .idata$4       0x0040e0d0        0x4 f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmsvcrt.a(ds00616.o)
+ .idata$4       0x0040e0d4        0x4 f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmsvcrt.a(ds00633.o)
+ .idata$4       0x0040e0d8        0x4 f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmsvcrt.a(ds00636.o)
+ .idata$4       0x0040e0dc        0x4 f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmsvcrt.a(ds00641.o)
+ .idata$4       0x0040e0e0        0x4 f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmsvcrt.a(ds00642.o)
+ .idata$4       0x0040e0e4        0x4 f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmsvcrt.a(ds00646.o)
+ .idata$4       0x0040e0e8        0x4 f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmsvcrt.a(ds00648.o)
+ .idata$4       0x0040e0ec        0x4 f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmsvcrt.a(ds00653.o)
+ .idata$4       0x0040e0f0        0x4 f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmsvcrt.a(ds00655.o)
+ .idata$4       0x0040e0f4        0x4 f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmsvcrt.a(ds00663.o)
+ .idata$4       0x0040e0f8        0x4 f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmsvcrt.a(dt.o)
+ SORT(*)(.idata$5)
+ .idata$5       0x0040e0fc        0x4 f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libkernel32.a(dh.o)
+ .idata$5       0x0040e100        0x4 f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libkernel32.a(ds00000.o)
+                0x0040e100                _imp__AddAtomA@4
+ .idata$5       0x0040e104        0x4 f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libkernel32.a(ds00131.o)
+                0x0040e104                _imp__ExitProcess@4
+ .idata$5       0x0040e108        0x4 f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libkernel32.a(ds00148.o)
+                0x0040e108                _imp__FindAtomA@4
+ .idata$5       0x0040e10c        0x4 f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libkernel32.a(ds00193.o)
+                0x0040e10c                _imp__GetAtomNameA@12
+ .idata$5       0x0040e110        0x4 f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libkernel32.a(ds00660.o)
+                0x0040e110                _imp__SetUnhandledExceptionFilter@4
+ .idata$5       0x0040e114        0x4 f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libkernel32.a(dt.o)
+ .idata$5       0x0040e118        0x4 f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmoldname.a(dh.o)
+ .idata$5       0x0040e11c        0x4 f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmoldname.a(ds00000.o)
+                0x0040e11c                _imp__access
+ .idata$5       0x0040e120        0x4 f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmoldname.a(ds00084.o)
+                0x0040e120                _imp__stricmp
+ .idata$5       0x0040e124        0x4 f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmoldname.a(dt.o)
+ .idata$5       0x0040e128        0x4 f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmsvcrt.a(dh.o)
+ .idata$5       0x0040e12c        0x4 f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmsvcrt.a(ds00039.o)
+                0x0040e12c                _imp____getmainargs
+ .idata$5       0x0040e130        0x4 f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmsvcrt.a(ds00059.o)
+                0x0040e130                _imp____p__environ
+ .idata$5       0x0040e134        0x4 f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmsvcrt.a(ds00061.o)
+                0x0040e134                _imp____p__fmode
+ .idata$5       0x0040e138        0x4 f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmsvcrt.a(ds00078.o)
+                0x0040e138                _imp____set_app_type
+ .idata$5       0x0040e13c        0x4 f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmsvcrt.a(ds00118.o)
+                0x0040e13c                _imp___cexit
+ .idata$5       0x0040e140        0x4 f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmsvcrt.a(ds00147.o)
+                0x0040e140                _imp___errno
+ .idata$5       0x0040e144        0x4 f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmsvcrt.a(ds00169.o)
+                0x0040e144                _imp___fileno
+ .idata$5       0x0040e148        0x4 f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmsvcrt.a(ds00222.o)
+                0x0040e148                _imp___iob
+ .idata$5       0x0040e14c        0x4 f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmsvcrt.a(ds00336.o)
+                0x0040e14c                _imp___onexit
+ .idata$5       0x0040e150        0x4 f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmsvcrt.a(ds00373.o)
+                0x0040e150                _imp___setmode
+ .idata$5       0x0040e154        0x4 f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmsvcrt.a(ds00510.o)
+                0x0040e154                _imp__abort
+ .idata$5       0x0040e158        0x4 f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmsvcrt.a(ds00517.o)
+                0x0040e158                _imp__atexit
+ .idata$5       0x0040e15c        0x4 f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmsvcrt.a(ds00531.o)
+                0x0040e15c                _imp__exit
+ .idata$5       0x0040e160        0x4 f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmsvcrt.a(ds00534.o)
+                0x0040e160                _imp__fclose
+ .idata$5       0x0040e164        0x4 f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmsvcrt.a(ds00540.o)
+                0x0040e164                _imp__fgets
+ .idata$5       0x0040e168        0x4 f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmsvcrt.a(ds00545.o)
+                0x0040e168                _imp__fopen
+ .idata$5       0x0040e16c        0x4 f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmsvcrt.a(ds00546.o)
+                0x0040e16c                _imp__fprintf
+ .idata$5       0x0040e170        0x4 f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmsvcrt.a(ds00552.o)
+                0x0040e170                _imp__free
+ .idata$5       0x0040e174        0x4 f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmsvcrt.a(ds00603.o)
+                0x0040e174                _imp__malloc
+ .idata$5       0x0040e178        0x4 f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmsvcrt.a(ds00611.o)
+                0x0040e178                _imp__memset
+ .idata$5       0x0040e17c        0x4 f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmsvcrt.a(ds00616.o)
+                0x0040e17c                _imp__printf
+ .idata$5       0x0040e180        0x4 f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmsvcrt.a(ds00633.o)
+                0x0040e180                _imp__signal
+ .idata$5       0x0040e184        0x4 f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmsvcrt.a(ds00636.o)
+                0x0040e184                _imp__sprintf
+ .idata$5       0x0040e188        0x4 f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmsvcrt.a(ds00641.o)
+                0x0040e188                _imp__strchr
+ .idata$5       0x0040e18c        0x4 f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmsvcrt.a(ds00642.o)
+                0x0040e18c                _imp__strcmp
+ .idata$5       0x0040e190        0x4 f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmsvcrt.a(ds00646.o)
+                0x0040e190                _imp__strerror
+ .idata$5       0x0040e194        0x4 f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmsvcrt.a(ds00648.o)
+                0x0040e194                _imp__strlen
+ .idata$5       0x0040e198        0x4 f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmsvcrt.a(ds00653.o)
+                0x0040e198                _imp__strrchr
+ .idata$5       0x0040e19c        0x4 f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmsvcrt.a(ds00655.o)
+                0x0040e19c                _imp__strstr
+ .idata$5       0x0040e1a0        0x4 f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmsvcrt.a(ds00663.o)
+                0x0040e1a0                _imp__system
+ .idata$5       0x0040e1a4        0x4 f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmsvcrt.a(dt.o)
+ SORT(*)(.idata$6)
+ .idata$6       0x0040e1a8        0xc f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libkernel32.a(ds00000.o)
+ .idata$6       0x0040e1b4        0xe f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libkernel32.a(ds00131.o)
+ *fill*         0x0040e1c2        0x2 00
+ .idata$6       0x0040e1c4        0xc f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libkernel32.a(ds00148.o)
+ .idata$6       0x0040e1d0       0x10 f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libkernel32.a(ds00193.o)
+ .idata$6       0x0040e1e0       0x1e f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libkernel32.a(ds00660.o)
+ *fill*         0x0040e1fe        0x2 00
+ .idata$6       0x0040e200        0xa f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmoldname.a(ds00000.o)
+ *fill*         0x0040e20a        0x2 00
+ .idata$6       0x0040e20c        0xc f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmoldname.a(ds00084.o)
+ .idata$6       0x0040e218       0x10 f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmsvcrt.a(ds00039.o)
+ .idata$6       0x0040e228       0x10 f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmsvcrt.a(ds00059.o)
+ .idata$6       0x0040e238        0xe f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmsvcrt.a(ds00061.o)
+ *fill*         0x0040e246        0x2 00
+ .idata$6       0x0040e248       0x12 f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmsvcrt.a(ds00078.o)
+ *fill*         0x0040e25a        0x2 00
+ .idata$6       0x0040e25c        0xa f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmsvcrt.a(ds00118.o)
+ *fill*         0x0040e266        0x2 00
+ .idata$6       0x0040e268        0xa f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmsvcrt.a(ds00147.o)
+ *fill*         0x0040e272        0x2 00
+ .idata$6       0x0040e274        0xa f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmsvcrt.a(ds00169.o)
+ *fill*         0x0040e27e        0x2 00
+ .idata$6       0x0040e280        0x8 f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmsvcrt.a(ds00222.o)
+ .idata$6       0x0040e288        0xa f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmsvcrt.a(ds00336.o)
+ *fill*         0x0040e292        0x2 00
+ .idata$6       0x0040e294        0xc f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmsvcrt.a(ds00373.o)
+ .idata$6       0x0040e2a0        0x8 f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmsvcrt.a(ds00510.o)
+ .idata$6       0x0040e2a8        0xa f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmsvcrt.a(ds00517.o)
+ *fill*         0x0040e2b2        0x2 00
+ .idata$6       0x0040e2b4        0x8 f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmsvcrt.a(ds00531.o)
+ .idata$6       0x0040e2bc        0xa f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmsvcrt.a(ds00534.o)
+ *fill*         0x0040e2c6        0x2 00
+ .idata$6       0x0040e2c8        0x8 f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmsvcrt.a(ds00540.o)
+ .idata$6       0x0040e2d0        0x8 f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmsvcrt.a(ds00545.o)
+ .idata$6       0x0040e2d8        0xa f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmsvcrt.a(ds00546.o)
+ *fill*         0x0040e2e2        0x2 00
+ .idata$6       0x0040e2e4        0x8 f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmsvcrt.a(ds00552.o)
+ .idata$6       0x0040e2ec        0xa f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmsvcrt.a(ds00603.o)
+ *fill*         0x0040e2f6        0x2 00
+ .idata$6       0x0040e2f8        0xa f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmsvcrt.a(ds00611.o)
+ *fill*         0x0040e302        0x2 00
+ .idata$6       0x0040e304        0xa f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmsvcrt.a(ds00616.o)
+ *fill*         0x0040e30e        0x2 00
+ .idata$6       0x0040e310        0xa f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmsvcrt.a(ds00633.o)
+ *fill*         0x0040e31a        0x2 00
+ .idata$6       0x0040e31c        0xa f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmsvcrt.a(ds00636.o)
+ *fill*         0x0040e326        0x2 00
+ .idata$6       0x0040e328        0xa f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmsvcrt.a(ds00641.o)
+ *fill*         0x0040e332        0x2 00
+ .idata$6       0x0040e334        0xa f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmsvcrt.a(ds00642.o)
+ *fill*         0x0040e33e        0x2 00
+ .idata$6       0x0040e340        0xc f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmsvcrt.a(ds00646.o)
+ .idata$6       0x0040e34c        0xa f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmsvcrt.a(ds00648.o)
+ *fill*         0x0040e356        0x2 00
+ .idata$6       0x0040e358        0xa f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmsvcrt.a(ds00653.o)
+ *fill*         0x0040e362        0x2 00
+ .idata$6       0x0040e364        0xa f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmsvcrt.a(ds00655.o)
+ *fill*         0x0040e36e        0x2 00
+ .idata$6       0x0040e370        0xa f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmsvcrt.a(ds00663.o)
+ SORT(*)(.idata$7)
+ *fill*         0x0040e37a        0x2 00
+ .idata$7       0x0040e37c        0x4 f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libkernel32.a(ds00000.o)
+ .idata$7       0x0040e380        0x4 f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libkernel32.a(ds00131.o)
+ .idata$7       0x0040e384        0x4 f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libkernel32.a(ds00148.o)
+ .idata$7       0x0040e388        0x4 f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libkernel32.a(ds00193.o)
+ .idata$7       0x0040e38c        0x4 f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libkernel32.a(ds00660.o)
+ .idata$7       0x0040e390       0x10 f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libkernel32.a(dt.o)
+                0x0040e390                _libkernel32_a_iname
+ .idata$7       0x0040e3a0        0x4 f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmoldname.a(ds00000.o)
+ .idata$7       0x0040e3a4        0x4 f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmoldname.a(ds00084.o)
+ .idata$7       0x0040e3a8        0xc f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmoldname.a(dt.o)
+                0x0040e3a8                _libmoldname_a_iname
+ .idata$7       0x0040e3b4        0x4 f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmsvcrt.a(ds00039.o)
+ .idata$7       0x0040e3b8        0x4 f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmsvcrt.a(ds00059.o)
+ .idata$7       0x0040e3bc        0x4 f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmsvcrt.a(ds00061.o)
+ .idata$7       0x0040e3c0        0x4 f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmsvcrt.a(ds00078.o)
+ .idata$7       0x0040e3c4        0x4 f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmsvcrt.a(ds00118.o)
+ .idata$7       0x0040e3c8        0x4 f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmsvcrt.a(ds00147.o)
+ .idata$7       0x0040e3cc        0x4 f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmsvcrt.a(ds00169.o)
+ .idata$7       0x0040e3d0        0x4 f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmsvcrt.a(ds00222.o)
+ .idata$7       0x0040e3d4        0x4 f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmsvcrt.a(ds00336.o)
+ .idata$7       0x0040e3d8        0x4 f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmsvcrt.a(ds00373.o)
+ .idata$7       0x0040e3dc        0x4 f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmsvcrt.a(ds00510.o)
+ .idata$7       0x0040e3e0        0x4 f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmsvcrt.a(ds00517.o)
+ .idata$7       0x0040e3e4        0x4 f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmsvcrt.a(ds00531.o)
+ .idata$7       0x0040e3e8        0x4 f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmsvcrt.a(ds00534.o)
+ .idata$7       0x0040e3ec        0x4 f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmsvcrt.a(ds00540.o)
+ .idata$7       0x0040e3f0        0x4 f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmsvcrt.a(ds00545.o)
+ .idata$7       0x0040e3f4        0x4 f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmsvcrt.a(ds00546.o)
+ .idata$7       0x0040e3f8        0x4 f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmsvcrt.a(ds00552.o)
+ .idata$7       0x0040e3fc        0x4 f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmsvcrt.a(ds00603.o)
+ .idata$7       0x0040e400        0x4 f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmsvcrt.a(ds00611.o)
+ .idata$7       0x0040e404        0x4 f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmsvcrt.a(ds00616.o)
+ .idata$7       0x0040e408        0x4 f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmsvcrt.a(ds00633.o)
+ .idata$7       0x0040e40c        0x4 f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmsvcrt.a(ds00636.o)
+ .idata$7       0x0040e410        0x4 f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmsvcrt.a(ds00641.o)
+ .idata$7       0x0040e414        0x4 f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmsvcrt.a(ds00642.o)
+ .idata$7       0x0040e418        0x4 f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmsvcrt.a(ds00646.o)
+ .idata$7       0x0040e41c        0x4 f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmsvcrt.a(ds00648.o)
+ .idata$7       0x0040e420        0x4 f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmsvcrt.a(ds00653.o)
+ .idata$7       0x0040e424        0x4 f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmsvcrt.a(ds00655.o)
+ .idata$7       0x0040e428        0x4 f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmsvcrt.a(ds00663.o)
+ .idata$7       0x0040e42c        0xc f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmsvcrt.a(dt.o)
+                0x0040e42c                _libmsvcrt_a_iname
+
+.CRT
+ *(SORT(.CRT$*))
+
+.endjunk        0x0040f000        0x0
+                0x0040f000                end = .
+                0x0040f000                _end = .
+                0x0040f000                __end__ = .
+
+.rsrc
+ *(.rsrc)
+ *(SORT(.rsrc$*))
+
+.reloc
+ *(.reloc)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+NVRAM_LTABLE    0x0040f000     0x1600
+                0x0040f000                _nvram_ltable_begin = .
+ *(_nvram_ltable)
+ _nvram_ltable  0x0040f000       0x50 ../debug/nvram_gen_util.o
+                0x0040f000                logical_data_item_table_internal
+ _nvram_ltable  0x0040f050      0x370 ../debug/nvram_factory_config.o
+                0x0040f050                logical_data_item_table_factory
+ _nvram_ltable  0x0040f3c0      0x4b0 ../debug/nvram_data_items.o
+                0x0040f3c0                logical_data_item_table_core
+ _nvram_ltable  0x0040f870       0x28 ../debug/adc_nvram_def.o
+                0x0040f870                logical_data_item_table_adc
+ _nvram_ltable  0x0040f898       0x50 ../debug/camera_nvram_def.o
+                0x0040f898                logical_data_item_table_camera
+ _nvram_ltable  0x0040f8e8       0x28 ../debug/touchpanel_nvram_def.o
+                0x0040f8e8                logical_data_item_table_touchpanel
+ _nvram_ltable  0x0040f910      0xa50 ../debug/nvram_common_config.o
+                0x0040f910                logical_data_item_table_common_app
+ _nvram_ltable  0x00410360       0xa0 ../debug/audio_nvram_def.o
+                0x00410360                logical_data_item_table_audio
+ _nvram_ltable  0x00410400       0x50 ../debug/userprofile_nvram_def.o
+                0x00410400                logical_data_item_table_userprofile
+                0x00410450                _nvram_ltable_end = .
+                0x00410450                _indirect_init_begin = .
+ *(_indirect_init)
+ _indirect_init
+                0x00410450        0x4 ../debug/fs_quota.o
+                0x00410450                g_fs_quota_init
+                0x00410454                _indirect_init_end = .
+LOAD ../debug/nvram_auto_gen.o
+LOAD ../debug/nvram_gen_util.o
+LOAD ../debug/nvram_factory_config.o
+LOAD ../debug/nvram_data_items.o
+LOAD ../debug/nvram_cust_pack.o
+LOAD ../debug/custom_nvram_sec.o
+LOAD ../debug/fs_quota_entry_dump.o
+LOAD ../debug/ul1_nvram_def.o
+LOAD ../debug/adc_nvram_def.o
+LOAD ../debug/camera_nvram_def.o
+LOAD ../debug/touchpanel_nvram_def.o
+LOAD ../debug/nvram_user_config.o
+LOAD ../debug/nvram_common_config.o
+LOAD ../debug/custom_nvram_cat.o
+LOAD ../debug/audio_nvram_def.o
+LOAD ../debug/mmi_gps_nvram_def.o
+LOAD ../debug/userprofile_nvram_def.o
+LOAD ../debug/fs_quota.o
+LOAD f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmingw32.a
+LOAD f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/libgcc.a
+LOAD f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmoldname.a
+LOAD f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmingwex.a
+LOAD f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmsvcrt.a
+LOAD f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libuser32.a
+LOAD f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libkernel32.a
+LOAD f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libadvapi32.a
+LOAD f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libshell32.a
+LOAD f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmingw32.a
+LOAD f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/libgcc.a
+LOAD f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmoldname.a
+LOAD f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmingwex.a
+LOAD f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmsvcrt.a
+LOAD f:/K7_TOUR/CODE/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/crtend.o
+OUTPUT(../debug/nvram_auto_gen.exe pei-i386)

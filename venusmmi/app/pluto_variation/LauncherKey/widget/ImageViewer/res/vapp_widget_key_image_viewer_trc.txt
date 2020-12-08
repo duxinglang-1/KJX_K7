@@ -1,0 +1,23 @@
+[APP NAME] = WidgetKey-ImageViewer
+[SCOPE] = PLUTO,COSMOS
+[MODULE] = MOD_MMI_COMMON_APP
+
+#start trace
+TRC_MSG(TRC_VAPP_WIDGET_KEY_IMAGE_VIEWER_CACHE_START,   "[Widget Key][Image Viewer] Panel::onCacheStarted")
+TRC_MSG(TRC_VAPP_WIDGET_KEY_IMAGE_VIEWER_IMG_COUNT,     "[Widget Key][Image Viewer] Panel::image count : %d")
+TRC_MSG(TRC_VAPP_WIDGET_KEY_IMAGE_VIEWER_SWITCH_DONE,   "[Widget Key][Image Viewer] Panel::switchDone, cell[%d], idx = %d")
+TRC_MSG(TRC_VAPP_WIDGET_KEY_IMAGE_VIEWER_PREV,					"[Widget Key][Image Viewer] Panel::show prev, idx = %d")
+TRC_MSG(TRC_VAPP_WIDGET_KEY_IMAGE_VIEWER_NEXT,   				"[Widget Key][Image Viewer] Panel::show next, idx = %d")
+TRC_MSG(TRC_VAPP_WIDGET_KEY_IMAGE_VIEWER_DEINIT,   			"[Widget Key][Image Viewer] Panel::onDeinit, n = %d")
+TRC_MSG(TRC_VAPP_WIDGET_KEY_IMAGE_VIEWER_KEY_INPUT,   	"[Widget Key][Image Viewer] Panel:: key code = %d, type = %d")
+TRC_MSG(TRC_VAPP_WIDGET_KEY_IMAGE_VIEWER_PEN_INPUT,   	"[Widget Key][Image Viewer] Panel:: pen type = %d")
+TRC_MSG(TRC_VAPP_WIDGET_KEY_IMAGE_VIEWER_OPEN_IMG,      "[Widget Key][Image Viewer] Cell[%d]::openImage")
+TRC_MSG(TRC_VAPP_WIDGET_KEY_IMAGE_VIEWER_LOCK_IMG_BUF,  "[Widget Key][Image Viewer] Cell[%d]::lock image buffer, ret : %d")
+TRC_MSG(TRC_VAPP_WIDGET_KEY_IMAGE_VIEWER_IMG_BUF_LOCKED,"[Widget Key][Image Viewer] Cell[%d]::onImageBufferLocked, ret : %d")
+TRC_MSG(TRC_VAPP_WIDGET_KEY_IMAGE_VIEWER_MOVE_DONE,     "[Widget Key][Image Viewer] Cell[%d]::onMoveDone, isNeedRetryOpenImg : %d")
+TRC_MSG(TRC_VAPP_WIDGET_KEY_IMAGE_VIEWER_MOVE_IN,       "[Widget Key][Image Viewer] Cell[%d]::onMoveIn, type: %d")
+TRC_MSG(TRC_VAPP_WIDGET_KEY_IMAGE_VIEWER_MOVE_OUT,      "[Widget Key][Image Viewer] Cell[%d]::onMoveOut, type: %d")
+TRC_MSG(TRC_VAPP_WIDGET_KEY_IMAGE_VIEWER_SKIP,          "[Widget Key][Image Viewer] Cell[%d]::onSkip, type: %d")
+TRC_MSG(TRC_VAPP_WIDGET_KEY_IMAGE_VIEWER_SHOW_MEM,      "[Widget Key][Image Viewer] Cell[%d]::showImageWithMem")
+TRC_MSG(TRC_VAPP_WIDGET_KEY_IMAGE_VIEWER_SHOW_DEFAULT,  "[Widget Key][Image Viewer] Cell[%d]::showDefault")
+TRC_MSG(TRC_VAPP_WIDGET_KEY_IMAGE_VIEWER_CLOSE_DEFAULT, "[Widget Key][Image Viewer] Cell[%d]::closeDefault")

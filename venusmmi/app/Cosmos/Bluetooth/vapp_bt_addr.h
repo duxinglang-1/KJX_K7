@@ -1,0 +1,181 @@
+/*****************************************************************************
+*  Copyright Statement:
+*  --------------------
+*  This software is protected by Copyright and the information contained
+*  herein is confidential. The software may not be copied and the information
+*  contained herein may not be used or disclosed except with the written
+*  permission of MediaTek Inc. (C) 2008
+*
+*  BY OPENING THIS FILE, BUYER HEREBY UNEQUIVOCALLY ACKNOWLEDGES AND AGREES
+*  THAT THE SOFTWARE/FIRMWARE AND ITS DOCUMENTATIONS ("MEDIATEK SOFTWARE")
+*  RECEIVED FROM MEDIATEK AND/OR ITS REPRESENTATIVES ARE PROVIDED TO BUYER ON
+*  AN "AS-IS" BASIS ONLY. MEDIATEK EXPRESSLY DISCLAIMS ANY AND ALL WARRANTIES,
+*  EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE IMPLIED WARRANTIES OF
+*  MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE OR NONINFRINGEMENT.
+*  NEITHER DOES MEDIATEK PROVIDE ANY WARRANTY WHATSOEVER WITH RESPECT TO THE
+*  SOFTWARE OF ANY THIRD PARTY WHICH MAY BE USED BY, INCORPORATED IN, OR
+*  SUPPLIED WITH THE MEDIATEK SOFTWARE, AND BUYER AGREES TO LOOK ONLY TO SUCH
+*  THIRD PARTY FOR ANY WARRANTY CLAIM RELATING THERETO. MEDIATEK SHALL ALSO
+*  NOT BE RESPONSIBLE FOR ANY MEDIATEK SOFTWARE RELEASES MADE TO BUYER'S
+*  SPECIFICATION OR TO CONFORM TO A PARTICULAR STANDARD OR OPEN FORUM.
+*
+*  BUYER'S SOLE AND EXCLUSIVE REMEDY AND MEDIATEK'S ENTIRE AND CUMULATIVE
+*  LIABILITY WITH RESPECT TO THE MEDIATEK SOFTWARE RELEASED HEREUNDER WILL BE,
+*  AT MEDIATEK'S OPTION, TO REVISE OR REPLACE THE MEDIATEK SOFTWARE AT ISSUE,
+*  OR REFUND ANY SOFTWARE LICENSE FEES OR SERVICE CHARGE PAID BY BUYER TO
+*  MEDIATEK FOR SUCH MEDIATEK SOFTWARE AT ISSUE. 
+*
+*  THE TRANSACTION CONTEMPLATED HEREUNDER SHALL BE CONSTRUED IN ACCORDANCE
+*  WITH THE LAWS OF THE STATE OF CALIFORNIA, USA, EXCLUDING ITS CONFLICT OF
+*  LAWS PRINCIPLES. ANY DISPUTES, CONTROVERSIES OR CLAIMS ARISING THEREOF AND
+*  RELATED THERETO SHALL BE SETTLED BY ARBITRATION IN SAN FRANCISCO, CA, UNDER
+*  THE RULES OF THE INTERNATIONAL CHAMBER OF COMMERCE (ICC).
+*
+*****************************************************************************/
+
+/*******************************************************************************
+ * Filename:
+ * ---------
+ *  vapp_bt_addr.h
+ *
+ * Project:
+ * --------
+ *  Cosmos
+ *
+ * Description:
+ * ------------
+ *  
+ *
+ * Author:
+ * -------
+ *  
+ *
+ *============================================================================
+ *             HISTORY
+ * Below this line, this part is controlled by PVCS VM. DO NOT MODIFY!!
+ *------------------------------------------------------------------------------
+ * removed!
+ *
+ * removed!
+ * removed!
+ * removed!
+ *
+ *------------------------------------------------------------------------------
+ * Upper this line, this part is controlled by PVCS VM. DO NOT MODIFY!!
+ *============================================================================
+ ****************************************************************************/
+
+#ifndef __VAPP_BT_ADDR_H__
+#define __VAPP_BT_ADDR_H__
+
+/***************************************************************************** 
+ * Include
+ *****************************************************************************/
+extern "C" {
+#include "BtcmSrvGprot.h"
+}
+#include "vfx_mc_include.h"
+
+/***************************************************************************** 
+ * Define
+ *****************************************************************************/
+
+/***************************************************************************** 
+ * Typedef
+ *****************************************************************************/
+
+/***************************************************************************** 
+ * Class 
+ *****************************************************************************/
+class VbtAddress
+{
+public:
+    VbtAddress()
+    {
+        m_devAddr.lap = m_devAddr.nap = m_devAddr.uap = 0;
+    }
+    VbtAddress(VfxU32 lap, VfxU8 uap, VfxU16 nap)
+    {
+        m_devAddr.lap = lap;
+        m_devAddr.uap = uap;
+        m_devAddr.nap = nap;
+    }
+    VbtAddress(const srv_bt_cm_bt_addr &addr)
+    {
+        m_devAddr = addr;
+    }
+
+public:
+    VfxU32 lap() const
+    {
+        return m_devAddr.lap;
+    }
+    VfxU8 uap() const
+    {
+        return m_devAddr.uap;
+    }
+    VfxU16 nap() const
+    {
+        return m_devAddr.nap;
+    }
+
+    VfxBool isValid() const
+    {
+        return (!(m_devAddr.lap == 0 && 
+                  m_devAddr.uap == 0 &&
+                  m_devAddr.nap == 0));
+    }
+
+    VbtAddress &operator =(const VbtAddress &other);
+    VbtAddress &operator =(const srv_bt_cm_bt_addr &other)
+    {
+        m_devAddr = other;
+
+        return *this;
+    }
+
+    operator const srv_bt_cm_bt_addr *() const
+    {
+        return &m_devAddr;
+    }
+    
+    operator srv_bt_cm_bt_addr *() const
+    {
+        return (srv_bt_cm_bt_addr *)&m_devAddr;
+    }
+    
+    VfxBool operator ==(const VbtAddress &other) const
+    {
+        return (m_devAddr.lap == other.m_devAddr.lap &&
+                m_devAddr.uap == other.m_devAddr.uap &&
+                m_devAddr.nap == other.m_devAddr.nap);
+    }
+    
+    VfxBool operator ==(const srv_bt_cm_bt_addr *other) const
+    {
+        return (m_devAddr.lap == other->lap &&
+                m_devAddr.uap == other->uap &&
+                m_devAddr.nap == other->nap);
+    }
+
+    VfxBool operator !=(const VbtAddress &other) const
+    {
+        return (m_devAddr.lap != other.m_devAddr.lap ||
+                m_devAddr.uap != other.m_devAddr.uap ||
+                m_devAddr.nap != other.m_devAddr.nap);
+    }
+
+    VfxBool operator !=(const srv_bt_cm_bt_addr *other) const
+    {
+        return (m_devAddr.lap != other->lap ||
+                m_devAddr.uap != other->uap ||
+                m_devAddr.nap != other->nap);
+    }
+
+private:
+    srv_bt_cm_bt_addr m_devAddr;
+};
+
+
+#endif // __VAPP_BT_ADDR_H__
+

@@ -1,0 +1,81 @@
+<VenusXML>
+  <Layout id="VAPP_SMS_LAYOUT_VIEWER">
+    <VfxPage>
+    </VfxPage>
+  </Layout>
+
+#if defined(__MMI_MAINLCD_480X800__)
+  <Layout id="VAPP_SMS_LAYOUT_MSG_CONTACT_BAR">
+    <VfxControl name="VappMsgContactBar" size="(480, 86)" contentPlacement="VFX_FRAME_CONTENT_PLACEMENT_TYPE_RESIZE">
+    	<VfxFrame name="portraitBgFrm" pos="(45, 42)" anchor="(0.5, 0.5)" size="(66, 66)" contentPlacement="VFX_FRAME_CONTENT_PLACEMENT_TYPE_RESIZE"/>
+    	<VfxFrame name="portraitFrm" pos="(45, 42)" anchor="(0.5, 0.5)" size="(66, 66)" contentPlacement="VFX_FRAME_CONTENT_PLACEMENT_TYPE_RESIZE_ASPECT"/>
+    	<VfxFrame name="portraitFgFrm" pos="(45, 42)" anchor="(0.5, 0.5)" size="(70, 70)" contentPlacement="VFX_FRAME_CONTENT_PLACEMENT_TYPE_RESIZE"/>
+    	<VfxFrame name="statusFrm" pos="(12, 73)" anchor="(0, 1.0)" size="(24, 24)" contentPlacement="VFX_FRAME_CONTENT_PLACEMENT_TYPE_RESIZE"/>
+    	<VfxImageFrame name="rightFrm1" pos="(466, 42)" anchor="(1.0, 0.5)" size="(45, 45)" />
+    	<VfxImageFrame name="rightFrm2" pos="(411, 42)" anchor="(1.0, 0.5)" size="(45, 45)" />
+    	<VfxTextFrame name="singleAddrFrm" pos="(94, 42)" anchor="(0, 0.5)" size="(254, 54)" />
+    	<VfxTextFrame name="groupAddrFrm" pos="(14, 42)" anchor="(0, 0.5)" size="(342, 70)" />
+    </VfxControl>
+  </Layout>
+#elif defined(__MMI_MAINLCD_320X480__)
+  <Layout id="VAPP_SMS_LAYOUT_MSG_CONTACT_BAR">
+    <VfxControl name="VappMsgContactBar" size="(320, 56)" contentPlacement="VFX_FRAME_CONTENT_PLACEMENT_TYPE_RESIZE">
+    	<VfxFrame name="portraitBgFrm" pos="(28, 28)" anchor="(0.5, 0.5)" size="(41, 41)" contentPlacement="VFX_FRAME_CONTENT_PLACEMENT_TYPE_RESIZE"/>
+    	<VfxFrame name="portraitFrm" pos="(28, 28)" anchor="(0.5, 0.5)" size="(41, 41)" contentPlacement="VFX_FRAME_CONTENT_PLACEMENT_TYPE_RESIZE_ASPECT"/>
+    	<VfxFrame name="portraitFgFrm" pos="(28, 28)" anchor="(0.5, 0.5)" size="(46, 46)" contentPlacement="VFX_FRAME_CONTENT_PLACEMENT_TYPE_RESIZE"/>
+    	<VfxFrame name="statusFrm" pos="(8, 48)" anchor="(0, 1.0)" size="(18, 18)" contentPlacement="VFX_FRAME_CONTENT_PLACEMENT_TYPE_RESIZE"/>
+    	<VfxImageFrame name="rightFrm1" pos="(312, 28)" anchor="(1.0, 0.5)" size="(24, 24)" />
+    	<VfxImageFrame name="rightFrm2" pos="(278, 28)" anchor="(1.0, 0.5)" size="(24, 24)" />
+    	<VfxTextFrame name="singleAddrFrm" pos="(59, 28)" anchor="(0, 0.5)" size="(186, 30)" />
+    	<VfxTextFrame name="groupAddrFrm" pos="(8, 28)" anchor="(0, 0.5)" size="(236, 50)" />
+    </VfxControl>
+  </Layout>
+#else
+  <Layout id="VAPP_SMS_LAYOUT_MSG_CONTACT_BAR">
+    <VfxControl name="VappMsgContactBar" size="(240, 45)" contentPlacement="VFX_FRAME_CONTENT_PLACEMENT_TYPE_RESIZE">
+    	<VfxFrame name="portraitBgFrm" pos="(21, 22)" anchor="(0.5, 0.5)" size="(31, 31)" contentPlacement="VFX_FRAME_CONTENT_PLACEMENT_TYPE_RESIZE"/>
+    	<VfxFrame name="portraitFrm" pos="(21, 22)" anchor="(0.5, 0.5)" size="(31, 31)" contentPlacement="VFX_FRAME_CONTENT_PLACEMENT_TYPE_RESIZE_ASPECT"/>
+    	<VfxFrame name="portraitFgFrm" pos="(21, 22)" anchor="(0.5, 0.5)" size="(37, 37)" contentPlacement="VFX_FRAME_CONTENT_PLACEMENT_TYPE_RESIZE"/>
+    	<VfxFrame name="statusFrm" pos="(6, 37)" anchor="(0, 1.0)" size="(15, 15)" contentPlacement="VFX_FRAME_CONTENT_PLACEMENT_TYPE_RESIZE"/>
+    	<VfxImageFrame name="rightFrm1" pos="(235, 22)" anchor="(1.0, 0.5)" size="(20, 20)" />
+    	<VfxImageFrame name="rightFrm2" pos="(205, 22)" anchor="(1.0, 0.5)" size="(20, 20)" />
+    	<VfxTextFrame name="singleAddrFrm" pos="(47, 22)" anchor="(0, 0.5)" size="(128, 30)" />
+    	<VfxTextFrame name="groupAddrFrm" pos="(5, 22)" anchor="(0, 0.5)" size="(170, 50)" />
+    </VfxControl>
+  </Layout>
+#endif
+
+#ifdef __MMI_SMS_DETAILS_INFO__
+#if defined(__MMI_MAINLCD_480X800__)
+  <Layout id="VAPP_SMS_LAYOUT_MSG_USE_DETAILS">
+    <VfxPage bgColor="#FFFFFF" name=" VappMsgUseDetailPage" translucent="false">
+      <VcpTitleBar name="UseDetails" prop="topBar"/>
+      <VcpListMenu name="UseDetailsList" pos="(0,0)" size="(480, 800)" />
+    </VfxPage>
+  </Layout>
+#elif defined(__MMI_MAINLCD_320X480__)
+  <Layout id="VAPP_SMS_LAYOUT_MSG_USE_DETAILS">
+    <VfxPage bgColor="#FFFFFF" name=" VappMsgUseDetailPage" translucent="false">
+      <VcpTitleBar name="UseDetails" prop="topBar"/>
+      <VcpListMenu name="UseDetailsList" pos="(0,0)" size="(320, 480)" />
+    </VfxPage>
+  </Layout>
+#elif defined(__MMI_MAINLCD_240X400__)
+  <Layout id="VAPP_SMS_LAYOUT_MSG_USE_DETAILS">
+    <VfxPage bgColor="#FFFFFF" name=" VappMsgUseDetailPage" translucent="false">
+      <VcpTitleBar name="UseDetails" prop="topBar"/>
+      <VcpListMenu name="UseDetailsList" pos="(0,0)" size="(240, 400)" />
+    </VfxPage>
+  </Layout>
+#else
+  <Layout id="VAPP_SMS_LAYOUT_MSG_USE_DETAILS">
+    <VfxPage bgColor="#FFFFFF" name=" VappMsgUseDetailPage" translucent="false">
+      <VcpTitleBar name="UseDetails" prop="topBar"/>
+      <VcpListMenu name="UseDetailsList" pos="(0,0)" size="(240, 320)" />
+    </VfxPage>
+  </Layout>
+#endif
+
+#endif
+</VenusXML>
+

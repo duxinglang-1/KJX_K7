@@ -1,0 +1,11 @@
+[OWNER] = CH Ko
+[APP NAME] = Widget
+[SCOPE] = PLUTO
+[MODULE] = MOD_MMI_COMMON_APP
+
+#start trace
+TRC_MSG(TRC_VAPP_WIDGET_ARCHIVE_SANITY_CHECK,       "[Widget][Archive] Sanity check, pass: %c, trace: %d")
+TRC_MSG(TRC_VAPP_WIDGET_ARCHIVE_PURGE_ALL,          "[Widget][Archive] Purge all widgets, fs_ret: %d")
+TRC_MSG(TRC_VAPP_WIDGET_ARCHIVE_NEW_VERSION,        "[Widget][Archive] Is new version? Ans: %c")
+TRC_MSG(TRC_VAPP_WIDGET_ARCHIVE_GET_FIRST,          "[Widget][Archive] >>> Get first, ret: %d")
+TRC_MSG(TRC_VAPP_WIDGET_ARCHIVE_GET_NEXT,           "[Widget][Archive] >>> Get next,  ret: %d")

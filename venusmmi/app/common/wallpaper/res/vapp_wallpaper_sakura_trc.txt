@@ -1,0 +1,9 @@
+[APP NAME] = APP_VENUS_WALLPAPER_SAKURA
+[SCOPE] = COSMOS, PLUTO
+[MODULE] = MOD_MMI_COMMON_APP
+
+#starttrace
+TRC_MSG(TRC_VAPP_WALLPAPER_SAKURA_MOTION_TILT,  "[SAKURA] onMotionTiltDetailCallback x = %d, y = %d, z = %d")
+TRC_MSG(TRC_VAPP_WALLPAPER_SAKURA_DESKTOPCHANGE_OLD,  "[SAKURA] onDesktopBoundsChanged oldBounds.origin.x = %d source->getBounds().origin.x = %d")
+TRC_MSG(TRC_VAPP_WALLPAPER_SAKURA_DESKTOPCHANGE_NEW,  "[SAKURA] onDesktopBoundsChanged oldPageIndex = %d newPageIndex = %d")
+TRC_MSG(TRC_VAPP_WALLPAPER_SAKURA_FG1FPECALLBACK,  "[SAKURA] sakuraFg1FpeCallback FPE watch_frame->pos_z = %d position Y = %d")

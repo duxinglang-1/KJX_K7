@@ -1,0 +1,7 @@
+[OWNER] = CH Ko
+[APP NAME] = Launcher System
+[SCOPE] = PLUTO, COSMOS
+[MODULE] = MOD_MMI_COMMON_APP
+
+#start trace
+TRC_MSG(TRC_VAPP_LAUNCHER_SYSTEM_INIT,         "[Launcher][System] Init, trace: %d")

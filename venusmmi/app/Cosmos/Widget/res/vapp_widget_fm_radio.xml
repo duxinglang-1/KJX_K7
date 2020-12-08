@@ -1,0 +1,75 @@
+#ifdef __MMI_MAINLCD_480X800__
+<VenusXML>
+    <Layout id="VAPP_WIDGET_FM_LAYOUT_WIDGET">
+    <VfxFrame>
+        <VfxImageFrame name="background" pos="(0, 0)" size="(425, 210)" resId="@IMG_ID_VAPP_WIDGET_FMR_BACKGROUND" />
+        <VfxImageFrame name="hole" pos="(15, 19)" size="(113, 168)" />
+        <VfxImageFrame name="LCD" pos="(138,12)" size="(274, 97)" />
+
+        <VcpButton name="btn_power" anchor="(0.5, 0.0)" pos="(275, 117)" size="(78, 78)" />
+    </VfxFrame>
+    </Layout>
+
+    <Layout id="VAPP_WIDGET_FM_LAYOUT_LCD">
+    <VfxFrame>
+        <VfxFrame name="background" pos="(0, 0)" size="(274, 97)" />
+        <VfxFrame name="spotlight" pos="(0, 0)" size="(274, 97)" />
+        <VfxFrame name="highlight" pos="(0, 0)" size="(274, 97)" />
+        <VfxTextFrame name="RDS_text" anchor="(0.5,0.5)" pos="(159, 96)"  color="#7F7F7F"/>
+        <VfxTextFrame name="channel_name" anchor="(0.5,0.5)" pos="(159, 96)"  color="#7F7F7F"/>
+    </VfxFrame>
+    </Layout>
+    
+</VenusXML>
+
+#elif defined(__MMI_MAINLCD_320X480__)
+
+<VenusXML>
+    <Layout id="VAPP_WIDGET_FM_LAYOUT_WIDGET">
+    <VfxFrame>
+        <VfxImageFrame name="background" pos="(0, 0)" size="(283, 141)" resId="@IMG_ID_VAPP_WIDGET_FMR_BACKGROUND" />
+        <VfxImageFrame name="hole" pos="(9, 13)" size="(76, 112)" />
+        <VfxImageFrame name="LCD" pos="(91,9)" size="(183, 66)" />
+
+        <VcpButton name="btn_power" anchor="(0.5, 0.0)" pos="(182, 76)" size="(55, 55)" />
+    </VfxFrame>
+    </Layout>
+
+    <Layout id="VAPP_WIDGET_FM_LAYOUT_LCD">
+    <VfxFrame>
+        <VfxFrame name="background" pos="(0, 0)" size="(274, 97)" />
+        <VfxFrame name="spotlight" pos="(0, 0)" size="(274, 97)" />
+        <VfxFrame name="highlight" pos="(0, 0)" size="(274, 97)" />
+        <VfxTextFrame name="RDS_text" anchor="(0.5,0.5)" pos="(159, 96)"  color="#7F7F7F"/>
+        <VfxTextFrame name="channel_name" anchor="(0.5,0.5)" pos="(159, 96)"  color="#7F7F7F"/>
+    </VfxFrame>
+    </Layout>
+    
+</VenusXML>
+
+#else //__MMI_MAINLCD_240X320__ || __MMI_MAINLCD_240X400__
+
+<VenusXML>
+    <Layout id="VAPP_WIDGET_FM_LAYOUT_WIDGET">
+    <VfxFrame>
+        <VfxImageFrame name="background" pos="(0, 0)" size="(216, 109)" resId="@IMG_ID_VAPP_WIDGET_FMR_BACKGROUND" />
+        <VfxImageFrame name="hole" pos="(9, 8)" size="(59, 85)" />
+        <VfxImageFrame name="LCD" pos="(69,5)" size="(138, 50)" />
+
+        <VcpButton name="btn_power" anchor="(0.5, 0.0)" pos="(138, 57)" size="(41, 44)" />
+    </VfxFrame>
+    </Layout>
+
+    <Layout id="VAPP_WIDGET_FM_LAYOUT_LCD">
+    <VfxFrame>
+        <VfxFrame name="background" pos="(0, 0)" size="(274, 97)" />
+        <VfxFrame name="spotlight" pos="(0, 0)" size="(274, 97)" />
+        <VfxFrame name="highlight" pos="(0, 0)" size="(274, 97)" />
+        <VfxTextFrame name="RDS_text" anchor="(0.5,0.5)" pos="(159, 96)"  color="#7F7F7F"/>
+        <VfxTextFrame name="channel_name" anchor="(0.5,0.5)" pos="(159, 96)"  color="#7F7F7F"/>
+    </VfxFrame>
+    </Layout>
+    
+</VenusXML>
+
+#endif

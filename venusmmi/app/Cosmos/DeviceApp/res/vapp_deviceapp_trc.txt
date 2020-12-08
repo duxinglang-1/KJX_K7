@@ -1,0 +1,22 @@
+[APP NAME] = VAPP_DEVICE
+[SCOPE] = COSMOS
+[MODULE] = MOD_MMI_COMMON_APP
+
+#start trace
+TRC_MSG(TRC_VGPIO_HANDLE_MUTE_PHONE, "[VGPIO]vapp_gpio_handle_mute_phone, mute=%d")
+TRC_MSG(TRC_VGPIO_HANDLE_EARPHONE_PLUG, "[VGPIO]vapp_gpio_handle_earphone_plug, in=%d")
+
+TRC_MSG(TRC_MMI_CHARBAT_UPDATE_STATUS_ICON, "[CHARBAT]vapp_charger_update_status_icon")
+TRC_MSG(TRC_MMI_CHARBAT_IS_CHARGING, "[CHARBAT]srv_charbat_is_charging")
+TRC_MSG(TRC_MMI_CHARBAT_IS_NOT_CHARGING, "[CHARBAT]srv_charbat_is_not_charging")
+
+TRC_MSG(TRC_MMI_CHARBAT_SET_ANIMATE, "[CHARBAT]wgui_status_icon_bar_set_icon_animate")
+TRC_MSG(TRC_MMI_CHARBAT_RESET_ANIMATE, "[CHARBAT]wgui_status_icon_bar_reset_icon_animate")
+
+
+
+
+TRC_MSG(TRC_VGPIO_SETTING_CURR_VALUE, "[VGPIO]VappGPIOSettingPage setCurrentValue=%d")
+TRC_MSG(TRC_VGPIO_SETTING_SLIDER_CHANGE, "[VGPIO]VappGPIOSettingPage onSliderChange=%d")
+
+TRC_MSG(TRC_VBATTERY_XXX, "[VBATTERY]srv_dtcnt_get_sim_preference, simType = %d, result = %d")

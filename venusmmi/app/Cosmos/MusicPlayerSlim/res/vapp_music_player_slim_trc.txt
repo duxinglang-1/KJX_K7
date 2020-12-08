@@ -1,0 +1,172 @@
+[APP NAME] = Cosmos Music Player App
+[SCOPE] = COSMOS
+[MODULE] = MOD_MMI_MEDIA_APP
+
+#start trace
+
+/* vapp_music_player_slim.cpp */
+TRC_MSG(TRC_VAPP_MUSICPLY_APP_ON_RUN, "[MUSICPLY] VappMusicPlayerAppSlim::onRun()")
+TRC_MSG(TRC_VAPP_MUSICPLY_APP_ON_DEINIT, "[MUSICPLY] VappMusicPlayerAppSlim::onDeinit()")
+TRC_MSG(TRC_VAPP_MUSICPLY_APP_ON_PROC, "[MUSICPLY] VappMusicPlayerAppSlim::onProc(), event: %d")
+TRC_MSG(TRC_VAPP_MUSICPLY_APP_ON_GROUP_ACTIVE, "[MUSICPLY] VappMusicPlayerAppSlim::onGroupActive()")
+TRC_MSG(TRC_VAPP_MUSICPLY_APP_ON_GROUP_INACTIVE, "[MUSICPLY] VappMusicPlayerAppSlim::onGroupInactive()")
+TRC_MSG(TRC_VAPP_MUSICPLY_APP_INIT_STAGE, "[MUSICPLY] VappMusicPlayerAppSlim::initStage()")
+TRC_MSG(TRC_VAPP_MUSICPLY_APP_SEND_SHOW_HIDE_EVENT, "[MUSICPLY] VappMusicPlayerAppSlim::sendShowHideEvent(), isShow:%d")
+TRC_MSG(TRC_VAPP_MUSICPLY_APP_ON_SESSION_CALLBACK, "[MUSICPLY] VappMusicPlayerAppSlim::onSessionCallback(), cb_event:%d, result:%d, ca_para_2:%d")
+TRC_MSG(TRC_VAPP_MUSICPLY_SCREEN_ON_INIT, "[MUSICPLY] VappMusicPlayerSlimScreen::onInit()")
+TRC_MSG(TRC_VAPP_MUSICPLY_SCREEN_ON_DEINIT, "[MUSICPLY] VappMusicPlayerSlimScreen::onDeinit()")
+TRC_MSG(TRC_VAPP_MUSICPLY_SCREEN_ON_1ST_READY, "[MUSICPLY] VappMusicPlayerSlimScreen::on1stReady()")
+TRC_MSG(TRC_VAPP_MUSICPLY_SCREEN_SHOW_WAITICON, "[MUSICPLY] VappMusicPlayerSlimScreen::showWaitIcon(), delayShow:%d")
+TRC_MSG(TRC_VAPP_MUSICPLY_SCREEN_HIDE_WAITICON, "[MUSICPLY] VappMusicPlayerSlimScreen::hideWaitIcon()")
+TRC_MSG(TRC_VAPP_MUSICPLY_SCREEN_POPUP_CONFIRM, "[MUSICPLY] VappMusicPlayerSlimScreen::popupConfirm()")
+TRC_MSG(TRC_VAPP_MUSICPLY_SCREEN_EVENT_HANDLER, "[MUSICPLY] VappMusicPlayerSlimScreen::eventHandler(), id:%d")
+TRC_MSG(TRC_VAPP_MUSICPLY_APP_ON_PROC_UCM_STATUS_CHANGE_MAKING_CALL_D, "[MUSICPLY] VappMusicPlayerSlimScreen::onProcUcmStatusChange(), makingcall:%d")
+
+
+
+
+
+/*Vapp_music_player_slim_allsong*/
+TRC_MSG(TRC_VAPP_MUSICPLY_ALLSONG_ON_INIT, "[MUSICPLY] VappMusicPlayerAllSongsPage::onInit()")
+TRC_MSG(TRC_VAPP_MUSICPLY_ALLSONG_ON_DEINIT, "[MUSICPLY] VappMusicPlayerAllSongsPage::onDeinit()")
+TRC_MSG(TRC_VAPP_MUSICPLY_ALLSONG_ON_ENTER, "[MUSICPLY] VappMusicPlayerAllSongsPage::onEnter(), isBackward:%d")
+TRC_MSG(TRC_VAPP_MUSICPLY_SLIM_ALLSONG_ON_ENTERED, "[MUSICPLY] VappMusicPlayerAllSongsPage::onEntered()")
+TRC_MSG(TRC_VAPP_MUSICPLY_ALLSONG_ON_BACK, "[MUSICPLY] VappMusicPlayerAllSongsPage::onBack(), m_isMultiselect:%d")
+TRC_MSG(TRC_VAPP_MUSICPLY_ALLSONG_ON_PROC, "[MUSICPLY] VappMusicPlayerAllSongsPage::onProc(), evt->id:%d, %d, m_fmgrPathNum:%d")
+TRC_MSG(TRC_VAPP_MUSICPLY_ALLSONG_EVENT_HANDLER, "[MUSICPLY] VappMusicPlayerAllSongsPage::eventHandler(), id:%d")
+TRC_MSG(TRC_VAPP_MUSICPLY_ALLSONG_ON_MEMORY_CARD_CHANGE, "[MUSICPLY] VappMusicPlayerAllSongsPage::onMemoryCardChange(), isPlugIn:%d")
+TRC_MSG(TRC_VAPP_MUSICPLY_ALLSONG_ON_SESSION_CALLBACK, "[MUSICPLY] VappMusicPlayerAllSongsPage::onSessionCallback(), cb_event:%d, result:%d, ca_para_2:%d")
+TRC_MSG(TRC_VAPP_MUSICPLY_ALLSONG_INIT_LIST_MENU, "[MUSICPLY] VappMusicPlayerAllSongsPage::initListMenu()")
+TRC_MSG(TRC_VAPP_MUSICPLY_ALLSONG_INIT_TOOLBAR_BY_COUNT, "[MUSICPLY] VappMusicPlayerAllSongsPage::initToolbarByCount(), isBackward:%d, current_cnt:%d, m_precount:%d")
+TRC_MSG(TRC_VAPP_MUSICPLY_ALLSONG_POPUP_MENU, "[MUSICPLY] VappMusicPlayerAllSongsPage::popupMenu()")
+TRC_MSG(TRC_VAPP_MUSICPLY_ALLSONG_POPUP_CONFIRM, "[MUSICPLY] VappMusicPlayerAllSongsPage::popupConfirm()")
+TRC_MSG(TRC_VAPP_MUSICPLY_ALLSONG_ON_MENU_ITEM_TAPPED, "[MUSICPLY] VappMusicPlayerAllSongsPage::onMenuItemTapped(), action:%d")
+TRC_MSG(TRC_VAPP_MUSICPLY_ALLSONG_ON_FUNC_DELETE, "[MUSICPLY] VappMusicPlayerAllSongsPage::onFuncDelete(), isMulti:%d")
+TRC_MSG(TRC_VAPP_MUSICPLY_ALLSONG_POST_PROC_FUNC_DELETE_STOP, "[MUSICPLY] VappMusicPlayerAllSongsPage::postProcFuncDeleteStop()")
+TRC_MSG(TRC_VAPP_MUSICPLY_ALLSONG_ON_FUNC_DELETE_STOP, "[MUSICPLY] VappMusicPlayerAllSongsPage::onFuncDeleteStop()")
+TRC_MSG(TRC_VAPP_MUSICPLY_ALLSONG_POPUP_MENU_CLOSE, "[MUSICPLY] VappMusicPlayerAllSongsPage::popupMenuClose()")
+TRC_MSG(TRC_VAPP_MUSICPLY_ALLSONG_PAGE_MULTISELECT_ON, "[MUSICPLY] VappMusicPlayerAllSongsPage::pageMultiSelectOn()")
+TRC_MSG(TRC_VAPP_MUSICPLY_ALLSONG_PAGE_MULTISELECT_OFF, "[MUSICPLY] VappMusicPlayerAllSongsPage::pageMultiSelectOff()")
+TRC_MSG(TRC_VAPP_MUSICPLY_ALLSONG_ON_LISTMENU_ITEM_TAPPED, "[MUSICPLY] VappMusicPlayerAllSongsPage::onListMenuItemTapped()")
+TRC_MSG(TRC_VAPP_MUSICPLY_ALLSONG_ON_LISTMENU_ITEM_LONG_TAPPED, "[MUSICPLY] VappMusicPlayerAllSongsPage::onListMenuItemLongTapped()")
+TRC_MSG(TRC_VAPP_MUSICPLY_ALLSONG_DISABLE_TOOL_BAR, "[MUSICPLY] VappMusicPlayerAllSongsPage::disableToolbar()")
+TRC_MSG(TRC_VAPP_MUSICPLY_ALLSONG_UPDATE_UI, "[MUSICPLY] VappMusicPlayerAllSongsPage::updateUI()")
+TRC_MSG(TRC_VAPP_MUSICPLY_ALLSONG_PAGE_ADDMUSIC, "[MUSICPLY] VappMusicPlayerAllSongsPage::addMusic(), result:%d")
+
+
+
+/*Vapp_music_player_slim_nowplaying*/
+TRC_MSG(TRC_VAPP_MUSICPLY_NOWPLAYING_ON_PLAYBACK_CALLBACK, "[MUSICPLY] VappMusicPlayerNowPlayingPage::onPlaybackCallback(), cb_event:%d, result:%d, ca_para_2:%d")
+TRC_MSG(TRC_VAPP_MUSICPLY_NOWPLAYING_ON_PLAYERPAGE_HANDLER, "[MUSICPLY] VappMusicPlayerNowPlayingPage::onPlayerPageHandler(), id:%d")
+TRC_MSG(TRC_VAPP_MUSICPLY_NOWPLAYING_INIT_METAPARSER, "[MUSICPLY] VappMusicPlayerNowPlayingPage::initMetaParser()")
+TRC_MSG(TRC_VAPP_MUSICPLY_NOWPLAYING_CLOSE_METAPARSER, "[MUSICPLY] VappMusicPlayerNowPlayingPage::closeMetaParser()")
+TRC_MSG(TRC_VAPP_MUSICPLY_NOWPLAYING_ON_INIT, "[MUSICPLY] VappMusicPlayerNowPlayingPage::onInit(), m_pageMode:%d")
+TRC_MSG(TRC_VAPP_MUSICPLY_NOWPLAYING_ON_DEINIT, "[MUSICPLY] VappMusicPlayerNowPlayingPage::onDeinit(), m_pageMode:%d")
+TRC_MSG(TRC_VAPP_MUSICPLY_NOWPLAYING_ON_ENTER, "[MUSICPLY] VappMusicPlayerNowPlayingPage::onEnter(), isBackward:%d, m_pageMode:%d")
+TRC_MSG(TRC_VAPP_MUSICPLY_NOWPLAYING_ON_EXITED, "[MUSICPLY] VappMusicPlayerNowPlayingPage::onExited()")
+TRC_MSG(TRC_VAPP_MUSICPLY_NOWPLAYING_ON_BACK, "[MUSICPLY] VappMusicPlayerNowPlayingPage::onBack(), m_pageMode:%d")
+TRC_MSG(TRC_VAPP_MUSICPLY_NOWPLAYING_INITUI, "[MUSICPLY] VappMusicPlayerNowPlayingPage::initUI()")
+TRC_MSG(TRC_VAPP_MUSICPLY_NOWPLAYING_PLAY, "[MUSICPLY] VappMusicPlayerNowPlayingPage::play(), index:%d")
+TRC_MSG(TRC_VAPP_MUSICPLY_NOWPLAYING_PLAYPAUSE, "[MUSICPLY] VappMusicPlayerNowPlayingPage::playpause(), m_pageMode:%d")
+TRC_MSG(TRC_VAPP_MUSICPLY_NOWPLAYING_SEEK, "[MUSICPLY] VappMusicPlayerNowPlayingPage::seek(), time:%d")
+TRC_MSG(TRC_VAPP_MUSICPLY_NOWPLAYING_PREV, "[MUSICPLY] VappMusicPlayerNowPlayingPage::prev()")
+TRC_MSG(TRC_VAPP_MUSICPLY_NOWPLAYING_NEXT, "[MUSICPLY] VappMusicPlayerNowPlayingPage::next()")
+TRC_MSG(TRC_VAPP_MUSICPLY_NOWPLAYING_SET_REPEAT, "[MUSICPLY] VappMusicPlayerNowPlayingPage::setRepeat(), repeatState:%d")
+TRC_MSG(TRC_VAPP_MUSICPLY_NOWPLAYING_SET_SHUFFLE, "[MUSICPLY] VappMusicPlayerNowPlayingPage::playpause(), shuffleState:%d")
+TRC_MSG(TRC_VAPP_MUSICPLY_NOWPLAYING_SET_ALBUM_COVER, "[MUSICPLY] VappMusicPlayerNowPlayingPage::setAlbumCover(), filepath:%s")
+TRC_MSG(TRC_VAPP_MUSICPLY_NOWPLAYING_SET_ENABLE_PLAYBACK_UI, "[MUSICPLY] VappMusicPlayerNowPlayingPage::setEnablePlaybackUI(), isEnable")
+TRC_MSG(TRC_VAPP_MUSICPLY_NOWPLAYING_SET_ALBUM_COVER_POS, "[MUSICPLY] VappMusicPlayerNowPlayingPage::setAlbumCoverPos(), page_mode:%d, useDefault:%d, width:%d, height:%d")
+TRC_MSG(TRC_VAPP_MUSICPLY_NOWPLAYING_UPDATE_DURATION, "[MUSICPLY] VappMusicPlayerNowPlayingPage::updateDuration()")
+TRC_MSG(TRC_VAPP_MUSICPLY_NOWPLAYING_UPDATE_CURRTIME, "[MUSICPLY] VappMusicPlayerNowPlayingPage::updateCurrTime()")
+TRC_MSG(TRC_VAPP_MUSICPLY_NOWPLAYING_UPDATE_SONG_INFO, "[MUSICPLY] VappMusicPlayerNowPlayingPage::updateSongInfo(), index:%d")
+TRC_MSG(TRC_VAPP_MUSICPLY_NOWPLAYING_ON_SLIDER_RELEASED, "[MUSICPLY] VappMusicPlayerNowPlayingPage::onSliderReleased()")
+TRC_MSG(TRC_VAPP_MUSICPLY_NOWPLAYING_ON_SLIDER_PRESSED, "[MUSICPLY] VappMusicPlayerNowPlayingPage::onSliderPressed()")
+TRC_MSG(TRC_VAPP_MUSICPLY_NOWPLAYING_SET_PLAYPAUSE_BTN_IMAGE, "[MUSICPLY] VappMusicPlayerNowPlayingPage::setPlayPauseBtnImage(), isPlayImage:%d")
+TRC_MSG(TRC_VAPP_MUSICPLY_NOWPLAYING_SET_EMPTY, "[MUSICPLY] VappMusicPlayerNowPlayingPage::setEmpty()")
+
+
+
+/*vapp_music_player_slim_cui.cpp*/
+TRC_MSG(TRC_VAPP_MUSICPLY_VCUI_AP_ON_RUN, "[MUSICPLY] VcuiMusicPlayer::onRun()")
+TRC_MSG(TRC_VAPP_MUSICPLY_VCUI_AP_ON_DEINIT, "[MUSICPLY] VcuiMusicPlayer::onDeinit()")
+TRC_MSG(TRC_VAPP_MUSICPLY_VCUI_AP_ON_GROUP_ACTIVE, "[MUSICPLY] VcuiMusicPlayer::onGroupActive()")
+TRC_MSG(TRC_VAPP_MUSICPLY_VCUI_AP_ON_GROUP_INACTIVE, "[MUSICPLY] VcuiMusicPlayer::onGroupActive()")
+TRC_MSG(TRC_VAPP_MUSICPLY_VCUI_AP_ON_PROC, "[MUSICPLY] VcuiMusicPlayer::onProc()")
+TRC_MSG(TRC_VAPP_MUSICPLY_VCUI_SCREEN_ON_INIT, "[MUSICPLY] VcuiMusicPlayerScreen::onInit()")
+TRC_MSG(TRC_VAPP_MUSICPLY_VCUI_SCREEN_ON_DEINIT, "[MUSICPLY] VcuiMusicPlayerScreen::onDeinit()")
+TRC_MSG(TRC_VAPP_MUSICPLY_VCUI_SCREEN_ON_1ST_READY, "[MUSICPLY] VcuiMusicPlayerScreen::on1stReady()")
+TRC_MSG(TRC_VAPP_MUSICPLY_VCUI_SCREEN_SHOW_WAITICON, "[MUSICPLY] VcuiMusicPlayerScreen::howWaitIcon()")
+TRC_MSG(TRC_VAPP_MUSICPLY_VCUI_SCREEN_HIDE_WAITICON, "[MUSICPLY] VcuiMusicPlayerScreen::hideWaitIcon()")
+TRC_MSG(TRC_VAPP_MUSICPLY_VCUI_SCREEN_ON_2ND_READY, "[MUSICPLY] VcuiMusicPlayerScreen::on2ndReady()")
+TRC_MSG(TRC_VAPP_MUSICPLY_VCUI_SCREEN_OPEN, "[MUSICPLY] VcuiMusicPlayerScreen::open(), filePath:%s")
+TRC_MSG(TRC_VAPP_MUSICPLY_VCUI_SCREEN_PLAY, "[MUSICPLY] VcuiMusicPlayerScreen::play(), isInterrupted:%d")
+TRC_MSG(TRC_VAPP_MUSICPLY_SINGLEPLAYER_AP_ON_PROC, "[MUSICPLY] VappMusicPlayerSinglePlayerApp::onProc(), evt->evt_id=[%d]")
+
+
+/* vapp_music_player_slim_session.cpp */
+TRC_MSG(TRC_VAPP_MUSICPLY_SESSION_ON_INIT, "[MUSICPLY] VappMusicPlayerSession::onInit()")
+TRC_MSG(TRC_VAPP_MUSICPLY_SESSION_ON_DEINIT, "[MUSICPLY] VappMusicPlayerSession::onDeinit()")
+TRC_MSG(TRC_VAPP_MUSICPLY_SESSION_DESTORY, "[MUSICPLY] VappMusicPlayerSession::destorySession()")
+TRC_MSG(TRC_VAPP_MUSICPLY_SESSION_ON_SET_BACKGROUND, "[MUSICPLY] VappMusicPlayerSession::setBackgroundPlay(), inBackground:%d")
+TRC_MSG(TRC_VAPP_MUSICPLY_SESSION_PLST_CB, "[MUSICPLY] VappMusicPlayerSession::onPlaylistCallback(), cb_event:%d, result:%d, ca_para_2:%d")
+TRC_MSG(TRC_VAPP_MUSICPLY_SESSION_OPEN_LIBRARY, "[MUSICPLY] VappMusicPlayerSession::openLibrary(), result:%d")
+TRC_MSG(TRC_VAPP_MUSICPLY_SESSION_ADD_MUSIC, "[MUSICPLY] VappMusicPlayerSession::addMusic(), filename:%s, result:%d")
+TRC_MSG(TRC_VAPP_MUSICPLY_SESSION_ADD_FROMFOLDER, "[MUSICPLY] VappMusicPlayerSession::addMusicFromFolder(), foldername:%s, result:%d")
+TRC_MSG(TRC_VAPP_MUSICPLY_SESSION_ADD_CANCEL, "[MUSICPLY] VappMusicPlayerSession::addMusicCancel()")
+TRC_MSG(TRC_VAPP_MUSICPLY_SESSION_DEL_MUSIC, "[MUSICPLY]  VappMusicPlayerSession::delMusic(), index:%d, result:%d")
+TRC_MSG(TRC_VAPP_MUSICPLY_SESSION_DEL_SELECTED, "[MUSICPLY] VappMusicPlayerSession::delSelectedMusic(), result:%d")
+TRC_MSG(TRC_VAPP_MUSICPLY_SESSION_DEL_CANCEL, "[MUSICPLY] VappMusicPlayerSession::delCancel()")
+TRC_MSG(TRC_VAPP_MUSICPLY_SESSION_PLAYBACK_CB, "[MUSICPLY] VappMusicPlayerSession::onPlaybackCallback(), cb_event:%d, result:%d, ca_para_2:%d")
+TRC_MSG(TRC_VAPP_MUSICPLY_SESSION_PLAY_MUSIC, "[MUSICPLY] VappMusicPlayerSession::playMusic()")
+TRC_MSG(TRC_VAPP_MUSICPLY_SESSION_START_PLAY, "[MUSICPLY] VappMusicPlayerSession::startPlay()")
+TRC_MSG(TRC_VAPP_MUSICPLY_SESSION_NOTIFY_LISTENER, "[MUSICPLY] VappMusicPlayerSession::notifyEvtListener(), cb_event:%d, result:%d, ca_para_2:%d")
+TRC_MSG(TRC_VAPP_MUSICPLY_SESSION_NOTIFY_LISTENER_ASYNC, "[MUSICPLY] VappMusicPlayerSession::notifyEvtListenerAsync(), cb_event:%d, result:%d, ca_para_2:%d")
+TRC_MSG(TRC_VAPP_MUSICPLY_SESSION_INTERNAL_EVT, "[MUSICPLY] VappMusicPlayerSession::onInternalEventHandler(), cb_event:%d, ca_para:%d")
+TRC_MSG(TRC_VAPP_MUSICPLY_SESSION_PAUSE_RESUME, "[MUSICPLY] VappMusicPlayerSession::pauseResumePlay(), state:%d, interrupted:%d")
+
+/* vapp_music_player_slim_ctrlplayback.cpp */
+TRC_MSG(TRC_VAPP_MUSICPLY_PLAYBACK_SEEK_CB, "[MUSICPLY] VappMusicPlayerCtrlPlaybackSlim::onSeekCallback(), result:%d, state:%d")
+TRC_MSG(TRC_VAPP_MUSICPLY_PLAYBACK_MDI_CB, "[MUSICPLY] VappMusicPlayerCtrlPlaybackSlim::onMDICallback(), result:%d, state:%d")
+TRC_MSG(TRC_VAPP_MUSICPLY_PLAYBACK_INTERRUPT_CB, "[MUSICPLY] VappMusicPlayerCtrlPlaybackSlim::onMDIInterruptCallback(), result:%d, state:%d")
+TRC_MSG(TRC_VAPP_MUSICPLY_PLAYBACK_BACKGROUND_CB, "[MUSICPLY] VappMusicPlayerCtrlPlaybackSlim::onMDIBackgroundCallback(), result:%d, state:%d")
+TRC_MSG(TRC_VAPP_MUSICPLY_PLAYBACK_OPEN, "[MUSICPLY] VappMusicPlayerCtrlPlaybackSlim::open(), state:%d")
+TRC_MSG(TRC_VAPP_MUSICPLY_PLAYBACK_INCALL, "[MUSICPLY] VappMusicPlayerCtrlPlaybackSlim::isMakingCall(), making_call:%d")
+TRC_MSG(TRC_VAPP_MUSICPLY_PLAYBACK_SET_PLAYSTATE, "[MUSICPLY] VappMusicPlayerCtrlPlaybackSlim::setPlaybackState(), state:%d")
+TRC_MSG(TRC_VAPP_MUSICPLY_PLAYBACK_SEEK_START, "[MUSICPLY] VappMusicPlayerCtrlPlaybackSlim::seekStart(), mdiHandle:%d, state:%d, interrupted:%d")
+TRC_MSG(TRC_VAPP_MUSICPLY_PLAYBACK_PLAY, "[MUSICPLY] VappMusicPlayerCtrlPlaybackSlim::play(), need_seek:%d")
+TRC_MSG(TRC_VAPP_MUSICPLY_PLAYBACK_DOPLAY, "[MUSICPLY] VappMusicPlayerCtrlPlaybackSlim::doPlay(), result:%d")
+TRC_MSG(TRC_VAPP_MUSICPLY_PLAYBACK_OPEN_A2DP, "[MUSICPLY] VappMusicPlayerCtrlPlaybackSlim::openA2DP()")
+TRC_MSG(TRC_VAPP_MUSICPLY_PLAYBACK_A2DP_CB, "[MUSICPLY] VappMusicPlayerCtrlPlaybackSlim::onA2DPOpenCallback(), result:%d, state:%d")
+TRC_MSG(TRC_VAPP_MUSICPLY_PLAYBACK_RESUME_INTERRUPT, "[MUSICPLY] VappMusicPlayerCtrlPlaybackSlim::resumeInterrupt(), interrupted:%d")
+TRC_MSG(TRC_VAPP_MUSICPLY_PLAYBACK_PAUSE, "[MUSICPLY] VappMusicPlayerCtrlPlaybackSlim::pause(), result:%d")
+TRC_MSG(TRC_VAPP_MUSICPLY_PLAYBACK_RESUME, "[MUSICPLY] VappMusicPlayerCtrlPlaybackSlim::doResume(), result:%d")
+TRC_MSG(TRC_VAPP_MUSICPLY_PLAYBACK_CHECK_VOLUME, "[MUSICPLY] VappMusicPlayerCtrlPlaybackSlim::onProcCheckVolType(), state:%d, inBg:%d")
+TRC_MSG(TRC_VAPP_MUSICPLY_PLAYBACK_NOTIFY_LISTENER, "[MUSICPLY] VappMusicPlayerCtrlPlaybackSlim::notifyEvtListener(), cb_event:%d, result:%d, ca_para_2:%d")
+
+/* vapp_music_player_slim_ctrlplaylist.cpp */
+TRC_MSG(TRC_VAPP_MUSICPLY_PLAYLIST_INIT, "[MUSICPLY] VappMusicPlayerCtrlPlaylist::onInit()")
+TRC_MSG(TRC_VAPP_MUSICPLY_PLAYLIST_DEINIT, "[MUSICPLY] VappMusicPlayerCtrlPlaylist::onDeinit()")
+TRC_MSG(TRC_VAPP_MUSICPLY_PLAYLIST_OPEN_LIBRARY, "[MUSICPLY] VappMusicPlayerCtrlPlaylist::openLibrary(), fileName:%s, result:%d")
+TRC_MSG(TRC_VAPP_MUSICPLY_PLAYLIST_ADD_FILE, "[MUSICPLY] VappMusicPlayerCtrlPlaylist::addFile(), result:%d")
+TRC_MSG(TRC_VAPP_MUSICPLY_PLAYLIST_ADD_FROMFOLDER, "[MUSICPLY] VappMusicPlayerCtrlPlaylist::addFromFolder(), result:%d")
+TRC_MSG(TRC_VAPP_MUSICPLY_PLAYLIST_ADD_CANCEL, "[MUSICPLY] VappMusicPlayerCtrlPlaylist::addFromFolder(), result:%d")
+TRC_MSG(TRC_VAPP_MUSICPLY_PLAYLIST_SET_STATE, "[MUSICPLY] VappMusicPlayerCtrlPlaylist::setPlaylistState(), state:%d")
+TRC_MSG(TRC_VAPP_MUSICPLY_PLAYLIST_DEINIT_PLSTSRV, "[MUSICPLY] VappMusicPlayerCtrlPlaylist::deInitPlaylistService()")
+TRC_MSG(TRC_VAPP_MUSICPLY_PLAYLIST_INIT_PLSTSRV, "[MUSICPLY] VappMusicPlayerCtrlPlaylist::initPlaylistService()")
+TRC_MSG(TRC_VAPP_MUSICPLY_PLAYLIST_PLSTSRV_CB, "[MUSICPLY] VappMusicPlayerCtrlPlaylist::onPlaylistSrvCallback(), cb_event:%d, result:%d, ca_para_2:%d")
+TRC_MSG(TRC_VAPP_MUSICPLY_PLAYLIST_SET_ACTIVEITEM, "[MUSICPLY] VappMusicPlayerCtrlPlaylist::setActiveItem(), index:%d, result:%d")
+
+
+/* AVRCP related*/
+TRC_MSG(TRC_VAPP_MUSICPLY_SESSION_REGISTER_AVRCP, "[MUSICPLY] VappMusicPlayerSession::registerAVRCPcallbak()")
+TRC_MSG(TRC_VAPP_MUSICPLY_SESSION_DEREGISTER_AVRCP, "[MUSICPLY] VappMusicPlayerSession::deregisterAVRCPcallback()")
+TRC_MSG(TRC_VAPP_MUSICPLY_SESSION_ON_AVRCP_CALLBACK, "[MUSICPLY] VappMusicPlayerSession::onAVRCPCmdCallback()")
+
+TRC_MSG(TRC_VAPP_MUSICPLY_VCUI_REGISTER_AVRCP, "[MUSICPLY] VcuiMusicPlayer::registerAVRCPcallbak()")
+TRC_MSG(TRC_VAPP_MUSICPLY_VCUI_DEREGISTER_AVRCP, "[MUSICPLY] VcuiMusicPlayer::deregisterAVRCPcallback()")
+TRC_MSG(TRC_VAPP_MUSICPLY_VCUI_ON_AVRCP_CALLBACK, "[MUSICPLY] VcuiMusicPlayer::onAVRCPCmdCallback()")
+
+TRC_MSG(TRC_VAPP_MUSICPLY_SINGLEPLAYER_AP_REGISTER_AVRCP, "[MUSICPLY] VappMusicPlayerSinglePlayerApp::registerAVRCPcallbak()")
+TRC_MSG(TRC_VAPP_MUSICPLY_SINGLEPLAYER_AP_DEREGISTER_AVRCP, "[MUSICPLY] VappMusicPlayerSinglePlayerApp::deregisterAVRCPcallback()")
+TRC_MSG(TRC_VAPP_MUSICPLY_SINGLEPLAYER_AP_ON_AVRCP_CALLBACK, "[MUSICPLY] VappMusicPlayerSinglePlayerApp::onAVRCPCmdCallback()")
+

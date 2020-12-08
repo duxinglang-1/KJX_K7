@@ -1,0 +1,98 @@
+[APP NAME] = App Manager
+[SCOPE] = PLUTO, COSMOS
+[MODULE] = MOD_MMI_COMMON_APP
+
+#start trace
+
+TRC_MSG(VAPP_AM_AM_MALLOC, "[MRE][FTO AM]<malloc ptr = 0x%08x.size = %d>")
+TRC_MSG(VAPP_AM_AM_FREE, "[MRE][FTO AM]<free ptr = 0x%08x>")
+
+TRC_MSG(VAPP_AM_ENTER_MASSSTORAGE, "[MRE][FTO AM]enterMassStorageModeCB()<>")
+
+TRC_MSG(VAPP_AM_ENTER_AM, "[MRE][FTO AM]enter App Manager<app id = %d>")
+
+TRC_MSG(VAPP_AM_WGT_START_CB, "[MRE][FTO AM]VappWidgetInfoAdapter::startCallback()<user_data = 0x%08x>")
+TRC_MSG(VAPP_AM_WGT_GET_INFO_CB, "[MRE][FTO AM]VappWidgetInfoAdapter::getAppInfoCallback()<user_data = 0x%08x>")
+TRC_MSG(VAPP_AM_WGT_UNINSTALL_CB, "[MRE][FTO AM]VappWidgetInfoAdapter::uninstallCallback()<>")
+TRC_MSG(VAPP_AM_WGT_START, "[MRE][FTO AM]VappWidgetInfoAdapter::startSrv()<>")
+TRC_MSG(VAPP_AM_WGT_GET_APP_LIST_BEGIN, "[MRE][FTO AM]VappWidgetInfoAdapter::getAppList()<begin><m_bStarted = %d>") 
+TRC_MSG(VAPP_AM_WGT_GET_NUM, "[MRE][FTO AM]VappWidgetInfoAdapter::getAppList()<widget srv get number = %d>")
+TRC_MSG(VAPP_AM_WGT_GET_APP_LIST_END, "[MRE][FTO AM]VappWidgetInfoAdapter::getAppList()<end>") 
+TRC_MSG(VAPP_AM_WGT_GET_APP_INFO_BEGIN, "[MRE][FTO AM]VappWidgetInfoAdapter::getAppInfo()<begin><m_bStarted = %d, app id = %d>") 
+TRC_MSG(VAPP_AM_WGT_GET_APP_INFO_END, "[MRE][FTO AM]VappWidgetInfoAdapter::getAppInfo()<end>") 
+TRC_MSG(VAPP_AM_WGT_GET_APP_DETAIL_INFO, "[MRE][FTO AM]VappWidgetInfoAdapter::getDetailAppInfo()<>")
+TRC_MSG(VAPP_AM_WGT_UNINSTALL, "[MRE][FTO AM]VappWidgetInfoAdapter::uninstallApp()<>")
+
+TRC_MSG(VAPP_AM_JAVA_GET_APP_LIST_BEGIN, "[MRE][FTO AM]VappJavaInfoAdapter::getAppList()<begin>") 
+TRC_MSG(VAPP_AM_JAVA_GET_NUM, "[MRE][FTO AM]VappJavaInfoAdapter::getAppList()<Java srv get number = %d>")
+TRC_MSG(VAPP_AM_JAVA_GET_APP_LIST_END, "[MRE][FTO AM]VappJavaInfoAdapter::getAppList()<end>")
+TRC_MSG(VAPP_AM_JAVA_GET_APP_INFO_BEGIN, "[MRE][FTO AM]VappJavaInfoAdapter::getAppInfo()<begin><app name = %s>") 
+TRC_MSG(VAPP_AM_JAVA_GET_APP_INFO_END, "[MRE][FTO AM]VappJavaInfoAdapter::getAppInfo()<end>")
+TRC_MSG(VAPP_AM_JAVA_UPATE_BEGIN, "[MRE][FTO AM]VappJavaInfoAdapter::updateApp()<begin>")
+TRC_MSG(VAPP_AM_JAVA_UPATE_END, "[MRE][FTO AM]VappJavaInfoAdapter::updateApp()<end>")
+TRC_MSG(VAPP_AM_JAVA_UNINSTALL_BEGIN, "[MRE][FTO AM]VappJavaInfoAdapter::uninstallApp()<begin>")
+TRC_MSG(VAPP_AM_JAVA_UNINSTALL_END, "[MRE][FTO AM]VappJavaInfoAdapter::uninstallApp()<end>")
+TRC_MSG(VAPP_AM_JAVA_UNINSTALL_CB, "[MRE][FTO AM]VappJavaInfoAdapter::uninstallCallback()<result = %d>")
+
+TRC_MSG(VAPP_AM_MRE_GET_APP_LIST_BEGIN, "[MRE][FTO AM]VappMREInfoAdapter::getAppList()<begin>") 
+TRC_MSG(VAPP_AM_MRE_GET_NUM, "[MRE][FTO AM]VappMREInfoAdapter::getAppList()<MRE srv get number = %d>")
+TRC_MSG(VAPP_AM_MRE_GET_APP_LIST_END, "[MRE][FTO AM]VappMREInfoAdapter::getAppList()<end>") 
+TRC_MSG(VAPP_AM_MRE_GET_APP_INFO_BEGIN, "[MRE][FTO AM]VappMREInfoAdapter::getAppInfo()<begin><app name = %s>")
+TRC_MSG(VAPP_AM_MRE_GET_APP_INFO_END, "[MRE][FTO AM]VappMREInfoAdapter::getAppInfo()<end>")
+TRC_MSG(VAPP_AM_MRE_GET_APP_DETAIL_INFO_BEGIN, "[MRE][FTO AM]VappMREInfoAdapter::getDetailAppInfo()<begin><app name = %s>")
+TRC_MSG(VAPP_AM_MRE_GET_APP_DETAIL_INFO_END, "[MRE][FTO AM]VappMREInfoAdapter::getDetailAppInfo()<end>")
+TRC_MSG(VAPP_AM_MRE_IS_EXIST, "[MRE][FTO AM]VappMREInfoAdapter::isExist()<app name = %s, result = %d>")
+TRC_MSG(VAPP_AM_MRE_IS_UPDATING, "[MRE][FTO AM]VappMREInfoAdapter::isUpdating()<app name = %s, result = %d>")
+TRC_MSG(VAPP_AM_MRE_IS_RUNNING, "[MRE][FTO AM]VappMREInfoAdapter::isRunning()<app name = %s, result = %d>")
+TRC_MSG(VAPP_AM_MRE_CHECK_UPDATE_CB, "[MRE][FTO AM]VappMREInfoAdapter::checkUpdateCallback()<>")
+
+TRC_MSG(VAPP_AM_CEATE_ELEMENT_BEGIN, "[MRE][FTO AM]VappAMItem::onCreateElements()<begin><app id =%d, app name = %s>")
+TRC_MSG(VAPP_AM_CEATE_ELEMENT_END, "[MRE][FTO AM]VappAMItem::onCreateElements()<end>")
+
+TRC_MSG(VAPP_AM_LIST_MENU_PAGE_INIT, "[MRE][FTO AM]VappAMListPage::onInit()<>")
+TRC_MSG(VAPP_AM_MAIN_PAGE_INIT, "[MRE][FTO AM]VappAMMainPage::onInit()<>")
+TRC_MSG(VAPP_AM_INFO_PAGE_INIT, "[MRE][FTO AM]VappAMAppInfoPage::onInit()<>")
+TRC_MSG(VAPP_AM_SETTING_PAGE_INIT, "[MRE][FTO AM]VappAMSettingPage::onInit()<>")
+TRC_MSG(VAPP_AM_MRE_SETTING_PAGE_INIT, "[MRE][FTO AM]VappAMMRESettingPage::onInit()<>")
+TRC_MSG(VAPP_AM_WGT_SETTING_PAGE_INIT, "[MRE][FTO AM]VappAMMRESettingPage::onInit()<>")
+TRC_MSG(VAPP_AM_MENU_POPUP_INIT, "[MRE][FTO AM]VappAMMenuPopup::onInit()<>")
+TRC_MSG(VAPP_AM_DELETE_POPUP_INIT, "[MRE][FTO AM]VappAmDeleteBasePopup::onInit()<>")
+TRC_MSG(VAPP_AM_ENTER_JAVA_SETTINGS, "[MRE][FTO AM]VappAMAppInfoPage::eventHandler()<enter java settings page>")
+
+TRC_MSG(VAPP_AM_UNINSTALL, "[MRE][FTO AM]VappAmUninstall::uninstall()<>")
+TRC_MSG(VAPP_AM_DELETE, "[MRE][FTO AM]VappAmUninstall::deleteApp()<>")
+TRC_MSG(VAPP_AM_UNINSTALL_CB, "[MRE][FTO AM]VappAmUninstall::uninstallCallback()<bValid = %d>")
+TRC_MSG(VAPP_AM_REMOVE_LIST, "[MRE][FTO AM]VappAmUninstall::uninstallCallback()<remove from list, pAppInfo = 0x%08x>")
+
+TRC_MSG(VAPP_AM_UPDATE, "[MRE][FTO AM]VappAmUpdate::update()<>")
+TRC_MSG(VAPP_AM_CHECKED_UPDATE, "[MRE][FTO AM]VappAmUpdate::onCheckedUpdate()<bValid = %d>")
+
+TRC_MSG(VAPP_MRE_ENTER_INSTALL, "[MRE][FTO AM]enter install app<app id = %d>")
+TRC_MSG(VAPP_MRE_ENTER_LAUNCH, "[MRE][FTO AM]enter launch app<app id = %d>")
+
+TRC_MSG(VAPP_MRE_SET_APP_BEGIN, "[MRE][FTO AM]VappMREOperator::setApp()<begin><app Name = %s>")
+TRC_MSG(VAPP_MRE_SET_APP_END, "[MRE][FTO AM]VappMREOperator::setApp()<end><app Path = %s>")
+TRC_MSG(VAPP_MRE_SET_PATH_BEGIN, "[MRE][FTO AM]VappMREOperator::setAppPath()<begin><app Path = %s>")
+TRC_MSG(VAPP_MRE_SET_PATH_END, "[MRE][FTO AM]VappMREOperator::setAppPath()<end><app Name = %s>")
+
+TRC_MSG(VAPP_MRE_CHECK_UPDATE, "[MRE][FTO AM]VappMREOperator::checkUpdateMRE()<current time,year = %d,month = %d,day = %d>")
+TRC_MSG(VAPP_MRE_LAST_UPDATE_TIME, "[MRE][FTO AM]VappMREOperator::checkUpdateMRE()<last update time,year = %d,month = %d,day = %d>")
+TRC_MSG(VAPP_MRE_LAST_CANCEL_TIME, "[MRE][FTO AM]VappMREOperator::checkUpdateMRE()<last cancel time,year = %d,month = %d,day = %d>")
+
+TRC_MSG(VAPP_MRE_LAUNCH_APP, "[MRE][FTO AM]VappMREOperator::launchApp()<app Path = %s>")
+TRC_MSG(VAPP_MRE_ACTIVE_APP, "[MRE][FTO AM]VappMREOperator::activeApp()<app Path = %s>")
+TRC_MSG(VAPP_MRE_INSTALL_APP, "[MRE][FTO AM]VappMREOperator::installApp()<app Path = %s>")
+TRC_MSG(VAPP_MRE_INSTALL_SUCCESS, "[MRE][FTO AM]VappMREOperator::installApp()<app Name = %s>")
+
+TRC_MSG(VAPP_MRE_UPDATE_MRE_CB, "[MRE][FTO AM]VappMREOperator::updateMRECB()<>")
+TRC_MSG(VAPP_MRE_LAUNCH_APP_CB, "[MRE][FTO AM]VappMREOperator::launchAppCB()<result = %d>")
+
+TRC_MSG(VAPP_MRE_MAINSCR_READY, "[MRE][FTO AM]VappMREOperatorMainScr::on1stReady()<operate type = %d>")
+TRC_MSG(VAPP_MRE_MAINSCR_ONLAUNCHAPP, "[MRE][FTO AM]VappMREOperatorMainScr::onLaunchApp()<isvalid = %d>")
+TRC_MSG(VAPP_MRE_MAINSCR_ONLAUNCHED, "[MRE][FTO AM]VappMREOperatorMainScr::onLaunched()<isvalid = %d>")
+TRC_MSG(VAPP_MRE_MAINSCR_ONREPAIR, "[MRE][FTO AM]VappMREOperatorMainScr::onRepair()<isvalid = %d>")
+TRC_MSG(VAPP_MRE_MAINSCR_ONDELETED, "[MRE][FTO AM]VappMREOperatorMainScr::onDeletedApp()<isvalid = %d>") 
+TRC_MSG(VAPP_MRE_MAINSCR_ONUPDATEMRE, "[MRE][FTO AM]VappMREOperatorMainScr::onUpdateMRE()<isvalid = %d>")
+TRC_MSG(VAPP_MRE_MAINSCR_ONUPDATED, "[MRE][FTO AM]VappMREOperatorMainScr::onUpdated()<isvalid = %d>")
+TRC_MSG(VAPP_MRE_MAINSCR_ONINSTALL, "[MRE][FTO AM]VappMREOperatorMainScr::onInstall()<isvalid = %d>")
+TRC_MSG(VAPP_MRE_MAINSCR_ONEXIT, "[MRE][FTO AM]VappMREOperatorMainScr::onExit()<isvalid = %d>")

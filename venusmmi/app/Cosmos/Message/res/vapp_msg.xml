@@ -1,0 +1,8 @@
+<VenusXML>
+  <Layout id="VAPP_MESSAGE_LAYOUT_1">
+    <VfxPage>
+      <VfxTextFrame text="Message from XML!" />
+    </VfxPage>
+  </Layout>
+</VenusXML>
+

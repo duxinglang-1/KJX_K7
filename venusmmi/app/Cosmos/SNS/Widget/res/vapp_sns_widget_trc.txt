@@ -1,0 +1,35 @@
+[APP NAME] = VAPP_SNS_WIDGET
+[SCOPE] = COSMOS
+[MODULE] = MOD_MMI_INET_APP
+
+#start trace
+TRC_MSG(TRC_MMI_VAPP_SNS_WIDGET1_ON_SERIALIZE, "[VappSnsWidget1] onSerialize() - m_isPopup: %d")
+TRC_MSG(TRC_MMI_VAPP_SNS_WIDGET1_ON_RESTORE, "[VappSnsWidget1] onRestore() - m_isPopup: %d")
+TRC_MSG(TRC_MMI_VAPP_SNS_WIDGET2_ON_SERIALIZE, "[VappSnsWidget2] onSerialize() - m_state: %d, m_isPopup: %d")
+TRC_MSG(TRC_MMI_VAPP_SNS_WIDGET2_ON_RESTORE, "[VappSnsWidget2] onRestore() - m_state: %d, m_isPopup: %d, m_serialized: %d, m_refresh: %d")
+TRC_MSG(TRC_MMI_VAPP_SNS_WIDGET2_RESET_VIEW, "[VappSnsWidget2] resetView() - m_state: %d, m_count: %d")
+TRC_MSG(TRC_MMI_VAPP_SNS_WIDGET2_AUTO_REFRESH, "[VappSnsWidget2] autoRefresh() - m_state: %d, m_serialized: %d")
+TRC_MSG(TRC_MMI_VAPP_SNS_WIDGET2_CHECK_CURRENT_STATE_START, "[VappSnsWidget2] checkCurrentState() start - m_state: %d")
+TRC_MSG(TRC_MMI_VAPP_SNS_WIDGET2_CHECK_CURRENT_STATE_END, "[VappSnsWidget2] checkCurrentState() end - m_state: %d, ret: %d")
+TRC_MSG(TRC_MMI_VAPP_SNS_WIDGET2_ON_TAP, "[VappSnsWidget2] onTap() - m_state: %d, launch: %d")
+TRC_MSG(TRC_MMI_VAPP_SNS_WIDGET2_ON_ITEM_UPDATE, "[VappSnsWidget2] onItemUpdated() - list: %d, index: %d, type: %d, m_state: %d")
+TRC_MSG(TRC_MMI_VAPP_SNS_WIDGET2_ON_GET_LOAD_RESULTS, "[VappSnsWidget2] onGetLoadResults() - list: %d, total: %d, start: %d, end: %d, m_state: %d")
+TRC_MSG(TRC_MMI_VAPP_SNS_WIDGET2_ON_SRV_STATUS_CHANGED, "[VappSnsWidget2] onSrvStatusChanged() - ready: %d, error: %d, list: %d, m_state: %d, m_serialized: %d, m_launchApp: %d")
+
+TRC_MSG(TRC_MMI_VAPP_SNS_DUMMY_CALL_ENTER, "[SNS Widget Dummy APP] Call enter dummy APP - caller: %d, flag: %d, asm: %d")
+TRC_MSG(TRC_MMI_VAPP_SNS_DUMMY_CALL_LEAVE, "[SNS Widget Dummy APP] Call leave dummy APP - caller: %d, flag: %d, asm: %d")
+TRC_MSG(TRC_MMI_VAPP_SNS_DUMMY_FREE_ASM, "[SNS Widget Dummy APP] Free ASM.")
+TRC_MSG(TRC_MMI_VAPP_SNS_DUMMY_EXIT_DUMMY_APP, "[SNS Widget Dummy APP] Exit dummy APP.")
+TRC_MSG(TRC_MMI_VAPP_SNS_DUMMY_ENTER_DUMMY_APP, "[SNS Widget Dummy APP] Enter dummy APP.")
+TRC_MSG(TRC_MMI_VAPP_SNS_DUMMY_FROCE_FREE, "[SNS Widget Dummy APP] Forced to free ASM.")
+TRC_MSG(TRC_MMI_VAPP_SNS_DUMMY_FAILED_TO_ALLOCATE, "[SNS Widget Dummy APP] Failed to allocate ASM.")
+
+TRC_MSG(TRC_MMI_VAPP_SNS_WIDGET_VIEWER_ON_SERIALIZE, "[VappWidgetSnsViewer] onSerializeView() - m_state: %d")
+TRC_MSG(TRC_MMI_VAPP_SNS_WIDGET_VIEWER_ON_RESTORE, "[VappWidgetSnsViewer] onRestoreView() - m_state: %d, m_launch: %d, m_totalPanelNum: %d, m_refresh: %d")
+TRC_MSG(TRC_MMI_VAPP_SNS_WIDGET_VIEWER_ON_ITEM_UPDATE, "[VappWidgetSnsViewer] onItemUpdated() - list: %d, index: %d, type: %d, m_state: %d, m_listId: %d")
+TRC_MSG(TRC_MMI_VAPP_SNS_WIDGET_VIEWER_ON_GET_LOAD_RESULTS, "[VappWidgetSnsViewer] onGetLoadResults() - list: %d, total: %d, start: %d, end: %d, m_state: %d, m_listId: %d")
+TRC_MSG(TRC_MMI_VAPP_SNS_WIDGET_VIEWER_ON_SRV_STATUS_CHANGED, "[VappWidgetSnsViewer] onSrvStatusChanged() - ready: %d, error: %d, list: %d, m_state: %d, m_listId: %d, m_serialized: %d, m_launchApp: %d")
+TRC_MSG(TRC_MMI_VAPP_SNS_WIDGET_VIEWER_AUTO_REFRESH, "[VappWidgetSnsViewer] autoRefresh() - m_state: %d, m_serialized: %d")
+TRC_MSG(TRC_MMI_VAPP_SNS_WIDGET_VIEWER_REFRESH_VIEWER, "[VappWidgetSnsViewer] refreshViewer() - m_state: %d, m_serialized: %d")
+TRC_MSG(TRC_MMI_VAPP_SNS_WIDGET_VIEWER_RESET_VIEWER, "[VappWidgetSnsViewer] resetViewer() - m_state: %d, m_serialized: %d, m_listId: %d, m_count: %d")
+#end trace

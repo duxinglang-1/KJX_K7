@@ -1,0 +1,252 @@
+/*****************************************************************************
+*  Copyright Statement:
+*  --------------------
+*  This software is protected by Copyright and the information contained
+*  herein is confidential. The software may not be copied and the information
+*  contained herein may not be used or disclosed except with the written
+*  permission of MediaTek Inc. (C) 2007
+*
+*  BY OPENING THIS FILE, BUYER HEREBY UNEQUIVOCALLY ACKNOWLEDGES AND AGREES
+*  THAT THE SOFTWARE/FIRMWARE AND ITS DOCUMENTATIONS ("MEDIATEK SOFTWARE")
+*  RECEIVED FROM MEDIATEK AND/OR ITS REPRESENTATIVES ARE PROVIDED TO BUYER ON
+*  AN "AS-IS" BASIS ONLY. MEDIATEK EXPRESSLY DISCLAIMS ANY AND ALL WARRANTIES,
+*  EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE IMPLIED WARRANTIES OF
+*  MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE OR NONINFRINGEMENT.
+*  NEITHER DOES MEDIATEK PROVIDE ANY WARRANTY WHATSOEVER WITH RESPECT TO THE
+*  SOFTWARE OF ANY THIRD PARTY WHICH MAY BE USED BY, INCORPORATED IN, OR
+*  SUPPLIED WITH THE MEDIATEK SOFTWARE, AND BUYER AGREES TO LOOK ONLY TO SUCH
+*  THIRD PARTY FOR ANY WARRANTY CLAIM RELATING THERETO. MEDIATEK SHALL ALSO
+*  NOT BE RESPONSIBLE FOR ANY MEDIATEK SOFTWARE RELEASES MADE TO BUYER'S
+*  SPECIFICATION OR TO CONFORM TO A PARTICULAR STANDARD OR OPEN FORUM.
+*
+*  BUYER'S SOLE AND EXCLUSIVE REMEDY AND MEDIATEK'S ENTIRE AND CUMULATIVE
+*  LIABILITY WITH RESPECT TO THE MEDIATEK SOFTWARE RELEASED HEREUNDER WILL BE,
+*  AT MEDIATEK'S OPTION, TO REVISE OR REPLACE THE MEDIATEK SOFTWARE AT ISSUE,
+*  OR REFUND ANY SOFTWARE LICENSE FEES OR SERVICE CHARGE PAID BY BUYER TO
+*  MEDIATEK FOR SUCH MEDIATEK SOFTWARE AT ISSUE. 
+*
+*  THE TRANSACTION CONTEMPLATED HEREUNDER SHALL BE CONSTRUED IN ACCORDANCE
+*  WITH THE LAWS OF THE STATE OF CALIFORNIA, USA, EXCLUDING ITS CONFLICT OF
+*  LAWS PRINCIPLES.  ANY DISPUTES, CONTROVERSIES OR CLAIMS ARISING THEREOF AND
+*  RELATED THERETO SHALL BE SETTLED BY ARBITRATION IN SAN FRANCISCO, CA, UNDER
+*  THE RULES OF THE INTERNATIONAL CHAMBER OF COMMERCE (ICC).
+*
+*****************************************************************************/
+
+/*****************************************************************************
+ *
+ * Filename:
+ * ---------
+ *  vapp_cube_res.h
+ *
+ * Project:
+ * --------
+ *  Venus
+ *
+ * Description:
+ * ------------
+ *  This file defines the screen, image, and string resource ID for the Venus
+ *  shell application.
+ *
+ * Author:
+ * -------
+ * -------
+ *
+ *============================================================================
+ *             HISTORY
+ * Below this line, this part is controlled by PVCS VM. DO NOT MODIFY!!
+ *------------------------------------------------------------------------------
+ * removed!
+ *
+ * removed!
+ * removed!
+ * removed!
+ *
+ * removed!
+ * removed!
+ * removed!
+ *
+ * removed!
+ * removed!
+ * removed!
+ *
+ * removed!
+ * removed!
+ * removed!
+ *
+ * removed!
+ * removed!
+ * removed!
+ *
+ * removed!
+ * removed!
+ * removed!
+ *
+ *------------------------------------------------------------------------------
+ * Upper this line, this part is controlled by PVCS VM. DO NOT MODIFY!!
+ *============================================================================
+ ****************************************************************************/
+ 
+#ifndef __VAPP_CUBE_RES_DEF_H__
+#define __VAPP_CUBE_RES_DEF_H__
+ 
+#include "CubeAppResDef.h"
+ 
+ /***************************************************************************** 
+  * Typedef for Resource Enum
+  *****************************************************************************/
+ /* Screen IDs */
+ typedef enum
+ {
+     VAPP_CUBE_APP_SCR_ID = SCR_ID_VENUS_CUBE_APP_END,
+     VAPP_CUBE_APP_VIP_CONTACE_SCR_ID,
+     VAPP_CUBE_APP_SCR_END
+ } VAPP_CUBE_SCR_ID_ENUM;
+ 
+ /* String IDs */
+ typedef enum
+ {
+     VAPP_CUBE_HOME_TITLE_TEXT =STR_ID_VENUS_CUBE_APP_END,
+     VAPP_CUBE_VIP_CONTACE_TITLE_TEXT,
+     //imgview image start
+     VAPP_CUBE_STR_IMGVIEW_TITLE,
+     //imgview image end
+     VAPP_CUBE_STR_MPLAYER_TITLE,     
+     VAPP_CUBE_STR_MPLAYER_PLAYLIST_NOT_READY,
+     VAPP_CUBE_STR_END
+ } VAPP_CUBE_STR_ID_ENUM;
+ 
+ /* Image IDs */
+ typedef enum
+ {
+     VAPP_CUBE_IMG_BG_SCR_ONE = IMG_ID_VENUS_CUBE_APP_END,
+     VAPP_CUBE_IMG_BG_SCR_TWO,
+     VAPP_CUBE_IMG_BG_SCR_THREE,
+     VAPP_CUBE_IMG_BG_SCR_FOUR,
+     VAPP_CUBE_IMG_CUBE_BACKGROUND,
+     VAPP_CUBE_IMG_CUBE_SHADOW,
+
+ /* cube media player*/
+VAPP_CUBE_MEDIA_PLAYER_IMG_PANEL_BG,     
+VAPP_CUBE_MEDIA_PLAYER_IMG_BG,
+VAPP_CUBE_MEDIA_PLAYER_IMG_COVER,
+VAPP_CUBE_MEDIA_PLAYER_IMG_CD,
+VAPP_CUBE_MEDIA_PLAYER_IMG_CD_HIGH_LIGHT,
+VAPP_CUBE_MEDIA_PLAYER_IMG_ARROW_DOWN,
+VAPP_CUBE_MEDIA_PLAYER_IMG_ARROW_UP,
+VAPP_CUBE_MEDIA_PLAYER_IMG_CUR_PLAY,
+
+VAPP_CUBE_MEDIA_PLAYER_IMG_PLAY_UP,         
+
+
+VAPP_CUBE_MEDIA_PLAYER_IMG_PAUSE_UP,         
+
+VAPP_CUBE_MEDIA_PLAYER_IMG_STOP_UP,          
+
+
+VAPP_CUBE_MEDIA_PLAYER_IMG_PROGRESS_BG,      
+VAPP_CUBE_MEDIA_PLAYER_IMG_PROGRESS_FG,      
+
+VAPP_CUBE_MEDIA_PLAYER_IMG_CLOSE_UP,         
+
+
+VAPP_CUBE_MEDIA_PLAYER_IMG_SHUFFLE_ON_UP,    
+
+VAPP_CUBE_MEDIA_PLAYER_IMG_SHUFFLE_OFF_UP,   
+
+VAPP_CUBE_MEDIA_PLAYER_IMG_REPEAT_OFF_UP,    
+
+VAPP_CUBE_MEDIA_PLAYER_IMG_REPEAT_ONE_UP,    
+
+VAPP_CUBE_MEDIA_PLAYER_IMG_REPEAT_ALL_UP,    
+VAPP_CUBE_MEDIA_PLAYER_IMG_HIGH_LIGHT,     
+     VAPP_CUBE_MEDIA_PLAYER_IMG_NUM_0,     
+VAPP_CUBE_MEDIA_PLAYER_IMG_NUM_1,     
+VAPP_CUBE_MEDIA_PLAYER_IMG_NUM_2,     
+VAPP_CUBE_MEDIA_PLAYER_IMG_NUM_3,     
+VAPP_CUBE_MEDIA_PLAYER_IMG_NUM_4,     
+VAPP_CUBE_MEDIA_PLAYER_IMG_NUM_5,     
+VAPP_CUBE_MEDIA_PLAYER_IMG_NUM_6,     
+VAPP_CUBE_MEDIA_PLAYER_IMG_NUM_7,     
+VAPP_CUBE_MEDIA_PLAYER_IMG_NUM_8,     
+VAPP_CUBE_MEDIA_PLAYER_IMG_NUM_9,     
+VAPP_CUBE_MEDIA_PLAYER_IMG_NUM_COLON,
+
+    //imgview image start
+     VAPP_CUBE_IMG_IMGVIEW_ARROW_DOWN,
+     VAPP_CUBE_IMG_IMGVIEW_ARROW_UP,
+     VAPP_CUBE_IMGVIEW_FRAME,
+     #if 0
+/* under construction !*/
+/* under construction !*/
+/* under construction !*/
+/* under construction !*/
+/* under construction !*/
+/* under construction !*/
+/* under construction !*/
+/* under construction !*/
+     #endif
+     VAPP_CUBE_IMG_IMGVIEW_ICON_BACK,
+     VAPP_CUBE_IMG_IMGVIEW_ICON_BACK_HIGHLIGHT,
+     VAPP_CUBE_IMG_IMGVIEW_NAVIGATION_BG,
+     VAPP_CUBE_IMG_IMGVIEW_VIEW_MODE_BG,
+     VAPP_CUBE_IMG_IMGVIEW_CELL_BG,
+     VAPP_CUBE_IMG_IMGVIEW_LOCK,
+     VAPP_CUBE_IMG_IMGVIEW_ERROR,
+     VAPP_CUBE_IMG_IMGVIEW_LOADING,
+     VAPP_CUBE_IMG_IMGVIEW_LOADING_BG,
+     VAPP_CUBE_IMG_IMGVIEW_LOADING_0,
+     VAPP_CUBE_IMG_IMGVIEW_LOADING_1,
+     VAPP_CUBE_IMG_IMGVIEW_LOADING_2,
+     VAPP_CUBE_IMG_IMGVIEW_LOADING_3,
+     VAPP_CUBE_IMG_IMGVIEW_LOADING_4,
+     VAPP_CUBE_IMG_IMGVIEW_LOADING_5,
+     VAPP_CUBE_IMG_IMGVIEW_LOADING_6,
+     VAPP_CUBE_IMG_IMGVIEW_LOADING_7,
+     VAPP_CUBE_IMG_IMGVIEW_POPUP_INFO,
+     VAPP_CUBE_IMG_IMGVIEW_POPUP_FAILURE,
+     
+     //imgview image end
+
+     /* Vip contact image start */
+     VAPP_CUBE_IMG_VIP_CONTACT_BG,
+     VAPP_CUBE_IMG_VIP_CONTACT_DEFAULT,
+     VAPP_CUBE_IMG_VIP_CONTACT_NORMAL,
+     VAPP_CUBE_IMG_VIP_CONTACT_DISABLE,
+     VAPP_CUBE_IMG_VIP_CONTACT_ZOOM_IN_BG,      // Zoom in frame background
+     VAPP_CUBE_IMG_VIP_CONTACT_FRAME,
+     VAPP_CUBE_IMG_VIP_CONTACT_CALL_BTN_UP,
+     VAPP_CUBE_IMG_VIP_CONTACT_CALL_BTN_DOWN,
+     VAPP_CUBE_IMG_VIP_CONTACT_CALL_BTN_DISABLE,
+     VAPP_CUBE_IMG_VIP_CONTACT_SMS_BTN_UP,
+     VAPP_CUBE_IMG_VIP_CONTACT_SMS_BTN_DOWN,
+     VAPP_CUBE_IMG_VIP_CONTACT_SMS_BTN_DISABLE,
+
+     VAPP_CUBE_IMG_VIP_CONTACT_TRASH_BTN_UP,
+     VAPP_CUBE_IMG_VIP_CONTACT_TRASH_BTN_DOWN,
+     VAPP_CUBE_IMG_VIP_CONTACT_CLOSE,
+     VAPP_CUBE_IMG_VIP_CONTACT_SWITCH_BTN_UP,
+     VAPP_CUBE_IMG_VIP_CONTACT_SWITCH_BTN_DOWN,
+     VAPP_CUBE_IMG_VIP_CONTACT_LIST_BG,
+     VAPP_CUBE_IMG_VIP_CONTACT_LIST_HILITE,
+     VAPP_CUBE_IMG_VIP_CONTACT_HILITE_EFFECT,
+     VAPP_CUBE_IMG_VIP_CONTACT_BTN_DONE_UP,
+     VAPP_CUBE_IMG_VIP_CONTACT_BTN_DONE_DOWN,
+
+     VAPP_CUBE_IMG_VIP_CONTACT_LOADING_BG,
+     VAPP_CUBE_IMG_VIP_CONTACT_LOADING_0,
+     VAPP_CUBE_IMG_VIP_CONTACT_LOADING_1,
+     VAPP_CUBE_IMG_VIP_CONTACT_LOADING_2,
+     VAPP_CUBE_IMG_VIP_CONTACT_LOADING_3,
+     VAPP_CUBE_IMG_VIP_CONTACT_LOADING_4,
+     VAPP_CUBE_IMG_VIP_CONTACT_LOADING_5,
+     VAPP_CUBE_IMG_VIP_CONTACT_LOADING_6,
+     VAPP_CUBE_IMG_VIP_CONTACT_LOADING_7,
+     VAPP_CUBE_IMG_VIP_CONTACT_LOADING_CNT,
+     /* Vip contact image end */
+     
+     VAPP_CUBE_IMG_END
+ } VAPP_CUBE_IMG_ID_ENUM;
+ 
+#endif /* __VAPP_CUBE_RES_DEF_H__ */
+

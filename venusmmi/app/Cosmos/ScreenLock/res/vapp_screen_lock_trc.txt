@@ -1,0 +1,22 @@
+[APP NAME] = ScreenLock
+[SCOPE] = COSMOS
+[MODULE] = MOD_MMI_COMMON_APP
+
+#start trace
+
+TRC_MSG(TRC_VAPP_SCREEN_LOCK_IS_ALLOWED_LAUNCH, "[SCREEN_LOCK] vapp_screen_lock_is_allowed_launch, trace: %d")
+TRC_MSG(TRC_VAPP_SCREEN_LOCK_LAUNCH, "[SCREEN_LOCK] vapp_screen_lock_launch, trace: %d")
+TRC_MSG(TRC_VAPP_SCREEN_LOCK_POST_LAUNCH_REQ, "[SCREEN_LOCK] vapp_screen_lock_post_launch_req, trace: %d")
+TRC_MSG(TRC_VAPP_SCREEN_LOCK_IS_LOCKED, "[SCREEN_LOCK] vapp_screen_lock_is_locked, isActive: %d")
+TRC_MSG(TRC_VAPP_SCREEN_LOCK_IS_EXIST, "[SCREEN_LOCK] vapp_screen_lock_is_exist, trace: %d")
+TRC_MSG(TRC_VAPP_SCREEN_LOCK_DISABLE_BACKLIGHT_TIMER, "[SCREEN_LOCK] vapp_screen_lock_disable_backlight_timer, disable: %d, trace: %d")
+TRC_MSG(TRC_VAPP_SCREEN_LOCK_IS_SWITCH_BACKLIGHT_KEY, "[SCREEN_LOCK] vapp_screen_lock_is_switch_backlight_key trace : %d")
+TRC_MSG(TRC_VAPP_SCREEN_LOCK_IS_TURN_ON_BACKLIGHT_KEY, "[SCREEN_LOCK] vapp_screen_lock_is_turn_on_backlight_key : %d")
+TRC_MSG(TRC_VAPP_SCREEN_LOCK_IS_VOLUME_KEY, "[SCREEN_LOCK] vapp_screen_lock_is_volume_key trace : %d")
+TRC_MSG(TRC_VAPP_SCREEN_LOCK_HANDLE_GPIO_LCD_SLEEP_IN, "[SCREEN_LOCK] vapp_screen_lock_handle_gpio_lcd_sleep_in, trace: %d")
+TRC_MSG(TRC_VAPP_SCREEN_LOCK_HANDLE_GPIO_CLAM_OPEN, "[SCREEN_LOCK] vapp_screen_lock_handle_gpio_clam_open, trace: %d")
+TRC_MSG(TRC_VAPP_SCREEN_LOCK_TURN_ON_BACKLIGHT, "[SCREEN_LOCK] vapp_screen_lock_turn_on_backlight, trace: %d")
+TRC_MSG(TRC_VAPP_SCREEN_LOCK_HANDLE_PRE_KEY_ROUTING, "[SCREEN_LOCK] vapp_screen_lock_handle_pre_key_routing, key_code: %d, trace: %d")
+TRC_MSG(TRC_VAPP_SCREEN_LOCK_HANDLE_LAUNCH_REQ, "[SCREEN_LOCK] vapp_screen_lock_handle_launch_req, trace: %d")
+TRC_MSG(TRC_VAPP_SCREEN_LOCK_APP_ON_RUN, "[SCREEN_LOCK] VappScreenLockApp::onRun, screenId: %d, trace: %d")
+TRC_MSG(TRC_VAPP_SCREEN_LOCK_APP_GET_SCREEN_ID, "[SCREEN_LOCK] VappScreenLockApp::getScreenId, screenId: %d, trace: %d")

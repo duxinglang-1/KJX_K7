@@ -1,0 +1,19 @@
+[APP NAME] = vapp calendar
+[SCOPE] = COSMOS
+[MODULE] = MOD_MMI_COMMON_APP
+
+#start trace
+#vapp_cal_utility.cpp
+TRC_MSG(VAPP_CAL_CREATE_FOLDER_RESULT, "[VAPP_CAL]VappCalUtility::createFolderIfNotExist, result = %d")
+TRC_MSG(VAPP_CAL_SYNC_RESULT, "[VAPP_CAL]VappCalSync, type = %d, action = %d, index = %d result = %d")
+
+#start trace
+#vapp_cal_edit.cpp
+TRC_MSG(VAPP_CAL_CHECK_REMINDER_RESULT, "[VAPP_CAL]VappCalEditPage::checkreminderValidation, vcal_type = %d, result = %d")
+
+#start trace
+#vapp_cal_reminder.cpp
+TRC_MSG(VAPP_CAL_REMINDER_PROC, "[VAPP_CAL]vapp_cal_reminder_notify_proc, remdr_evt->notify = %d, remdr_evt->pwr_off = %d, remdr_evt->reminder_type = %d, remdr_evt->usr_data = %d")
+TRC_MSG(VAPP_CAL_SHOW_REMINDER_POPUP, "[VAPP_CAL]VappCalReminderScreen::onInit()")
+TRC_MSG(VAPP_CAL_SHOW_REMINDER_CARD, "[VAPP_CAL]VappCalReminderCardScreen::on1stReady()")
+TRC_MSG(VAPP_CAL_SET_REMINDER_TIME, "[VAPP_CAL]vapp_cal_reminder_set_proc, op_type = %d, vcal_type = %d, alarm_type = %d, idx = %d")

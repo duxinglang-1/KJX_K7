@@ -1,0 +1,665 @@
+<VenusXML>
+#ifdef __MMI_MAINLCD_320X480__
+  <Layout id="VAPP_UCM_CALL_CELL_LAYOUT_NORMAL_LEVEL1_HVGA">
+    <VfxFrame name="m_callcell" size="(320, 456)" >
+      <VfxFrame name="m_frame" size="(320, 246)" opacity="1.0" bgColor="#99000000">
+        <VfxFrame name="m_infoBarBg" size="(320, 25)" />
+        <VfxTextFrame name="m_infoBar" anchor="(0.5, 0.5)" pos="(160, 12)" color="#FFFFFF"/>
+        <VfxTextFrame name="m_displayName" anchor="(0.5, 0)" pos="(160, 34)" color="#FFFFFF" size="(310, 24)" />
+        <VfxTextFrame name="m_number" anchor="(0.5, 0)" pos="(160, 61)" color="#FFFFFF" size="(310,20)"/>
+        <VfxFrame name="m_callStatusBg" pos="(0, 216)" size="(320, 37)" />
+        <VcpPhotoBorderFrame name="m_callerPic" anchor="(0.5, 0)" pos="(160, 83)" maxSize="(120, 120)" placement="VCP_PHOTO_BORDER_FRAME_PLACEMENT_FIT_EXACT_SIZE" />
+      #if (!defined(__LOW_COST_SUPPORT_COMMON__) && !defined(__MMI_UCM_SLIM__))
+        <VfxAnimImageFrame name="m_dialing_ani_left" pos="(26, 85)" resId="@IMG_ID_VAPP_UCM_DIALING_ANI_LEFT"/>
+        <VfxAnimImageFrame name="m_dialing_ani_right" pos="(228, 85)" resId="@IMG_ID_VAPP_UCM_DIALING_ANI_RIGHT"/>
+      #endif
+      #ifdef __MMI_VIDEO_TELEPHONY__
+        <VfxImageFrame name="m_vtIcon" anchor="(0.7, 0.7)" pos="(220, 203)" contentPlacement="VFX_FRAME_CONTENT_PLACEMENT_TYPE_RESIZE_ASPECT" size="(59, 59)" />
+      #endif /* __MMI_VIDEO_TELEPHONY__ */
+    </VfxFrame>
+  	<VfxTextFrame name="m_callStatus" anchor="(0.5, 0.5)" pos="(160, 234)" />
+    </VfxFrame>      
+  </Layout>
+
+  <Layout id="VAPP_UCM_CALL_CELL_LAYOUT_NORMAL_LEVEL2_HVGA">
+    <VfxFrame name="m_callcell" size="(320, 402)" >
+      <VfxFrame name="m_frame" size="(320, 220)" opacity="1.0" bgColor="#99000000">
+        <VfxFrame name="m_infoBarBg" size="(320, 25)" />
+        <VfxTextFrame name="m_infoBar" anchor="(0.5, 0.5)" pos="(160, 12)" color="#FFFFFF"/>
+        <VfxTextFrame name="m_displayName" anchor="(0.5, 0)" pos="(160, 34)" color="#FFFFFF" size="(310, 24)" />
+        <VfxTextFrame name="m_number" anchor="(0.5, 0)" pos="(160, 61)" color="#FFFFFF" size="(310,20)"/>
+        <VfxFrame name="m_callStatusBg" pos="(0, 189)" size="(320, 37)" />
+        <VcpPhotoBorderFrame name="m_callerPic" anchor="(0.5, 0)" pos="(160, 83)" maxSize="(95, 95)" placement="VCP_PHOTO_BORDER_FRAME_PLACEMENT_FIT_EXACT_SIZE" />
+      #if (!defined(__LOW_COST_SUPPORT_COMMON__) && !defined(__MMI_UCM_SLIM__))
+        <VfxAnimImageFrame name="m_dialing_ani_left" pos="(26, 65)" resId="@IMG_ID_VAPP_UCM_DIALING_ANI_LEFT"/>
+        <VfxAnimImageFrame name="m_dialing_ani_right" pos="(228, 65)" resId="@IMG_ID_VAPP_UCM_DIALING_ANI_RIGHT"/>
+      #endif
+      #ifdef __MMI_VIDEO_TELEPHONY__
+        <VfxImageFrame name="m_vtIcon" anchor="(0.7, 0.7)" pos="(207, 178)" contentPlacement="VFX_FRAME_CONTENT_PLACEMENT_TYPE_RESIZE_ASPECT" size="(46, 46)" />
+      #endif /* __MMI_VIDEO_TELEPHONY__ */
+  	</VfxFrame>
+  	<VfxTextFrame name="m_callStatus" anchor="(0.5, 0.5)" pos="(160, 205)" />
+    </VfxFrame>
+  </Layout>
+
+  <Layout id="VAPP_UCM_CALL_CELL_LAYOUT_NORMAL_LEVEL3_HVGA">
+    <VfxFrame name="m_callcell" size="(320, 348)">
+      <VfxFrame name="m_frame" size="(320, 144)" opacity="1.0" bgColor="#99000000">
+        <VfxFrame name="m_infoBarBg" size="(320, 25)" />
+        <VfxTextFrame name="m_infoBar" anchor="(0.5, 0.5)" pos="(160, 12)" color="#FFFFFF"/>
+        <VfxTextFrame name="m_displayName" pos="(90, 50)" color="#FFFFFF" size="(220, 24)"/>
+        <VfxTextFrame name="m_number" pos="(90, 80)" color="#FFFFFF" size="(220, 20)"/>
+        <VfxFrame name="m_callStatusBg" pos="(0, 115)" size="(320, 37)" />
+        <VcpPhotoBorderFrame name="m_callerPic"  pos="(10, 35)" maxSize="(70, 70)" placement="VCP_PHOTO_BORDER_FRAME_PLACEMENT_FIT_EXACT_SIZE" />
+      #if (!defined(__LOW_COST_SUPPORT_COMMON__) && !defined(__MMI_UCM_SLIM__))
+        <VfxAnimImageFrame name="m_dialing_ani_left" pos="(26, 46)" />
+        <VfxAnimImageFrame name="m_dialing_ani_right" pos="(228, 46)" />
+      #endif
+      #ifdef __MMI_VIDEO_TELEPHONY__
+        <VfxImageFrame name="m_vtIcon" anchor="(0.7, 0.7)" pos="(80, 105)" contentPlacement="VFX_FRAME_CONTENT_PLACEMENT_TYPE_RESIZE_ASPECT" size="(34, 34)" />
+      #endif /* __MMI_VIDEO_TELEPHONY__ */
+  	</VfxFrame>
+  	<VfxTextFrame name="m_callStatus" anchor="(0.5, 0.5)" pos="(160, 131)"/>
+    </VfxFrame>
+  </Layout>
+
+  <Layout id="VAPP_UCM_CALL_CELL_LAYOUT_REDUCED_HVGA">
+    <VfxFrame name="m_callcell" size="(320, 54)">
+      <VfxFrame name="m_frame" size="(320, 54)" opacity="1.0" bgColor="#99000000">
+        <VfxTextFrame name="m_displayName" pos="(61, 8)" color="#FFFFFF" size="(250, 24)" />
+        <VcpPhotoBorderFrame name="m_callerPic" anchor="(0, 0.5)" pos="(8, 27)" maxSize="(44, 44)" placement="VCP_PHOTO_BORDER_FRAME_PLACEMENT_FIT_EXACT_SIZE" />
+      </VfxFrame>
+      <VfxTextFrame name="m_callStatus" pos="(61, 32)" size="(250, 20)" />
+    </VfxFrame>
+  </Layout>
+
+  <Layout id="VAPP_UCM_CALL_CELL_LAYOUT_NORMAL_LEVEL1_CONF_HVGA">
+    <VfxFrame name="m_callcell" size="(320, 456)" >
+      <VfxFrame name="m_frame" size="(320, 246)" opacity="1.0" bgColor="#99000000">
+        <VfxFrame name="m_infoBarBg" size="(320, 25)" />
+        <VfxTextFrame name="m_infoBar" anchor="(0.5, 0.5)" pos="(160, 12)" color="#FFFFFF"/>
+        <VfxFrame name="m_callStatusBg" pos="(0, 216)" size="(320, 37)" />
+      </VfxFrame>
+      <VfxTextFrame name="m_callStatus" anchor="(0.5, 0.5)" pos="(160, 233)" />
+    </VfxFrame>
+  </Layout>
+
+  <Layout id="VAPP_UCM_CALL_CELL_LAYOUT_NORMAL_LEVEL2_CONF_HVGA">
+    <VfxFrame name="m_callcell" size="(320, 402)">
+      <VfxFrame name="m_frame" size="(320, 220)" opacity="1.0" bgColor="#99000000">
+        <VfxFrame name="m_infoBarBg" size="(320, 25)" />
+        <VfxTextFrame name="m_infoBar" anchor="(0.5, 0.5)" pos="(160, 12)" color="#FFFFFF"/>
+        <VfxTextFrame name="m_displayName" anchor="(0.5, 0)" pos="(160, 34)" color="#FFFFFF" size="(310, 24)" />
+        <VcpPhotoBorderFrame name="m_callerPic" anchor="(0.5, 0)" pos="(160, 83)" maxSize="(95, 95)" placement="VCP_PHOTO_BORDER_FRAME_PLACEMENT_FIT_EXACT_SIZE" />
+        <VfxFrame name="m_callStatusBg" pos="(0, 189)" size="(320, 37)" />
+      </VfxFrame>
+      <VfxTextFrame name="m_callStatus" anchor="(0.5, 0.5)" pos="(160, 205)" />
+    </VfxFrame>
+  </Layout>
+
+  <Layout id="VAPP_UCM_CALL_CELL_LAYOUT_NORMAL_LEVEL3_CONF_HVGA">
+    <VfxFrame name="m_callcell" size="(320, 348)">
+      <VfxFrame name="m_frame" size="(320, 144)" opacity="1.0" bgColor="#99000000">
+        <VfxFrame name="m_infoBarBg" size="(320, 25)" />
+        <VfxTextFrame name="m_infoBar" anchor="(0.5, 0.5)" pos="(160, 12)" color="#FFFFFF"/>
+        <VcpPhotoBorderFrame name="m_callerPic"  pos="(10, 35)" maxSize="(70, 70)" placement="VCP_PHOTO_BORDER_FRAME_PLACEMENT_FIT_EXACT_SIZE" />
+        <VfxTextFrame name="m_displayName" pos="(90, 50)" color="#FFFFFF" size="(220, 24)"/>
+        <VfxFrame name="m_callStatusBg" pos="(0, 115)" size="(320, 37)" />
+      </VfxFrame>
+      <VfxTextFrame name="m_callStatus" anchor="(0.5, 0.5)" pos="(160, 131)"/>
+    </VfxFrame>
+  </Layout>
+
+  <Layout id="VAPP_UCM_CALL_CELL_LAYOUT_REDUCED_CONF_HVGA">
+    <VfxFrame name="m_callcell" size="(320, 54)">
+      <VfxFrame name="m_frame" size="(320, 54)" opacity="1.0" bgColor="#99000000">
+        <VfxTextFrame name="m_displayName" pos="(61, 8)" color="#FFFFFF" size="(250, 24)" />
+        <VcpPhotoBorderFrame name="m_callerPic" anchor="(0, 0.5)" pos="(8, 27)" maxSize="(44, 44)" placement="VCP_PHOTO_BORDER_FRAME_PLACEMENT_FIT_EXACT_SIZE" />
+      </VfxFrame>
+      <VfxTextFrame name="m_callStatus" pos="(61, 32)" size="(250, 20)" />
+    </VfxFrame>
+  </Layout>
+    
+  <Layout id="VAPP_UCM_KEYPAD_HVGA">
+    <VfxFrame name="m_dialPad" size="(320, 244)" anchor="(0.5, 0)" pos="(160, 92)" >
+      <VfxFrame name="top_area" size="(320, 100)" anchor="(0.5, 0)" pos="(160, 0)" />
+      <VfxFrame name="m_display_area" size="(261, 39)" pos="(9, 5)"/>
+      <VcpTextView name="m_editor_text" size="(246, 37)" pos="(17, 6)" mode="VCP_TEXT_LINE_MODE_SINGLE"/>
+      <VcpButton name="delete_key" size="(40, 40)" pos="(272, 5)" />
+      <VfxFrame name="key_frame" size="(320, 194)" anchor="(0.5, 0)" pos="(160, 49)"/>
+      <VcpButton name="dial_key" size="(99,44)" />
+    </VfxFrame>
+  </Layout>
+
+#ifdef __MMI_VIDEO_TELEPHONY__
+  <Layout id="VAPP_UCM_CALL_CELL_LAYOUT_VT_INCALL_LEVEL1_HVGA">
+    <VfxFrame name="m_callcell" size="(320, 456)" >
+      <VfxFrame name="m_frame" size="(320, 275)" opacity="1.0" bgColor="#99000000">
+        <VfxFrame name="m_infoBarBg" size="(320, 25)" />
+        <VfxTextFrame name="m_infoBar" anchor="(0.5, 0.5)" pos="(160, 12)" color="#FFFFFF"/>
+        <VfxTextFrame name="m_displayName" anchor="(0.5, 0)" pos="(160, 29)" color="#FFFFFF" size="(310, 20)" />
+        <VfxTextFrame name="m_number" anchor="(0.5, 0)" pos="(160, 61)" color="#FFFFFF" size="(320, 20)"/>
+        <VfxFrame name="m_vFrameMain" anchor="(0.5, 0)" pos="(135, 52)" size="(256, 192)" bgColor="#000000" />
+        <VfxFrame name="m_vFrameSub" anchor="(0.5, 0)" pos="(250, 148)" size="(128, 96)" bgColor="#000000" />
+        <VfxFrame name="m_callStatusBg" pos="(0, 248)" size="(320, 35)" />
+      </VfxFrame>
+      <VfxTextFrame name="m_callStatus" anchor="(0.5, 0.5)" pos="(160, 262)" />
+    </VfxFrame>
+  </Layout>
+
+  <Layout id="VAPP_UCM_CALL_CELL_LAYOUT_VT_INCALL_LEVEL2_HVGA">
+    <VfxFrame name="m_callcell" size="(320, 402)">
+      <VfxFrame name="m_frame" size="(320, 220)" opacity="1.0" bgColor="#99000000">
+        <VfxFrame name="m_infoBarBg" size="(320, 25)" />
+        <VfxTextFrame name="m_infoBar" anchor="(0.5, 0.5)" pos="(160, 12)" color="#FFFFFF"/>
+        <VfxTextFrame name="m_displayName" anchor="(0.5, 0)" pos="(160, 28)" color="#FFFFFF" size="(320, 18)"/>
+        <VfxTextFrame name="m_number" anchor="(0.5, 0)" pos="(160, 58)" color="#FFFFFF" size="(320, 20)"/>
+        <VfxFrame name="m_vFrameMain" anchor="(0.5, 0)" pos="(103, 50)" size="(192, 144)" bgColor="#000000" />
+        <VfxFrame name="m_vFrameSub" anchor="(0.5, 0)" pos="(250, 98)" size="(128, 96)" bgColor="#000000" />
+        <VfxFrame name="m_callStatusBg" pos="(0, 198)" size="(320, 30)" />
+      </VfxFrame>
+      <VfxTextFrame name="m_callStatus" anchor="(0.5, 0.5)" pos="(160, 210)"/>
+    </VfxFrame>
+  </Layout>
+#endif /* __MMI_VIDEO_TELEPHONY__ */
+#endif /* __MMI_MAINLCD_320X480__ */
+#ifdef __MMI_MAINLCD_480X800__
+<!-- WVGA -->
+  <Layout id="VAPP_UCM_CALL_CELL_LAYOUT_NORMAL_LEVEL1_WVGA">
+    <VfxFrame name="m_callcell" size="(480, 762)" >
+      <VfxFrame name="m_frame" size="(480, 361)" opacity="1.0" bgColor="#99000000">
+        <VfxFrame name="m_infoBarBg" size="(480, 47)" />
+        <VfxTextFrame name="m_infoBar" anchor="(0.5, 0.5)" pos="(240,24)" color="#FFFFFF"/>
+        <VfxTextFrame name="m_displayName" anchor="(0.5, 0)" pos="(240, 67)" color="#FFFFFF" size="(480,38)"/>
+        <VfxTextFrame name="m_number" anchor="(0.5, 0)" pos="(240, 109)" color="#FFFFFF" size="(480,35)"/>
+        <VfxFrame name="m_callStatusBg" pos="(0, 315)" size="(480, 55)" />
+        <VcpPhotoBorderFrame name="m_callerPic" anchor="(0.5, 0)" pos="(240, 139)" maxSize="(156, 156)" placement="VCP_PHOTO_BORDER_FRAME_PLACEMENT_FIT_EXACT_SIZE"/>
+      #if (!defined(__LOW_COST_SUPPORT_COMMON__) && !defined(__MMI_UCM_SLIM__))
+        <VfxAnimImageFrame name="m_dialing_ani_left" pos="(63, 142)" resId="@IMG_ID_VAPP_UCM_DIALING_ANI_LEFT"/>
+        <VfxAnimImageFrame name="m_dialing_ani_right" pos="(326, 142)" resId="@IMG_ID_VAPP_UCM_DIALING_ANI_RIGHT"/>
+      #endif
+      #ifdef __MMI_VIDEO_TELEPHONY__
+        <VfxImageFrame name="m_vtIcon" pos="(259, 231)" contentPlacement="VFX_FRAME_CONTENT_PLACEMENT_TYPE_RESIZE_ASPECT" size="(89, 89)" />
+      #endif /* __MMI_VIDEO_TELEPHONY__ */
+      </VfxFrame>
+  	  <VfxTextFrame name="m_callStatus" anchor="(0.5, 0.5)" pos="(240, 339)" />
+    </VfxFrame>
+  </Layout>
+
+  <Layout id="VAPP_UCM_CALL_CELL_LAYOUT_NORMAL_LEVEL2_WVGA">
+    <VfxFrame name="m_callcell" size="(480, 682)" >
+      <VfxFrame name="m_frame" size="(480, 361)" opacity="1.0" bgColor="#99000000">
+        <VfxFrame name="m_infoBarBg" size="(480, 47)" />
+        <VfxTextFrame name="m_infoBar" anchor="(0.5, 0.5)" pos="(240,24)" color="#FFFFFF"/>
+        <VfxTextFrame name="m_displayName" anchor="(0.5, 0)" pos="(240, 67)" color="#FFFFFF" size="(480,38)"/>
+        <VfxTextFrame name="m_number" anchor="(0.5, 0)" pos="(240, 109)" color="#FFFFFF" size="(480,35)"/>
+        <VfxFrame name="m_callStatusBg" pos="(0, 315)" size="(480, 55)" />
+        <VcpPhotoBorderFrame name="m_callerPic" anchor="(0.5, 0)" pos="(240, 139)" maxSize="(156, 156)" placement="VCP_PHOTO_BORDER_FRAME_PLACEMENT_FIT_EXACT_SIZE"/>
+      #if (!defined(__LOW_COST_SUPPORT_COMMON__) && !defined(__MMI_UCM_SLIM__))
+        <VfxAnimImageFrame name="m_dialing_ani_left" pos="(63, 142)" resId="@IMG_ID_VAPP_UCM_DIALING_ANI_LEFT"/>
+        <VfxAnimImageFrame name="m_dialing_ani_right" pos="(326, 142)" resId="@IMG_ID_VAPP_UCM_DIALING_ANI_RIGHT"/>
+      #endif
+      #ifdef __MMI_VIDEO_TELEPHONY__
+        <VfxImageFrame name="m_vtIcon" pos="(259, 231)" contentPlacement="VFX_FRAME_CONTENT_PLACEMENT_TYPE_RESIZE_ASPECT" size="(89, 89)" />
+    #endif /* __MMI_VIDEO_TELEPHONY__ */
+      </VfxFrame>
+      <VfxTextFrame name="m_callStatus" anchor="(0.5, 0.5)" pos="(240, 339)" />
+    </VfxFrame>
+  </Layout>
+
+  <Layout id="VAPP_UCM_CALL_CELL_LAYOUT_NORMAL_LEVEL3_WVGA">
+    <VfxFrame name="m_callcell" size="(480, 602)">
+      <VfxFrame name="m_frame" size="(480, 248)" opacity="1.0" bgColor="#99000000">
+        <VfxFrame name="m_infoBarBg" size="(480, 47)" />
+        <VfxTextFrame name="m_infoBar" anchor="(0.5, 0.5)" pos="(240,24)" color="#FFFFFF"/>
+        <VfxTextFrame name="m_displayName" anchor="(0, 0)" pos="(153, 93)" color="#FFFFFF" size="(320,38)"/>
+        <VfxTextFrame name="m_number" anchor="(0, 0)" pos="(153, 140)" color="#FFFFFF" size="(320,35)"/>
+        <VfxFrame name="m_callStatusBg" pos="(0, 200)" size="(480, 55)" />
+        <VcpPhotoBorderFrame name="m_callerPic"  pos="(14, 61)" maxSize="(125, 125)" placement="VCP_PHOTO_BORDER_FRAME_PLACEMENT_FIT_EXACT_SIZE" />
+      #if (!defined(__LOW_COST_SUPPORT_COMMON__) && !defined(__MMI_UCM_SLIM__))
+        <VfxAnimImageFrame name="m_dialing_ani_left" pos="(26, 83)" />
+        <VfxAnimImageFrame name="m_dialing_ani_right" pos="(228, 83)" />
+      #endif
+      #ifdef __MMI_VIDEO_TELEPHONY__
+        <VfxImageFrame name="m_vtIcon" anchor="(0.7, 0.7)" pos="(139, 186)" contentPlacement="VFX_FRAME_CONTENT_PLACEMENT_TYPE_RESIZE_ASPECT" size="(70, 70)" />
+      #endif /* __MMI_VIDEO_TELEPHONY__ */
+      </VfxFrame>
+      <VfxTextFrame name="m_callStatus" anchor="(0.5, 0.5)" pos="(240, 225)"/>
+    </VfxFrame>
+  </Layout>
+
+  <Layout id="VAPP_UCM_CALL_CELL_LAYOUT_REDUCED_WVGA">
+    <VfxFrame name="m_callcell" size="(480, 80)">
+      <VfxFrame name="m_frame" size="(480, 80)" opacity="1.0" bgColor="#99000000">
+        <VfxTextFrame name="m_displayName" pos="(92, 9)" color="#FFFFFF" size="(384,38)"/>
+        <VcpPhotoBorderFrame name="m_callerPic" anchor="(0, 0.5)" pos="(12, 40)" maxSize="(66, 66)" placement="VCP_PHOTO_BORDER_FRAME_PLACEMENT_FIT_EXACT_SIZE" />
+      </VfxFrame>
+      <VfxTextFrame name="m_callStatus" pos="(92, 48)" color="#FFFFFF" />
+    </VfxFrame>
+  </Layout>
+
+  <Layout id="VAPP_UCM_CALL_CELL_LAYOUT_NORMAL_LEVEL1_CONF_WVGA">
+    <VfxFrame name="m_callcell" size="(480, 762)" >
+      <VfxFrame name="m_frame" size="(480, 361)" opacity="1.0" bgColor="#99000000">
+        <VfxFrame name="m_infoBarBg" size="(480, 47)" />
+        <VfxTextFrame name="m_infoBar" anchor="(0.5, 0.5)" pos="(240,24)" color="#FFFFFF"/>
+        <VfxFrame name="m_callStatusBg" pos="(0, 315)" size="(480, 55)" />
+      </VfxFrame>
+      <VfxTextFrame name="m_callStatus" anchor="(0.5, 0.5)" pos="(240, 343)" />
+    </VfxFrame>
+  </Layout>
+
+  <Layout id="VAPP_UCM_CALL_CELL_LAYOUT_NORMAL_LEVEL2_CONF_WVGA">
+    <VfxFrame name="m_callcell" size="(480, 682)">
+      <VfxFrame name="m_frame" size="(480, 361)" opacity="1.0" bgColor="#99000000">
+        <VfxFrame name="m_infoBarBg" size="(480, 47)" />
+        <VfxTextFrame name="m_infoBar" anchor="(0.5, 0.5)" pos="(240,24)" color="#FFFFFF"/>
+        <VfxTextFrame name="m_displayName" anchor="(0.5, 0)" pos="(240, 67)" color="#FFFFFF" size="(480,38)"/>
+        <VcpPhotoBorderFrame name="m_callerPic" anchor="(0.5, 0)" pos="(240, 139)" maxSize="(156, 156)" placement="VCP_PHOTO_BORDER_FRAME_PLACEMENT_FIT_EXACT_SIZE" />
+        <VfxFrame name="m_callStatusBg" pos="(0, 315)" size="(480, 55)" />
+      </VfxFrame>
+      <VfxTextFrame name="m_callStatus" anchor="(0.5, 0.5)" pos="(240, 339)" />
+    </VfxFrame>
+  </Layout>
+
+  <Layout id="VAPP_UCM_CALL_CELL_LAYOUT_NORMAL_LEVEL3_CONF_WVGA">
+    <VfxFrame name="m_callcell" size="(480, 602)">
+      <VfxFrame name="m_frame" size="(480, 248)" opacity="1.0" bgColor="#99000000">
+        <VfxFrame name="m_infoBarBg" size="(480, 47)" />
+        <VfxTextFrame name="m_infoBar" anchor="(0.5, 0.5)" pos="(240,24)" color="#FFFFFF"/>
+        <VcpPhotoBorderFrame name="m_callerPic"  pos="(14, 61)" maxSize="(125, 125)" placement="VCP_PHOTO_BORDER_FRAME_PLACEMENT_FIT_EXACT_SIZE" />
+        <VfxTextFrame name="m_displayName" anchor="(0, 0)" pos="(153, 93)" color="#FFFFFF" size="(320,38)"/>
+        <VfxFrame name="m_callStatusBg" pos="(0, 200)" size="(480, 55)" />
+      </VfxFrame>
+      <VfxTextFrame name="m_callStatus" anchor="(0.5, 0.5)" pos="(240, 225)"/>
+    </VfxFrame>
+  </Layout>
+
+  <Layout id="VAPP_UCM_CALL_CELL_LAYOUT_REDUCED_CONF_WVGA">
+    <VfxFrame name="m_callcell" size="(480, 80)">
+      <VfxFrame name="m_frame" size="(480, 80)" opacity="1.0" bgColor="#99000000">
+      	<VfxTextFrame name="m_displayName" pos="(92, 9)" color="#FFFFFF" size="(384,38)"/>
+      	<VcpPhotoBorderFrame name="m_callerPic" anchor="(0, 0.5)" pos="(12, 40)" maxSize="(66, 66)" placement="VCP_PHOTO_BORDER_FRAME_PLACEMENT_FIT_EXACT_SIZE" />
+   	  </VfxFrame>
+      <VfxTextFrame name="m_callStatus" pos="(92, 48)" color="#FFFFFF" />
+    </VfxFrame>
+  </Layout>
+    
+  <Layout id="VAPP_UCM_KEYPAD_WVGA">
+    <VfxFrame name="m_dialPad" size="(480, 380)" anchor="(0.5, 0)" pos="(240, 196)" >
+      <VfxFrame name="top_area" size="(480, 110)" anchor="(0.5,0)" pos="(240, 0)" />
+        <VfxFrame name="m_display_area" size="(378, 66)" pos="(15, 8)"/>
+        <VcpTextView name="m_editor_text" size="(370, 62)" pos="(19, 10)" mode="VCP_TEXT_LINE_MODE_SINGLE"/>
+        <VcpButton name="delete_key" size="(70, 70)" pos="(398, 8)" />
+        <VfxFrame name="key_frame" size="(480, 310)" anchor="(0.5, 0)" pos="(240,72)"/>
+        <VcpButton name="dial_key" size="(149, 68)" />
+    </VfxFrame>
+  </Layout>
+
+#ifdef __MMI_VIDEO_TELEPHONY__
+  <Layout id="VAPP_UCM_CALL_CELL_LAYOUT_VT_INCALL_LEVEL1_WVGA">
+    <VfxFrame name="m_callcell" size="(480, 762)" >
+      <VfxFrame name="m_frame" size="(480, 487)" opacity="1.0" bgColor="#99000000">
+        <VfxFrame name="m_infoBarBg" size="(480, 47)" />
+        <VfxTextFrame name="m_infoBar" anchor="(0.5, 0.5)" pos="(240,24)" color="#FFFFFF"/>
+        <VfxTextFrame name="m_displayName" anchor="(0.5, 0)" pos="(240, 54)" color="#FFFFFF" size="(480, 34)" />
+        <VfxTextFrame name="m_number" anchor="(0.5, 0)" pos="(240, 100)" color="#FFFFFF" size="(480,35)"/>
+        <VfxFrame name="m_vFrameMain" anchor="(0.5, 0)" pos="(240, 92)" size="(448, 336)" bgColor="#000000" />
+        <VfxFrame name="m_vFrameSub" anchor="(0.5, 0)" pos="(388, 321)" size="(128, 96)" bgColor="#000000" />
+        <VfxFrame name="m_callStatusBg" pos="(0, 440)" size="(480, 55)" />
+      </VfxFrame>
+      <VfxTextFrame name="m_callStatus" anchor="(0.5, 0.5)" pos="(240, 465)" />
+    </VfxFrame>
+  </Layout>
+
+  <Layout id="VAPP_UCM_CALL_CELL_LAYOUT_VT_INCALL_LEVEL2_WVGA">
+    <VfxFrame name="m_callcell" size="(480, 678)">
+      <VfxFrame name="m_frame" size="(480, 390)" opacity="1.0" bgColor="#99000000">
+        <VfxFrame name="m_infoBarBg" size="(480, 45)" />
+        <VfxTextFrame name="m_infoBar" anchor="(0.5, 0.5)" pos="(240,22)" color="#FFFFFF"/>
+        <VfxTextFrame name="m_displayName" anchor="(0.5, 0)" pos="(240, 60)" color="#FFFFFF" size="(480,38)"/>
+        <VfxTextFrame name="m_number" anchor="(0.5, 0)" pos="(240, 100)" color="#FFFFFF" size="(480,35)"/>
+        <VfxFrame name="m_vFrameMain" anchor="(0.5, 0)" pos="(240, 100)" size="(320, 240)" bgColor="#000000" />
+        <VfxFrame name="m_vFrameSub" anchor="(0.5, 0)" pos="(400, 244)" size="(128, 96)" bgColor="#000000" />
+        <VfxFrame name="m_callStatusBg" pos="(0, 350)" size="(480, 46)" opacity="0.9" />
+      </VfxFrame>
+      <VfxTextFrame name="m_callStatus" anchor="(0.5, 0.5)" pos="(240, 373)"/>
+    </VfxFrame>
+  </Layout>
+#endif /* __MMI_VIDEO_TELEPHONY__ */   
+#endif /* __MMI_MAINLCD_480X800__ */
+#ifdef __MMI_MAINLCD_240X320__
+<!-- QVGA -->
+  <Layout id="VAPP_UCM_CALL_CELL_LAYOUT_NORMAL_LEVEL1_QVGA">
+    <VfxFrame name="m_callcell" size="(240, 296)" >
+      <VfxFrame name="m_frame" size="(240, 156)" opacity="1.0" bgColor="#99000000">
+        <VfxFrame name="m_infoBarBg" size="(240, 20)" />
+        <VfxTextFrame name="m_infoBar" anchor="(0.5, 0.5)" pos="(120,10)" color="#FFFFFF"/>
+        <VfxTextFrame name="m_displayName" anchor="(0.5, 0)" pos="(120, 24)" color="#FFFFFF" size="(240,19)"/>
+        <VfxTextFrame name="m_number" anchor="(0.5, 0)" pos="(120, 42)" color="#FFFFFF" size="(240,16)"/>
+        <VfxFrame name="m_callStatusBg" pos="(0, 136)" size="(240, 27)" />
+        <VcpPhotoBorderFrame name="m_callerPic" anchor="(0.5, 0)" pos="(120, 59)" maxSize="(67, 67)" placement="VCP_PHOTO_BORDER_FRAME_PLACEMENT_FIT_EXACT_SIZE" />
+      #if (!defined(__LOW_COST_SUPPORT_COMMON__) && !defined(__MMI_UCM_SLIM__))
+        <VfxAnimImageFrame name="m_dialing_ani_left" pos="(46, 61)" resId="@IMG_ID_VAPP_UCM_DIALING_ANI_LEFT"/>
+        <VfxAnimImageFrame name="m_dialing_ani_right" pos="(157, 61)" resId="@IMG_ID_VAPP_UCM_DIALING_ANI_RIGHT"/>
+      #endif
+      #ifdef __MMI_VIDEO_TELEPHONY__
+        <VfxImageFrame name="m_vtIcon" anchor="(0.7, 0.7)" pos="(155, 126)" contentPlacement="VFX_FRAME_CONTENT_PLACEMENT_TYPE_RESIZE_ASPECT" size="(33, 33)" />
+      #endif /* __MMI_VIDEO_TELEPHONY__ */
+      </VfxFrame>
+  	  <VfxTextFrame name="m_callStatus" anchor="(0.5, 0.5)" pos="(120, 146)" />
+    </VfxFrame>
+  </Layout>
+
+  <Layout id="VAPP_UCM_CALL_CELL_LAYOUT_NORMAL_LEVEL2_QVGA">
+    <VfxFrame name="m_callcell" size="(240, 269)">
+      <VfxFrame name="m_frame" size="(240, 106)" opacity="1.0" bgColor="#99000000">
+        <VfxFrame name="m_infoBarBg" size="(240, 20)" />
+        <VfxTextFrame name="m_infoBar" anchor="(0.5, 0.5)" pos="(120, 10)" color="#FFFFFF"/>
+        <VfxTextFrame name="m_displayName" pos="(68, 35)" color="#FFFFFF" size="(160, 19)"  />
+        <VfxTextFrame name="m_number" pos="(68, 58)" color="#FFFFFF" size="(160, 16)"/>
+        <VfxFrame name="m_callStatusBg" pos="(0, 86)" size="(240, 27)" />
+        <VcpPhotoBorderFrame name="m_callerPic"  pos="(6, 26)" maxSize="(52, 52)" placement="VCP_PHOTO_BORDER_FRAME_PLACEMENT_FIT_EXACT_SIZE" />
+      #if (!defined(__LOW_COST_SUPPORT_COMMON__) && !defined(__MMI_UCM_SLIM__))
+        <VfxAnimImageFrame name="m_dialing_ani_left" pos="(26, 46)" />
+        <VfxAnimImageFrame name="m_dialing_ani_right" pos="(228, 46)" />
+      #endif
+      #ifdef __MMI_VIDEO_TELEPHONY__
+        <VfxImageFrame name="m_vtIcon" anchor="(0.7, 0.7)" pos="(58, 78)" contentPlacement="VFX_FRAME_CONTENT_PLACEMENT_TYPE_RESIZE_ASPECT" size="(25, 25)" />
+      #endif /* __MMI_VIDEO_TELEPHONY__ */
+      </VfxFrame>
+  	  <VfxTextFrame name="m_callStatus" anchor="(0.5, 0.5)" pos="(120, 96)"/>
+    </VfxFrame>
+  </Layout>
+
+  <Layout id="VAPP_UCM_CALL_CELL_LAYOUT_NORMAL_LEVEL3_QVGA">
+    <VfxFrame name="m_callcell" size="(240, 242)">
+      <VfxFrame name="m_frame" size="(240, 100)" opacity="1.0" bgColor="#99000000">
+        <VfxFrame name="m_infoBarBg" size="(240, 20)" />
+        <VfxTextFrame name="m_infoBar" anchor="(0.5, 0.5)" pos="(120, 10)" color="#FFFFFF"/>
+        <VfxTextFrame name="m_displayName" pos="(68, 35)" color="#FFFFFF" size="(160, 19)"  />
+        <VfxTextFrame name="m_number" pos="(68, 58)" color="#FFFFFF" size="(160, 16)"/>
+        <VfxFrame name="m_callStatusBg" pos="(0, 82)" size="(240, 27)" />
+        <VcpPhotoBorderFrame name="m_callerPic"  pos="(6, 26)" maxSize="(50, 50)" placement="VCP_PHOTO_BORDER_FRAME_PLACEMENT_FIT_EXACT_SIZE" />
+      #if (!defined(__LOW_COST_SUPPORT_COMMON__) && !defined(__MMI_UCM_SLIM__))
+        <VfxAnimImageFrame name="m_dialing_ani_left" pos="(26, 46)" />
+        <VfxAnimImageFrame name="m_dialing_ani_right" pos="(228, 46)" />
+      #endif
+      #ifdef __MMI_VIDEO_TELEPHONY__
+        <VfxImageFrame name="m_vtIcon" anchor="(0.7, 0.7)" pos="(56, 76)" contentPlacement="VFX_FRAME_CONTENT_PLACEMENT_TYPE_RESIZE_ASPECT" size="(23, 23)" />
+      #endif /* __MMI_VIDEO_TELEPHONY__ */
+      </VfxFrame>
+  	  <VfxTextFrame name="m_callStatus" anchor="(0.5, 0.5)" pos="(120, 92)"/>
+    </VfxFrame>
+  </Layout>
+
+  <Layout id="VAPP_UCM_CALL_CELL_LAYOUT_REDUCED_QVGA">
+    <VfxFrame name="m_callcell" size="(240, 27)">
+      <VfxFrame name="m_frame" size="(240, 27)" opacity="1.0" bgColor="#99000000">
+      	<VfxTextFrame name="m_displayName" pos="(10, 6)" color="#FFFFFF" size="(156,18)"/>
+      	<VcpPhotoBorderFrame name="m_callerPic"  pos="(50, 50)" maxSize="(0, 0)" placement="VCP_PHOTO_BORDER_FRAME_PLACEMENT_FIT_EXACT_SIZE" />
+      </VfxFrame>
+      <VfxTextFrame name="m_callStatus" anchor="(1.0, 0)" pos="(238, 8)" />
+    </VfxFrame>
+  </Layout>
+
+  <Layout id="VAPP_UCM_CALL_CELL_LAYOUT_NORMAL_LEVEL1_CONF_QVGA">
+    <VfxFrame name="m_callcell" size="(240, 296)" >
+      <VfxFrame name="m_frame" size="(240, 156)" opacity="1.0" bgColor="#99000000">
+        <VfxFrame name="m_infoBarBg" size="(240, 20)" />
+        <VfxTextFrame name="m_infoBar" anchor="(0.5, 0.5)" pos="(120,10)" color="#FFFFFF"/>
+        <VfxTextFrame name="m_displayName" anchor="(0.5, 0)" pos="(120, 24)" color="#FFFFFF" size="(240,19)"/>
+        <VcpPhotoBorderFrame name="m_callerPic" anchor="(0.5, 0)" pos="(120, 59)" maxSize="(67, 67)" placement="VCP_PHOTO_BORDER_FRAME_PLACEMENT_FIT_EXACT_SIZE" />
+        <VfxFrame name="m_callStatusBg" pos="(0, 136)" size="(240, 27)" />
+      </VfxFrame>
+      <VfxTextFrame name="m_callStatus" anchor="(0.5, 0.5)" pos="(120, 146)" />
+    </VfxFrame>
+  </Layout>
+
+  <Layout id="VAPP_UCM_CALL_CELL_LAYOUT_NORMAL_LEVEL2_CONF_QVGA">
+    <VfxFrame name="m_callcell" size="(240, 269)">
+      <VfxFrame name="m_frame" size="(240, 106)" opacity="1.0" bgColor="#99000000">
+        <VfxFrame name="m_infoBarBg" size="(240, 20)" />
+        <VfxTextFrame name="m_infoBar" anchor="(0.5, 0.5)" pos="(120, 10)" color="#FFFFFF"/>
+        <VfxTextFrame name="m_displayName" pos="(68, 35)" color="#FFFFFF" size="(160, 19)"  />
+        <VcpPhotoBorderFrame name="m_callerPic"  pos="(6, 26)" maxSize="(52, 52)" placement="VCP_PHOTO_BORDER_FRAME_PLACEMENT_FIT_EXACT_SIZE" />
+        <VfxFrame name="m_callStatusBg" pos="(0, 86)" size="(240, 27)" />
+      </VfxFrame>
+      <VfxTextFrame name="m_callStatus" anchor="(0.5, 0.5)" pos="(120, 96)"/>
+    </VfxFrame>
+  </Layout>
+
+  <Layout id="VAPP_UCM_CALL_CELL_LAYOUT_NORMAL_LEVEL3_CONF_QVGA">
+    <VfxFrame name="m_callcell" size="(240, 242)">
+      <VfxFrame name="m_frame" size="(240, 100)" opacity="1.0" bgColor="#99000000">
+        <VfxFrame name="m_infoBarBg" size="(240, 20)" />
+        <VfxTextFrame name="m_infoBar" anchor="(0.5, 0.5)" pos="(120, 10)" color="#FFFFFF"/>
+        <VcpPhotoBorderFrame name="m_callerPic"  pos="(6, 26)" maxSize="(50, 50)" placement="VCP_PHOTO_BORDER_FRAME_PLACEMENT_FIT_EXACT_SIZE" />
+        <VfxTextFrame name="m_displayName" pos="(68, 35)" color="#FFFFFF" size="(160, 19)"  />
+        <VfxFrame name="m_callStatusBg" pos="(0, 82)" size="(240, 27)" />
+      </VfxFrame>
+      <VfxTextFrame name="m_callStatus" anchor="(0.5, 0.5)" pos="(120, 92)"/>
+    </VfxFrame>
+  </Layout>
+
+  <Layout id="VAPP_UCM_CALL_CELL_LAYOUT_REDUCED_CONF_QVGA">
+    <VfxFrame name="m_callcell" size="(240, 27)">
+      <VfxFrame name="m_frame" size="(240, 27)" opacity="1.0" bgColor="#99000000">
+        <VfxTextFrame name="m_displayName" pos="(10, 5)" color="#FFFFFF" size="(180,18)" />
+        <VcpPhotoBorderFrame name="m_callerPic"  pos="(50, 50)" maxSize="(0, 0)" placement="VCP_PHOTO_BORDER_FRAME_PLACEMENT_FIT_EXACT_SIZE" />
+      </VfxFrame>
+      <VfxTextFrame name="m_callStatus" anchor="(1.0, 0)" pos="(238, 8)" />
+    </VfxFrame>
+  </Layout>
+
+  <Layout id="VAPP_UCM_KEYPAD_QVGA">
+    <VfxFrame name="m_dialPad" size="(240, 192)" anchor="(0.5, 0)" pos="(120, 8)" >
+      <VfxFrame name="top_area" size="(240, 59)" anchor="(0.5, 0)" pos="(120, 0)" />
+      <VfxFrame name="m_display_area" size="(189, 33)" pos="(7, 5)"/>
+      <VcpTextView name="m_editor_text" size="(178, 31)" pos="(8, 6)" mode="VCP_TEXT_LINE_MODE_SINGLE"/>
+      <VcpButton name="delete_key" size="(33, 33)" pos="(200, 5)" />
+      <VfxFrame name="key_frame" size="(240, 152)" anchor="(0.5, 0)" pos="(120, 39)"/>
+      <VcpButton name="dial_key" size="(74, 34)" />
+    </VfxFrame>
+  </Layout>
+
+#ifdef __MMI_VIDEO_TELEPHONY__
+  <Layout id="VAPP_UCM_CALL_CELL_LAYOUT_VT_INCALL_LEVEL1_QVGA">
+    <VfxFrame name="m_callcell" size="(240, 296)" >
+      <VfxFrame name="m_frame" size="(240, 156)" opacity="1.0" bgColor="#99000000">
+        <VfxFrame name="m_infoBarBg" size="(240, 20)" />
+        <VfxTextFrame name="m_infoBar" anchor="(0.5, 0.5)" pos="(120, 10)" color="#FFFFFF" />
+        <VfxTextFrame name="m_displayName" anchor="(0.5, 0)" pos="(120, 21)" color="#FFFFFF" size="(240, 18)" />
+        <VfxTextFrame name="m_number" anchor="(0.5, 0)" pos="(120, 41)" color="#FFFFFF" size="(240, 16)" />
+        <VfxFrame name="m_vFrameMain" anchor="(0.5, 0)" pos="(94, 39)" size="(128, 96)" bgColor="#000000" />
+        <VfxFrame name="m_vFrameSub" anchor="(0.5, 0)" pos="(178, 87)" size="(64, 48)" bgColor="#000000" />
+        <VfxFrame name="m_callStatusBg" pos="(0, 139)" size="(240, 24)" />
+      </VfxFrame>
+      <VfxTextFrame name="m_callStatus" anchor="(0.5, 0.5)" pos="(120, 148)" />
+    </VfxFrame>
+  </Layout>
+
+  <Layout id="VAPP_UCM_CALL_CELL_LAYOUT_VT_INCALL_LEVEL2_QVGA">
+    <VfxFrame name="m_callcell" size="(240, 269)">
+      <VfxFrame name="m_frame" size="(240, 130)" opacity="1.0" bgColor="#99000000">
+        <VfxFrame name="m_infoBarBg" size="(240, 16)" />
+        <VfxTextFrame name="m_infoBar" anchor="(0.5, 0.5)" pos="(120, 9)" color="#FFFFFF"/>
+        <VfxTextFrame name="m_displayName" pos="(163, 31)" color="#FFFFFF" size="(75, 18)"/>
+        <VfxTextFrame name="m_number" anchor="(0.5, 0)" pos="(120, 39)" color="#FFFFFF" size="(240,16)"/>
+        <VfxFrame name="m_vFrameMain" anchor="(0.5, 0)" pos="(94, 19)" size="(128, 96)" bgColor="#000000" />
+        <VfxFrame name="m_vFrameSub" anchor="(0.5, 0)" pos="(178, 67)" size="(64, 48)" bgColor="#000000" />
+        <VfxFrame name="m_callStatusBg" pos="(0, 118)" size="(240, 21)" />
+      </VfxFrame>
+      <VfxTextFrame name="m_callStatus" anchor="(0.5, 0.5)" pos="(120, 125)"/>
+    </VfxFrame>
+  </Layout>
+#endif /* __MMI_VIDEO_TELEPHONY__ */
+#endif /* __MMI_MAINLCD_240X320__ */
+#ifdef __MMI_MAINLCD_240X400__
+<!-- WQVGA -->
+  <Layout id="VAPP_UCM_CALL_CELL_LAYOUT_NORMAL_LEVEL1_WQVGA">
+    <VfxFrame name="m_callcell" size="(240, 376)" >
+      <VfxFrame name="m_frame" size="(240, 156)" opacity="1.0" bgColor="#99000000">
+        <VfxFrame name="m_infoBarBg" size="(240, 20)" />
+        <VfxTextFrame name="m_infoBar" anchor="(0.5, 0.5)" pos="(120,10)" color="#FFFFFF"/>
+        <VfxTextFrame name="m_displayName" anchor="(0.5, 0)" pos="(120, 24)" color="#FFFFFF" size="(240,19)"/>
+        <VfxTextFrame name="m_number" anchor="(0.5, 0)" pos="(120, 42)" color="#FFFFFF" size="(240,16)"/>
+        <VfxFrame name="m_callStatusBg" pos="(0, 136)" size="(240, 27)" />
+        <VcpPhotoBorderFrame name="m_callerPic" anchor="(0.5, 0)" pos="(120, 59)" maxSize="(67, 67)" placement="VCP_PHOTO_BORDER_FRAME_PLACEMENT_FIT_EXACT_SIZE" />
+      #if (!defined(__LOW_COST_SUPPORT_COMMON__) && !defined(__MMI_UCM_SLIM__))
+        <VfxAnimImageFrame name="m_dialing_ani_left" pos="(46, 61)" resId="@IMG_ID_VAPP_UCM_DIALING_ANI_LEFT"/>
+        <VfxAnimImageFrame name="m_dialing_ani_right" pos="(157, 61)" resId="@IMG_ID_VAPP_UCM_DIALING_ANI_RIGHT"/>
+      #endif
+      #ifdef __MMI_VIDEO_TELEPHONY__
+        <VfxImageFrame name="m_vtIcon" anchor="(0.7, 0.7)" pos="(155, 126)" contentPlacement="VFX_FRAME_CONTENT_PLACEMENT_TYPE_RESIZE_ASPECT" size="(33, 33)" />
+      #endif /* __MMI_VIDEO_TELEPHONY__ */
+      </VfxFrame>
+  	  <VfxTextFrame name="m_callStatus" anchor="(0.5, 0.5)" pos="(120, 146)" />
+    </VfxFrame>
+  </Layout>
+
+  <Layout id="VAPP_UCM_CALL_CELL_LAYOUT_NORMAL_LEVEL2_WQVGA">
+    <VfxFrame name="m_callcell" size="(240, 349)">
+      <VfxFrame name="m_frame" size="(240, 106)" opacity="1.0" bgColor="#99000000">
+        <VfxFrame name="m_infoBarBg" size="(240, 20)" />
+        <VfxTextFrame name="m_infoBar" anchor="(0.5, 0.5)" pos="(120, 10)" color="#FFFFFF"/>
+        <VfxTextFrame name="m_displayName" pos="(68, 35)" color="#FFFFFF" size="(160, 19)"  />
+        <VfxTextFrame name="m_number" pos="(68, 58)" color="#FFFFFF" size="(160, 16)"/>
+        <VfxFrame name="m_callStatusBg" pos="(0, 86)" size="(240, 27)" />
+        <VcpPhotoBorderFrame name="m_callerPic"  pos="(6, 26)" maxSize="(52, 52)" placement="VCP_PHOTO_BORDER_FRAME_PLACEMENT_FIT_EXACT_SIZE" />
+      #if (!defined(__LOW_COST_SUPPORT_COMMON__) && !defined(__MMI_UCM_SLIM__))
+        <VfxAnimImageFrame name="m_dialing_ani_left" pos="(26, 46)" />
+        <VfxAnimImageFrame name="m_dialing_ani_right" pos="(228, 46)" />
+      #endif
+      #ifdef __MMI_VIDEO_TELEPHONY__
+        <VfxImageFrame name="m_vtIcon" anchor="(0.7, 0.7)" pos="(58, 78)" contentPlacement="VFX_FRAME_CONTENT_PLACEMENT_TYPE_RESIZE_ASPECT" size="(25, 25)" />
+      #endif /* __MMI_VIDEO_TELEPHONY__ */
+      </VfxFrame>
+  	  <VfxTextFrame name="m_callStatus" anchor="(0.5, 0.5)" pos="(120, 96)"/>
+    </VfxFrame>
+  </Layout>
+
+  <Layout id="VAPP_UCM_CALL_CELL_LAYOUT_NORMAL_LEVEL3_WQVGA">
+    <VfxFrame name="m_callcell" size="(240, 322)">
+      <VfxFrame name="m_frame" size="(240, 100)" opacity="1.0" bgColor="#99000000">
+        <VfxFrame name="m_infoBarBg" size="(240, 20)" />
+        <VfxTextFrame name="m_infoBar" anchor="(0.5, 0.5)" pos="(120, 10)" color="#FFFFFF"/>
+        <VfxTextFrame name="m_displayName" pos="(68, 35)" color="#FFFFFF" size="(160, 19)"  />
+        <VfxTextFrame name="m_number" pos="(68, 58)" color="#FFFFFF" size="(160, 16)"/>
+        <VfxFrame name="m_callStatusBg" pos="(0, 82)" size="(240, 27)" />
+        <VcpPhotoBorderFrame name="m_callerPic"  pos="(6, 26)" maxSize="(50, 50)" placement="VCP_PHOTO_BORDER_FRAME_PLACEMENT_FIT_EXACT_SIZE" />
+      #if (!defined(__LOW_COST_SUPPORT_COMMON__) && !defined(__MMI_UCM_SLIM__))
+        <VfxAnimImageFrame name="m_dialing_ani_left" pos="(26, 46)" />
+        <VfxAnimImageFrame name="m_dialing_ani_right" pos="(228, 46)" />
+      #endif
+      #ifdef __MMI_VIDEO_TELEPHONY__
+        <VfxImageFrame name="m_vtIcon" anchor="(0.7, 0.7)" pos="(56, 76)" contentPlacement="VFX_FRAME_CONTENT_PLACEMENT_TYPE_RESIZE_ASPECT" size="(23, 23)" />
+      #endif /* __MMI_VIDEO_TELEPHONY__ */
+      </VfxFrame>
+  	  <VfxTextFrame name="m_callStatus" anchor="(0.5, 0.5)" pos="(120, 92)"/>
+    </VfxFrame>
+  </Layout>
+
+  <Layout id="VAPP_UCM_CALL_CELL_LAYOUT_REDUCED_WQVGA">
+    <VfxFrame name="m_callcell" size="(240, 27)">
+      <VfxFrame name="m_frame" size="(240, 27)" opacity="1.0" bgColor="#99000000">
+        <VfxTextFrame name="m_displayName" pos="(10, 6)" color="#FFFFFF" size="(156,18)"/>
+        <VcpPhotoBorderFrame name="m_callerPic"  pos="(50, 50)" maxSize="(0, 0)" placement="VCP_PHOTO_BORDER_FRAME_PLACEMENT_FIT_EXACT_SIZE" />
+      </VfxFrame>
+      <VfxTextFrame name="m_callStatus" anchor="(1.0, 0)" pos="(238, 8)" />
+    </VfxFrame>
+  </Layout>
+
+  <Layout id="VAPP_UCM_CALL_CELL_LAYOUT_NORMAL_LEVEL1_CONF_WQVGA">
+    <VfxFrame name="m_callcell" size="(240, 376)" >
+      <VfxFrame name="m_frame" size="(240, 156)" opacity="1.0" bgColor="#99000000">
+        <VfxFrame name="m_infoBarBg" size="(240, 20)" />
+        <VfxTextFrame name="m_infoBar" anchor="(0.5, 0.5)" pos="(120,10)" color="#FFFFFF"/>
+        <VfxTextFrame name="m_displayName" anchor="(0.5, 0)" pos="(120, 24)" color="#FFFFFF" size="(240,19)"/>
+        <VcpPhotoBorderFrame name="m_callerPic" anchor="(0.5, 0)" pos="(120, 59)" maxSize="(67, 67)" placement="VCP_PHOTO_BORDER_FRAME_PLACEMENT_FIT_EXACT_SIZE" />
+        <VfxFrame name="m_callStatusBg" pos="(0, 136)" size="(240, 27)" />
+      </VfxFrame>
+      <VfxTextFrame name="m_callStatus" anchor="(0.5, 0.5)" pos="(120, 146)" />
+    </VfxFrame>
+  </Layout>
+
+  <Layout id="VAPP_UCM_CALL_CELL_LAYOUT_NORMAL_LEVEL2_CONF_WQVGA">
+    <VfxFrame name="m_callcell" size="(240, 349)">
+      <VfxFrame name="m_frame" size="(240, 106)" opacity="1.0" bgColor="#99000000">
+        <VfxFrame name="m_infoBarBg" size="(240, 20)" />
+        <VfxTextFrame name="m_infoBar" anchor="(0.5, 0.5)" pos="(120, 10)" color="#FFFFFF"/>
+        <VfxTextFrame name="m_displayName" pos="(68, 35)" color="#FFFFFF" size="(160, 19)"  />
+        <VcpPhotoBorderFrame name="m_callerPic"  pos="(6, 26)" maxSize="(52, 52)" placement="VCP_PHOTO_BORDER_FRAME_PLACEMENT_FIT_EXACT_SIZE" />
+        <VfxFrame name="m_callStatusBg" pos="(0, 86)" size="(240, 27)" />
+      </VfxFrame>
+      <VfxTextFrame name="m_callStatus" anchor="(0.5, 0.5)" pos="(120, 96)"/>
+    </VfxFrame>
+  </Layout>
+
+  <Layout id="VAPP_UCM_CALL_CELL_LAYOUT_NORMAL_LEVEL3_CONF_WQVGA">
+    <VfxFrame name="m_callcell" size="(240, 322)">
+      <VfxFrame name="m_frame" size="(240, 100)" opacity="1.0" bgColor="#99000000">
+        <VfxFrame name="m_infoBarBg" size="(240, 20)" />
+        <VfxTextFrame name="m_infoBar" anchor="(0.5, 0.5)" pos="(120, 10)" color="#FFFFFF"/>
+        <VcpPhotoBorderFrame name="m_callerPic"  pos="(6, 26)" maxSize="(50, 50)" placement="VCP_PHOTO_BORDER_FRAME_PLACEMENT_FIT_EXACT_SIZE" />
+        <VfxTextFrame name="m_displayName" pos="(68, 35)" color="#FFFFFF" size="(160, 19)"  />
+        <VfxFrame name="m_callStatusBg" pos="(0, 82)" size="(240, 27)" />
+      </VfxFrame>
+      <VfxTextFrame name="m_callStatus" anchor="(0.5, 0.5)" pos="(120, 92)"/>
+    </VfxFrame>
+  </Layout>
+
+  <Layout id="VAPP_UCM_CALL_CELL_LAYOUT_REDUCED_CONF_WQVGA">
+    <VfxFrame name="m_callcell" size="(240, 27)">
+      <VfxFrame name="m_frame" size="(240, 27)" opacity="1.0" bgColor="#99000000">
+        <VfxTextFrame name="m_displayName" pos="(10, 5)" color="#FFFFFF" size="(180,18)" />
+        <VcpPhotoBorderFrame name="m_callerPic"  pos="(50, 50)" maxSize="(0, 0)" placement="VCP_PHOTO_BORDER_FRAME_PLACEMENT_FIT_EXACT_SIZE" />
+      </VfxFrame>
+      <VfxTextFrame name="m_callStatus" anchor="(1.0, 0)" pos="(238, 8)" />
+    </VfxFrame>
+  </Layout>
+
+  <Layout id="VAPP_UCM_KEYPAD_WQVGA">
+    <VfxFrame name="m_dialPad" size="(240, 192)" anchor="(0.5, 0)" pos="(120, 92)" >
+      <VfxFrame name="top_area" size="(240, 59)" anchor="(0.5, 0)" pos="(120, 0)" />
+      <VfxFrame name="m_display_area" size="(189, 33)" pos="(7, 5)"/>
+      <VcpTextView name="m_editor_text" size="(178, 31)" pos="(8, 6)" mode="VCP_TEXT_LINE_MODE_SINGLE"/>
+      <VcpButton name="delete_key" size="(33, 33)" pos="(200, 5)" />
+      <VfxFrame name="key_frame" size="(240, 152)" anchor="(0.5, 0)" pos="(120, 39)"/>
+      <VcpButton name="dial_key" size="(74, 34)" />
+    </VfxFrame>
+  </Layout>
+
+#ifdef __MMI_VIDEO_TELEPHONY__
+  <Layout id="VAPP_UCM_CALL_CELL_LAYOUT_VT_INCALL_LEVEL1_WQVGA">
+    <VfxFrame name="m_callcell" size="(240, 376)" >
+      <VfxFrame name="m_frame" size="(240, 213)" opacity="1.0" bgColor="#99000000">
+        <VfxFrame name="m_infoBarBg" size="(240, 20)" />
+        <VfxTextFrame name="m_infoBar" anchor="(0.5, 0.5)" pos="(120,10)" color="#FFFFFF"/>
+        <VfxTextFrame name="m_displayName" anchor="(0.5, 0)" pos="(120, 25)" color="#FFFFFF" size="(240,16)"/>
+        <VfxTextFrame name="m_number" anchor="(0.5, 0)" pos="(120, 41)" color="#FFFFFF" size="(240,16)"/>
+        <VfxFrame name="m_vFrameMain" anchor="(0.5, 0)" pos="(94, 43)" size="(172, 144)" bgColor="#000000" />
+        <VfxFrame name="m_vFrameSub" anchor="(0.5, 0)" pos="(200, 139)" size="(64, 48)" bgColor="#000000" />
+        <VfxFrame name="m_callStatusBg" pos="(0, 191)" size="(240, 27)" />
+      </VfxFrame>
+      <VfxTextFrame name="m_callStatus" anchor="(0.5, 0.5)" pos="(120, 202)" />
+    </VfxFrame>
+  </Layout>
+
+  <Layout id="VAPP_UCM_CALL_CELL_LAYOUT_VT_INCALL_LEVEL2_WQVGA">
+    <VfxFrame name="m_callcell" size="(240, 349)">
+      <VfxFrame name="m_frame" size="(240, 213)" opacity="1.0" bgColor="#99000000">
+        <VfxFrame name="m_infoBarBg" size="(240, 20)" />
+        <VfxTextFrame name="m_infoBar" anchor="(0.5, 0.5)" pos="(120, 10)" color="#FFFFFF"/>
+        <VfxTextFrame name="m_displayName" anchor="(0.5, 0)" pos="(120, 25)" color="#FFFFFF" size="(240,16)"/>
+        <VfxTextFrame name="m_number" anchor="(0.5, 0)" pos="(120, 39)" color="#FFFFFF" size="(240,16)"/>
+        <VfxFrame name="m_vFrameMain" anchor="(0.5, 0)" pos="(94, 43)" size="(172, 144)" bgColor="#000000" />
+        <VfxFrame name="m_vFrameSub" anchor="(0.5, 0)" pos="(200, 139)" size="(64, 48)" bgColor="#000000" />
+        <VfxFrame name="m_callStatusBg" pos="(0, 191)" size="(240, 27)" />
+      </VfxFrame>
+      <VfxTextFrame name="m_callStatus" anchor="(0.5, 0.5)" pos="(120, 202)" />
+    </VfxFrame>
+  </Layout>
+#endif /* __MMI_VIDEO_TELEPHONY__ */
+#endif /* __MMI_MAINLCD_240X400__ */
+</VenusXML>

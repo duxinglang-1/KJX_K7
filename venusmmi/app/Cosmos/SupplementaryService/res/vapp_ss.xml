@@ -1,0 +1,7 @@
+<VenusXML>
+  <Layout id="VAPP_SS_LAYOUT_1">
+    <VfxPage>
+      <VfxTextFrame text="SS from XML!" />
+    </VfxPage>
+  </Layout>
+</VenusXML>

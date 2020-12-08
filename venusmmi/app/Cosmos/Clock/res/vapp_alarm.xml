@@ -1,0 +1,55 @@
+<VenusXML>
+  <Layout id="VAPP_ALARM_LAYOUT_LIST">
+    <VfxPage>
+      <VfxTextFrame text="Alarm List from XML!" />
+    </VfxPage>
+  </Layout>
+  <Layout id="VAPP_ALARM_LAYOUT_LIST_ITEM">
+    <VfxPage>
+      <VfxTextFrame text="Alarm List from XML!" />
+    </VfxPage>
+  </Layout>
+  <Layout id="VAPP_ALARM_LAYOUT_EDIT_SNOOZE">
+    <VfxPage>
+      <VfxTextFrame text="Alarm List from XML!" />
+    </VfxPage>
+  </Layout> 
+  <Layout id="VAPP_ALARM_LAYOUT_EDIT">
+    <VfxPage>
+      <VcpTitleBar name="titleBar" prop="topBar" title="Set alarm"> </VcpTitleBar>
+      <VcpToolBar name="toolBar" prop="bottomBar"> </VcpToolBar>
+    </VfxPage>
+  </Layout> 
+  <Layout id="VAPP_ALARM_LAYOUT_EDIT_REPEAT">
+    <VfxPage>
+      <VfxTextFrame text="Alarm List from XML!" />
+  	</VfxPage>
+  </Layout>  
+  <Layout id="VAPP_ALARM_LAYOUT_SETTING">
+    <VfxPage>
+      <VfxTextFrame text="Alarm List from XML!" />
+    </VfxPage>
+  </Layout>
+  <Layout id="VAPP_ALARM_LAYOUT_SETTING_SNOOZE">
+    <VfxPage>
+      <VfxTextFrame text="Alarm List from XML!" />
+    </VfxPage>
+  </Layout>  
+  <Layout id="VAPP_ALARM_LAYOUT_SETTING_VOL">
+    <VfxPage>
+    	<VcpTitleBar name="title" prop="topBar" title="Volume"> </VcpTitleBar>
+      <VcpSlider name="slider" pos="(0, 10)" Length="200" Layout="VCP_SLIDER_LAYOUT_HORZ" MaxValue="8" MinValue="0"> </VcpSlider>
+    </VfxPage>
+  </Layout>     
+  <Layout id="VAPP_ALARM_LAYOUT_IND">
+    <VfxPage>
+      <VfxTextFrame text="Alarm List from XML!" />
+    </VfxPage>
+  </Layout>
+  <Layout id="VAPP_ALARM_LAYOUT_IND_SCRLOCKER">
+    <VfxPage>
+      <VfxTextFrame text="Alarm indication on scrlock!" />
+    </VfxPage>
+  </Layout>     
+</VenusXML>
+

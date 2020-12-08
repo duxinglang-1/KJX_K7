@@ -1,0 +1,2 @@
+DO dump_asm
+DO dump_vfx_scene_graph 1

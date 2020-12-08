@@ -1,0 +1,10 @@
+[OWNER] = CH Ko
+[APP NAME] = Widget
+[SCOPE] = PLUTO, COSMOS
+[MODULE] = MOD_MMI_COMMON_APP
+
+#start trace
+TRC_MSG(TRC_VAPP_WIDGET_SERIALIZE_VIEW,                     "[Widget] serializeView isSerialized: %d, trace: %d")
+TRC_MSG(TRC_VAPP_WIDGET_RESTORE_VIEW,                       "[Widget] restoreView isSerialized: %d, trace: %d")
+TRC_MSG(TRC_VAPP_WIDGET_SERIALIZE_VIEW_FOR_PAGE_SWITCH,     "[Widget] serializeViewForPageSwitch isSerializedForPageSwitch: %d, trace: %d")
+TRC_MSG(TRC_VAPP_WIDGET_RESTORE_VIEW_FOR_PAGE_SWITCH,       "[Widget] restoreViewForPageSwitch isSerializedForPageSwitch: %d, trace: %d")

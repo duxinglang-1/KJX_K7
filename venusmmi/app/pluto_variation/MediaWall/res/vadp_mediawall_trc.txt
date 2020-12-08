@@ -1,0 +1,12 @@
+[APP NAME] = APP_MEDIAWALL
+[SCOPE] = PLUTO
+[MODULE] = MOD_MMI_MEDIA_APP
+
+#starttrace
+TRC_MSG(VADP_MEDIAWALL_NONBLOCKING_DECODE, "[MEDIAWALL] nonblocking decode img index %d, buff = %x, error_code = %d")
+TRC_MSG(VADP_MEDIAWALL_BLOCKING_DECODE, "[MEDIAWALL] decode img index %d, buff = %x, error_code = %d")
+TRC_MSG(VADP_MEDIAWALL_FREE_BUFF, "[MEDIAWALL] free img buf index = %d, buff = %x")
+TRC_MSG(VADP_MEDIAWALL_DECODE_CALLBACK, "[MEDIAWALL] decode_callback index = %d, error_code = %d")
+TRC_MSG(VADP_MEDIAWALL_PAUSE, "[MEDIAWALL] pause bgdecode")
+TRC_MSG(VADP_MEDIAWALL_RESUME, "[MEDIAWALL] resume bgdecode")
+TRC_MSG(VADP_MEDIAWALL_FS_LIMIT, "[MEDIAWALL] is over FS limit = % d")

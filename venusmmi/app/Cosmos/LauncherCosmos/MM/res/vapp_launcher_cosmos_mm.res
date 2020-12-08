@@ -1,0 +1,55 @@
+#include "mmi_features.h"
+#include "custresdef.h"
+
+<?xml version="1.0" encoding="UTF-8"?>
+
+<APP id="VAPP_LAUNCHER_COSMOS_MM"
+    package_name="native.mtk.launcher_cosmos_mm"
+    name="STR_ID_VAPP_LAUNCHER_COSMOS_MM_MAINMENU"
+    img="IMG_ID_VAPP_LAUNCHER_COSMOS_MM_ICON_MAINMENU"
+#ifdef __MMI_VUI_LAUNCHER_COSMOS__
+    launch="vapp_launcher_cosmos_mm_launch"
+#endif
+    hidden_in_mainmenu="true"
+    type="venus">
+
+    <MEMORY base="0"/>
+
+    <STRING id="STR_ID_VAPP_LAUNCHER_COSMOS_MM_MAINMENU"/>
+    <STRING id="STR_ID_VAPP_LAUNCHER_COSMOS_MM_HOME"/>
+    <STRING id="STR_ID_VAPP_LAUNCHER_COSMOS_MM_UNINSTALL"/>
+    <STRING id="STR_ID_VAPP_LAUNCHER_COSMOS_MM_UNINSTALLING"/>
+    <STRING id="STR_ID_VAPP_LAUNCHER_COSMOS_MM_DELETE_FAILED"/>
+    <STRING id="STR_ID_VAPP_LAUNCHER_COSMOS_MM_EXIT_RUNNING_APP"/>
+
+    <THEME>
+        <IMAGE id="IMG_ID_VAPP_LAUNCHER_COSMOS_MM_ICON_MAINMENU" desc="Main menu icon">RES_IMG_ROOT"\\\\"__MMI_MAINMENU_ICON_DEFAULT_PATH__"\\\\MainMenu.png"</IMAGE>
+        <IMAGE id="IMG_ID_VAPP_LAUNCHER_COSMOS_MM_ICON_HOME" desc="Main menu home icon">RES_IMG_ROOT"\\\\"__MMI_MAINMENU_ICON_DEFAULT_PATH__"\\\\Home.png"</IMAGE>
+        <IMAGE id="IMG_ID_VAPP_LAUNCHER_COSMOS_MM_ICON_PREINSTALL_APP">RES_IMG_ROOT"\\\\"__MMI_MAINMENU_ICON_DEFAULT_PATH__"\\\\App_download.png"</IMAGE>
+    </THEME>
+    
+    #define ROOT_PATH RES_THEME_ROOT"\\\\Default\\\\Launcher\\\\LauncherCosmos\\\\"
+    <IMAGE id="IMG_ID_VAPP_LAUNCHER_COSMOS_MM_STATUS_BAR_BG">ROOT_PATH"StatusBar_BG.9slice.png"</IMAGE>
+    
+    #define ROOT_PATH RES_THEME_ROOT"\\\\Default\\\\Launcher\\\\LauncherCosmos\\\\Mainmenu\\\\"
+    <IMAGE id="IMG_ID_VAPP_LAUNCHER_COSMOS_MM_FONT_BG">ROOT_PATH"Font_BG.9slice.png"</IMAGE>
+
+    #define ROOT_PATH RES_THEME_ROOT"\\\\Default\\\\Launcher\\\\LauncherCosmos\\\\Indicator\\\\"
+    <IMAGE id="IMG_ID_VAPP_LAUNCHER_COSMOS_MM_INDICATOR_DOT_N">ROOT_PATH"Indicator_w.png"</IMAGE>
+    <IMAGE id="IMG_ID_VAPP_LAUNCHER_COSMOS_MM_INDICATOR_DOT_H1">ROOT_PATH"Indicator_1.png"</IMAGE>
+    <IMAGE id="IMG_ID_VAPP_LAUNCHER_COSMOS_MM_INDICATOR_DOT_H2">ROOT_PATH"Indicator_2.png"</IMAGE>
+    <IMAGE id="IMG_ID_VAPP_LAUNCHER_COSMOS_MM_INDICATOR_DOT_H3">ROOT_PATH"Indicator_3.png"</IMAGE>
+    <IMAGE id="IMG_ID_VAPP_LAUNCHER_COSMOS_MM_INDICATOR_DOT_H4">ROOT_PATH"Indicator_4.png"</IMAGE>
+    <IMAGE id="IMG_ID_VAPP_LAUNCHER_COSMOS_MM_INDICATOR_DOT_H5">ROOT_PATH"Indicator_5.png"</IMAGE>
+    <IMAGE id="IMG_ID_VAPP_LAUNCHER_COSMOS_MM_INDICATOR_DOT_H6">ROOT_PATH"Indicator_6.png"</IMAGE>
+    <IMAGE id="IMG_ID_VAPP_LAUNCHER_COSMOS_MM_INDICATOR_DOT_H7">ROOT_PATH"Indicator_7.png"</IMAGE>
+    <IMAGE id="IMG_ID_VAPP_LAUNCHER_COSMOS_MM_INDICATOR_DOT_H8">ROOT_PATH"Indicator_8.png"</IMAGE>
+    <IMAGE id="IMG_ID_VAPP_LAUNCHER_COSMOS_MM_INDICATOR_DOT_H9">ROOT_PATH"Indicator_9.png"</IMAGE>
+    <IMAGE id="IMG_ID_VAPP_LAUNCHER_COSMOS_MM_INDICATOR_DOT_H10">ROOT_PATH"Indicator_10.png"</IMAGE>
+
+    #define ROOT_PATH RES_THEME_ROOT"\\\\Default\\\\Common\\\\"
+    <IMAGE id="IMG_ID_VAPP_LAUNCHER_COSMOS_MM_ICON_BADGE_BG">ROOT_PATH"Point_BG.9slice.png"</IMAGE>
+    <IMAGE id="IMG_ID_VAPP_LAUNCHER_COSMOS_MM_ICON_DELETE">ROOT_PATH"MM_Delete.png"</IMAGE>
+    
+</APP>
+

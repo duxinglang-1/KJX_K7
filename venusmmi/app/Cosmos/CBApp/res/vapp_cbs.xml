@@ -1,0 +1,116 @@
+<VenusXML>
+#if defined(__MMI_MAINLCD_320X480__)
+   <Layout id="VAPP_CBS_LAYOUT_VIEWER_320_480_NORMAL">
+   <VfxPage>
+      <VfxFrame name="bgFrame" size="(320,420)" pos="(0,60)" bgColor="#FFFFFF"/>           
+      <VfxFrame name="titleBg" pos="(0,0)" size="(320,60)" contentPlacement="VFX_FRAME_CONTENT_PLACEMENT_TYPE_RESIZE"/>
+      <VfxFrame name="iconBg" pos="(6,7)" size="(46,46)" contentPlacement="VFX_FRAME_CONTENT_PLACEMENT_TYPE_RESIZE"/>
+      <VfxFrame name="iconBorder" pos="(3,4)" size="(52,52)" contentPlacement="VFX_FRAME_CONTENT_PLACEMENT_TYPE_RESIZE"/>
+      <VfxImageFrame name="icon" pos="(10,11)" size="(38,38)" contentPlacement="VFX_FRAME_CONTENT_PLACEMENT_TYPE_RESIZE"  resId="@IMG_ID_VAPP_CBS_VIEWER_TITLE_ICON"/>
+      <VfxTextFrame name="titleText" size="(254,25)" pos="(66,11)"/>
+      <VfxTextFrame name="channelId" size="(254,15)" pos="(66,35)"/>    
+      <VcpTextView name="contentText" size="(300,321)" pos="(10,72)" mode="VCP_TEXT_LINE_MODE_MULTI"/>    
+      <VcpToolBar name="toolBar" prop="bottomBar"> </VcpToolBar>
+    </VfxPage>
+   </Layout>
+  
+		<Layout id="VAPP_CBS_LAYOUT_VIEWER_320_480_LANDSCAPE">
+    <VfxPage>
+      <VfxFrame name="bgFrame" size="(480,185)" pos="(0,60)" bgColor="#FFFFFF"/>            
+      <VfxFrame name="titleBg" pos="(0,0)" size="(480,60)" contentPlacement="VFX_FRAME_CONTENT_PLACEMENT_TYPE_RESIZE"/>
+      <VfxFrame name="iconBg" pos="(6,7)" size="(46,46)" contentPlacement="VFX_FRAME_CONTENT_PLACEMENT_TYPE_RESIZE"/>
+      <VfxFrame name="iconBorder" pos="(3,4)" size="(52,52)" contentPlacement="VFX_FRAME_CONTENT_PLACEMENT_TYPE_RESIZE"/>
+      <VfxImageFrame name="icon" pos="(10,11)" size="(38,38)" contentPlacement="VFX_FRAME_CONTENT_PLACEMENT_TYPE_RESIZE" resId="@IMG_ID_VAPP_CBS_VIEWER_TITLE_ICON"/>
+      <VfxTextFrame name="titleText" size="(412,25)" pos="(66,8)"/>
+      <VfxTextFrame name="channelId" size="(412,15)" pos="(66,37)"/>    
+      <VcpTextView name="contentText" size="(460,161)" pos="(10,72)" mode="VCP_TEXT_LINE_MODE_MULTI"/>    
+      <VcpToolBar name="toolBar" prop="bottomBar"> </VcpToolBar>
+    </VfxPage>
+  </Layout>
+#elif defined(__MMI_MAINLCD_480X800__)
+   <Layout id="VAPP_CBS_LAYOUT_VIEWER_480_800_NORMAL">
+   <VfxPage>
+      <VfxFrame name="bgFrame" size="(480,556)" pos="(0,121)" bgColor="#FFFFFF"/>           
+      <VfxFrame name="titleBg" pos="(0,0)" size="(480,121)" contentPlacement="VFX_FRAME_CONTENT_PLACEMENT_TYPE_RESIZE"/>
+      <VfxFrame name="iconBg" pos="(5,19)" size="(83,83)" contentPlacement="VFX_FRAME_CONTENT_PLACEMENT_TYPE_RESIZE"/>
+      <VfxFrame name="iconBorder" pos="(2,16)" size="(89,89)" contentPlacement="VFX_FRAME_CONTENT_PLACEMENT_TYPE_RESIZE"/>
+      <VfxImageFrame name="icon" pos="(14,28)" size="(65,65)" contentPlacement="VFX_FRAME_CONTENT_PLACEMENT_TYPE_RESIZE"  resId="@IMG_ID_VAPP_CBS_VIEWER_TITLE_ICON"/>
+      <VfxTextFrame name="titleText" size="(371,40)" pos="(109,25)"/>
+      <VfxTextFrame name="channelId" size="(371,30)" pos="(109,70)"/>    
+      <VcpTextView name="contentText" size="(452,526)" pos="(14,135)" mode="VCP_TEXT_LINE_MODE_MULTI"/>    
+      <VcpToolBar name="toolBar" prop="bottomBar"> </VcpToolBar>
+    </VfxPage>
+   </Layout>
+  
+		<Layout id="VAPP_CBS_LAYOUT_VIEWER_480_800_LANDSCAPE">
+    <VfxPage>
+      <VfxFrame name="bgFrame" size="(800,234)" pos="(0,121)" bgColor="#FFFFFF"/>            
+      <VfxFrame name="titleBg" pos="(0,0)" size="(800,121)" contentPlacement="VFX_FRAME_CONTENT_PLACEMENT_TYPE_RESIZE"/>
+      <VfxFrame name="iconBg" pos="(5,19)" size="(83,83)" contentPlacement="VFX_FRAME_CONTENT_PLACEMENT_TYPE_RESIZE"/>
+      <VfxFrame name="iconBorder" pos="(2,16)" size="(89,89)" contentPlacement="VFX_FRAME_CONTENT_PLACEMENT_TYPE_RESIZE"/>
+      <VfxImageFrame name="icon" pos="(14,28)" size="(65,65)" contentPlacement="VFX_FRAME_CONTENT_PLACEMENT_TYPE_RESIZE"  resId="@IMG_ID_VAPP_CBS_VIEWER_TITLE_ICON"/>
+      <VfxTextFrame name="titleText" size="(691,69)" pos="(109,25)"/>
+      <VfxTextFrame name="channelId" size="(691,49)" pos="(109,70)"/>    
+      <VcpTextView name="contentText" size="(772,206)" pos="(14,135)" mode="VCP_TEXT_LINE_MODE_MULTI"/>    
+      <VcpToolBar name="toolBar" prop="bottomBar"> </VcpToolBar>
+    </VfxPage>
+  </Layout>
+#elif defined(__MMI_MAINLCD_240X320__)
+	<Layout id="VAPP_CBS_LAYOUT_VIEWER_240_320_NORMAL">
+    <VfxPage>
+      <VfxFrame name="bgFrame" size="(240,320)" pos="(0,57)" bgColor="#FFFFFF"/>            
+      <VfxFrame name="titleBg" pos="(0,0)" size="(240,57)" contentPlacement="VFX_FRAME_CONTENT_PLACEMENT_TYPE_RESIZE"/>
+      <VfxFrame name="iconBg" pos="(4,8)" size="(41,41)" contentPlacement="VFX_FRAME_CONTENT_PLACEMENT_TYPE_RESIZE"/>
+      <VfxFrame name="iconBorder" pos="(2,6)" size="(45,45)" contentPlacement="VFX_FRAME_CONTENT_PLACEMENT_TYPE_RESIZE"/>
+      <VfxImageFrame name="icon" pos="(5,9)" size="(39,39)" contentPlacement="VFX_FRAME_CONTENT_PLACEMENT_TYPE_RESIZE"  resId="@IMG_ID_VAPP_CBS_VIEWER_TITLE_ICON"/>
+      <VfxTextFrame name="titleText" size="(188,18)" pos="(52,10)"/>
+      <VfxTextFrame name="channelId" size="(188,13)" pos="(52,33)"/>    
+      <VcpTextView name="contentText" size="(230,188)" pos="(5,62)" mode="VCP_TEXT_LINE_MODE_MULTI"/>    
+      <VcpToolBar name="toolBar" prop="bottomBar"> </VcpToolBar>
+    </VfxPage>
+  </Layout>
+  
+   <Layout id="VAPP_CBS_LAYOUT_VIEWER_240_320_LANDSCAPE">
+    <VfxPage>
+      <VfxFrame name="bgFrame" size="(320,240)" pos="(0,57)" bgColor="#FFFFFF"/>            
+      <VfxFrame name="titleBg" pos="(0,0)" size="(320,57)" contentPlacement="VFX_FRAME_CONTENT_PLACEMENT_TYPE_RESIZE"/>
+      <VfxFrame name="iconBg" pos="(4,8)" size="(41,41)" contentPlacement="VFX_FRAME_CONTENT_PLACEMENT_TYPE_RESIZE"/>
+      <VfxFrame name="iconBorder" pos="(2,6)" size="(45,45)" contentPlacement="VFX_FRAME_CONTENT_PLACEMENT_TYPE_RESIZE"/>
+      <VfxImageFrame name="icon" pos="(5,9)" size="(39,39)" contentPlacement="VFX_FRAME_CONTENT_PLACEMENT_TYPE_RESIZE"  resId="@IMG_ID_VAPP_CBS_VIEWER_TITLE_ICON"/>
+      <VfxTextFrame name="titleText" size="(268,18)" pos="(52,10)"/>
+      <VfxTextFrame name="channelId" size="(268,13)" pos="(52,33)"/>    
+      <VcpTextView name="contentText" size="(310,108)" pos="(5,62)" mode="VCP_TEXT_LINE_MODE_MULTI"/>    
+      <VcpToolBar name="toolBar" prop="bottomBar"> </VcpToolBar>
+    </VfxPage>
+   </Layout>
+ #elif defined(__MMI_MAINLCD_240X400__) 
+	<Layout id="VAPP_CBS_LAYOUT_VIEWER_240_400_NORMAL">
+    <VfxPage>
+      <VfxFrame name="bgFrame" size="(240,400)" pos="(0,57)" bgColor="#FFFFFF"/>            
+      <VfxFrame name="titleBg" pos="(0,0)" size="(240,57)" contentPlacement="VFX_FRAME_CONTENT_PLACEMENT_TYPE_RESIZE"/>
+      <VfxFrame name="iconBg" pos="(4,8)" size="(41,41)" contentPlacement="VFX_FRAME_CONTENT_PLACEMENT_TYPE_RESIZE"/>
+      <VfxFrame name="iconBorder" pos="(2,6)" size="(45,45)" contentPlacement="VFX_FRAME_CONTENT_PLACEMENT_TYPE_RESIZE"/>
+      <VfxImageFrame name="icon" pos="(5,9)" size="(39,39)" contentPlacement="VFX_FRAME_CONTENT_PLACEMENT_TYPE_RESIZE"  resId="@IMG_ID_VAPP_CBS_VIEWER_TITLE_ICON"/>
+      <VfxTextFrame name="titleText" size="(188,18)" pos="(52,10)"/>
+      <VfxTextFrame name="channelId" size="(188,13)" pos="(52,33)"/>    
+      <VcpTextView name="contentText" size="(230,188)" pos="(5,62)" mode="VCP_TEXT_LINE_MODE_MULTI"/>    
+      <VcpToolBar name="toolBar" prop="bottomBar"> </VcpToolBar>
+    </VfxPage>
+  </Layout>
+  
+   <Layout id="VAPP_CBS_LAYOUT_VIEWER_240_400_LANDSCAPE">
+    <VfxPage>
+      <VfxFrame name="bgFrame" size="(400,240)" pos="(0,57)" bgColor="#FFFFFF"/>            
+      <VfxFrame name="titleBg" pos="(0,0)" size="(400,57)" contentPlacement="VFX_FRAME_CONTENT_PLACEMENT_TYPE_RESIZE"/>
+      <VfxFrame name="iconBg" pos="(4,8)" size="(41,41)" contentPlacement="VFX_FRAME_CONTENT_PLACEMENT_TYPE_RESIZE"/>
+      <VfxFrame name="iconBorder" pos="(2,6)" size="(45,45)" contentPlacement="VFX_FRAME_CONTENT_PLACEMENT_TYPE_RESIZE"/>
+      <VfxImageFrame name="icon" pos="(5,9)" size="(39,39)" contentPlacement="VFX_FRAME_CONTENT_PLACEMENT_TYPE_RESIZE"  resId="@IMG_ID_VAPP_CBS_VIEWER_TITLE_ICON"/>
+      <VfxTextFrame name="titleText" size="(348,18)" pos="(52,10)"/>
+      <VfxTextFrame name="channelId" size="(348,13)" pos="(52,33)"/>    
+      <VcpTextView name="contentText" size="(390,108)" pos="(5,62)" mode="VCP_TEXT_LINE_MODE_MULTI"/>    
+      <VcpToolBar name="toolBar" prop="bottomBar"> </VcpToolBar>
+    </VfxPage>
+   </Layout>
+   #endif
+</VenusXML>
+

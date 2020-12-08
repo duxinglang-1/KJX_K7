@@ -1,0 +1,41 @@
+LOCAL &layer &address &width &height &format
+
+; Layer to display
+; Ex.
+;	&layer="gdi_layer_struct *)&GDI_LAYERS[0]" 	; Main base layer
+;	&layer="gdi_layer_struct *)g_my_handle"		; handle symbol
+;	&layer="gdi_layer_struct *)0x12345678"		; Address
+&layer="(gdi_layer_struct *)GDI_LAYERS[0]"
+
+
+&address=V.VALUE(&layer.buf_ptr)
+&width=FORMAT.DECIMAL(4., V.VALUE(&layer.width))
+&height=FORMAT.DECIMAL(4., V.VALUE(&layer.height))
+&format=V.VALUE(&layer.cf)
+
+IF &format==2 ; GDI_COLOR_FORMAT_16
+(
+    Data.IMAGE &address &width. &height. /RGB565LE
+)
+ELSE IF &format==3 ; GDI_COLOR_FORMAT_24
+(
+    Data.IMAGE &address &width. &height. /RGB888LE
+)
+ELSE IF &format==4 ; GDI_COLOR_FORMAT_32
+(
+    Data.IMAGE &address &width. &height. /RGBX888LE
+)
+ELSE IF &format==5 ; GDI_COLOR_FORMAT_32_PARGB
+(
+    Data.IMAGE &address &width. &height. /RGBX888LE
+)
+ELSE IF &format==6 ; GDI_COLOR_FORMAT_UYVY422
+(
+    Data.IMAGE &address &width. &height. /YUV422PS
+)
+ELSE
+(
+)
+
+ENDDO
+

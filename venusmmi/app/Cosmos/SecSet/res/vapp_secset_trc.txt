@@ -1,0 +1,32 @@
+[APP NAME] = SecSet
+[SCOPE] = COSMOS
+[MODULE] = MOD_MMI_COMMON_APP
+
+#start trace
+TRC_MSG(TRC_VCUI_SECSET_VERIFY_CREATE, "[SecSet] vcui_verify_create(grp_id = %d, type = %d): instance_id = %d")
+TRC_MSG(TRC_VCUI_SECSET_VERIFY_SET_SIM, "[SecSet] vcui_verify_set_sim(inst_id = %d, sim = %Mmmi_sim_enum)")
+TRC_MSG(TRC_VCUI_SECSET_VERIFY_RUN, "[SecSet] vcui_verify_run(inst_id = %d)")
+TRC_MSG(TRC_VCUI_SECSET_VERIFY_CLOSE, "[SecSet] vcui_verify_close(inst_id = %d)")
+TRC_MSG(TRC_VCUI_SECSET_VERIFY_SEND_TO_CALLER, "[SecSet] VcuiSecSetVerify::sendToCallerExt(evt_id = %d, post = %d)")
+TRC_MSG(TRC_VCUI_SECSET_FAILURE_TO_NOTIFY, "[SecSet] VcuiSecSetVerify::onFailureConfirmedToNotify(): fail_cause = %d")
+TRC_MSG(TRC_VCUI_SECSET_CANCEL_TO_NOTIFY, "[SecSet] VcuiSecSetVerify::onCancelConfirmedToNotify(): cancel_cause = %d")
+TRC_MSG(TRC_VCUI_SECSET_ON_PROCESS_CLOSE, "[SecSet] VcuiSecSetVerify::onProcessClose(%d): return %d")
+TRC_MSG(TRC_VCUI_SECSET_CHV_NOT_ENABLED, "[SecSet] VcuiSecSetVerifyChv::run(): %Mmmi_sim_enum, chv = %d not enabled")
+TRC_MSG(TRC_VCUI_SECSET_VERIFY_CHV_ON_RUN, "[SecSet] VcuiSecSetVerifyChv::onRun(): %Mmmi_sim_enum, chv = %d")
+TRC_MSG(TRC_VCUI_SECSET_VERIFY_CHV_DONE, "[SecSet] VcuiSecSetVerifyChv::onVerifyDone(): %Mmmi_sim_enum, chv = %d, result = %d")
+TRC_MSG(TRC_VCUI_SECSET_PHONE_VERIFY_DONE, "[SecSet] VcuiSecSetVerifyPhonePwd::onVerifyDone(): result = %d")
+TRC_MSG(TRC_VAPP_SECSET_CHV_LOCK_ON_INPUTTED, "[SecSet] VappSecSetChvLockSeq::onChvInputted(): sim = %Mmmi_sim_enum, type = %d, targetValue = %d")
+TRC_MSG(TRC_VAPP_SECSET_CHV_SET_ENABLED_RESULT, "[SecSet] VappSecSetChvLockSeq::onSetEnabledResult(): sim = %Mmmi_sim_enum, type = %d, result = %d, fail = %d")
+TRC_MSG(TRC_VAPP_SECSET_CHV_ON_DEINIT, "[SecSet] VappSecSetChvBaseSeq::onDeinit(): sim = %Mmmi_sim_enum, type = %d")
+TRC_MSG(TRC_VAPP_SECSET_CHV_NEW_ITEM, "[SecSet] VappSecSetChvBaseSeq::pushItemAndKickExists(): New item: 0x%x, sim = %Mmmi_sim_enum, type = %d")
+TRC_MSG(TRC_VAPP_SECSET_CHV_KICK_ITEM, "[SecSet] VappSecSetChvBaseSeq::pushItemAndKickExists(): Kick item 0x%x")
+TRC_MSG(TRC_VAPP_SECSET_CHV_SIM_NOT_AVAILABLE, "[SecSet] VappSecSetChvBaseSeq::onSimAvailabilityChanged(): %Mmmi_sim_enum not available")
+TRC_MSG(TRC_VAPP_SECSET_CHV_CLOSE_ITEM, "[SecSet] VappSecSetChvBaseSeq::onSimAvailabilityChanged(): Close item 0x%x")
+TRC_MSG(TRC_VAPP_SECSET_HPVERIFY_ON_INIT, "[SecSet] VappSecSetHPVeri::onInit()")
+TRC_MSG(TRC_VAPP_SECSET_HPVERIFY_ON_DEINIT, "[SecSet] VappSecSetHPVeri::onDeinit()")
+TRC_MSG(TRC_VAPP_SECSET_HPVERIFY_ON_RUN, "[SecSet] VappSecSetHPVeri::onRun()")
+TRC_MSG(TRC_VAPP_SECSET_HPVERIFY_RUN_FROM_NMGR, "[SecSet] VappSecSetHPVeri::runAppFromNmgr(): s_appIsLaunched = %d")
+TRC_MSG(TRC_VAPP_SECSET_HPVERIFY_LAUNCH_APP, "[SecSet] VappSecSetHPVeri::runAppFromNmgr(): Launch app")
+TRC_MSG(TRC_VAPP_SECSET_HPVERIFY_DO_NEXT_VERI, "[SecSet] VappSecSetHPVeri::doNextVerification(): sim = %Mmmi_sim_enum, cause = %d")
+TRC_MSG(TRC_VAPP_SECSET_HPVERIFY_DO_AVAI_CHANGED, "[SecSet] VappSecSetHPVeri::onSimAvailabilityChanged(): $Mmmi_sim_enum, cause = %d, cause_before=%d, avail_now=%d, avail_before=%d, launched = %d, app = 0x%x")
+TRC_MSG(TRC_VAPP_SECSET_PAGESEQ_NOTIFY_DONE, "[SecSet] VappSecSetPageSeq::notifyDone(result = %d)")

@@ -1,0 +1,10 @@
+[APP NAME] = ScreenLock
+[SCOPE] = COSMOS
+[MODULE] = MOD_MMI_COMMON_APP
+
+#start trace
+TRC_MSG(TRC_VAPP_SCREEN_LOCK_PATTERN_CREATE_VIEW, "[SCREEN_LOCK] VappScreenLockPattern::createView, m_isCreated: %d, trace: %d")
+TRC_MSG(TRC_VAPP_SCREEN_LOCK_PATTERN_RELEASE_VIEW, "[SCREEN_LOCK] VappScreenLockPattern::releaseView, m_isCreated: %d, trace: %d")
+TRC_MSG(TRC_VAPP_SCREEN_LOCK_PATTERN_PROCESS_PAGE_ENTER, "[SCREEN_LOCK] VappScreenLockPattern::processPageEnter, trace: %d")
+TRC_MSG(TRC_VAPP_SCREEN_LOCK_PATTERN_PROCESS_PAGE_EXIT, "[SCREEN_LOCK] VappScreenLockPattern::processPageExit, trace: %d")
+TRC_MSG(TRC_VAPP_SCREEN_LOCK_PATTERN_HANDLE_GPIO_LCD_SLEEP_IN, "[SCREEN_LOCK] vapp_screen_pattern_lock_handle_gpio_lcd_sleep_in, trace: %d")

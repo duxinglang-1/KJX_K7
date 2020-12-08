@@ -1,0 +1,12 @@
+[APP NAME] = Cosmos Sound settings App
+[SCOPE] = PLUTO, COSMOS
+[MODULE] = MOD_MMI_MEDIA_APP
+
+#start trace
+TRC_MSG(TRC_VAPP_VOL_DIALOG_HFP_SYNC_CALLBACK, "[Vol Dialog] vapp_volume_dialog_hfp_sync_callback(), is_blocked=[%d]")
+TRC_MSG(TRC_VAPP_VOL_DIALOG_PLAY_AUDIO_CALLBACK, "[Vol Dialog] vapp_volume_dialog_play_audio_callback(), result=[%d]")
+TRC_MSG(TRC_VAPP_VOLUME_DIALOG_VOL, "[Vol Dialog] vapp_volume_dialog_vol(), is_blocked=[%d]")
+TRC_MSG(TRC_VAPP_VOLUME_DIALOG_BLOCK, "[Vol Dialog] vapp_volume_dialog_block(), block=[%d]")
+TRC_MSG(TRC_VAPP_VOL_DIALOG_BT_ONVOLHFP, "[Vol Dialog] VappVolumeDialog::onVolHfp(), m_state=[%d], app_volume=[%d]")
+TRC_MSG(TRC_VAPP_VOL_DIALOG_ONVOLKEY, "[Vol Dialog] VappVolumeDialog::onVolKey(), m_state=[%d], key_code=[%d], key_type=[%d]")
+

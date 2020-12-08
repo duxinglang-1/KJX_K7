@@ -1,0 +1,68 @@
+[APP NAME] = VAPP_FMGR
+[SCOPE] = COSMOS
+[MODULE] = MOD_MMI_COMMON_APP
+
+#start trace
+TRC_MSG(TRC_VAPP_FMGR_INSTANCE_REFRESH_MENU, "[VAPPFMGR]refresh menu, index %d, err_code %d, display_style %d")
+TRC_MSG(TRC_VAPP_FMGR_INSTANCE_ASYNC_LIST, "[VAPPFMGR]asyncloadlist, checkDirty %d")
+TRC_MSG(TRC_VAPP_FMGR_ONCLICKBACK, "[VAPPFMGR]onClickUpButton, set page exit flag")
+TRC_MSG(TRC_VAPP_FMGR_ONLOADRSP, "[VAPPFMGR]onLoadRspCB refresh menu, group %d, result %d, search_index %d")
+TRC_MSG(TRC_VAPP_FMGR_ENTERFOLDER, "[VAPPFMGR]enterFolder, current display %d")
+TRC_MSG(TRC_VAPP_FMGR_ENTERFOLDER_CURPAGEID, "[VAPPFMGR]current page id %d")
+TRC_MSG(TRC_VAPP_FMGR_ROOT2FOLDER, "[VAPPFMGR]root enter folder")
+TRC_MSG(TRC_VAPP_FMGR_2DETAIL, "[VAPPFMGR]enter detail page")
+TRC_MSG(TRC_VAPP_FMGR_FOLDER2FOLDER, "[VAPPFMGR]folder enter folder")
+TRC_MSG(TRC_VAPP_FMGR_EXITFOLDER, "[VAPPFMGR]exitFolder, len %d")
+TRC_MSG(TRC_VAPP_FMGR_BACK2ROOT, "[VAPPFMGR]backRoot")
+TRC_MSG(TRC_VAPP_FMGR_BACK2ROOT_START_END, "[VAPPFMGR]backRoot, start %d, end %d")
+TRC_MSG(TRC_VAPP_FMGR_ACTION_MS_RSP, "[VAPPFMGR]onActionMarkSeveralRsp, error code %d")
+TRC_MSG(TRC_VAPP_FMGR_ONTAPGROUPLISTITEM, "[VAPPFMGR]onTapGroupListMenuItem, group %d, pos %d")
+TRC_MSG(TRC_VAPP_FMGR_FILELISTDIRTY, "[VAPPFMGR]After select folder complete, file list is dirty")
+TRC_MSG(TRC_VAPP_FMGR_ONCLICKGROUPCMDBUTTON, "[VAPPFMGR]onClickGroupCmdButton, group %d, pos %d")
+TRC_MSG(TRC_VAPP_FMGR_AUDIO_DETAIL, "[VAPPFMGR]Audio detail, mdi_result %d")
+TRC_MSG(TRC_VAPP_FMGR_PAGE_ONENTER, "[VAPPFMGR]page onEnter page id %d, m_instance 0x%08X")
+TRC_MSG(TRC_VAPP_FMGR_PAGE_ONENTERED, "[VAPPFMGR]page onEntered")
+TRC_MSG(TRC_VAPP_FMGR_PAGE_ONEXIT, "[VAPPFMGR]page onExit page id %d, m_exit %d")
+TRC_MSG(TRC_VAPP_FMGR_PAGE_ONBACK, "[VAPPFMGR]page onBack page id %d")
+TRC_MSG(TRC_VAPP_FMGR_PAGE_DRAWLISTPAGE, "[VAPPFMGR]drawListPage")
+TRC_MSG(TRC_VAPP_FMGR_PAGE_DRAWGROUPLISTPAGE, "[VAPPFMGR]drawGroupListPage")
+TRC_MSG(TRC_VAPP_FMGR_PAGE_SETCANBACK, "[VAPPFMGR] set can back %d")
+TRC_MSG(TRC_VAPP_FMGR_PAGE_SETCANBACK_UPDATE_UPBUTTON, "[VAPPFMGR] update up button")
+TRC_MSG(TRC_VAPP_FMGR_PAGE_QUERY_SHOWUP, "[VAPPFMGR] show up? title_icn %d, can back %d")
+TRC_MSG(TRC_VAPP_FMGR_CLOSE_PAGE, "[VAPPFMGR]close page, m_id %d, line %d")
+TRC_MSG(TRC_VAPP_FMGR_INSTANCE_ITEMISDISABLED, "[VAPPFMGR] item index %d is disabled? %d")
+TRC_MSG(TRC_VAPP_FMGR_INSTANCE_GROUPITEMISDISABLED, "[VAPPFMGR] item group %d pos %d is disabled? %d")
+
+#main
+TRC_MSG(TRC_VAPP_FMGR_MAIN_ONPROC, "[VAPPFMGR] main onProc, evt id %d")
+TRC_MSG(TRC_VAPP_FMGR_MAIN_ONBACK_QUERYCANBACK, "[VAPPFMGR] main normal onBack, can back %d")
+TRC_MSG(TRC_VAPP_FMGR_FILESEL_ONBACK_QUERYCANBACK, "[VAPPFMGR] file selector onBack, can back %d")
+TRC_MSG(TRC_VAPP_FMGR_FOLDERSEL_ONBACK_QUERYCANBACK, "[VAPPFMGR] folder selector onBack, can back %d")
+
+#cui
+TRC_MSG(TRC_VAPP_FMGR_FILESEL_ONPROC, "[VAPPFMGR] file selector onProc, evt id %d")
+TRC_MSG(TRC_VAPP_FMGR_FOLDERSEL_ONPROC, "[VAPPFMGR] folder selector onProc, evt id %d")
+TRC_MSG(TRC_VAPP_FMGR_FOLDERLAUNCH_ONPROC, "[VAPPFMGR] folder launch onProc, evt id %d")
+TRC_MSG(TRC_VAPP_FMGR_CALLBACKAPP, "[VAPPFMGR] callback app, sender %d, evt id %d")
+
+#storage status
+TRC_MSG(TRC_VAPP_FMGR_SS_ONENTER, "[VAPPFMGR] drawStorageDetail - onEnter FS_GetDevStatus %d")
+TRC_MSG(TRC_VAPP_FMGR_SS_ONENTERED, "[VAPPFMGR] drawStorageDetail - onEntered pageid %d")
+TRC_MSG(TRC_VAPP_FMGR_SS_PROGRESS, "[VAPPFMGR] drawStorageDetail - progress queryUpdate %d")
+TRC_MSG(TRC_VAPP_FMGR_SS_RESULT, "[VAPPFMGR] drawStorageDetail - result queryUpdate %d")
+
+#error handler trace
+TRC_MSG(TRC_VAPP_FMGR_INSTANCE_ERR, "[VAPPFMGR]instance error handler, err_code %d, line %d")
+TRC_MSG(TRC_VAPP_FMGR_MAIN_ERR, "[VAPPFMGR]main error handler, err_code %d, line %d, display_style %d")
+TRC_MSG(TRC_VAPP_FMGR_FOLDERSEL_ERR, "[VAPPFMGR]folder selector error handler, err_code %d, line %d")
+TRC_MSG(TRC_VAPP_FMGR_FILESEL_ERR, "[VAPPFMGR]file selector error handler, err_code %d, line %d")
+TRC_MSG(TRC_VAPP_FMGR_FOLDERLAUNCH_ERR, "[VAPPFMGR]folder launch error handler, err_code %d, line %d, display_style %d")
+
+#general operation
+TRC_MSG(TRC_VAPP_FMGR_OP_SHOWRESULT, "[VAPPFMGR]OP show result, err_code %d, press cancel %d")
+TRC_MSG(TRC_VAPP_FMGR_OP_GETERRORSTR, "[VAPPFMGR]OP error string, action %d, change %d, error_code %d")
+TRC_MSG(TRC_VAPP_FMGR_OP_ISSHOWPROCESSING, "[VAPPFMGR]OP is show processing %d")
+TRC_MSG(TRC_VAPP_FMGR_OP_GETERRORCODE, "[VAPPFMGR]OP get error code %d")
+TRC_MSG(TRC_VAPP_FMGR_OP_CLICKCANCEL, "[VAPPFMGR]click cancel processing job %d")
+TRC_MSG(TRC_VAPP_FMGR_OP_ISREMAINDER, "[VAPPFMGR]isRemainder processed %d, total %d")
+

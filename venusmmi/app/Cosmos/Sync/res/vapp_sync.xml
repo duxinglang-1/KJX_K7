@@ -1,0 +1,13 @@
+<VenusXML>
+  <Layout id="VAPP_SYNC_LAYOUT_LIST">
+    <VfxPage>
+      <VfxTextFrame text="Alarm List from XML!" />
+    </VfxPage>
+  </Layout>
+  <Layout id="VAPP_SYNC_LAYOUT_LIST_ITEM">
+    <VfxPage>
+      <VfxTextFrame text="Alarm List from XML!" />
+    </VfxPage>
+  </Layout>
+</VenusXML>
+

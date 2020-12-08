@@ -1,0 +1,8 @@
+<VenusXML>
+  <Layout id="VAPP_BAIDU_SEARCH_LAYOUT_1">
+    <VfxPage>
+      <VfxTextFrame text="Baidu search from XML!" />
+    </VfxPage>
+  </Layout>
+</VenusXML>
+

@@ -1,0 +1,48 @@
+;output files
+LOCAL &OUTPUT_FILE
+&OUTPUT_FILE="T:\protocol.txt"
+OPEN #1 "&OUTPUT_FILE" /Create
+
+Var.NEW PsFuncPtr * \func
+
+Var.NEW \num
+V \num=g_event_table_runtime_info[0].used_events
+Var.WRITE #1 "the num of USED EVENTS in protocolEventHandler[]: " \num
+V \num=g_event_table_runtime_info[0].max_events
+Var.WRITE #1 "the num of MAX  EVENTS in protocolEventHandler[]: " \num
+
+Var.NEW U8 * \flag
+
+LOCAL &i
+&i=0
+
+Var.WRITE #1 "sizeof(protocolEventHandler)/sizeof(PseventInfo)=" sizeof(protocolEventHandler)/sizeof(PseventInfo)
+
+Var.WRITE #1 ""
+Var.WRITE #1 ""
+
+Var.WHILE &i<\num
+(
+    ;Var.WRITE #1 "Index:      " %d &i
+    Var.WRITE #1 %d &i
+    
+    ;V \func=protocolEventHandler[&i]->entryFuncPtr
+    ;WRITE #1  "Entry_Fun:  " Y.VARNAME(d:V.VALUE(\func)) 
+    WRITE #1  "Entry_Fun:  " Y.VARNAME(d:V.VALUE(protocolEventHandler[&i]->entryFuncPtr)) 
+    
+    ;Var.WRITE #1 %d (*(((PseventInfo *)protocolEventHandler[&i]))).eventID
+    Var.WRITE #1 "MSG_ID:     " %d protocolEventHandler[&i].eventID
+    
+    ;V \flag=protocolEventHandler[&i]->flagMulti
+    ;Var.WRITE #1 %d (*(((PseventInfo *)protocolEventHandler[&i]))).flagMulti
+    Var.WRITE #1 "Flag_Muilti: " %d protocolEventHandler[&i].flagMulti
+    
+    &i=&i+1
+    Var.WRITE #1 ""
+
+)
+
+
+CLOSE #1
+TYPE &OUTPUT_FILE
+ENDDO

@@ -1,0 +1,20 @@
+[APP NAME] = VAPP_MSG
+[SCOPE] = COSMOS
+[MODULE] = MOD_MMI_COMMON_APP
+
+#start trace
+TRC_MSG(TRC_MMI_VAPP_MSG_LAUNCH, "[VappMsg]Message app launch, Mode: <%d>")
+TRC_MSG(TRC_MMI_VAPP_MSG_EXIST, "[VappMsg]Message app exist : <%d>")
+TRC_MSG(TRC_MMI_VAPP_MSG_UM_SRV_EVT, "[VappMsg]Receive srv event, Event id: <%Msrv_um_event_enum>, Obj:<0x%x>")
+TRC_MSG(TRC_MMI_VAPP_MSG_SMS_SRV_EVT, "[VappMsg]Receive srv event, Event id: <%Mmmi_rp_srv_sms_event_enum>, Obj:<0x%x>")
+TRC_MSG(TRC_MMI_VAPP_MSG_MMS_SRV_EVT, "[VappMsg]Receive srv event, Event id: <%Mmmi_rp_app_umms_mms_event_enum>, Obj:<0x%x>")
+TRC_MSG(TRC_MMI_VAPP_MSG_PROV_SRV_EVT, "[VappMsg]Receive srv event, Event id: <%Mmmi_rp_srv_provbox_event_enum>, Obj:<0x%x>")
+TRC_MSG(TRC_MMI_VAPP_MSG_SET_MODE, "[VappMsg]Set new mode, is conversation: <%d>, Obj:<0x%x>")
+TRC_MSG(TRC_MMI_VAPP_MSG_ON_INIT, "[VappMsg]Class::onInit, Obj:<0x%x>")
+TRC_MSG(TRC_MMI_VAPP_MSG_ON_UPDATE, "[VappMsg]Class::onUpdate, Obj:<0x%x>")
+TRC_MSG(TRC_MMI_VAPP_MSG_GET_UNREAD_COUNT, "[VappMsg]Get unread message count, msg type: <%Msrv_um_msg_enum>, number: <%d>, Obj:<0x%x>")
+TRC_MSG(TRC_MMI_VAPP_MSG_GET_READ_STATUTS, "[VappMsg]Get read status, msg type: <%Msrv_um_msg_enum>, msg id: <%d>, read status: <%d>, Obj:<0x%x>")
+TRC_MSG(TRC_MMI_VAPP_MSG_DIALOG_SET_ADDRESS, "[VappMsg]Set the address of dialog list, , Obj:<0x%x>")
+TRC_MSG(TRC_MMI_VAPP_MSG_VIEWER_SET_CONTENT_READY, "[VappMsg]VappMsgViewerCp::setContentReady, msg type:<%Msrv_um_msg_enum>, msg id:<%d>, ready:<%d>, Obj:<0x%x>")
+TRC_MSG(TRC_MMI_VAPP_MSG_VIEWER_SHOW_LOADING_SIZE_CHECK, "[VappMsg]VappMsgViewerCp::showLoading, msg size:<%d, %d>, loading size:<%d, %d>, Obj:<0x%x>")
+TRC_MSG(TRC_MMI_VAPP_MSG_VIEWER_STOP_LOADING, "[VappMsg]VappMsgViewerCp::stopLoading, Obj:<0x%x>")

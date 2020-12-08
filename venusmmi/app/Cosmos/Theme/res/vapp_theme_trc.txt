@@ -1,0 +1,17 @@
+[APP NAME] = VAPP_THEME
+[SCOPE] = COSMOS
+[MODULE] = MOD_MMI_COMMON_APP
+
+#start trace
+#vapp_theme_menu.cpp
+TRC_MSG(VAPP_THEME_MENU_ON_TOUCH, "VappThemeMatrixMenu::onTouchCell(pos=(%d,%d), type=%d)")
+TRC_MSG(VAPP_THEME_MENU_ON_AFTER_UPDATE, "VappThemeMatrixMenu::onAfterUpdate()")
+TRC_MSG(VAPP_THEME_MENU_ON_STARTCHECK, "VappThemeMatrixMenu::startCheck((%d,%d)->(%d,%d))")
+TRC_MSG(VAPP_THEME_ON_TIMER, "VappThemeMatrixMenu::onTimer(currPos=(%d,%d)")
+TRC_MSG(VAPP_THEME_ON_TIMER_NEXTPOS, "VappThemeMatrixMenu::onTimer(nextPos=(%d,%d)")
+TRC_MSG(VAPP_THEME_ON_SCROLL_START, "VappThemeMatrixMenu::onViewScrollStart()")
+TRC_MSG(VAPP_THEME_ON_SCROLL_END, "VappThemeMatrixMenu::onViewScrollEnd()")
+TRC_MSG(VAPP_THEME_APPICON_INIT, "VappThemeAppIconDltData::initAppIcon")
+TRC_MSG(VAPP_THEME_APPICON_CHECK_ACTIVE, "VappThemeDltAppIconCntx::checkActive()ar=%x")
+TRC_MSG(VAPP_THEME_APPICON_CHECK_ACTIVE_DETAIL, "VappThemeDltAppIconCntx::checkActive() flag=%d, pathLen=%d")
+TRC_MSG(VAPP_THEME_APPICON_SET_ACTIVE_PATH, "VappThemeDltAppIconCntx::setActivePath()")TRC_MSG(VAPP_THEME_ACTIVE_FAIL, "VappThemeDltData::activeDltCache()fail fsRet=%d")

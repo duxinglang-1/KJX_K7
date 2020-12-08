@@ -1,0 +1,622 @@
+#include "mmi_features.h"
+#include "custresdef.h"
+#include "gdi_lcd_config.h"
+#include "vfx_sys_config.h"
+
+<?xml version="1.0" encoding="UTF-8"?>
+
+<RECEIVER id="EVT_ID_SRV_DTCNT_ACCT_DELETE_IND" proc="vapp_gallery_stream_dtcnt_acct_event_handler"/>
+<RECEIVER id="EVT_ID_SRV_DTCNT_ACCT_UPDATE_IND" proc="vapp_gallery_stream_dtcnt_acct_event_handler"/>
+
+<APP id = "VCUI_GALLERY_IMAGE_VIEWER" name="STR_ID_VAPP_GALLERY_IMAGE_VIEWER" type="venus">
+    <MEMORY heap="120*1024"
+            fg="VCUI_GALLERY_IMG_VIEWER_FG_SIZE"
+            inc="vapp_gallery_gprot.h"/>
+</APP>
+
+<APP id = "VCUI_GALLERY_VIDEO_PLAYER" name="STR_ID_VAPP_GALLERY_VIDEO_PLAYER" type="venus">
+    <MEMORY heap="100*1024"
+             fg="total(SRV_MDI_VDOPLY_CIF) + GDI_LCD_WIDTH*GDI_LCD_HEIGHT*2 + 200*1024"
+             inc="vfx_sys_config.h" />
+</APP>
+
+<APP id = "VCUI_GALLERY_WALLPAPER_PICKER" name="STR_ID_VAPP_GALLERY_WALLPAPER_PICKER" type="venus">
+    <MEMORY
+    inc="vapp_gallery_gprot.h"
+#if defined(__MMI_VUI_HOMESCREEN_LIVE_WALLPAPER_3D_SAKURA__) || defined(__MMI_VUI_HOMESCREEN_LIVE_WALLPAPER_3D_MAPLE__) || defined(__MMI_VUI_HOMESCREEN_LIVE_WALLPAPER_3D_CASSIA__)
+    heap="320 * 1024"
+#else
+    #ifdef LOW_COST_SUPPORT
+    heap="150 * 1024"
+    #else
+    heap="250 * 1024"
+    #endif
+#endif
+    fg="fg(APP_VENUS_WALLPAPER) + VCUI_GALLERY_WALLPAPER_PICKER_FG_SIZE"
+    #if defined(__VENUS_3D_UI_ENGINE__) && (defined(__MMI_VUI_HOMESCREEN_IG_LIVE_WALLPAPER__) || defined(__MMI_VUI_HOMESCREEN_LIVE_WALLPAPER_FIREFLY__))
+        #if defined(__MMI_MAINLCD_480X800__)
+            vrt_mem_factor="6.0"
+        #else
+            vrt_mem_factor="10.0"
+        #endif
+    #endif
+    />
+</APP>
+
+<APP id = "VCUI_GALLERY_IMAGE_PICKER" name="STR_ID_VAPP_GALLERY_IMAGE_PICKER" type="venus">
+#ifdef LOW_COST_SUPPORT
+    <MEMORY heap="125 * 1024"
+            fg="max(VAPP_GALLERY_DB_WORKING_BUF, VAPP_GALLERY_IMG_PICKER_FG_SIZE) + 1 * SRV_FMGR_FOLDER_FILELIST_MEM_SIZE"
+            inc="vapp_gallery_gprot.h, FileMgrSrvGProt.h" />
+#else
+    <MEMORY heap="360 * 1024"
+            extra_base="VAPP_GALLERY_INDEX_PAGE_EXTRA_BASE"
+            fg="max(VAPP_GALLERY_DB_WORKING_BUF, VAPP_GALLERY_IMG_PICKER_FG_SIZE) + 2 * SRV_FMGR_FOLDER_FILELIST_MEM_SIZE"
+            inc="vapp_gallery_gprot.h, FileMgrSrvGProt.h" />
+#endif
+</APP>
+
+<APP id = "VCUI_GALLERY_VIDEO_PICKER" name="STR_ID_VAPP_GALLERY_VIDEO_PICKER" type="venus">
+#ifdef LOW_COST_SUPPORT
+    <MEMORY heap="150 * 1024"
+            extra_base="VAPP_GALLERY_INDEX_PAGE_EXTRA_BASE"
+            fg="total(SRV_MDI_VDOPLY_PREVIEW) + 1 * SRV_FMGR_FOLDER_FILELIST_MEM_SIZE + max(VAPP_GALLERY_DB_WORKING_BUF, VAPP_GALLERY_VID_PICKER_MEDIA_GRID_FG_SIZE)"
+            inc="vapp_gallery_gprot.h, FileMgrSrvGProt.h" />
+#else
+    <MEMORY heap="300 * 1024"
+            extra_base="VAPP_GALLERY_INDEX_PAGE_EXTRA_BASE"
+            fg="total(SRV_MDI_VDOPLY_PREVIEW) + 2 * SRV_FMGR_FOLDER_FILELIST_MEM_SIZE + max(VAPP_GALLERY_DB_WORKING_BUF, VAPP_GALLERY_VID_PICKER_MEDIA_GRID_FG_SIZE)"
+            inc="vapp_gallery_gprot.h, FileMgrSrvGProt.h" />
+#endif
+</APP>
+
+<APP id="VAPP_GALLERY_STREAM_PLAYER"
+     name="STR_ID_VAPP_GALLERY_STREAM_PLAYER_AP_NAME"
+     package_name = "native.mtk.gallery.stream.player"
+     hidden_in_mainmenu = "true"
+     type="venus">
+
+     <STRING id="STR_ID_VAPP_GALLERY_STREAM_PLAYER_AP_NAME">"Streaming player"</STRING>
+
+     <MEMORY heap="100 * 1024"
+             fg="total(SRV_MDI_STREAMING_QVGA) + GDI_LCD_WIDTH*GDI_LCD_HEIGHT*2 + 200*1024"
+             inc="vfx_sys_config.h" />
+</APP>
+
+<APP id="VAPP_GALLERY_IMAGE_VIEWER"
+     name="STR_ID_VAPP_GALLERY_AP_IMAGE_VIEWER_NAME"
+     package_name = "native.mtk.gallery.image.viewer"
+     hidden_in_mainmenu = "true"
+     type="venus" >
+
+#ifdef LOW_COST_SUPPORT
+    #ifdef __MMI_GALLERY_VIDEO_IN_IMAGE_VIEWER__
+    <MEMORY 
+        inc="vapp_gallery_gprot.h, FileMgrSrvGProt.h, vfx_sys_config.h"
+        heap="150 * 1024 + 1 * SRV_FMGR_FOLDER_FILELIST_MEM_SIZE + VAPP_GALLERY_VRT_RENDER_CMD_EXTRA_SIZE"
+        fg = "VAPP_GALLERY_CAMERA_SENSOR_MEM + max(VAPP_GALLERY_IMG_VIEWER_CONC_FG_SIZE, (total(SRV_MDI_VDOPLY) + GDI_LCD_WIDTH*GDI_LCD_HEIGHT*2 + VAPP_GALLERY_DB_WORKING_BUF))" 
+        cui="max(VCUI_SNS_SLIM_UPLOAD_PIC, max(VCUI_CONTACT_SAVE, max(VCUI_WALLPAPER_SETTING, VCUI_BT_SEND_PREPARE)))" />
+     #else
+     <MEMORY 
+         inc="vapp_gallery_gprot.h, FileMgrSrvGProt.h"
+         heap="150 * 1024 + 1 * SRV_FMGR_FOLDER_FILELIST_MEM_SIZE + VAPP_GALLERY_VRT_RENDER_CMD_EXTRA_SIZE"
+         fg="VAPP_GALLERY_CAMERA_SENSOR_MEM + VAPP_GALLERY_IMG_VIEWER_CONC_FG_SIZE"
+         cui="max(VCUI_SNS_SLIM_UPLOAD_PIC, max(VCUI_CONTACT_SAVE, max(VCUI_WALLPAPER_SETTING, VCUI_BT_SEND_PREPARE)))" />
+    #endif
+#else
+    <MEMORY
+        inc="vapp_gallery_gprot.h, FileMgrSrvGProt.h, vfx_sys_config.h"
+    #ifdef __MMI_GALLERY_VIDEO_IN_IMAGE_VIEWER__
+        heap="370 * 1024 + 1 * SRV_FMGR_FOLDER_FILELIST_MEM_SIZE + VAPP_GALLERY_VRT_RENDER_CMD_EXTRA_SIZE"
+        cui="max(VCUI_SNS_SLIM_UPLOAD_PIC, max(VCUI_VIDEOCLIPPER, max(VCUI_CONTACT_SAVE, max(VCUI_WALLPAPER_SETTING, max(VCUI_MSGCOMPOSER, VCUI_BT_SEND_PREPARE)))))"
+            #ifdef __MMI_VIDEO_SUBTITLE_SUPPORT__
+            fg = "max((total(SRV_MDI_VDOPLY_PREVIEW) + VAPP_GALLERY_IMG_VIEWER_FG_SIZE + VAPP_GALLERY_CAMERA_SENSOR_MEM), (total(SRV_MDI_VDOPLY_SUBTITLE) + GDI_LCD_WIDTH*GDI_LCD_HEIGHT*2 + VAPP_GALLERY_DB_WORKING_BUF + VAPP_GALLERY_VIDEO_SUBTITLE_BUF))"      
+            #else
+            fg = "max((total(SRV_MDI_VDOPLY_PREVIEW) + VAPP_GALLERY_IMG_VIEWER_FG_SIZE + VAPP_GALLERY_CAMERA_SENSOR_MEM), (total(SRV_MDI_VDOPLY) + GDI_LCD_WIDTH*GDI_LCD_HEIGHT*2 + VAPP_GALLERY_DB_WORKING_BUF))"
+            #endif
+    #else
+        heap="300 * 1024 + 1 * SRV_FMGR_FOLDER_FILELIST_MEM_SIZE + VAPP_GALLERY_VRT_RENDER_CMD_EXTRA_SIZE"
+        cui="max(VCUI_SNS_SLIM_UPLOAD_PIC, max(VCUI_CONTACT_SAVE, max(VCUI_WALLPAPER_SETTING, max(VCUI_MSGCOMPOSER, VCUI_BT_SEND_PREPARE))))"
+        fg="VAPP_GALLERY_IMG_VIEWER_FG_SIZE + VAPP_GALLERY_DB_WORKING_BUF"
+    #endif
+    #if defined(__COSMOS_3D_V10__)
+        vrt_mem_factor="VAPP_GALLERY_3D_VRT_MEM_FACTOR"
+    #endif
+     />
+#endif
+</APP>
+
+<APP id="VAPP_GALLERY_VIDEO_PLAYER"
+     name="STR_ID_VAPP_GALLERY_AP_VIDEO_PLAYER_NAME"
+     package_name = "native.mtk.gallery.video.player"
+     hidden_in_mainmenu = "true"
+     type="venus" >
+
+#ifdef LOW_COST_SUPPORT
+     <MEMORY heap="100 * 1024"
+             fg="total(SRV_MDI_VDOPLY) + GDI_LCD_WIDTH*GDI_LCD_HEIGHT*2"
+             inc="vfx_sys_config.h"
+             #ifdef __COSMOS_SLIM_ASM3X_PROFILE__ 
+             vrt_mem_factor= "1"
+             #endif
+             />
+#else
+#ifdef __MMI_VIDEO_SUBTITLE_SUPPORT__
+     <MEMORY heap="100 * 1024"
+             fg="total(SRV_MDI_VDOPLY_SUBTITLE) + GDI_LCD_WIDTH*GDI_LCD_HEIGHT*2 + VAPP_GALLERY_DB_WORKING_BUF + VAPP_GALLERY_VIDEO_SUBTITLE_BUF"
+             inc="vfx_sys_config.h"
+             cui="VCUI_VIDEOCLIPPER" />
+#else
+     <MEMORY heap="100 * 1024"
+             fg="total(SRV_MDI_VDOPLY) + GDI_LCD_WIDTH*GDI_LCD_HEIGHT*2 + VAPP_GALLERY_DB_WORKING_BUF"
+             inc="vfx_sys_config.h"
+             cui="VCUI_VIDEOCLIPPER" />
+#endif
+#endif
+</APP>
+
+#ifdef __MMI_VIDEO_PDL_YOUTUBE__
+<APP id="VAPP_GALLERY_YOUTUBE_PGDL_PLAYER"
+     name="STR_ID_VAPP_GALLERY_AP_YOUTUBE_PGDL_PLAYER_NAME"
+     package_name = "native.mtk.gallery.youtube.pgdl.player"
+     hidden_in_mainmenu = "true"
+     type="venus" >
+
+     <MEMORY heap="100 * 1024"
+             fg="total(SRV_MDI_VDOPLY_QVGA_MPEG4SP) + GDI_LCD_WIDTH*GDI_LCD_HEIGHT*2"
+             inc="vfx_sys_config.h" />
+</APP>
+#endif
+
+<APP id="VAPP_GALLERY" name="STR_ID_VAPP_GALLERY_AP_NAME"
+     package_name = "native.mtk.gallery"
+     img = "IMG_ID_VAPP_GALLERY_APP_ICON"
+     launch = "vapp_gallery_launch"
+     package_proc = "vapp_gallery_package_proc" type="venus">
+
+#ifdef LOW_COST_SUPPORT
+    <MEMORY inc="vapp_gallery_gprot.h, FileMgrSrvGProt.h, vfx_sys_config.h"
+            heap="150 * 1024 + 1 * SRV_FMGR_FOLDER_FILELIST_MEM_SIZE"
+            fg = "max((VAPP_GALLERY_INDEX_PAGE_EXTRA_BASE + total(SRV_MDI_VDOPLY_PREVIEW) + VAPP_GALLERY_DB_WORKING_BUF), max(VAPP_GALLERY_SHOOTING_GRID_FG_SIZE + total(SRV_MDI_VDOPLY_PREVIEW), max(VAPP_GALLERY_IMG_VIEWER_FG_SIZE + VAPP_GALLERY_CAMERA_SENSOR_MEM, (total(SRV_MDI_VDOPLY) + GDI_LCD_WIDTH*GDI_LCD_HEIGHT*2))))" 
+            cui="max(VCUI_SNS_SLIM_UPLOAD_PIC, max(VCUI_CONTACT_SAVE,  max(VCUI_WALLPAPER_SETTING, VCUI_BT_SEND_PREPARE)))" 
+            #ifdef __COSMOS_SLIM_ASM3X_PROFILE__ 
+            vrt_mem_factor= "1"
+            #endif
+            />
+#else
+    <MEMORY 
+        inc="vapp_gallery_gprot.h, FileMgrSrvGProt.h, vfx_sys_config.h"
+        heap="370 * 1024 + 3 * SRV_FMGR_FOLDER_FILELIST_MEM_SIZE + VAPP_GALLERY_VRT_RENDER_CMD_EXTRA_SIZE"
+        extra_base="VAPP_GALLERY_INDEX_PAGE_EXTRA_BASE"
+        cui="max(VCUI_SNS_SLIM_UPLOAD_PIC, max(VCUI_VIDEOCLIPPER, max(VCUI_CONTACT_SAVE, max(VCUI_WALLPAPER_SETTING, max(VCUI_MSGCOMPOSER, VCUI_BT_SEND_PREPARE)))))"
+        #ifdef __MMI_VIDEO_SUBTITLE_SUPPORT__
+            fg = "max((total(SRV_MDI_VDOPLY_PREVIEW) + VAPP_GALLERY_IMG_VIEWER_FG_SIZE + VAPP_GALLERY_CAMERA_SENSOR_MEM), (total(SRV_MDI_VDOPLY_SUBTITLE) + GDI_LCD_WIDTH*GDI_LCD_HEIGHT*2 + VAPP_GALLERY_DB_WORKING_BUF + VAPP_GALLERY_VIDEO_SUBTITLE_BUF))"
+        #else
+            fg = "max((total(SRV_MDI_VDOPLY_PREVIEW) + VAPP_GALLERY_IMG_VIEWER_FG_SIZE + VAPP_GALLERY_CAMERA_SENSOR_MEM), (total(SRV_MDI_VDOPLY) + GDI_LCD_WIDTH*GDI_LCD_HEIGHT*2 + VAPP_GALLERY_DB_WORKING_BUF))"
+        #endif
+        #if defined(__COSMOS_3D_V10__)
+        vrt_mem_factor="VAPP_GALLERY_3D_VRT_MEM_FACTOR"
+        #endif
+    />
+#endif
+
+    <!----- MMI CACHE ------->
+    <CACHEDATA
+          type="byte"
+          id="NVRAM_VAPP_GALLERY_SLD_DELAY_SEC"
+          restore_flag="TRUE"
+          >
+        <DEFAULT_VALUE>[0x00]</DEFAULT_VALUE>
+        <DESCRIPTION>Gallery slideshow delay seconds per slide</DESCRIPTION>
+    </CACHEDATA>
+    <CACHEDATA
+         type="short"
+         id="NVRAM_VAPP_GALLERY_SLD_TRANSITION_ENUM"
+         restore_flag="TRUE">
+        <DEFAULT_VALUE>[0x00,0x00]</DEFAULT_VALUE>
+        <DESCRIPTION>Gallery slideshow transition style enum</DESCRIPTION>
+    </CACHEDATA>
+    <CACHEDATA
+         type="byte"
+         id="NVRAM_VAPP_GALLERY_SLD_IS_SHUFFLE"
+         restore_flag="TRUE">
+        <DEFAULT_VALUE>[0x00]</DEFAULT_VALUE>
+        <DESCRIPTION>Gallery slideshow shuffle enabled</DESCRIPTION>
+    </CACHEDATA>
+    <CACHEDATA
+         type="byte"
+         id="NVRAM_VAPP_GALLERY_SLD_IS_REPEAT"
+         restore_flag="TRUE">
+        <DEFAULT_VALUE>[0x00]</DEFAULT_VALUE>
+        <DESCRIPTION>Gallery slideshow repeat enabled</DESCRIPTION>
+    </CACHEDATA>
+
+    <CACHEDATA
+         type="byte"
+         id="NVRAM_VAPP_GALLERY_OPT_DEFAULT_DRV_TYPE"
+         restore_flag="TRUE">
+        <DEFAULT_VALUE>[0x00]</DEFAULT_VALUE>
+        <DESCRIPTION>Gallery default storage setting</DESCRIPTION>
+    </CACHEDATA>
+
+    <CACHEDATA
+         type="byte"
+         id="NVRAM_VAPP_GALLERY_STREAM_WIFI_ONLY"
+         restore_flag="TRUE">
+        <DEFAULT_VALUE>[0x00]</DEFAULT_VALUE>
+        <DESCRIPTION>Gallery streaming use Wifi only</DESCRIPTION>
+    </CACHEDATA>
+
+    <CACHEDATA
+         type="double"
+         id="NVRAM_VAPP_GALLERY_STREAM_SIM1_ACCOUNT"
+         restore_flag="TRUE">
+        <DEFAULT_VALUE>[0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00]</DEFAULT_VALUE>
+        <DESCRIPTION>Gallery streaming SIM1 data account</DESCRIPTION>
+    </CACHEDATA>
+
+    <CACHEDATA
+         type="double"
+         id="NVRAM_VAPP_GALLERY_STREAM_SIM2_ACCOUNT"
+         restore_flag="TRUE">
+        <DEFAULT_VALUE>[0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00]</DEFAULT_VALUE>
+        <DESCRIPTION>Gallery streaming SIM2 data account</DESCRIPTION>
+    </CACHEDATA>
+
+    <CACHEDATA
+         type="double"
+         id="NVRAM_VAPP_GALLERY_STREAM_SIM3_ACCOUNT"
+         restore_flag="TRUE">
+        <DEFAULT_VALUE>[0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00]</DEFAULT_VALUE>
+        <DESCRIPTION>Gallery streaming SIM3 data account</DESCRIPTION>
+    </CACHEDATA>
+
+    <CACHEDATA
+         type="double"
+         id="NVRAM_VAPP_GALLERY_STREAM_SIM4_ACCOUNT"
+         restore_flag="TRUE">
+        <DEFAULT_VALUE>[0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00]</DEFAULT_VALUE>
+        <DESCRIPTION>Gallery streaming SIM4 data account</DESCRIPTION>
+    </CACHEDATA>
+
+    <!----- Layout ------->
+    <LAYOUT file="vapp_gallery.xml" />
+
+    <!----- THEME ----->
+    <THEME>
+        <IMAGE id="IMG_ID_VAPP_GALLERY_APP_ICON" desc = "Main menu gallery icon">RES_IMG_ROOT"\\\\"__MMI_MAINMENU_ICON_DEFAULT_PATH__"\\\\Gallery.png"</IMAGE>
+        <IMAGE id="IMG_ID_VAPP_GALLERY_PIC_BG_ALL_PIC" desc = "Background image of the title button in My Picture"/>
+        <IMAGE id="IMG_ID_VAPP_GALLERY_PIC_BG_FOLDER_LIST" desc = "Background image of forder list in My Picture"/>
+        <COLOR id="COR_ID_VAPP_GALLERY_PIC_ALL_PIC_LABEL_FONT_BRIGHTNESS" desc = "Font brightness color of the title button in My Picture"/>
+        <COLOR id="COR_ID_VAPP_GALLERY_PIC_ALL_PIC_DESC_FONT_BRIGHTNESS" desc = "Font color of description of the title button in My Picture"/>
+        <COLOR id="COR_ID_VAPP_GALLERY_PIC_FOLDER_LIST_DEFAULT_FONT_WHITENESS" desc = "Font default color for each forder in My Picture"/>
+        <COLOR id="COR_ID_VAPP_GALLERY_PIC_FOLDER_LIST_DEFAULT_COUNT_WHITENESS" desc = "Font color of description for each forder in My Picture"/>
+    </THEME>
+
+    <!----- String ------->
+    <STRING id="STR_ID_VAPP_GALLERY_AP_NAME">"Gallery"</STRING>
+    <STRING id="STR_ID_VAPP_GALLERY_IDX_SHOOTING">"My shootings"</STRING>
+    <STRING id="STR_ID_VAPP_GALLERY_IDX_PICTURE">"My pictures"</STRING>
+    <STRING id="STR_ID_VAPP_GALLERY_IDX_VIDEO">"My videos"</STRING>
+    <STRING id="STR_ID_VAPP_GALLERY_IDX_LAST_PLAY">"Last play video"</STRING>
+    <STRING id="STR_ID_VAPP_GALLERY_IDX_SCANNING">"Scanning..."</STRING>
+    <STRING id="STR_ID_VAPP_GALLERY_IDX_LAST_SHOOTING_PREFIX">"Last Shooting: "</STRING>
+    <STRING id="STR_ID_VAPP_GALLERY_IDX_VIDEO_COUNT_SUFFIX">"videos"</STRING>
+    <STRING id="STR_ID_VAPP_GALLERY_IDX_IMAGE_COUNT_SUFFIX">"pictures"</STRING>
+    <STRING id="STR_ID_VAPP_GALLERY_IDX_FOLDER_COUNT_SUFFIX">"folders"</STRING>
+    <STRING id="STR_ID_VAPP_GALLERY_IDX_PHOTO_COUNT_SUFFIX">"photos"</STRING>
+    <STRING id="STR_ID_VAPP_GALLERY_IDX_VIDEO_COUNT_SUFFIX_SINGLE">"video"</STRING>
+    <STRING id="STR_ID_VAPP_GALLERY_IDX_IMAGE_COUNT_SUFFIX_SINGLE">"picture"</STRING>
+    <STRING id="STR_ID_VAPP_GALLERY_IDX_FOLDER_COUNT_SUFFIX_SINGLE">"folder"</STRING>
+    <STRING id="STR_ID_VAPP_GALLERY_IDX_PHOTO_COUNT_SUFFIX_SINGLE">"photo"</STRING>
+    <STRING id="STR_ID_VAPP_GALLERY_IDX_STORAGE_SELECT">"Storage"</STRING>
+    <STRING id="STR_ID_VAPP_GALLERY_IDX_SELECT_STORAGE_DESC">"Select storage"</STRING>
+    <STRING id="STR_ID_VAPP_GALLERY_PARENTHESIS_LEFT">"("</STRING>
+    <STRING id="STR_ID_VAPP_GALLERY_PARENTHESIS_RIGHT">")"</STRING>
+
+    <STRING id="STR_ID_VAPP_GALLERY_SETTING_TITLE">"Settings"</STRING>
+    <STRING id="STR_ID_VAPP_GALLERY_SETTING_DELAY_PER_IMAGE">"Slideshow interval"</STRING>
+    <STRING id="STR_ID_VAPP_GALLERY_SETTING_SLIDE_TRANSITION_CAPTION">"Slideshow transition"</STRING>
+    <STRING id="STR_ID_VAPP_GALLERY_SETTING_SLIDE_SHUFFLE_CAPTION">"Shuffle"</STRING>
+    <STRING id="STR_ID_VAPP_GALLERY_SETTING_SLIDE_SHUFFLE_DESC">"Shuffle slideshow"</STRING>
+    <STRING id="STR_ID_VAPP_GALLERY_SETTING_SLIDE_REPEAT_CAPTION">"Repeat"</STRING>
+    <STRING id="STR_ID_VAPP_GALLERY_SETTING_SLIDE_REPEAT_DESC">"Repeat slideshow"</STRING>
+    <STRING id="STR_ID_VAPP_GALLERY_SETTING_EFFECT_NONE">"None"</STRING>
+    <STRING id="STR_ID_VAPP_GALLERY_SETTING_EFFECT_FADE_IN">"Fade in"</STRING>
+    <STRING id="STR_ID_VAPP_GALLERY_SETTING_EFFECT_FLIP">"Flip"</STRING>
+    <STRING id="STR_ID_VAPP_GALLERY_SETTING_EFFECT_PUSH">"Push"</STRING>
+    <STRING id="STR_ID_VAPP_GALLERY_SETTING_EFFECT_ZOOM">"Zoom in"</STRING>
+#ifdef __COSMOS_3D_V10__
+    <STRING id="STR_ID_VAPP_GALLERY_SETTING_EFFECT_SCENE">"Scene"</STRING>
+    <STRING id="STR_ID_VAPP_GALLERY_SETTING_EFFECT_FUSION">"Fusion"</STRING>
+    <STRING id="STR_ID_VAPP_GALLERY_SETTING_EFFECT_DOUBLE_PAGE_CURL">"Double page curl"</STRING>
+    <STRING id="STR_ID_VAPP_GALLERY_SETTING_EFFECT_RIPPLE">"Ripple"</STRING>
+    <STRING id="STR_ID_VAPP_GALLERY_SETTING_EFFECT_TWIST">"Twist"</STRING>
+    <STRING id="STR_ID_VAPP_GALLERY_SETTING_EFFECT_MOSAIC">"Mosaic"</STRING>
+#endif
+
+    <STRING id="STR_ID_VAPP_GALLERY_SETTING_SEC">"sec"</STRING>
+    <STRING id="STR_ID_VAPP_GALLERY_SETTING_SECS">"secs"</STRING>
+
+    <STRING id="STR_ID_VAPP_GALLERY_SETTING_STREAM_SETTING">"Streaming video"</STRING>
+    <STRING id="STR_ID_VAPP_GALLERY_SETTING_STREAM_SET_ACCOUNT">"Set default data account"</STRING>
+
+    <STRING id="STR_ID_VAPP_GALLERY_VIDEO_SUBTITLE_SELECTION">"Subtitle language"</STRING>
+
+    <STRING id="STR_ID_VAPP_GALLERY_PIC_ALL_PIC">"All pictures"</STRING>
+
+    <STRING id="STR_ID_VAPP_GALLERY_IMG_PLAY_SLIDESHOW">"Play"</STRING>
+    <STRING id="STR_ID_VAPP_GALLERY_IMG_ROTATE">"Rotate"</STRING>
+    <STRING id="STR_ID_VAPP_GALLERY_IMG_SET_AS">"Set as"</STRING>
+    <STRING id="STR_ID_VAPP_GALLERY_IMG_DETAIL">"Detail"</STRING>
+    <STRING id="STR_ID_VAPP_GALLERY_IMG_CAMERA">"Camera"</STRING>
+    <STRING id="STR_ID_VAPP_GALLERY_IMG_PREVIEW">"Preview"</STRING>
+
+    <STRING id="STR_ID_VAPP_GALLERY_IMG_FIRST_PHOTO">"First photo"</STRING>
+    <STRING id="STR_ID_VAPP_GALLERY_IMG_LAST_PHOTO">"Last photo"</STRING>
+
+    <STRING id="STR_ID_VAPP_GALLERY_IMG_SET_PHOTO_AS">"Set photo as"</STRING>
+    <STRING id="STR_ID_VAPP_GALLERY_IMG_SET_PICTURE_AS">"Set photo as"</STRING>
+
+    <STRING id="STR_ID_VAPP_GALLERY_IMG_AS_CONTACT">"As contact picture"</STRING>
+    <STRING id="STR_ID_VAPP_GALLERY_IMG_AS_HOME_WALLPAPER">"As home wallpaper"</STRING>
+    <STRING id="STR_ID_VAPP_GALLERY_IMG_AS_LOCK_WALLPAPER">"As lock screen wallpaper"</STRING>
+    <STRING id="STR_ID_VAPP_GALLERY_IMG_AS_MENU_WALLPAPER">"Set main menu wallpaper"</STRING>
+
+    <STRING id="STR_ID_VAPP_GALLERY_IMG_PHOTO_BASIC_INFO">"Basic information"</STRING>
+    <STRING id="STR_ID_VAPP_GALLERY_IMG_PHOTO_INFO">"EXIF information"</STRING>
+
+    <STRING id="STR_ID_VAPP_GALLERY_SHARE_PIC_SINGLE">"Share the picture"</STRING>
+    <STRING id="STR_ID_VAPP_GALLERY_SHARE_PHT_SINGLE">"Share the photo"</STRING>
+    <STRING id="STR_ID_VAPP_GALLERY_SHARE_VID_SINGLE">"Share the video"</STRING>
+    <STRING id="STR_ID_VAPP_GALLERY_SHARE_FILE_SINGLE">"Share the file"</STRING>
+    <STRING id="STR_ID_VAPP_GALLERY_SHARE_PIC">"Share pictures"</STRING>
+    <STRING id="STR_ID_VAPP_GALLERY_SHARE_PHT">"Share photos"</STRING>
+    <STRING id="STR_ID_VAPP_GALLERY_SHARE_VID">"Share videos"</STRING>
+    <STRING id="STR_ID_VAPP_GALLERY_SHARE_FILE">"Share files"</STRING>
+
+    <STRING id="STR_ID_VAPP_GALLERY_SHARE_VIA_SNS">"Via SNS"</STRING>
+    <STRING id="STR_ID_VAPP_GALLERY_SHARE_VIA_MMS">"Via MMS"</STRING>
+    <STRING id="STR_ID_VAPP_GALLERY_SHARE_VIA_BT">"Via Bluetooth"</STRING>
+    <STRING id="STR_ID_VAPP_GALLERY_SHARE_VIA_EMAIL">"Via Email"</STRING>
+
+    <STRING id="STR_ID_VAPP_GALLERY_MORE_THAN_BT_LIMIT_CONTINUE">"Can send 50 files at most"</STRING>
+
+    <STRING id="STR_ID_VAPP_GALLERY_SHARE_DRM_ERROR_SINGLE">"This file is DRM protected and cannot be sent"</STRING>
+    <STRING id="STR_ID_VAPP_GALLERY_SHARE_DRM_ERROR_MULTI">"Some of the files are DRM protected, they will not be sent"</STRING>
+
+    <STRING id="STR_ID_VAPP_GALLERY_DELETE_PREFIX">"Delete selected "</STRING>
+    <STRING id="STR_ID_VAPP_GALLERY_DELETE_FILE_SUFFIX">"files"</STRING>
+    <STRING id="STR_ID_VAPP_GALLERY_DELETE_AND">" and "</STRING>
+    <STRING id="STR_ID_VAPP_GALLERY_DELETE_IMG_SUFFIX">"photos"</STRING>
+    <STRING id="STR_ID_VAPP_GALLERY_DELETE_VID_SUFFIX">"videos"</STRING>
+    <STRING id="STR_ID_VAPP_GALLERY_QUESTION_MARK">"?"</STRING>
+    <STRING id="STR_ID_VAPP_GALLERY_DELETING">"Deleting"</STRING>
+    <STRING id="STR_ID_VAPP_GALLERY_CANCELLING">"Cancelling"</STRING>
+
+    <STRING id="STR_ID_VAPP_GALLERY_DELETE_SINGLE_PIC">"Delete the picture?"</STRING>
+    <STRING id="STR_ID_VAPP_GALLERY_DELETE_SINGLE_PHT">"Delete the photo?"</STRING>
+    <STRING id="STR_ID_VAPP_GALLERY_DELETE_SINGLE_VID">"Delete the video?"</STRING>
+    <STRING id="STR_ID_VAPP_GALLERY_DELETE_SINGLE_FILE">"Delete the file?"</STRING>
+
+    <STRING id="STR_ID_VAPP_GALLERY_CANNOT_DELETE">"Cannot delete file"</STRING>
+
+
+    <STRING id="STR_ID_VAPP_GALLERY_NO_IMG">"No images"</STRING>
+    <STRING id="STR_ID_VAPP_GALLERY_NO_PHT">"No photos"</STRING>
+    <STRING id="STR_ID_VAPP_GALLERY_NO_VID">"No videos"</STRING>
+    <STRING id="STR_ID_VAPP_GALLERY_NO_IMG_VID">"No photos and videos"</STRING>
+
+    <STRING id="STR_ID_VAPP_GALLERY_PUT_IMG_HINT">"Please import pictures to My Pictures"</STRING>
+    <STRING id="STR_ID_VAPP_GALLERY_PUT_VID_HINT">"Please import videos to My videos"</STRING>
+
+    <STRING id="STR_ID_VAPP_GALLERY_IMAGE_DETAIL">"Image details"</STRING>
+    <STRING id="STR_ID_VAPP_GALLERY_EXIF_IMAGE_WIDTH">"Image width"</STRING>
+    <STRING id="STR_ID_VAPP_GALLERY_EXIF_IMAGE_HEIGHT">"Image height"</STRING>
+    <STRING id="STR_ID_VAPP_GALLERY_EXIF_FILE_SIZE">"File size"</STRING>
+
+    <STRING id="STR_ID_VAPP_GALLERY_EXIF_MAKE">"Maker"</STRING>
+    <STRING id="STR_ID_VAPP_GALLERY_EXIF_MODEL">"Model"</STRING>
+    <STRING id="STR_ID_VAPP_GALLERY_EXIF_ORIENTATION">"Orientation"</STRING>
+    <STRING id="STR_ID_VAPP_GALLERY_EXIF_X_RESOLUTION">"X-resolution"</STRING>
+    <STRING id="STR_ID_VAPP_GALLERY_EXIF_Y_RESOLUTION">"Y-resolution"</STRING>
+    <STRING id="STR_ID_VAPP_GALLERY_EXIF_RESOLUTION_UNIT">"Resolution unit"</STRING>
+    <STRING id="STR_ID_VAPP_GALLERY_EXIF_SOFTWARE">"Software"</STRING>
+    <STRING id="STR_ID_VAPP_GALLERY_EXIF_DATE_TIME">"Date time"</STRING>
+    <STRING id="STR_ID_VAPP_GALLERY_EXIF_YCBCR_POSITIONING">"YCBCR positioning"</STRING>
+    <STRING id="STR_ID_VAPP_GALLERY_EXIF_EXIF_IFD">"IFD"</STRING>
+
+    <STRING id="STR_ID_VAPP_GALLERY_EXIF_EXPOSURE_TIME">"Exposure time"</STRING>
+    <STRING id="STR_ID_VAPP_GALLERY_EXIF_FNUMBER">"F number"</STRING>
+    <STRING id="STR_ID_VAPP_GALLERY_EXIF_EXPOSURE_PROGRAM">"Exposure program"</STRING>
+    <STRING id="STR_ID_VAPP_GALLERY_EXIF_ISO_SPEED_RATINGS">"ISO"</STRING>
+    <STRING id="STR_ID_VAPP_GALLERY_EXIF_EXIF_VERSION">"EXIF version"</STRING>
+    <STRING id="STR_ID_VAPP_GALLERY_EXIF_DATE_TIME_ORIGINAL">"Original date time"</STRING>
+    <STRING id="STR_ID_VAPP_GALLERY_EXIF_DATE_TIME_DIGITIZED">"Digitized date time"</STRING>
+    <STRING id="STR_ID_VAPP_GALLERY_EXIF_COMPONENTS_CONFIG">"Components config"</STRING>
+    <STRING id="STR_ID_VAPP_GALLERY_EXIF_EXPOSURE_BIAS_VALUE">"Exposure bias value"</STRING>
+    <STRING id="STR_ID_VAPP_GALLERY_EXIF_METERING_MODE">"Metoring mode"</STRING>
+    <STRING id="STR_ID_VAPP_GALLERY_EXIF_LIGHT_SOURCE">"Light source"</STRING>
+    <STRING id="STR_ID_VAPP_GALLERY_EXIF_FLASH">"Flash"</STRING>
+    <STRING id="STR_ID_VAPP_GALLERY_EXIF_MAKER_NOTE">"Maker note"</STRING>
+    <STRING id="STR_ID_VAPP_GALLERY_EXIF_FLASHPIX_VERSION">"FlashPix version"</STRING>
+    <STRING id="STR_ID_VAPP_GALLERY_EXIF_COLOR_SPACE">"Color space"</STRING>
+    <STRING id="STR_ID_VAPP_GALLERY_EXIF_PIXEL_X_DIMENSION">"X dimension"</STRING>
+    <STRING id="STR_ID_VAPP_GALLERY_EXIF_PIXEL_Y_DIMENSION">"Y dimension"</STRING>
+    <STRING id="STR_ID_VAPP_GALLERY_EXIF_EXPOSURE_MODE">"Exposure mode"</STRING>
+    <STRING id="STR_ID_VAPP_GALLERY_EXIF_DIGITAL_ZOOM_RATIO">"Digital zoom ratio"</STRING>
+    <STRING id="STR_ID_VAPP_GALLERY_EXIF_SCENE_CAPTURE_TYPE">"Scene capture type"</STRING>
+    <STRING id="STR_ID_VAPP_GALLERY_EXIF_NO_INFORMATION">"No EXIF info"</STRING>
+
+    <STRING id="STR_ID_VAPP_GALLERY_VIDEO_NOT_AVAILABLE">"video unavailable"</STRING>
+
+    <!----- Images ----->
+    #define GAL_INDEX_PATH          RES_IMG_ROOT"\\\\Gallery\\\\Index\\\\"
+    #define GAL_MY_SHOOTING_PATH    RES_IMG_ROOT"\\\\Gallery\\\\MyShooting\\\\"
+    #define GAL_MY_PICTURE_PATH     RES_IMG_ROOT"\\\\Gallery\\\\MyPicture\\\\"
+    #define GAL_MY_VIDEO_PATH       RES_IMG_ROOT"\\\\Gallery\\\\MyVideo\\\\"
+    #define GAL_IMAGE_VIEWER_PATH   RES_IMG_ROOT"\\\\Gallery\\\\ImageViewer\\\\"
+    #define GAL_VIDEO_PLAYER_PATH   RES_IMG_ROOT"\\\\Gallery\\\\VideoPlayer\\\\"
+    #define PHO_EDT_PATH   					RES_IMG_ROOT"\\\\PhotoEditor\\\\"
+#ifdef __LOW_COST_SUPPORT_COMMON__
+    #define RES_LISTMENU_PATH				RES_THEME_ROOT"\\\\\Theme2\\\\Components\\\\ListMenu\\\\"
+#else
+    #define RES_LISTMENU_PATH				RES_THEME_ROOT"\\\\\Theme1\\\\Components\\\\ListMenu\\\\"
+#endif
+
+
+    <IMAGE id="IMG_ID_VAPP_GALLERY_IDX_SHOOTING_ICON">GAL_INDEX_PATH"icon_myphoto.png"</IMAGE>
+    <IMAGE id="IMG_ID_VAPP_GALLERY_IDX_SHOOTING_BADGE">GAL_INDEX_PATH"badge_photo.png"</IMAGE>
+    <IMAGE id="IMG_ID_VAPP_GALLERY_IDX_PICTURE_ICON">GAL_INDEX_PATH"icon_mypic.png"</IMAGE>
+    <IMAGE id="IMG_ID_VAPP_GALLERY_IDX_VIDEO_ICON">GAL_INDEX_PATH"icon_myvideo.png"</IMAGE>
+    <IMAGE id="IMG_ID_VAPP_GALLERY_IDX_VIDEO_BADGE">GAL_INDEX_PATH"badge_mov.png"</IMAGE>
+    <IMAGE id="IMG_ID_VAPP_GALLERY_IDX_THUMB_FRAME">GAL_INDEX_PATH"frame_1.png"</IMAGE>
+    <IMAGE id="IMG_ID_VAPP_GALLERY_IDX_THUMB_FRAME_ROTATED">GAL_INDEX_PATH"frame_2.png"</IMAGE>
+    <IMAGE id="IMG_ID_VAPP_GALLERY_IDX_BG_LAST_PLAY">GAL_INDEX_PATH"last_mov_bg.9slice.png"</IMAGE>
+
+    <IMAGE id="IMG_ID_VAPP_GALLERY_SLD_TRANS_A">GAL_INDEX_PATH"transition_a.jpg"</IMAGE>
+    <IMAGE id="IMG_ID_VAPP_GALLERY_SLD_TRANS_B">GAL_INDEX_PATH"transition_b.jpg"</IMAGE>
+
+    <IMAGE id="IMG_ID_VAPP_GALLERY_SLD_PREV_PLAY_D">RES_IMG_ROOT"\\\\Profile\\\\Button_Play_D.png"</IMAGE>
+    <IMAGE id="IMG_ID_VAPP_GALLERY_SLD_PREV_PLAY_N">RES_IMG_ROOT"\\\\Profile\\\\Button_Play_N.png"</IMAGE>
+    <IMAGE id="IMG_ID_VAPP_GALLERY_SLD_PREV_PLAY_P">RES_IMG_ROOT"\\\\Profile\\\\Button_Play_P.png"</IMAGE>
+
+    <IMAGE id="IMG_ID_VAPP_GALLERY_SHT_MAV_ICON">GAL_MY_SHOOTING_PATH"3D_icon.png"</IMAGE>
+    <IMAGE id="IMG_ID_VAPP_GALLERY_SHT_VIDEO_FRAME">GAL_MY_SHOOTING_PATH"frame_mov.png"</IMAGE>
+    <IMAGE id="IMG_ID_VAPP_GALLERY_SHT_VIDEO_ICON">GAL_MY_SHOOTING_PATH"icon_mov.png"</IMAGE>
+    <IMAGE id="IMG_ID_VAPP_GALLERY_SHT_LOADING_ICON">GAL_MY_SHOOTING_PATH"icon_loading.png"</IMAGE>
+    <IMAGE id="IMG_ID_VAPP_GALLERY_SHT_DRM_ICON">GAL_MY_SHOOTING_PATH"icon_drm.png"</IMAGE>
+    <IMAGE id="IMG_ID_VAPP_GALLERY_SHT_UNKNOWN_FORMAT_ICON">GAL_MY_SHOOTING_PATH"icon_unknown_format.png"</IMAGE>
+    <IMAGE id="IMG_ID_VAPP_GALLERY_SHT_CHECK_EMPTY">RES_LISTMENU_PATH"CheckBox_Off.png"</IMAGE>
+    <IMAGE id="IMG_ID_VAPP_GALLERY_SHT_CHECK_CHECKED">RES_LISTMENU_PATH"CheckBox_On.png"</IMAGE>
+    <IMAGE id="IMG_ID_VAPP_GALLERY_SHARE_BY_BT">RES_IMG_ROOT"\\\\FMGR\\\\ToolbarIcon\\\\BT.png"</IMAGE>
+
+    <IMAGE id="IMG_ID_VAPP_GALLERY_PIC_FRAME">GAL_MY_PICTURE_PATH"frame.png"</IMAGE>
+    <IMAGE id="IMG_ID_VAPP_GALLERY_PIC_FRAME_DOWN">GAL_MY_PICTURE_PATH"frame_down.png"</IMAGE>
+
+    <IMAGE id="IMG_ID_VAPP_GALLERY_IMG_BAR_ICON_SET_AS">GAL_IMAGE_VIEWER_PATH"btn_set_as.png"</IMAGE>
+    <IMAGE id="IMG_ID_VAPP_GALLERY_IMG_BAR_ICON_INFO">GAL_IMAGE_VIEWER_PATH"btn_info.png"</IMAGE>
+    <IMAGE id="IMG_ID_VAPP_GALLERY_IMG_BAR_ICON_ROTATE">GAL_IMAGE_VIEWER_PATH"btn_rotate.png"</IMAGE>
+    <IMAGE id="IMG_ID_VAPP_GALLERY_IMG_BAR_ICON_SLIDESHOW">GAL_IMAGE_VIEWER_PATH"btn_slide_show.png"</IMAGE>
+    <IMAGE id="IMG_ID_VAPP_GALLERY_IMG_BAR_ICON_CAMERA">GAL_IMAGE_VIEWER_PATH"btn_camera.png"</IMAGE>
+    <IMAGE id="IMG_ID_VAPP_GALLERY_IMG_ICON_VIDEO">GAL_IMAGE_VIEWER_PATH"btn_video.png"</IMAGE>
+   	<IMAGE id="IMG_ID_VAPP_GALLERY_IMG_BTN_EDIT">GAL_IMAGE_VIEWER_PATH"btn_edit.png"</IMAGE>
+   	<IMAGE id="IMG_ID_VAPP_GALLERY_IMG_BTN_EDIT_DISABLED">GAL_IMAGE_VIEWER_PATH"btn_edit_d.png"</IMAGE>
+   	<IMAGE id="IMG_ID_VAPP_GALLERY_IMG_ZOOM_HORZ_SLIDER">GAL_IMAGE_VIEWER_PATH"Horizontal_BG.9slice.png"</IMAGE>
+#ifdef __LOW_COST_SUPPORT_COMMON__
+   	<IMAGE id="IMG_ID_VAPP_GALLERY_IMG_ZOOM_IN">GAL_IMAGE_VIEWER_PATH"Add.png"</IMAGE>
+   	<IMAGE id="IMG_ID_VAPP_GALLERY_IMG_ZOOM_OUT">GAL_IMAGE_VIEWER_PATH"Reduce.png"</IMAGE>
+#else
+   	<IMAGE id="IMG_ID_VAPP_GALLERY_IMG_ZOOM_IN">PHO_EDT_PATH"Add.png"</IMAGE>
+   	<IMAGE id="IMG_ID_VAPP_GALLERY_IMG_ZOOM_OUT">PHO_EDT_PATH"Reduce.png"</IMAGE>
+#endif
+   	<IMAGE id="IMG_ID_VAPP_GALLERY_IMG_ZOOM_THUMB">PHO_EDT_PATH"CropBall_01.png"</IMAGE>
+   	<IMAGE id="IMG_ID_VAPP_GALLERY_IMG_MAV_LEFT">GAL_IMAGE_VIEWER_PATH"arrow_l.png"</IMAGE>
+   	<IMAGE id="IMG_ID_VAPP_GALLERY_IMG_MAV_RIGHT">GAL_IMAGE_VIEWER_PATH"arrow_r.png"</IMAGE>
+   	<IMAGE id="IMG_ID_VAPP_GALLERY_IMG_MAV_ICON">GAL_IMAGE_VIEWER_PATH"Mav_icon.png"</IMAGE>
+   	<IMAGE id="IMG_ID_VAPP_GALLERY_IMG_3D_RB_ICON">GAL_IMAGE_VIEWER_PATH"3D_red_blue_icon.png"</IMAGE>
+    <IMAGE id="IMG_ID_VAPP_GALLERY_MYVID_ICON_LAST_PLAY">GAL_MY_VIDEO_PATH"icon_last_play.png"</IMAGE>
+
+    <IMAGE id="IMG_ID_VAPP_GALLERY_VID_BG">RES_IMG_ROOT"\\\\Common\\\\Grid_BG.9slice.png"</IMAGE>
+    <IMAGE id="IMG_ID_VAPP_GALLERY_VID_BTN_VCR_BG">GAL_VIDEO_PLAYER_PATH"bottom_bg.9slice.png"</IMAGE>
+    <IMAGE id="IMG_ID_VAPP_GALLERY_VID_BTN_BG_N">GAL_VIDEO_PLAYER_PATH"Btn_BG_N.png"</IMAGE>
+    <IMAGE id="IMG_ID_VAPP_GALLERY_VID_BTN_BG_D">GAL_VIDEO_PLAYER_PATH"Btn_BG_D.png"</IMAGE>
+    <IMAGE id="IMG_ID_VAPP_GALLERY_VID_BTN_BG_P">GAL_VIDEO_PLAYER_PATH"Btn_BG_P.png"</IMAGE>
+    <IMAGE id="IMG_ID_VAPP_GALLERY_VID_BTN_FG_PLAY">GAL_VIDEO_PLAYER_PATH"Btn_Play.png"</IMAGE>
+    <IMAGE id="IMG_ID_VAPP_GALLERY_VID_BTN_FG_PAUSE">GAL_VIDEO_PLAYER_PATH"Btn_Pause.png"</IMAGE>
+    <IMAGE id="IMG_ID_VAPP_GALLERY_VID_BTN_FG_STOP">GAL_VIDEO_PLAYER_PATH"Btn_Stop.png"</IMAGE>
+    <IMAGE id="IMG_ID_VAPP_GALLERY_VID_ICON_AUDIO_ONLY">GAL_VIDEO_PLAYER_PATH"icon_default.png"</IMAGE>
+    <IMAGE id="IMG_ID_VAPP_GALLERY_VID_SETTING_BG">GAL_VIDEO_PLAYER_PATH"setting_bg.9slice.png"</IMAGE>
+    <IMAGE id="IMG_ID_VAPP_GALLERY_VID_SETTING_SEPARATOR">GAL_VIDEO_PLAYER_PATH"line.png"</IMAGE>
+    <IMAGE id="IMG_ID_VAPP_GALLERY_VID_BTN_SETTING">GAL_VIDEO_PLAYER_PATH"setting_button.png"</IMAGE>
+    <IMAGE id="IMG_ID_VAPP_GALLERY_VID_BTN_SETTING_D">GAL_VIDEO_PLAYER_PATH"setting_button_d.png"</IMAGE>
+    <IMAGE id="IMG_ID_VAPP_GALLERY_VID_BTN_SCREEN_CLIP_N">GAL_VIDEO_PLAYER_PATH"screen_clip.png"</IMAGE>
+    <IMAGE id="IMG_ID_VAPP_GALLERY_VID_BTN_SCREEN_CLIP_D">GAL_VIDEO_PLAYER_PATH"screen_clip_dis.png"</IMAGE>
+    <IMAGE id="IMG_ID_VAPP_GALLERY_VID_BTN_SCREEN_NORMAL_N">GAL_VIDEO_PLAYER_PATH"screen_normal.png"</IMAGE>
+    <IMAGE id="IMG_ID_VAPP_GALLERY_VID_BTN_SCREEN_NORMAL_D">GAL_VIDEO_PLAYER_PATH"screen_normal_dis.png"</IMAGE>
+    <IMAGE id="IMG_ID_VAPP_GALLERY_VID_BTN_SCREEN_RESIZE_N">GAL_VIDEO_PLAYER_PATH"screen_resize.png"</IMAGE>
+    <IMAGE id="IMG_ID_VAPP_GALLERY_VID_BTN_SCREEN_RESIZE_D">GAL_VIDEO_PLAYER_PATH"screen_resize_dis.png"</IMAGE>
+    <IMAGE id="IMG_ID_VAPP_GALLERY_VID_BTN_3D_N">GAL_VIDEO_PLAYER_PATH"icon_3D.png"</IMAGE>
+    <IMAGE id="IMG_ID_VAPP_GALLERY_VID_BTN_3D_D">GAL_VIDEO_PLAYER_PATH"icon_3D_d.png"</IMAGE>
+    <IMAGE id="IMG_ID_VAPP_GALLERY_VID_BTN_3D_ON">GAL_VIDEO_PLAYER_PATH"icon_3D_on.png"</IMAGE>
+    <IMAGE id="IMG_ID_VAPP_GALLERY_VID_BTN_BASE_SURROUND_N">GAL_VIDEO_PLAYER_PATH"icon_surround.png"</IMAGE>
+    <IMAGE id="IMG_ID_VAPP_GALLERY_VID_BTN_BASE_SURROUND_D">GAL_VIDEO_PLAYER_PATH"icon_surround_d.png"</IMAGE>
+    <IMAGE id="IMG_ID_VAPP_GALLERY_VID_BTN_BASE_SURROUND_ON">GAL_VIDEO_PLAYER_PATH"icon_surround_on.png"</IMAGE>
+    <IMAGE id="IMG_ID_VAPP_GALLERY_VID_BTN_EDIT_N">GAL_VIDEO_PLAYER_PATH"icon_editor.png"</IMAGE>
+    <IMAGE id="IMG_ID_VAPP_GALLERY_VID_BTN_EDIT_D">GAL_VIDEO_PLAYER_PATH"icon_editor_d.png"</IMAGE>
+    <IMAGE id="IMG_ID_VAPP_GALLERY_VID_BTN_SUBTITLE_LANGUAGE_N">GAL_VIDEO_PLAYER_PATH"icon_language.png"</IMAGE>
+    <IMAGE id="IMG_ID_VAPP_GALLERY_VID_BTN_SUBTITLE_LANGUAGE_D">GAL_VIDEO_PLAYER_PATH"icon_language_d.png"</IMAGE>
+
+    <IMAGE id="IMG_ID_VAPP_GALLERY_VID_PGDL_PROGRESS_TRACK">GAL_VIDEO_PLAYER_PATH"ProgressBar.9slice.png"</IMAGE>
+
+    <!-- Icon for supported file types  -->
+    <IMAGE id="IMG_ID_VAPP_GALLERY_ID_FILE_TYPE_IMAGE">RES_IMG_ROOT"\\\\FMGR\\\\ListIcon\\\\Image.png"</IMAGE>
+    <IMAGE id="IMG_ID_VAPP_GALLERY_ID_FILE_TYPE_VIDEO">RES_IMG_ROOT"\\\\FMGR\\\\ListIcon\\\\Video.png"</IMAGE>
+
+
+    <!-- Supported file type option handler: Image -->
+    <MENU id="MENU_ID_VAPP_GALLERY_IMAGE_OPTION" type="OPTION" str="STR_ID_VAPP_GALLERY_AP_NAME">
+        <MENUITEM_ID>MENU_ID_VAPP_GALLERY_IMAGE_OPEN</MENUITEM_ID>
+    </MENU>
+    <MENUITEM id="MENU_ID_VAPP_GALLERY_IMAGE_OPEN" str="STR_ID_VAPP_GALLERY_AP_NAME"/>
+
+    <MENU id="MENU_ID_VAPP_GALLERY_IMAGE_SEND_OPTION" type="OPTION" str="STR_ID_VAPP_GALLERY_AP_NAME">
+        <!--MENUITEM_ID>VAPP_MENU_ID_MMS_SEND_FILE</MENUITEM_ID-->
+    </MENU>
+
+    <!-- Supported file type option handler: Video -->
+    <MENU id="MENU_ID_VAPP_GALLERY_VIDEO_OPTION" type="OPTION" str="STR_ID_VAPP_GALLERY_AP_NAME">
+        <MENUITEM_ID>MENU_ID_VAPP_GALLERY_VIDEO_OPEN</MENUITEM_ID>
+    </MENU>
+    <MENUITEM id="MENU_ID_VAPP_GALLERY_VIDEO_OPEN" str="STR_ID_VAPP_GALLERY_AP_NAME"/>
+
+    <!-- Supported file type option handler: Stream -->
+    <MENU id="MENU_ID_VAPP_GALLERY_STREAM_OPTION" type="OPTION" str="STR_ID_VAPP_GALLERY_AP_NAME">
+        <MENUITEM_ID>MENU_ID_VAPP_GALLERY_STREAM_OPEN</MENUITEM_ID>
+    </MENU>
+    <MENUITEM id="MENU_ID_VAPP_GALLERY_STREAM_OPEN" str="STR_ID_VAPP_GALLERY_AP_NAME"/>
+
+
+#ifdef __COSMOS_3D_V10__
+
+#ifndef RES_BIN_V3D_THEME_ROOT
+#define RES_BIN_V3D_THEME_ROOT          RES_THEME_ROOT
+#define RES_BIN_V3D_COMMON_PATH         RES_BIN_V3D_THEME_ROOT"\\\\Default\\\\Common\\\\"
+#define RES_BIN_V3D_COMMON_SHADER_PATH  RES_BIN_V3D_COMMON_PATH"\\\\Shader\\\\"
+#define RES_BIN_V3D_COMMON_IMAGE_PATH   RES_BIN_V3D_COMMON_PATH"\\\\Image\\\\"
+#endif /* RES_BIN_V3D_THEME_ROOT */
+
+    <!------------------ 3D Scene slideshow resource ------------------->
+    #define GAL_3D_PATH     RES_BIN_V3D_THEME_ROOT"\\\\Default\\\\3D\\\\Gallery\\\\"
+    <BINARY3D id="VAPP_GALLERY_3D_SLIDESHOW_SCENE">GAL_3D_PATH"Gallery_Scene\\\\Gallery_Scene.scn"</BINARY3D>
+    <BINARY3D id="VAPP_GALLERY_3D_SLIDESHOW_PHOTO_H_32">GAL_3D_PATH"Gallery_Photo-H-32\\\\Gallery_Photo-H-32.scn"</BINARY3D>
+    <BINARY3D id="VAPP_GALLERY_3D_SLIDESHOW_PHOTO_V_32">GAL_3D_PATH"Gallery_Photo-V-32\\\\Gallery_Photo-V-32.scn"</BINARY3D>
+    <BINARY3D id="VAPP_GALLERY_3D_SLIDESHOW_PHOTO_H_43">GAL_3D_PATH"Gallery_Photo-H-43\\\\Gallery_Photo-H-43.scn"</BINARY3D>
+    <BINARY3D id="VAPP_GALLERY_3D_SLIDESHOW_PHOTO_V_43">GAL_3D_PATH"Gallery_Photo-V-43\\\\Gallery_Photo-V-43.scn"</BINARY3D>
+    <BINARY3D id="VAPP_GALLERY_3D_SLIDESHOW_PHOTO_H_53">GAL_3D_PATH"Gallery_Photo-H-53\\\\Gallery_Photo-H-53.scn"</BINARY3D>
+    <BINARY3D id="VAPP_GALLERY_3D_SLIDESHOW_PHOTO_V_53">GAL_3D_PATH"Gallery_Photo-V-53\\\\Gallery_Photo-V-53.scn"</BINARY3D>
+    <BINARY3D id="VAPP_GALLERY_3D_SLIDESHOW_PHOTO_H_169">GAL_3D_PATH"Gallery_Photo-H-169\\\\Gallery_Photo-H-169.scn"</BINARY3D>
+    <BINARY3D id="VAPP_GALLERY_3D_SLIDESHOW_PHOTO_V_169">GAL_3D_PATH"Gallery_Photo-V-169\\\\Gallery_Photo-V-169.scn"</BINARY3D>
+
+    <BINARY3D id="VAPP_GALLERY_3D_SLIDESHOW_PHOTO_H_32_ANIM">GAL_3D_PATH"Gallery_Photo-H-32\\\\Gallery_Photo-H-32.ani"</BINARY3D>
+    <BINARY3D id="VAPP_GALLERY_3D_SLIDESHOW_PHOTO_V_32_ANIM">GAL_3D_PATH"Gallery_Photo-V-32\\\\Gallery_Photo-V-32.ani"</BINARY3D>
+    <BINARY3D id="VAPP_GALLERY_3D_SLIDESHOW_PHOTO_H_43_ANIM">GAL_3D_PATH"Gallery_Photo-H-43\\\\Gallery_Photo-H-43.ani"</BINARY3D>
+    <BINARY3D id="VAPP_GALLERY_3D_SLIDESHOW_PHOTO_V_43_ANIM">GAL_3D_PATH"Gallery_Photo-V-43\\\\Gallery_Photo-V-43.ani"</BINARY3D>
+    <BINARY3D id="VAPP_GALLERY_3D_SLIDESHOW_PHOTO_H_53_ANIM">GAL_3D_PATH"Gallery_Photo-H-53\\\\Gallery_Photo-H-53.ani"</BINARY3D>
+    <BINARY3D id="VAPP_GALLERY_3D_SLIDESHOW_PHOTO_V_53_ANIM">GAL_3D_PATH"Gallery_Photo-V-53\\\\Gallery_Photo-V-53.ani"</BINARY3D>
+    <BINARY3D id="VAPP_GALLERY_3D_SLIDESHOW_PHOTO_H_169_ANIM">GAL_3D_PATH"Gallery_Photo-H-169\\\\Gallery_Photo-H-169.ani"</BINARY3D>
+    <BINARY3D id="VAPP_GALLERY_3D_SLIDESHOW_PHOTO_V_169_ANIM">GAL_3D_PATH"Gallery_Photo-V-169\\\\Gallery_Photo-V-169.ani"</BINARY3D>
+
+    <BINARY3D id="VAPP_GALLERY_3D_SLIDESHOW_SHADOW_VS" base_path="current">"vapp_gallery_planar_shadow.vs"</BINARY3D>
+    <BINARY3D id="VAPP_GALLERY_3D_SLIDESHOW_SHADOW_FS" base_path="current">"vapp_gallery_planar_shadow.fs"</BINARY3D>
+    <BINARY3D id="VAPP_GALLERY_3D_SLIDESHOW_CORNER_VS" base_path="current">"vapp_gallery_corner.vs"</BINARY3D>
+    <BINARY3D id="VAPP_GALLERY_3D_SLIDESHOW_CORNER_FS" base_path="current">"vapp_gallery_corner.fs"</BINARY3D>
+    <BINARY3D id="VAPP_GALLERY_3D_SLIDESHOW_B6_VS" base_path="current">"vapp_gallery_b6.vs"</BINARY3D>
+    <BINARY3D id="VAPP_GALLERY_3D_SLIDESHOW_B6_FS" base_path="current">"vapp_gallery_b6.fs"</BINARY3D>
+    <IMAGE id="VAPP_GALLERY_3D_SLIDESHOW_DARK_CORNER">GAL_3D_PATH"Texture\\\\dark_corner.ktx"</IMAGE>
+    <IMAGE id="VAPP_GALLERY_3D_SLIDESHOW_PAUSE_OVERLAY">GAL_3D_PATH"Texture\\\\pause_overlay.png"</IMAGE>
+    <IMAGE id="VAPP_GALLERY_3D_SLIDESHOW_PLAY_OVERLAY">GAL_3D_PATH"Texture\\\\play_overlay.png"</IMAGE>
+#endif /* __COSMOS_3D_V10__ */
+</APP>
+
+

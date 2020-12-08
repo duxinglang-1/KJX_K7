@@ -1,0 +1,7 @@
+<VenusXML>
+  <Layout id="VAPP_CUSTOMER_SERVICE_LAYOUT">
+    <VfxPage> 
+      <VfxTextFrame text="Customer Service from XML!" />
+    </VfxPage>
+  </Layout>
+</VenusXML>

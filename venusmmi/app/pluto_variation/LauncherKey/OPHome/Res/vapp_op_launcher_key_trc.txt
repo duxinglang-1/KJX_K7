@@ -1,0 +1,10 @@
+[APP NAME] = OPKeyLauncher
+[SCOPE] = PLUTO,COSMOS
+[MODULE] = MOD_MMI_COMMON_APP
+
+#start trace
+TRC_MSG(TRC_VAPP_OP_LAUNCHER_KEY_HS_SHORTCUT_CREATE,             "[KeyL][OPHS]VappOpKeyLauncherShrtBar::onInit, m_shortcutCount = %d")
+TRC_MSG(TRC_VAPP_OP_LAUNCHER_KEY_HS_SHORTCUT_LAUNCH,             "[KeyL][OPHS]VappOpKeyLauncherShrtBar::launchShortcut, m_shortcutHighlightIdx = %d")
+TRC_MSG(TRC_VAPP_OP_LAUNCHER_KEY_HS_REFRESH_OPNAME,              "[KeyL][OPHS]VappOpKeyLauncherOperatorFrame::refreshOpName, EVT_ID_SRV_NW_NAME_CHANGED")
+TRC_MSG(TRC_VAPP_OP_LAUNCHER_KEY_HS_UPDATE_OPNAME,               "[KeyL][OPHS]VappOpKeyLauncherOperatorFrame::update, numSIMInsert = %d")
+TRC_MSG(TRC_VAPP_OP_LAUNCHER_KEY_HS_REFRESH_SAT,                 "[KeyL][OPHS]VappOpKeyLauncherIdleModeText::refreshIdleModeText, EVT_ID_SRV_SAT_SETUP_IDLE_DISPLAY")

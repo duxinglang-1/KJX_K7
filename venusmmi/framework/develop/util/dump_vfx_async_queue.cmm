@@ -1,0 +1,81 @@
+; Output File Name
+LOCAL &filename
+&filename="T:\dump_vfx_async_queue.txt"
+
+
+OPEN #1 &filename /Create
+
+LOCAL &processPostEmit
+&processPostEmit=V.VALUE(VfxAsyncSignalUtil::processPostEmit)+0x1
+
+WRITE #1 "[VfxAsyncSignalQueue]"
+WRITE #1 
+
+Var.NEW SlotQueueEntry * \i
+Var.SET \i=VfxAsyncSignalQueue::s_instance->m_listHead
+
+LOCAL &n
+&n=0
+
+Var.WHILE \i!=0
+(
+    Var.IF (unsigned int)\i->m_callback==&processPostEmit
+    (
+        Var.NEW VfxPostEmitData * \data
+        Var.SET \data=(VfxPostEmitData *)\i->m_data
+
+        ; Slots callbacks
+        Var.NEW SlotListEntry * \slotEntry
+        Var.SET \slotEntry=\data->slots.m_listHead
+        Var.WHILE \slotEntry!=0
+        (
+            LOCAL &obj &func
+            &obj="\slotEntry->m_slot->m_objPtr->m_flagPtr->m_objPtr"
+            GOSUB getClassName &obj
+            ENTRY &className
+            &func="\slotEntry->m_slot.m_callback"
+            WRITE #1 "#" FORMAT.DECIMAL(3, &n) " (&className *)0x",V.VALUE(&obj) " " Y.VARNAME(d:V.VALUE(&func))
+            
+            Var.SET \slotEntry=\slotEntry->m_next;
+        )
+
+        ; Callback
+        Var.IF (unsigned int)\data->callback_funcptr!=0
+        (
+            LOCAL &obj &func 
+            &obj="\data->callback_obj->m_flagPtr->m_objPtr"
+            GOSUB getClassName &obj
+            ENTRY &className
+            &func="\data->callback_funcptr"
+            WRITE #1 "#" FORMAT.DECIMAL(3, &n) " (&className *)0x",V.VALUE(&obj) " " Y.VARNAME(d:V.VALUE(&func))
+        )
+    )
+
+    Var.SET \i=\i->m_next;
+    &n=&n+1
+)
+
+IF &n==0
+    WRITE #1 "<empty>"
+
+CLOSE #1
+
+TYPE &filename
+
+ENDDO
+
+
+; =============================================================================
+;  Function
+; =============================================================================
+
+getClassName:
+    ENTRY &obj
+    LOCAL &vtable &className
+    &vtable=Y.NAME(d:DATA.LONG(d:V.VALUE(&obj)))
+    IF string.len("&vtable")!=0
+        &className=string.cut("&vtable", 11.+STRING.SCAN("&vtable", "vtable for ", 0))
+    ELSE
+        &className="?????"
+    RETURN &className
+

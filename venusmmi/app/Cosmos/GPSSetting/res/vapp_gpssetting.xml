@@ -1,0 +1,24 @@
+<VenusXML>
+  <Layout id="VAPP_GPSSETTING_LAYOUT_1">
+    <VfxPage>
+      <VcpTitleBar title="@STR_ID_VAPP_GPS_SETTING_GPS"/>
+      <VcpForm name="Form">
+          <!--GPS group title-->
+          <VcpFormItemCaption name="GpsGrpTitle" text="@STR_ID_VAPP_GPS_SETTING_GPS"/>
+          <!--GPS switch on/off button-->
+          <VcpFormItemSwitchCell name="GpsSwtPwr" MainText="@STR_ID_VAPP_GPS_SETTING_GPS"/>
+          <VcpFormItemSwitchCell name="TimeSync" MainText="@STR_ID_VAPP_GPS_SETTING_TIME_SYNC"/>
+
+          <!--AGPS group title, need compile option check-->
+          <VcpFormItemCaption name="AGpsGrpTitle" text="@STR_ID_VAPP_GPS_SETTING_AGPS"/>
+          <!--AGPS switch on/off button-->
+          <VcpFormItemSwitchCell name="AGpsSwtPwr" MainText="@STR_ID_VAPP_GPS_SETTING_AGPS"/>
+          <!--Send location-->
+          <VcpFormItemSwitchCell name="SendLoc" MainText="@STR_ID_VAPP_GPS_SETTING_SEND_LOCATION"/>
+          <!--MiniGPS entry for debug-->
+          <VcpFormItemLauncherCell name="EmGps" HintText="STR_ID_VAPP_GPS_SETTING_GPS"/>
+      </VcpForm>
+    </VfxPage>
+  </Layout>
+</VenusXML>
+

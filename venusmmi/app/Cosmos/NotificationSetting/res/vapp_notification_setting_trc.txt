@@ -1,0 +1,5 @@
+[APP NAME] = Notification Setting App
+[SCOPE] = COSMOS
+[MODULE] = MOD_MMI_CONN_APP
+#start trace
+#vapp_bt_main.cpp

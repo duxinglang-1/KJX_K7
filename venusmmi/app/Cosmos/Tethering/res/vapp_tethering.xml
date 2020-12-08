@@ -1,0 +1,16 @@
+<VenusXML>
+  <Layout id="VAPP_WIFIHS_LAYOUT_MAIN_SCR">
+    <VfxPage>
+      <VcpListMenu cellStyle = "VCP_LIST_MENU_CELL_STYLE_SINGLE_TEXT" pos = "(20, 30)" bounds = "(0, 0, 280, 400)" name = "mylistmenu"/>
+    </VfxPage>
+  </Layout>
+</VenusXML>
+
+
+<VenusXML>
+  <Layout id="VAPP_WIFIHS_LAYOUT_SETTING_SCR">
+    <VfxPage>
+      <VfxTextFrame text="Hello world from XML!" />
+    </VfxPage>
+  </Layout>
+</VenusXML>

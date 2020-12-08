@@ -1,0 +1,77 @@
+;output file
+LOCAL &OUTPUT_FILE
+&OUTPUT_FILE="T:\post_event_queue.txt"
+OPEN #1 "&OUTPUT_FILE" /Create
+Var.NEW mmi_post_evt_node_struct * \header
+Var.set \header=post_evt_header
+Var.IF \header==0
+(
+    WRITE #1 "There is no event in the event queue"
+)
+ELSE
+(
+    Var.NEW mmi_post_evt_node_struct * \position
+    Var.SET \position=post_evt_header->next
+    Var.WHILE \position!=0
+    (
+        Var.IF \position->flag==1 
+        (
+            Var.WRITE #1 "EVENT_FLAG: " "POST_CB_EVT"
+            Var.NEW mmi_event_struct * \event
+            Var.SET \event=\position->evt_p
+            Var.WRITE #1 "EVENT_ID: " \event.evt_id
+        )
+        ELSE Var.IF \position->flag==2
+        (
+            Var.WRITE #1 "EVENT_FLAG: " "POST_CB_EVT_EX"
+            Var.NEW mmi_post_evt_ex_struct * \evt_ex_p
+            Var.SET \evt_ex_p=\position->evt_p
+            Var.NEW \evt_ex_p_event=\evt_ex_p->evt_p
+            Var.WRITE #1 "EVENT_ID: " \evt_ex_p_event->evt_id
+            LOCAL &result_cb
+            &result_cb="\evt_ex_p.result_cb"
+            WRITE #1 "result_callback: " Y.VARNAME(d:V.VALUE(&result_cb))
+        )
+        ELSE Var.IF \position->flag==3
+        (
+            Var.WRITE #1 "EVENT_FLAG: " "POST_EVT"
+            Var.NEW mmi_post_event_proc_struct * \post_evt_p
+            Var.SET \post_evt_p=\position->evt_p
+            Var.NEW mmi_event_struct * \post_evt_p_event
+            Var.SET \post_evt_p_event=\post_evt_p->evt_p
+            Var.WRITE #1 "EVENT_ID: " \post_evt_p_event->evt_id
+            LOCAL &proc
+            &proc="\post_evt_p.proc"
+            WRITE #1 "PROC: " Y.VARNAME(d:V.VALUE(&proc))
+            
+        )
+        ELSE Var.IF \position->flag==4
+        (
+            Var.WRITE #1 "EVENT_FLAG: " "POST_EVT_EX"
+            Var.NEW mmi_post_event_proc_ex_struct * \post_evt_ex_p
+            Var.SET \post_evt_ex_p=\position->evt_p
+            Var.NEW mmi_event_struct * \post_evt_ex_p_event
+            Var.SET \post_evt_ex_p_event=\post_evt_ex_p->evt_p
+            Var.WRITE #1 "EVENT_ID: " \post_evt_ex_p_event->evt_id
+            LOCAL &proc
+            &proc="\post_evt_ex_p.proc"
+            WRITE #1 "PROC: " Y.VARNAME(d:V.VALUE(&proc))
+            LOCAL &result_cb
+            &result_cb="\post_evt_ex_p.result_cb"
+            WRITE #1 "result_callback: " Y.VARNAME(d:V.VALUE(&result_cb))
+        )
+        ELSE
+        (
+            Var.WRITE #1 "There is Wrong event flag: " \position->flag
+        )
+        V \position=\position->next
+        Var.WRITE #1 ""
+    )
+);ELSE
+
+
+CLOSE #1
+
+TYPE &OUTPUT_FILE
+
+ENDDO

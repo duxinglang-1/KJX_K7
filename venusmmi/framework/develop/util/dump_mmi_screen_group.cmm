@@ -1,0 +1,560 @@
+;output file
+LOCAL &OUTPUT_FILE
+&OUTPUT_FILE="T:\ScreenGroup.txt"
+OPEN #1 "&OUTPUT_FILE" /Create
+Var.WRITE #1 " active group id=" g_scrn_mgr_cntx.active_group_id ", " "active screen id=" g_scrn_mgr_cntx.active_scrn_id ", " "shell state=" shell.state ", " "root tree count=" shell.scenario_root.m_count
+
+LOCAL &group_proc
+
+IF Y.EXIST(VfxAppScr::static_entry)
+(
+    &group_proc=V.VALUE(VfxApp::static_group_proc)+0x1
+)
+ELSE
+(
+    &group_proc=0
+)
+
+;&group_proc=V.VALUE(VfxApp::static_group_proc)+0x1
+;&group_proc=0
+;LOCAL &screen_entry_proc
+;&screen_entry_proc=V.VALUE(VfxAppScr::static_entry)+0x1
+
+;LOCAL &user
+;&user=0x1F
+;GOSUB getOBJ &user
+
+LOCAL &tree
+&tree=0x01
+GOSUB mmi_frm_dump_tree &tree
+&tree=0x04
+GOSUB mmi_frm_dump_tree &tree
+&tree=0x08
+GOSUB mmi_frm_dump_tree &tree
+&tree=0x02
+GOSUB mmi_frm_dump_tree &tree
+
+;WRITE #1 V.VALUE(VfxAppScr::static_entry)+0x1
+
+
+CLOSE #1
+TYPE &OUTPUT_FILE
+ENDDO
+
+
+
+; =============================================================================
+;  Function
+; =============================================================================
+mmi_frm_dump_tree:
+    LOCAL &tree_type
+    ENTRY &tree_type
+   IF &tree_type==0x01 ;ROOT
+    (
+        LOCAL &node_ret
+        Var.NEW group_node_struct * \group
+        Var.SET \group=shell.scenario_root.m_tail
+        WRITE #1 " Root Tree:" 
+        ;WRITE #1 V.VALUE(\group)
+        
+        ;Var.NEW group_node_struct * \temp
+        ;Var.SET \temp=(group_node_struct *)0xF024A158
+        ;Var.WRITE #1 \temp->id
+        
+        Var.WHILE \group
+        (
+            Var.NEW group_node_struct * \temp_group
+            Var.SET \temp_group=\group
+            ;Var.WRITE #1 \temp_group->id
+            GOSUB mmi_frm_dump_node_level0 \temp_group 0
+            V \group = \group->m_prev
+        )
+    )
+    
+    IF &tree_type==0x04 ;bg
+    (
+        LOCAL &node_ret
+        Var.NEW group_node_struct * \group
+        Var.SET \group=shell.scenario_bg.m_tail
+        WRITE #1 " Background Tree:"
+        Var.WHILE \group
+        (
+            Var.NEW group_node_struct * \temp_group
+            Var.SET \temp_group=\group
+            ;Var.WRITE #1 \temp_group->id
+            GOSUB mmi_frm_dump_node_level0 \temp_group 0
+            V \group = \group->m_prev
+        )   
+    )  
+    
+    IF &tree_type==0x08 ;srv
+    (
+        LOCAL &node_ret
+        Var.NEW group_node_struct * \group
+        Var.SET \group=shell.srv_root.m_tail
+        WRITE #1 " Service Tree:"
+        Var.WHILE \group
+        (
+            Var.NEW group_node_struct * \temp_group
+            Var.SET \temp_group=\group
+            ;Var.WRITE #1 \temp_group->id
+            GOSUB mmi_frm_dump_node_level0 \temp_group 0
+            V \group = \group->m_prev
+        )  
+    )
+    
+    IF &tree_type==0x02 ;dangle
+    (
+        LOCAL &node_ret
+        Var.NEW group_node_struct * \group
+        Var.SET \group=shell.scenario_dangle.m_tail
+        WRITE #1 " Dangle Tree:"
+        Var.WHILE \group
+        (
+            Var.NEW group_node_struct * \temp_group
+            Var.SET \temp_group=\group
+            ;Var.WRITE #1 \temp_group->id
+            GOSUB mmi_frm_dump_node_level0 \temp_group 0
+            V \group = \group->m_prev
+        )  
+    )
+RETURN
+
+
+mmi_frm_dump_node_level0:
+    LOCAL &group &level
+    ENTRY &group &level
+    LOCAL &node_type
+    Var.NEW base_node_struct* \basel0
+    Var.SET \basel0=&group
+    &node_type="\basel0->type"
+    Var.IF &node_type==0 ;group_node
+    (
+        Var.NEW group_node_struct * \temp0
+        Var.SET \temp0=&group
+        Var.WRITE #1 " Scenario Tree:  " "Node_Adress=" \temp0 " Level:" &level " Group_______<" "Group_id=" \temp0->id " proc=" \temp0->proc " count=" \temp0->m_count ">"
+        Var.IF (unsigned int)\temp0->proc==&group_proc
+        (
+            ;WRITE #1 "                                                                                proc="  Y.VARNAME(d:V.VALUE(\temp0->proc))
+            LOCAL &user
+            &user=V.VALUE(\temp0->user_data)
+            GOSUB getOBJ &user
+        )
+        ELSE
+        (
+            WRITE #1 "                                                                                proc="  Y.VARNAME(d:V.VALUE(\temp0->proc))
+        )
+        GOSUB mmi_frm_dump_node_level1 \temp0->m_head &level+1 
+    )
+    ELSE Var.IF &node_type==4 ;srv_node
+    (
+        Var.NEW srv_node_struct * \temp0
+        Var.SET \temp0=&group
+        Var.WRITE #1 " Service Tree:" "Node_Adress=" \temp0 " Level:" &level " Service_______<" "srv_id =" \temp0->id " proc=" \temp0->proc " count=" \temp0->m_count ">"
+        WRITE #1 "                                                                                proc="  Y.VARNAME(d:V.VALUE(\temp0->proc))
+        GOSUB mmi_frm_dump_node_level1 \temp0->m_head &level+1 
+    )
+
+RETURN
+
+
+mmi_frm_dump_node_level1:
+    LOCAL &group &level
+    ENTRY &group &level
+    LOCAL &node_type
+    Var.NEW base_node_struct* \basel1
+    Var.SET \basel1=&group
+    Var.WHILE \basel1!=0
+    (
+        &node_type="\basel1->type"
+        Var.IF &node_type==0 ;group_node
+        (
+            Var.NEW group_node_struct * \temp1
+            Var.SET \temp1=\basel1
+            Var.WRITE #1 " Scenario Tree:  " "Node_Adress=" \temp1 "    Level:" &level " Group_______<" "Group_id=" \temp1->id " proc=" \temp1->proc " count=" \temp1->m_count ">"
+            Var.IF (unsigned int)\temp1->proc==&group_proc
+            (
+                ;WRITE #1 "                                                                                proc="  Y.VARNAME(d:V.VALUE(\temp1->proc))
+                LOCAL &user
+                &user=V.VALUE(\temp1->user_data)
+                GOSUB getOBJ &user
+            )
+            ELSE
+            (
+                WRITE #1 "                                                                                proc="  Y.VARNAME(d:V.VALUE(\temp1->proc))
+            )
+            GOSUB mmi_frm_dump_node_level2 \temp1->m_head &level+1
+
+        )
+        ELSE Var.IF &node_type==4 ;srv_node
+        (
+            Var.NEW srv_node_struct * \temp1
+            Var.SET \temp1=\basel1
+            Var.WRITE #1 " Service Tree:""Node_Adress=" \temp1 "    Level:" &level " Service_______<" "srv_id =" \temp1->id " proc=" \temp1->proc " count=" \temp1->m_count ">"
+            WRITE #1 "                                                                                proc="  Y.VARNAME(d:V.VALUE(\temp1->proc))
+            GOSUB mmi_frm_dump_node_level2 \temp1->m_head &level+1 
+
+        )
+        ELSE Var.IF &node_type==2 ;tab
+        (
+            Var.NEW tab_node_struct * \temp1
+            Var.SET \temp1=\basel1
+            Var.WRITE #1 " Scenario Tree:  " "Node_Adress=" \temp1 "    Level:" &level " Tab_________<" "sid =" \temp1->id " exit_proc =" \temp1->exit_proc " entry_proc =" \temp1->entry_proc " page_count = " \temp1->page_count " first_item_index =" \temp1->first_item_index ">"
+            WRITE #1 "                                                                                entry_proc="  Y.VARNAME(d:V.VALUE(\temp1->entry_proc))
+            GOSUB mmi_frm_dump_node_level2 \temp1->m_head &level+1 
+        )
+        ElSE Var.IF &node_type==1 ;scrn
+        (
+            Var.NEW scrn_node_struct * \temp1
+            Var.SET \temp1=\basel1
+            Var.WRITE #1 " Scenario Tree:  " "Node_Adress=" \temp1 "    Level:"  &level  " Screen/Page_<"  "sid =" \temp1->id  " exit_proc ="  \temp1->exit_proc  " entry_proc =" \temp1->entry_proc  " leave_proc =" \temp1->leave_proc ">"
+            WRITE #1 "                                                                                entry_proc="  Y.VARNAME(d:V.VALUE(\temp1->entry_proc))
+        )
+        ELSE Var.IF &node_type==3 ;tab_page
+        (
+            Var.NEW scrn_node_struct * \temp1
+            Var.SET \temp1=\basel1
+            Var.WRITE #1 " Scenario Tree:  " "Node_Adress=" \temp1 "    Level:" &level " Screen/Page_<" "sid =" \temp1->id " exit_proc =" \temp1->exit_proc " entry_proc =" \temp1->entry_proc  " leave_proc =" \temp1->leave_proc ">"
+            WRITE #1 "                                                                                entry_proc="  Y.VARNAME(d:V.VALUE(\temp1->entry_proc))
+        )
+        Var.IF &level>0
+        (
+            V \basel1=\basel1->m_next
+        )
+        ELSE
+        (
+           V \basel1=0
+        )
+    )    
+RETURN
+
+
+mmi_frm_dump_node_level2:
+    LOCAL &group &level
+    ENTRY &group &level
+    LOCAL &node_type
+    Var.NEW base_node_struct* \basel2
+    Var.SET \basel2=&group
+    Var.WHILE \basel2!=0
+    (
+        &node_type="\basel2->type"
+        Var.IF &node_type==0 ;group_node
+        (
+            Var.NEW group_node_struct * \temp1
+            Var.SET \temp1=\basel2
+            Var.WRITE #1 " Scenario Tree:  " "Node_Adress=" \temp1 "            Level:" &level " Group_______<" "Group_id=" \temp1->id " proc=" \temp1->proc " count=" \temp1->m_count ">"
+            Var.IF (unsigned int)\temp1->proc==&group_proc
+            (
+                ;WRITE #1 "                                                                                proc="  Y.VARNAME(d:V.VALUE(\temp1->proc))
+                LOCAL &user
+                &user=V.VALUE(\temp1->user_data)
+                GOSUB getOBJ &user
+            )
+            ELSE
+            (
+                WRITE #1 "                                                                                proc="  Y.VARNAME(d:V.VALUE(\temp1->proc))
+            )
+            GOSUB mmi_frm_dump_node_level3 \temp1->m_head &level+1 
+        )
+        ELSE Var.IF &node_type==4 ;srv_node
+        (
+            Var.NEW srv_node_struct * \temp1
+            Var.SET \temp1=\basel2
+            Var.WRITE #1 " Service Tree:" "Node_Adress=" \temp1 "            Level:" &level " Service_______<" "srv_id =" \temp1->id " proc=" \temp1->proc " count=" \temp1->m_count ">"
+            WRITE #1 "                                                                                proc="  Y.VARNAME(d:V.VALUE(\temp1->proc))
+            GOSUB mmi_frm_dump_node_level3 \temp1->m_head &level+1 
+        )
+        ELSE Var.IF &node_type==2
+        (
+            Var.NEW tab_node_struct * \temp1
+            Var.SET \temp1=\basel2
+            Var.WRITE #1 " Scenario Tree:  " "Node_Adress=" \temp1 "            Level:" &level " Tab_________<" "sid =" \temp1->id " exit_proc =" \temp1->exit_proc " entry_proc =" \temp1->entry_proc " page_count = " \temp1->page_count " first_item_index =" \temp1->first_item_index ">"
+            WRITE #1 "                                                                                entry_proc="  Y.VARNAME(d:V.VALUE(\temp1->entry_proc))
+            GOSUB mmi_frm_dump_node_level3 \temp1->m_head &level+1 
+        )
+        ElSE Var.IF &node_type==1
+        (
+            Var.NEW scrn_node_struct * \temp1
+            Var.SET \temp1=\basel2
+            Var.WRITE #1 " Scenario Tree:  " "Node_Adress=" \temp1 "            Level:" &level " Screen/Page_<" "sid =" \temp1->id " exit_proc =" \temp1->exit_proc " entry_proc =" \temp1->entry_proc  " leave_proc =" \temp1->leave_proc ">"
+            WRITE #1 "                                                                                entry_proc="  Y.VARNAME(d:V.VALUE(\temp1->entry_proc))
+        )
+        ELSE Var.IF &node_type==3
+        (
+            Var.NEW scrn_node_struct * \temp1
+            Var.SET \temp1=\basel2
+            Var.WRITE #1 " Scenario Tree:  " "Node_Adress=" \temp1 "            Level:" &level " Screen/Page_<" "sid =" \temp1->id " exit_proc =" \temp1->exit_proc " entry_proc =" \temp1->entry_proc  " leave_proc =" \temp1->leave_proc ">"
+            WRITE #1 "                                                                                entry_proc="  Y.VARNAME(d:V.VALUE(\temp1->entry_proc))
+        )
+        
+        Var.IF &level>0
+        (
+            V \basel2=\basel2->m_next
+        )
+        ELSE
+        (
+           V \basel2=0
+        )
+    )
+    
+RETURN
+
+
+mmi_frm_dump_node_level3:
+    LOCAL &group &level
+    ENTRY &group &level
+    LOCAL &node_type
+    Var.NEW base_node_struct* \basel3
+    Var.SET \basel3=&group
+    Var.WHILE \basel3!=0
+    (
+        &node_type="\basel3->type"
+        Var.IF &node_type==0 ;group_node
+        (
+            Var.NEW group_node_struct * \temp1
+            Var.SET \temp1=\basel3
+            Var.WRITE #1 " Scenario Tree:  " "Node_Adress=" \temp1 "                Level:" &level " Group_______<" "Group_id=" \temp1->id " proc=" \temp1->proc " count=" \temp1->m_count ">"
+            Var.IF (unsigned int)\temp1->proc==&group_proc
+            (
+                ;WRITE #1 "                                                                                proc="  Y.VARNAME(d:V.VALUE(\temp1->proc))
+                LOCAL &user
+                &user=V.VALUE(\temp1->user_data)
+                GOSUB getOBJ &user
+            )
+            ELSE
+            (
+                WRITE #1 "                                                                                proc="  Y.VARNAME(d:V.VALUE(\temp1->proc))
+            )
+            GOSUB mmi_frm_dump_node_level4 \temp1->m_head &level+1 
+        )
+        ELSE Var.IF &node_type==4 ;srv_node
+        (
+            Var.NEW srv_node_struct * \temp1
+            Var.SET \temp1=\basel3
+            Var.WRITE #1 " Service Tree:" "Node_Adress=" \temp1 "                Level:" &level " Service_______<" "srv_id =" \temp1->id " proc=" \temp1->proc " count=" \temp1->m_count ">"
+            WRITE #1 "                                                                                proc="  Y.VARNAME(d:V.VALUE(\temp1->proc))
+            GOSUB mmi_frm_dump_node_level4 \temp1->m_head &level+1 
+        )
+        ELSE Var.IF &node_type==2
+        (
+            Var.NEW tab_node_struct * \temp1
+            Var.SET \temp1=\basel3
+            Var.WRITE #1 " Scenario Tree:  " "Node_Adress=" \temp1 "                Level:" &level " Tab_________<" "sid =" \temp1->id " exit_proc =" \temp1->exit_proc " entry_proc =" \temp1->entry_proc " page_count = " \temp1->page_count " first_item_index =" \temp1->first_item_index ">"
+            WRITE #1 "                                                                                entry_proc="  Y.VARNAME(d:V.VALUE(\temp1->entry_proc))
+            GOSUB mmi_frm_dump_node_level4 \temp1->m_head &level+1 
+        )
+        ElSE Var.IF &node_type==1
+        (
+            Var.NEW scrn_node_struct * \temp1
+            Var.SET \temp1=\basel3
+            Var.WRITE #1 " Scenario Tree:  " "Node_Adress=" \temp1 "                Level:" &level " Screen/Page_<" "sid =" \temp1->id " exit_proc =" \temp1->exit_proc " entry_proc =" \temp1->entry_proc  " leave_proc =" \temp1->leave_proc ">"
+            WRITE #1 "                                                                                entry_proc="  Y.VARNAME(d:V.VALUE(\temp1->entry_proc))
+        )
+        ELSE Var.IF &node_type==3
+        (
+            Var.NEW scrn_node_struct * \temp1
+            Var.SET \temp1=\basel3
+            Var.WRITE #1 " Scenario Tree:  " "Node_Adress=" \temp1 "                Level:" &level " Screen/Page_<" "sid =" \temp1->id " exit_proc =" \temp1->exit_proc " entry_proc =" \temp1->entry_proc  " leave_proc =" \temp1->leave_proc ">"
+            WRITE #1 "                                                                                entry_proc="  Y.VARNAME(d:V.VALUE(\temp1->entry_proc))
+        )
+        
+        Var.IF &level>0
+        (
+            V \basel3=\basel3->m_next
+        )
+        ELSE
+        (
+           V \basel3=0
+        )
+    )
+
+RETURN
+
+
+mmi_frm_dump_node_level4:
+    LOCAL &group &level
+    ENTRY &group &level
+    LOCAL &node_type
+    Var.NEW base_node_struct* \basel4
+    Var.SET \basel4=&group
+    Var.WHILE \basel4!=0
+    (
+        &node_type="\basel4->type"
+        Var.IF &node_type==0 ;group_node
+        (
+            Var.NEW group_node_struct * \temp1
+            Var.SET \temp1=\basel4
+            Var.WRITE #1 " Scenario Tree:  " "Node_Adress=" \temp1 "                    Level:" &level " Group_______<" "Group_id=" \temp1->id " proc=" \temp1->proc " count=" \temp1->m_count ">"
+            Var.IF (unsigned int)\temp1->proc==&group_proc
+            (
+                ;WRITE #1 "                                                                                proc="  Y.VARNAME(d:V.VALUE(\temp1->proc))
+                LOCAL &user
+                &user=V.VALUE(\temp1->user_data)
+                GOSUB getOBJ &user
+            )
+            ELSE
+            (
+                WRITE #1 "                                                                                proc="  Y.VARNAME(d:V.VALUE(\temp1->proc))
+            )
+            GOSUB mmi_frm_dump_node_level5 \temp1->m_head &level+1 
+        )
+        ELSE Var.IF &node_type==4 ;srv_node
+        (
+            Var.NEW srv_node_struct * \temp1
+            Var.SET \temp1=\basel4
+            Var.WRITE #1 " Service Tree:" "Node_Adress=" \temp1 "                    Level:" &level " Service_______<" "srv_id =" \temp1->id " proc=" \temp1->proc " count=" \temp1->m_count ">"
+            WRITE #1 "                                                                                proc="  Y.VARNAME(d:V.VALUE(\temp1->proc))
+            GOSUB mmi_frm_dump_node_level5 \temp1->m_head &level+1 
+        )
+        ELSE Var.IF &node_type==2
+        (
+            Var.NEW tab_node_struct * \temp1
+            Var.SET \temp1=\basel4
+            Var.WRITE #1 " Scenario Tree:  " "Node_Adress=" \temp1 "                    Level:" &level " Tab_________<" "sid =" \temp1->id " exit_proc =" \temp1->exit_proc " entry_proc =" \temp1->entry_proc " page_count = " \temp1->page_count " first_item_index =" \temp1->first_item_index ">"
+            WRITE #1 "                                                                                entry_proc="  Y.VARNAME(d:V.VALUE(\temp1->entry_proc))
+            GOSUB mmi_frm_dump_node_level5 \temp1->m_head &level+1 
+        )
+        ElSE Var.IF &node_type==1
+        (
+            Var.NEW scrn_node_struct * \temp1
+            Var.SET \temp1=\basel4
+            Var.WRITE #1 " Scenario Tree:  " "Node_Adress=" \temp1 "                    Level:" &level " Screen/Page_<" "sid =" \temp1->id " exit_proc =" \temp1->exit_proc " entry_proc =" \temp1->entry_proc  " leave_proc =" \temp1->leave_proc ">"
+            WRITE #1 "                                                                                entry_proc="  Y.VARNAME(d:V.VALUE(\temp1->entry_proc))
+        )
+        ELSE Var.IF &node_type==3
+        (
+            Var.NEW scrn_node_struct * \temp1
+            Var.SET \temp1=\basel4
+            Var.WRITE #1 " Scenario Tree:  " "Node_Adress=" \temp1 "                    Level:" &level " Screen/Page_<" "sid =" \temp1->id " exit_proc =" \temp1->exit_proc " entry_proc =" \temp1->entry_proc  " leave_proc =" \temp1->leave_proc ">"
+            WRITE #1 "                                                                                entry_proc="  Y.VARNAME(d:V.VALUE(\temp1->entry_proc))
+        )
+        
+        Var.IF &level>0
+        (
+            V \basel4=\basel4->m_next
+        )
+        ELSE
+        (
+           V \basel4=0
+        )
+    )
+RETURN
+
+
+mmi_frm_dump_node_level5:
+ LOCAL &group &level
+    ENTRY &group &level
+    LOCAL &node_type
+    Var.NEW base_node_struct* \basel5
+    Var.SET \basel5=&group
+    Var.WHILE \basel5!=0
+    (
+        &node_type="\basel5->type"
+        Var.IF &node_type==0 ;group_node
+        (
+            Var.NEW group_node_struct * \temp1
+            Var.SET \temp1=\basel5
+            Var.WRITE #1 " Scenario Tree:  " "Node_Adress=" \temp1 "                        Level:" &level " Group_______<" "Group_id=" \temp1->id " proc=" \temp1->proc " count=" \temp1->m_count ">"
+            Var.IF (unsigned int)\temp1->proc==&group_proc
+            (
+                ;WRITE #1 "                                                                                proc="  Y.VARNAME(d:V.VALUE(\temp1->proc))
+                LOCAL &user
+                &user=V.VALUE(\temp1->user_data)
+                GOSUB getOBJ &user
+            )
+            ELSE
+            (
+                WRITE #1 "                                                                                proc="  Y.VARNAME(d:V.VALUE(\temp1->proc))
+            )
+            GOSUB mmi_frm_dump_node_level6 \temp1->m_head &level+1 
+        )
+        ELSE Var.IF &node_type==4 ;srv_node
+        (
+            Var.NEW srv_node_struct * \temp1
+            Var.SET \temp1=\basel5
+            Var.WRITE #1 " Service Tree:" "Node_Adress=" \temp1 "                        Level:" &level " Service_______<" "srv_id =" \temp1->id " proc=" \temp1->proc " count=" \temp1->m_count ">"
+            WRITE #1 "                                                                                proc="  Y.VARNAME(d:V.VALUE(\temp1->proc))
+            GOSUB mmi_frm_dump_node_level6 \temp1->m_head &level+1 
+        )
+        ELSE Var.IF &node_type==2
+        (
+            Var.NEW tab_node_struct * \temp1
+            Var.SET \temp1=\basel5
+            Var.WRITE #1 " Scenario Tree:  " "Node_Adress=" \temp1 "                        Level:" &level " Tab_________<" "sid =" \temp1->id " exit_proc =" \temp1->exit_proc " entry_proc =" \temp1->entry_proc " page_count = " \temp1->page_count " first_item_index =" \temp1->first_item_index ">"
+            WRITE #1 "                                                                                entry_proc="  Y.VARNAME(d:V.VALUE(\temp1->entry_proc))
+            GOSUB mmi_frm_dump_node_level6 \temp1->m_head &level+1 
+        )
+        ElSE Var.IF &node_type==1
+        (
+            Var.NEW scrn_node_struct * \temp1
+            Var.SET \temp1=\basel5
+            Var.WRITE #1 " Scenario Tree:  " "Node_Adress=" \temp1 "                      Level:" &level " Screen/Page_<" "sid =" \temp1->id " exit_proc =" \temp1->exit_proc " entry_proc =" \temp1->entry_proc  " leave_proc =" \temp1->leave_proc ">"
+            WRITE #1 "                                                                                entry_proc="  Y.VARNAME(d:V.VALUE(\temp1->entry_proc))
+        )
+        ELSE Var.IF &node_type==3
+        (
+            Var.NEW scrn_node_struct * \temp1
+            Var.SET \temp1=\basel5
+            Var.WRITE #1 " Scenario Tree:  " "Node_Adress=" \temp1 "                       Level:" &level " Screen/Page_<" "sid =" \temp1->id " exit_proc =" \temp1->exit_proc " entry_proc =" \temp1->entry_proc  " leave_proc =" \temp1->leave_proc ">"
+            WRITE #1 "                                                                                entry_proc="  Y.VARNAME(d:V.VALUE(\temp1->entry_proc))
+        )
+        
+        Var.IF &level>0
+        (
+            V \basel5=\basel5->m_next
+        )
+        ELSE
+        (
+           V \basel5=0
+        )
+    )
+    
+RETURN
+
+
+mmi_frm_dump_node_level6:
+    LOCAL &group &level
+    ENTRY &group &level
+    WRITE #1 " Service Tree:" "                        Level:" &level    
+RETURN
+
+
+getClassName:
+    LOCAL &vtable &className &obj
+    ENTRY &obj
+    &vtable=Y.NAME(d:DATA.LONG(d:V.VALUE(&obj)))
+    IF string.len("&vtable")!=0
+    (
+        &className=string.cut("&vtable", 11.+STRING.SCAN("&vtable", "vtable for ", 0))
+    )
+    ELSE
+    (
+        &className="?????"
+    )
+    WRITE #1 "                                                                                PROC CLASS_NAME: " "&className"    
+    RETURN &className
+    
+
+getOBJ:
+    LOCAL &user_data
+    ENTRY &user_data
+    LOCAL &handle
+    Var.NEW \i
+    Var.SET \i=0
+    Var.NEW U32 \handle
+    Var.NEW VfxObject * \vfxobj
+    Var.SET \vfxobj=0
+    Var.SET \handle=VfxObject::s_objHandleList[\i].handle
+    Var.WHILE \handle!=0
+    (
+        Var.IF \handle==&user_data
+        (
+            Var.SET \vfxobj=VfxObject::s_objHandleList[\i].obj
+            GOSUB getClassName \vfxobj
+            RETURN
+        )
+        V \i++
+        Var.SET \handle=VfxObject::s_objHandleList[\i].handle
+    )
+    RETURN
+    

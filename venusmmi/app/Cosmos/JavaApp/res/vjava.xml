@@ -1,0 +1,8 @@
+<VenusXML>
+  <Layout id="VJAVA_HELLOWORLD_LAYOUT_1">
+    <VfxPage>
+      <VfxTextFrame text="Hello world from XML!" />
+    </VfxPage>
+  </Layout>
+</VenusXML>
+

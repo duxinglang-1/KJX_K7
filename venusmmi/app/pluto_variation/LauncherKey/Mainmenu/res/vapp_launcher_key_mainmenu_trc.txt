@@ -1,0 +1,27 @@
+[APP NAME] = KeyLauncher
+[SCOPE] = PLUTO,COSMOS
+[MODULE] = MOD_MMI_COMMON_APP
+
+#start trace
+TRC_MSG(TRC_VAPP_LAUNCHER_KEY_MM_ON_INIT,              "[KeyL][MM]onInit")
+TRC_MSG(TRC_VAPP_LAUNCHER_KEY_MM_ON_DEINIT,            "[KeyL][MM]onDeInit")
+TRC_MSG(TRC_VAPP_LAUNCHER_KEY_MM_HIDDEN,               "[KeyL][MM]setHidden = %d")
+TRC_MSG(TRC_VAPP_LAUNCHER_KEY_MM_FIRST_LOAD,           "[KeyL][MM]first load data")
+TRC_MSG(TRC_VAPP_LAUNCHER_KEY_MM_SYNC_APPMGR,          "[KeyL][MM]sync with app manager")
+
+TRC_MSG(TRC_VAPP_LAUNCHER_KEY_MM_SUSPEND_WALLPAPER_0,  "[KeyL][MM]suspend wallpaper(entryOrganization)")
+TRC_MSG(TRC_VAPP_LAUNCHER_KEY_MM_SUSPEND_WALLPAPER_1,  "[KeyL][MM]suspend wallpaper(onLongPressTimerTick)")
+TRC_MSG(TRC_VAPP_LAUNCHER_KEY_MM_RESUME_WALLPAPER_0,   "[KeyL][MM]resume wallpaper(cancelOrganization)")
+TRC_MSG(TRC_VAPP_LAUNCHER_KEY_MM_RESUME_WALLPAPER_1,   "[KeyL][MM]resume wallpaper(leaveOrganizationMode)")
+
+TRC_MSG(TRC_VAPP_LAUNCHER_KEY_MM_SUSPEND_WALLPAPER_2,  "[KeyL][MM]suspend wallpaper(pen down)")
+TRC_MSG(TRC_VAPP_LAUNCHER_KEY_MM_RESUME_WALLPAPER_2,  "[KeyL][MM]resume wallpaper(pen abort(o))")
+TRC_MSG(TRC_VAPP_LAUNCHER_KEY_MM_RESUME_WALLPAPER_3,  "[KeyL][MM]resume wallpaper(pen up(o))")
+TRC_MSG(TRC_VAPP_LAUNCHER_KEY_MM_RESUME_WALLPAPER_4,  "[KeyL][MM]resume wallpaper(pen abort(n))")
+TRC_MSG(TRC_VAPP_LAUNCHER_KEY_MM_RESUME_WALLPAPER_5,  "[KeyL][MM]resume wallpaper(pen up(n))")
+
+TRC_MSG(TRC_VAPP_LAUNCHER_KEY_MM_SUSPEND_WALLPAPER_3,  "[KeyL][MM]suspend wallpaper(handleScrollEnd) = %d")
+TRC_MSG(TRC_VAPP_LAUNCHER_KEY_MM_SUSPEND_WALLPAPER_4,  "[KeyL][MM]suspend wallpaper(left arrow key) = %d")
+TRC_MSG(TRC_VAPP_LAUNCHER_KEY_MM_SUSPEND_WALLPAPER_5,  "[KeyL][MM]suspend wallpaper(right arrow key) = %d")
+
+TRC_MSG(TRC_VAPP_LAUNCHER_KEY_MM_RESUME_WALLPAPER_6,  "[KeyL][MM]resume wallpaper(onResumeWallpaperTimerTick) = %d")

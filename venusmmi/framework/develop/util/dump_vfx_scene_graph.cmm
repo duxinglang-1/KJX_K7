@@ -1,0 +1,383 @@
+LOCAL &is_show_VRT_layers
+ENTRY &is_show_VRT_layers
+
+LOCAL &cfg_is_show_hidden
+LOCAL &cfg_is_show_VRT_layers
+LOCAL &cfg_is_show_enabled_timeline
+LOCAL &cfg_is_show_all_scene_graph
+
+LOCAL &cfg_output_filename
+LOCAL &cfg_max_level
+LOCAL &cfg_indentStr
+
+;
+; the output file name, please change if the path does not writable
+;
+&cfg_output_filename="T:\dump_vfx_scene_graph.txt"
+;
+; to ignore hidden frames, set this to 0
+;
+&cfg_is_show_hidden=0
+;
+; to display VRT layers, set this to 1
+;
+&cfg_is_show_VRT_layers=0
+
+; 0 is a trick to handle no aguement, who got a better idea?
+Var.IF (0&is_show_VRT_layers)
+    &cfg_is_show_VRT_layers=1
+;
+; to display enabled timeline, set this to 1
+;
+&cfg_is_show_enabled_timeline=1
+;
+; to display all scene graphs, include non-actived, set this to 1
+;
+&cfg_is_show_all_scene_graph=0
+;
+; to display the allocator address before ecah frame, for example:
+;   <F433E518>(VfxImageFrame *)0xF4340BF4 (223,90,446,181),1
+;    ^^^^^^^^
+;
+&cfg_is_show_allocator=0
+
+&cfg_max_level=20
+&cfg_indentStr="  "
+
+
+; =============================================================================
+;  Main
+; =============================================================================
+
+;
+; display VRT display layers
+;
+
+IF &cfg_is_show_VRT_layers!=0
+(
+    &render="((VrtGLESRenderDevice*)g_renderDevice)"
+
+    ; use vrt cache size to identify 2d, should add a m_type member to identify the render type
+    Var.IF g_vrt_mem_provider_context.global_cache_size<9.*1024.*1024.
+    (   
+        ; 2D
+        GOSUB displayLayer ((gdi_layer_struct*)(g_vrt_render_context.lcd_frame->layer_handle))
+
+        Var.IF g_vrt_render_context.lcd_double_buffer_frame->layer_handle
+        (
+            GOSUB displayLayer ((gdi_layer_struct*)(g_vrt_render_context.lcd_double_buffer_frame->layer_handle))
+        )
+    )
+    ELSE Var.IF &render
+    (   
+        ; 3D
+        GOSUB displayLayer ((gdi_layer_struct*)(&render->m_frameBufferLayer))
+        GOSUB displayLayer ((gdi_layer_struct*)(&render->m_frameBufferLayer1))    
+    )
+)
+
+
+;
+; Output scene graph
+;
+
+OPEN #1 "&cfg_output_filename" /Create
+
+WRITE #1 "[Active Scene Graph]"
+WRITE #1
+GOSUB dumpFrameTree (VfxRenderer::s_instance->m_rootFramePtr->m_flagPtr->m_objPtr)
+WRITE #1
+WRITE #1
+WRITE #1
+
+IF &cfg_is_show_all_scene_graph!=0
+(
+    WRITE #1 "[Alive Scene Graphs]"
+    WRITE #1
+    GOSUB printAllAliveFrameTree
+)
+
+CLOSE #1
+
+TYPE &cfg_output_filename
+
+ENDDO
+
+
+; =============================================================================
+;  Function
+; =============================================================================
+
+;
+; show a gdi layer
+;
+displayLayer:
+    LOCAL &layer
+    ENTRY &layer
+    
+    LOCAL &addr &w &h    
+    &addr=V.VALUE(&layer->buf_ptr)
+    &w=FORMAT.DECIMAL(4., V.VALUE(&layer->width))
+    &h=FORMAT.DECIMAL(4., V.VALUE(&layer->height))
+
+    Var.IF &layer->cf==2
+    (
+        d.image &addr &w. &h. /RGB565LE
+    )
+    ELSE Var.IF &layer->cf==3
+    (
+        d.image &addr &w. &h. /RGB888LE
+    )
+    ELSE
+    (
+        d.image &addr &w. &h. /RGBX888LE
+    )
+
+    RETURN
+
+
+;
+; save a gdi layer to a raw file
+;
+; param: [layer_handle] [filename]
+; example: GOSUB saveLayer ((gdi_layer_struct*)(&render->m_frameBufferLayer)) "Z:\ddd.bin"
+;
+saveLayer:
+    LOCAL &layer &filename
+    ENTRY &layer &filename
+    
+    LOCAL &addr &w &h &size
+    &addr=V.VALUE(&layer->buf_ptr)
+    &w=FORMAT.DECIMAL(4., V.VALUE(&layer->width))
+    &h=FORMAT.DECIMAL(4., V.VALUE(&layer->height))
+    &size=V.VALUE(&layer->layer_size)
+
+    DATA.SAVE.BINARY &filename &addr--(&addr+&size-1)
+
+    RETURN
+
+
+getClassName:
+    LOCAL &obj
+    ENTRY &obj
+    
+    LOCAL &vtable &className
+    &vtable=Y.NAME(d:DATA.LONG(d:V.VALUE(&obj)))
+    IF string.len("&vtable")!=0
+        &className=string.cut("&vtable", 11.+STRING.SCAN("&vtable", "vtable for ", 0))
+    ELSE
+        &className="?????"
+
+    RETURN &className
+
+
+makeIndent:
+    LOCAL &n
+    ENTRY &n
+    
+    LOCAL &ret    
+    &ret=""
+    WHILE &n>0
+    (
+        &ret="&ret&cfg_indentStr"
+        &n=&n-1
+    )
+
+    RETURN "&ret"
+
+
+printTimelineInfo:
+    LOCAL &timeline &indentLevel &indent &className
+    ENTRY &timeline &indentLevel
+
+    GOSUB makeIndent &indentLevel
+    ENTRY &indent
+
+    GOSUB getClassName &timeline
+    ENTRY &className
+
+    ; prepare from value
+    LOCAL &fromValue
+    ON ERROR GOTO printTimelineInfo_fromValue_error1
+    (
+        &fromValue=V.STRING("((&className *)&timeline)->m_fromValue")
+        goto printTimelineInfo_fromValue_done
+    )
+printTimelineInfo_fromValue_error1:
+    (
+        &fromValue="???"
+        goto printTimelineInfo_fromValue_done
+    )
+printTimelineInfo_fromValue_done:
+    ON ERROR
+
+    ; prepare to value
+    LOCAL &toValue
+    ON ERROR GOTO printTimelineInfo_toValue_error1
+    (
+        &toValue=V.STRING("((&className *)&timeline)->m_toByValue")
+        goto printTimelineInfo_toValue_done
+    )
+printTimelineInfo_toValue_error1:
+    ON ERROR GOTO printTimelineInfo_toValue_error2
+    (
+        &toValue=V.STRING("((&className *)&timeline)->m_toValue")
+        goto printTimelineInfo_toValue_done
+    )
+printTimelineInfo_toValue_error2:
+    (
+        &toValue="???"
+    )
+printTimelineInfo_toValue_done:
+    ON ERROR
+
+    ; prepare duration
+    LOCAL &duration
+    &duration=V.STRING("&timeline->m_durationTime")
+    
+    Var.WRITE #1 &indent "> (&className *)" &timeline " from=&fromValue to=&toValue dur=&duration"
+
+    RETURN
+
+
+printAllEnabledTimeline:
+    LOCAL &frame &indentLevel
+    ENTRY &frame &indentLevel
+
+    Var.NEW VfxBaseTimeline * \timeline
+    V \timeline=&frame->VfxAnimatable::m_enabledTimelineListHead
+
+    Var.WHILE \timeline!=0
+    (
+        GOSUB printTimelineInfo (\timeline) (&indentLevel+1)
+
+        V \timeline=\timeline->m_enabledTimelineEntryNext;
+    )
+    
+    RETURN
+    
+
+printFrameInfo:
+    LOCAL &frame &indentLevel &indent &className
+    ENTRY &frame &indentLevel
+
+    GOSUB makeIndent &indentLevel
+    ENTRY &indent
+
+    GOSUB getClassName &frame
+    ENTRY &className
+
+    LOCAL &allocator
+    IF &cfg_is_show_allocator!=0
+    (
+        ;&allocator="(" d:DATA.LONG(d:V.VALUE(&frame) - 4) ")"
+        &allocator=FORMAT.HEX(8,DATA.LONG(d:V.VALUE(&frame)-4))
+        &allocator="<&allocator>"
+    )
+
+    Var.WRITE #1 &indent "&allocator" "(&className *)" &frame " (" &frame->m_pos.x "," &frame->m_pos.y "," &frame->m_bounds.size.width "," &frame->m_bounds.size.height ")," &frame->m_flags
+
+    IF &cfg_is_show_enabled_timeline!=0
+    (
+        GOSUB printAllEnabledTimeline &frame &indentLevel
+    )
+
+    RETURN
+
+
+dumpFrameTree:
+    LOCAL &frame
+    ENTRY &frame
+
+    Var.NEW VfxFrame*[&cfg_max_level] \frm
+    Var.NEW VfxFrame* \cfrm
+
+    V \frm[0]=&frame
+
+    LOCAL &lvl
+    &lvl=0
+    Var.WHILE &lvl>=0
+    (
+        V \cfrm=\frm[&lvl]
+
+        LOCAL &is_hidden &next_frame
+        &is_hidden=V.VALUE(\cfrm->m_flags)&2
+
+        Var.IF &cfg_is_show_hidden
+        (
+            &is_hidden=0 ; comment out me to ignore hidden frames
+        )       
+        
+        IF &is_hidden==0
+        (
+            ; display frame properties
+            GOSUB printFrameInfo \cfrm V.VALUE(&lvl)
+            &next_frame=V.VALUE(\frm[&lvl]->m_firstChildFrame)
+        )
+        ELSE
+        (
+            &next_frame=0
+        )    
+
+        Var.IF &next_frame
+        (
+            V \frm[&lvl+1]=\frm[&lvl]->m_firstChildFrame
+            &lvl=&lvl+1
+        )
+        ELSE Var.IF \frm[&lvl]->m_nextFrame 
+        (
+            V \frm[&lvl]=\frm[&lvl]->m_nextFrame
+        )
+        ELSE
+        (
+            &lvl=&lvl-1
+            Var.WHILE \frm[&lvl]->m_nextFrame==0
+            (
+                &lvl=&lvl-1
+                Var.IF &lvl<0
+                (
+                    RETURN
+                )
+            )
+            Var.IF &lvl>0
+            (
+                V \frm[&lvl]=\frm[&lvl]->m_nextFrame
+            )
+        )
+    )
+    RETURN
+
+
+printAllAliveFrameTree:
+    Var.NEW VfxObjListEntry * \i
+    V \i=VfxRenderer::s_instance->m_nullParentFrameList->m_head
+
+    LOCAL &n
+    &n=0
+    
+    Var.WHILE \i!=0
+    (
+        WRITE #1 "#" FORMAT.DECIMAL(3, &n)
+        WRITE #1
+    
+        Var.NEW VfxFrame * \root
+        V \root=\i->m_objPtr->m_flagPtr->m_objPtr
+        Var.IF \root!=0
+        (
+            GOSUB dumpFrameTree (\root)
+        )        
+
+        V \i=\i->m_next
+        &n=&n+1
+
+        WRITE #1
+        WRITE #1
+    )
+    
+    IF &n==0
+    (
+        WRITE #1 "<empty>"
+    )
+    
+    RETURN
+

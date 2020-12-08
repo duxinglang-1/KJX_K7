@@ -1,0 +1,13 @@
+[APP NAME] = GalleryWidget
+[SCOPE] = COSMOS
+[MODULE] = MOD_MMI_COMMON_APP
+
+#start trace
+TRC_MSG(TRC_VAPP_WIDGET_GALLERY_VIEWER_GET_NEXT_LOCK_PIC_ID, "[Gallery Widget] VappWidgetGalleryViewer::getNextLockPicId, picId: %d, trace: %d")
+TRC_MSG(TRC_VAPP_WIDGET_GALLERY_VIEWER_ON_MEDIA_LIST_READY, "[Gallery Widget] VappWidgetGalleryViewer::onMediaListReady, totalPicNum: %d, trace: %d")
+TRC_MSG(TRC_VAPP_WIDGET_GALLERY_VIEWER_DECODE_RESULT_HANDLER, "[Gallery Widget] VappWidgetGalleryViewer::decodeResultHandler, decodeResult: %d, picId: %d, trace: %d")
+TRC_MSG(TRC_VAPP_WIDGET_GALLERY_VIEWER_ON_DECODE_RESULT, "[Gallery Widget] VappWidgetGalleryViewer::onDecodeResult, decodeResult: %d, picId: %d, trace: %d")
+TRC_MSG(TRC_VAPP_WIDGET_GALLERY_VIEWER_DECODE_FINISHED_HANDLER, "[Gallery Widget] VappWidgetGalleryViewer::decodeFinishedHandler, panelId: %d, picId: %d, trace: %d")
+TRC_MSG(TRC_VAPP_WIDGET_GALLERY_VIEWER_GET_FADEOUT_PIC_ID, "[Gallery Widget] VappWidgetGalleryViewer::getFadeoutPicId, picId: %d, trace: %d")
+TRC_MSG(TRC_VAPP_WIDGET_GALLERY_VIEWER_CREATE_MEDIA_LIST, "[Gallery Widget] VappWidgetGalleryViewer::createMediaList, trace: %d")
+TRC_MSG(TRC_VAPP_WIDGET_GALLERY_REFRESH_GALLERY_WIDGET, "[Gallery Widget] VappWidgetGallery::refreshGalleryWidget, picIndex: %d, trace: %d")

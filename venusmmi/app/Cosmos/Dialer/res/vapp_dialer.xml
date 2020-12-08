@@ -1,0 +1,8 @@
+<VenusXML>
+  <Layout id="VAPP_DIALER_LAYOUT_1">
+    <VfxPage>
+      <VfxTextFrame text="Hello world from XML!" />
+    </VfxPage>
+  </Layout>
+</VenusXML>
+

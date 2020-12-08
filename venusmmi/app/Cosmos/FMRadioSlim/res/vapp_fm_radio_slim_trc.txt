@@ -1,0 +1,49 @@
+[APP NAME] = Cosmos Fm Radio App
+[SCOPE] = PLUTO, COSMOS
+[MODULE] = MOD_MMI_MEDIA_APP
+
+#start trace
+TRC_MSG(TRC_VAPP_FMRADIO_SLIM_VADP_UPDATE_STATE, "[FM RADIO] vadp_fm_radio_update_state(), State=[%d]")
+TRC_MSG(TRC_VAPP_FMRADIO_SLIM_APP_ONPROC, "[FM RADIO] VappFMRadioApp::onProc(), evt_id=[%d], m_state=[%d]")
+TRC_MSG(TRC_VAPP_FMRADIO_SLIM_APP_STATECALLBACK, "[FM RADIO] VappFMRadioApp::stateCallback(), state=[%d]")
+TRC_MSG(TRC_VAPP_FMRADIO_SLIM_APP_GENERALCALLBACK, "[FM RADIO] VappFMRadioApp::generalCallback(), result=[%d]")
+TRC_MSG(TRC_VAPP_FMRADIO_SLIM_APP_BACKGROUNDCALLBACK, "[FM RADIO] VappFMRadioApp::backgroundCallback(), result=[%d]")
+TRC_MSG(TRC_VAPP_FMRADIO_SLIM_APP_SET_STATE, "[FM RADIO] VappFMRadioApp::setState(), state=[%d]")
+TRC_MSG(TRC_VAPP_FMRADIO_SLIM_MPAGE_SEEK_CALLBACK, "[FM RADIO] VappFMRadioMainPage::seekCallback(), result=[%d]")
+TRC_MSG(TRC_VAPP_FMRADIO_SLIM_VADP_POWER_OFF, "[FM RADIO] vadp_fm_radio_power_off(), g_vadp_fm_radio_state=[%d]")
+TRC_MSG(TRC_VAPP_FMRADIO_SLIM_VADP_POWER_ON_CALLBACK, "[FM RADIO]vadp_fm_radio_power_on_callback(), case MDI_AUDIO_TERMINATED:")
+TRC_MSG(TRC_VAPP_FMRADIO_SLIM_VADP_BACKGROUND_CALLBACK, "[FM RADIO] vadp_fm_radio_background_callback(), result=[%d], g_vadp_fm_radio_state=[%d]")
+
+TRC_MSG(TRC_VAPP_FMRADIO_SLIM_VADP_START_PLAYING, "[FM RADIO] vadp_fm_radio_start_playing()")
+TRC_MSG(TRC_VAPP_FMRADIO_SLIM_VADP_STOP_PLAYING, "[FM RADIO] vadp_fm_radio_stop_playing()")
+
+TRC_MSG(TRC_VAPP_FMRADIO_SLIM_VADP_GET_A2DP_CONNECT_STATE, "[FM RADIO] vadp_fm_radio_get_a2dp_connect_state(), a2dp_connect_state=[%d]")
+TRC_MSG(TRC_VAPP_FMRADIO_SLIM_VADP_SET_A2DP_CONNECT_STATE, "[FM RADIO] vadp_fm_radio_set_a2dp_connect_state(), a2dp_connect_state=[%d]")
+TRC_MSG(TRC_VAPP_FMRADIO_SLIM_VADP_CONNECT_A2DP, "[FM RADIO] vadp_fm_radio_connect_a2dp()")
+TRC_MSG(TRC_VAPP_FMRADIO_SLIM_VADP_CLOSE_A2DP_CONNECTION, "[FM RADIO] vadp_fm_radio_close_a2dp_connection()")
+TRC_MSG(TRC_VAPP_FMRADIO_SLIM_VADP_IS_CONNECTING_A2DP, "[FM RADIO] vadp_fm_radio_is_connecting_bt_headset(), a2dp_connect_state=[%d]")
+TRC_MSG(TRC_VAPP_FMRADIO_SLIM_VADP_A2DP_CONNECT_CALLBACK, "[FM RADIO] vadp_fm_radio_a2dp_connect_callback(), result=[%d]")
+TRC_MSG(TRC_VAPP_FMRADIO_SLIM_VADP_LISTEN_TO_BT_CONNECTION, "[FM RADIO] vadp_fm_radio_listen_to_BT_connection()")
+TRC_MSG(TRC_VAPP_FMRADIO_SLIM_VADP_BT_AUD_EVENT_HDLR, "[FM RADIO] vadp_fm_radio_BT_aud_event_handler(), event=[%d]")
+TRC_MSG(TRC_VAPP_FMRADIO_SLIM_VADP_ENABLE_BT_HEADSET, "[FM RADIO] vadp_fm_radio_enable_play_via_bt_headset()")
+TRC_MSG(TRC_VAPP_FMRADIO_SLIM_VADP_DISABLE_BT_HEADSET, "[FM RADIO] vadp_fm_radio_disable_play_via_bt_headset()")
+TRC_MSG(TRC_VAPP_FMRADIO_SLIM_APP_CONNECT_A2DP_BEGIN, "[FM RADIO] VappFMRadioApp::connectA2dpBegin()")
+TRC_MSG(TRC_VAPP_FMRADIO_SLIM_APP_CONNECT_A2DP_END, "[FM RADIO] VappFMRadioApp::connectA2dpEnd()")
+TRC_MSG(TRC_VAPP_FMRADIO_SLIM_APP_ON_CONNECT_A2DP_TIMEOUT, "[FM RADIO] VappFMRadioApp::onConnectA2dpTimeout()")
+TRC_MSG(TRC_VAPP_FMRADIO_SLIM_APP_CREATE_LOADING_POPUP, "[FM RADIO] VappFMRadioMainPage::createLoadingPopup()")
+TRC_MSG(TRC_VAPP_FMRADIO_SLIM_APP_CLOSE_LOADING_POPUP, "[FM RADIO] VappFMRadioMainPage::closeLoadingPopup()")
+
+TRC_MSG(TRC_VAPP_FMRADIO_SLIM_VADP_REGISTER_AVRCP_CMD_CALLBACK, "[FM RADIO] vadp_fm_radio_register_avrcp_cmd_callback(), app_id=[%d], register_num=[%d]")
+TRC_MSG(TRC_VAPP_FMRADIO_SLIM_VADP_DEREGISTER_AVRCP_CMD_CALLBACK, "[FM RADIO] vadp_fm_radio_deregister_avrcp_cmd_callback(), app_id=[%d], register_num=[%d]")
+TRC_MSG(TRC_VAPP_FMRADIO_SLIM_VADP_AVRCP_CMD_CALLBACK, "[FM RADIO] vadp_fm_radio_avrcp_cmd_callback(), command=[%d], key_events=[%d]")
+TRC_MSG(TRC_VAPP_FMRADIO_SLIM_APP_AVRCP_CMD_CALLBACK, "[FM RADIO] VappFMRadioApp::avrcpCmdCallback(), event=[%d]")
+TRC_MSG(TRC_VAPP_FMRADIO_SLIM_VADP_TOGGLE_BT_AUD_PATH, "[FM RADIO] vadp_fm_radio_toggle_bt_aud_path(), vadp_fm_radio_aud_path=[%d]")
+
+TRC_MSG(TRC_VAPP_FMRADIO_SLIM_ON_NCENTER_UPDATE, "[FM NCENTER] vapp_fm_radio_on_ncenter_update(), power_evt->is_shown=[%d]")
+TRC_MSG(TRC_VAPP_FMRADIO_SLIM_NCELL_ON_CREATE_VIEW, "[FM NCENTER] VappFmRadioNCell::onCreateView()")
+TRC_MSG(TRC_VAPP_FMRADIO_SLIM_NCELL_ON_CLOSE_VIEW, "[FM NCENTER] VappFmRadioNCell::onCloseView(), m_fmPanel->m_state=[%d]")
+TRC_MSG(TRC_VAPP_FMRADIO_SLIM_NCELL_ON_PROCESS_INTENT, "[FM NCENTER] VappFmRadioNCell::onProcessIntent(), intent=[%d]")
+TRC_MSG(TRC_VAPP_FMRADIO_SLIM_NCELL_ON_CLOSE_BUTTON_CLICKED, "[FM NCENTER] VappFmRadioNCell::onCloseButtonClicked()")
+TRC_MSG(TRC_VAPP_FMRADIO_SLIM_NCELL_ON_POPUP_BUTTON_CLICKED, "[FM NCENTER] VappFmRadioNCell::onPopupButtonClicked()")
+TRC_MSG(TRC_VAPP_FMRADIO_SLIM_NCELL_ON_POPUP_EXIT, "[FM NCENTER] VappFmRadioNCell::vapp_fm_radio_ncell_on_popup_exit()")
+TRC_MSG(TRC_VAPP_FMRADIO_SLIM_WIDGET_CREATE_NCELL_PANEL_UI, "[FM WIDGET] VappWidgetFmRadioPanel::createNCenterPanelUI()")

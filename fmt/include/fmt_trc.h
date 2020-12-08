@@ -1,0 +1,251 @@
+/*****************************************************************************
+*  Copyright Statement:
+*  --------------------
+*  This software is protected by Copyright and the information contained
+*  herein is confidential. The software may not be copied and the information
+*  contained herein may not be used or disclosed except with the written
+*  permission of MediaTek Inc. (C) 2005
+*
+*  BY OPENING THIS FILE, BUYER HEREBY UNEQUIVOCALLY ACKNOWLEDGES AND AGREES
+*  THAT THE SOFTWARE/FIRMWARE AND ITS DOCUMENTATIONS ("MEDIATEK SOFTWARE")
+*  RECEIVED FROM MEDIATEK AND/OR ITS REPRESENTATIVES ARE PROVIDED TO BUYER ON
+*  AN "AS-IS" BASIS ONLY. MEDIATEK EXPRESSLY DISCLAIMS ANY AND ALL WARRANTIES,
+*  EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE IMPLIED WARRANTIES OF
+*  MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE OR NONINFRINGEMENT.
+*  NEITHER DOES MEDIATEK PROVIDE ANY WARRANTY WHATSOEVER WITH RESPECT TO THE
+*  SOFTWARE OF ANY THIRD PARTY WHICH MAY BE USED BY, INCORPORATED IN, OR
+*  SUPPLIED WITH THE MEDIATEK SOFTWARE, AND BUYER AGREES TO LOOK ONLY TO SUCH
+*  THIRD PARTY FOR ANY WARRANTY CLAIM RELATING THERETO. MEDIATEK SHALL ALSO
+*  NOT BE RESPONSIBLE FOR ANY MEDIATEK SOFTWARE RELEASES MADE TO BUYER'S
+*  SPECIFICATION OR TO CONFORM TO A PARTICULAR STANDARD OR OPEN FORUM.
+*
+*  BUYER'S SOLE AND EXCLUSIVE REMEDY AND MEDIATEK'S ENTIRE AND CUMULATIVE
+*  LIABILITY WITH RESPECT TO THE MEDIATEK SOFTWARE RELEASED HEREUNDER WILL BE,
+*  AT MEDIATEK'S OPTION, TO REVISE OR REPLACE THE MEDIATEK SOFTWARE AT ISSUE,
+*  OR REFUND ANY SOFTWARE LICENSE FEES OR SERVICE CHARGE PAID BY BUYER TO
+*  MEDIATEK FOR SUCH MEDIATEK SOFTWARE AT ISSUE. 
+*
+*  THE TRANSACTION CONTEMPLATED HEREUNDER SHALL BE CONSTRUED IN ACCORDANCE
+*  WITH THE LAWS OF THE STATE OF CALIFORNIA, USA, EXCLUDING ITS CONFLICT OF
+*  LAWS PRINCIPLES.  ANY DISPUTES, CONTROVERSIES OR CLAIMS ARISING THEREOF AND
+*  RELATED THERETO SHALL BE SETTLED BY ARBITRATION IN SAN FRANCISCO, CA, UNDER
+*  THE RULES OF THE INTERNATIONAL CHAMBER OF COMMERCE (ICC).
+*
+*****************************************************************************/
+
+/*****************************************************************************
+ *
+ * Filename:
+ * ---------
+ *   fmt_trc.h
+ *
+ * Project:
+ * --------
+ *   Maui_Software
+ *
+ * Description:
+ * ------------
+ *   FMT traces definition
+ *
+ * Author:
+ * -------
+ *
+ *============================================================================
+ *             HISTORY
+ * Below this line, this part is controlled by PVCS VM. DO NOT MODIFY!!
+ *------------------------------------------------------------------------------
+ * removed!
+ *
+ * removed!
+ * removed!
+ * removed!
+ *
+ * removed!
+ * removed!
+ * removed!
+ *
+ * removed!
+ * removed!
+ * removed!
+ *
+ * removed!
+ * removed!
+ * removed!
+ *
+ * removed!
+ * removed!
+ * removed!
+ *
+ * removed!
+ * removed!
+ * removed!
+ *
+ * removed!
+ * removed!
+ * removed!
+ *
+ * removed!
+ * removed!
+ * removed!
+ *
+ * removed!
+ * removed!
+ * removed!
+ *
+ * removed!
+ * removed!
+ * removed!
+ *
+ * removed!
+ * removed!
+ * removed!
+ *
+ *
+ *------------------------------------------------------------------------------
+ * Upper this line, this part is controlled by PVCS VM. DO NOT MODIFY!!
+ *============================================================================
+ ****************************************************************************/
+
+#ifndef _TRC_FMT_H
+#define _TRC_FMT_H
+
+
+#ifndef GEN_FOR_PC
+#include "stack_config.h"
+#endif /* GEN_FOR_PC */
+
+#include "kal_trace.h"
+
+#if !defined(GEN_FOR_PC)
+#if defined(__TST_MODULE__) || defined(__CUSTOM_RELEASE__)
+    #include "fmt_trc_gen.h"
+#endif /* TST Trace Defintion */
+#endif
+BEGIN_TRACE_MAP(MOD_FMT)
+
+    TRC_MSG(TRC_FMT_34ED45EAD9D14147A873982414AE53F6, "[FMT][OTG]FS_TestMSDC start")
+    TRC_MSG(TRC_FMT_41D098824A56415DB6BC9F885355E706, "[FMT][OTG]FS_TestMSDC end(%d, %d)")
+    TRC_MSG(TRC_FMT_b43d5342f75e4a989926af1a2c947cdc, "[FMT][OTG]Calculate free space start")
+    TRC_MSG(TRC_FMT_24a6628fd8f4400eb908d6d49569bec0, "[FMT][OTG]Calculate free space end(%d, %d)")
+    TRC_MSG(TRC_FMT_E5F5C86ED75F4949AF87D9775454EFA2, "[FMT][MSDC]FS_TestMSDC start")
+    TRC_MSG(TRC_FMT_0075DDC3E23541B38725E9B6799092A9, "[FMT][MSDC]FS_TestMSDC end(%d, %d)")
+    TRC_MSG(TRC_FMT_2b6e0d923e164c7987d7c2b912afd54e, "[FMT][MSDC]Calculate free space start")
+    TRC_MSG(TRC_FMT_a3115bfea84a44b591f7060f50f2a70d, "[FMT][MSDC]Calculate free space end(%d, %d)")
+    TRC_MSG(TRC_FMT_960e7465659749adb2edb3a010072598, "[FMT][REMOUNT]Calculate free space start")
+    TRC_MSG(TRC_FMT_c06b9093dd1645dda55b7fd4ba63d589, "[FMT][REMOUNT]Calculate free space end(%d, %d)")
+    TRC_MSG(TRC_FMT_A13447B483A2491B875075272FB3A54E, "[FMT] FS_GetDiskInfo start")
+    TRC_MSG(TRC_FMT_2811BF1F7B0342AC9FCB302F05F2E6E5, "[FMT] FS_GetDiskInfo end")
+    TRC_MSG(TRC_FMT_65A3C6FB1B62437B9CDA966DDB964BCF, "[FMT] FS return: %d\n")
+    TRC_MSG(TRC_FMT_B34150F30F1E47E39A12BB12E4A7DFA3, "[FMT] FS_Move check free space")
+    TRC_MSG(TRC_FMT_42D36049A36B4BF98588B6562092D286, "[FMT] FS_Move start")
+    TRC_MSG(TRC_FMT_0C0CC64F0ACC4F55A04D94540602D220, "[FMT] FS_Move end(%d)")
+    TRC_MSG(TRC_FMT_28B41D5DEE99429EB00ADA34F4DBCC5B, "[FMT] FS_Move abort")
+    TRC_MSG(TRC_FMT_7C47C68C1AEF45A2A961EEF2BCC69603, "[FMT] FS_Move cb(%d)")
+    TRC_MSG(TRC_FMT_F592C96B2CFD43D8B717136EC29D3E0C, "[FMT] abort")
+    TRC_MSG(TRC_FMT_D78AB1AE989541A29B78B6B1AE63EEF8, "[FMT] abort=%d")
+    TRC_MSG(TRC_FMT_BE79F490C01440AAA1C436C2ACF1A7C6, "[FMT] reset_abort")
+    TRC_MSG(TRC_FMT_676A85A95F8B4E2C868477926E163A64, "[FMT] call FS_ConfigExtDevice get (%d), done = %d ")
+    TRC_MSG(TRC_FMT_5D5EB1CF24E94312BF3DDA63D2F65035, "[FMT][SIM+]FS_TestMSDC start")
+    TRC_MSG(TRC_FMT_19121A2CC0A64B2281697485CB4A5FF0, "[FMT][SIM+]FS_TestMSDC end(%d, %d)")
+    TRC_MSG(TRC_FMT_3CCB9F5B75E74FBA97769480580ED767, "[FMT] fota_init result = %d")
+    TRC_MSG(TRC_FMT_E787D0ED27564BC192E600101846F40C, "[FMT] fota_write_data result = %d")
+    TRC_MSG(TRC_FMT_60EE8AF92E794DE2B0AB6F14DD65F746, "[FMT] fota_finalize result = %d")
+    TRC_MSG(TRC_FMT_8522854A9A3045288AD121E42BABAFA3, "[FMT] FS_XFindResetEx(%d) - skiped")
+    TRC_MSG(TRC_FMT_B93AB5A419CF4D8DBC4BAF2466269A7E, "[FMT] FS_XFindResetEx(%d)")
+    TRC_MSG(TRC_FMT_500004B205DD4126A12665A500540F92, "[FMT] find_filename(%d/%d)=%d")
+    TRC_MSG(TRC_FMT_dd4dff4ad57342618bec0fb4d72a9e03, "[FMT][MSDC] MSDC status: %d, fmt_msdc_present: %d")
+
+    TRC_MSG(TRC_FMT_D3DAC2AAEA544607B27696508467F3CE, "[FMTADV] fmt_adv_handler(%d,%d) begin")
+    TRC_MSG(TRC_FMT_5C50AB03DD784424A2F7372F635A7986, "[FMTADV] fmt_adv_handler end")
+    TRC_MSG(TRC_FMT_254896BC13EF44B2AF3CE94ADC2E45F1, "[FMTADV] send_message(%d): %d")
+    TRC_MSG(TRC_FMT_5EC7DB53773C44E0BC12D8CBC52C02BD, "[FMTADV] abort_message(%d): %d")
+    TRC_MSG(TRC_FMT_2894D24781DC4CAF86932F07F30D28CF, "[FMTADV] check free space(%d): %d")
+    TRC_MSG(TRC_FMT_A8BA85D7D2634106B1423B04809D473D, "[FMTADV] copy progress(%d/%d,abort=%d)")
+    TRC_MSG(TRC_FMT_88844AC613784F20B073776FD61CD9CD, "[FMTADV] copy_req_hdlr begin")
+    TRC_MSG(TRC_FMT_6677863FC752448BABCA4DD40B7A8D65, "[FMTADV] FS_Move begin")
+    TRC_MSG(TRC_FMT_DF0A1F65A13B4B31B265B0EF1F2A4465, "[FMTADV] FS_Move end: %d")
+    TRC_MSG(TRC_FMT_7C6569D5E9624BED838C94C7750D64F1, "[FMTADV] copy_send_rsp(%d)")
+    TRC_MSG(TRC_FMT_3601B08749FE461DA251EA1C23702F9B, "[FMTADV] delete_req_hdlr(%d)")
+    TRC_MSG(TRC_FMT_95BB547B36F743239201F16D34AA2C7B, "[FMTADV] delete progress(%d/%d,abort=%d)")
+    TRC_MSG(TRC_FMT_9D76264667B1438CA9552D8D318448B9, "[FMTADV] delete_send_rsp(%d)")
+    TRC_MSG(TRC_FMT_C7B5A8515AF846038AE82193061DDA15, "[FMTADV] load_folder_req_hdlr")
+    TRC_MSG(TRC_FMT_CDDA02DF298943ADA9DD8335F64E0472, "[FMTADV] load_folder_sort_hdlr")
+    TRC_MSG(TRC_FMT_1F14A07871284BDCAFD12669EB059534, "[FMTADV] load_folder_read_hdlr")
+    TRC_MSG(TRC_FMT_EA2E6993C7AF4B3E9307F18A0CD30EF8, "[FMTADV] load_folder_send_rsp(%d,%d)")
+    TRC_MSG(TRC_FMT_1071288846DA4F40ADD6B040E9FA6210, "[FMTADV] discarded(%d,%d)")
+    TRC_MSG(TRC_FMT_EXT_TO_INT_QUEUE_NUM, "[FMT] fmt_move_ext_q_to_int_q - queue num %d")
+    TRC_MSG(TRC_FMT_FETCH_MSG_VALID_Q, "[FMT] fmt_fetch_msg_to_int_q, valid? %d")
+    TRC_MSG(TRC_FMT_INT_Q_NUM, "[FMT] INT Queue number (%d,%d)")
+    TRC_MSG(TRC_FMT_CLEAR_INT_Q_NUM, "[FMT] fmt_clear_invalid_ilm_from_int_q - INT Queue number (%d,%d)")
+    TRC_MSG(TRC_FMT_88b6dcc1f31146ad81e4fd86d77b0e25, "[FMT] fmt_int_queue_abort_hdlr (%d,%d)")
+    
+    TRC_MSG(TRC_SRV_FMGR_061FDAD3C75F4B26A4808175B9FC5C5D, "[SRV_FMGR] > Async > copy(%d,%x,%x)")
+    TRC_MSG(TRC_SRV_FMGR_C3A7ED94557A485F91479979435DEFDD, "[SRV_FMGR] > Async > move(%d,%x,%x)")
+    TRC_MSG(TRC_SRV_FMGR_9583BC7D91B84EA18A94BEB525B3F9ED, "[SRV_FMGR] > Async > delete(%d,%x,%x)")
+    TRC_MSG(TRC_SRV_FMGR_DA97D5C24639449CAE1EDB737D385889, "[SRV_FMGR] > Async > delete all(%d,%x,%x)")
+    TRC_MSG(TRC_SRV_FMGR_20D88A8C38814B5BB3BA5E297F66C944, "[SRV_FMGR] > Async > format(%d,%x,%x)")
+    TRC_MSG(TRC_SRV_FMGR_56BA6784570E42AE805DD015E956E0DF, "[SRV_FMGR] > Async > return: %d")
+    TRC_MSG(TRC_SRV_FMGR_1D2CF7771CF04B9895872660EC46C876, "[SRV_FMGR] > Async > abort(%d,%d): %d")
+    TRC_MSG(TRC_SRV_FMGR_E7E7C625620F4051A532F7781F182E9B, "[SRV_FMGR] > Async > state(%d): %d")
+    TRC_MSG(TRC_SRV_FMGR_AD5EC14217064354B8EE2539D8631A63, "[SRV_FMGR] > Async > copy response(%d,%d)")
+    TRC_MSG(TRC_SRV_FMGR_116FEF69E5C34AC3A314C60CB8E697FB, "[SRV_FMGR] > Async > del response(%d,%d)")
+    TRC_MSG(TRC_SRV_FMGR_29CF2A77D3EE45A3A0A2C95ADCF3F3C4, "[SRV_FMGR] > Async > format response(%d,%d)")
+    TRC_MSG(TRC_SRV_FMGR_3979005438C7471FAE5C6681CF0970D8, "[SRV_FMGR] > CustIcon > do(op=%d): %d")
+    TRC_MSG(TRC_SRV_FMGR_8B9F34B0CF544DB1B8610D9D405DE726, "[SRV_FMGR] > CustIcon > query(): %d")
+    TRC_MSG(TRC_SRV_FMGR_A57F0CAA984A4396844DE04818E87D0A, "[SRV_FMGR] > CustIcon > init(drv=%d): %d")
+    TRC_MSG(TRC_SRV_FMGR_411D8DB176E2415D8B937EF6F71C8A34, "[SRV_FMGR] > CustIcon > find_empty_entry(drv=%d): %d")
+    TRC_MSG(TRC_SRV_FMGR_029CAFD0861C4AA197F5789358B0F063, "[SRV_FMGR] > CustIcon > find_entry(drv=%d): %d")
+    TRC_MSG(TRC_SRV_FMGR_842D047EFC694052963BE10EAE614EA3, "[SRV_FMGR] > CustIcon > write_entry(idx=%d): %d")
+    TRC_MSG(TRC_SRV_FMGR_A3F61EA3A0E14EB88A5341EF95DAFA5F, "[SRV_FMGR] > CustIcon > clear_entry(idx=%d): %d")
+    TRC_MSG(TRC_SRV_FMGR_68B46D8A734F4C47B0D565CCE36AF70E, "[SRV_FMGR] > CustIcon > get_icon(idx=%d): %d")
+    TRC_MSG(TRC_SRV_FMGR_4A34F19FC6F940CBB34F4B9F9ECFB424, "[SRV_FMGR] > CustIcon > for_each_entry(drv=%d, idx=%d): %d")
+    TRC_MSG(TRC_SRV_FMGR_0B700CDEAC0E41E9845EA85FE925494A, "[SRV_FMGR] > CustIcon > for_each_entry(drv=%d, idx=%d): %d")
+    TRC_MSG(TRC_SRV_FMGR_ED0E3490C6C9460A9DE51D848F881ADB, "[SRV_FMGR] > FileList > destroy(%x)")
+    TRC_MSG(TRC_SRV_FMGR_138C7AAE840040929B7F8360B9A29341, "[SRV_FMGR] > FileList > get state(%x): %d")
+    TRC_MSG(TRC_SRV_FMGR_1D505DC921DC42C4AF96CD44A2EF4DA2, "[SRV_FMGR] > FileList > get cap(%x): %d")
+    TRC_MSG(TRC_SRV_FMGR_0036FB40DE1B43D98280E13BB509B2EE, "[SRV_FMGR] > FileList > count(%x): %d")
+    TRC_MSG(TRC_SRV_FMGR_2CF93198C69645F7B7D6A5F32B09DEC3, "[SRV_FMGR] > FileList > empty(%x): %d")
+    TRC_MSG(TRC_SRV_FMGR_A25E5BBD0CA14ADCA2F09C2BE4CFF91C, "[SRV_FMGR] > FileList > dirty(%x): %d")
+    TRC_MSG(TRC_SRV_FMGR_F7B111608D684AB19CE3F5E0D0222306, "[SRV_FMGR] > FileList > get path(%x,%d): %d")
+    TRC_MSG(TRC_SRV_FMGR_E0A533DF9B824458A5FDF7E427748FA7, "[SRV_FMGR] > FileList > get name(%x,%d): %d")
+    TRC_MSG(TRC_SRV_FMGR_40D537B1B89245FEACB0B9B4A74C00D0, "[SRV_FMGR] > FileList > get info(%x,%d): %d")
+    TRC_MSG(TRC_SRV_FMGR_2706B71300344777AE70627970B1796C, "[SRV_FMGR] > FileList > load(%x,%d): %d")
+    TRC_MSG(TRC_SRV_FMGR_B8E4A371EBFC4D28949CBF39F2BFDD68, "[SRV_FMGR] > FileList > refresh(%x): %d")
+    TRC_MSG(TRC_SRV_FMGR_8714BFA125714EB68DDCFA512DC5451C, "[SRV_FMGR] > FileList > get set(%x)")
+    TRC_MSG(TRC_SRV_FMGR_5CEE23E9B95C4623A5C6F044048D1DA3, "[SRV_FMGR] > FileList > set set(%x)")
+    TRC_MSG(TRC_SRV_FMGR_C59851F0C6D34FC4BE4766B22BFD67E7, "[SRV_FMGR] > FFL > create(%x): %d")
+    TRC_MSG(TRC_SRV_FMGR_55652A536B364D35B23A943A955A51F8, "[SRV_FMGR] > Sync > copy")
+    TRC_MSG(TRC_SRV_FMGR_FCE9DEA7D6D348AD963712D8D739C684, "[SRV_FMGR] > Sync > move")
+    TRC_MSG(TRC_SRV_FMGR_4391AAA3EDD643EFAD0610590D6F54CD, "[SRV_FMGR] > Sync > rename")
+    TRC_MSG(TRC_SRV_FMGR_AC55CB534B9E4462A097A3C8C8EAD672, "[SRV_FMGR] > Sync > delete")
+    TRC_MSG(TRC_SRV_FMGR_FB1CF1CCB4394BDD9CACE38CBB9CDEF9, "[SRV_FMGR] > Sync > delete all")
+    TRC_MSG(TRC_SRV_FMGR_9366DD9B50504793A2EC7EC3BDFBDCDC, "[SRV_FMGR] > Sync > return: %d")
+    TRC_MSG(TRC_SRV_FMGR_530ED494B9994C82A514EE2F0D0964B2, "[SRV_FMGR] > Notify (%d,%d,%d)")
+    TRC_MSG(TRC_SRV_FMGR_460E3091C2034F1C9D08CA68C798CA11, "[SRV_FMGR] > Drv List > create(%d): %x")
+    TRC_MSG(TRC_SRV_FMGR_A5613B9E6B0445D2BF666AF71BF5124D, "[SRV_FMGR] > Drv List > destroy(%x)")
+    TRC_MSG(TRC_SRV_FMGR_F0F547FC72814D12AEB68573CC0BE814, "[SRV_FMGR] > Drv List > count(%x): %d")
+    TRC_MSG(TRC_SRV_FMGR_BA73EDCB69FF46F7AA3998749925DA49, "[SRV_FMGR] > Drv List > get_drv_letter(%x,%d): %d")
+    TRC_MSG(TRC_SRV_FMGR_12C8C7C2C754436383D0ACC98C5BFBFA, "[SRV_FMGR] > Drv List > get_index(%x, drv=%d): %d")
+    TRC_MSG(TRC_SRV_FMGR_0DAF7FDB1ADD4CB897E15F27919747A2, "[SRV_FMGR] > Drv List > get_index(%x, type=%d): %d")
+    TRC_MSG(TRC_SRV_FMGR_F52F81E176D44FADB09AC476E39FB6AC, "[SRV_FMGR] > Drv > Init: %d")
+    TRC_MSG(TRC_SRV_FMGR_8DF584A55D2C48F9B589E3B697514A64, "[SRV_FMGR] > Types > get_option(%d)")
+    TRC_MSG(TRC_SRV_FMGR_088D970CFF6742F5B60E0281C4CB6918, "[SRV_FMGR] > Types > get_send_option(%d)")
+    TRC_MSG(TRC_SRV_FMGR_F40D5469C80440BEA54376C58C0EA507, "[SRV_FMGR] > Types > get_use_option(%d)")
+    TRC_MSG(TRC_SRV_FMGR_EB5188B26D824BC3A2E32CE4059AA73D, "[SRV_FMGR] > Types > return: %d, %x")
+    TRC_MSG(TRC_SRV_FMGR_9FB5453EC67E48AEB74843AEF21945AB, "[SRV_FMGR] > Types > enabler(%d): %x,%x")
+    TRC_MSG(TRC_SRV_FMGR_0C062C5CA5C9470694752C5F77240F91, "[SRV_FMGR] > Types > launch(%d): %x")
+    TRC_MSG(TRC_SRV_FMGR_9d71258a3d8f495bbad1ba5d05087763, "[SRV_FMGR] > Current > msg status: %d, queue size: %d, send available: %d")
+    TRC_MSG(TRC_SRV_FMGR_2162a813145b4d029891fbb9405042ca, "[SRV_FMGR] > Before > queue size: %d, queue[0] status: %d, queue[1] status: %d")
+    TRC_MSG(TRC_SRV_FMGR_a22c75b21c274085a660d1d45f8e0fe8, "[SRV_FMGR] > After > queue size: %d, queue[0] status: %d, queue[1] status: %d")
+    TRC_MSG(TRC_SRV_FMGR_7d83fe57831b498d824f52fe36f6cae1, "[SRV_FMGR] > Receive from FMT > queue size: %d, queue[0] status: %d, queue[1] status: %d")
+    TRC_MSG(TRC_SRV_FMGR_e75ae42313e34d30991f4346759b37e7, "[SRV_FMGR] > Card > bit: (%d, %d)")
+    
+
+    TRC_MSG(TRC_SRV_FMGR_FILELIST_BUFFER, "[SRV_FMGR] > FFL > buffer(0x%08X) size: %d, sort_files: %d")
+    TRC_MSG(TRC_SRV_FMGR_FILELIST_SORTING_BUFFER, "[SRV_FMGR] > FFL > sorting buffer(0x%08X) size: %d")
+    TRC_MSG(TRC_SRV_FMGR_FILELIST_WORKING_BUFFER, "[SRV_FMGR] > FFL > working buffer(0x%08X) size: %d")
+    TRC_MSG(TRC_SRV_FMGR_NOTIFICATION_DEV_READY,  "[SRV_FMGR] > Notify > Devices ready")
+    
+END_TRACE_MAP(MOD_FMT)
+
+#endif /* _TRC_FMT_H */

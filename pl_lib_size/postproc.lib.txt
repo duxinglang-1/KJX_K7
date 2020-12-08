@@ -1,0 +1,16 @@
+
+      Code    RO Data    RW Data    ZI Data      Debug   Object Name
+         4          0          0          0         52   asd_main.obj
+         4          0          0          0         52   autocap_main.obj
+         4          0          0          0         52   fd_main.obj
+         4          0          0          0         52   hdr_main.obj
+         4          0          0          0         52   mav_main.obj
+         4          0          0          0         52   mavcap_main.obj
+         4          0          0          0         52   pano_main.obj
+         0          0          0          0          0   pp_feature_ctrl.obj
+         0          0          0          0          0   pp_main.obj
+         0          0          0          0          0   pp_scenario_ctrl.obj
+         4          0          0          0         52   sd_main.obj
+      2730          0          0          0        606   utility_feature_ctrl.obj
+      2762          0          0          0       1022   TOTAL
+

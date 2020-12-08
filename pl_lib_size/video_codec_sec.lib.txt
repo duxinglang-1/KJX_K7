@@ -1,0 +1,33 @@
+
+      Code    RO Data    RW Data    ZI Data      Debug   Object Name
+      3444          0          0          0       1012   H264SwDecApi_bp.obj
+      3648          0          0          0       1028   H264SwDecApi_mphp.obj
+      5530        528          0          0       1268   MP4SwDecApi_asp.obj
+      3090          0          0          0       1044   MP4SwDecApi_sp.obj
+      4582         14          0          0       1724   MP4SwEncApi.obj
+         0          0          0          0          0   MP4SwEncDriver_Fcore.obj
+         0          0          0          0          0   MP4SwEncDriver_Hybrid.obj
+         0          0          0          0          0   SWCodec_Common.obj
+      1932          0          0          0        864   UVTSwDecApi.obj
+      4762          0       1026          0       1496   UVTSwEncApi.obj
+         0          0          0          0          0   decoder.obj
+         0          0          0          0          0   decoder_LC.obj
+         0          0          0          0          0   decoder_ST.obj
+      3146        308         40         36       1280   h264_decoder_component_v2_bp.obj
+      3574        308         40         36       1264   h264_decoder_component_v2_mphp.obj
+      1620          0         40        160       1304   h264_encoder_component_v2.obj
+      2838        440         36         36       1388   mpeg4_decoder_component_v2_asp.obj
+      2522          0         36          0        720   mpeg4_decoder_component_v2_sp.obj
+      3558         29         44       1104       1848   mpeg4_encoder_component_v2.obj
+      3360          0         36         36       1560   mpeg4_vt_decoder_component_v2.obj
+      3068          0         40        336       1412   mpeg4_vt_encoder_component_v2.obj
+         0          0          0          0          0   rm_decoder_component_v2.obj
+         0          0          0          0          0   rvdec_test_main_LC.obj
+         0          0          0          0          0   rvdec_test_main_ST.obj
+         2          8          0          0         52   swipv_mcu.obj
+       336          0          0         92        960   vcodec_OAL.obj
+       184          0          0          0        332   vcodec_log.obj
+         0          0          0          0          0   video_msg.obj
+      2024        168         36        132       1220   vp8_decoder_component_v2.obj
+     53220       1803       1374       1968      21776   TOTAL
+

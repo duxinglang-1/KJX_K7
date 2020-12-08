@@ -1,0 +1,12 @@
+
+      Code    RO Data    RW Data    ZI Data      Debug   Object Name
+         0          0          0          0          0   mm_intmem_mt6253.obj
+        32          0          0          0        274   mm_power_ctrl.obj
+       388          0          0         12        438   mm_power_ctrl_mt6250.obj
+         0          0          0          0          0   mm_power_ctrl_mt6253.obj
+       232          0          0          4        299   mm_pq_path_mt6260.obj
+         0          0        180          0          0   mmsys_pwrmgr.obj
+       296          0          0         32        577   visual_comm.obj
+       354          0          0        904        361   visualhisr.obj
+      1302          0        180        952       1949   TOTAL
+

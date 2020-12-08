@@ -1,0 +1,6 @@
+
+      Code    RO Data    RW Data    ZI Data      Debug   Object Name
+      7890          0          0         40       2404   gdi_2d_engine.obj
+       862          0          0          0        480   gdi_linear_transform.obj
+      8752          0          0         40       2884   TOTAL
+

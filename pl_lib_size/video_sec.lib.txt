@@ -1,0 +1,25 @@
+
+      Code    RO Data    RW Data    ZI Data      Debug   Object Name
+         0          0          0          0          0   h264_hw_decoder_component_v2.obj
+      2210         32          0         80        768   mjpeg_decoder_component_v2.obj
+      1148          0         36         96        719   mjpeg_encoder_component_v2.obj
+         0          0          0          0          0   mp4_decore_v2.obj
+         0          0          0          0          0   mp4_rc_v2.obj
+         0          0          0          0          0   mpeg4_hw_decoder_component_v2.obj
+         0          0          0          0          0   mpeg4_hw_encoder_component_v2.obj
+         0          0          0          0          0   mpeg4_hw_encore_v2.obj
+       252          0          0          0        665   video_OAL_v2.obj
+       740          0          0          0       1003   video_codec_buffer_mgr_v2.obj
+      1844          0          0          0        316   video_codec_log.obj
+      1330          0          0        872        536   video_codec_schedule_control.obj
+      2600         34          0         54       1273   video_decoder_common_adapter_v2.obj
+      8620         43          0          4       3717   video_decoder_component_v2.obj
+      1098          0          0          0        297   video_decoder_isolation_v2.obj
+      2340         36          0          4       1185   video_decscheduler_component_v2.obj
+       152          0          0          0        182   video_encoder_auxiliary_v2.obj
+         0          0          0          0          0   video_encoder_common_adapter_v2.obj
+      7816         38          0        792       4998   video_encoder_component_v2.obj
+      2052         36          0        376       1172   video_recorder_source_component_v2.obj
+         0          0          0          0          0   yuv_encoder_component_v2.obj
+     32202        219         36       2278      16831   TOTAL
+

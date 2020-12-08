@@ -1,0 +1,46 @@
+
+      Code    RO Data    RW Data    ZI Data      Debug   Object Name
+         0          0          0          0          0   VideoCall_IL_Client.obj
+      4148         44          0        184       2265   avi_muxer_v2.obj
+       212          8          0          8        124   custom_video_enc.obj
+         0          0          0          0          0   custom_video_enc_h264.obj
+         0          0          0          0          0   custom_video_enc_matv.obj
+         0          0          0          0          0   custom_video_enc_matv_mjpeg.obj
+       724        168          0         24        329   custom_video_enc_mjpeg.obj
+         0          0          0          0          0   custom_video_enc_mpeg4.obj
+       744          0          0          0         65   custom_video_enc_utility.obj
+         0          0          0          0          0   custom_video_enc_vt.obj
+       112          0         96          0        156   hal_custom_video.obj
+         0          0          0          0          0   mp4_muxer_adapter_buffer_management_v2.obj
+         0          0          0          0          0   mp4_muxer_adapter_meta_creation_v2.obj
+         0          0          0          0          0   mp4_muxer_adapter_v2.obj
+       108          0          0          0         65   stereo_video_color_transformation.obj
+      1240          0          0        189       1112   va2_comp_video_renderer.obj
+         0          0          0          0          0   va2_display_api_adapter.obj
+       434          0          0          0        488   va2_util_buffer_header_queue.obj
+       440          0          0          0        424   va2_util_misc.obj
+        16          0          0          0        118   va2_video_renderer_vp.obj
+      6064        116          0       1032       1779   va2_video_renderer_vp_mt6252.obj
+         8          0          0          0        104   va2_video_renderer_vt.obj
+       118         20          0          0        179   vcodec_main.obj
+       214         20          0          0        244   vcodec_v2_main.obj
+       132         20          0          0        278   vfile_main.obj
+      1240          0          0          0       1111   video_buffer_management_v2.obj
+       298          0          0          0        215   video_codec_custom_adapter_v2.obj
+       904          0          0          0        176   video_codec_custom_setting_v2.obj
+      1748          0          0          0        496   video_codec_parser_utility_v2.obj
+       906          0          0          0       1320   video_codec_utility_v2.obj
+      2594          0          0          0       3473   video_comm_component_v2.obj
+       690         24          0        184        805   video_comm_v2.obj
+       176          0          0        520        344   video_dbg_v2.obj
+      4182         54          0        480       3479   video_muxer_component_v2.obj
+       276          0          0         32        479   video_recorder_clock_utility_v2.obj
+         0          0          0          0          0   video_recorder_if_v2.obj
+         0          0          0          0          0   video_renderer_task_thread_pool.obj
+         0          0          0          0          0   video_subtitle_codec_if.obj
+         0          0          0          0          0   video_subtitle_codec_ssa.obj
+        10          0          0          0         84   video_subtitle_decoder.obj
+         0          0          0          0          0   video_vt_api_v2.obj
+       120         20          0          0        278   vsrc_main.obj
+     27858        494         96       2653      19990   TOTAL
+

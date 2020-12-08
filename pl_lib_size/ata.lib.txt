@@ -1,0 +1,7 @@
+
+      Code    RO Data    RW Data    ZI Data      Debug   Object Name
+      2020          0          0        100       1172   ata_at_command_hdlr_V1.obj
+      1798          0        320       5144        480   ata_audio_test.obj
+       766          0          8         48        412   ata_matv_test.obj
+      4584          0        328       5292       2064   TOTAL
+

@@ -1,0 +1,23 @@
+
+      Code    RO Data    RW Data    ZI Data      Debug   Object Name
+       872          0          4        196        144   display_io.obj
+       416          0          0        524        358   flatten_api.obj
+      2616          0          0         12        325   flatten_api_6260.obj
+         2          0          0          0         52   lcd_em.obj
+       928          0          0          8        139   lcd_exception_api_6260.obj
+      2826          0          0         20        483   lcd_if_manager.obj
+       208          0          0         16        189   lcd_power_mgr.obj
+       912          0          0          0        306   lcd_tear_6260.obj
+      1904          0          0        364        763   lcd_tear_manager.obj
+        96          0          4          8        104   lcm_proxy.obj
+      1016          0          0          0       2007   owfimage.obj
+       790          0          0        128        667   owfnativestream.obj
+      1242          0          0         20        933   wfc_autonomous.obj
+      9294          8          0       5216       4895   wfcapi.obj
+       144          0          0          8        221   wfd_hwdevice_6260.obj
+       456          0         20          0        249   wfd_lcd_6260.obj
+       482          0          4          0       1641   wfd_lcd_adapter.obj
+      5122          0        172       1364       1889   wfd_lcd_common.obj
+        86          0          0          0        233   wfdapi.obj
+     29412          8        204       7884      15598   TOTAL
+

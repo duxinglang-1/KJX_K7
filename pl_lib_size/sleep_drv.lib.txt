@@ -1,0 +1,10 @@
+
+      Code    RO Data    RW Data    ZI Data      Debug   Object Name
+       600         12          0         24        204   MCU_RM.obj
+       156          0          0          0         52   MD_RM.obj
+       892          0          0         56        736   dcxo_div.obj
+      2076          0          1        109       1772   ostd.obj
+       156          0          0         10        240   sleep_drv_internal.obj
+       108          0          0          0        136   sleep_drv_public.obj
+      3988         12          1        199       3140   TOTAL
+

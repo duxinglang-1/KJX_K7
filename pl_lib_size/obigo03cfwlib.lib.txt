@@ -1,0 +1,27 @@
+
+      Code    RO Data    RW Data    ZI Data      Debug   Object Name
+      2602        843          0          0       2372   msf_chrs.obj
+         0        512          0          0          0   msf_chrt.obj
+      4110        580          0          0       2928   msf_cmmn.obj
+       984          0          0          0       1048   msf_core.obj
+      1878          0          0          0       1000   msf_dcvt.obj
+       236          0          0          0        408   msf_drc.obj
+       440          0          0          0        780   msf_env.obj
+      3012       4252          0          0       1484   msf_hdr.obj
+       228          0          0         56        540   msf_mem.obj
+       428       8349          0          0        324   msf_mime.obj
+      3078         31          0          0        916   msf_pdec.obj
+      2508        220          0          0       1092   msf_ptok.obj
+      8450        433          0          0       2152   msf_ptxt.obj
+      7586        141          0          0       4180   msf_url.obj
+         0        888          0          0          0   msf_xmim.obj
+      3984          0          0        984       2040   msm.obj
+        66          0          0          0        244   msm_cmmn.obj
+       760          0          0          4        668   msm_dlg.obj
+       750          0          0          0        672   msm_env.obj
+         0          0          0          0          0   msm_reg.obj
+       368          0          0         36        516   msm_sig.obj
+       638          0          0          4        448   msm_time.obj
+       880          0          0          0        140   wml_inpf.obj
+     42986      16249          0       1084      23952   TOTAL
+

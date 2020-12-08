@@ -1,0 +1,18 @@
+
+      Code    RO Data    RW Data    ZI Data      Debug   Object Name
+       280          0          0         16        120   SST_intrCtrl.obj
+         8          0          0          0        156   SST_secure.obj
+       136          0          0         44        248   SWLA_old_addon.obj
+         0          0          0          0          0   boot_cert_ctrl.obj
+         0          0          0          0          0   boot_cert_interface.obj
+        60          0          0          0        252   boot_fail_handler.obj
+       508          0          0          0        524   ex_hdlr.obj
+      9196        369          4        764       1552   ex_item.obj
+         2          0          0          0         52   gdb_rsp_server.obj
+       338          0          0        264        248   memoryTest.obj
+      1618        239          0        196       1428   softwareLA.obj
+       272          0          0         20        232   sst_concurrent_utility.obj
+       426          0          0          0        204   sst_unwind.obj
+       620          0          0        104        444   swtr.obj
+     13464        608          4       1408       5460   TOTAL
+

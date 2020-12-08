@@ -1,0 +1,13 @@
+
+      Code    RO Data    RW Data    ZI Data      Debug   Object Name
+         0          0          0          0          0   dcl_otg_drv.obj
+      5744          0        340        168       5754   dcl_usb_drv.obj
+        40          0          0          0        416   dcl_usb_hcd.obj
+         4          0          0          4        104   upll_ctrl.obj
+         0          0          0          0          0   usb_dummy.obj
+        82          0          0          0        156   usb_phy_drv.obj
+         0          0          0          0          0   usblog_drv.obj
+         0          0          0          0          0   usbms_cdrom.obj
+         0          0          0          0          0   usbms_ram.obj
+      5870          0        340        172       6430   TOTAL
+

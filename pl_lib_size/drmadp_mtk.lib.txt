@@ -1,0 +1,7 @@
+
+      Code    RO Data    RW Data    ZI Data      Debug   Object Name
+      5010          2         29         50       1693   drm_core_cmd.obj
+     13524        152          0        524       3160   drm_core_parser.obj
+      9612          0          4       1896       2955   drm_core_proc.obj
+     28146        154         33       2470       7808   TOTAL
+

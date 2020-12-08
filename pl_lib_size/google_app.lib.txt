@@ -1,0 +1,6 @@
+
+      Code    RO Data    RW Data    ZI Data      Debug   Object Name
+      2244          0        144          2       1440   SearchWebGoogle.obj
+        16      12908          0          0        104   SearchWebGoogleRes.obj
+      2260      12908        144          2       1544   TOTAL
+

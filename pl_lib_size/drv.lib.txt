@@ -1,0 +1,10 @@
+
+      Code    RO Data    RW Data    ZI Data      Debug   Object Name
+         0          0          0          0          0   BC_drv.obj
+       340          0          0          0        770   bf.obj
+         0          0          0          0          0   e_compass_main.obj
+         0          0          0          0          0   e_compass_sensor.obj
+         0          0          0          0          0   fue_emmc_adapt.obj
+         0          0          0          0          0   sim_msdc_test.obj
+       340          0          0          0        770   TOTAL
+

@@ -1,0 +1,16 @@
+
+      Code    RO Data    RW Data    ZI Data      Debug   Object Name
+      3780      10280          0          0        744   aes_engine.obj
+      9128        672          0          0       2792   bignum.obj
+      3394          0          0          0       4480   che_api.obj
+      4318          0          0          0       1408   che_sw_driver.obj
+      1300       4416        128          4        404   des_engine.obj
+      1068          0          0          0        680   dhm.obj
+      1710         64          0          0        448   md4_engine.obj
+      2264         68          0          0        260   md5_engine.obj
+       280          0          0          0        268   rc4_engine.obj
+      2104          0          0          0        808   rsa.obj
+       958          0          0        112        576   sha1_engine.obj
+      2876        260          0          0        652   sha256.obj
+     33180      15760        128        116      13520   TOTAL
+

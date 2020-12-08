@@ -1,0 +1,13 @@
+
+      Code    RO Data    RW Data    ZI Data      Debug   Object Name
+      4704          0          4          0       1584   inet_msg_api.obj
+      4568          0          0          0       4396   inet_msg_mem.obj
+      5820         75          0          0       2324   inet_msg_pack.obj
+       476       1815       3280          0        608   inet_msg_res.obj
+      2468          0          0          0       1328   inet_msg_rtsp.obj
+      3006        128          0          0       2636   inet_msg_sip.obj
+      9990          0          0          0       2348   inet_msg_unpack.obj
+      5060          0          0          4       2796   inet_msg_util.obj
+       130          0          0          0         68   inet_msg_wrapper.obj
+     36222       2018       3284          4      18088   TOTAL
+

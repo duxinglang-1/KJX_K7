@@ -1,0 +1,12 @@
+
+      Code    RO Data    RW Data    ZI Data      Debug   Object Name
+       100          0          0          4         64   inc.obj
+        52          0          0          0        208   int.obj
+       278          0          0          0        320   ioc.obj
+       224          0          0          0        192   quf.obj
+       932          0          0          0        212   qus.obj
+       352          0          0          0         68   tcs.obj
+        28          0          0          0         60   tcse.obj
+       180          0          0          0        188   tmf.obj
+      2146          0          0          4       1312   TOTAL
+

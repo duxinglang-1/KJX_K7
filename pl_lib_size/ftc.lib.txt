@@ -1,0 +1,5 @@
+
+      Code    RO Data    RW Data    ZI Data      Debug   Object Name
+       262         20          0          0        298   ftc_main.obj
+       262         20          0          0        298   TOTAL
+

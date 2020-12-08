@@ -1,0 +1,11 @@
+
+      Code    RO Data    RW Data    ZI Data      Debug   Object Name
+         0        774        121         11          0   l1d_data.obj
+      4344         61         28        401       7041   m12190.obj
+       782          0          0          0        373   m12191.obj
+       432        156          0          0        137   m12192.obj
+        44         94         24         38         59   m12194.obj
+       848         20          0          0        933   m12195.obj
+       532         88          0          2        232   m12196.obj
+      6982       1193        173        452       8775   TOTAL
+

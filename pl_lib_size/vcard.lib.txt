@@ -1,0 +1,8 @@
+
+      Code    RO Data    RW Data    ZI Data      Debug   Object Name
+      3698         93          0          0       1593   vcard_builder.obj
+       620          0          0         24       1079   vcard_lib.obj
+      6814        256          0          0       1983   vcard_parser.obj
+       378        190        128          0        426   vcard_utility.obj
+     11510        539        128         24       5081   TOTAL
+

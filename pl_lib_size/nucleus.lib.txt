@@ -1,0 +1,29 @@
+
+      Code    RO Data    RW Data    ZI Data      Debug   Object Name
+         0          0          0         16          0   dmd.obj
+        28          0          0          0         52   dmi.obj
+        68          0          0          0         60   erc.obj
+         0          0          0          4          0   erd.obj
+        12          0          0          0         52   eri.obj
+        28          0          0          0         52   evi.obj
+         0          0          0         24          0   hid.obj
+        44          0          0          0         52   hii.obj
+         0          0          0         16          0   iod.obj
+        28          0          0          0         52   ioi.obj
+         8          0          0          0         52   lic.obj
+         0         65          0          0          0   lid.obj
+         0          0          0         16          0   mbd.obj
+        28          0          0          0         52   mbi.obj
+         0          0          0         16          0   pid.obj
+        28          0          0          0         52   pii.obj
+       244          0          0          0        252   pmce.obj
+        28          0          0          0         52   pmi.obj
+        28          0          0          0         52   qui.obj
+         8          0          0          0         52   rlc.obj
+         0        145          0          0          0   rld.obj
+        28          0          0          0         52   smi.obj
+       224          0          0          0         60   tci.obj
+      1560          0          0          0        688   tmc.obj
+        96          0          0          0         52   tmi.obj
+      2488        210          0         92       1736   TOTAL
+

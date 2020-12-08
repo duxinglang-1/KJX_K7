@@ -1,0 +1,23 @@
+
+      Code    RO Data    RW Data    ZI Data      Debug   Object Name
+      1282         14          4       1028       1100   common.obj
+       154          0          0          0        144   crypto.obj
+      1806         51         92          1       1388   driver_mtk.obj
+         0          0          8          0          0   drivers.obj
+       108          0          0          0        184   l2_packet.obj
+       226          0          0          0        268   md5.obj
+       638        387          0          0        620   ms_funcs.obj
+       242          0          0          0        208   rc4.obj
+      5380          0          0          0        776   sha1.obj
+      1134        256          0          0        552   sha256.obj
+       812         22        448       6036        336   supc_adpt_functions.obj
+       112          0         20          0        120   supc_create.obj
+       348          0          0      30328        172   supc_init.obj
+       476         20          0          0         64   supc_main.obj
+     12340        401          0          1       5368   supc_wpa_common.obj
+      8534        293         44          8       1892   supc_wpa_functions.obj
+     11060        212          0          0       3060   wpa.obj
+      8748       2741         12         41       3528   wpa_supplicant.obj
+       670          0          0          0        736   wpabuf.obj
+     54070       4397        628      37443      20516   TOTAL
+

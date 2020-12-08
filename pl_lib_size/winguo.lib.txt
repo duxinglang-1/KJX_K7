@@ -1,0 +1,13 @@
+
+      Code    RO Data    RW Data    ZI Data      Debug   Object Name
+      3256         32          0          4       3323   GB_File.obj
+       306         56          0          0        645   GB_HWPlat.obj
+      1808          0          0         36       1778   GB_PlatIme.obj
+      1272        472          0        252       1918   GB_SMDSysPort.obj
+      3016         87         18        224       5436   GB_SystemPlat.obj
+      1134          0          0         60        656   GB_WG_LACInf.obj
+      1066         71          1          8       1125   GB_WG_NetSearch.obj
+      2630         44          1          8       2859   GB_WG_PlatUi.obj
+      1546         86          2          0       1698   GB_WG_SYSApp.obj
+     16034        848         22        592      19438   TOTAL
+

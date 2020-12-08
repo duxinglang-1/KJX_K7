@@ -1,0 +1,17 @@
+
+      Code    RO Data    RW Data    ZI Data      Debug   Object Name
+       384          0          0          0        212   csi_asn_decode.obj
+       368          0          0          0        204   csi_asn_encode.obj
+      1062        165        164       8212        485   kjx_agps.obj
+      4288        160        372        237       1851   kjx_gps.obj
+      1662         29          1         21        736   kjx_gps_main.obj
+      1000        438          0         88       1361   kjx_led_isink.obj
+      1686        128          0         34        617   kjx_net.obj
+      1456          0          0         24        433   kjx_reduce_string.obj
+      1118         96          0        260        391   kjx_sms.obj
+       672        169          0        124        445   kjx_socket.obj
+      1860        335          0         88       1024   kjx_socket_main.obj
+       580         85        508          0         78   kjx_switch.obj
+      1984          0          0         16       1472   scsi.obj
+     18120       1605       1045       9104       9309   TOTAL
+

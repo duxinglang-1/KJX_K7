@@ -1,0 +1,5 @@
+
+      Code    RO Data    RW Data    ZI Data      Debug   Object Name
+        36          0          0          8         60   data_init.obj
+        36          0          0          8         60   TOTAL
+

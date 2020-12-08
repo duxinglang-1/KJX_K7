@@ -1,0 +1,11 @@
+
+      Code    RO Data    RW Data    ZI Data      Debug   Object Name
+      1492          0          0          1       1358   gsensor_sensor_I2C.obj
+       308          0          1        584        348   sensor.obj
+       788         12          0        276        525   yas_acc_calibration.obj
+      2646         64         12        180       2590   yas_acc_driver-mma8452q.obj
+         0          0          0          0          0   yas_acc_driver.obj
+      1020         36          0        284       1340   yas_simple.obj
+      1068          0          0          0        264   yas_utility.obj
+      7322        112         13       1325       6425   TOTAL
+

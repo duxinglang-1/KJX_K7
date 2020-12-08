@@ -1,0 +1,29 @@
+
+      Code    RO Data    RW Data    ZI Data      Debug   Object Name
+         0          0          0          0          0   idp_bus_monitor.obj
+        28          0          0          0         52   idp_cal.obj
+      2432          0          0       1848       2795   idp_core.obj
+        16          0          0          0        104   idp_core_internal.obj
+        22          0          0        160        215   idp_engines_mt6252.obj
+       616          0          0        128        450   idp_hisr_mt6252.obj
+        84          0          0          0        165   idp_img_rot_flip.obj
+        56          0          0          0        170   idp_imgdma_mt6252.obj
+      1000          0          0         16       1214   idp_imgdma_rotdma0_mt6252.obj
+       658          0          0         48        940   idp_mem.obj
+      1356         13          0         40       1120   idp_resz_crz_mt6252.obj
+         8          0          0          0         59   idp_resz_mt6252.obj
+       342          0          0          4        636   idp_scen_common_mt6252.obj
+      1358          0         72         56       1786   idp_scen_cp_mt6252.obj
+      1528          0         72         52       1844   idp_scen_ic_jpeg_mt6252.obj
+         0          0          0          0          0   idp_scen_ir_mt6250.obj
+      1920          0         72        840       2103   idp_scen_vp_mt6252.obj
+      1766          0         72         64       1874   idp_scen_vr_mt6252.obj
+         0          0          0          0          0   idp_sw_yuv420_2_uyvy422_resizer.obj
+         2          0          0          0         52   idp_sw_yuv_2_rgb_dithering.obj
+        38          0          0          0        520   idp_val.obj
+       188        370          0        140        181   image_effect_post.obj
+         0          0          0          0          0   unit_test_rgb565_120x90.obj
+         0          0          0          0          0   unit_test_rgb888_80x80.obj
+         0          0          0          0          0   unit_test_yuv420_80x96_h264.obj
+     13418        383        288       3396      16280   TOTAL
+

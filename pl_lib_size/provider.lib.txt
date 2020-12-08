@@ -1,0 +1,18 @@
+
+      Code    RO Data    RW Data    ZI Data      Debug   Object Name
+      7538         35          0          0       2303   avi_provider.obj
+         0          0          0          0          0   flv_parser.obj
+         0          0          0          0          0   flv_provider.obj
+      9380        350          0          0       2180   mkv_parser.obj
+      5390         32          0          8       1578   mkv_provider.obj
+      6598          0          0          0       2816   mp4_parser.obj
+      4736         64          0          0       1665   mp4_parser_audio.obj
+      7550          0          0          4       3754   mp4_parser_stbl.obj
+      2206          0          0          0        662   mp4_parser_udat.obj
+      1362          0          0          0        590   mp4_parser_video.obj
+     12120         32          0          4       2367   mp4_provider.obj
+       844          0          0          0        222   provider_utility.obj
+      9000         72          0         12       3207   source_provider_component.obj
+       504        120          0          0        309   source_provider_isolation.obj
+     67228        705          0         28      21653   TOTAL
+

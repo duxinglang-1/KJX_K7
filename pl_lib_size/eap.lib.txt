@@ -1,0 +1,10 @@
+
+      Code    RO Data    RW Data    ZI Data      Debug   Object Name
+       592          0          0          0        292   aes_wrap.obj
+         6          0          0          0        156   cert_dummy.obj
+      5822         65          4          0       2980   eap.obj
+      6096          0         24          0       2972   eapol_sm.obj
+         0          0          0         26          0   milenage_dummy.obj
+       240          0          0          0        708   wps_dummy.obj
+     12756         65         28         26       7108   TOTAL
+

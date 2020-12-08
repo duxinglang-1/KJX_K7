@@ -1,0 +1,17 @@
+
+      Code    RO Data    RW Data    ZI Data      Debug   Object Name
+       448         28          0          0        512   vrt_base_allocator.obj
+       912          0          0          0       1140   vrt_base_array.obj
+       770          0          0          0       1392   vrt_base_list.obj
+       730          0          0          0       1180   vrt_base_map.obj
+      1934          0          0          0       4116   vrt_base_string.obj
+      7890        432          8        104       8132   vrt_canvas.obj
+      3458          0          0         80       1940   vrt_canvas_frame.obj
+        12          0          0          0         52   vrt_canvas_frame_callback.obj
+         0          0          0          0          0   vrt_debug.obj
+        78          0          0          0        216   vrt_draw_cmd_queue.obj
+       520          0          0         44        136   vrt_logger_rsp_time.obj
+         0          0          0          0          0   vrt_statistic.obj
+       166          0          0          0        260   vrt_sub_allocator.obj
+     16918        460          8        228      19076   TOTAL
+

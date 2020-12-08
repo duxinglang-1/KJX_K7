@@ -1,0 +1,23 @@
+
+      Code    RO Data    RW Data    ZI Data      Debug   Object Name
+       384          0          0          8        254   cal_camera_nvram.obj
+      2088          0          0        130        870   cal_cb.obj
+         0          0          0          0          0   cal_cct_feature_ctrl.obj
+      1048          0         12        116        138   cal_feature_ctrl.obj
+         0          0          0          0          0   cal_high_task_main.obj
+       260         20          0          0        352   cal_low_task_main.obj
+       716          0          1         70        368   cal_main.obj
+        46          0          0          0        115   cal_profiling.obj
+      4310          0         40        597        706   cal_scenario_ctrl.obj
+      1488         20          0         16        762   cal_task_main.obj
+        18          0          0          0        260   cal_webcam.obj
+      1180          0          0          4        713   idp_cam_if.obj
+       102          0          0         30        275   isp_comm_if.obj
+       880          0          0        115        426   isp_control.obj
+      1540          0          0         19       1536   isp_driver_if.obj
+      1954          0         52        110        795   isp_feature.obj
+       744          0          2        165        366   isp_isr.obj
+       378          0         32         12        239   isp_main.obj
+        12          0          0          0        208   isp_webcam.obj
+     17148         40        139       1392       8383   TOTAL
+

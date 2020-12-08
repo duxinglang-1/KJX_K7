@@ -1,0 +1,9 @@
+
+      Code    RO Data    RW Data    ZI Data      Debug   Object Name
+       240          0          0          4        192   MT6306_HW_I2C.obj
+      4862          0        360         12        856   MT6306_I2C.obj
+      7756          6          0         44       1676   icc_switchControl0_mt6306.obj
+     10212         10         43          8       2836   icc_switchControl1_mt6306.obj
+      6032         80         40        264       3684   icc_switchControl2_mt6306.obj
+     29102         96        443        332       9244   TOTAL
+

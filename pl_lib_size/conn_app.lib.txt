@@ -1,0 +1,39 @@
+
+      Code    RO Data    RW Data    ZI Data      Debug   Object Name
+        22          0          0          1        111   BtMmiScr.obj
+       114          0          0          0        217   CbmAppMain.obj
+        28          0          0          0        572   CbmCui.obj
+         0          0          0          0          0   ConnectManageMain.obj
+       104         36          0          0         61   DLAgentAppCore.obj
+       800          0          0          4       1945   DLAgentAppEvtHdlr.obj
+      3318          0          0         12       1480   DLAgentAppMain.obj
+         0          0          0          0          0   DLAgentAppNCenter.obj
+      2776          0          4         16       1588   DLAgentAppScrDraw.obj
+      7498        148          5         84       6225   DLAgentAppScrHdlr.obj
+       166          0          0          0        126   DataAccountApi.obj
+     11906       1412          1       2605       4693   DataAccountApp.obj
+      2502          8          0       1538       1136   DataAccountCui.obj
+       846          8          0          1        445   DataConnectionSIM.obj
+         0          0          0          0          0   DataRoaming.obj
+         0          0          0          0          0   NfcSetting.obj
+        32          0          0          0        236   UsbAdapt.obj
+       330          0          0          0        358   connectivity.obj
+      2588        167        244        424       1673   dataaccountxml.obj
+         0          0          0          0          0   syncmlaccount.obj
+         0          0          0          0          0   syncmlchangelog.obj
+         0          0          0          0          0   syncmlcommon.obj
+         0          0          0          0          0   syncmldevice.obj
+         0          0          0          0          0   syncmlemail.obj
+         0          0          0          0          0   syncmlfolder.obj
+         0          0          0          0          0   syncmlhandler.obj
+         0          0          0          0          0   syncmlmain.obj
+         0          0          0          0          0   syncmlotap.obj
+         0          0          0          0          0   syncmlpcsync.obj
+         0          0          0          0          0   syncmlregularity.obj
+         0          0          0          0          0   syncmlreport.obj
+         0          0          0          0          0   syncmlsas.obj
+         0          0          0          0          0   syncmlviewlog.obj
+      2072         14          4          5       1802   usbdevice.obj
+       674          0          0          2        822   usbpoweron.obj
+     35776       1793        258       4692      23490   TOTAL
+

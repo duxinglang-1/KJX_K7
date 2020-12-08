@@ -1,0 +1,40 @@
+
+      Code    RO Data    RW Data    ZI Data      Debug   Object Name
+      9152          0          2      12764       4124   a2dp.obj
+       740          0          0          0       1572   a2dpevent.obj
+        36         60        120          0         52   a2dpsdpdb.obj
+       524          0          0         12        536   a2dputil.obj
+       698        114         88          0        224   at_hf.obj
+       132         16         16          0        132   at_hs.obj
+      1268         87         80          0        724   atp.obj
+       448          0          0         80        744   avrcp.obj
+       398          0          0          0        376   avrcpsdp.obj
+        36         62        120          0         52   avrcpsdpdb.obj
+     10260          0          0       3464       3540   goep.obj
+      4494          0          0        129       3188   goep_main.obj
+      3074          3          4        872       1884   headset_gw.obj
+        48         66         96          3         64   hfagsdpdb.obj
+      2252          0          0          0       1140   hfg.obj
+       312          0          0          0        252   hfg_at.obj
+       744          0          8          4        408   hfg_sdp.obj
+       380          0          0         40         72   hfg_seq.obj
+      1900          0          0          0        744   hfg_sm.obj
+       938          0          0          0        692   hfg_util.obj
+        24          0          0       1580         60   hfgalloc.obj
+        16         64         72          0         52   hsagsdpdb.obj
+      2594          0          0          0        924   obclient.obj
+         0          0          0          0          0   obdebug.obj
+       508         97         32          0        392   obex_utl.obj
+         0          0          0          0          0   obexauth.obj
+       340        231        348        160        180   obexsdpdb.obj
+       824          0          0          0        872   obheader.obj
+      2826          0          0          0        856   obparse.obj
+      3780          0          0          0       1312   observer.obj
+      2226          0          0          0       1704   obstack.obj
+        60         40          0       2196        164   obxalloc.obj
+      3446         30          4          0       1712   obxbtstk.obj
+       668          0          0          0        320   sdpdb.obj
+         0          0          0          0          0   spp.obj
+        24          0          0          0        320   sppsdpdb.obj
+     55170        870        990      21304      29388   TOTAL
+

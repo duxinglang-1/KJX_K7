@@ -1,0 +1,5 @@
+
+      Code    RO Data    RW Data    ZI Data      Debug   Object Name
+        16          0         47          0        104   origin_verno.obj
+        16          0         47          0        104   TOTAL
+

@@ -1,0 +1,17 @@
+
+      Code    RO Data    RW Data    ZI Data      Debug   Object Name
+         0          0          0          0          0   aaa_ae_core.obj
+         0          0          0          0          0   aaa_af_core.obj
+         0          0          0          0          0   aaa_awb_core.obj
+       596          0          0         20        408   camera_memory_in_process.obj
+      2620        256         32          0        444   image_effect_core.obj
+         0          0          0          0          0   image_sensor_sec_ATV_SERIAL.obj
+         0          0          0          0          0   image_sensor_sec_OV7740_SERIAL.obj
+         0          0          0          0          0   image_sensor_sec_SIC320A_SERIAL.obj
+         0          0          0          0          0   isp_lsc_core.obj
+         0          0          0          0          0   isp_pca_core.obj
+       220          0          0          0        216   isp_serial_if.obj
+        80          0          0          0         52   mATV_process.obj
+         4          0          0         40         52   matv_check.obj
+      3520        256         32         60       1172   TOTAL
+

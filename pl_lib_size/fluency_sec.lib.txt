@@ -1,0 +1,8 @@
+
+      Code    RO Data    RW Data    ZI Data      Debug   Object Name
+       820          0          0        192        272   SCD_eng.obj
+       772          0          0          0        264   SwDecodeFrameHeader.obj
+      2312          0          0          0        848   video_fluency_control.obj
+       716          2          0          0        104   video_smooth_display.obj
+      4620          2          0        192       1488   TOTAL
+

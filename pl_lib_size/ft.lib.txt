@@ -1,0 +1,20 @@
+
+      Code    RO Data    RW Data    ZI Data      Debug   Object Name
+      1246          0          0        724        918   ft_fnc.obj
+      7606         32         56        316       3453   ft_fnc_audio.obj
+       212          0          0          0        126   ft_fnc_custom.obj
+      3350          0          0        128       1803   ft_fnc_fat.obj
+      1360          0          0          4        345   ft_fnc_fm.obj
+        84          0          0          0        226   ft_fnc_gps.obj
+      6148         16          1         12       1832   ft_fnc_l1rf.obj
+      2574          0          2         22       1031   ft_fnc_misc.obj
+       342          0          0          6        265   ft_fnc_misc_ex.obj
+        84          0          0          0        226   ft_fnc_nfc.obj
+       564          0          0          0        262   ft_fnc_nvram.obj
+      1700         16         12          4       1260   ft_fnc_util.obj
+       460          0          0          0        313   ft_fnc_wifi.obj
+      1292         20          2        150        246   ft_main.obj
+       144          0          0          4        240   ft_mem.obj
+         0          0          0          0          0   ft_report.obj
+     27166         84         73       1370      12546   TOTAL
+

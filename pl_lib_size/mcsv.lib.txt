@@ -1,0 +1,5 @@
+
+      Code    RO Data    RW Data    ZI Data      Debug   Object Name
+      1406        129         32         54        796   mcsv.obj
+      1406        129         32         54        796   TOTAL
+

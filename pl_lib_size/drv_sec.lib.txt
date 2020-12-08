@@ -1,0 +1,6 @@
+
+      Code    RO Data    RW Data    ZI Data      Debug   Object Name
+        42          0          0          4        884   lsd.obj
+         0          0          0          0          0   lsd_intrRam.obj
+        42          0          0          4        884   TOTAL
+

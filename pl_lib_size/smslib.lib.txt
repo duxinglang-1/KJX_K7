@@ -1,0 +1,7 @@
+
+      Code    RO Data    RW Data    ZI Data      Debug   Object Name
+      2110          3          0          0        616   smslib_decode.obj
+      1138          0          0          0        464   smslib_encode.obj
+       890          0          0          0        632   smslib_others.obj
+      4138          3          0          0       1712   TOTAL
+

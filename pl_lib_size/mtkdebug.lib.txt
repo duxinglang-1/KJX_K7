@@ -1,0 +1,9 @@
+
+      Code    RO Data    RW Data    ZI Data      Debug   Object Name
+         0          0          0          0          0   kal_debug_sysdebug_task.obj
+         0          0          0          0          0   mtkkal_debug.obj
+         0          0          0          0          0   sim60qbit.obj
+         0          0          0          0          0   tst_irqduration_test.obj
+         0          0          0          0          0   usb_60q_test.obj
+         0          0          0          0          0   TOTAL
+

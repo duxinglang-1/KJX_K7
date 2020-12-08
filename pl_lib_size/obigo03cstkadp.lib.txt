@@ -1,0 +1,10 @@
+
+      Code    RO Data    RW Data    ZI Data      Debug   Object Name
+        46          0          0          0         65   sec_int.obj
+       514          0          0          0        304   wps_env.obj
+       300         20          0         56        341   wps_exec.obj
+       208          0          0          0       1078   wps_if.obj
+      5310          0          0         76       2665   wps_main.obj
+     10062          0          0         72       3592   wps_msg.obj
+     16440         20          0        204       8045   TOTAL
+

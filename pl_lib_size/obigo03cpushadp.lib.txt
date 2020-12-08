@@ -1,0 +1,15 @@
+
+      Code    RO Data    RW Data    ZI Data      Debug   Object Name
+         0          0          0          0          0   phs_dlg.obj
+       754          0         12          0        672   phs_umdb.obj
+      2208          0          0         16       1060   pmg_dl.obj
+      1218          0          0          0        429   pmg_env.obj
+      2182          0          0         12       1541   pmg_fs.obj
+      2238          0          0          0       2921   pmg_if.obj
+      1938          0          0         20       1924   pmg_inbox.obj
+       870          0          0         64        732   pmg_main.obj
+      1974          0          0         12       1640   pmg_msg.obj
+       734          0          0         16        515   pmg_phs.obj
+        12          0          0          0        111   pmg_um.obj
+     14128          0         12        140      11545   TOTAL
+

@@ -1,0 +1,7 @@
+
+      Code    RO Data    RW Data    ZI Data      Debug   Object Name
+      1556          0          0          0        779   SsCore.obj
+       308          0          0          0        178   SsUtil.obj
+         0          0          0          0          0   dummy.obj
+      1864          0          0          0        957   TOTAL
+

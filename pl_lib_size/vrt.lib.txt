@@ -1,0 +1,32 @@
+
+      Code    RO Data    RW Data    ZI Data      Debug   Object Name
+       428        101          0          0        664   vrt_animatable.obj
+      6176          0          0          0       1892   vrt_animation.obj
+      3308          0          0          0       1268   vrt_auto_cache.obj
+      4212          0          0          0        768   vrt_auto_opaque.obj
+      5420          0          0        204       2456   vrt_cache_alloc.obj
+      2308        437          4          0       1704   vrt_datatype.obj
+       740          0          0          0        588   vrt_dcache.obj
+      3876          0          0          0        748   vrt_dirty_scan.obj
+     13000        361          0          1       6008   vrt_gdi_render_device.obj
+      2764        309          0          0       3412   vrt_image.obj
+         0          0          0          0          0   vrt_interpolation_func.obj
+       352          0          0          0         88   vrt_linear_transform.obj
+      2400          0          0          0       1232   vrt_math.obj
+      1176          0          0        236        668   vrt_mem_alloc.obj
+        64          0          0          0        192   vrt_mutex.obj
+        40          0          0          0        120   vrt_obj_base.obj
+       148        225          0          0        380   vrt_object.obj
+       268         49          0          0        404   vrt_pointer.obj
+     24104          0          0         16       4096   vrt_render.obj
+      2564          0          0         16        896   vrt_render_dbg.obj
+      1944        862          0          4       2292   vrt_render_device.obj
+      3792          0          0       9164       1516   vrt_render_proc.obj
+      5704          0          0          0       1624   vrt_render_sw.obj
+       524         54          0          0        536   vrt_render_target.obj
+        60         50          0          0        200   vrt_resource.obj
+      4664          4         24        104       3240   vrt_task.obj
+      1104        120          0          0        424   vrt_timing_func.obj
+      2016          0          0          0        872   vrt_video.obj
+     93156       2572         28       9745      38288   TOTAL
+

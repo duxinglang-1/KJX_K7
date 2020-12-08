@@ -1,0 +1,14 @@
+
+      Code    RO Data    RW Data    ZI Data      Debug   Object Name
+       100          0          0          0        217   DevApp.obj
+         0          2          0         10          0   DevAppAdoMap.obj
+         0          6          0          0          0   DevAppAdoRes.obj
+         0         16          4          0          0   DevAppImgMap.obj
+         0         14          0          0          0   DevAppImgRes.obj
+         0          0          0          0          0   DevAppMenuRes.obj
+         0         60          0          0          0   DevAppStrMap.obj
+         0        542          0          0          0   DevAppStrRes.obj
+       100          0          0          0       1352   DevApp_ReadRes.obj
+       132          0          0         92         63   DevConfig.obj
+       332        640          4        102       1632   TOTAL
+

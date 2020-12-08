@@ -1,0 +1,12 @@
+
+      Code    RO Data    RW Data    ZI Data      Debug   Object Name
+      1884          0          0        400       1009   wbxmlgen_main.obj
+         0          0          0          0          0   wbxmlgen_test.obj
+      4698        330         76       1680       2551   wbxmlp_main.obj
+         0          0          0          0          0   wbxmlp_test.obj
+      9272         70          0          0       3417   xml_main.obj
+       224          0          0          0        148   xmlgen_common.obj
+      2630         70          0       1120       1036   xmlgen_main.obj
+         0          0          0          0          0   xmlgen_test.obj
+     18708        470         76       3200       8161   TOTAL
+

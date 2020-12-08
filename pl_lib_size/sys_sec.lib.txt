@@ -1,0 +1,10 @@
+
+      Code    RO Data    RW Data    ZI Data      Debug   Object Name
+       150         24          4         20        464   alice.obj
+        26          0          0          0        112   alice_internal.obj
+       892          0          0         12        332   dcmgr_pl_logic.obj
+        28          0          0          0        156   hwlzma.obj
+       522          0          0          0        972   lzma_dispatcher.obj
+        14         32          0       4145        260   third_rom.obj
+      1632         56          4       4177       2296   TOTAL
+

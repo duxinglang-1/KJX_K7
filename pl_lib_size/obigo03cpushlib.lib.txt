@@ -1,0 +1,17 @@
+
+      Code    RO Data    RW Data    ZI Data      Debug   Object Name
+       388          0          0          0        248   phs_cmmn.obj
+       978          0          0          0        856   phs_conn.obj
+         0        987          0          0          0   phs_def.obj
+       608          0          0          0        304   phs_env.obj
+         0          0          0          0          0   phs_hdr.obj
+       228          0          0          0        440   phs_if.obj
+      1358          0          0        184        924   phs_main.obj
+         0          0          0          0          0   phs_mprt.obj
+      2404          0          0          0        844   phs_msg.obj
+       676          0          0         80        452   phs_prh.obj
+         0          0          0          0          0   phs_sia.obj
+       336          0          0         56        412   phs_sig.obj
+      1568        205          0          0        548   phs_vld.obj
+      8544       1192          0        320       5028   TOTAL
+

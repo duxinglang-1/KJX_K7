@@ -1,0 +1,11 @@
+
+      Code    RO Data    RW Data    ZI Data      Debug   Object Name
+       208          0          0          0        260   evce.obj
+       202          0          0          0        304   ioce.obj
+       348          0          0          0        272   quce.obj
+       224          0          0          0        196   quse.obj
+       164          0          0          0        248   smce.obj
+       616          0          0          0        680   tcce.obj
+       216          0          0          0        256   tmse.obj
+      1978          0          0          0       2216   TOTAL
+

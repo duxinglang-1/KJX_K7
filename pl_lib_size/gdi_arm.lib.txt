@@ -1,0 +1,10 @@
+
+      Code    RO Data    RW Data    ZI Data      Debug   Object Name
+     10460        512          0          0       2627   gd_primitive_arm.obj
+         0          0          0          0          0   gd_primitive_pargb6666.obj
+      4812          0          0          0        735   gdi_blending.obj
+      4984          0          0          0        826   gdi_image_alpha_bmp_v2_core.obj
+      2960          0          0          0        250   gdi_image_alpha_bmp_v2_speed.obj
+         0          0          0          0          0   gui_effect_arm_oem.obj
+     23216        512          0          0       4438   TOTAL
+

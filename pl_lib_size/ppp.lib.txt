@@ -1,0 +1,15 @@
+
+      Code    RO Data    RW Data    ZI Data      Debug   Object Name
+       260          0          0          0        336   ppp_buff_mgr.obj
+         0        512          0          0          0   ppp_crc.obj
+       256         20          4       5436        232   ppp_create.obj
+         4          0          0          0         52   ppp_csd_ext_msg.obj
+      2626          5          0          0       1608   ppp_ext_msg.obj
+      5364          1          0          0       2860   ppp_fsm.obj
+      2394         68          0         80        904   ppp_ipcp.obj
+      3394         68          0         96       1000   ppp_lcp.obj
+       470          0          0          4        476   ppp_main.obj
+      1352          0          0          0        284   ppp_read_in.obj
+       794          0          0          0        324   ppp_write_out.obj
+     16914        674          4       5616       8076   TOTAL
+

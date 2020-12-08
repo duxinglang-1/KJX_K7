@@ -1,0 +1,19 @@
+
+      Code    RO Data    RW Data    ZI Data      Debug   Object Name
+       396          0          0          0        256   sms_cm.obj
+      1336          0          0          0        960   sms_cm_dl_funcs.obj
+      1608        200          0          0        920   sms_cm_fsm.obj
+      1298          0          0          0       1156   sms_cm_ul_funcs.obj
+        84         20          0          0        116   sms_create.obj
+       360          0          0       5016        128   sms_main.obj
+       644          0          0          0        676   sms_other_funcs.obj
+      1864          0          0          0        692   sms_rl_dl_funcs.obj
+      1280        160          0          0        824   sms_rl_fsm.obj
+      1436          0          0          0        936   sms_rl_ul_funcs.obj
+      1548         32          0          0        960   sms_timer.obj
+       344          0          0          0        308   sms_tl.obj
+      1470          0          0          0        932   sms_tl_dl_funcs.obj
+       188         88          0          0        252   sms_tl_fsm.obj
+      1356          0          0          0        608   sms_tl_ul_funcs.obj
+     15212        500          0       5016       9724   TOTAL
+

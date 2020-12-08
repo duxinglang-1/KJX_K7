@@ -1,0 +1,8 @@
+
+      Code    RO Data    RW Data    ZI Data      Debug   Object Name
+         0         77          0          0          0   SSS_interface.obj
+         0          0          0          0          0   SST_CardDownloadUtility.obj
+       202        440          0          0        284   SST_decrypt.obj
+       144         16          0       3952        428   br_crypto_platform.obj
+       346        533          0       3952        712   TOTAL
+

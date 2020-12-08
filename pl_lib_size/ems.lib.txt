@@ -1,0 +1,11 @@
+
+      Code    RO Data    RW Data    ZI Data      Debug   Object Name
+      6772          0          0          0       2748   ems_api.obj
+      1192         20          0          0        848   ems_init.obj
+      6684         24          0          0       3444   ems_obj_proc.obj
+       684          0          0          0         76   ems_position_proc.obj
+      3426          0          0          0       1268   ems_segment_proc.obj
+      2512          0          0          0       1016   ems_txt_proc.obj
+      1114          0          0          0        744   ems_utils.obj
+     22384         44          0          0      10144   TOTAL
+

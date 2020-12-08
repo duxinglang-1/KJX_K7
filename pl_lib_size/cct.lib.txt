@@ -1,0 +1,5 @@
+
+      Code    RO Data    RW Data    ZI Data      Debug   Object Name
+        28          0         14        225        215   ft_fnc_cct.obj
+        28          0         14        225        215   TOTAL
+

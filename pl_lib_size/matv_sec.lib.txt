@@ -1,0 +1,19 @@
+
+      Code    RO Data    RW Data    ZI Data      Debug   Object Name
+         0          0          0          0          0   audio_drv_MT5195.obj
+       210        166          0          0        232   cli_command.obj
+      1250          0          8        304        588   cli_input.obj
+       116          0          8         96         68   cli_modulecmd.obj
+      2170        131          1        256        972   cli_parser.obj
+         0      14008          0          0          0   mATVdrv_adspbin.obj
+     11556       2138        188        499       8216   mATVdrv_aud.obj
+      5108        309        176        584       2024   mATVdrv_chscan.obj
+         0          0          0          0          0   mATVdrv_chtable.obj
+      1828         69         16         60        696   mATVdrv_fm.obj
+      3406          0         16         48        464   mATVdrv_tuner5193.obj
+      5480        719         30         16       2388   mATVdrv_tvd.obj
+      3702       1129         20         25       1988   mATVwcx_env.obj
+     16382       5318         96         48       4176   matd_demod.obj
+       324        118        216          0        416   nim_cmd.obj
+     51532      24105        775       1936      22228   TOTAL
+

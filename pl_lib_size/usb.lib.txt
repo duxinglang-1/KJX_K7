@@ -1,0 +1,30 @@
+
+      Code    RO Data    RW Data    ZI Data      Debug   Object Name
+         0          0          0          0          0   otg.obj
+         0          0          0          0          0   ptp_state.obj
+      2856         14          0       1560       1741   usb.obj
+      1344          0          0          0       2902   usb_adap.obj
+         0          0          0          0          0   usb_debug_tool.obj
+         0          0          0          0          0   usb_host_acm_drv.obj
+         0          0          0          0          0   usb_host_default_drv.obj
+         0          0          0          0          0   usb_host_ms_adap.obj
+         0          0          0          0          0   usb_host_ms_drv.obj
+         0          0          0          0          0   usb_host_ms_state.obj
+      1910          0          0         13       1021   usb_mode.obj
+      1424         31          0         92       1071   usb_resource.obj
+      1856         20          0         42        783   usb_task.obj
+      3688         20          0          0       1421   usbacm_adap.obj
+      4920         37          1        489       4549   usbacm_drv.obj
+         0          0          0          0          0   usbacm_echo.obj
+       488          0          0          0        541   usbacm_ft.obj
+         0          0          0          0          0   usbacm_logging.obj
+         0          0          0          0          0   usbd.obj
+         0          0          0          0          0   usbimage_drv.obj
+         0          0          0          0          0   usbimage_mtp_state.obj
+       552          0          0         56        625   usbms_adap.obj
+      1222          9          0        112        954   usbms_drv.obj
+      2518          0         78         24       1025   usbms_state.obj
+         0          0          0          0          0   usbvideo_drv.obj
+         0          0          0          0          0   usbvideo_state.obj
+     22778        131         79       2388      16633   TOTAL
+

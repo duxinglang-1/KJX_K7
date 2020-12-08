@@ -1,0 +1,20 @@
+
+      Code    RO Data    RW Data    ZI Data      Debug   Object Name
+      1564         25          0          1       1736   ddload.obj
+         0       9812          0          0          0   dll_6260_AAC.obj
+         0        255          0          0          0   dll_6260_Audio_DM_REMAP.obj
+         0       5085          0          0          0   dll_6260_Audio_Header.obj
+         0        219          0          0          0   dll_6260_Header_Kernal.obj
+         0        411          0          0          0   dll_6260_I2S.obj
+         0      14379          0          0          0   dll_6260_TCH.obj
+         0       3742          0          0          0   dll_6260_TCH_1.obj
+         0       2476          0          0          0   dll_6260_TCH_2.obj
+         0       1062          0          0          0   dll_DM_6260_AAC_SEG3.obj
+         0       3365          0          0          0   dll_PM_6260_AAC.obj
+         0       2803          0          0          0   dll_PM_6260_AECS.obj
+         0         99          0          0          0   dll_PM_6260_VSG.obj
+        18          0          0          0        112   dsp_init.obj
+       160        912          0          0        256   dsp_ptch_6260.obj
+       632          0         11         38        444   idma.obj
+      2374      44645         11         39       2548   TOTAL
+

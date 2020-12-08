@@ -1,0 +1,12 @@
+
+      Code    RO Data    RW Data    ZI Data      Debug   Object Name
+      1288          0          0          0       1169   drm_consume.obj
+         0          0          0          0          0   drm_http.obj
+      3470          0         10        120       3533   drm_interface.obj
+      5134         54          0       1364       3072   drm_main.obj
+       936          0          4      49160        757   drm_memory.obj
+         0          0          0          0          0   drm_stime.obj
+         0          0          0          0          0   drm_ui.obj
+      1100          0          0          0       1135   drm_util.obj
+     11928         54         14      50644       9666   TOTAL
+

@@ -1,0 +1,30 @@
+
+      Code    RO Data    RW Data    ZI Data      Debug   Object Name
+        16          0          0          0        312   BookmarkCui.obj
+         4          0          0          0         52   EmailAppAPI.obj
+         0          0          0          0          0   MMSAppComposerUILE.obj
+      9772          0          8       1170       6574   MMSAppDataManager.obj
+      3844          0          0          0       6160   MMSAppInterface.obj
+        16          0          0          0        111   MMSAppOp.obj
+        44       1232          0          0         59   MMSAppResourceCntrlDB.obj
+        84       2132        544          0        118   MMSAppResourceDB.obj
+      4302          2          0         80       6776   MMSAppScrHdlr.obj
+         0          0          0          0          0   MMSAppSettings.obj
+      5110          0          0          1       3999   MMSAppSrvHdlr.obj
+     11078          0          0          4       6485   MMSAppUICallback.obj
+       254          0          0          0        456   MMSAppUIController.obj
+      9944        694        228          0      10493   MMSAppUIPlugin.obj
+      2478          0          0          0       1112   MMSAppUIdraw.obj
+       248          0          0          0        298   MMSAppUtil.obj
+       272          0          0          0        362   ServiceMsgCuiMain.obj
+       398          0        504          2       2858   WAPPushCntrlr.obj
+      1962          0          0          0       1267   WAPPushDMgr.obj
+      4926          0       1036         16       6053   WAPPushScreenHdlr.obj
+      6606          2          0          4       6870   WAPPushUIPlugIn.obj
+      1224        136          0          4        821   WAPprofilemain.obj
+        52          0          0          0        118   WAPprofileuihandler.obj
+      1186          0          0          8        614   WAPprovisioningmain.obj
+        44          0          0          0         52   centralconfigagentmain.obj
+      3378          4          0        128       2883   centralconfigagentui.obj
+     67242       4202       2320       1417      64903   TOTAL
+

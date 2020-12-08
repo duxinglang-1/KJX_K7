@@ -1,0 +1,7 @@
+
+      Code    RO Data    RW Data    ZI Data      Debug   Object Name
+       384          0          0          0        212   csi_asn_decode.obj
+       368          0          0          0        204   csi_asn_encode.obj
+      1984          0          0         16       1472   scsi.obj
+      2736          0          0         16       1888   TOTAL
+

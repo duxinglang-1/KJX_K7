@@ -1,0 +1,12 @@
+
+      Code    RO Data    RW Data    ZI Data      Debug   Object Name
+         0          0          0          0          0   brt_bootloader_api.obj
+      2628         35          8       1028       2064   brt_main.obj
+       758         12          4          8        796   bt_maui_uart.obj
+       128          0          0          1        372   bt_uartif.obj
+      1972          0          4         96       1924   btif.obj
+        16          4         16       5632        104   btif_def.obj
+     29426       5646       4426       1126      14392   radiomod.obj
+         0     100000          0          0          0   test_bt_patch.obj
+     34928     105697       4458       7891      19652   TOTAL
+

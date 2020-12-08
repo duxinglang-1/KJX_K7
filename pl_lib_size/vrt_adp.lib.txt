@@ -1,0 +1,6 @@
+
+      Code    RO Data    RW Data    ZI Data      Debug   Object Name
+      1286          0          1          1       2797   vrt_system.obj
+       372          0          0         14        179   vrt_trace.obj
+      1658          0          1         15       2976   TOTAL
+

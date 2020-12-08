@@ -1,0 +1,7 @@
+
+      Code    RO Data    RW Data    ZI Data      Debug   Object Name
+       838        132          0          0       1108   asn_common.obj
+       230          0          0          0        264   asn_common2.obj
+       120          0          0          4        288   asn_memory.obj
+      1188        132          0          4       1660   TOTAL
+

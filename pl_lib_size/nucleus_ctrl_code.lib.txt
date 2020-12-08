@@ -1,0 +1,13 @@
+
+      Code    RO Data    RW Data    ZI Data      Debug   Object Name
+       114          0          0          0        132   csc.obj
+       562          0          0          0        332   evc.obj
+       570          0          0          0        300   pmc.obj
+      1306          0          0          0        344   quc.obj
+       462          0          0          0        332   smc.obj
+      1492          0          0          0        700   tcc.obj
+      2328          0         12          0       1112   tct.obj
+       356          0          0          0        268   tms.obj
+       180          0          0          0        244   tmt.obj
+      7370          0         12          0       3764   TOTAL
+

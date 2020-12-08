@@ -1,0 +1,10 @@
+
+      Code    RO Data    RW Data    ZI Data      Debug   Object Name
+         0          0          0         16          0   evd.obj
+         0          0          0         16          0   pmd.obj
+         0          0          0         16          0   qud.obj
+         0          0          0         16          0   smd.obj
+         0          0        256       1288          0   tcd.obj
+         0          0          0         68          0   tmd.obj
+         0          0        256       1420          0   TOTAL
+

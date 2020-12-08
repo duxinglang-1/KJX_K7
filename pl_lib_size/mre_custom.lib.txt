@@ -1,0 +1,23 @@
+
+      Code    RO Data    RW Data    ZI Data      Debug   Object Name
+         0          0          0          0          0   mre_app_mitake_mstock_vxp.obj
+         0          0          0          0          0   mre_app_opera_vxp.obj
+         0          0          0          0          0   mre_app_qq2010_vxp.obj
+         0          0          0          0          0   mre_app_qqbrowser_vxp.obj
+         0          0          0          0          0   mre_app_sina_weibo_vxp.obj
+         0          1          0          0          0   mre_helloworld_vso.obj
+         0          0          0          0          0   mre_qq_vsm.obj
+       148          0          0        316        126   vmapparray.obj
+      4620         26          0        204       3354   vmcamera.obj
+       952        336         40         12        982   vmchset.obj
+      1946          0          0         16       2978   vmeditor.obj
+      1588        772         16        132       1449   vmime.obj
+      1530          0        100          8       1885   vmmacrostub.obj
+         0          0          0          0          0   vmsalsensor.obj
+       248         29          0          0        369   vmsettings.obj
+         0        136        304          0          0   vmshortcutarray.obj
+      1010          0          1         40       1362   vmsim.obj
+         0         77         96          0          0   vmsparray.obj
+       284          0          0          0        381   vmua.obj
+     12326       1377        557        728      12886   TOTAL
+

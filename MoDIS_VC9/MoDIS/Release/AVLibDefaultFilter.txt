@@ -1,0 +1,17 @@
+16
+RealMedia Splitter
+RealAudio Decoder
+RealVideo Decoder
+Wave Parser
+MPEG Audio Decoder
+MPEG Layer-3 Decoder
+ffdshow Audio Decoder
+MONOGRAM AMR Decoder
+Default DirectSound Device
+MPC - MP4 Source
+MPC - MP4 Splitter
+Haali Media Splitter
+Avi Splitter
+MPEG-I Stream Splitter
+MPEG Video Decoder
+ffdshow Video Decoder

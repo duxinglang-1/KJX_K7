@@ -1,0 +1,1 @@
+MoDIS_VC9\_BUILD_DEP\codegen_dep\cgen_preflow.det: tools\CreateEmptyTrcGenFiles.exe .\tst\database\TrcGen.lst make\TOUR_gprs.mak make\Option.mak make\Option_HAL.mak make\MODEM.mak make\modisConfig.mak 

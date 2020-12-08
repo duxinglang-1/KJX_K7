@@ -1,0 +1,504 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#ifndef APSTUDIO_INVOKED
+#include "targetver.h"
+#endif
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (P.R.C.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#ifndef APSTUDIO_INVOKED\r\n"
+    "#include ""targetver.h""\r\n"
+    "#endif\r\n"
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(936)\r\n"
+    "#include ""res\\plugin_mte.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""     // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+#endif    // Chinese (P.R.C.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (Taiwan) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHT)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_TRADITIONAL
+#pragma code_page(950)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_DIALOG_THEME_SETTING, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 152
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 54
+    END
+
+    IDD_DIALOG_THEME_INDEX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 203
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 52
+    END
+
+    IDD_DIALOG_THEME_EDITOR, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 305
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 283
+    END
+
+    IDD_DIALOG_THEME, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 259
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 94
+    END
+
+    IDD_DIALOG_PROCESS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 199
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 34
+    END
+
+    IDD_DIALOG_GOTO_SCREEN, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 208
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 23
+    END
+
+    IDD_DIALOG_FIND_COMPONENT, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 235
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 50
+    END
+
+    IDD_DIALOG_COLORS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 404
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 222
+    END
+
+    IDD_DIALOG_COLOR, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 315
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 119
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_DIALOG_THEME_SETTING DIALOG  0, 0, 159, 61
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Theme Setting"
+FONT 10, "System"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,40,33,38,14
+    PUSHBUTTON      "Cancel",IDCANCEL,89,33,37,14
+    CONTROL         "Hide Non-Editable Theme Components",IDC_CHECK1,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,9,15,143,12
+END
+
+IDD_DIALOG_THEME_INDEX DIALOGEX 0, 0, 210, 59
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Input index of the new Theme"
+FONT 10, "System", 0, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,164,7,39,14
+    EDITTEXT        IDC_EDIT_INDEX,54,24,26,12,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "Theme Index",IDC_STATIC,7,25,46,12
+    LTEXT           "Theme Name",IDC_STATIC,7,40,46,12
+    EDITTEXT        IDC_EDIT_NAME,54,40,148,12,ES_AUTOHSCROLL
+    LTEXT           "Copy From",IDC_STATIC,7,7,41,12
+    EDITTEXT        IDC_EDIT_FROM,54,7,104,12,ES_AUTOHSCROLL | ES_NUMBER | WS_DISABLED
+    PUSHBUTTON      "Cancel",IDCANCEL,164,22,39,14
+END
+
+IDD_DIALOG_THEME_EDITOR DIALOGEX 0, 0, 312, 286
+STYLE DS_SETFONT | WS_POPUP | WS_CAPTION | WS_SYSMENU | WS_THICKFRAME
+CAPTION "MoDIS Theme Editor--List All Theme Components"
+MENU IDR_MENU_THEME
+FONT 10, "System", 0, 0, 0x1
+BEGIN
+    PUSHBUTTON      "Complete",ID_THEME_SAVE,191,269,36,14
+    PUSHBUTTON      "Cancel",IDCANCEL,229,269,37,14
+    PUSHBUTTON      "Apply",ID_THEME_APPLY,269,269,36,14
+    DEFPUSHBUTTON   "Edit",ID_THEME_EDITOR_EDIT,171,107,37,14,NOT WS_VISIBLE
+    GROUPBOX        "Theme Component",IDC_STATIC_GROUP_FILLER,7,130,298,133
+    CONTROL         "List1",IDC_LIST_THEME_EDITOR,"SysListView32",LVS_REPORT | LVS_SINGLESEL | LVS_SHOWSELALWAYS | WS_BORDER | WS_TABSTOP,7,21,298,108
+    COMBOBOX        IDC_COMBO_COMPONENT_GROUP,127,7,17,116,CBS_DROPDOWNLIST | NOT WS_VISIBLE | WS_VSCROLL | WS_TABSTOP
+    CONTROL         "",IDC_COLOR,"Static",SS_BLACKFRAME | SS_NOTIFY | NOT WS_VISIBLE,195,161,15,15
+    LTEXT           "",IDC_STATIC_COLOR,14,140,165,8
+    CONTROL         "",IDC_FILLER_C,"Static",SS_BLACKFRAME | SS_NOTIFY | NOT WS_VISIBLE,142,150,15,15
+    EDITTEXT        IDC_EDIT_ALPHA,232,7,29,12,ES_AUTOHSCROLL | ES_NUMBER | NOT WS_VISIBLE
+    LTEXT           "Color Alpha Value ",IDC_STATIC,168,7,61,12,NOT WS_VISIBLE
+    CONTROL         "",IDC_FILLER_AC,"Static",SS_BLACKFRAME | SS_NOTIFY | NOT WS_VISIBLE,115,57,24,11
+    CONTROL         "",IDC_FILLER_SC,"Static",SS_BLACKFRAME | SS_NOTIFY | NOT WS_VISIBLE,198,58,24,11
+    CONTROL         "",IDC_FILLER_BC,"Static",SS_BLACKFRAME | SS_NOTIFY | NOT WS_VISIBLE,208,150,15,15
+    LTEXT           "Color",IDC_STATIC_TEXT_COLOR,121,152,19,8
+    LTEXT           "AC",IDC_STATIC,76,58,30,11,NOT WS_VISIBLE
+    LTEXT           "Border Color",IDC_STATIC_TEXT_BC,165,152,43,11
+    LTEXT           "Shadow Color",IDC_STATIC,148,58,48,11,NOT WS_VISIBLE
+    LTEXT           "",IDC_STATIC_FILLER,15,139,191,10
+    LTEXT           "None",IDC_STATIC_FILLER_IMAGE,196,188,21,11,NOT WS_VISIBLE
+    CONTROL         "",IDC_FILLER_IMAGE,"Static",SS_ETCHEDFRAME | SS_NOTIFY,148,172,133,52
+    CONTROL         "",IDC_IMAGE,"Static",SS_ETCHEDFRAME | SS_NOTIFY | NOT WS_VISIBLE,45,271,33,12
+    LTEXT           "",IDC_STATIC_IMAGE,24,141,273,11
+    LTEXT           "Supported types:",IDC_STATIC_REC,13,189,122,12
+    LTEXT           "Recommend",IDC_STATIC_IMAGE_REC,103,110,64,9,NOT WS_VISIBLE
+    CONTROL         "Transparent (Use RGB(0,0,255))",IDC_CHECK_BOARDER,
+                    "Button",BS_AUTOCHECKBOX | WS_DISABLED | WS_TABSTOP,26,179,139,8
+    LTEXT           "",IDC_STATIC_INTEGER,15,161,169,14,NOT WS_VISIBLE
+    EDITTEXT        IDC_EDIT_INTEGER,139,181,24,14,ES_AUTOHSCROLL | ES_NUMBER | NOT WS_VISIBLE
+    LTEXT           "Max(255),Min(0)",IDC_STATIC_MAXMIN,202,182,54,12,NOT WS_VISIBLE
+    LTEXT           "Recommend Width and Height ",IDC_STATIC_REC_WH,13,223,122,11,NOT WS_VISIBLE
+    LTEXT           "MAX Width and Height ",IDC_STATIC_REC_MWH,13,212,121,11,NOT WS_VISIBLE
+    LTEXT           "REC Image Type",IDC_STATIC_REC2,13,201,121,10,NOT WS_VISIBLE
+    CONTROL         "Disable",IDC_CHECK_FILLER_BORDER,"Button",BS_AUTOCHECKBOX | NOT WS_VISIBLE | WS_TABSTOP,225,152,36,10
+    PUSHBUTTON      "Add Image",IDC_BUTTON_IMAGE,75,166,50,13,NOT WS_VISIBLE
+    CONTROL         "",IDC_COMBO_COMPONENT_GROUP_EX,"ComboBoxEx32",CBS_DROPDOWNLIST | CBS_SORT | WS_VSCROLL | WS_TABSTOP,7,7,91,105
+    SCROLLBAR       IDC_SCROLLBAR1,148,226,134,9
+    SCROLLBAR       IDC_SCROLLBAR2,283,172,9,52,SBS_VERT
+    CONTROL         "Transparent",IDC_CHECK_TRANSPARENT,"Button",BS_AUTOCHECKBOX | NOT WS_VISIBLE | WS_TABSTOP,40,150,54,12
+    PUSHBUTTON      "Update",IDC_BUTTON_UPINT,167,182,31,13,NOT WS_VISIBLE
+    PUSHBUTTON      "Edit PNG Seq.",IDC_ANIMATION_IMAGE_SEQUENCE,9,166,64,13,NOT WS_VISIBLE
+    CONTROL         "",IDC_ANIMATION_IMAGE_PREVIEWER,
+                    "MoDIS_MTE_BitmapViewerCtrl",NOT WS_VISIBLE,146,150,130,32,WS_EX_STATICEDGE
+    CONTROL         "",IDC_ANIMATION_IMAGE_ONE,"Static",SS_ETCHEDFRAME | NOT WS_VISIBLE,141,189,30,27
+    CONTROL         "",IDC_ANIMATION_IMAGE_TWO,"Static",SS_ETCHEDFRAME | NOT WS_VISIBLE,173,189,30,27
+    CONTROL         "",IDC_ANIMATION_IMAGE_THREE,"Static",SS_ETCHEDFRAME | NOT WS_VISIBLE,205,189,30,27
+    CONTROL         "",IDC_ANIMATION_IMAGE_FOUR,"Static",SS_ETCHEDFRAME | NOT WS_VISIBLE,237,189,30,27
+    CONTROL         "",IDC_ANIMATION_IMAGE_FIVE,"Static",SS_ETCHEDFRAME | NOT WS_VISIBLE,269,189,30,27
+    CTEXT           "1",IDC_ANIMATION_IMAGE_LABEL_ONE,141,189,8,8,SS_CENTERIMAGE | NOT WS_VISIBLE,WS_EX_DLGMODALFRAME
+    CTEXT           "2",IDC_ANIMATION_IMAGE_LABEL_TWO,173,189,8,8,SS_CENTERIMAGE | NOT WS_VISIBLE,WS_EX_DLGMODALFRAME
+    CTEXT           "3",IDC_ANIMATION_IMAGE_LABEL_THREE,205,189,8,8,SS_CENTERIMAGE | NOT WS_VISIBLE,WS_EX_DLGMODALFRAME
+    CTEXT           "4",IDC_ANIMATION_IMAGE_LABEL_FOUR,237,189,8,8,SS_CENTERIMAGE | NOT WS_VISIBLE,WS_EX_DLGMODALFRAME
+    CTEXT           "5",IDC_ANIMATION_IMAGE_LABEL_FIVE,269,189,8,8,SS_CENTERIMAGE | NOT WS_VISIBLE,WS_EX_DLGMODALFRAME
+    PUSHBUTTON      "Add",IDC_ANIMATION_IMAGE_ADD,141,218,78,10,NOT WS_VISIBLE,WS_EX_STATICEDGE
+    PUSHBUTTON      "Remove",IDC_ANIMATION_IMAGE_REMOVE,221,218,78,10,NOT WS_VISIBLE,WS_EX_STATICEDGE
+    LTEXT           "Delay:",IDC_ANIMATION_LABEL_DELAY,125,235,23,8,NOT WS_VISIBLE
+    EDITTEXT        IDC_ANIMATION_DELAY,149,233,29,12,ES_AUTOHSCROLL | ES_NUMBER | NOT WS_VISIBLE
+    LTEXT           "Repeat:",IDC_ANIMATION_LABEL_REPEAT,186,235,26,8,NOT WS_VISIBLE
+    COMBOBOX        IDC_ANIMATION_REPEAT,214,233,43,30,CBS_DROPDOWNLIST | NOT WS_VISIBLE | WS_TABSTOP
+    PUSHBUTTON      "Set",IDC_BUTTON_DELAY_SETTING,263,232,37,13,NOT WS_VISIBLE
+    LTEXT           "* In current screen some components can not be displayed.",IDC_SPECIAL_SCREEN_WARNING,104,7,201,11,NOT WS_VISIBLE
+    EDITTEXT        IDC_SLICE_LEFT,16,247,19,12,ES_AUTOHSCROLL | ES_NUMBER | NOT WS_VISIBLE
+    EDITTEXT        IDC_SLICE_TOP,55,247,19,12,ES_AUTOHSCROLL | ES_NUMBER | NOT WS_VISIBLE
+    EDITTEXT        IDC_SLICE_RIGHT,90,247,19,12,ES_AUTOHSCROLL | ES_NUMBER | NOT WS_VISIBLE
+    EDITTEXT        IDC_SLICE_BOTTOM,127,247,19,12,ES_AUTOHSCROLL | ES_NUMBER | NOT WS_VISIBLE
+    LTEXT           "Left",IDC_STATIC_LEFT,17,275,13,8,NOT WS_VISIBLE
+    LTEXT           "Top",IDC_STATIC_TOP,132,275,13,8,NOT WS_VISIBLE
+    LTEXT           "Right",IDC_STATIC_RIGHT,48,275,18,8,NOT WS_VISIBLE
+    LTEXT           "Bottom",IDC_STATIC_BOTTOM,93,275,24,8,NOT WS_VISIBLE
+    PUSHBUTTON      "Set",IDC_BUTTON_SILCE_SET,171,246,37,13,NOT WS_VISIBLE
+    CONTROL         "Left",IDC_RADIO_SETTING_LEFT,"Button",BS_AUTORADIOBUTTON | NOT WS_VISIBLE,11,235,28,10
+    CONTROL         "Top",IDC_RADIO_SETTING_TOP,"Button",BS_AUTORADIOBUTTON | NOT WS_VISIBLE,50,235,28,10
+    CONTROL         "Right",IDC_RADIO_SETTING_RIGHT,"Button",BS_AUTORADIOBUTTON | NOT WS_VISIBLE,82,235,33,10
+    CONTROL         "Bottom",IDC_RADIO_SETTING_BOTTOM,"Button",BS_AUTORADIOBUTTON | NOT WS_VISIBLE,119,235,39,10
+END
+
+IDD_DIALOG_THEME DIALOG  0, 0, 266, 103
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "MoDIS Theme Editor"
+FONT 10, "System"
+BEGIN
+    DEFPUSHBUTTON   "Edit",IDEDIT,7,7,40,14
+    PUSHBUTTON      "Copy As New",IDCOPYASNEW,50,7,51,14
+    DEFPUSHBUTTON   "Delete",IDDELETE,105,7,40,14
+    DEFPUSHBUTTON   "Output Theme",IDOUTPUT,208,80,51,14
+    CONTROL         "List1",IDC_LIST_THEME,"SysListView32",LVS_REPORT | LVS_SINGLESEL | LVS_SHOWSELALWAYS | WS_BORDER | WS_TABSTOP,7,23,252,55
+    DEFPUSHBUTTON   "Load Theme",IDLOADTHEME,155,80,49,14
+    DEFPUSHBUTTON   "Save Theme",IDSAVETHEME,145,28,46,14,NOT WS_VISIBLE
+    LTEXT           "Total: 100KB",IDC_STATIC_SIZE,7,83,143,11
+END
+
+IDD_DIALOG_PROCESS DIALOG  0, 0, 206, 41
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION
+CAPTION "Dialog"
+FONT 10, "System"
+BEGIN
+    CONTROL         "Progress1",IDC_PROGRESS1,"msctls_progress32",WS_BORDER,18,13,158,14
+END
+
+IDD_DIALOG_GOTO_SCREEN DIALOG  0, 0, 215, 30
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Goto Screen"
+FONT 10, "System"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,158,7,50,14
+    COMBOBOX        IDC_COMBO1,132,7,27,80,CBS_DROPDOWNLIST | NOT WS_VISIBLE | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Goto Screen",IDC_STATIC,14,7,29,16
+    CONTROL         "",IDC_COMBOBOXEX1,"ComboBoxEx32",CBS_DROPDOWNLIST | CBS_SORT | WS_VSCROLL | WS_TABSTOP,43,7,102,115
+END
+
+IDD_DIALOG_FIND_COMPONENT DIALOG  0, 0, 242, 57
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Find Component"
+FONT 10, "System"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,185,13,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,185,29,50,14
+    EDITTEXT        IDC_EDIT_COMPONENT_NAME,49,21,133,14,ES_AUTOHSCROLL
+    LTEXT           "Component Name",IDC_STATIC,7,21,38,19
+END
+
+IDD_DIALOG_COLORS DIALOG  0, 0, 411, 229
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Color Picker"
+FONT 8, "Tahoma"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,354,7,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,354,24,50,14
+    GROUPBOX        "RGB",IDC_STATIC_RGB_RECT,7,7,138,157
+    GROUPBOX        "HSB",IDC_STATIC_HSB_RECT,150,7,180,157
+    GROUPBOX        "RGB Values",IDC_STATIC,7,174,137,48
+    EDITTEXT        IDC_EDIT_RED,15,201,32,14,ES_AUTOHSCROLL | ES_NUMBER
+    CONTROL         "Spin1",IDC_SPIN_RED,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,40,201,9,14
+    EDITTEXT        IDC_EDIT_GREEN,55,201,33,14,ES_AUTOHSCROLL | ES_NUMBER
+    CONTROL         "Spin1",IDC_SPIN_GREEN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,80,201,9,14
+    EDITTEXT        IDC_EDIT_BLUE,100,201,33,14,ES_AUTOHSCROLL | ES_NUMBER
+    CONTROL         "Spin1",IDC_SPIN_BLUE,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,125,201,9,14
+    LTEXT           "Red",IDC_STATIC,15,186,14,8
+    LTEXT           "Green",IDC_STATIC,55,186,20,8
+    LTEXT           "Blue",IDC_STATIC,100,186,15,8
+    GROUPBOX        "HSB Values",IDC_STATIC,152,174,177,48
+    EDITTEXT        IDC_EDIT_HUE,160,201,33,14,ES_AUTOHSCROLL | ES_NUMBER
+    CONTROL         "Spin1",IDC_SPIN_HUE,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,185,201,9,14
+    EDITTEXT        IDC_EDIT_SAT,219,201,33,14,ES_AUTOHSCROLL | ES_NUMBER
+    CONTROL         "Spin1",IDC_SPIN_SAT,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,243,201,9,14
+    EDITTEXT        IDC_EDIT_VAL,278,201,31,14,ES_AUTOHSCROLL | ES_NUMBER
+    CONTROL         "Spin1",IDC_SPIN_VAL,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,301,201,9,14
+    LTEXT           "Hue",IDC_STATIC,160,186,14,8
+    LTEXT           "Saturation",IDC_STATIC,219,186,33,8
+    LTEXT           "Brightness",IDC_STATIC,278,186,34,8
+    LTEXT           "Old Color",IDC_STATIC,357,48,47,8
+    GROUPBOX        "Static",IDC_STATIC_OLD,355,66,49,31,NOT WS_VISIBLE
+    LTEXT           "New Color",IDC_STATIC,357,114,47,8
+    GROUPBOX        "Static",IDC_STATIC_NEW,355,132,49,31,NOT WS_VISIBLE
+END
+
+IDD_DIALOG_COLOR DIALOGEX 0, 0, 322, 126
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Color Dialog"
+FONT 10, "System", 0, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,235,105,39,14
+    PUSHBUTTON      "Cancel",IDCANCEL,275,105,39,14
+    CONTROL         "",IDC_STATIC_RGB_COLOR,"Static",SS_GRAYFRAME | NOT WS_VISIBLE,154,82,33,30
+    CONTROL         "Slider1",IDC_SLIDER_R,"msctls_trackbar32",TBS_AUTOTICKS | WS_TABSTOP,180,22,105,8
+    CONTROL         "",IDC_STATIC_R_COLOR,"Static",SS_BLACKFRAME | NOT WS_VISIBLE,168,19,11,11
+    EDITTEXT        IDC_EDIT_COLOR,200,84,33,13,ES_AUTOHSCROLL
+    LTEXT           "0X",IDC_STATIC,188,87,10,10
+    EDITTEXT        IDC_EDITR,288,19,21,15,ES_AUTOHSCROLL | ES_READONLY | ES_NUMBER
+    CONTROL         "Slider1",IDC_SLIDER_G,"msctls_trackbar32",TBS_AUTOTICKS | WS_TABSTOP,180,39,105,8
+    CONTROL         "",IDC_STATIC_G_COLOR,"Static",SS_BLACKFRAME | NOT WS_VISIBLE,168,37,11,11
+    EDITTEXT        IDC_EDITG,288,36,21,15,ES_AUTOHSCROLL | ES_READONLY | ES_NUMBER
+    CONTROL         "Slider1",IDC_SLIDER_B,"msctls_trackbar32",TBS_AUTOTICKS | WS_TABSTOP,180,56,105,8
+    CONTROL         "",IDC_STATIC_B_COLOR,"Static",SS_BLACKFRAME | NOT WS_VISIBLE,168,54,11,11
+    EDITTEXT        IDC_EDITB,288,53,21,15,ES_AUTOHSCROLL | ES_READONLY | ES_NUMBER
+    LTEXT           "R",IDC_STATIC,158,20,10,10
+    LTEXT           "G",IDC_STATIC,158,38,10,10
+    LTEXT           "B",IDC_STATIC,158,55,10,10
+    PUSHBUTTON      "Color Box",IDC_BUTTON_BOX,235,84,39,14
+    PUSHBUTTON      "HSB Select",IDC_BUTTON_HSB,275,84,39,14
+    GROUPBOX        "RGB Slider",IDC_STATIC,153,7,161,69
+    COMBOBOX        IDC_COLOUR,7,14,140,98,CBS_SIMPLE | CBS_OWNERDRAWFIXED | CBS_HASSTRINGS | WS_VSCROLL | WS_TABSTOP
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_BITMAP_HSB          BITMAP                  "res\\cchsb.bmp"
+IDB_BITMAP_RGB          BITMAP                  "res\\ccrgb.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MENU_THEME MENU 
+BEGIN
+    POPUP "&Options"
+    BEGIN
+        MENUITEM "&Find Component\tCtrl+F",     ID_FIND_COMPONENT
+        POPUP "Language"
+        BEGIN
+            MENUITEM "English",                     ID_MENU_ENGLISH
+            MENUITEM "Simplified Chinese",          ID_MENU_SIMCHINESE
+        END
+        MENUITEM "Setting",                     ID_SETTING
+        MENUITEM SEPARATOR
+        MENUITEM "&Undo\tCtrl+Z",               ID_UNDO
+        MENUITEM "&Redo\tCtrl+Y",               ID_REDO
+    END
+    MENUITEM "&Goto Screen",                ID_GOTO_SCREEN
+    POPUP "&Help"
+    BEGIN
+        MENUITEM "MTE Artist User Guide",       ID_MTE_UG
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_MTE2                ICON                    "icon1.ico"
+IDI_MTE                 ICON                    "res\\icomte.ico"
+IDI_MTE1                ICON                    "res\\icomte1.ico"
+#endif    // Chinese (Taiwan) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,2
+ PRODUCTVERSION 1,0,0,2
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x2L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904e4"
+        BEGIN
+            VALUE "CompanyName", "MediaTek Inc."
+            VALUE "FileDescription", "MoDIS Theme Editor Plug-in"
+            VALUE "FileVersion", "1.0.0.2"
+            VALUE "InternalName", "MoDIS Theme Editor.dll"
+            VALUE "LegalCopyright", "MediaTek Inc. 2011. All rights reserved."
+            VALUE "OriginalFilename", "MoDIS Theme Editor.dll"
+            VALUE "ProductName", "MoDIS Theme Editor Plug-in"
+            VALUE "ProductVersion", "1.0.0.2"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1252
+    END
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+LANGUAGE 9, 1
+#pragma code_page(936)
+#include "res\plugin_mte.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"     // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

@@ -1,0 +1,9 @@
+; plugin_mte.def : Declares the module parameters for the DLL.
+
+LIBRARY      "plugin_mte"
+
+EXPORTS
+    ; Explicit exports can go here
+    OpenPlugin	@1
+    ClosePlugin	@2
+    PluginPreTranslateMessage		@3

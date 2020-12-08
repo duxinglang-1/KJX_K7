@@ -1,0 +1,2 @@
+custom_parse_db.obj:	tst\database\msglog_db\custom_parse_db.c
+app_parse_db.obj:

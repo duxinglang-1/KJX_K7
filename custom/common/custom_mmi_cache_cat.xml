@@ -1,0 +1,1181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<APP id="APP_MRE">
+
+    <CACHEDATA type="double" id="NVRAM_MRE_SRV_DA_SIM1">
+        <DEFAULT_VALUE> [0xFF,0xFF,0xFF,0xFF,0xFF,0xFF,0xFF,0xFF] </DEFAULT_VALUE>
+        <DESCRIPTION> MRE Dataaccount SIM1 </DESCRIPTION>
+    </CACHEDATA>
+
+    <CACHEDATA type="double" id="NVRAM_MRE_SRV_DA_SIM1_PX">
+        <DEFAULT_VALUE> [0xFF,0xFF,0xFF,0xFF,0xFF,0xFF,0xFF,0xFF] </DEFAULT_VALUE>
+        <DESCRIPTION> MRE Dataaccount SIM1 with proxy </DESCRIPTION>
+    </CACHEDATA>
+
+    <CACHEDATA type="double" id="NVRAM_MRE_SRV_DA_SIM2">
+        <DEFAULT_VALUE> [0xFF,0xFF,0xFF,0xFF,0xFF,0xFF,0xFF,0xFF] </DEFAULT_VALUE>
+        <DESCRIPTION> MRE Dataaccount SIM2 </DESCRIPTION>
+    </CACHEDATA>
+
+    <CACHEDATA type="double" id="NVRAM_MRE_SRV_DA_SIM2_PX">
+        <DEFAULT_VALUE> [0xFF,0xFF,0xFF,0xFF,0xFF,0xFF,0xFF,0xFF] </DEFAULT_VALUE>
+        <DESCRIPTION> MRE Dataaccount SIM2 with proxy </DESCRIPTION>
+    </CACHEDATA>
+
+    <CACHEDATA type="double" id="NVRAM_MRE_SRV_DA_SIM3">
+        <DEFAULT_VALUE> [0xFF,0xFF,0xFF,0xFF,0xFF,0xFF,0xFF,0xFF] </DEFAULT_VALUE>
+        <DESCRIPTION> MRE Dataaccount SIM3 </DESCRIPTION>
+    </CACHEDATA>
+
+    <CACHEDATA type="double" id="NVRAM_MRE_SRV_DA_SIM3_PX">
+        <DEFAULT_VALUE> [0xFF,0xFF,0xFF,0xFF,0xFF,0xFF,0xFF,0xFF] </DEFAULT_VALUE>
+        <DESCRIPTION> MRE Dataaccount SIM3 with proxy </DESCRIPTION>
+    </CACHEDATA>
+
+    <CACHEDATA type="double" id="NVRAM_MRE_SRV_DA_SIM4">
+        <DEFAULT_VALUE> [0xFF,0xFF,0xFF,0xFF,0xFF,0xFF,0xFF,0xFF] </DEFAULT_VALUE>
+        <DESCRIPTION> MRE Dataaccount SIM4 </DESCRIPTION>
+    </CACHEDATA>
+
+    <CACHEDATA type="double" id="NVRAM_MRE_SRV_DA_SIM4_PX">
+        <DEFAULT_VALUE> [0xFF,0xFF,0xFF,0xFF,0xFF,0xFF,0xFF,0xFF] </DEFAULT_VALUE>
+        <DESCRIPTION> MRE Dataaccount SIM4 with proxy </DESCRIPTION>
+    </CACHEDATA>
+
+    <CACHEDATA type="byte" id="NVRAM_MRE_SRV_DA_IS_WIFI_ONLY">
+        <DEFAULT_VALUE> [0x00] </DEFAULT_VALUE>
+        <DESCRIPTION> MRE Dataaccount only use wifi </DESCRIPTION>
+    </CACHEDATA>
+</APP>
+
+
+<APP id="APP_BOOTUP">
+
+    <CACHEDATA type="short" id="NVRAM_POWER_ON_DISPLAY_SUCCESS">
+        <DEFAULT_VALUE> [0xFF,0xFF] </DEFAULT_VALUE>
+        <DESCRIPTION> Short Cache </DESCRIPTION>
+    </CACHEDATA>
+</APP>
+
+
+<APP id="APP_CAMERA">
+
+    <CACHEDATA type="short" id="NVRAM_CAM_FILENAME_SEQ_NO" restore_flag="true">
+        <DEFAULT_VALUE> [0xFF,0xFF] </DEFAULT_VALUE>
+        <DESCRIPTION> CameraApp </DESCRIPTION>
+    </CACHEDATA>
+
+    <CACHEDATA type="short" id="NVRAM_SCR_SNAPSHOT_SEQ_NO" restore_flag="true">
+        <DEFAULT_VALUE> [0xFF,0xFF] </DEFAULT_VALUE>
+        <DESCRIPTION> CameraApp </DESCRIPTION>
+    </CACHEDATA>
+</APP>
+
+
+<APP id="APP_IMAGEVIEWER">
+
+    <CACHEDATA type="byte" id="NVRAM_IMGVIEW_VIEW_SYTLE" restore_flag="true">
+        <DEFAULT_VALUE> [0xFF] </DEFAULT_VALUE>
+        <DESCRIPTION> ImageViewer </DESCRIPTION>
+    </CACHEDATA>
+
+    <CACHEDATA type="short" id="NVRAM_IMGVIEW_STORAGE" restore_flag="true">
+        <DEFAULT_VALUE> [0xFF,0xFF] </DEFAULT_VALUE>
+        <DESCRIPTION> Image Viewer storage </DESCRIPTION>
+    </CACHEDATA>
+</APP>
+
+
+<APP id="APP_SOUNDRECORDER">
+
+    <CACHEDATA type="byte" id="NVRAM_AUTO_VM_SETTING_VM_SUPPORT" restore_flag="true">
+        <DEFAULT_VALUE> [0xFF] </DEFAULT_VALUE>
+        <DESCRIPTION> Sound recorder - vm support </DESCRIPTION>
+    </CACHEDATA>
+</APP>
+
+
+<APP id="APP_AUDIOPLAYER">
+
+    <CACHEDATA type="byte" id="NVRAM_AUDPLY_SINGLE_VOL" restore_flag="true">
+        <DEFAULT_VALUE> [0xFF] </DEFAULT_VALUE>
+        <DESCRIPTION> Audio player </DESCRIPTION>
+    </CACHEDATA>
+</APP>
+
+
+<APP id="APP_WORLDCLOCK">
+
+    <CACHEDATA type="byte" id="CURRENT_CITY" restore_flag="true">
+        <DEFAULT_VALUE> [0x07] </DEFAULT_VALUE>
+        <DESCRIPTION> Current home city </DESCRIPTION>
+    </CACHEDATA>
+
+    <CACHEDATA type="byte" id="FOREIGN_CITY" restore_flag="true">
+        <DEFAULT_VALUE> [0x00] </DEFAULT_VALUE>
+        <DESCRIPTION> Current foreign city </DESCRIPTION>
+    </CACHEDATA>
+
+    <CACHEDATA type="byte" id="NVRAM_SETTING_DT_DST" restore_flag="true">
+        <DEFAULT_VALUE> [0x00] </DEFAULT_VALUE>
+        <DESCRIPTION> Current home city daylight saving </DESCRIPTION>
+        <FIELD size="1">
+            <OPTION hint="OFF"> [0x00] </OPTION>
+            <OPTION hint="ON"> [0x01] </OPTION>
+        </FIELD>
+    </CACHEDATA>
+
+    <CACHEDATA type="short" id="NVRAM_TIMEZONE" restore_flag="true">
+        <DEFAULT_VALUE> [0xFF,0xFF] </DEFAULT_VALUE>
+        <DESCRIPTION> Current time zone value </DESCRIPTION>
+    </CACHEDATA>
+
+    <CACHEDATA type="byte" id="NVRAM_WC_DST" restore_flag="true">
+        <DEFAULT_VALUE> [0xFF] </DEFAULT_VALUE>
+        <DESCRIPTION> Current foreign city daylight saving </DESCRIPTION>
+    </CACHEDATA>
+
+    <CACHEDATA type="short" id="NVRAM_FRN_TIMEZONE" restore_flag="true">
+        <DEFAULT_VALUE> [0xFF,0xFF] </DEFAULT_VALUE>
+        <DESCRIPTION> current foreign city time zone </DESCRIPTION>
+    </CACHEDATA>
+
+    <CACHEDATA type="byte" id="NVRAM_DOWNLOAD_CITY1" restore_flag="true">
+        <DEFAULT_VALUE> [0x01] </DEFAULT_VALUE>
+        <DESCRIPTION> sub lcd city 1 </DESCRIPTION>
+    </CACHEDATA>
+
+    <CACHEDATA type="byte" id="NVRAM_DOWNLOAD_CITY2" restore_flag="true">
+        <DEFAULT_VALUE> [0x00] </DEFAULT_VALUE>
+        <DESCRIPTION> sub lcd city 2 </DESCRIPTION>
+    </CACHEDATA>
+</APP>
+
+
+<APP id="APP_UNIFIEDCOMPOSER">
+
+    <CACHEDATA type="byte" id="NVRAM_UC_PREFERRED_MSG_TYPE">
+        <DEFAULT_VALUE> [0xFF] </DEFAULT_VALUE>
+        <DESCRIPTION> Byte Cache </DESCRIPTION>
+    </CACHEDATA>
+</APP>
+
+
+<APP id="APP_RMGR">
+
+    <CACHEDATA type="byte" id="NVRAM_RMGR_DB_CHECK" restore_flag="true">
+        <DEFAULT_VALUE> [0x00] </DEFAULT_VALUE>
+        <DESCRIPTION> Byte Cache </DESCRIPTION>
+    </CACHEDATA>
+</APP>
+
+
+<APP id="SRV_WALLPAPER">
+
+    <CACHEDATA type="double" id="NVRAM_DISPCHAR_AVATAR_WPSS" restore_flag="true">
+        <DEFAULT_VALUE> [0xFF,0xFF,0xFF,0xFF,0xFF,0xFF,0xFF,0xFF] </DEFAULT_VALUE>
+        <DESCRIPTION> avatar wallpaper and ss setting </DESCRIPTION>
+    </CACHEDATA>
+
+    <CACHEDATA type="double" id="NARAM_DISPCHAR_AVATAR_ONOFF" restore_flag="true">
+        <DEFAULT_VALUE> [0xFF,0xFF,0xFF,0xFF,0xFF,0xFF,0xFF,0xFF] </DEFAULT_VALUE>
+        <DESCRIPTION> avatar pwr on and off setting </DESCRIPTION>
+    </CACHEDATA>
+
+    <CACHEDATA type="double" id="NVRAM_DISPCHAR_AVATAR_WPSS_SERIALNUM" restore_flag="true">
+        <DEFAULT_VALUE> [0xFF,0xFF,0xFF,0xFF,0xFF,0xFF,0xFF,0xFF] </DEFAULT_VALUE>
+        <DESCRIPTION> wallpaper and ss serial num </DESCRIPTION>
+    </CACHEDATA>
+
+    <CACHEDATA type="double" id="NVRAM_DISPCHAR_AVATAR_ONOFF_SERIALNUM" restore_flag="true">
+        <DEFAULT_VALUE> [0xFF,0xFF,0xFF,0xFF,0xFF,0xFF,0xFF,0xFF] </DEFAULT_VALUE>
+        <DESCRIPTION> pwr on and off serial num </DESCRIPTION>
+    </CACHEDATA>
+
+    <CACHEDATA type="byte" id="NVRAM_WALLPAPER_ROTATE_STATUS" restore_flag="true">
+        <DEFAULT_VALUE> [0x00] </DEFAULT_VALUE>
+        <DESCRIPTION> wallpaper rotate status </DESCRIPTION>
+    </CACHEDATA>
+
+    <CACHEDATA type="byte" id="NVRAM_PHNSET_LIVE_WALLPAPER" restore_flag="true">
+        <DEFAULT_VALUE> [0x00] </DEFAULT_VALUE>
+        <DESCRIPTION> Live Wallpaper setting </DESCRIPTION>
+    </CACHEDATA>
+
+    <CACHEDATA type="short" id="NVRAM_FUNANDGAMES_SETWALLPAPER" restore_flag="true">
+        <DEFAULT_VALUE> [0x01,0x00] </DEFAULT_VALUE>
+        <DESCRIPTION> current wallpaper id </DESCRIPTION>
+        <FIELD size="2">
+            <OPTION hint="Image 1"> [0x01,0x00] </OPTION>
+        </FIELD>
+    </CACHEDATA>
+
+    <CACHEDATA type="short" id="RESTORE_DEFAULT_FUNANDGAMES_SETWALLPAPER">
+        <DEFAULT_VALUE> [0x01,0x00] </DEFAULT_VALUE>
+        <DESCRIPTION> Short Cache </DESCRIPTION>
+    </CACHEDATA>
+
+    <CACHEDATA type="short" id="NVRAM_SETWALLPAPER_SUB" restore_flag="true" restore_id="@RESTORE_DEFAULT_SETWALLPAPER_SUB">
+        <DEFAULT_VALUE> [0x01,0x00] </DEFAULT_VALUE>
+        <DESCRIPTION> current sub wallpaper id </DESCRIPTION>
+    </CACHEDATA>
+
+    <CACHEDATA type="short" id="RESTORE_DEFAULT_SETWALLPAPER_SUB">
+        <DEFAULT_VALUE> [0x01,0x00] </DEFAULT_VALUE>
+        <DESCRIPTION> Short Cache </DESCRIPTION>
+    </CACHEDATA>
+</APP>
+
+
+<APP id="SRV_PHNSET_ONOFF">
+
+    <CACHEDATA type="short" id="NVRAM_RESTORE_POWER_ON_DISPLAY">
+        <DEFAULT_VALUE> [0x01,0x00] </DEFAULT_VALUE>
+        <DESCRIPTION> Short Cache </DESCRIPTION>
+    </CACHEDATA>
+
+    <CACHEDATA type="short" id="NVRAM_RESTORE_POWER_OFF_DISPLAY">
+        <DEFAULT_VALUE> [0x01,0x00] </DEFAULT_VALUE>
+        <DESCRIPTION> Short Cache </DESCRIPTION>
+    </CACHEDATA>
+
+    <CACHEDATA type="short" id="NVRAM_CURRENT_POWER_ON_DISPLAY" restore_flag="true" restore_id="@NVRAM_RESTORE_POWER_ON_DISPLAY">
+        <DEFAULT_VALUE> [0x01,0x00] </DEFAULT_VALUE>
+        <DESCRIPTION> current power on display </DESCRIPTION>
+    </CACHEDATA>
+
+    <CACHEDATA type="short" id="NVRAM_CURRENT_POWER_OFF_DISPLAY" restore_flag="true" restore_id="@NVRAM_RESTORE_POWER_OFF_DISPLAY">
+        <DEFAULT_VALUE> [0x01,0x00] </DEFAULT_VALUE>
+        <DESCRIPTION> current power off display </DESCRIPTION>
+    </CACHEDATA>
+</APP>
+
+
+<APP id="APP_PHONESETTING_NEW">
+
+    <CACHEDATA type="byte" id="NVRAM_SETTING_OWNER_NO" restore_flag="true" restore_id="@RESTORE_DEFAULT_OWNER_NO">
+        <DEFAULT_VALUE> [0x00] </DEFAULT_VALUE>
+        <DESCRIPTION> show owner number in idle status </DESCRIPTION>
+    </CACHEDATA>
+
+    <CACHEDATA type="byte" id="RESTORE_DEFAULT_OWNER_NO">
+        <DEFAULT_VALUE> [0x00] </DEFAULT_VALUE>
+        <DESCRIPTION> Byte Cache </DESCRIPTION>
+    </CACHEDATA>
+
+    <CACHEDATA type="byte" id="NVRAM_SETTING_STATUS_DT_TIME" restore_flag="true">
+        <DEFAULT_VALUE> [0x01] </DEFAULT_VALUE>
+        <DESCRIPTION> show date and time in idle status </DESCRIPTION>
+        <FIELD size="1">
+            <OPTION hint="OFF"> [0x00] </OPTION>
+            <OPTION hint="ON"> [0x01] </OPTION>
+        </FIELD>
+    </CACHEDATA>
+
+    <CACHEDATA type="byte" id="NVRAM_AUTOUPDATE_DT_STATUS" restore_flag="true">
+        <DEFAULT_VALUE> [0x00] </DEFAULT_VALUE>
+        <DESCRIPTION> Byte Cache </DESCRIPTION>
+    </CACHEDATA>
+</APP>
+
+
+<APP id="APP_NITZ">
+
+    <CACHEDATA type="byte" id="RESTORE_DEFAULT_AUTOUPDATE_TIME">
+        <DEFAULT_VALUE> [0x00] </DEFAULT_VALUE>
+        <DESCRIPTION> Byte Cache </DESCRIPTION>
+    </CACHEDATA>
+</APP>
+
+
+<APP id="APP_CALENDAR">
+
+    <CACHEDATA type="byte" id="NVRAM_CLNDR_FIRST_DAY_OF_WEEK" restore_flag="true">
+        <DEFAULT_VALUE> [0x00] </DEFAULT_VALUE>
+        <DESCRIPTION> first day of week, 0x00: Sunday; 0x01: Monday </DESCRIPTION>
+    </CACHEDATA>
+</APP>
+
+
+<APP id="APP_VDOPLY">
+
+    <CACHEDATA type="byte" id="NVRAM_VDOPLY_VOLUMN" restore_flag="true">
+        <DEFAULT_VALUE> [0x07] </DEFAULT_VALUE>
+        <DESCRIPTION> Video Player settings </DESCRIPTION>
+        <FIELD size="1" min="0" max="16">
+            <OPTION hint="level 0"> [0x00] </OPTION>
+            <OPTION hint="level 1"> [0x01] </OPTION>
+            <OPTION hint="level 2"> [0x02] </OPTION>
+            <OPTION hint="level 3"> [0x03] </OPTION>
+            <OPTION hint="level 4"> [0x04] </OPTION>
+            <OPTION hint="level 5"> [0x05] </OPTION>
+            <OPTION hint="level 6"> [0x06] </OPTION>
+            <OPTION hint="level 7"> [0x07] </OPTION>
+            <OPTION hint="level 8"> [0x08] </OPTION>
+            <OPTION hint="level 9"> [0x09] </OPTION>
+            <OPTION hint="level 10"> [0x0A] </OPTION>
+            <OPTION hint="level 11"> [0x0B] </OPTION>
+            <OPTION hint="level 12"> [0x0C] </OPTION>
+            <OPTION hint="level 13"> [0x0D] </OPTION>
+            <OPTION hint="level 14"> [0x0E] </OPTION>
+            <OPTION hint="level 15"> [0x0F] </OPTION>
+            <OPTION hint="mute"> [0x10] </OPTION>
+        </FIELD>
+    </CACHEDATA>
+
+    <CACHEDATA type="byte" id="NVRAM_VDOPLY_ACTIVE_PROFILE_IDX" restore_flag="true">
+        <DEFAULT_VALUE> [0xFF] </DEFAULT_VALUE>
+        <DESCRIPTION> Video Player setting </DESCRIPTION>
+    </CACHEDATA>
+
+    <CACHEDATA type="byte" id="NVRAM_VDOPLY_PROXY_IP1">
+        <DEFAULT_VALUE> [0xFF] </DEFAULT_VALUE>
+        <DESCRIPTION> Byte Cache </DESCRIPTION>
+    </CACHEDATA>
+
+    <CACHEDATA type="byte" id="NVRAM_VDOPLY_PROXY_IP2">
+        <DEFAULT_VALUE> [0xFF] </DEFAULT_VALUE>
+        <DESCRIPTION> Byte Cache </DESCRIPTION>
+    </CACHEDATA>
+
+    <CACHEDATA type="byte" id="NVRAM_VDOPLY_PROXY_IP3">
+        <DEFAULT_VALUE> [0xFF] </DEFAULT_VALUE>
+        <DESCRIPTION> Byte Cache </DESCRIPTION>
+    </CACHEDATA>
+
+    <CACHEDATA type="byte" id="NVRAM_VDOPLY_PROXY_IP4">
+        <DEFAULT_VALUE> [0xFF] </DEFAULT_VALUE>
+        <DESCRIPTION> Byte Cache </DESCRIPTION>
+    </CACHEDATA>
+
+    <CACHEDATA type="byte" id="NVRAM_VDOPLY_PROXY_ON_OFF">
+        <DEFAULT_VALUE> [0xFF] </DEFAULT_VALUE>
+        <DESCRIPTION> Byte Cache </DESCRIPTION>
+    </CACHEDATA>
+
+    <CACHEDATA type="short" id="NVRAM_VDOPLY_SNAPSHOT_SEQ_NO">
+        <DEFAULT_VALUE> [0xFF,0xFF] </DEFAULT_VALUE>
+        <DESCRIPTION> Short Cache </DESCRIPTION>
+    </CACHEDATA>
+
+    <CACHEDATA type="short" id="NVRAM_VDOPLY_STORAGE" restore_flag="true">
+        <DEFAULT_VALUE> [0xFF,0xFF] </DEFAULT_VALUE>
+        <DESCRIPTION> Video Player Storage </DESCRIPTION>
+    </CACHEDATA>
+
+    <CACHEDATA type="short" id="NVRAM_VDOPLY_OPTION_BRIGHTNESS" restore_flag="true">
+        <DEFAULT_VALUE> [0xFF,0xFF] </DEFAULT_VALUE>
+        <DESCRIPTION> Video Player setting </DESCRIPTION>
+    </CACHEDATA>
+
+    <CACHEDATA type="short" id="NVRAM_VDOPLY_OPTION_CONTRAST" restore_flag="true">
+        <DEFAULT_VALUE> [0xFF,0xFF] </DEFAULT_VALUE>
+        <DESCRIPTION> Video Player setting </DESCRIPTION>
+    </CACHEDATA>
+
+    <CACHEDATA type="short" id="NVRAM_VDOPLY_OPTION_REPEAT" restore_flag="true">
+        <DEFAULT_VALUE> [0xFF,0xFF] </DEFAULT_VALUE>
+        <DESCRIPTION> Video Player setting </DESCRIPTION>
+    </CACHEDATA>
+
+    <CACHEDATA type="short" id="NVRAM_VDOPLY_OPTION_PLAY_MODE" restore_flag="true">
+        <DEFAULT_VALUE> [0xFF,0xFF] </DEFAULT_VALUE>
+        <DESCRIPTION> Video Player setting </DESCRIPTION>
+    </CACHEDATA>
+
+    <CACHEDATA type="short" id="NVRAM_VDOPLY_STREAM_SEQ_NO">
+        <DEFAULT_VALUE> [0xFF,0xFF] </DEFAULT_VALUE>
+        <DESCRIPTION> Short Cache </DESCRIPTION>
+    </CACHEDATA>
+
+    <CACHEDATA type="double" id="NVRAM_VDOPLY_PROXY_PORT">
+        <DEFAULT_VALUE> [0xFF,0xFF,0xFF,0xFF,0xFF,0xFF,0xFF,0xFF] </DEFAULT_VALUE>
+        <DESCRIPTION> Double cache </DESCRIPTION>
+    </CACHEDATA>
+
+    <CACHEDATA type="double" id="NVRAM_VDOPLY_HIGHEST_UDP_PORT">
+        <DEFAULT_VALUE> [0xFF,0xFF,0xFF,0xFF,0xFF,0xFF,0xFF,0xFF] </DEFAULT_VALUE>
+        <DESCRIPTION> Double cache </DESCRIPTION>
+    </CACHEDATA>
+
+    <CACHEDATA type="double" id="NVRAM_VDOPLY_LOWEST_UDP_PORT">
+        <DEFAULT_VALUE> [0xFF,0xFF,0xFF,0xFF,0xFF,0xFF,0xFF,0xFF] </DEFAULT_VALUE>
+        <DESCRIPTION> Double cache </DESCRIPTION>
+    </CACHEDATA>
+</APP>
+
+
+<APP id="SRV_PROF">
+
+    <CACHEDATA type="byte" id="NVRAM_PROFILES_ACTIVATED" restore_flag="true">
+        <DEFAULT_VALUE> [0x00] </DEFAULT_VALUE>
+        <DESCRIPTION> User profiles </DESCRIPTION>
+    </CACHEDATA>
+
+    <CACHEDATA type="byte" id="NVRAM_PROFILES_LASTACTIVATED" restore_flag="true">
+        <DEFAULT_VALUE> [0xFF] </DEFAULT_VALUE>
+        <DESCRIPTION> User profiles </DESCRIPTION>
+    </CACHEDATA>
+
+    <CACHEDATA type="double" id="NVRAM_SRV_PROF_EXT_MELODY_BITS">
+        <DEFAULT_VALUE> [0xFF,0xFF,0xFF,0xFF,0xFF,0xFF,0xFF,0xFF] </DEFAULT_VALUE>
+        <DESCRIPTION> Profile Srv Ext Melody Bits </DESCRIPTION>
+    </CACHEDATA>
+</APP>
+
+
+<APP id="SRV_SMS">
+
+    <CACHEDATA type="byte" id="NVRAM_SMS_ACTIVE_PROFILE_INDEX">
+        <DEFAULT_VALUE> [0x00] </DEFAULT_VALUE>
+        <DESCRIPTION> Byte Cache </DESCRIPTION>
+    </CACHEDATA>
+
+    <CACHEDATA type="byte" id="NVRAM_SMS_MISCELL_SETTING" restore_flag="true">
+        <DEFAULT_VALUE> [0x1B] </DEFAULT_VALUE>
+        <DESCRIPTION> Byte Cache </DESCRIPTION>
+    </CACHEDATA>
+
+    <CACHEDATA type="byte" id="NVRAM_SMS_PREFER_STORAGE">
+        <DEFAULT_VALUE> [0xFF] </DEFAULT_VALUE>
+        <DESCRIPTION> NVRAM_SMS_PREFER_STORAGE </DESCRIPTION>
+    </CACHEDATA>
+
+    <CACHEDATA type="short" id="NVRAM_SMS_CONCAT_MSG_REF_VALUE">
+        <DEFAULT_VALUE> [0xFF,0xFF] </DEFAULT_VALUE>
+        <DESCRIPTION> Short Cache </DESCRIPTION>
+    </CACHEDATA>
+
+    <CACHEDATA type="short" id="NVRAM_SMSCOUNTERS_SENT_SHORT">
+        <DEFAULT_VALUE> [0xFF,0xFF] </DEFAULT_VALUE>
+        <DESCRIPTION> Short Cache </DESCRIPTION>
+    </CACHEDATA>
+
+    <CACHEDATA type="short" id="NVRAM_SMSCOUNTERS_RECD_SHORT">
+        <DEFAULT_VALUE> [0xFF,0xFF] </DEFAULT_VALUE>
+        <DESCRIPTION> Short Cache </DESCRIPTION>
+    </CACHEDATA>
+</APP>
+
+
+<APP id="SRV_EDITOR">
+
+    <CACHEDATA type="byte" id="NVRAM_IME_SMART_MODE_CONFIG" restore_flag="true">
+        <DEFAULT_VALUE> [0x01] </DEFAULT_VALUE>
+        <DESCRIPTION> Byte Cache </DESCRIPTION>
+    </CACHEDATA>
+
+    <CACHEDATA type="byte" id="NVRAM_IME_AUTO_CAPITALIZATION_FLAG" restore_flag="true">
+        <DEFAULT_VALUE> [0x01] </DEFAULT_VALUE>
+        <DESCRIPTION> Byte Cache </DESCRIPTION>
+    </CACHEDATA>
+
+    <CACHEDATA type="byte" id="NVRAM_IME_AUTO_COMPLETION_FLAG" restore_flag="true">
+        <DEFAULT_VALUE> [0x01] </DEFAULT_VALUE>
+        <DESCRIPTION> Byte Cache </DESCRIPTION>
+    </CACHEDATA>
+
+    <CACHEDATA type="byte" id="NVRAM_IME_ALPHABETIC_WORD_PREDICTION_FLAG" restore_flag="true">
+        <DEFAULT_VALUE> [0x01] </DEFAULT_VALUE>
+        <DESCRIPTION> Byte Cache </DESCRIPTION>
+    </CACHEDATA>
+
+    <CACHEDATA type="byte" id="NVRAM_IME_CHINESE_WORD_PREDICTION_FLAG" restore_flag="true">
+        <DEFAULT_VALUE> [0x01] </DEFAULT_VALUE>
+        <DESCRIPTION> Byte Cache </DESCRIPTION>
+    </CACHEDATA>
+
+    <CACHEDATA type="byte" id="NVRAM_IME_AUTO_SPACE_FLAG" restore_flag="true">
+        <DEFAULT_VALUE> [0x01] </DEFAULT_VALUE>
+        <DESCRIPTION> Byte Cache </DESCRIPTION>
+    </CACHEDATA>
+
+    <CACHEDATA type="byte" id="NVRAM_IME_VIBRATION_FLAG" restore_flag="true">
+        <DEFAULT_VALUE> [0x01] </DEFAULT_VALUE>
+        <DESCRIPTION> Byte Cache </DESCRIPTION>
+    </CACHEDATA>
+
+    <CACHEDATA type="byte" id="NVRAM_IME_SOUND_FEEDBACK_FLAG" restore_flag="true">
+        <DEFAULT_VALUE> [0x01] </DEFAULT_VALUE>
+        <DESCRIPTION> Byte Cache </DESCRIPTION>
+    </CACHEDATA>
+
+    <CACHEDATA type="byte" id="NVRAM_IME_INPUT_PATTERN" restore_flag="true">
+        <DEFAULT_VALUE> [0x01] </DEFAULT_VALUE>
+        <DESCRIPTION> Byte Cache </DESCRIPTION>
+    </CACHEDATA>
+
+    <CACHEDATA type="short" id="NVRAM_SETTING_PREFER_INPUT_METHOD" restore_flag="true" restore_id="@RESTORE_PREFER_INPUT_METHOD">
+        <DEFAULT_VALUE> [0x0D,0x00] </DEFAULT_VALUE>
+        <DESCRIPTION> current preferred input method </DESCRIPTION>
+        <FIELD size="2">
+            <OPTION hint="123"> [0x01,0x00] </OPTION>
+            <OPTION hint="123_SYMBOLS"> [0x02,0x00] </OPTION>
+            <OPTION hint="MULTITAP_UPPERCASE_ABC"> [0x03,0x00] </OPTION>
+            <OPTION hint="MULTITAP_LOWERCASE_ABC"> [0x04,0x00] </OPTION>
+            <OPTION hint="MULTITAP_UPPERCASE_ABC_NO_NUMERIC"> [0x05,0x00] </OPTION>
+            <OPTION hint="MULTITAP_LOWERCASE_ABC_NO_NUMERIC"> [0x06,0x00] </OPTION>
+            <OPTION hint="MULTITAP_FIRST_UPPERCASE_ABC"> [0x07,0x00] </OPTION>
+            <OPTION hint="SMART_LOWERCASE_ABC"> [0x08,0x00] </OPTION>
+            <OPTION hint="SMART_UPPERCASE_ABC"> [0x09,0x00] </OPTION>
+            <OPTION hint="SMART_FIRST_UPPERCASE_ABC"> [0x0A,0x00] </OPTION>
+            <OPTION hint="FLOAT_123"> [0x0C,0x00] </OPTION>
+            <OPTION hint="HK_STROKE"> [0x0D,0x00] </OPTION>
+            <OPTION hint="KEYPAD_NUMERIC"> [0x0E,0x00] </OPTION>
+            <OPTION hint="MAGIC_NUMBER"> [0x0F,0x00] </OPTION>
+            <OPTION hint="PHONE_NUMBER"> [0x10,0x00] </OPTION>
+            <OPTION hint="PHONE_NUMBER_WILDCHAR"> [0x11,0x00] </OPTION>
+            <OPTION hint="SIGNED_123"> [0x12,0x00] </OPTION>
+            <OPTION hint="SIGNED_FLOAT_123"> [0x13,0x00] </OPTION>
+            <OPTION hint="SIM_NUMERIC"> [0x14,0x00] </OPTION>
+            <OPTION hint="MULTITAP_KOREAN"> [0xC1,0x00] </OPTION>
+            <OPTION hint="TR_BOPOMO"> [0x76,0x01] </OPTION>
+        </FIELD>
+    </CACHEDATA>
+
+    <CACHEDATA type="short" id="RESTORE_PREFER_INPUT_METHOD">
+        <DEFAULT_VALUE> [0x0D,0x00] </DEFAULT_VALUE>
+        <DESCRIPTION> Short Cache </DESCRIPTION>
+    </CACHEDATA>
+
+    <CACHEDATA type="short" id="NVRAM_SETTING_WRITING_LANG" restore_flag="true">
+        <DEFAULT_VALUE> [0xFF,0xFF] </DEFAULT_VALUE>
+        <DESCRIPTION> current writing language value </DESCRIPTION>
+    </CACHEDATA>
+
+    <CACHEDATA type="short" id="NVRAM_SETTING_WRITING_LANG_SUB" restore_flag="true">
+        <DEFAULT_VALUE> [0xFF,0xFF] </DEFAULT_VALUE>
+        <DESCRIPTION> current sub writing language value </DESCRIPTION>
+    </CACHEDATA>
+
+    <CACHEDATA type="short" id="NVRAM_SETTING_ENABLED_WRITING_LANGUAGE" restore_flag="true">
+        <DEFAULT_VALUE> [0xFF,0xFF] </DEFAULT_VALUE>
+        <DESCRIPTION> Double cache </DESCRIPTION>
+    </CACHEDATA>
+
+    <CACHEDATA type="byte" id="NVRAM_SETTING_PEN_SPEED" restore_flag="true">
+        <DEFAULT_VALUE> [0xFF] </DEFAULT_VALUE>
+        <DESCRIPTION> pen speed </DESCRIPTION>
+    </CACHEDATA>
+
+    <CACHEDATA type="byte" id="NVRAM_SETTING_LANGUAGE_FOLLOW_VK" restore_flag="true">
+        <DEFAULT_VALUE> [0x02] </DEFAULT_VALUE>
+        <DESCRIPTION> language follow vk, default value is IME_WRITING_LANG_ABC </DESCRIPTION>
+    </CACHEDATA>
+
+    <CACHEDATA type="byte" id="NVRAM_SETTING_HANDWRITING_ON" restore_flag="true">
+        <DEFAULT_VALUE> [0x00] </DEFAULT_VALUE>
+        <DESCRIPTION> nvram handwriting on </DESCRIPTION>
+    </CACHEDATA>
+
+    <CACHEDATA type="byte" id="NVRAM_SETTING_PEN_WIDTH" restore_flag="true">
+        <DEFAULT_VALUE> [0xFF] </DEFAULT_VALUE>
+        <DESCRIPTION> pen trace width </DESCRIPTION>
+    </CACHEDATA>
+
+    <CACHEDATA type="byte" id="NVRAM_SETTING_STROKE_COLOR_INDEX" restore_flag="true">
+        <DEFAULT_VALUE> [0x01] </DEFAULT_VALUE>
+        <DESCRIPTION> pen stroke color index </DESCRIPTION>
+    </CACHEDATA>
+</APP>
+
+
+<APP id="APP_ENGINEERMODE1">
+
+    <CACHEDATA type="double" id="NVRAM_AUDIO_DEBUG_INFO1" restore_id="@NVRAM_CACHE_ID_RESERVED">
+        <DEFAULT_VALUE> [0xFF,0xFF,0xFF,0xFF,0xFF,0xFF,0xFF,0xFF] </DEFAULT_VALUE>
+        <DESCRIPTION> Double cache </DESCRIPTION>
+    </CACHEDATA>
+
+    <CACHEDATA type="double" id="NVRAM_AUDIO_DEBUG_INFO2" restore_id="@NVRAM_CACHE_ID_RESERVED">
+        <DEFAULT_VALUE> [0xFF,0xFF,0xFF,0xFF,0xFF,0xFF,0xFF,0xFF] </DEFAULT_VALUE>
+        <DESCRIPTION> Double cache </DESCRIPTION>
+    </CACHEDATA>
+
+    <CACHEDATA type="double" id="NVRAM_AUDIO_DEBUG_INFO3" restore_id="@NVRAM_CACHE_ID_RESERVED">
+        <DEFAULT_VALUE> [0xFF,0xFF,0xFF,0xFF,0xFF,0xFF,0xFF,0xFF] </DEFAULT_VALUE>
+        <DESCRIPTION> Double cache </DESCRIPTION>
+    </CACHEDATA>
+
+    <CACHEDATA type="double" id="NVRAM_AUDIO_DEBUG_INFO4" restore_id="@NVRAM_CACHE_ID_RESERVED">
+        <DEFAULT_VALUE> [0xFF,0xFF,0xFF,0xFF,0xFF,0xFF,0xFF,0xFF] </DEFAULT_VALUE>
+        <DESCRIPTION> Double cache </DESCRIPTION>
+    </CACHEDATA>
+</APP>
+
+
+<APP id="SRV_FILEMANAGER">
+
+    <CACHEDATA type="byte" id="NVRAM_EF_FMGR_SORT_OPTION_LID" restore_flag="true">
+        <DEFAULT_VALUE> [0xFF] </DEFAULT_VALUE>
+        <DESCRIPTION> Byte Cache </DESCRIPTION>
+    </CACHEDATA>
+</APP>
+
+
+<APP id="SRV_PNS">
+
+    <CACHEDATA type="byte" id="NVRAM_PNS_INTERVAL" restore_flag="true">
+        <DEFAULT_VALUE> [0x00] </DEFAULT_VALUE>
+        <DESCRIPTION> Push notification interval </DESCRIPTION>
+    </CACHEDATA>
+
+    <CACHEDATA type="byte" id="NVRAM_PNS_SWITCH" restore_flag="true">
+        <DEFAULT_VALUE> [0x01] </DEFAULT_VALUE>
+        <DESCRIPTION> Switch push notification </DESCRIPTION>
+    </CACHEDATA>
+
+    <CACHEDATA type="byte" id="NVRAM_PNS_CHANGE_SIM" restore_flag="true">
+        <DEFAULT_VALUE> [0x00] </DEFAULT_VALUE>
+        <DESCRIPTION> Flag of SIM changed </DESCRIPTION>
+    </CACHEDATA>
+</APP>
+
+
+<APP id="APP_USBSRV">
+
+    <CACHEDATA type="byte" id="NVRAM_DEFAULT_USB_APP" restore_id="@NVRAM_CACHE_ID_RESERVED">
+        <DEFAULT_VALUE> [0x00] </DEFAULT_VALUE>
+        <DESCRIPTION> Byte Cache </DESCRIPTION>
+    </CACHEDATA>
+</APP>
+
+
+<APP id="SRV_MMS">
+
+    <CACHEDATA type="double" id="NVRAM_UMMS_RETRIEVAL_SETTINGS" restore_flag="true" restore_id="@NVRAM_UMMS_RESTORE_RETRIEVAL_SETTINGS">
+        <DEFAULT_VALUE> [0x01,0x00,0x00,0x00,0x00,0x01,0x00,0x00] </DEFAULT_VALUE>
+        <DESCRIPTION> MMS V02 MMS Retrieval Settings </DESCRIPTION>
+    </CACHEDATA>
+
+    <CACHEDATA type="double" id="NVRAM_UMMS_RESTORE_RETRIEVAL_SETTINGS">
+        <DEFAULT_VALUE> [0x01,0x00,0x00,0x00,0x00,0x01,0x00,0x00] </DEFAULT_VALUE>
+        <DESCRIPTION> Double cache </DESCRIPTION>
+    </CACHEDATA>
+
+    <CACHEDATA type="short" id="NVRAM_UMMS_LANGUAGE_CHANGE">
+        <DEFAULT_VALUE> [0xFF,0xFF] </DEFAULT_VALUE>
+        <DESCRIPTION> Short Cache </DESCRIPTION>
+    </CACHEDATA>
+
+    <CACHEDATA type="byte" id="NVRAM_SETTING_PREFER_MMS_STORAGE_MODE" restore_flag="true">
+        <DEFAULT_VALUE> [0x00] </DEFAULT_VALUE>
+        <DESCRIPTION> MMS Storage </DESCRIPTION>
+    </CACHEDATA>
+
+    <CACHEDATA type="byte" id="NVRAM_SETTING_MMS_MSG_FILTER" restore_flag="true">
+        <DEFAULT_VALUE> [0xFF] </DEFAULT_VALUE>
+        <DESCRIPTION> MMS Storage Filter </DESCRIPTION>
+    </CACHEDATA>
+
+    <CACHEDATA type="byte" id="NVRAM_UMMS_DEF_TMPLT_GEN_STATE" restore_flag="true">
+        <DEFAULT_VALUE> [0xFF] </DEFAULT_VALUE>
+        <DESCRIPTION> MMS Templates Gen state </DESCRIPTION>
+    </CACHEDATA>
+</APP>
+
+
+<APP id="SRV_WAP_PROF">
+
+    <CACHEDATA type="short" id="NVRAM_WAP_PROF_ACTIVE_WAP_SIM1_DTCNT_INDEX" restore_flag="true">
+        <DEFAULT_VALUE> [0xFF,0xFF] </DEFAULT_VALUE>
+        <DESCRIPTION> Active WAP SIM 1 dtcnt ID </DESCRIPTION>
+    </CACHEDATA>
+
+    <CACHEDATA type="short" id="NVRAM_WAP_PROF_ACTIVE_MMS_SIM1_DTCNT_INDEX" restore_flag="true">
+        <DEFAULT_VALUE> [0xFF,0xFF] </DEFAULT_VALUE>
+        <DESCRIPTION> Active MMS SIM 1 dtcnt ID </DESCRIPTION>
+    </CACHEDATA>
+</APP>
+
+
+<APP id="SRV_GPIO">
+
+    <CACHEDATA type="byte" id="NVRAM_SETTING_CONTRAST_LEVEL" restore_flag="true">
+        <DEFAULT_VALUE> [0x07] </DEFAULT_VALUE>
+        <DESCRIPTION> LCD contrast </DESCRIPTION>
+    </CACHEDATA>
+
+    <CACHEDATA type="byte" id="NVRAM_SETTING_CONTRAST_SUBLCD_LEVEL">
+        <DEFAULT_VALUE> [0x07] </DEFAULT_VALUE>
+        <DESCRIPTION> Byte Cache </DESCRIPTION>
+    </CACHEDATA>
+
+    <CACHEDATA type="byte" id="NVRAM_NORMAL_MODE_VOICE_LEVEL">
+        <DEFAULT_VALUE> [0x04] </DEFAULT_VALUE>
+        <DESCRIPTION> Byte Cache </DESCRIPTION>
+    </CACHEDATA>
+
+    <CACHEDATA type="byte" id="NVRAM_LDSPK_MODE_VOICE_LEVEL">
+        <DEFAULT_VALUE> [0x04] </DEFAULT_VALUE>
+        <DESCRIPTION> Byte Cache </DESCRIPTION>
+    </CACHEDATA>
+
+    <CACHEDATA type="byte" id="NVRAM_HDSET_MODE_VOICE_LEVEL">
+        <DEFAULT_VALUE> [0x04] </DEFAULT_VALUE>
+        <DESCRIPTION> Byte Cache </DESCRIPTION>
+    </CACHEDATA>
+
+    <CACHEDATA type="byte" id="NVRAM_BYTE_LED_SETTING" restore_flag="true">
+        <DEFAULT_VALUE> [0xFF] </DEFAULT_VALUE>
+        <DESCRIPTION> LED On/Off </DESCRIPTION>
+    </CACHEDATA>
+
+    <CACHEDATA type="byte" id="NVRAM_BYTE_BL_SETTING_LEVEL" restore_flag="true">
+        <DEFAULT_VALUE> [0xFF] </DEFAULT_VALUE>
+        <DESCRIPTION> Backlight Level </DESCRIPTION>
+        <FIELD size="1" min="1" max="20">
+        </FIELD>
+    </CACHEDATA>
+
+    <CACHEDATA type="short" id="NVRAM_BYTE_BL_SETTING_HFTIME" restore_flag="true">
+        <DEFAULT_VALUE> [0x0F,0x00] </DEFAULT_VALUE>
+        <DESCRIPTION> Backlight timer </DESCRIPTION>
+    </CACHEDATA>
+
+    <CACHEDATA type="byte" id="NVRAM_BYTE_COVER_CLOSE_BACK_TO_IDLE" restore_flag="true">
+        <DEFAULT_VALUE> [0xFF] </DEFAULT_VALUE>
+        <DESCRIPTION> Clam Back to Idle </DESCRIPTION>
+    </CACHEDATA>
+
+    <CACHEDATA type="byte" id="NVRAM_BYTE_COVER_CLOSE_REJECT_CALL">
+        <DEFAULT_VALUE> [0xFF] </DEFAULT_VALUE>
+        <DESCRIPTION> Byte Cache </DESCRIPTION>
+    </CACHEDATA>
+
+    <CACHEDATA type="byte" id="NVRAM_BYTE_COVER_CLOSE_KEYPAD_LOCK">
+        <DEFAULT_VALUE> [0xFF] </DEFAULT_VALUE>
+        <DESCRIPTION> Byte Cache </DESCRIPTION>
+    </CACHEDATA>
+</APP>
+
+
+<APP id="APP_GPIO">
+
+    <CACHEDATA type="byte" id="NVRAM_SETTING_PICTURE_QUALITY" restore_flag="true">
+        <DEFAULT_VALUE> [0x01] </DEFAULT_VALUE>
+        <DESCRIPTION> Picture Quality </DESCRIPTION>
+    </CACHEDATA>
+</APP>
+
+
+<APP id="SRV_NETSET">
+
+    <CACHEDATA type="byte" id="NVRAM_NETSET_PREFERRED_MODE" restore_flag="true">
+        <DEFAULT_VALUE> [0xFF] </DEFAULT_VALUE>
+        <DESCRIPTION> Current preferred mode </DESCRIPTION>
+    </CACHEDATA>
+
+    <CACHEDATA type="byte" id="NVRAM_NETSET_PREFERRED_MODE_PREV_RF_MODE" restore_flag="true">
+        <DEFAULT_VALUE> [0x00] </DEFAULT_VALUE>
+        <DESCRIPTION> Previouse RF mode for preferred mode switch </DESCRIPTION>
+    </CACHEDATA>
+
+    <CACHEDATA type="byte" id="NVRAM_NETSET_3G_CAPACITY_SIM" restore_flag="true">
+        <DEFAULT_VALUE> [0x01] </DEFAULT_VALUE>
+        <DESCRIPTION> Network 3g capacity sim card </DESCRIPTION>
+    </CACHEDATA>
+</APP>
+
+
+<APP id="SRV_CALLSET">
+
+    <CACHEDATA type="byte" id="NVRAM_CALLSET_CALLERID" restore_flag="true">
+        <DEFAULT_VALUE> [0x02] </DEFAULT_VALUE>
+        <DESCRIPTION> Caller ID value </DESCRIPTION>
+    </CACHEDATA>
+
+    <CACHEDATA type="byte" id="NVRAM_CALLSET_CUG_ACTIVATED_ID" restore_flag="true">
+        <DEFAULT_VALUE> [0xFF] </DEFAULT_VALUE>
+        <DESCRIPTION> CUG activated ID </DESCRIPTION>
+    </CACHEDATA>
+
+    <CACHEDATA type="byte" id="NVRAM_CALLSET_CTR_MODE" restore_flag="true">
+        <DEFAULT_VALUE> [0x00] </DEFAULT_VALUE>
+        <DESCRIPTION> Call time reminder mode </DESCRIPTION>
+    </CACHEDATA>
+
+    <CACHEDATA type="byte" id="NVRAM_CALLSET_ANSWER_MODE" restore_flag="true">
+        <DEFAULT_VALUE> [0x00] </DEFAULT_VALUE>
+        <DESCRIPTION> Answer mode </DESCRIPTION>
+    </CACHEDATA>
+
+    <CACHEDATA type="byte" id="NVRAM_CALLSET_CALL_TIME_DISPLAY" restore_flag="true">
+        <DEFAULT_VALUE> [0x01] </DEFAULT_VALUE>
+        <DESCRIPTION> Call time display </DESCRIPTION>
+    </CACHEDATA>
+
+    <CACHEDATA type="byte" id="NVRAM_CALLSET_REDIAL" restore_flag="true">
+        <DEFAULT_VALUE> [0x00] </DEFAULT_VALUE>
+        <DESCRIPTION> Auto redial mode </DESCRIPTION>
+    </CACHEDATA>
+
+    <CACHEDATA type="byte" id="NVRAM_CALLSET_REJ_BY_SMS" restore_flag="true">
+        <DEFAULT_VALUE> [0x00] </DEFAULT_VALUE>
+        <DESCRIPTION> Reject by SMS </DESCRIPTION>
+    </CACHEDATA>
+
+    <CACHEDATA type="byte" id="NVRAM_CALLSET_REJ_BY_SMS_SETTING" restore_flag="true">
+        <DEFAULT_VALUE> [0x00] </DEFAULT_VALUE>
+        <DESCRIPTION> Reject by SMS setting </DESCRIPTION>
+    </CACHEDATA>
+
+    <CACHEDATA type="byte" id="NVRAM_CALLSET_CONNECT_NOTICE" restore_flag="true">
+        <DEFAULT_VALUE> [0x01] </DEFAULT_VALUE>
+        <DESCRIPTION> Connect notice </DESCRIPTION>
+    </CACHEDATA>
+
+    <CACHEDATA type="byte" id="NVRAM_CALLSET_IP_NUMBER_SETTING" restore_flag="true">
+        <DEFAULT_VALUE> [0xFF] </DEFAULT_VALUE>
+        <DESCRIPTION> IP number setting </DESCRIPTION>
+    </CACHEDATA>
+
+    <CACHEDATA type="byte" id="NVRAM_CALLSET_BLACKLIST_MODE" restore_flag="true">
+        <DEFAULT_VALUE> [0x00] </DEFAULT_VALUE>
+        <DESCRIPTION> Black list setting </DESCRIPTION>
+    </CACHEDATA>
+
+    <CACHEDATA type="byte" id="NVRAM_CALLSET_QUICK_END_FLAG" restore_flag="true">
+        <DEFAULT_VALUE> [0x00] </DEFAULT_VALUE>
+        <DESCRIPTION> Auto quick end </DESCRIPTION>
+    </CACHEDATA>
+
+    <CACHEDATA type="short" id="NVRAM_CALLSET_CTR_TIME">
+        <DEFAULT_VALUE> [0xFF,0xFF] </DEFAULT_VALUE>
+        <DESCRIPTION> Call time reminder time </DESCRIPTION>
+    </CACHEDATA>
+
+    <CACHEDATA type="short" id="NVRAM_CALLSET_QUICK_END_TIME" restore_flag="true">
+        <DEFAULT_VALUE> [0xFF,0xFF] </DEFAULT_VALUE>
+        <DESCRIPTION> Auto quick end duration </DESCRIPTION>
+    </CACHEDATA>
+</APP>
+
+
+<APP id="SRV_MODESWITCH">
+
+    <CACHEDATA type="byte" id="NVRAM_DUALMODE_MODE_SWITCH_TYPE" restore_flag="true">
+        <DEFAULT_VALUE> [0x00] </DEFAULT_VALUE>
+        <DESCRIPTION> Byte Cache </DESCRIPTION>
+    </CACHEDATA>
+</APP>
+
+
+<APP id="SRV_PEN_CALIBRATION">
+
+    <CACHEDATA type="double" id="NVRAM_RESTORE_DEFAULT_PEN_CALIBRATION_VALUE1">
+        <DEFAULT_VALUE> [0xFF,0xFF,0xFF,0xFF,0xFF,0xFF,0xFF,0xFF] </DEFAULT_VALUE>
+        <DESCRIPTION> Double cache </DESCRIPTION>
+    </CACHEDATA>
+
+    <CACHEDATA type="double" id="NVRAM_RESTORE_DEFAULT_PEN_CALIBRATION_VALUE2">
+        <DEFAULT_VALUE> [0xFF,0xFF,0xFF,0xFF,0xFF,0xFF,0xFF,0xFF] </DEFAULT_VALUE>
+        <DESCRIPTION> Double cache </DESCRIPTION>
+    </CACHEDATA>
+
+    <CACHEDATA type="double" id="NVRAM_RESTORE_DEFAULT_PEN_CALIBRATION_VALUE3">
+        <DEFAULT_VALUE> [0xFF,0xFF,0xFF,0xFF,0xFF,0xFF,0xFF,0xFF] </DEFAULT_VALUE>
+        <DESCRIPTION> Double cache </DESCRIPTION>
+    </CACHEDATA>
+
+    <CACHEDATA type="double" id="NVRAM_RESTORE_DEFAULT_PEN_CALIBRATION_VALUE4">
+        <DEFAULT_VALUE> [0xFF,0xFF,0xFF,0xFF,0xFF,0xFF,0xFF,0xFF] </DEFAULT_VALUE>
+        <DESCRIPTION> Double cache </DESCRIPTION>
+    </CACHEDATA>
+
+    <CACHEDATA type="double" id="NVRAM_RESTORE_DEFAULT_PEN_CALIBRATION_VALUE5">
+        <DEFAULT_VALUE> [0xFF,0xFF,0xFF,0xFF,0xFF,0xFF,0xFF,0xFF] </DEFAULT_VALUE>
+        <DESCRIPTION> Double cache </DESCRIPTION>
+    </CACHEDATA>
+
+    <CACHEDATA type="double" id="NVRAM_RESTORE_DEFAULT_PEN_CALIBRATION_VALUE6">
+        <DEFAULT_VALUE> [0xFF,0xFF,0xFF,0xFF,0xFF,0xFF,0xFF,0xFF] </DEFAULT_VALUE>
+        <DESCRIPTION> Double cache </DESCRIPTION>
+    </CACHEDATA>
+
+    <CACHEDATA type="double" id="NVRAM_RESTORE_DEFAULT_PEN_CALIBRATION_VALUE7">
+        <DEFAULT_VALUE> [0xFF,0xFF,0xFF,0xFF,0xFF,0xFF,0xFF,0xFF] </DEFAULT_VALUE>
+        <DESCRIPTION> Double cache </DESCRIPTION>
+    </CACHEDATA>
+
+    <CACHEDATA type="double" id="NVRAM_RESTORE_DEFAULT_PEN_CALIBRATION_VALUE8">
+        <DEFAULT_VALUE> [0xFF,0xFF,0xFF,0xFF,0xFF,0xFF,0xFF,0xFF] </DEFAULT_VALUE>
+        <DESCRIPTION> Double cache </DESCRIPTION>
+    </CACHEDATA>
+
+    <CACHEDATA type="double" id="NVRAM_PEN_CALIBRATION_VALUE1" restore_flag="true" restore_id="@NVRAM_RESTORE_DEFAULT_PEN_CALIBRATION_VALUE1">
+        <DEFAULT_VALUE> [0xFF,0xFF,0xFF,0xFF,0xFF,0xFF,0xFF,0xFF] </DEFAULT_VALUE>
+        <DESCRIPTION> pen calibration value </DESCRIPTION>
+    </CACHEDATA>
+
+    <CACHEDATA type="double" id="NVRAM_PEN_CALIBRATION_VALUE2" restore_flag="true" restore_id="@NVRAM_RESTORE_DEFAULT_PEN_CALIBRATION_VALUE2">
+        <DEFAULT_VALUE> [0xFF,0xFF,0xFF,0xFF,0xFF,0xFF,0xFF,0xFF] </DEFAULT_VALUE>
+        <DESCRIPTION> pen calibration value </DESCRIPTION>
+    </CACHEDATA>
+
+    <CACHEDATA type="double" id="NVRAM_PEN_CALIBRATION_VALUE3" restore_flag="true" restore_id="@NVRAM_RESTORE_DEFAULT_PEN_CALIBRATION_VALUE3">
+        <DEFAULT_VALUE> [0xFF,0xFF,0xFF,0xFF,0xFF,0xFF,0xFF,0xFF] </DEFAULT_VALUE>
+        <DESCRIPTION> pen calibration value </DESCRIPTION>
+    </CACHEDATA>
+
+    <CACHEDATA type="double" id="NVRAM_PEN_CALIBRATION_VALUE4" restore_flag="true" restore_id="@NVRAM_RESTORE_DEFAULT_PEN_CALIBRATION_VALUE4">
+        <DEFAULT_VALUE> [0xFF,0xFF,0xFF,0xFF,0xFF,0xFF,0xFF,0xFF] </DEFAULT_VALUE>
+        <DESCRIPTION> pen calibration value </DESCRIPTION>
+    </CACHEDATA>
+
+    <CACHEDATA type="double" id="NVRAM_PEN_CALIBRATION_VALUE5" restore_flag="true" restore_id="@NVRAM_RESTORE_DEFAULT_PEN_CALIBRATION_VALUE5">
+        <DEFAULT_VALUE> [0xFF,0xFF,0xFF,0xFF,0xFF,0xFF,0xFF,0xFF] </DEFAULT_VALUE>
+        <DESCRIPTION> pen calibration value </DESCRIPTION>
+    </CACHEDATA>
+
+    <CACHEDATA type="double" id="NVRAM_PEN_CALIBRATION_VALUE6" restore_flag="true" restore_id="@NVRAM_RESTORE_DEFAULT_PEN_CALIBRATION_VALUE6">
+        <DEFAULT_VALUE> [0xFF,0xFF,0xFF,0xFF,0xFF,0xFF,0xFF,0xFF] </DEFAULT_VALUE>
+        <DESCRIPTION> pen calibration value </DESCRIPTION>
+    </CACHEDATA>
+
+    <CACHEDATA type="double" id="NVRAM_PEN_CALIBRATION_VALUE7" restore_flag="true" restore_id="@NVRAM_RESTORE_DEFAULT_PEN_CALIBRATION_VALUE7">
+        <DEFAULT_VALUE> [0xFF,0xFF,0xFF,0xFF,0xFF,0xFF,0xFF,0xFF] </DEFAULT_VALUE>
+        <DESCRIPTION> pen calibration value </DESCRIPTION>
+    </CACHEDATA>
+
+    <CACHEDATA type="double" id="NVRAM_PEN_CALIBRATION_VALUE8" restore_flag="true" restore_id="@NVRAM_RESTORE_DEFAULT_PEN_CALIBRATION_VALUE8">
+        <DEFAULT_VALUE> [0xFF,0xFF,0xFF,0xFF,0xFF,0xFF,0xFF,0xFF] </DEFAULT_VALUE>
+        <DESCRIPTION> pen calibration value </DESCRIPTION>
+    </CACHEDATA>
+</APP>
+
+
+<APP id="SRV_GENERAL_SETTING">
+
+    <CACHEDATA type="byte" id="TIME_FORMAT" restore_flag="true">
+        <DEFAULT_VALUE> [0x01] </DEFAULT_VALUE>
+        <DESCRIPTION> Time format </DESCRIPTION>
+        <FIELD size="1">
+            <OPTION hint="12"> [0x00] </OPTION>
+            <OPTION hint="24"> [0x01] </OPTION>
+        </FIELD>
+    </CACHEDATA>
+
+    <CACHEDATA type="byte" id="DATE_FORMAT" restore_flag="true">
+        <DEFAULT_VALUE> [0x02] </DEFAULT_VALUE>
+        <DESCRIPTION> Date format </DESCRIPTION>
+        <FIELD size="1">
+            <OPTION hint="DDMMYYYY"> [0x00] </OPTION>
+            <OPTION hint="MMDDYYYY"> [0x01] </OPTION>
+            <OPTION hint="YYYYMMDD"> [0x02] </OPTION>
+        </FIELD>
+    </CACHEDATA>
+
+    <CACHEDATA type="byte" id="RESTORE_DEFAULT_TIME_FORMAT">
+        <DEFAULT_VALUE> [0x00] </DEFAULT_VALUE>
+        <DESCRIPTION> Byte Cache </DESCRIPTION>
+    </CACHEDATA>
+
+    <CACHEDATA type="byte" id="RESTORE_DEFAULT_DATE_FORMAT">
+        <DEFAULT_VALUE> [0x00] </DEFAULT_VALUE>
+        <DESCRIPTION> Byte Cache </DESCRIPTION>
+    </CACHEDATA>
+
+    <CACHEDATA type="byte" id="NVRAM_DT_SEP_FORMAT" restore_flag="true">
+        <DEFAULT_VALUE> [0x00] </DEFAULT_VALUE>
+        <DESCRIPTION> Byte Cache </DESCRIPTION>
+        <FIELD size="1">
+            <OPTION hint="."> [0x00] </OPTION>
+            <OPTION hint=":"> [0x01] </OPTION>
+            <OPTION hint="/"> [0x02] </OPTION>
+            <OPTION hint="-"> [0x03] </OPTION>
+        </FIELD>
+    </CACHEDATA>
+
+    <CACHEDATA type="byte" id="NVRAM_SETTING_LANG" restore_flag="true">
+        <DEFAULT_VALUE> [0x01] </DEFAULT_VALUE>
+        <DESCRIPTION> Current language </DESCRIPTION>
+        <FIELD size="1">
+            <OPTION hint="English"> [0x00] </OPTION>
+            <OPTION hint="Simplified Chinese"> [0x01] </OPTION>
+        </FIELD>
+    </CACHEDATA>
+
+    <CACHEDATA type="byte" id="NVRAM_SETTING_DEF_ENCODING" restore_flag="true">
+        <DEFAULT_VALUE> [0xFF] </DEFAULT_VALUE>
+        <DESCRIPTION> user defined encoding type </DESCRIPTION>
+        <FIELD size="1">
+            <OPTION hint="ASCII"> [0x01] </OPTION>
+            <OPTION hint="WESTERN_WIN"> [0x1B] </OPTION>
+            <OPTION hint="GB18030"> [0x20] </OPTION>
+        </FIELD>
+    </CACHEDATA>
+</APP>
+
+
+<APP id="CUI_DIALER">
+
+    <CACHEDATA type="byte" id="NVRAM_IDLE_DIALER_TTS_SETTING" restore_flag="true">
+        <DEFAULT_VALUE> [0x01] </DEFAULT_VALUE>
+        <DESCRIPTION> TTS setting on / off </DESCRIPTION>
+    </CACHEDATA>
+</APP>
+
+
+<APP id="APP_SCR_LOCKER">
+
+    <CACHEDATA type="byte" id="NVRAM_SETTING_AUTOKEYPADLOCK" restore_flag="true">
+        <DEFAULT_VALUE> [0x00] </DEFAULT_VALUE>
+        <DESCRIPTION> Auto KeyPad Lock Status </DESCRIPTION>
+    </CACHEDATA>
+
+    <CACHEDATA type="byte" id="NVRAM_SETTING_AUTOKEYPADLOCK_TIME" restore_flag="true">
+        <DEFAULT_VALUE> [0x00] </DEFAULT_VALUE>
+        <DESCRIPTION> Auto KeyPad Lock Timer </DESCRIPTION>
+    </CACHEDATA>
+</APP>
+
+
+<APP id="APP_AUTO_ROTATE">
+
+    <CACHEDATA type="byte" id="NVRAM_EF_SENSOR_UI_ROTATION_SWITCH" restore_flag="true">
+        <DEFAULT_VALUE> [0x01] </DEFAULT_VALUE>
+        <DESCRIPTION> UI rotation is on </DESCRIPTION>
+    </CACHEDATA>
+</APP>
+
+
+<APP id="SRV_TODOLIST">
+
+    <CACHEDATA type="byte" id="NVRAM_TODO_SRV_SNS_REMINDER_SOURCE">
+        <DEFAULT_VALUE> [0x00] </DEFAULT_VALUE>
+        <DESCRIPTION> sns_source_id; </DESCRIPTION>
+    </CACHEDATA>
+
+    <CACHEDATA type="short" id="NVRAM_TODO_SRV_SNS_REMINDER_ID_H">
+        <DEFAULT_VALUE> [0xFF,0xFF] </DEFAULT_VALUE>
+        <DESCRIPTION> reminder id high 2 bytes; </DESCRIPTION>
+    </CACHEDATA>
+
+    <CACHEDATA type="short" id="NVRAM_TODO_SRV_SNS_REMINDER_ID_L">
+        <DEFAULT_VALUE> [0xFF,0xFF] </DEFAULT_VALUE>
+        <DESCRIPTION> reminder id low 2 bytes; </DESCRIPTION>
+    </CACHEDATA>
+</APP>
+
+
+<APP id="SRV_SOUNDREC">
+
+    <CACHEDATA type="byte" id="NVRAM_SRV_SNDREC_STORAGE" restore_flag="true">
+        <DEFAULT_VALUE> [0xFF] </DEFAULT_VALUE>
+        <DESCRIPTION> The storage location of sound recorder </DESCRIPTION>
+    </CACHEDATA>
+
+    <CACHEDATA type="byte" id="NVRAM_SRV_SNDREC_QUALITY" restore_flag="true">
+        <DEFAULT_VALUE> [0xFF] </DEFAULT_VALUE>
+        <DESCRIPTION> The record quality of sound recorder </DESCRIPTION>
+    </CACHEDATA>
+
+    <CACHEDATA type="byte" id="NVRAM_AUTO_VM_SETTING_AUTO_VM" restore_flag="true">
+        <DEFAULT_VALUE> [0x00] </DEFAULT_VALUE>
+        <DESCRIPTION> Sound recorder </DESCRIPTION>
+    </CACHEDATA>
+</APP>
+
+
+<APP id="SRV_PHB">
+
+    <CACHEDATA type="byte" id="NVRAM_PHB_SPEAK_NAME_ON_OFF" restore_flag="true">
+        <DEFAULT_VALUE> [0x00] </DEFAULT_VALUE>
+        <DESCRIPTION> PHB_SPEAK_NAME </DESCRIPTION>
+    </CACHEDATA>
+
+    <CACHEDATA type="byte" id="NVRAM_PHB_STARTUP_COPY_SIM">
+        <DEFAULT_VALUE> [0x00] </DEFAULT_VALUE>
+        <DESCRIPTION> PHB_STARTUP_COPY_1 </DESCRIPTION>
+    </CACHEDATA>
+
+    <CACHEDATA type="byte" id="NVRAM_PHB_STARTUP_COPY_SIM2">
+        <DEFAULT_VALUE> [0x00] </DEFAULT_VALUE>
+        <DESCRIPTION> PHB_STARTUP_COPY_2 </DESCRIPTION>
+    </CACHEDATA>
+
+    <CACHEDATA type="byte" id="NVRAM_PHB_STARTUP_COPY_SIM3">
+        <DEFAULT_VALUE> [0x00] </DEFAULT_VALUE>
+        <DESCRIPTION> PHB_STARTUP_COPY_3 </DESCRIPTION>
+    </CACHEDATA>
+
+    <CACHEDATA type="byte" id="NVRAM_PHB_STARTUP_COPY_SIM4">
+        <DEFAULT_VALUE> [0x00] </DEFAULT_VALUE>
+        <DESCRIPTION> PHB_STARTUP_COPY_4 </DESCRIPTION>
+    </CACHEDATA>
+
+    <CACHEDATA type="byte" id="NVRAM_PHB_NAME_DISPLAY_TYPE" restore_flag="true">
+        <DEFAULT_VALUE> [0x01] </DEFAULT_VALUE>
+        <DESCRIPTION> Phonebook name display type </DESCRIPTION>
+    </CACHEDATA>
+
+    <CACHEDATA type="short" id="NVRAM_PHB_STORAGE_LOCATION" restore_flag="true">
+        <DEFAULT_VALUE> [0x02,0x00] </DEFAULT_VALUE>
+        <DESCRIPTION> Phonebook prefer storage </DESCRIPTION>
+        <FIELD size="2">
+            <OPTION hint="Phone"> [0x02,0x00] </OPTION>
+            <OPTION hint="SIM"> [0x04,0x00] </OPTION>
+            <OPTION hint="All"> [0x06,0x00] </OPTION>
+        </FIELD>
+    </CACHEDATA>
+
+    <CACHEDATA type="short" id="NVRAM_PHB_NAME_LIST_FILTER" restore_flag="true">
+        <DEFAULT_VALUE> [0xFF,0xFF] </DEFAULT_VALUE>
+        <DESCRIPTION> PHB_NLF </DESCRIPTION>
+    </CACHEDATA>
+
+    <CACHEDATA type="short" id="NVRAM_PHB_VCARD_VERSION" restore_flag="true">
+        <DEFAULT_VALUE> [0xFF,0xFF] </DEFAULT_VALUE>
+        <DESCRIPTION> VCARD VERSION </DESCRIPTION>
+    </CACHEDATA>
+
+    <CACHEDATA type="byte" id="NVRAM_PHB_SAVE_CONTACT_NOTIFY" restore_flag="true">
+        <DEFAULT_VALUE> [0xFF] </DEFAULT_VALUE>
+        <DESCRIPTION> PHB_SAVE_NOTIFY </DESCRIPTION>
+    </CACHEDATA>
+
+    <CACHEDATA type="byte" id="NVRAM_SSC_DISABLE_FLAG">
+        <DEFAULT_VALUE> [0xFF] </DEFAULT_VALUE>
+        <DESCRIPTION> Byte Cache </DESCRIPTION>
+    </CACHEDATA>
+
+    <CACHEDATA type="byte" id="NVRAM_IDLE_DIALER_SEARCH_SETTING" restore_flag="true">
+        <DEFAULT_VALUE> [0x01] </DEFAULT_VALUE>
+        <DESCRIPTION> Dialer search on / off </DESCRIPTION>
+    </CACHEDATA>
+
+    <CACHEDATA type="byte" id="NVRAM_SETTING_SPEED_DIAL" restore_flag="true">
+        <DEFAULT_VALUE> [0x00] </DEFAULT_VALUE>
+        <DESCRIPTION> Speed dial status </DESCRIPTION>
+    </CACHEDATA>
+</APP>
+
+
+<APP id="SRV_NITZ">
+
+    <CACHEDATA type="byte" id="NVRAM_SETTING_AUTOUPDATE_DT_TIME_STATUS" restore_flag="true">
+        <DEFAULT_VALUE> [0x00] </DEFAULT_VALUE>
+        <DESCRIPTION> auto update date and time state </DESCRIPTION>
+    </CACHEDATA>
+</APP>
+
+
+<APP id="APP_NPR_TTS">
+
+    <CACHEDATA type="byte" id="NVRAM_NPR_TTS_FLAG" restore_flag="true">
+        <DEFAULT_VALUE> [0xFF] </DEFAULT_VALUE>
+        <DESCRIPTION> TTS Play nvram </DESCRIPTION>
+    </CACHEDATA>
+
+    <CACHEDATA type="byte" id="NVRAM_TTS_VOL_LEVEL" restore_flag="true">
+        <DEFAULT_VALUE> [0xFF] </DEFAULT_VALUE>
+        <DESCRIPTION> TTS Auto Play Time </DESCRIPTION>
+    </CACHEDATA>
+
+    <CACHEDATA type="byte" id="NVRAM_TTS_VOICE_SEL" restore_flag="true">
+        <DEFAULT_VALUE> [0xFF] </DEFAULT_VALUE>
+        <DESCRIPTION> TTS volume selet </DESCRIPTION>
+    </CACHEDATA>
+</APP>
+
+

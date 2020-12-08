@@ -1,0 +1,186 @@
+/*****************************************************************************
+*  Copyright Statement:
+*  --------------------
+*  This software is protected by Copyright and the information contained
+*  herein is confidential. The software may not be copied and the information
+*  contained herein may not be used or disclosed except with the written
+*  permission of MediaTek Inc. (C) 2010
+*
+*  BY OPENING THIS FILE, BUYER HEREBY UNEQUIVOCALLY ACKNOWLEDGES AND AGREES
+*  THAT THE SOFTWARE/FIRMWARE AND ITS DOCUMENTATIONS ("MEDIATEK SOFTWARE")
+*  RECEIVED FROM MEDIATEK AND/OR ITS REPRESENTATIVES ARE PROVIDED TO BUYER ON
+*  AN "AS-IS" BASIS ONLY. MEDIATEK EXPRESSLY DISCLAIMS ANY AND ALL WARRANTIES,
+*  EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE IMPLIED WARRANTIES OF
+*  MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE OR NONINFRINGEMENT.
+*  NEITHER DOES MEDIATEK PROVIDE ANY WARRANTY WHATSOEVER WITH RESPECT TO THE
+*  SOFTWARE OF ANY THIRD PARTY WHICH MAY BE USED BY, INCORPORATED IN, OR
+*  SUPPLIED WITH THE MEDIATEK SOFTWARE, AND BUYER AGREES TO LOOK ONLY TO SUCH
+*  THIRD PARTY FOR ANY WARRANTY CLAIM RELATING THERETO. MEDIATEK SHALL ALSO
+*  NOT BE RESPONSIBLE FOR ANY MEDIATEK SOFTWARE RELEASES MADE TO BUYER'S
+*  SPECIFICATION OR TO CONFORM TO A PARTICULAR STANDARD OR OPEN FORUM.
+*
+*  BUYER'S SOLE AND EXCLUSIVE REMEDY AND MEDIATEK'S ENTIRE AND CUMULATIVE
+*  LIABILITY WITH RESPECT TO THE MEDIATEK SOFTWARE RELEASED HEREUNDER WILL BE,
+*  AT MEDIATEK'S OPTION, TO REVISE OR REPLACE THE MEDIATEK SOFTWARE AT ISSUE,
+*  OR REFUND ANY SOFTWARE LICENSE FEES OR SERVICE CHARGE PAID BY BUYER TO
+*  MEDIATEK FOR SUCH MEDIATEK SOFTWARE AT ISSUE. 
+*
+*  THE TRANSACTION CONTEMPLATED HEREUNDER SHALL BE CONSTRUED IN ACCORDANCE
+*  WITH THE LAWS OF THE STATE OF CALIFORNIA, USA, EXCLUDING ITS CONFLICT OF
+*  LAWS PRINCIPLES.  ANY DISPUTES, CONTROVERSIES OR CLAIMS ARISING THEREOF AND
+*  RELATED THERETO SHALL BE SETTLED BY ARBITRATION IN SAN FRANCISCO, CA, UNDER
+*  THE RULES OF THE INTERNATIONAL CHAMBER OF COMMERCE (ICC).
+*
+*****************************************************************************/
+
+/*****************************************************************************
+ *
+ * Filename:
+ * ---------
+ *   image_sensor_GC6113_SERIAL.h
+ *
+ * Project:
+ * --------
+ *   MAUI_sw
+ *
+ * Description:
+ * ------------
+ *   CMOS sensor header file
+ *
+ * Author:
+ * -------
+ * -------
+ *
+ *============================================================================
+ *             HISTORY
+ * Below this line, this part is controlled by PVCS VM. DO NOT MODIFY!!
+ *------------------------------------------------------------------------------
+ * removed!
+ * removed!
+ * removed!
+ *
+ * removed!
+ * removed!
+ * removed!
+ *
+ * removed!
+ *
+ *------------------------------------------------------------------------------
+ * Upper this line, this part is controlled by PVCS VM. DO NOT MODIFY!!
+ *============================================================================
+ ****************************************************************************/
+#ifndef _IMAGE_SENSOR_GC6113_SERIAL_H
+	#define _IMAGE_SENSOR_GC6113_SERIAL_H
+
+#include "sensor_comm_def.h"
+
+/* This used for debug phase use only, to speed up the initial setting modify, 
+    NOTICE: It need to be marked when MP release version, or else it will effect the enter
+    camera time and waste some ram. */
+//#define GC6113_SERIAL_LOAD_FROM_T_FLASH
+
+/* DEBUG USE ONLY */
+#define __GC6113_SERIAL_DEBUG_TRACE__
+
+/* SENSOR MASTER CLOCK, GC6113 have no PLL, so need 48Mhz for high frame rate. */
+#define GC6113_SERIAL_MCLK                         48000000
+
+/* Pclk limitation is 96MHz, preview pclk = min(pclk@30fps,96MHz), capture pclk = min(pclk@15fps,96MHz) */
+#define GC6113_SERIAL_PV_INTERNAL_CLK             	48000000
+#define GC6113_SERIAL_CAP_INTERNAL_CLK            	48000000
+
+/* SENSOR PREVIEW SIZE (3M: 1024x768 or 640x480, 2M: 800x600, 1.3M: 640x512, VGA: 640x480, CIF: 352x288) */
+#define GC6113_SERIAL_IMAGE_SENSOR_PV_WIDTH         (240)
+#define GC6113_SERIAL_IMAGE_SENSOR_PV_HEIGHT        (320)
+/* SENSOR CAPTURE SIZE (3M: 2048x1536, 2M: 1600x1200, 1.3M: 1280x1024, VGA: 640x480, CIF: 352x288) */
+#define GC6113_SERIAL_IMAGE_SENSOR_FULL_WIDTH       (240)
+#define GC6113_SERIAL_IMAGE_SENSOR_FULL_HEIGHT      (320)
+
+/* SENSOR PIXEL/LINE NUMBERS IN ONE PERIOD */
+#define GC6113_SERIAL_PV_PERIOD_PIXEL_NUMS          (0xF8 + 0x2A + 4 + 240*4) /* 1254 Default preview line length */
+#define GC6113_SERIAL_PV_PERIOD_LINE_NUMS           (0x148 + 0x08)		/* 336	Default preview frame length */
+#define GC6113_SERIAL_FULL_PERIOD_PIXEL_NUMS        (0xF8 + 0x2A + 4 + 240*4) /* 1254 Default preview line length */
+#define GC6113_SERIAL_FULL_PERIOD_LINE_NUMS         (0x148 + 0x08)		/* 336	Default preview frame length */
+
+/* SENSOR SHUTTER MARGIN */
+#define GC6113_SERIAL_SHUTTER_MAX_MARGIN            (5)
+
+/* SENSOR LINELENGTH&FRAMELENGTH LIMITATION */
+#define GC6113_SERIAL_MAX_LINELENGTH                (0xFFF) /* register limitation */
+#define GC6113_SERIAL_MAX_FRAMELENGTH               (0xFFF) /* register limitation */
+
+/* SENSOR DELAY FRAME */
+#define GC6113_SERIAL_FIRST_PREVIEW_DELAY_FRAME     (7)
+#define GC6113_SERIAL_PREVIEW_DELAY_FRAME           (3)
+#define GC6113_SERIAL_CAPTURE_DELAY_FRAME           (1)
+
+/* SENSOR I2C WRITE ID */
+#define GC6113_SERIAL_WRITE_ID_0                    (0x80)
+#define GC6113_SERIAL_WRITE_ID_1                    (0xFF)
+#define GC6113_SERIAL_WRITE_ID_2                    (0xFF)
+#define GC6113_SERIAL_WRITE_ID_3                    (0xFF)
+
+/* SENSOR I2C ADDR/DATA WIDTH */
+#define GC6113_SERIAL_I2C_ADDR_BITS                 CAMERA_SCCB_8BIT /* CAMERA_SCCB_8BIT / CAMERA_SCCB_16BIT */
+#define GC6113_SERIAL_I2C_DATA_BITS                 CAMERA_SCCB_8BIT /* CAMERA_SCCB_8BIT / CAMERA_SCCB_16BIT */
+
+/* FRAME RATE UNIT */
+#define GC6113_SERIAL_FRAME_RATE_UNIT               10
+
+/* MAX CAMERA FRAME RATE */
+#define GC6113_SERIAL_MAX_CAMERA_FPS         (GC6113_SERIAL_FRAME_RATE_UNIT * 28)
+
+
+/* ===============================================================================
+   ========================= No Changing The Macro Below =========================
+   ===============================================================================
+*/
+
+#ifdef __GC6113_SERIAL_DEBUG_TRACE__
+#include "kal_trace.h"
+
+#define GC6113_SERIAL_TRACE(...) kal_print_string_trace(MOD_ENG, TRACE_INFO, "[GC6113_SERIAL]"__VA_ARGS__)
+#else
+#define GC6113_SERIAL_TRACE(...)
+#endif
+
+
+/* CONFIG THE ISP GRAB START X & START Y, CONFIG THE ISP GRAB WIDTH & HEIGHT */
+#define GC6113_SERIAL_PV_GRAB_START_X               (0)
+#define GC6113_SERIAL_PV_GRAB_START_Y               (1)
+#define GC6113_SERIAL_FULL_GRAB_START_X             (0)
+#define GC6113_SERIAL_FULL_GRAB_START_Y             (1)
+#define GC6113_SERIAL_PV_GRAB_WIDTH                 (GC6113_SERIAL_IMAGE_SENSOR_PV_WIDTH - 2)
+#define GC6113_SERIAL_PV_GRAB_HEIGHT                (GC6113_SERIAL_IMAGE_SENSOR_PV_HEIGHT - 2)
+#define GC6113_SERIAL_FULL_GRAB_WIDTH               (GC6113_SERIAL_IMAGE_SENSOR_FULL_WIDTH - 2)
+#define GC6113_SERIAL_FULL_GRAB_HEIGHT              (GC6113_SERIAL_IMAGE_SENSOR_FULL_HEIGHT - 2)
+
+#define GC6113_SERIAL_SET_RST_LOW                   CamRstPinCtrl(GC6113_SERIALSensor.SensorIdx, 0)
+#define GC6113_SERIAL_SET_RST_HIGH                  CamRstPinCtrl(GC6113_SERIALSensor.SensorIdx, 1)
+#define GC6113_SERIAL_SET_PDN_LOW                   CamPdnPinCtrl(GC6113_SERIALSensor.SensorIdx, 0)
+#define GC6113_SERIAL_SET_PDN_HIGH                  CamPdnPinCtrl(GC6113_SERIALSensor.SensorIdx, 1)
+
+/* HW I2C SPEED */
+#define GC6113_SERIAL_HW_I2C_SPEED                  300 /* Kbps */
+
+/* FRAME RATE UNIT */
+#define GC6113_SERIAL_FPS(x)                        ((kal_uint32)(10 * (x)))
+
+/* CHECK AND SET LOCK */
+#define GC6113_SERIAL_CHECK_AND_SET(x, y, z)        do { \
+    if (GC6113_SERIALSensor.##x == (y)) \
+    { \
+      return z; \
+    } \
+    GC6113_SERIALSensor.##x = (y); \
+  } while(0)
+
+/* --------------------------------- common eara --------------------------------- */
+/* EXPORT FUNC */
+MM_ERROR_CODE_ENUM GC6113_SERIALSensorFunc(P_IMAGE_SENSOR_FUNCTION_STRUCT *pfSensorFunc);
+
+/* IMPORT FUNC */
+MM_ERROR_CODE_ENUM GC6113_SERIALWebcamFeatureCtrl(kal_uint32 Id, void *In, void *Out, kal_uint32 OutLen, kal_uint32 *RealOutLen);
+
+#endif
+

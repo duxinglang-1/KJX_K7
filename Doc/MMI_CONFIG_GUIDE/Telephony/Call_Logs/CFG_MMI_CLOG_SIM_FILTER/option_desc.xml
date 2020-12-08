@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" 
+ href="\\glbfs14\sw_releases\MMI_CONFIG_GUIDE\mmi_config_guide.xsl"?>
+<opt name="CFG_MMI_CLOG_SIM_FILTER">
+	<opt_val name ="__ON__">	
+		<desc> 		If CFG_MMI_CLOG_SIM_FILTER is ON, Calllog SIM filter will be open. </desc>
+		<example>
+			<desc> 	Description for PLUTO/FTE package 	</desc>
+			<image name = "__on__.jpg"/>
+		</example>
+
+	</opt_val>
+  
+	<opt_val name ="__OFF__">
+		<desc>	 		If CFG_MMI_CLOG_SIM_FILTER is OFF, Calllog SIM filter will be closed.	</desc>
+		<example>
+			<desc> 	 Description for PLUTO/FTE package 	</desc>
+			<image name = "__off__.jpg"/>
+		</example>
+	</opt_val>	
+</opt>

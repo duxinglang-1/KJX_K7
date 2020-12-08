@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" 
+ href="\\glbfs14\sw_releases\MMI_CONFIG_GUIDE\mmi_config_guide.xsl"?>
+<opt name="CFG_MMI_MRE_APP_MOBIM_FCWR">
+  <opt_val name ="__MRE_APP_SHORTCUT__">
+    <desc>
+      It allow user to turn ON mre app mobim feichengwurao, it was a shutcut, use can download it from shutcut.
+    </desc>
+		<example>
+			<desc> 	The following figure shows the UI turn ON mre app mobim feichengwurao </desc>
+			<image name = "fcwr_on.JPG"/>
+		</example>
+  </opt_val>
+
+  <opt_val name ="__MRE_APP_CLOSE__">
+    <desc>
+      It will close feichengwurao shutcut
+    </desc>
+  </opt_val>
+</opt>

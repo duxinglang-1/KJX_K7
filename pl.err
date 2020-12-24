@@ -1,0 +1,4 @@
+[tools\partialLink.pl:generateLibSize:2241] Error: Fail to execute command: "C:/Progra~1/ARM/RVCT/Programs/3.1/569/win_32-pentium/armar.exe --sizes F:/K7_TOUR/CODE/mtk_lib/MT6260/S00/gprs/FLAVOR/GEMINI_F/scsi - 副本.lib >F:/K7_TOUR/CODE/pl_lib_size/scsi - 副本.lib.txt 2>F:/K7_TOUR/CODE/pl.tmp"
+STDOUT: 
+STDERR: Error: L6832E: Archive 'F:/K7_TOUR/CODE/mtk_lib/MT6260/S00/gprs/FLAVOR/GEMINI_F/scsi' not found : No such file or directory
+

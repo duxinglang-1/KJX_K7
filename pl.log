@@ -1,0 +1,293 @@
+2020-12-02 
+16:47
+[tools\partialLink.pl:main:2495] [tools\partialLink.pl --armlink=C:\Progra~1\ARM\RVCT\Programs\3.1\569\win_32-pentium\armlink.exe --armar=C:\Progra~1\ARM\RVCT\Programs\3.1\569\win_32-pentium\armar.exe --lib-dir=.\build\TOUR\gprs\MT6260o\lib --lib-dir=mtk_lib\MT6260\S00\gprs\FLAVOR\GEMINI_F --no-update --scatter-file=custom\system\HEXING60A_11B_BB\scatTOUR.txt --link-option-file=.\make\~sortedLibs.tmp --readelf=.\tools\MinGW\bin\arm-none-eabi-readelf.exe --nm=.\tools\MinGW\bin\arm-none-eabi-nm.exe --link-err-file=.\build\TOUR\MT6260.log --strip=.\tools\MinGW\bin\arm-none-eabi-strip.exe]
+[tools\partialLink.pl:main:2497] Dumping options...
+[tools\partialLink.pl:dumpOpt:1967] -> stripDebugCount
+$VAR1 = 8;
+[tools\partialLink.pl:dumpOpt:1967] -> forcePartialLink
+$VAR1 = 0;
+[tools\partialLink.pl:dumpOpt:1967] -> reGenHint
+$VAR1 = 0;
+[tools\partialLink.pl:dumpOpt:1967] -> stripDebugInfo
+$VAR1 = 1;
+[tools\partialLink.pl:dumpOpt:1967] -> linkType
+$VAR1 = 1;
+[tools\partialLink.pl:dumpOpt:1967] -> save
+$VAR1 = 0;
+[tools\partialLink.pl:dumpOpt:1967] -> reGenRule
+$VAR1 = 1;
+[tools\partialLink.pl:dumpOpt:1967] -> passLimit
+$VAR1 = 7;
+[tools\partialLink.pl:dumpOpt:1967] -> hintToRule
+$VAR1 = 1;
+[tools\partialLink.pl:dumpOpt:1967] -> excludeCppLib
+$VAR1 = 0;
+[tools\partialLink.pl:dumpOpt:1967] -> check
+$VAR1 = 0;
+[tools\partialLink.pl:dumpOpt:1967] -> simulate
+$VAR1 = 0;
+[tools\partialLink.pl:dumpOpt:1967] -> libSizeInfo
+$VAR1 = 1;
+[tools\partialLink.pl:dumpOpt:1967] -> help
+$VAR1 = 0;
+[tools\partialLink.pl:dumpOpt:1967] -> update
+$VAR1 = 0;
+[tools\partialLink.pl:dumpOpt:1967] -> fileLinkErr
+$VAR1 = 'F:/K7_TOUR/CODE/build/TOUR/MT6260.log';
+[tools\partialLink.pl:dumpOpt:1967] -> cmd_armar
+$VAR1 = 'C:/Progra~1/ARM/RVCT/Programs/3.1/569/win_32-pentium/armar.exe';
+[tools\partialLink.pl:dumpOpt:1967] -> ptrAryUserExclusionFile
+$VAR1 = [];
+[tools\partialLink.pl:dumpOpt:1967] -> cmd_armlink
+$VAR1 = 'C:/Progra~1/ARM/RVCT/Programs/3.1/569/win_32-pentium/armlink.exe';
+[tools\partialLink.pl:dumpOpt:1967] -> dirInfo
+$VAR1 = 'F:/K7_TOUR/CODE';
+[tools\partialLink.pl:dumpOpt:1967] -> fileLinkOption
+$VAR1 = 'F:/K7_TOUR/CODE/make/~sortedLibs.tmp';
+[tools\partialLink.pl:dumpOpt:1967] -> cmd_nm
+$VAR1 = 'F:/K7_TOUR/CODE/tools/MinGW/bin/arm-none-eabi-nm.exe';
+[tools\partialLink.pl:dumpOpt:1967] -> dirTemp
+$VAR1 = 'F:/K7_TOUR/CODE';
+[tools\partialLink.pl:dumpOpt:1967] -> ptrAryLibDir
+$VAR1 = [
+          'F:/K7_TOUR/CODE/build/TOUR/gprs/MT6260o/lib',
+          'F:/K7_TOUR/CODE/mtk_lib/MT6260/S00/gprs/FLAVOR/GEMINI_F'
+        ];
+[tools\partialLink.pl:dumpOpt:1967] -> fileScatter
+$VAR1 = 'F:/K7_TOUR/CODE/custom/system/HEXING60A_11B_BB/scatTOUR.txt';
+[tools\partialLink.pl:dumpOpt:1967] -> cmd_strip
+$VAR1 = 'F:/K7_TOUR/CODE/tools/MinGW/bin/arm-none-eabi-strip.exe';
+[tools\partialLink.pl:dumpOpt:1967] -> cmd_readelf
+$VAR1 = 'F:/K7_TOUR/CODE/tools/MinGW/bin/arm-none-eabi-readelf.exe';
+[tools\partialLink.pl:dumpOpt:1967] -> dirSave
+$VAR1 = 'F:/K7_TOUR/CODE';
+[tools\partialLink.pl:generateLibSize:2240] Generating size info for applib.lib
+[tools\partialLink.pl:generateLibSize:2240] Generating size info for applib_asn1.lib
+[tools\partialLink.pl:generateLibSize:2240] Generating size info for audio.lib
+[tools\partialLink.pl:generateLibSize:2240] Generating size info for bmt.lib
+[tools\partialLink.pl:generateLibSize:2240] Generating size info for camera.lib
+[tools\partialLink.pl:generateLibSize:2240] Generating size info for cct.lib
+[tools\partialLink.pl:generateLibSize:2240] Generating size info for config.lib
+[tools\partialLink.pl:generateLibSize:2240] Generating size info for conn_app.lib
+[tools\partialLink.pl:generateLibSize:2240] Generating size info for custom.lib
+[tools\partialLink.pl:generateLibSize:2240] Generating size info for drm.lib
+[tools\partialLink.pl:generateLibSize:2240] Generating size info for drmadp_mtk.lib
+[tools\partialLink.pl:generateLibSize:2240] Generating size info for drv.lib
+[tools\partialLink.pl:generateLibSize:2240] Generating size info for drv_display.lib
+[tools\partialLink.pl:generateLibSize:2240] Generating size info for drv_idp.lib
+[tools\partialLink.pl:generateLibSize:2240] Generating size info for fluency.lib
+[tools\partialLink.pl:generateLibSize:2240] Generating size info for fmr.lib
+[tools\partialLink.pl:generateLibSize:2240] Generating size info for fmt.lib
+[tools\partialLink.pl:generateLibSize:2240] Generating size info for fs.lib
+[tools\partialLink.pl:generateLibSize:2240] Generating size info for ft.lib
+[tools\partialLink.pl:generateLibSize:2240] Generating size info for ftc.lib
+[tools\partialLink.pl:generateLibSize:2240] Generating size info for gdi.lib
+[tools\partialLink.pl:generateLibSize:2240] Generating size info for gdi_arm.lib
+[tools\partialLink.pl:generateLibSize:2240] Generating size info for gfx_drv.lib
+[tools\partialLink.pl:generateLibSize:2240] Generating size info for inet_app.lib
+[tools\partialLink.pl:generateLibSize:2240] Generating size info for init.lib
+[tools\partialLink.pl:generateLibSize:2240] Generating size info for kjx.lib
+[tools\partialLink.pl:generateLibSize:2240] Generating size info for l1_ext.lib
+[tools\partialLink.pl:generateLibSize:2240] Generating size info for l4misc.lib
+[tools\partialLink.pl:generateLibSize:2240] Generating size info for matv.lib
+[tools\partialLink.pl:generateLibSize:2240] Generating size info for mc.lib
+[tools\partialLink.pl:generateLibSize:2240] Generating size info for media.lib
+[tools\partialLink.pl:generateLibSize:2240] Generating size info for media_app.lib
+[tools\partialLink.pl:generateLibSize:2240] Generating size info for mm_comm.lib
+[tools\partialLink.pl:generateLibSize:2240] Generating size info for mmi_app.lib
+[tools\partialLink.pl:generateLibSize:2240] Generating size info for mmi_core.lib
+[tools\partialLink.pl:generateLibSize:2240] Generating size info for mmi_framework.lib
+[tools\partialLink.pl:generateLibSize:2240] Generating size info for mmi_service.lib
+[tools\partialLink.pl:generateLibSize:2240] Generating size info for mmiresource.lib
+[tools\partialLink.pl:generateLibSize:2240] Generating size info for mpl.lib
+[tools\partialLink.pl:generateLibSize:2240] Generating size info for mre_custom.lib
+[tools\partialLink.pl:generateLibSize:2240] Generating size info for mre_engine.lib
+[tools\partialLink.pl:generateLibSize:2240] Generating size info for mtd.lib
+[tools\partialLink.pl:generateLibSize:2240] Generating size info for nvram.lib
+[tools\partialLink.pl:generateLibSize:2240] Generating size info for obigo03cadp.lib
+[tools\partialLink.pl:generateLibSize:2240] Generating size info for obigo03cfwadp.lib
+[tools\partialLink.pl:generateLibSize:2240] Generating size info for obigo03cmmsadp.lib
+[tools\partialLink.pl:generateLibSize:2240] Generating size info for obigo03cpushadp.lib
+[tools\partialLink.pl:generateLibSize:2240] Generating size info for obigo03cstkadp.lib
+[tools\partialLink.pl:generateLibSize:2240] Generating size info for peripheral.lib
+[tools\partialLink.pl:generateLibSize:2240] Generating size info for postproc.lib
+[tools\partialLink.pl:generateLibSize:2240] Generating size info for provider.lib
+[tools\partialLink.pl:generateLibSize:2240] Generating size info for sim_driver.lib
+[tools\partialLink.pl:generateLibSize:2240] Generating size info for system.lib
+[tools\partialLink.pl:generateLibSize:2240] Generating size info for usb.lib
+[tools\partialLink.pl:generateLibSize:2240] Generating size info for usb_driver.lib
+[tools\partialLink.pl:generateLibSize:2240] Generating size info for vcard.lib
+[tools\partialLink.pl:generateLibSize:2240] Generating size info for vendorapp.lib
+[tools\partialLink.pl:generateLibSize:2240] Generating size info for video.lib
+[tools\partialLink.pl:generateLibSize:2240] Generating size info for video_codec.lib
+[tools\partialLink.pl:generateLibSize:2240] Generating size info for video_sec.lib
+[tools\partialLink.pl:generateLibSize:2240] Generating size info for vrt_adp.lib
+[tools\partialLink.pl:generateLibSize:2240] Generating size info for winguo.lib
+[tools\partialLink.pl:generateLibSize:2240] Generating size info for xmlp.lib
+[tools\partialLink.pl:generateLibSize:2240] Generating size info for scsi - 副本.lib
+[tools\partialLink.pl:generateLibSize:2241] Error: Fail to execute command: "C:/Progra~1/ARM/RVCT/Programs/3.1/569/win_32-pentium/armar.exe --sizes F:/K7_TOUR/CODE/mtk_lib/MT6260/S00/gprs/FLAVOR/GEMINI_F/scsi - 副本.lib >F:/K7_TOUR/CODE/pl_lib_size/scsi - 副本.lib.txt 2>F:/K7_TOUR/CODE/pl.tmp"
+STDOUT: 
+STDERR: Error: L6832E: Archive 'F:/K7_TOUR/CODE/mtk_lib/MT6260/S00/gprs/FLAVOR/GEMINI_F/scsi' not found : No such file or directory
+
+[tools\partialLink.pl:dumpOpt:1967] -> ptrHahOnOff
+$VAR1 = {
+          'force_partial_link' => [
+                                    0,
+                                    \0
+                                  ],
+          'save' => [
+                      0,
+                      \0
+                    ],
+          'strip_debug_info' => [
+                                  0,
+                                  \1
+                                ],
+          'check' => [
+                       0,
+                       \0
+                     ],
+          'exclude_cpp_lib' => [
+                                 0,
+                                 \0
+                               ],
+          'simulate' => [
+                          0,
+                          \0
+                        ],
+          'regen_hint' => [
+                            0,
+                            \0
+                          ],
+          'update' => [
+                        0,
+                        \0
+                      ]
+        };
+[tools\partialLink.pl:dumpOpt:1967] -> file
+$VAR1 = 'F:/K7_TOUR/CODE/pl.ini';
+[tools\partialLink.pl:dumpOpt:1967] -> flag
+$VAR1 = 0;
+[tools\partialLink.pl:dumpOpt:1967] -> ptrHahValue
+$VAR1 = {
+          'link_type' => [
+                           0,
+                           \1,
+                           1,
+                           2,
+                           3
+                         ],
+          'strip_debug_count' => [
+                                   0,
+                                   \8
+                                 ],
+          'pass_limit' => [
+                            0,
+                            \7
+                          ]
+        };
+[tools\partialLink.pl:dumpOpt:1967] -> ptrHahAttr
+$VAR1 = {
+          'link' => '0',
+          'state' => '0'
+        };
+[tools\partialLink.pl:dumpOpt:1967] -> suffix_bak
+$VAR1 = '__PARTIAL_LINK_SRC_BACKUP';
+[tools\partialLink.pl:dumpOpt:1967] -> ptrHahSymTable
+$VAR1 = {};
+[tools\partialLink.pl:dumpOpt:1967] -> ptrAryLibDir
+$VAR1 = [
+          'F:/K7_TOUR/CODE/build/TOUR/gprs/MT6260o/lib',
+          'F:/K7_TOUR/CODE/mtk_lib/MT6260/S00/gprs/FLAVOR/GEMINI_F'
+        ];
+[tools\partialLink.pl:dumpOpt:1967] -> suffix_dbg
+$VAR1 = '__PARTIAL_LINK_DBG';
+[tools\partialLink.pl:dumpOpt:1967] -> ptrHahNoDbgLib
+$VAR1 = {};
+[tools\partialLink.pl:dumpOpt:1967] -> ptrHahLibNew
+$VAR1 = {
+          'scsi - 副本.lib' => 1
+        };
+[tools\partialLink.pl:dumpOpt:1967] -> ptrHahLibUsage
+$VAR1 = {};
+[tools\partialLink.pl:dumpOpt:1967] -> suffix
+$VAR1 = '__PARTIAL_LINK_TEMPORARY';
+[tools\partialLink.pl:dumpOpt:1967] -> suffix_save
+$VAR1 = '__PARTIAL_LINK';
+[tools\partialLink.pl:dumpOpt:1967] -> fileTimestamp
+$VAR1 = 'F:/K7_TOUR/CODE/pl_timestamp.txt';
+[tools\partialLink.pl:dumpOpt:1967] -> dirLibSize
+$VAR1 = 'F:/K7_TOUR/CODE/pl_lib_size';
+[tools\partialLink.pl:dumpOpt:1967] -> ptrHahLibUpdate
+$VAR1 = {
+          'l4misc.lib' => 1,
+          'mre_engine.lib' => 1,
+          'obigo03cpushadp.lib' => 1,
+          'mpl.lib' => 1,
+          'usb.lib' => 1,
+          'obigo03cstkadp.lib' => 1,
+          'mmi_service.lib' => 1,
+          'init.lib' => 1,
+          'camera.lib' => 1,
+          'peripheral.lib' => 1,
+          'nvram.lib' => 1,
+          'fluency.lib' => 1,
+          'cct.lib' => 1,
+          'video.lib' => 1,
+          'inet_app.lib' => 1,
+          'drm.lib' => 1,
+          'obigo03cmmsadp.lib' => 1,
+          'fmr.lib' => 1,
+          'custom.lib' => 1,
+          'postproc.lib' => 1,
+          'mre_custom.lib' => 1,
+          'ft.lib' => 1,
+          'provider.lib' => 1,
+          'drv_display.lib' => 1,
+          'conn_app.lib' => 1,
+          'mmi_framework.lib' => 1,
+          'mm_comm.lib' => 1,
+          'config.lib' => 1,
+          'video_codec.lib' => 1,
+          'vendorapp.lib' => 1,
+          'obigo03cfwadp.lib' => 1,
+          'fs.lib' => 1,
+          'drmadp_mtk.lib' => 1,
+          'audio.lib' => 1,
+          'media.lib' => 1,
+          'video_sec.lib' => 1,
+          'applib_asn1.lib' => 1,
+          'gdi_arm.lib' => 1,
+          'usb_driver.lib' => 1,
+          'mmiresource.lib' => 1,
+          'drv.lib' => 1,
+          'gfx_drv.lib' => 1,
+          'applib.lib' => 1,
+          'media_app.lib' => 1,
+          'winguo.lib' => 1,
+          'vrt_adp.lib' => 1,
+          'system.lib' => 1,
+          'mmi_core.lib' => 1,
+          'obigo03cadp.lib' => 1,
+          'mmi_app.lib' => 1,
+          'drv_idp.lib' => 1,
+          'matv.lib' => 1,
+          'gdi.lib' => 1,
+          'mtd.lib' => 1,
+          'vcard.lib' => 1,
+          'xmlp.lib' => 1,
+          'bmt.lib' => 1,
+          'mc.lib' => 1,
+          'ftc.lib' => 1,
+          'l1_ext.lib' => 1,
+          'sim_driver.lib' => 1,
+          'fmt.lib' => 1,
+          'kjx.lib' => 1
+        };
+[tools\partialLink.pl:main:2624] Trying normal link...
+[tools\partialLink.pl:finalLink:1491] Executing "C:/Progra~1/ARM/RVCT/Programs/3.1/569/win_32-pentium/armlink.exe  --via F:/K7_TOUR/CODE/make/~sortedLibs.tmp --errors F:/K7_TOUR/CODE/pl_error_normal.log"
+[tools\partialLink.pl:parseErrorFile:1414] Parsing linking error from F:/K7_TOUR/CODE/pl_error_normal.log
+[tools\partialLink.pl:main:2656] Succeed to link
+[tools\partialLink.pl:generateLibTimestamp:2416] Generating library timestamp
+2020-12-02 
+16:48

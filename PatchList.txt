@@ -1,0 +1,101 @@
+#==============================================================================
+# CR list that MediaTek customized for a customer
+# ------------------------
+# For each of these CRs,
+# customer needs to issue patch request in the future if needed, even for a new project.
+#==============================================================================
+Patch Type:  Customized Patch
+CR ID:       MAUI_03365315
+Severity:    N/A
+eService ID: N/A
+Description: 
+  N/A
+Associated Files: 
+  make\REL_COMMON.mak
+
+
+Patch Type:  Customized Patch
+CR ID:       MAUI_03354799
+Severity:    N/A
+eService ID: N/A
+Description: 
+  N/A
+Associated Files: 
+  vendor\framework\obigo_Q03C\adaptation\integration\include\int_exec.h
+  vendor\framework\obigo_Q03C\adaptation\integration\source\int_exec.c
+  mtk_lib\MT6260\S00\gprs\FLAVOR\GEMINI_F\obigo03cfwlib.lib
+  mtk_lib\MT6260\S00\gprs\FLAVOR\GEMINI_F\obigo03cmmslib.lib
+  mtk_lib\MT6260\S00\gprs\FLAVOR\GEMINI_F\obigo03clib.lib
+  mtk_lib\MT6260\S00\gprs\FLAVOR\GEMINI_2\obigo03cfwlib.lib
+  mtk_lib\MT6260\S00\gprs\FLAVOR\GEMINI_2\obigo03cmmslib.lib
+  mtk_lib\MT6260\S00\gprs\FLAVOR\GEMINI_2\obigo03clib.lib
+  mtk_lib\MT6260\S00\gprs\FLAVOR\GEMINI_3\obigo03cfwlib.lib
+  mtk_lib\MT6260\S00\gprs\FLAVOR\GEMINI_3\obigo03cmmslib.lib
+  mtk_lib\MT6260\S00\gprs\FLAVOR\GEMINI_3\obigo03clib.lib
+
+
+Patch Type:  Customized Patch
+CR ID:       MAUI_03359411
+Severity:    N/A
+eService ID: N/A
+Description: 
+  N/A
+Associated Files: 
+  MoDIS_VC9\modisReleaseL1.pl
+
+
+Patch Type:  Customized Patch
+CR ID:       MAUI_03332365
+Severity:    N/A
+eService ID: N/A
+Description: 
+  N/A
+Associated Files: 
+  plutommi\MMI\AppList\AppListSrc\AppListVLW.c
+  plutommi\MMI\Idle\IdleInc\IdleMemCfg.h
+  plutommi\MMI\Idle\IdleRes\Idle.res
+
+
+Patch Type:  Customized Patch
+CR ID:       MAUI_03352983
+Severity:    N/A
+eService ID: N/A
+Description: 
+  N/A
+Associated Files: 
+  plutommi\Framework\GUI\GUI_SRC\wgui_categories_ems.c
+
+
+Patch Type:  Customized Patch
+CR ID:       MAUI_03353002
+Severity:    N/A
+eService ID: N/A
+Description: 
+  N/A
+Associated Files: 
+  j2me\jal\include\jma_internal.h
+  j2me\jal\jma\jma_audio_player.c
+  mtk_lib\MT6260\S00\gprs\FLAVOR\GEMINI_F\j2me_nemo.lib
+  mtk_lib\MT6260\S00\gprs\FLAVOR\GEMINI_2\j2me_nemo.lib
+  mtk_lib\MT6260\S00\gprs\FLAVOR\GEMINI_3\j2me_nemo.lib
+
+
+
+#==============================================================================
+# CR list from MediaTek voluntary
+# --------------------------
+# The release maybe include
+#   1. Critical patch
+#   2. Build environment related enhancement
+#   3. The dependency patch of item 1 and item 2
+#==============================================================================
+Patch Type:  MTK Voluntary
+CR ID:       N/A
+Severity:    N/A
+eService ID: N/A
+Description: N/A
+Associated Files: 
+  make\HEXING60A_11B_GPRS.mak
+
+
+

@@ -1,0 +1,5 @@
+---- CFG_MMI_POWER_ON_OFF_MUTE Matches (6 in 4 files) ----
+MMI_features.h (plutommi\mmi\inc):#if defined(CFG_MMI_POWER_ON_OFF_MUTE) && ((CFG_MMI_POWER_ON_OFF_MUTE == __ON__)||(CFG_MMI_POWER_ON_OFF_MUTE == __AUTO__))
+MMI_features_switch.h (plutommi\mmi\inc):#define CFG_MMI_POWER_ON_OFF_MUTE	(__OFF__)
+MMI_features_switchHEXING60A_11B.h (plutommi\customer\custresource\hexing60a_11b_mmi):#define CFG_MMI_POWER_ON_OFF_MUTE	(__ON__) //(__OFF__)
+MMI_features_switchPLUTO.h (plutommi\customer\custresource\pluto_mmi):#define CFG_MMI_POWER_ON_OFF_MUTE	(__OFF__)

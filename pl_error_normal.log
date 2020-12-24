@@ -1,0 +1,242 @@
+Warning: L6340W: options first and last are ignored for link type of scattered
+Warning: L6304W: Duplicate input file mtk_lib\MT6260\S00\gprs\FLAVOR\GEMINI_F\abm.lib ignored.
+Warning: L6304W: Duplicate input file .\build\TOUR\gprs\MT6260o\lib\drm.lib ignored.
+Warning: L6304W: Duplicate input file .\build\TOUR\gprs\MT6260o\lib\obigo03cfwadp.lib ignored.
+Warning: L6304W: Duplicate input file mtk_lib\MT6260\S00\gprs\FLAVOR\GEMINI_F\obigo03cfwlib.lib ignored.
+Warning: L6304W: Duplicate input file mtk_lib\MT6260\S00\gprs\FLAVOR\GEMINI_F\soc.lib ignored.
+Warning: L6304W: Duplicate input file mtk_lib\MT6260\S00\gprs\FLAVOR\GEMINI_F\tcpip.lib ignored.
+Warning: L6304W: Duplicate input file mtk_lib\MT6260\S00\gprs\FLAVOR\GEMINI_F\tcpip_wifi.lib ignored.
+Warning: L6304W: Duplicate input file hal\audio\lib\MTKRVCT31\BesLoudness.a ignored.
+Warning: L6304W: Duplicate input file hal\audio\lib\MTKRVCT31\aac_dec.a ignored.
+"custom\system\HEXING60A_11B_BB\scatTOUR.txt", line 77 (column 1): Warning: L6312W: Empty Load region description for region BOOTLOADER
+"custom\system\HEXING60A_11B_BB\scatTOUR.txt", line 82 (column 1): Warning: L6312W: Empty Load region description for region ROOT_CERT
+"custom\system\HEXING60A_11B_BB\scatTOUR.txt", line 86 (column 1): Warning: L6312W: Empty Load region description for region EXT_BOOTLOADER
+"custom\system\HEXING60A_11B_BB\scatTOUR.txt", line 93 (column 1): Warning: L6312W: Empty Load region description for region CBR
+Warning: L6320W: Ignoring --first command. Cannot find argument 'LARGEPOOL_FIRST_ZI'.
+Warning: L6320W: Ignoring --keep command. Cannot find argument 'CUST_MEM_INFO'.
+Warning: L6320W: Ignoring --keep command. Cannot find argument 'DL_CTRL_BIN'.
+Warning: L6320W: Ignoring --keep command. Cannot find argument 'g_boot_cert_sig'.
+Warning: L6320W: Ignoring --keep command. Cannot find argument 'logical_data_item_table_ul1'.
+Warning: L6320W: Ignoring --keep command. Cannot find argument 'logical_data_item_table_mmi_gps'.
+Warning: L6320W: Ignoring --keep command. Cannot find argument 'logical_data_item_table_cust'.
+Warning: L6320W: Ignoring --keep command. Cannot find argument 'g_nvram_custpack_init'.
+Warning: L6746W: RW data compression has been turned off: Linker defined symbol 'Load$$CACHED_EXTSRAM_NVRAM_LTABLE$$Base' attempts to get the load address of a region following data.
+Warning: L6746W: RW data compression has been turned off: Linker defined symbol 'Load$$DYNAMIC_CACHEABLE_EXTSRAM_DEFAULT_CACHEABLE_RW$$Base' attempts to get the load address of a region following data.
+Warning: L6746W: RW data compression has been turned off: Linker defined symbol 'Load$$DYNAMIC_CACHEABLE_EXTSRAM_DEFAULT_CACHEABLE_ZI_MMIPOOL$$Base' attempts to get the load address of a region following data.
+Warning: L6746W: RW data compression has been turned off: Linker defined symbol 'Load$$DYNAMIC_CACHEABLE_EXTSRAM_DEFAULT_CACHEABLE_ZI$$Base' attempts to get the load address of a region following data.
+Warning: L6746W: RW data compression has been turned off: Linker defined symbol 'Load$$EXTSRAM_DSP_TX$$Base' attempts to get the load address of a region following data.
+Warning: L6746W: RW data compression has been turned off: Linker defined symbol 'Load$$EXTSRAM_DSP_RX$$Base' attempts to get the load address of a region following data.
+Warning: L6746W: RW data compression has been turned off: Linker defined symbol 'Load$$EMIINIT_CODE$$Base' attempts to get the load address of a region following data.
+Warning: L6746W: RW data compression has been turned off: Linker defined symbol 'Load$$INTSRAM_CODE$$Base' attempts to get the load address of a region following data.
+Warning: L6746W: RW data compression has been turned off: Linker defined symbol 'Load$$INTSRAM_DATA$$Base' attempts to get the load address of a region following data.
+Warning: L6746W: RW data compression has been turned off: Linker defined symbol 'Load$$INTSRAM_DATA_PREINIT$$Base' attempts to get the load address of a region following data.
+Warning: L6746W: RW data compression has been turned off: Linker defined symbol 'Load$$ROM_SIGNATURE_SECTION$$Base' attempts to get the load address of a region following data.
+Warning: L6335W: ARM interworking code in SwCom_Idct_asp_arm7.o(.text) may contain invalid tailcalls to ARM non-interworking code.
+"custom\system\HEXING60A_11B_BB\scatTOUR.txt", line 111 (column 17): Warning: L6314W: No section matches pattern *.obj(SECINFO).
+"custom\system\HEXING60A_11B_BB\scatTOUR.txt", line 116 (column 17): Warning: L6314W: No section matches pattern *.obj(MAUI_FOTA_HEAD_INFO).
+"custom\system\HEXING60A_11B_BB\scatTOUR.txt", line 123 (column 41): Warning: L6314W: No section matches pattern *(i.__rt_sdiv_5).
+"custom\system\HEXING60A_11B_BB\scatTOUR.txt", line 125 (column 41): Warning: L6314W: No section matches pattern *(i.__rt_sdiv_9).
+"custom\system\HEXING60A_11B_BB\scatTOUR.txt", line 126 (column 41): Warning: L6314W: No section matches pattern *(i.__rt_udiv_21).
+"custom\system\HEXING60A_11B_BB\scatTOUR.txt", line 127 (column 41): Warning: L6314W: No section matches pattern *(i.__rt_sdiv_21).
+"custom\system\HEXING60A_11B_BB\scatTOUR.txt", line 129 (column 41): Warning: L6314W: No section matches pattern *(i.__rt_sdiv_31).
+"custom\system\HEXING60A_11B_BB\scatTOUR.txt", line 131 (column 41): Warning: L6314W: No section matches pattern *(i.__rt_sdiv_60).
+"custom\system\HEXING60A_11B_BB\scatTOUR.txt", line 132 (column 41): Warning: L6314W: No section matches pattern *(i.__rt_udiv_100).
+"custom\system\HEXING60A_11B_BB\scatTOUR.txt", line 137 (column 41): Warning: L6314W: No section matches pattern *(i.__rt_sdiv_3600).
+"custom\system\HEXING60A_11B_BB\scatTOUR.txt", line 138 (column 41): Warning: L6314W: No section matches pattern *(i.__rt_udiv_10000).
+"custom\system\HEXING60A_11B_BB\scatTOUR.txt", line 139 (column 41): Warning: L6314W: No section matches pattern *(i.__rt_sdiv_10000).
+"custom\system\HEXING60A_11B_BB\scatTOUR.txt", line 142 (column 42): Warning: L6314W: No section matches pattern cpp_initialise.o(RO-CODE).
+"custom\system\HEXING60A_11B_BB\scatTOUR.txt", line 142 (column 52): Warning: L6314W: No section matches pattern cpp_initialise.o(RO-DATA).
+"custom\system\HEXING60A_11B_BB\scatTOUR.txt", line 143 (column 42): Warning: L6314W: No section matches pattern cpp_finalise.o(RO-CODE).
+"custom\system\HEXING60A_11B_BB\scatTOUR.txt", line 143 (column 52): Warning: L6314W: No section matches pattern cpp_finalise.o(RO-DATA).
+"custom\system\HEXING60A_11B_BB\scatTOUR.txt", line 144 (column 41): Warning: L6314W: No section matches pattern *(C$$pi_ctorvec).
+"custom\system\HEXING60A_11B_BB\scatTOUR.txt", line 145 (column 41): Warning: L6314W: No section matches pattern *(C$$pi_dtorvec).
+"custom\system\HEXING60A_11B_BB\scatTOUR.txt", line 146 (column 41): Warning: L6314W: No section matches pattern *(C$$ddtorvec).
+"custom\system\HEXING60A_11B_BB\scatTOUR.txt", line 147 (column 41): Warning: L6314W: No section matches pattern *(C$$ctor).
+"custom\system\HEXING60A_11B_BB\scatTOUR.txt", line 148 (column 41): Warning: L6314W: No section matches pattern *(C$$dtor).
+"custom\system\HEXING60A_11B_BB\scatTOUR.txt", line 150 (column 42): Warning: L6314W: No section matches pattern init_aeabi.o(RO-CODE).
+"custom\system\HEXING60A_11B_BB\scatTOUR.txt", line 150 (column 52): Warning: L6314W: No section matches pattern init_aeabi.o(RO-DATA).
+"custom\system\HEXING60A_11B_BB\scatTOUR.txt", line 151 (column 41): Warning: L6314W: No section matches pattern *(.init_array).
+"custom\system\HEXING60A_11B_BB\scatTOUR.txt", line 152 (column 41): Warning: L6329W: Pattern *(.ARM.exidx) only matches removed unused sections.
+"custom\system\HEXING60A_11B_BB\scatTOUR.txt", line 155 (column 42): Warning: L6329W: Pattern *cpplib/*.l(RO) only matches removed unused sections.
+"custom\system\HEXING60A_11B_BB\scatTOUR.txt", line 156 (column 42): Warning: L6329W: Pattern *armlib\*.l(RO) only matches removed unused sections.
+"custom\system\HEXING60A_11B_BB\scatTOUR.txt", line 157 (column 42): Warning: L6329W: Pattern *cpplib\*.l(RO) only matches removed unused sections.
+"custom\system\HEXING60A_11B_BB\scatTOUR.txt", line 159 (column 43): Warning: L6329W: Pattern *cpplib*(RO-CODE) only matches removed unused sections.
+"custom\system\HEXING60A_11B_BB\scatTOUR.txt", line 159 (column 53): Warning: L6329W: Pattern *cpplib*(RO-DATA) only matches removed unused sections.
+"custom\system\HEXING60A_11B_BB\scatTOUR.txt", line 162 (column 21): Warning: L6314W: No section matches pattern viva.obj(RO-CODE).
+"custom\system\HEXING60A_11B_BB\scatTOUR.txt", line 184 (column 25): Warning: L6314W: No section matches pattern init_trc.obj(RO-CODE).
+"custom\system\HEXING60A_11B_BB\scatTOUR.txt", line 199 (column 28): Warning: L6314W: No section matches pattern *nucleus_v2.lib(RO).
+"custom\system\HEXING60A_11B_BB\scatTOUR.txt", line 200 (column 32): Warning: L6314W: No section matches pattern *nucleus_v2_int.lib(RO).
+"custom\system\HEXING60A_11B_BB\scatTOUR.txt", line 201 (column 34): Warning: L6314W: No section matches pattern *nucleus_v2_debug.lib(RO).
+"custom\system\HEXING60A_11B_BB\scatTOUR.txt", line 202 (column 38): Warning: L6314W: No section matches pattern *nucleus_v2_ctrl_code.lib(RO).
+"custom\system\HEXING60A_11B_BB\scatTOUR.txt", line 349 (column 23): Warning: L6314W: No section matches pattern fs_sst.obj(RO-CODE).
+"custom\system\HEXING60A_11B_BB\scatTOUR.txt", line 371 (column 22): Warning: L6314W: No section matches pattern dcmgr.obj(RO-CODE).
+"custom\system\HEXING60A_11B_BB\scatTOUR.txt", line 373 (column 21): Warning: L6314W: No section matches pattern btif.obj(RO-CODE).
+"custom\system\HEXING60A_11B_BB\scatTOUR.txt", line 378 (column 31): Warning: L6314W: No section matches pattern tst_querysimid.obj(RO-CODE).
+"custom\system\HEXING60A_11B_BB\scatTOUR.txt", line 383 (column 28): Warning: L6314W: No section matches pattern touch_panel.obj(RO-CODE).
+"custom\system\HEXING60A_11B_BB\scatTOUR.txt", line 384 (column 23): Warning: L6314W: No section matches pattern ts_drv.obj(RO-CODE).
+"custom\system\HEXING60A_11B_BB\scatTOUR.txt", line 385 (column 24): Warning: L6314W: No section matches pattern dcl_hts.obj(RO-CODE).
+"custom\system\HEXING60A_11B_BB\scatTOUR.txt", line 391 (column 34): Warning: L6314W: No section matches pattern dsp_ptch_6260_GSM.obj(RO-CODE).
+"custom\system\HEXING60A_11B_BB\scatTOUR.txt", line 392 (column 31): Warning: L6314W: No section matches pattern kal_public_api.obj(RO-CODE).
+"custom\system\HEXING60A_11B_BB\scatTOUR.txt", line 393 (column 25): Warning: L6314W: No section matches pattern dtmf_gen.obj(RO-CODE).
+"custom\system\HEXING60A_11B_BB\scatTOUR.txt", line 398 (column 20): Warning: L6314W: No section matches pattern lcd.obj(RO).
+"custom\system\HEXING60A_11B_BB\scatTOUR.txt", line 420 (column 38): Warning: L6314W: No section matches pattern CustImgGroupDataRes_0.obj(RO).
+"custom\system\HEXING60A_11B_BB\scatTOUR.txt", line 421 (column 38): Warning: L6314W: No section matches pattern CustImgGroupDataRes_1.obj(RO).
+"custom\system\HEXING60A_11B_BB\scatTOUR.txt", line 422 (column 38): Warning: L6314W: No section matches pattern CustImgGroupDataRes_2.obj(RO).
+"custom\system\HEXING60A_11B_BB\scatTOUR.txt", line 423 (column 38): Warning: L6314W: No section matches pattern CustImgGroupDataRes_3.obj(RO).
+"custom\system\HEXING60A_11B_BB\scatTOUR.txt", line 425 (column 31): Warning: L6314W: No section matches pattern CustStrResComp.obj(RO).
+"custom\system\HEXING60A_11B_BB\scatTOUR.txt", line 426 (column 31): Warning: L6314W: No section matches pattern CustStrMapComp.obj(RO).
+"custom\system\HEXING60A_11B_BB\scatTOUR.txt", line 430 (column 29): Warning: L6314W: No section matches pattern l1_interface.obj(RO-DATA).
+"custom\system\HEXING60A_11B_BB\scatTOUR.txt", line 433 (column 28): Warning: L6314W: No section matches pattern adc_channel.obj(RO-CODE).
+"custom\system\HEXING60A_11B_BB\scatTOUR.txt", line 433 (column 38): Warning: L6314W: No section matches pattern adc_channel.obj(RO-DATA).
+"custom\system\HEXING60A_11B_BB\scatTOUR.txt", line 434 (column 29): Warning: L6314W: No section matches pattern alerter_tone.obj(RO-CODE).
+"custom\system\HEXING60A_11B_BB\scatTOUR.txt", line 434 (column 39): Warning: L6314W: No section matches pattern alerter_tone.obj(RO-DATA).
+"custom\system\HEXING60A_11B_BB\scatTOUR.txt", line 435 (column 28): Warning: L6314W: No section matches pattern exif_custom.obj(RO-CODE).
+"custom\system\HEXING60A_11B_BB\scatTOUR.txt", line 435 (column 38): Warning: L6314W: No section matches pattern exif_custom.obj(RO-DATA).
+"custom\system\HEXING60A_11B_BB\scatTOUR.txt", line 436 (column 28): Warning: L6314W: No section matches pattern irda_custom.obj(RO-CODE).
+"custom\system\HEXING60A_11B_BB\scatTOUR.txt", line 436 (column 38): Warning: L6314W: No section matches pattern irda_custom.obj(RO-DATA).
+"custom\system\HEXING60A_11B_BB\scatTOUR.txt", line 437 (column 33): Warning: L6314W: No section matches pattern kbdmain_joystick.obj(RO-CODE).
+"custom\system\HEXING60A_11B_BB\scatTOUR.txt", line 437 (column 43): Warning: L6314W: No section matches pattern kbdmain_joystick.obj(RO-DATA).
+"custom\system\HEXING60A_11B_BB\scatTOUR.txt", line 438 (column 28): Warning: L6314W: No section matches pattern pmic_custom.obj(RO-CODE).
+"custom\system\HEXING60A_11B_BB\scatTOUR.txt", line 438 (column 38): Warning: L6314W: No section matches pattern pmic_custom.obj(RO-DATA).
+"custom\system\HEXING60A_11B_BB\scatTOUR.txt", line 439 (column 32): Warning: L6314W: No section matches pattern touch_panel_spi.obj(RO-CODE).
+"custom\system\HEXING60A_11B_BB\scatTOUR.txt", line 439 (column 42): Warning: L6314W: No section matches pattern touch_panel_spi.obj(RO-DATA).
+"custom\system\HEXING60A_11B_BB\scatTOUR.txt", line 440 (column 25): Warning: L6314W: No section matches pattern touchpad.obj(RO-CODE).
+"custom\system\HEXING60A_11B_BB\scatTOUR.txt", line 440 (column 35): Warning: L6314W: No section matches pattern touchpad.obj(RO-DATA).
+"custom\system\HEXING60A_11B_BB\scatTOUR.txt", line 441 (column 32): Warning: L6314W: No section matches pattern touchpad_keydef.obj(RO-CODE).
+"custom\system\HEXING60A_11B_BB\scatTOUR.txt", line 441 (column 42): Warning: L6314W: No section matches pattern touchpad_keydef.obj(RO-DATA).
+"custom\system\HEXING60A_11B_BB\scatTOUR.txt", line 442 (column 26): Warning: L6314W: No section matches pattern tv_custom.obj(RO-CODE).
+"custom\system\HEXING60A_11B_BB\scatTOUR.txt", line 442 (column 36): Warning: L6314W: No section matches pattern tv_custom.obj(RO-DATA).
+"custom\system\HEXING60A_11B_BB\scatTOUR.txt", line 443 (column 35): Warning: L6314W: No section matches pattern usb_host_ms_custom.obj(RO-CODE).
+"custom\system\HEXING60A_11B_BB\scatTOUR.txt", line 443 (column 45): Warning: L6314W: No section matches pattern usb_host_ms_custom.obj(RO-DATA).
+"custom\system\HEXING60A_11B_BB\scatTOUR.txt", line 445 (column 30): Warning: L6314W: No section matches pattern Ext_Charger_*.obj(RO-CODE).
+"custom\system\HEXING60A_11B_BB\scatTOUR.txt", line 445 (column 40): Warning: L6314W: No section matches pattern Ext_Charger_*.obj(RO-DATA).
+"custom\system\HEXING60A_11B_BB\scatTOUR.txt", line 446 (column 28): Warning: L6314W: No section matches pattern Ext_Cable_*.obj(RO-CODE).
+"custom\system\HEXING60A_11B_BB\scatTOUR.txt", line 446 (column 38): Warning: L6314W: No section matches pattern Ext_Cable_*.obj(RO-DATA).
+"custom\system\HEXING60A_11B_BB\scatTOUR.txt", line 447 (column 28): Warning: L6314W: No section matches pattern cs_fac_det*.obj(RO-CODE).
+"custom\system\HEXING60A_11B_BB\scatTOUR.txt", line 447 (column 38): Warning: L6314W: No section matches pattern cs_fac_det*.obj(RO-DATA).
+"custom\system\HEXING60A_11B_BB\scatTOUR.txt", line 448 (column 35): Warning: L6314W: No section matches pattern custNFBProgressImg.obj(RO-CODE).
+"custom\system\HEXING60A_11B_BB\scatTOUR.txt", line 448 (column 45): Warning: L6314W: No section matches pattern custNFBProgressImg.obj(RO-DATA).
+"custom\system\HEXING60A_11B_BB\scatTOUR.txt", line 449 (column 23): Warning: L6314W: No section matches pattern mdi_tv.obj(RO-CODE).
+"custom\system\HEXING60A_11B_BB\scatTOUR.txt", line 449 (column 33): Warning: L6314W: No section matches pattern mdi_tv.obj(RO-DATA).
+"custom\system\HEXING60A_11B_BB\scatTOUR.txt", line 450 (column 26): Warning: L6314W: No section matches pattern MiscUtils.obj(RO-CODE).
+"custom\system\HEXING60A_11B_BB\scatTOUR.txt", line 450 (column 36): Warning: L6314W: No section matches pattern MiscUtils.obj(RO-DATA).
+"custom\system\HEXING60A_11B_BB\scatTOUR.txt", line 451 (column 22): Warning: L6314W: No section matches pattern ul1sm.obj(RO-CODE).
+"custom\system\HEXING60A_11B_BB\scatTOUR.txt", line 451 (column 32): Warning: L6314W: No section matches pattern ul1sm.obj(RO-DATA).
+"custom\system\HEXING60A_11B_BB\scatTOUR.txt", line 452 (column 25): Warning: L6314W: No section matches pattern bl_SC624.obj(RO-CODE).
+"custom\system\HEXING60A_11B_BB\scatTOUR.txt", line 452 (column 35): Warning: L6314W: No section matches pattern bl_SC624.obj(RO-DATA).
+"custom\system\HEXING60A_11B_BB\scatTOUR.txt", line 453 (column 26): Warning: L6314W: No section matches pattern ws_fs_api.obj(RO-CODE).
+"custom\system\HEXING60A_11B_BB\scatTOUR.txt", line 453 (column 36): Warning: L6314W: No section matches pattern ws_fs_api.obj(RO-DATA).
+"custom\system\HEXING60A_11B_BB\scatTOUR.txt", line 454 (column 21): Warning: L6314W: No section matches pattern X509.obj(RO-CODE).
+"custom\system\HEXING60A_11B_BB\scatTOUR.txt", line 454 (column 31): Warning: L6314W: No section matches pattern X509.obj(RO-DATA).
+"custom\system\HEXING60A_11B_BB\scatTOUR.txt", line 458 (column 20): Warning: L6314W: No section matches pattern *mc.lib(RO-DATA).
+"custom\system\HEXING60A_11B_BB\scatTOUR.txt", line 459 (column 28): Warning: L6314W: No section matches pattern *usb_driver.lib(RO-DATA).
+"custom\system\HEXING60A_11B_BB\scatTOUR.txt", line 460 (column 25): Warning: L6314W: No section matches pattern *mm_comm.lib(RO-DATA).
+"custom\system\HEXING60A_11B_BB\scatTOUR.txt", line 465 (column 24): Warning: L6314W: No section matches pattern *cipher.lib(RO-DATA).
+"custom\system\HEXING60A_11B_BB\scatTOUR.txt", line 471 (column 21): Warning: L6314W: No section matches pattern *sss.lib(RO-DATA).
+"custom\system\HEXING60A_11B_BB\scatTOUR.txt", line 475 (column 23): Warning: L6314W: No section matches pattern *verno.lib(RO-DATA).
+"custom\system\HEXING60A_11B_BB\scatTOUR.txt", line 476 (column 25): Warning: L6314W: No section matches pattern *j2me_hi.lib(RO-DATA).
+"custom\system\HEXING60A_11B_BB\scatTOUR.txt", line 477 (column 30): Warning: L6314W: No section matches pattern *j2me_hi_rvct.lib(RO-DATA).
+"custom\system\HEXING60A_11B_BB\scatTOUR.txt", line 479 (column 27): Warning: L6314W: No section matches pattern custom_emi.obj(RO-DATA).
+"custom\system\HEXING60A_11B_BB\scatTOUR.txt", line 480 (column 30): Warning: L6314W: No section matches pattern custom_config.obj(RO-DATA).
+"custom\system\HEXING60A_11B_BB\scatTOUR.txt", line 482 (column 33): Warning: L6329W: Pattern combo_flash_init.obj(RO-DATA) only matches removed unused sections.
+"custom\system\HEXING60A_11B_BB\scatTOUR.txt", line 483 (column 27): Warning: L6329W: Pattern custom_sfi.obj(RO-DATA) only matches removed unused sections.
+"custom\system\HEXING60A_11B_BB\scatTOUR.txt", line 484 (column 30): Warning: L6314W: No section matches pattern chr_parameter.obj(RO-DATA).
+"custom\system\HEXING60A_11B_BB\scatTOUR.txt", line 485 (column 33): Warning: L6314W: No section matches pattern custom_equipment.obj(RO-DATA).
+"custom\system\HEXING60A_11B_BB\scatTOUR.txt", line 488 (column 35): Warning: L6314W: No section matches pattern touch_panel_custom.obj(RO-DATA).
+"custom\system\HEXING60A_11B_BB\scatTOUR.txt", line 492 (column 24): Warning: L6329W: Pattern uem_drv.obj(RO-DATA) only matches removed unused sections.
+"custom\system\HEXING60A_11B_BB\scatTOUR.txt", line 493 (column 27): Warning: L6314W: No section matches pattern mmi_create.obj(RO-DATA).
+"custom\system\HEXING60A_11B_BB\scatTOUR.txt", line 494 (column 25): Warning: L6314W: No section matches pattern mmi_main.obj(RO-DATA).
+"custom\system\HEXING60A_11B_BB\scatTOUR.txt", line 495 (column 27): Warning: L6314W: No section matches pattern rc4_engine.obj(RO-DATA).
+"custom\system\HEXING60A_11B_BB\scatTOUR.txt", line 496 (column 23): Warning: L6314W: No section matches pattern bn_lib.obj(RO-DATA).
+"custom\system\HEXING60A_11B_BB\scatTOUR.txt", line 497 (column 25): Warning: L6314W: No section matches pattern *drv_sec.lib(RO-DATA).
+"custom\system\HEXING60A_11B_BB\scatTOUR.txt", line 498 (column 28): Warning: L6314W: No section matches pattern usbms_state.obj(RO-DATA).
+"custom\system\HEXING60A_11B_BB\scatTOUR.txt", line 507 (column 23): Warning: L6314W: No section matches pattern *gdi_2.lib(RO-DATA).
+"custom\system\HEXING60A_11B_BB\scatTOUR.txt", line 511 (column 28): Warning: L6314W: No section matches pattern gui_wrapper.obj(RO-DATA).
+"custom\system\HEXING60A_11B_BB\scatTOUR.txt", line 514 (column 25): Warning: L6314W: No section matches pattern *hanwang.lib(RO-DATA).
+"custom\system\HEXING60A_11B_BB\scatTOUR.txt", line 516 (column 27): Warning: L6314W: No section matches pattern kmxime_latin.o(RO-DATA).
+"custom\system\HEXING60A_11B_BB\scatTOUR.txt", line 1218 (column 16): Warning: L6314W: No section matches pattern *(CAT_RODATA_STR_NO_ZIMAGE).
+"custom\system\HEXING60A_11B_BB\scatTOUR.txt", line 1226 (column 13): Warning: L6329W: Pattern *(SNORCONST) only matches removed unused sections.
+"custom\system\HEXING60A_11B_BB\scatTOUR.txt", line 1235 (column 24): Warning: L6314W: No section matches pattern *deniro.lib(RW).
+"custom\system\HEXING60A_11B_BB\scatTOUR.txt", line 1235 (column 29): Warning: L6314W: No section matches pattern *deniro.lib(ZI).
+"custom\system\HEXING60A_11B_BB\scatTOUR.txt", line 1236 (column 24): Warning: L6314W: No section matches pattern *fs_fig.lib(RW).
+"custom\system\HEXING60A_11B_BB\scatTOUR.txt", line 1236 (column 29): Warning: L6314W: No section matches pattern *fs_fig.lib(ZI).
+"custom\system\HEXING60A_11B_BB\scatTOUR.txt", line 1240 (column 24): Warning: L6314W: No section matches pattern med_main.obj(LARGEPOOL_ZI).
+"custom\system\HEXING60A_11B_BB\scatTOUR.txt", line 1249 (column 13): Warning: L6314W: No section matches pattern *(DYNAMICCACHEABLERW_NC).
+"custom\system\HEXING60A_11B_BB\scatTOUR.txt", line 1255 (column 13): Warning: L6314W: No section matches pattern *(CACHED_EXTSRAM_RW).
+"custom\system\HEXING60A_11B_BB\scatTOUR.txt", line 1255 (column 32): Warning: L6314W: No section matches pattern *(CACHED_EXTSRAM_ZI).
+"custom\system\HEXING60A_11B_BB\scatTOUR.txt", line 1266 (column 28): Warning: L6314W: No section matches pattern *gadget_adp.lib(RW).
+"custom\system\HEXING60A_11B_BB\scatTOUR.txt", line 1266 (column 33): Warning: L6314W: No section matches pattern *gadget_adp.lib(ZI).
+"custom\system\HEXING60A_11B_BB\scatTOUR.txt", line 1267 (column 28): Warning: L6314W: No section matches pattern *gadget_lib.lib(RW).
+"custom\system\HEXING60A_11B_BB\scatTOUR.txt", line 1267 (column 33): Warning: L6314W: No section matches pattern *gadget_lib.lib(ZI).
+"custom\system\HEXING60A_11B_BB\scatTOUR.txt", line 1268 (column 27): Warning: L6314W: No section matches pattern *(EXTSRAM_GADGET_RW).
+"custom\system\HEXING60A_11B_BB\scatTOUR.txt", line 1268 (column 46): Warning: L6314W: No section matches pattern *(EXTSRAM_GADGET_ZI).
+"custom\system\HEXING60A_11B_BB\scatTOUR.txt", line 1272 (column 13): Warning: L6314W: No section matches pattern *(DYNAMICCACHEABLERW_C).
+"custom\system\HEXING60A_11B_BB\scatTOUR.txt", line 1277 (column 13): Warning: L6314W: No section matches pattern *(VIDEOPOOL_C).
+"custom\system\HEXING60A_11B_BB\scatTOUR.txt", line 1299 (column 25): Warning: L6329W: Pattern armlibc_rt.obj(SHOULD_NOT_USED_FUNCTION) only matches removed unused sections.
+"custom\system\HEXING60A_11B_BB\scatTOUR.txt", line 1300 (column 30): Warning: L6329W: Pattern armlibc_rt_heap.obj(SHOULD_NOT_USED_FUNCTION) only matches removed unused sections.
+"custom\system\HEXING60A_11B_BB\scatTOUR.txt", line 1301 (column 28): Warning: L6314W: No section matches pattern armlibc_rt_io.obj(SHOULD_NOT_USED_FUNCTION).
+"custom\system\HEXING60A_11B_BB\scatTOUR.txt", line 1302 (column 29): Warning: L6329W: Pattern syscomp_config.obj(SHOULD_NOT_USED_RODATA) only matches removed unused sections.
+"custom\system\HEXING60A_11B_BB\scatTOUR.txt", line 1312 (column 13): Warning: L6314W: No section matches pattern *(INTSRAM_ROCODE_*).
+"custom\system\HEXING60A_11B_BB\scatTOUR.txt", line 1315 (column 23): Warning: L6314W: No section matches pattern bootarm.obj(INTERNCODE).
+"custom\system\HEXING60A_11B_BB\scatTOUR.txt", line 1316 (column 28): Warning: L6314W: No section matches pattern SST_intrCtrl.obj(INTERNCODE).
+"custom\system\HEXING60A_11B_BB\scatTOUR.txt", line 1316 (column 40): Warning: L6314W: No section matches pattern SST_intrCtrl.obj(INTERNCONST).
+"custom\system\HEXING60A_11B_BB\scatTOUR.txt", line 1318 (column 21): Warning: L6314W: No section matches pattern memset.o(RO-CODE).
+"custom\system\HEXING60A_11B_BB\scatTOUR.txt", line 1318 (column 31): Warning: L6314W: No section matches pattern memset.o(RO-DATA).
+"custom\system\HEXING60A_11B_BB\scatTOUR.txt", line 1319 (column 24): Warning: L6314W: No section matches pattern rt_memclr.o(RO-CODE).
+"custom\system\HEXING60A_11B_BB\scatTOUR.txt", line 1319 (column 34): Warning: L6314W: No section matches pattern rt_memclr.o(RO-DATA).
+"custom\system\HEXING60A_11B_BB\scatTOUR.txt", line 1320 (column 22): Warning: L6314W: No section matches pattern callvia.o(RO-CODE).
+"custom\system\HEXING60A_11B_BB\scatTOUR.txt", line 1320 (column 32): Warning: L6314W: No section matches pattern callvia.o(RO-DATA).
+"custom\system\HEXING60A_11B_BB\scatTOUR.txt", line 1321 (column 23): Warning: L6314W: No section matches pattern _sprintf.o(RO-CODE).
+"custom\system\HEXING60A_11B_BB\scatTOUR.txt", line 1321 (column 33): Warning: L6314W: No section matches pattern _sprintf.o(RO-DATA).
+"custom\system\HEXING60A_11B_BB\scatTOUR.txt", line 1322 (column 24): Warning: L6314W: No section matches pattern rt_memcpy.o(RO-CODE).
+"custom\system\HEXING60A_11B_BB\scatTOUR.txt", line 1322 (column 34): Warning: L6314W: No section matches pattern rt_memcpy.o(RO-DATA).
+"custom\system\HEXING60A_11B_BB\scatTOUR.txt", line 1324 (column 22): Warning: L6314W: No section matches pattern rt_udiv.o(RO-CODE).
+"custom\system\HEXING60A_11B_BB\scatTOUR.txt", line 1324 (column 32): Warning: L6314W: No section matches pattern rt_udiv.o(RO-DATA).
+"custom\system\HEXING60A_11B_BB\scatTOUR.txt", line 1334 (column 13): Warning: L6314W: No section matches pattern *(INTSRAM_RODATA_*).
+"custom\system\HEXING60A_11B_BB\scatTOUR.txt", line 1334 (column 31): Warning: L6314W: No section matches pattern *(INTSRAM_RW_*).
+"custom\system\HEXING60A_11B_BB\scatTOUR.txt", line 1334 (column 45): Warning: L6314W: No section matches pattern *(INTSRAM_ZI_*).
+"custom\system\HEXING60A_11B_BB\scatTOUR.txt", line 1336 (column 26): Warning: L6314W: No section matches pattern stack_init.obj(INTERNCONST).
+"custom\system\HEXING60A_11B_BB\scatTOUR.txt", line 1336 (column 39): Warning: L6314W: No section matches pattern stack_init.obj(INTERNRW).
+"custom\system\HEXING60A_11B_BB\scatTOUR.txt", line 1336 (column 49): Warning: L6314W: No section matches pattern stack_init.obj(INTERNZI).
+"custom\system\HEXING60A_11B_BB\scatTOUR.txt", line 1347 (column 20): Warning: L6314W: No section matches pattern uart.obj(INTSRAM_RODATA).
+"custom\system\HEXING60A_11B_BB\scatTOUR.txt", line 1347 (column 36): Warning: L6314W: No section matches pattern uart.obj(INTSRAM_RW).
+"custom\system\HEXING60A_11B_BB\scatTOUR.txt", line 1347 (column 48): Warning: L6314W: No section matches pattern uart.obj(INTSRAM_ZI).
+"custom\system\HEXING60A_11B_BB\scatTOUR.txt", line 1349 (column 21): Warning: L6314W: No section matches pattern *init.lib(INTSRAM_RODATA).
+"custom\system\HEXING60A_11B_BB\scatTOUR.txt", line 1349 (column 37): Warning: L6314W: No section matches pattern *init.lib(INTSRAM_RW).
+"custom\system\HEXING60A_11B_BB\scatTOUR.txt", line 1349 (column 49): Warning: L6314W: No section matches pattern *init.lib(INTSRAM_ZI).
+"custom\system\HEXING60A_11B_BB\scatTOUR.txt", line 1388 (column 20): Warning: L6314W: No section matches pattern *vrt.lib(RO-CODE).
+"custom\system\HEXING60A_11B_BB\scatTOUR.txt", line 1388 (column 30): Warning: L6314W: No section matches pattern *vrt.lib(RO-DATA).
+"custom\system\HEXING60A_11B_BB\scatTOUR.txt", line 1389 (column 24): Warning: L6314W: No section matches pattern l1d_data.obj(RO-CODE).
+"custom\system\HEXING60A_11B_BB\scatTOUR.txt", line 1428 (column 23): Warning: L6314W: No section matches pattern anon$$obj.o(RO).
+"custom\system\HEXING60A_11B_BB\scatTOUR.txt", line 1757 (column 13): Warning: L6329W: Pattern *(RO-CODE) only matches removed unused sections.
+"custom\system\HEXING60A_11B_BB\scatTOUR.txt", line 1796 (column 11): Warning: L6314W: No section matches pattern *(DYNAMIC_CODE_MP4DECASP_ROCODE).
+"custom\system\HEXING60A_11B_BB\scatTOUR.txt", line 1796 (column 42): Warning: L6314W: No section matches pattern *(DYNAMIC_CODE_MP4DECASP_RODATA).
+"custom\system\HEXING60A_11B_BB\scatTOUR.txt", line 1809 (column 11): Warning: L6314W: No section matches pattern *(DYNAMIC_CODE_H264DEC_ROCODE).
+"custom\system\HEXING60A_11B_BB\scatTOUR.txt", line 1809 (column 40): Warning: L6314W: No section matches pattern *(DYNAMIC_CODE_H264DEC_RODATA).
+"custom\system\HEXING60A_11B_BB\scatTOUR.txt", line 1847 (column 11): Warning: L6314W: No section matches pattern *(DYNAMIC_CODE_VP8DEC_ROCODE).
+"custom\system\HEXING60A_11B_BB\scatTOUR.txt", line 1847 (column 39): Warning: L6314W: No section matches pattern *(DYNAMIC_CODE_VP8DEC_RODATA).
+"custom\system\HEXING60A_11B_BB\scatTOUR.txt", line 1859 (column 28): Warning: L6314W: No section matches pattern l1_interface.obj(RO).
+"custom\system\HEXING60A_11B_BB\scatTOUR.txt", line 1864 (column 20): Warning: L6329W: Pattern *drv.lib(RO) only matches removed unused sections.
+"custom\system\HEXING60A_11B_BB\scatTOUR.txt", line 1870 (column 28): Warning: L6329W: Pattern *drv_display.lib(RO) only matches removed unused sections.
+"custom\system\HEXING60A_11B_BB\scatTOUR.txt", line 1875 (column 21): Warning: L6329W: Pattern *init.lib(RO) only matches removed unused sections.
+"custom\system\HEXING60A_11B_BB\scatTOUR.txt", line 1878 (column 20): Warning: L6314W: No section matches pattern *sss.lib(RO).
+"custom\system\HEXING60A_11B_BB\scatTOUR.txt", line 1883 (column 24): Warning: L6314W: No section matches pattern *j2me_hi.lib(RO).
+"custom\system\HEXING60A_11B_BB\scatTOUR.txt", line 1884 (column 29): Warning: L6314W: No section matches pattern *j2me_hi_rvct.lib(RO).
+"custom\system\HEXING60A_11B_BB\scatTOUR.txt", line 1886 (column 26): Warning: L6314W: No section matches pattern custom_emi.obj(RO).
+"custom\system\HEXING60A_11B_BB\scatTOUR.txt", line 1888 (column 31): Warning: L6329W: Pattern custom_jump_tbl.obj(RO) only matches removed unused sections.
+"custom\system\HEXING60A_11B_BB\scatTOUR.txt", line 1889 (column 32): Warning: L6329W: Pattern combo_flash_init.obj(RO-CODE) only matches removed unused sections.
+"custom\system\HEXING60A_11B_BB\scatTOUR.txt", line 1890 (column 26): Warning: L6329W: Pattern custom_sfi.obj(RO-CODE) only matches removed unused sections.
+"custom\system\HEXING60A_11B_BB\scatTOUR.txt", line 1891 (column 29): Warning: L6314W: No section matches pattern chr_parameter.obj(RO).
+"custom\system\HEXING60A_11B_BB\scatTOUR.txt", line 1895 (column 34): Warning: L6314W: No section matches pattern touch_panel_custom.obj(RO).
+"custom\system\HEXING60A_11B_BB\scatTOUR.txt", line 1896 (column 23): Warning: L6329W: Pattern adc_var.obj(RO) only matches removed unused sections.
+"custom\system\HEXING60A_11B_BB\scatTOUR.txt", line 1897 (column 24): Warning: L6329W: Pattern eint_var.obj(RO) only matches removed unused sections.
+"custom\system\HEXING60A_11B_BB\scatTOUR.txt", line 1898 (column 24): Warning: L6329W: Pattern gpio_var.obj(RO) only matches removed unused sections.
+"custom\system\HEXING60A_11B_BB\scatTOUR.txt", line 1899 (column 23): Warning: L6329W: Pattern uem_drv.obj(RO) only matches removed unused sections.
+"custom\system\HEXING60A_11B_BB\scatTOUR.txt", line 1900 (column 26): Warning: L6314W: No section matches pattern mmi_create.obj(RO).
+"custom\system\HEXING60A_11B_BB\scatTOUR.txt", line 1901 (column 24): Warning: L6314W: No section matches pattern mmi_main.obj(RO).
+"custom\system\HEXING60A_11B_BB\scatTOUR.txt", line 1903 (column 22): Warning: L6314W: No section matches pattern bn_lib.obj(RO).
+"custom\system\HEXING60A_11B_BB\scatTOUR.txt", line 1904 (column 24): Warning: L6314W: No section matches pattern *drv_sec.lib(RO).
+"custom\system\HEXING60A_11B_BB\scatTOUR.txt", line 1909 (column 22): Warning: L6314W: No section matches pattern *gdi_2.lib(RO).
+"custom\system\HEXING60A_11B_BB\scatTOUR.txt", line 1913 (column 27): Warning: L6314W: No section matches pattern gui_wrapper.obj(RO).
+"custom\system\HEXING60A_11B_BB\scatTOUR.txt", line 1924 (column 23): Warning: L6314W: No section matches pattern anon$$obj.o(RO-CODE).
+Finished: 0 information, 241 warning and 0 error messages.

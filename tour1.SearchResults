@@ -1,0 +1,235 @@
+---- GPIO_InitIO Matches (234 in 51 files) ----
+Ble_mod.c (custom\drv\ble_mod):#define BLE_MOD_SET_SPI_CLK_OUTPUT		GPIO_InitIO(1,BLE_MOD_SPI_CLK); {int j; for(j=0;j<spi_delay1;j++);}
+Ble_mod.c (custom\drv\ble_mod):#define BLE_MOD_SET_SPI_DI_INPUT		GPIO_InitIO(0,BLE_MOD_SPI_DI); {int j; for(j=0;j<spi_delay1;j++);}
+Ble_mod.c (custom\drv\ble_mod):#define BLE_MOD_SET_SPI_DO_OUTPUT		GPIO_InitIO(1,BLE_MOD_SPI_DO); {int j; for(j=0;j<spi_delay1;j++);}
+Ble_mod.c (custom\drv\ble_mod):#define BLE_MOD_SET_SPI_CS_OUTPUT		GPIO_InitIO(1,BLE_MOD_SPI_CS); {int j; for(j=0;j<spi_delay1;j++);}
+Ble_mod.c (custom\drv\ble_mod):	GPIO_InitIO(0,BLE_MOD_SPI_CS); 
+Ble_mod.c (custom\drv\ble_mod):	GPIO_InitIO(1, BLE_MOD_SPI_POWER);
+Ble_mod.c (custom\drv\ble_mod):	GPIO_InitIO(1, BLE_MOD_SPI_POWER);
+bl_Init.c (hal\system\bootloader\src):      //GPIO_InitIO( 0, gpio_usbdl_pin );
+Bmp280_support.c (custom\drv\press_sensor\bmp280_driver):#define SET_I2C_CLK_OUTPUT 		GPIO_InitIO(OUTPUT,BMP_SENSOR_SCK); {int j; for(j=0;j<i2c_delay;j++);}
+Bmp280_support.c (custom\drv\press_sensor\bmp280_driver):#define SET_I2C_DATA_OUTPUT		GPIO_InitIO(OUTPUT,BMP_SENSOR_SDA);{int j; for(j=0;j<i2c_delay;j++);}
+Bmp280_support.c (custom\drv\press_sensor\bmp280_driver):#define SET_I2C_DATA_INPUT		GPIO_InitIO(INPUT,BMP_SENSOR_SDA);{int j; for(j=0;j<i2c_delay;j++);}
+Bmp280_support.c (custom\drv\press_sensor\bmp280_driver):   GPIO_InitIO(1,BMP_SENSOR_SCK);
+Bmp280_support.c (custom\drv\press_sensor\bmp280_driver):   GPIO_InitIO(1,BMP_SENSOR_SDA);
+Capacitive_tp_focaltech_ft5206.h (custom\drv\ctp_module\ctp_hsimobile_mre55_demo_bb_ft5206):#define CTP_SET_RESET_PIN_OUTPUT			GPIO_InitIO(OUTPUT, CTP_RESET_PIN)
+Capacitive_tp_focaltech_ft5206.h (custom\drv\ctp_module\ctp_hsimobile_mre55_demo_bb_ft5206):#define CTP_SET_I2C_CLK_OUTPUT				GPIO_InitIO(OUTPUT,CTP_I2C_CLK_PIN)
+Capacitive_tp_focaltech_ft5206.h (custom\drv\ctp_module\ctp_hsimobile_mre55_demo_bb_ft5206):#define CTP_SET_I2C_DATA_OUTPUT			GPIO_InitIO(OUTPUT,CTP_I2C_DATA_PIN)
+Capacitive_tp_focaltech_ft5206.h (custom\drv\ctp_module\ctp_hsimobile_mre55_demo_bb_ft5206):#define CTP_SET_I2C_DATA_INPUT				GPIO_InitIO(INPUT,CTP_I2C_DATA_PIN)
+Capacitive_tp_focaltech_ft5206.h (custom\drv\ctp_module\ctp_hsimobile_mre55_demo_bb_ft5206):#define SET_I2C_CLK_INPUT					GPIO_InitIO(INPUT,CTP_I2C_CLK_PIN)
+Capacitive_TP_Goodix_GT818.h (custom\drv\ctp_module\ctp_hsimobile_mre55_demo_bb_ft5206):#define CTP_SET_RESET_PIN_OUTPUT			GPIO_InitIO(OUTPUT, CTP_RESET_PIN)
+Capacitive_TP_Goodix_GT818.h (custom\drv\ctp_module\ctp_hsimobile_mre55_demo_bb_ft5206):#define CTP_SET_I2C_CLK_OUTPUT				GPIO_InitIO(OUTPUT,CTP_I2C_CLK_PIN)
+Capacitive_TP_Goodix_GT818.h (custom\drv\ctp_module\ctp_hsimobile_mre55_demo_bb_ft5206):#define CTP_SET_I2C_DATA_OUTPUT			GPIO_InitIO(OUTPUT,CTP_I2C_DATA_PIN)
+Capacitive_TP_Goodix_GT818.h (custom\drv\ctp_module\ctp_hsimobile_mre55_demo_bb_ft5206):#define CTP_SET_I2C_DATA_INPUT				GPIO_InitIO(INPUT,CTP_I2C_DATA_PIN)
+Capacitive_TP_Goodix_GT818.h (custom\drv\ctp_module\ctp_hsimobile_mre55_demo_bb_ft5206):#define SET_I2C_CLK_INPUT					GPIO_InitIO(INPUT,CTP_I2C_CLK_PIN)
+Capacitive_TP_Sitronix_ST1232.h (custom\drv\ctp_module\ctp_sitronix_st1232_fake_multiple):#define CTP_SET_I2C_CLK_OUTPUT				GPIO_InitIO(OUTPUT, CTP_I2C_CLK_PIN)
+Capacitive_TP_Sitronix_ST1232.h (custom\drv\ctp_module\ctp_sitronix_st1232_fake_multiple):#define CTP_SET_I2C_DATA_OUTPUT				GPIO_InitIO(OUTPUT, CTP_I2C_DATA_PIN)
+Capacitive_TP_Sitronix_ST1232.h (custom\drv\ctp_module\ctp_sitronix_st1232_fake_multiple):#define CTP_SET_I2C_DATA_INPUT				GPIO_InitIO(INPUT, CTP_I2C_DATA_PIN)
+Capacitive_TP_Sitronix_ST1232.h (custom\drv\ctp_module\ctp_sitronix_st1232_fake_multiple):#define CTP_SET_I2C_CLK_INPUT				GPIO_InitIO(INPUT, CTP_I2C_CLK_PIN)
+Capacitive_TP_Sitronix_ST1232.h (custom\drv\ctp_module\ctp_sitronix_st1232_fake_multiple):#define CTP_SET_RESET_PIN_OUTPUT			GPIO_InitIO(OUTPUT, CTP_RESET_PIN)
+combo_lcm_R61529.c (custom\drv\lcd\hexing60a_11b_lcm):#define SET_OLED_CLK_OUTPUT			GPIO_InitIO(OUTPUT,OLED_I2C_SCL);
+combo_lcm_R61529.c (custom\drv\lcd\hexing60a_11b_lcm):#define SET_OLED_DATA_OUTPUT			GPIO_InitIO(OUTPUT,OLED_I2C_SDA);
+combo_lcm_R61529.c (custom\drv\lcd\hexing60a_11b_lcm):#define SET_OLED_DATA_INPUT			GPIO_InitIO(INPUT,OLED_I2C_SDA);
+combo_lcm_R61529.c (custom\drv\lcd\hexing60a_11b_lcm):	GPIO_InitIO(1,OLED_I2C_SCL);
+combo_lcm_R61529.c (custom\drv\lcd\hexing60a_11b_lcm):	GPIO_InitIO(1,OLED_I2C_SDA);
+combo_lcm_R61529.c (custom\drv\lcd\hexing60a_11b_lcm):	GPIO_InitIO(1,OLED_I2C_SCL);
+combo_lcm_R61529.c (custom\drv\lcd\hexing60a_11b_lcm):	GPIO_InitIO(1,OLED_I2C_SDA);
+combo_lcm_R61529.c (custom\drv\lcd\hexing60a_11b_lcm):	GPIO_InitIO(1,OLED_RESET);
+combo_lcm_R61529.c (custom\drv\lcd\hexing60a_11b_lcm):	GPIO_InitIO(1,OLED_POWER_ENABLE);
+Dcl_gpio.c (hal\peripheral\src):     GPIO_InitIO(GPIO_DIR_OUT,port);
+Dcl_gpio.c (hal\peripheral\src):            GPIO_InitIO(GPIO_DIR_IN,port);
+Fbm320_support.c (custom\drv\press_sensor\fbm320_driver):#define SET_I2C_CLK_OUTPUT 		GPIO_InitIO(OUTPUT,FBM320_SENSOR_SCK); {int j; for(j=0;j<i2c_delay;j++);}
+Fbm320_support.c (custom\drv\press_sensor\fbm320_driver):#define SET_I2C_DATA_OUTPUT		GPIO_InitIO(OUTPUT,FBM320_SENSOR_SDA);{int j; for(j=0;j<i2c_delay;j++);}
+Fbm320_support.c (custom\drv\press_sensor\fbm320_driver):#define SET_I2C_DATA_INPUT		GPIO_InitIO(INPUT,FBM320_SENSOR_SDA);{int j; for(j=0;j<i2c_delay;j++);}
+Fbm320_support.c (custom\drv\press_sensor\fbm320_driver):	GPIO_InitIO(1, FBM320_SENSOR_SCK);
+Fbm320_support.c (custom\drv\press_sensor\fbm320_driver):	GPIO_InitIO(1, FBM320_SENSOR_SDA);
+Flash_mtd_sf_ut.c (hal\storage\flash\mtd\src):    GPIO_InitIO(OUTPUT, SFUT_READY_WRAP_FUNCTION_LED_GPIO);
+Flash_mtd_sf_ut.c (hal\storage\flash\mtd\src):    GPIO_InitIO(OUTPUT, SFUT_READY_BASIC_FUNCTION_LED_GPIO);
+Flash_mtd_sf_ut.c (hal\storage\flash\mtd\src):    GPIO_InitIO(OUTPUT, SFUT_READY_SUSPEND_FUNCTION_LED_GPIO);
+Gpio.c (hal\peripheral\src):*	GPIO_InitIO
+Gpio.c (hal\peripheral\src):void GPIO_InitIO(char direction, kal_uint16 port)
+Gpio.c (hal\peripheral\src):          system_print("GPIO WARNING!! GPIO_InitIO: Port has no magic number");
+Gpio.c (hal\peripheral\src):             system_print("GPIO WARNING!! GPIO_InitIO: Direction Input is not allowed!");
+Gpio.c (hal\peripheral\src):             system_print("GPIO WARNING!! GPIO_InitIO: Direction Output is not allowed!");
+Gpio.c (hal\peripheral\src):	GPIO_InitIO(direction,port);
+Gpio.c (hal\peripheral\src):*	GPIO_InitIO
+Gpio.c (hal\peripheral\src):void GPIO_InitIO(char direction, char port)
+Gpio.c (hal\peripheral\src):          system_print("GPIO WARNING!! GPIO_InitIO: Port has no magic number");
+Gpio.c (hal\peripheral\src):             system_print("GPIO WARNING!! GPIO_InitIO: Direction Input is not allowed!");
+Gpio.c (hal\peripheral\src):             system_print("GPIO WARNING!! GPIO_InitIO: Direction Output is not allowed!");
+Gpio.c (hal\peripheral\src):          system_print("GPIO WARNING!! GPIO_InitIO: Port has no magic number");
+Gpio.c (hal\peripheral\src):             system_print("GPIO WARNING!! GPIO_InitIO: Direction Input is not allowed!");
+Gpio.c (hal\peripheral\src):             system_print("GPIO WARNING!! GPIO_InitIO: Direction Output is not allowed!");
+Gpio_drv.c (custom\drv\misc_drv\_default_bb\mt6260):GPIO_InitIO(1, 45);
+Gpio_drv.c (custom\drv\misc_drv\_default_bb\mt6260):GPIO_InitIO(0, 5);
+Gpio_drv.c (custom\drv\misc_drv\_default_bb\mt6260):GPIO_InitIO(1, 0);
+Gpio_drv.c (custom\drv\misc_drv\_default_bb\mt6260):GPIO_InitIO(1, 0);
+Gpio_drv.c (custom\drv\misc_drv\_default_bb\mt6260):GPIO_InitIO(1, 0);
+Gpio_drv.c (custom\drv\misc_drv\_default_bb\mt6260)://GPIO_InitIO(1, 17);
+Gpio_drv.c (custom\drv\misc_drv\_default_bb\mt6260):GPIO_InitIO(1, 6);
+Gpio_drv.c (custom\drv\misc_drv\_default_bb\mt6260):GPIO_InitIO(0, 10);
+Gpio_drv.c (custom\drv\misc_drv\_default_bb\mt6260):GPIO_InitIO(0, 11);
+Gpio_drv.c (custom\drv\misc_drv\_default_bb\mt6260):GPIO_InitIO(0, 24);
+Gpio_drv.c (custom\drv\misc_drv\_default_bb\mt6260)://GPIO_InitIO(0, 56);
+Gpio_sw.h (hal\peripheral\inc):extern void GPIO_InitIO(char direction, kal_uint16 port);
+Gpio_sw.h (hal\peripheral\inc):extern void GPIO_InitIO(char direction, char port);
+Gps_common_config.c (custom\common\hal):                GPIO_InitIO(0, 35);/* 0=input, 1=output*/
+Gps_common_config.c (custom\common\hal):                GPIO_InitIO(0, 8);/* 0=input, 1=output*/
+icc_switchControl2.c (hal\storage\sim\src):	GPIO_InitIO(1, 4);
+icc_switchControl2.c (hal\storage\sim\src):	GPIO_InitIO(1, 7);
+icc_switchControl2.c (hal\storage\sim\src):	GPIO_InitIO(1, 8);
+icc_switchControl2.c (hal\storage\sim\src):	GPIO_InitIO(1, 9);
+icc_switchControl2.c (hal\storage\sim\src):	GPIO_InitIO(1, 11);
+icc_switchControl2.c (hal\storage\sim\src):	GPIO_InitIO(1, 12);
+icc_switchControl2.c (hal\storage\sim\src):	GPIO_InitIO(1, 13);
+IdleCommon.c (plutommi\mmi\idle\idlesrc):GPIO_InitIO(1, 12);
+image_sensor_ET8EV3_MIPI.c (custom\drv\image_sensor\et8ev3_mipi):			GPIO_InitIO(1,d[2]);
+Irda_custom.c (custom\drv\misc_drv\hexing60a_11b_bb):   GPIO_InitIO(OUTPUT, IRDA_GPIO_MODE_SWITCH);   	
+Irda_custom.c (custom\drv\misc_drv\_default_bb\mt6260):	//GPIO_InitIO(OUTPUT, IRDA_GPIO_MODE_SWITCH); 
+Kjx_gprs_format.c (kjx\src):		GPIO_InitIO(1,gpio_kjx_relay_pin);
+Kjx_gprs_format.c (kjx\src):		GPIO_InitIO(1,gpio_kjx_relay_pin);
+Kjx_led_isink.c (kjx\src):	GPIO_InitIO(1, index);
+Kjx_main.c (kjx\src):	GPIO_InitIO(1,81);
+Kjx_rfid_uart.c (kjx\src):	GPIO_InitIO(0, 5);
+Kjx_rfid_uart.c (kjx\src):	GPIO_InitIO(0, 49);
+Kjx_rfid_uart.c (kjx\src):	GPIO_InitIO(0, 50);
+Kjx_rfid_uart.c (kjx\src):	GPIO_InitIO(0, 51);
+Kjx_rfid_uart.c (kjx\src):	GPIO_InitIO(0, 52);
+Kjx_rfid_uart.c (kjx\src):	GPIO_InitIO(0, 53);
+Motion_sensor_custom.c (custom\drv\motion_sensor\kxp74_spi):   GPIO_InitIO(OUTPUT,MS_SPI_DIN_PIN); 
+Motion_sensor_custom.c (custom\drv\motion_sensor\kxp74_spi):   GPIO_InitIO(OUTPUT,MS_SPI_CLK_PIN);
+Motion_sensor_custom.c (custom\drv\motion_sensor\kxp74_spi):   GPIO_InitIO(INPUT,MS_SPI_DOUT_PIN);
+Motion_sensor_custom.c (custom\drv\motion_sensor\kxp74_spi):   GPIO_InitIO(OUTPUT,MS_SPI_CS_PIN); 
+Motion_sensor_custom.c (custom\drv\motion_sensor\kxp84_i2c):   GPIO_InitIO(OUTPUT,MS_I2C_CLK_PIN);   
+Motion_sensor_custom.c (custom\drv\motion_sensor\kxp84_i2c):   GPIO_InitIO(OUTPUT,MS_I2C_CS_PIN); 
+Motion_sensor_custom.c (custom\drv\motion_sensor\kxp84_i2c):   GPIO_InitIO(OUTPUT,MS_I2C_RESET_PIN);    
+Motion_sensor_custom.c (custom\drv\motion_sensor\kxp84_i2c):   GPIO_InitIO(OUTPUT,MS_I2C_ADDR_PIN);     
+Motion_sensor_custom.c (custom\drv\motion_sensor\kxp84_spi):   GPIO_InitIO(OUTPUT,MS_SPI_DIN_PIN); 
+Motion_sensor_custom.c (custom\drv\motion_sensor\kxp84_spi):   GPIO_InitIO(OUTPUT,MS_SPI_CLK_PIN);
+Motion_sensor_custom.c (custom\drv\motion_sensor\kxp84_spi):   GPIO_InitIO(INPUT,MS_SPI_DOUT_PIN);
+Motion_sensor_custom.c (custom\drv\motion_sensor\kxp84_spi):   GPIO_InitIO(OUTPUT,MS_SPI_CS_PIN); 
+Motion_sensor_custom.c (custom\drv\motion_sensor\kxp84_spi):   GPIO_InitIO(OUTPUT,MS_SPI_RESET_PIN);    
+Motion_sensor_custom.h (custom\drv\motion_sensor\bma220_i2c):#define MS_I2C_CLK_OUTPUT			GPIO_InitIO(OUTPUT,MS_SCL)
+Motion_sensor_custom.h (custom\drv\motion_sensor\bma220_i2c):#define MS_I2C_DATA_OUTPUT			GPIO_InitIO(OUTPUT,MS_SDA)
+Motion_sensor_custom.h (custom\drv\motion_sensor\bma220_i2c):#define MS_I2C_DATA_INPUT		   	GPIO_InitIO(INPUT,MS_SDA)
+Motion_sensor_custom.h (custom\drv\motion_sensor\mma7455_i2c):#define SET_I2C_CLK_OUTPUT		   GPIO_InitIO(OUTPUT,ACC_SENSOR_SCK);
+Motion_sensor_custom.h (custom\drv\motion_sensor\mma7455_i2c):#define SET_I2C_DATA_OUTPUT		GPIO_InitIO(OUTPUT,ACC_SENSOR_SDA);
+Motion_sensor_custom.h (custom\drv\motion_sensor\mma7455_i2c):#define SET_I2C_DATA_INPUT		   GPIO_InitIO(INPUT,ACC_SENSOR_SDA);
+Motion_sensor_custom.h (custom\drv\motion_sensor\mxc6202_i2c):#define SET_I2C_CLK_OUTPUT		   GPIO_InitIO(OUTPUT,ACC_SENSOR_SCK);
+Motion_sensor_custom.h (custom\drv\motion_sensor\mxc6202_i2c):#define SET_I2C_DATA_OUTPUT		GPIO_InitIO(OUTPUT,ACC_SENSOR_SDA);
+Motion_sensor_custom.h (custom\drv\motion_sensor\mxc6202_i2c):#define SET_I2C_DATA_INPUT		   GPIO_InitIO(INPUT,ACC_SENSOR_SDA);
+Motion_sensor_i2c.c (custom\drv\motion_sensor\kxp84_i2c):   GPIO_InitIO(OUTPUT,MS_I2C_CLK_PIN);   
+Motion_sensor_i2c.c (custom\drv\motion_sensor\kxp84_i2c):   GPIO_InitIO(OUTPUT,MS_I2C_CS_PIN); 
+Motion_sensor_i2c.c (custom\drv\motion_sensor\kxp84_i2c):   GPIO_InitIO(OUTPUT,MS_I2C_RESET_PIN);    
+Motion_sensor_i2c.c (custom\drv\motion_sensor\kxp84_i2c):   GPIO_InitIO(OUTPUT,MS_I2C_ADDR_PIN);     
+Motion_sensor_i2c.h (custom\drv\motion_sensor\kxp84_i2c):#define SET_MS_CLK_OUTPUT		GPIO_InitIO(OUTPUT,MS_I2C_CLK_PIN);
+Motion_sensor_i2c.h (custom\drv\motion_sensor\kxp84_i2c):#define SET_MS_DATA_OUTPUT		GPIO_InitIO(OUTPUT,MS_I2C_DATA_PIN);
+Motion_sensor_i2c.h (custom\drv\motion_sensor\kxp84_i2c):#define SET_MS_DATA_INPUT		GPIO_InitIO(INPUT,MS_I2C_DATA_PIN);
+Motion_sensor_iic.h (custom\drv\motion_sensor\kxtf9_i2c):#define SET_MS_CLK_OUTPUT		GPIO_InitIO(OUTPUT,MS_I2C_CLK_PIN);
+Motion_sensor_iic.h (custom\drv\motion_sensor\kxtf9_i2c):#define SET_MS_DATA_OUTPUT		GPIO_InitIO(OUTPUT,MS_I2C_DATA_PIN);
+Motion_sensor_iic.h (custom\drv\motion_sensor\kxtf9_i2c):#define SET_MS_DATA_INPUT		GPIO_InitIO(INPUT,MS_I2C_DATA_PIN);
+Msdc.c (hal\storage\mc\src):	//GPIO_InitIO(OUTPUT, GPIO_SIM_MSDC_SWITCH); // replaced by DCL
+Msdc.c (hal\storage\mc\src):		GPIO_InitIO(OUTPUT, GPIO_LDO_SWITCH);
+Msdc.c (hal\storage\mc\src):	//GPIO_InitIO(OUTPUT,MSDC_SWITCH_GPIO); // replaced by DCL
+Msp880.h (custom\drv\press_sensor\msp880_driver):#define MS_SCL_OUT 			GPIO_InitIO(OUTPUT,BMP_SENSOR_SCK);{int j; for(j=0;j<i2c_delay;j++);}
+Msp880.h (custom\drv\press_sensor\msp880_driver):#define MS_SCL_IN 			GPIO_InitIO(INPUT,BMP_SENSOR_SCK);{int j; for(j=0;j<i2c_delay;j++);}
+Msp880.h (custom\drv\press_sensor\msp880_driver):#define MS_SDA_OUT			GPIO_InitIO(OUTPUT,BMP_SENSOR_SDA);{int j; for(j=0;j<i2c_delay;j++);}
+Msp880.h (custom\drv\press_sensor\msp880_driver):#define MS_SDA_IN			GPIO_InitIO(INPUT,BMP_SENSOR_SDA);{int j; for(j=0;j<i2c_delay;j++);}
+MT6188.c (custom\drv\fmr\default_bb):void GPIO_InitIO(char direction, char port);
+MT6188.c (custom\drv\fmr\default_bb):   GPIO_InitIO(1, FM_SWITCH);
+MT6188.c (custom\drv\fmr\default_bb):   GPIO_InitIO(1,SCL);
+MT6188.c (custom\drv\fmr\default_bb):   GPIO_InitIO(1,LE);
+MT6188.c (custom\drv\fmr\default_bb):   GPIO_InitIO(0,SDA);
+MT6188.c (custom\drv\fmr\default_bb):   GPIO_InitIO(1,SDA);
+MT6188.c (custom\drv\fmr\default_bb):   GPIO_InitIO(0,SDA);
+MT6188.c (custom\drv\fmr\default_bb):   GPIO_InitIO(1,SDA);
+MT6188.c (custom\drv\fmr\default_bb):   GPIO_InitIO(0,SDA);
+MT6188.c (custom\drv\fmr\default_bb):   GPIO_InitIO(1,SCL);
+MT6188.c (custom\drv\fmr\default_bb):   GPIO_InitIO(1,SDA);
+MT6188.c (custom\drv\fmr\default_bb):   GPIO_InitIO(1,SDA);
+MT6188.c (custom\drv\fmr\default_bb):   GPIO_InitIO(1,SDA);
+MT6188.c (custom\drv\fmr\default_bb):   GPIO_InitIO(0,SDA);
+MT6188.c (custom\drv\fmr\default_bb):   GPIO_InitIO(0,SDA);
+MT6188.c (custom\drv\fmr\default_bb):   GPIO_InitIO(1,SDA);
+MT6189.c (custom\drv\fmr\default_bb):void GPIO_InitIO(char direction, char port);
+MT6189.c (custom\drv\fmr\default_bb):   GPIO_InitIO(1, FM_SWITCH);
+MT6189.c (custom\drv\fmr\default_bb):   GPIO_InitIO(1,SCL);
+MT6189.c (custom\drv\fmr\default_bb):   GPIO_InitIO(1,LE);
+MT6189.c (custom\drv\fmr\default_bb):   GPIO_InitIO(0,SDA);
+MT6189.c (custom\drv\fmr\default_bb):   GPIO_InitIO(1,SDA);
+MT6189.c (custom\drv\fmr\default_bb):   GPIO_InitIO(0,SDA);
+MT6189.c (custom\drv\fmr\default_bb):   GPIO_InitIO(1,SDA);
+MT6189.c (custom\drv\fmr\default_bb):   GPIO_InitIO(0,SDA);
+MT6189.c (custom\drv\fmr\default_bb):   GPIO_InitIO(1,SCL);
+MT6189.c (custom\drv\fmr\default_bb):   GPIO_InitIO(1,SDA);
+MT6189.c (custom\drv\fmr\default_bb):   GPIO_InitIO(1,SDA);
+MT6189.c (custom\drv\fmr\default_bb):   GPIO_InitIO(1,SDA);
+MT6189.c (custom\drv\fmr\default_bb):   GPIO_InitIO(0,SDA);
+MT6189.c (custom\drv\fmr\default_bb):   GPIO_InitIO(0,SDA);
+MT6189.c (custom\drv\fmr\default_bb):   GPIO_InitIO(1,SDA);
+MT6616.c (custom\drv\fmr\default_bb):void GPIO_InitIO(char direction, char port);
+MT6616.c (custom\drv\fmr\default_bb):   GPIO_InitIO(1,SCL);
+MT6616.c (custom\drv\fmr\default_bb):   GPIO_InitIO(1,SDA);
+MT6616.c (custom\drv\fmr\default_bb):   GPIO_InitIO(1,SDA);
+MT6616.c (custom\drv\fmr\default_bb):   GPIO_InitIO(1,SDA);
+MT6616.c (custom\drv\fmr\default_bb):   GPIO_InitIO(0,SDA);
+MT6616.c (custom\drv\fmr\default_bb):   GPIO_InitIO(0,SDA);
+MT6616.c (custom\drv\fmr\default_bb):   GPIO_InitIO(1,SDA);
+MT6626.c (custom\drv\fmr\default_bb):   //GPIO_InitIO(1,SCL); // Output mode
+MT6626.c (custom\drv\fmr\default_bb):   //GPIO_InitIO(1,SDA); // Output mode
+MT6626.c (custom\drv\fmr\default_bb):   //GPIO_InitIO(1,SDA);
+MT6626.c (custom\drv\fmr\default_bb):   //GPIO_InitIO(1,SDA);
+MT6626.c (custom\drv\fmr\default_bb):	//GPIO_InitIO(1,SDA);
+MT6626.c (custom\drv\fmr\default_bb):   //GPIO_InitIO(0,SDA);
+MT6626.c (custom\drv\fmr\default_bb):	//GPIO_InitIO(0,SDA);
+MT6626.c (custom\drv\fmr\default_bb):   	//GPIO_InitIO(1,SDA);
+NS953_SerialComm.c (custom\audio\_default_bb\mt6260):void GPIO_InitIO(char direction, char port);
+NS953_SerialComm.c (custom\audio\_default_bb\mt6260):   GPIO_InitIO(1,SDA);
+NS953_SerialComm.c (custom\audio\_default_bb\mt6260):   GPIO_InitIO(1,SDA);
+NS953_SerialComm.c (custom\audio\_default_bb\mt6260):      if(i==7)GPIO_InitIO(1,SDA);  // dummy
+NS953_SerialComm.c (custom\audio\_default_bb\mt6260):   GPIO_InitIO(0,SDA);
+NS953_SerialComm.c (custom\audio\_default_bb\mt6260):      if(i==7)GPIO_InitIO(0,SDA);
+NS953_SerialComm.c (custom\audio\_default_bb\mt6260):   GPIO_InitIO(1,SDA);
+NS953_SerialComm.c (custom\audio\_default_bb\mt6260):   GPIO_InitIO(1,SCL);
+Png_decoder_int_sw.c (hal\graphics\png\sw\src):   GPIO_InitIO(1,5);
+PwronCharger.c (plutommi\mmi\miscframework\miscframeworksrc):	GPIO_InitIO(1, 6);
+Pxs_custom.h (custom\drv\misc_drv\_default_bb\mt6260):#define SCL_OUTPUT()      DclGPIO_Control(pxs_scl_gpio_dcl_handle,GPIO_CMD_SET_DIR_OUT,0); //GPIO_InitIO(GPIO_DIR_OUTPUT, CM3623_SCL)
+Pxs_custom.h (custom\drv\misc_drv\_default_bb\mt6260):#define SDA_OUTPUT()      DclGPIO_Control(pxs_sda_gpio_dcl_handle,GPIO_CMD_SET_DIR_OUT,0); //GPIO_InitIO(GPIO_DIR_OUTPUT, CM3623_SDA)
+Pxs_custom.h (custom\drv\misc_drv\_default_bb\mt6260):#define SDA_INPUT()       DclGPIO_Control(pxs_sda_gpio_dcl_handle,GPIO_CMD_SET_DIR_IN,0); //GPIO_InitIO(GPIO_DIR_INPUT, CM3623_SDA)
+Rate_i2c.c (custom\drv\rate_sensor\pah8001ei_2g):             GPIO_InitIO(1,gpio_e_compass_sensor_int_pin);
+Rate_i2c_custom.h (custom\drv\rate_sensor\pah8001ei_2g):#define MS_I2C_CLK_OUTPUT			GPIO_InitIO(1,MS_SCL)
+Rate_i2c_custom.h (custom\drv\rate_sensor\pah8001ei_2g):#define MS_I2C_DATA_OUTPUT			GPIO_InitIO(1,MS_SDA)
+Rate_i2c_custom.h (custom\drv\rate_sensor\pah8001ei_2g):#define MS_I2C_DATA_INPUT		   	GPIO_InitIO(0,MS_SDA)
+Spi.c (hal\peripheral\src):    //GPIO_InitIO(OUTPUT, 45);
+TEA5761UK.c (custom\audio\_default_bb\mt6260):extern void GPIO_InitIO(char direction, char port);
+TEA5761UK.c (custom\audio\_default_bb\mt6260):   GPIO_InitIO(1,SDA);
+TEA5761UK.c (custom\audio\_default_bb\mt6260):   GPIO_InitIO(1,SDA);
+TEA5761UK.c (custom\audio\_default_bb\mt6260):   GPIO_InitIO(1,SDA);
+TEA5761UK.c (custom\audio\_default_bb\mt6260):   GPIO_InitIO(1,SCL);
+TEA5761UK.c (custom\audio\_default_bb\mt6260):   GPIO_InitIO(1,SDA);
+TEA5761UK.c (custom\audio\_default_bb\mt6260):   GPIO_InitIO(1,SCL);
+TEA5761UK.c (custom\audio\_default_bb\mt6260):      if(i==7)GPIO_InitIO(1,SDA);  // dummy
+TEA5761UK.c (custom\audio\_default_bb\mt6260):   GPIO_InitIO(0,SDA);
+TEA5761UK.c (custom\audio\_default_bb\mt6260):      if(i==7)GPIO_InitIO(0,SDA);
+TEA5761UK.c (custom\audio\_default_bb\mt6260):   GPIO_InitIO(1,SDA);
+TEA5761UK.c (custom\audio\_default_bb\mt6260):   GPIO_InitIO(1,SCL);
+TEA5761UK.c (custom\audio\_default_bb\mt6260):   GPIO_InitIO(1,BUSENABLE);
+TEA5767HN.c (custom\audio\_default_bb\mt6260):void GPIO_InitIO(char direction, char port);
+TEA5767HN.c (custom\audio\_default_bb\mt6260):   GPIO_InitIO(1,SDA);
+TEA5767HN.c (custom\audio\_default_bb\mt6260):   GPIO_InitIO(1,SDA);
+TEA5767HN.c (custom\audio\_default_bb\mt6260):      if(i==7)GPIO_InitIO(1,SDA);  // dummy
+TEA5767HN.c (custom\audio\_default_bb\mt6260):   GPIO_InitIO(0,SDA);
+TEA5767HN.c (custom\audio\_default_bb\mt6260):      if(i==7)GPIO_InitIO(0,SDA);
+TEA5767HN.c (custom\audio\_default_bb\mt6260):   GPIO_InitIO(1,SDA);
+TEA5767HN.c (custom\audio\_default_bb\mt6260):   GPIO_InitIO(1,SCL);
+TEA5767HN.c (custom\audio\_default_bb\mt6260):   GPIO_InitIO(1,BUSENABLE);
+Touch_panel_spi.c (custom\drv\misc_drv\_default_bb\mt6260):   GPIO_InitIO(OUTPUT,SPI_DIN_PIN); 
+Touch_panel_spi.c (custom\drv\misc_drv\_default_bb\mt6260):   GPIO_InitIO(OUTPUT,SPI_CLK_PIN);
+Touch_panel_spi.c (custom\drv\misc_drv\_default_bb\mt6260):   GPIO_InitIO(INPUT,SPI_DOUT_PIN);
+Touch_panel_spi.c (custom\drv\misc_drv\_default_bb\mt6260):   GPIO_InitIO(OUTPUT,SPI_CS_PIN);
+Touch_panel_spi.c (custom\drv\misc_drv\_default_bb\mt6260):   GPIO_InitIO(INPUT,SPI_BUSY_PIN);
+UsbPoweron.c (plutommi\mtkapp\connectivity\connectivitysrc):	GPIO_InitIO(1, 6);
+W32_dummy_drv.c (modis_vc9\drv_sim\src):void GPIO_InitIO(char direction, char port){}
+Wifi_common_config.c (custom\common\hal):                //GPIO_InitIO(0, 35);/* 0=input, 1=output*/
+Wifi_common_config.c (custom\common\hal):                //GPIO_InitIO(0, 8);/* 0=input, 1=output*/
+Wifi_common_config.c (custom\common\hal):                //GPIO_InitIO(0, 63);/* 0=input, 1=output*/	

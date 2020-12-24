@@ -5088,12 +5088,25 @@ typedef enum
 	SERVER_TYPE_MAX
 }kjx_socket_type;
 
+#if defined(__KJX_DJ_SUPPORT__)
+typedef struct
+{
+	kal_uint8 dj_mode;
+	kal_uint8 dj_chanle;
+	kal_uint8 dj_vol;
+}kjx_dj_type;
+#endif
+
 typedef struct 
 {
 	kal_uint8 nvram_init;  							/*是否初始化*/
 	kal_bool dataIsSync;							/*是否有同步过服务器数据*/
 	kal_uint8 updateStatus[SERVER_TYPE_MAX];  		/*是否上报*/
 	kal_bool service_to_tracer[SERVER_TYPE_MAX];	/*是否服务器主动下发*/
+
+#if defined(__KJX_DJ_SUPPORT__)
+	kjx_dj_type dj_infor;							/*对讲信息*/
+#endif
 	
 	kal_uint8 sleepStatus;							/*休眠状态*/
 	kjxDomain domain; 								/*域名、端口*/
